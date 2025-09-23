@@ -4,6 +4,8 @@
 </p>
 This project investigates the consequences of double-stranded breaks (DSBs) in mitochondrial DNA (mtDNA) of oligodendrocytes using a genetically engineered mouse model. Xenium is applied to capture cellular and regional responses to mtDNA damage in the CNS.  
 
+Link to original publication: https://pmc.ncbi.nlm.nih.gov/articles/PMC5647772/
+
 ## Project Overview  
 - **Model**: Mouse with induced mtDNA double-strand breaks in oligodendrocytes  
 - **Focus**: Linking mitochondrial genome instability to oligodendrocyte dysfunction, demyelination, and lesion formation  
