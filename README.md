@@ -17,13 +17,12 @@ Link: https://pmc.ncbi.nlm.nih.gov/articles/PMC5647772/ and https://scholarship.
 ## Repository Structure  
 - `notebooks/` – analysis workflows (QC, clustering, differential expression, spatial mapping)  
 
-## Analysis Highlights  
-- Cell type–resolved effects of mtDNA DSBs  
-- Spatial mapping and proximity-dependent transcriptomic changes  
-- Pathway-level insights into mitochondrial stress and myelin integrity  
+## 🔄 Updates
+1. 🧩 **Cluster annotation** completed at *leiden* resolution 2.  
+2. 🗺️ **Anatomical compartments** have been defined and annotated.  
+3. 📊 **Differentially expressed genes (DEGs)** identified across both **condition** and **time**.  
 
 ## Preliminary findings:🧬 Mitochondrial DNA Damage and Oligodendrocyte Stress Programs
-
 In this project, we investigate how mitochondrial DNA double-strand breaks (mtDSBs) affect oligodendrocytes (OLs) and the surrounding microenvironment. Our analysis reveals that OLs exposed to mtDNA damage do not simply die, but instead activate a **coordinated multi-pathway stress response**:
 
 - 🔥 **Oxidative stress defenses** — *Mt2, Gstp1, Sqstm1* and antioxidant transcriptional control (*Nfe2l1*).  
