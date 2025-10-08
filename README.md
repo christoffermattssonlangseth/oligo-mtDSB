@@ -33,3 +33,46 @@ In this project, we investigate how mitochondrial DNA double-strand breaks (mtDS
 - 📣 **Inflammatory mediators** — *Nmu* (neuromedin U) and *Ccl3*, pointing to signaling that may recruit and activate immune cells.
 
 **✨ Overall, these findings show that mitochondrial genome instability in oligodendrocytes drives a “stressed but not dead” phenotype**, characterized by oxidative stress, antigen presentation, and glial–immune interactions. This creates a permissive environment for **immune activation and tissue remodeling**, providing a mechanistic link to multiple sclerosis (MS)-like pathology.
+
+## 🧠 Region-independent effects (Oligodendrocytes)
+
+### 21 weeks (early phase)
+- **Overall pattern:** Mild transcriptional response dominated by early stress and differentiation shifts.  
+- **Upregulated genes:** *Mt1*, *Trh*, *Nkx6-2*, *Cst7*, *Otp*  
+- **Downregulated genes:** *Hoxa2*, *Hoxb3*, *Hoxb5*, *Col1a1*, *Bglap*, *Trim36*  
+
+🧩 **Interpretation:**  
+Early mtDNA damage elicits a subtle mitochondrial and oxidative stress response (*Mt1*), with downregulation of developmental/myelin structural programs. Suggests initial compensatory or remodeling phase before full ISR activation.
+
+---
+
+### 60 weeks (late phase)
+- **Overall pattern:** Broad activation of the integrated stress response (ISR), mitochondrial UPR, and inflammatory signaling.  
+- **Upregulated genes:** *Atf5*, *Trib3*, *Gfap*, *C4b*, *Cd40*, *Cst7*, *Gpnmb*, *Serpine1*, *Gdf15*  
+- **Downregulated genes:** *Pmch*, *Hcrt*, *Cercam*  
+
+🧩 **Interpretation:**  
+At later stages, oligodendrocytes show a robust ISR/UPRmt profile (*Atf5*, *Trib3*, *Gdf15*) together with glial activation (*Gfap*, *Gpnmb*) and complement/inflammatory pathways (*C4b*, *Cd40*).  
+This reflects a transition from **mitochondrial stress adaptation** to **chronic inflammatory signaling** and possible non-cell-autonomous effects on neighboring neurons.
+
+---
+
+## 🧬 Comparative summary of regional responses to mtDNA DSBs (Oligodendrocyte model)
+
+| Category | **Hypothalamus** | **Thalamus** | **Pallidum + Corpus Callosum** |
+|-----------|------------------|--------------|--------------------------------|
+| **Neuronal (Hcrt / Pmch)** | 🔻 **Strong down** | 🔻 Mild | ⛔ None |
+| **Stress (Atf5 / Trib3)** | 🔺 Moderate | 🔺 Strong | 🔺 Strong |
+| **Complement / Inflammatory (C4b, Cst7, Cd74)** | 🔺 Strong | 🔺 Medium | 🔺 Medium |
+| **Astro / Microglial activation (Gfap, Gpnmb)** | 🔺 Strong | 🔺 Medium | 🔺 Medium |
+| **Metabolic adaptation (Gdf15, Adm)** | 🔺 Medium | 🔺 Medium | 🔺 Medium |
+| **White-matter–specific response** | 🟠 Some | 🟠 Some | 🔴 Strong |
+
+---
+
+**Interpretation:**  
+- The **hypothalamus** exhibits the most pronounced and multifaceted response — strong glial stress and inflammatory activation, accompanied by loss of neuropeptidergic markers (*Hcrt*, *Pmch*).  
+- The **thalamus** shows a robust glial ISR/stress pattern but little neuronal involvement.  
+- The **pallidum + corpus callosum** displays a predominantly **cell-intrinsic oligodendrocyte stress response** typical of white-matter regions.
+
+---
