@@ -1,0 +1,28 @@
+region,age,n_sig,sum_neglog10q
+Cortical subplate,60,0,0.0
+Dentate gyrus,21,0,0.0
+Dentate gyrus,60,0,0.0
+Hindbrain,21,0,0.0
+Hindbrain,60,0,0.0
+Hypothalamus,21,7,20.94150579131079
+Hypothalamus,60,18,71.94534365169143
+Isocortex,21,0,0.0
+Isocortex,60,0,0.0
+Lateral ventricle I,21,0,0.0
+Lateral ventricle I,60,2,2.935740453780103
+Medial habenula,21,0,0.0
+Medial habenula,60,1,1.6775292379533786
+Meninges,21,0,0.0
+Meninges,60,0,0.0
+Olfactory areas,21,0,0.0
+Olfactory areas,60,1,1.8876276593026917
+Palladium + corpus callosum,21,3,6.422169273071484
+Palladium + corpus callosum,60,1,1.5854882437018176
+Striatum,21,1,1.5890464836139906
+Striatum,60,0,0.0
+Striatum like amygdalar nuclei,21,0,0.0
+Striatum like amygdalar nuclei,60,0,0.0
+Thalamus,21,0,0.0
+Thalamus,60,9,34.81295252389758
+Third ventricle,21,0,0.0
+Third ventricle,60,0,0.0

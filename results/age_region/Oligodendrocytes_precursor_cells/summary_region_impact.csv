@@ -1,0 +1,27 @@
+region,age,n_sig,sum_neglog10q
+Dentate gyrus,21,0,0.0
+Dentate gyrus,60,0,0.0
+Hindbrain,21,0,0.0
+Hindbrain,60,0,0.0
+Hypothalamus,21,1,15.366596464390366
+Hypothalamus,60,1,26.14564691066988
+Isocortex,21,0,0.0
+Isocortex,60,0,0.0
+Lateral ventricle I,21,0,0.0
+Lateral ventricle I,60,0,0.0
+Medial habenula,21,0,0.0
+Medial habenula,60,0,0.0
+Meninges,21,0,0.0
+Meninges,60,0,0.0
+Olfactory areas,21,0,0.0
+Olfactory areas,60,0,0.0
+Palladium + corpus callosum,21,1,1.3860066949110417
+Palladium + corpus callosum,60,0,0.0
+Striatum,21,0,0.0
+Striatum,60,0,0.0
+Striatum like amygdalar nuclei,21,0,0.0
+Striatum like amygdalar nuclei,60,0,0.0
+Thalamus,21,1,1.7647575739397898
+Thalamus,60,2,3.02777022096937
+Third ventricle,21,0,0.0
+Third ventricle,60,0,0.0
