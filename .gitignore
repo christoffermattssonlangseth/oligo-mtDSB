@@ -4,7 +4,7 @@ data/
 # Ignore large output files
 *.h5ad
 *.mtx
-*.csv
+#*.csv
 *.rds
 *.hdf5
 *.loom
