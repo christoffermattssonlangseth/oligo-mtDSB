@@ -19,16 +19,25 @@ Overall, these analyses reveal that mature oligodendrocytes and microglia underg
 
 ---
 
-# 4. Mitochondrial stress induces a mitokine-like secretome in mature oligodendrocytes
+## 4. Mitochondrial stress induces a mitokine-like secretome in mature oligodendrocytes
 
-Given the broad and cell type–specific transcriptional remodeling observed in the differential expression analysis, we next sought to identify molecular programs in oligodendrocytes that could mediate or propagate these signals to the surrounding glia. The strong induction of stress-responsive and secreted genes at 60 days suggested the emergence of a *mitokine-like secretome*—a transcriptional signature reflecting mitochondrial distress communication.
+Given the broad and cell type–specific transcriptional remodeling observed in the differential expression analysis, we next sought to identify molecular programs in oligodendrocytes that could mediate or propagate these signals to the surrounding glia. The strong induction of stress-responsive and secreted genes at 60 days suggested the emergence of a *mitokine-like secretome* — a transcriptional signature reflecting mitochondrial distress communication.
 
-Analysis of gene expression changes in mature oligodendrocytes following mtDNA double-strand breaks revealed activation of a broad mitochondrial stress response encompassing both intracellular adaptive signaling and secreted stress mediators. Among the most strongly upregulated transcripts were the canonical mitokine *Gdf15* and the vasoactive peptide *Adm* (adrenomedullin)—both known markers of the mitochondrial integrated stress response (ISR^mt) and key mediators of intercellular communication during metabolic distress.
+Analysis of gene expression changes in mature oligodendrocytes following mtDNA double-strand breaks revealed activation of a broad mitochondrial stress response encompassing both intracellular adaptive signaling and secreted stress mediators. Among the most strongly upregulated transcripts were the canonical mitokine *Gdf15* and the vasoactive peptide *Adm* (*adrenomedullin*) — both known markers of the mitochondrial integrated stress response (*ISR*^mt) and key mediators of intercellular communication during metabolic distress.
 
-Additional stress-linked genes such as *Cst7*, *Igfbp3*, and *Serpina3n* (the latter also upregulated in astrocytes and microglia) suggest that oligodendrocytes adopt a secretory phenotype resembling a glial mitokine program. These secreted factors are likely to act in a paracrine fashion, signaling metabolic imbalance and influencing neighboring glia and immune cells.
+Additional stress-linked genes such as *Cst7*, *Igfbp3*, and *Serpina3n* — the latter also upregulated in astrocytes and microglia — suggest that oligodendrocytes adopt a secretory phenotype resembling a glial mitokine program. These secreted factors are likely to act in a paracrine fashion, signaling metabolic imbalance and influencing neighboring glia and immune cells.
 
-Concurrently, induction of *Cdkn1a* (*p21*), *Maff*, and *Eif4ebp1* points to activation of the ATF4–CHOP–dependent ISR and translational control mechanisms characteristic of mitochondrial dysfunction. The upregulation of *Aldh1l2*, a mitochondrial folate enzyme maintaining NADPH and redox balance, further supports a coordinated redox and proteostasis response.
+Concurrently, induction of *Cdkn1a* (*p21*), *Maff*, and *Eif4ebp1* points to activation of the ATF4–CHOP–dependent *ISR* and translational control mechanisms characteristic of mitochondrial dysfunction. The upregulation of *Aldh1l2*, a mitochondrial folate enzyme that maintains NADPH and redox balance, further supports a coordinated redox and proteostasis response.
 
-Taken together, these findings indicate that mtDNA damage in oligodendrocytes not only triggers cell-intrinsic ISR^mt pathways but also promotes secretion of mitokine-like molecules capable of propagating mitochondrial stress signals to surrounding glial populations. This may underlie the widespread transcriptional reprogramming observed in microglia and astrocytes at later time points, linking localized oligodendrocyte mitochondrial distress to non–cell-autonomous glial activation across the CNS.
+To visualize how this mitokine-like program evolves across glial populations and developmental stages, we quantified expression of key stress-linked genes (*Gdf15*, *Adm*, *Cdkn1a*, *Eif4ebp1*, *Cst7*, *Igfbp3*, *Maff*, and *Serpina3n*) in each glial subtype at 21 w and 60 w (Fig. X). At 21 w, expression was largely confined to mature oligodendrocytes, reflecting a primarily cell-intrinsic stress adaptation phase. By 60 w, however, several of these genes were also upregulated in astrocytes and microglia — most prominently *Cst7*, *Serpina3n*, and *Gdf15* — indicating progressive, non–cell-autonomous propagation of mitochondrial stress signaling.
 
-![Mitokine signature 21 and 60 days](image-5.png) 
+This pattern highlights a shift from localized mitochondrial distress within oligodendrocytes to a broader glial network response involving astrocytic and microglial activation. Microglia, in particular, displayed strong induction of *Cst7* and *Serpina3n*, consistent with a disease-associated microglial (*DAM*)-like phenotype, whereas astrocytes exhibited a regionally variable response.
+
+Taken together, these findings indicate that mtDNA damage in oligodendrocytes not only triggers cell-intrinsic *ISR*^mt pathways but also promotes secretion of mitokine-like molecules capable of propagating mitochondrial stress signals to surrounding glial populations. This paracrine signaling may underlie the widespread transcriptional reprogramming observed in astrocytes and microglia at later stages, linking localized oligodendrocyte mitochondrial dysfunction to non–cell-autonomous glial activation across the CNS.
+
+![Mitokine signature 21 and 60 days](image-5.png)
+
+---
+
+### Transition to next section
+Given these findings, we next asked whether the surrounding glial populations might express receptors capable of sensing and responding to these secreted mitokine-like factors, thereby providing a mechanistic link between oligodendrocyte mitochondrial distress and secondary activation in microglia and astrocytes.
