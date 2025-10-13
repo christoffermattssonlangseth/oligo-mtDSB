@@ -19,7 +19,7 @@ Overall, these analyses reveal that mature oligodendrocytes and microglia underg
 
 ---
 
-## 4. Mitochondrial stress induces a mitokine-like secretome in mature oligodendrocytes
+# 4. Mitochondrial stress induces a mitokine-like secretome in mature oligodendrocytes
 
 Given the broad and cell type–specific transcriptional remodeling observed in the differential expression analysis, we next sought to identify molecular programs in oligodendrocytes that could mediate or propagate these signals to the surrounding glia. The strong induction of stress-responsive and secreted genes at 60 days suggested the emergence of a *mitokine-like secretome* — a transcriptional signature reflecting mitochondrial distress communication.
 
@@ -39,5 +39,3 @@ Taken together, these findings indicate that mtDNA damage in oligodendrocytes no
 
 ---
 
-### Transition to next section
-Given these findings, we next asked whether the surrounding glial populations might express receptors capable of sensing and responding to these secreted mitokine-like factors, thereby providing a mechanistic link between oligodendrocyte mitochondrial distress and secondary activation in microglia and astrocytes.
