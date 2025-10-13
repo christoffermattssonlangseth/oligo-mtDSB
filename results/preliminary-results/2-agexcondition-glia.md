@@ -6,14 +6,14 @@ Across all glial populations, mtDSB induction resulted in transcriptional change
 
 In mature oligodendrocytes, we observed a strong age-dependent amplification of mitochondrial stress–related programs, with upregulation of *Trib3*, *Gdf15*, *Cd40*, *Cst7*, and *Gpnmb* at 60 days. These patterns indicate a transition from acute stress signaling to a chronic integrated stress response (ISR) coupled to immune activation. Microglia mirrored this pattern, with pronounced increases in *Cd74*, *C3*, *Cst7*, *Cybb*, and *H2-Eb1*, suggesting heightened antigen presentation and lysosomal remodeling consistent with disease-associated microglial (DAM)-like states.
 
-![Mature oligodendrocytes](image-0.png)  
-![Microglia](image-1.png)
+![Mature oligodendrocytes](/results/figures/Mature_oligodendrocytes_21w_vs_60w.png)  
+![Microglia](/results/figures/Microglia_21w_vs_60w.png)
 
 Astrocytes displayed region-specific adaptations. Olfactory astrocytes exhibited broad transcriptional activation, sharing ISR and immune signatures with oligodendrocytes (e.g., *Trib3*, *Serpina3n*, *Cd40*, and *Gdf15*), whereas telencephalon astrocytes showed a more restricted response dominated by modest ISR activation and limited inflammatory engagement. OPCs displayed comparatively constrained transcriptional remodeling, with subtle induction of *Gdf15*, *Cd40*, and *Trib3*, suggesting partial engagement of mitochondrial stress signaling without a full reactive transition.
 
-![Olfactory astrocytes](image-3.png)  
-![Telencephalon astrocytes](image-2.png)  
-![Oligodendrocyte precursor cells](image-4.png)
+![Olfactory astrocytes](/results/figures/Olfactory_astrocytes_21w_vs_60w.png)  
+![Telencephalon astrocytes](/results/figures/Telencephalon_astrocytes_21w_vs_60w.png)  
+![Oligodendrocyte precursor cells](/results/figures/Oligodendrocytes_precursor_cells_21w_vs_60w.png)
 
 Overall, these analyses reveal that mature oligodendrocytes and microglia undergo the strongest age-dependent transcriptional reprogramming in response to mtDNA damage, while astrocytic and precursor populations show graded and region-specific sensitivity. The extent of transcriptional spread thus captures both the intensity and chronicity of mitochondrial stress adaptation across the glial landscape.
 
@@ -35,7 +35,7 @@ This pattern highlights a shift from localized mitochondrial distress within oli
 
 Taken together, these findings indicate that mtDNA damage in oligodendrocytes not only triggers cell-intrinsic *ISR*^mt pathways but also promotes secretion of mitokine-like molecules capable of propagating mitochondrial stress signals to surrounding glial populations. This paracrine signaling may underlie the widespread transcriptional reprogramming observed in astrocytes and microglia at later stages, linking localized oligodendrocyte mitochondrial dysfunction to non–cell-autonomous glial activation across the CNS.
 
-![Mitokine signature 21 and 60 days](image-5.png)
+![Mitokine signature 21 and 60 days](/results/figures/mitokine_bars_facets.png)
 
 ---
 

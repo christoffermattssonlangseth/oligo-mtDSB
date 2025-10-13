@@ -23,16 +23,29 @@ Link: https://pmc.ncbi.nlm.nih.gov/articles/PMC5647772/ and https://scholarship.
 3. 📊 **Differentially expressed genes (DEGs)** identified across both **condition** and **time**.  
 
 ## Preliminary findings:🧬 Mitochondrial DNA Damage and Oligodendrocyte Stress Programs
-In this project, we investigate how mitochondrial DNA double-strand breaks (mtDSBs) affect oligodendrocytes (OLs) and the surrounding microenvironment. Our analysis reveals that OLs exposed to mtDNA damage do not simply die, but instead activate a **coordinated multi-pathway stress response**:
+## 🧬 Preliminary findings: Mitochondrial DNA Damage and Oligodendrocyte Stress Programs
 
-- 🔥 **Oxidative stress defenses** — *Mt2, Gstp1, Sqstm1* and antioxidant transcriptional control (*Nfe2l1*).  
-- ⚡ **Mitochondrial and ER stress signaling** — integrated stress response (ISR) and unfolded protein response (UPRmt) (*Atf4, Jun, Hspa5, Hspd1, Hspa9*).  
-- 🛡️ **Antigen presentation pathways** — upregulation of MHC-I molecules (*B2m, H2-D1, H2-K1*) and antigen processing enzymes (*Ctss*), suggesting stressed OLs become visible to the immune system.  
-- 🚚 **Transport and myelin support disruption** — altered kinesin/dynein motors (*Kif5a, Kif5b, Dync1li1*) and adhesion molecules (*Itgb1, Mpzl1*).  
-- 🌟 **Reactivity and glial crosstalk** — induction of *Ndrg2*, *Gfap*, and calcium-binding proteins (*S100a1, Calb2*).  
-- 📣 **Inflammatory mediators** — *Nmu* (neuromedin U) and *Ccl3*, pointing to signaling that may recruit and activate immune cells.
+In this project, we investigate how mitochondrial DNA double-strand breaks (mtDSBs) affect oligodendrocytes (OLs) and their surrounding microenvironment. Our analysis reveals that OLs exposed to mtDNA damage do not simply undergo cell death but instead activate a **coordinated multi-pathway stress and communication program**, combining cell-intrinsic adaptation with extracellular signaling.
 
-**✨ Overall, these findings show that mitochondrial genome instability in oligodendrocytes drives a “stressed but not dead” phenotype**, characterized by oxidative stress, antigen presentation, and glial–immune interactions. This creates a permissive environment for **immune activation and tissue remodeling**, providing a mechanistic link to multiple sclerosis (MS)-like pathology.
+### 🔍 Core stress modules identified
+
+- 🔥 **Oxidative stress defenses** — Induction of *Mt2*, *Gstp1*, *Sqstm1*, and transcriptional control via *Nfe2l1*, reflecting activation of antioxidant and proteostasis mechanisms.  
+- ⚡ **Mitochondrial and ER stress signaling** — Hallmarks of the integrated stress response (ISR) and mitochondrial unfolded protein response (UPRmt), with activation of *Atf4*, *Jun*, *Atf5*, *Hspa5*, *Hspd1*, and *Hspa9*.  
+- 🧩 **Mitokine-like secretome** — Upregulation of secreted stress mediators *Gdf15*, *Adm*, *Cst7*, *Igfbp3*, and *Serpina3n*, indicating that stressed OLs release paracrine signals capable of influencing neighboring glia and immune cells.  
+- 🛡️ **Antigen presentation and immune visibility** — Upregulation of *B2m*, *H2-D1*, *H2-K1*, and *Ctss*, suggesting that metabolically stressed OLs may become visible to the adaptive immune system.  
+- 🚚 **Transport and myelin support disruption** — Altered kinesin/dynein motors (*Kif5a*, *Kif5b*, *Dync1li1*) and adhesion molecules (*Itgb1*, *Mpzl1*) indicate structural and metabolic remodeling of the myelin unit.  
+- 🌟 **Reactivity and glial crosstalk** — Increased *Ndrg2*, *Gfap*, and calcium-binding proteins (*S100a1*, *Calb2*) highlight astrocyte-like reactivity within the OL lineage.  
+- 📣 **Inflammatory mediators** — Elevated *Nmu* (neuromedin U) and *Ccl3* point to recruitment and activation of immune cells.
+
+**✨ Overall, these findings show that mitochondrial genome instability in oligodendrocytes drives a “stressed-but-not-dead” phenotype**, characterized by oxidative stress, integrated stress signaling, antigen presentation, and secretion of mitokine-like factors. This creates a permissive environment for **immune activation and tissue remodeling**, providing a mechanistic link to multiple sclerosis (MS)–like pathology.
+
+### Differential gene expression reveals cell type–specific changes in integrated stress response, cytokine and inflammatory signaling, and metabolic/mitochondrial reprogramming
+
+Mitochondrial DNA double-strand breaks (mtDSBs) in oligodendrocytes trigger a coordinated, cell type–specific transcriptional reprogramming across the CNS. Differential gene expression analysis revealed broad activation of the **integrated stress response (ISR)**, **cytokine and inflammatory signaling**, and **metabolic/mitochondrial remodeling**. Mature oligodendrocytes and microglia exhibited the strongest responses, characterized by upregulation of *Atf5*, *Trib3*, *Cdkn1a*, *Cst7*, *Cd40*, and *Gdf15*, reflecting a transition from mitochondrial stress adaptation to chronic immune activation. Astrocytes showed region-dependent engagement, with olfactory astrocytes mirroring the oligodendrocyte ISR signature, while telencephalic astrocytes and OPCs displayed more constrained transcriptional shifts.  
+
+At later stages, oligodendrocytes developed a **mitokine-like secretome**, prominently featuring *Gdf15*, *Adm*, *Cst7*, and *Serpina3n*, suggesting active communication of mitochondrial distress to neighboring glia. This paracrine signaling likely underlies the widespread inflammatory and metabolic reprogramming observed in astrocytes and microglia, linking oligodendrocyte mitochondrial dysfunction to non–cell-autonomous glial activation and CNS remodeling. 📖 **Read more:** [Detailed on DGE analysis](results/preliminary-results/2-agexcondition-glia.md)
+
+---
 
 ## 🧠 Region-independent effects (Oligodendrocytes)
 
@@ -42,18 +55,18 @@ In this project, we investigate how mitochondrial DNA double-strand breaks (mtDS
 - **Downregulated genes:** *Hoxa2*, *Hoxb3*, *Hoxb5*, *Col1a1*, *Bglap*, *Trim36*  
 
 🧩 **Interpretation:**  
-Early mtDNA damage elicits a subtle mitochondrial and oxidative stress response (*Mt1*), with downregulation of developmental/myelin structural programs. Suggests initial compensatory or remodeling phase before full ISR activation.
+Early mtDNA damage elicits a subtle oxidative and mitochondrial stress response (*Mt1*), with suppression of developmental/myelin structural programs. This likely represents an initial compensatory or remodeling phase preceding full ISR activation.
 
 ---
 
 ### 60 weeks (late phase)
-- **Overall pattern:** Broad activation of the integrated stress response (ISR), mitochondrial UPR, and inflammatory signaling.  
-- **Upregulated genes:** *Atf5*, *Trib3*, *Gfap*, *C4b*, *Cd40*, *Cst7*, *Gpnmb*, *Serpine1*, *Gdf15*  
+- **Overall pattern:** Broad activation of the integrated stress response (ISR), UPRmt, and inflammatory signaling.  
+- **Upregulated genes:** *Atf5*, *Trib3*, *Cdkn1a*, *Gdf15*, *Adm*, *C4b*, *Cd40*, *Cst7*, *Gpnmb*, *Serpina3n*  
 - **Downregulated genes:** *Pmch*, *Hcrt*, *Cercam*  
 
 🧩 **Interpretation:**  
-At later stages, oligodendrocytes show a robust ISR/UPRmt profile (*Atf5*, *Trib3*, *Gdf15*) together with glial activation (*Gfap*, *Gpnmb*) and complement/inflammatory pathways (*C4b*, *Cd40*).  
-This reflects a transition from **mitochondrial stress adaptation** to **chronic inflammatory signaling** and possible non-cell-autonomous effects on neighboring neurons.
+At later stages, oligodendrocytes show a robust ISR/UPRmt profile (*Atf5*, *Trib3*, *Gdf15*, *Cdkn1a*) together with glial activation (*Gfap*, *Gpnmb*) and complement/inflammatory pathways (*C4b*, *Cd40*).  
+Notably, *Gdf15* was strongly induced (log₂FC ≈ 4.7, p ≈ 0.001), whereas *Fgf21*—another canonical mitokine—remained absent, highlighting a **CNS-adapted ISR^mt** centered on *Gdf15*-mediated paracrine signaling rather than systemic *Fgf21* induction. This pattern reflects a transition from **mitochondrial stress adaptation** to **chronic inflammatory signaling** and glial cross-communication.
 
 ---
 
@@ -68,11 +81,14 @@ This reflects a transition from **mitochondrial stress adaptation** to **chronic
 | **Metabolic adaptation (Gdf15, Adm)** | 🔺 Medium | 🔺 Medium | 🔺 Medium |
 | **White-matter–specific response** | 🟠 Some | 🟠 Some | 🔴 Strong |
 
+**Interpretation:**  
+- The **hypothalamus** exhibits the most pronounced and multifaceted response—strong glial stress and inflammatory activation accompanied by loss of neuropeptidergic markers (*Hcrt*, *Pmch*).  
+- The **thalamus** shows a robust glial ISR/stress pattern but minimal neuronal involvement.  
+- The **pallidum + corpus callosum** displays a predominantly **cell-intrinsic oligodendrocyte stress response**, characteristic of white-matter regions.
+
 ---
 
-**Interpretation:**  
-- The **hypothalamus** exhibits the most pronounced and multifaceted response — strong glial stress and inflammatory activation, accompanied by loss of neuropeptidergic markers (*Hcrt*, *Pmch*).  
-- The **thalamus** shows a robust glial ISR/stress pattern but little neuronal involvement.  
-- The **pallidum + corpus callosum** displays a predominantly **cell-intrinsic oligodendrocyte stress response** typical of white-matter regions.
+### 🧠 Summary of mechanistic insight
 
+Together, these data indicate that **mtDNA damage in oligodendrocytes activates an integrated ISR^mt–UPRmt axis coupled to a mitokine-like secretome**, dominated by *Gdf15* and *Adm*. This secretory program likely acts in a **paracrine manner**, modulating astrocyte and microglial states, and may represent a CNS-specific adaptation of mitochondrial stress signaling that links **oligodendrocyte mitochondrial dysfunction to broader neuroinflammatory remodeling**.
 ---
