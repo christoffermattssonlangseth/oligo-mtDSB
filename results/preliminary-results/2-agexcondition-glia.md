@@ -31,4 +31,4 @@ Concurrently, induction of *Cdkn1a* (*p21*), *Maff*, and *Eif4ebp1* points to ac
 
 Taken together, these findings indicate that mtDNA damage in oligodendrocytes not only triggers cell-intrinsic ISR^mt pathways but also promotes secretion of mitokine-like molecules capable of propagating mitochondrial stress signals to surrounding glial populations. This may underlie the widespread transcriptional reprogramming observed in microglia and astrocytes at later time points, linking localized oligodendrocyte mitochondrial distress to non–cell-autonomous glial activation across the CNS.
 
-![Mitokine signature 21 and 60 days](image-5.png)
+![Mitokine signature 21 and 60 days](image-5.png) 
