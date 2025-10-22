@@ -49,7 +49,7 @@ At later stages, oligodendrocytes developed a **mitokine-like secretome**, promi
 
 ## 🧠 Region-independent effects (Oligodendrocytes)
 
-### 21 weeks (early phase)
+### DSB induced at p21 (early phase OL cell death)
 - **Overall pattern:** Mild transcriptional response dominated by early stress and differentiation shifts.  
 - **Upregulated genes:** *Mt1*, *Trh*, *Nkx6-2*, *Cst7*, *Otp*  
 - **Downregulated genes:** *Hoxa2*, *Hoxb3*, *Hoxb5*, *Col1a1*, *Bglap*, *Trim36*  
@@ -59,13 +59,13 @@ Early mtDNA damage elicits a subtle oxidative and mitochondrial stress response 
 
 ---
 
-### 60 weeks (late phase)
+### DSB induced at p60 (later phase OL cell death)
 - **Overall pattern:** Broad activation of the integrated stress response (ISR), UPRmt, and inflammatory signaling.  
 - **Upregulated genes:** *Atf5*, *Trib3*, *Cdkn1a*, *Gdf15*, *Adm*, *C4b*, *Cd40*, *Cst7*, *Gpnmb*, *Serpina3n*  
 - **Downregulated genes:** *Pmch*, *Hcrt*, *Cercam*  
 
 🧩 **Interpretation:**  
-At later stages, oligodendrocytes show a robust ISR/UPRmt profile (*Atf5*, *Trib3*, *Gdf15*, *Cdkn1a*) together with glial activation (*Gfap*, *Gpnmb*) and complement/inflammatory pathways (*C4b*, *Cd40*).  
+At a later phase induction of OL cell death, oligodendrocytes show a robust ISR/UPRmt profile (*Atf5*, *Trib3*, *Gdf15*, *Cdkn1a*) together with glial activation (*Gfap*, *Gpnmb*) and complement/inflammatory pathways (*C4b*, *Cd40*).  
 Notably, *Gdf15* was strongly induced (log₂FC ≈ 4.7, p ≈ 0.001), whereas *Fgf21*—another canonical mitokine—remained absent, highlighting a **CNS-adapted ISR^mt** centered on *Gdf15*-mediated paracrine signaling rather than systemic *Fgf21* induction. This pattern reflects a transition from **mitochondrial stress adaptation** to **chronic inflammatory signaling** and glial cross-communication.
 
 ---
@@ -74,7 +74,6 @@ Notably, *Gdf15* was strongly induced (log₂FC ≈ 4.7, p ≈ 0.001), whereas *
 
 | Category | **Hypothalamus** | **Thalamus** | **Pallidum + Corpus Callosum** |
 |-----------|------------------|--------------|--------------------------------|
-| **Neuronal (Hcrt / Pmch)** | 🔻 **Strong down** | 🔻 Mild | ⛔ None |
 | **Stress (Atf5 / Trib3)** | 🔺 Moderate | 🔺 Strong | 🔺 Strong |
 | **Complement / Inflammatory (C4b, Cst7, Cd74)** | 🔺 Strong | 🔺 Medium | 🔺 Medium |
 | **Astro / Microglial activation (Gfap, Gpnmb)** | 🔺 Strong | 🔺 Medium | 🔺 Medium |
