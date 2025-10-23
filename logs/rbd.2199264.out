@@ -1,0 +1,47 @@
+Reading AnnData: /date/gcb/gcb_CML/oligo-mtDSB/data/mtDNA_DSB_5k_clustered_manual_annotation.h5ad
+Step 1) Pseudobinning: Computing…
+  Sample 'RB4282':
+    → Computing spatial neighbors (k=20)…done
+    → Pseudobinning complete
+  Sample 'RB4350':
+    → Computing spatial neighbors (k=20)…done
+    → Pseudobinning complete
+  Sample 'RB4401':
+    → Computing spatial neighbors (k=20)…done
+    → Pseudobinning complete
+  Sample 'RB4403':
+    → Computing spatial neighbors (k=20)…done
+    → Pseudobinning complete
+  Sample 'RB4405':
+    → Computing spatial neighbors (k=20)…done
+    → Pseudobinning complete
+  Sample 'RB4498':
+    → Computing spatial neighbors (k=20)…done
+    → Pseudobinning complete
+  Sample 'RB4620':
+    → Computing spatial neighbors (k=20)…done
+    → Pseudobinning complete
+  Sample 'RB4627':
+    → Computing spatial neighbors (k=20)…done
+    → Pseudobinning complete
+  Sample 'RB4630':
+    → Computing spatial neighbors (k=20)…done
+    → Pseudobinning complete
+  Sample 'RB4653':
+    → Computing spatial neighbors (k=20)…done
+    → Pseudobinning complete
+  Sample 'RB4658':
+    → Computing spatial neighbors (k=20)…done
+    → Pseudobinning complete
+  Sample 'RB4676':
+    → Computing spatial neighbors (k=20)…done
+    → Pseudobinning complete
+Step 1) Pseudobinning: Saved to /date/gcb/gcb_CML/oligo-mtDSB/results/rbd_checkpoints_mtDSB/pseudobinned.h5ad
+
+Step 2) Filtering: Computing…
+Step 2) Filtering: Saved to /date/gcb/gcb_CML/oligo-mtDSB/results/rbd_checkpoints_mtDSB/filtered.h5ad
+
+Step 3) UMAP: Computing…
+Step 3) UMAP: Saved to /date/gcb/gcb_CML/oligo-mtDSB/results/rbd_checkpoints_mtDSB/umap.h5ad
+
+Step 4) Clustering (res=0.1): Computing…

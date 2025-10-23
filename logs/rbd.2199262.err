@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/christopher/projects/oligo-mtDSB/run_compartment_read_based.py", line 39, in <module>
+    from mypkg.compartment_rbd import domains_by_rbd  # <-- EDIT to your real import
+ModuleNotFoundError: No module named 'mypkg'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/christopher/projects/oligo-mtDSB/run_compartment_read_based.py", line 42, in <module>
+    from domains_by_rbd import domains_by_rbd  # <-- or keep if the module is local
+ModuleNotFoundError: No module named 'domains_by_rbd'

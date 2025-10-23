@@ -1,0 +1,11 @@
+Reading AnnData: /date/gcb/gcb_CML/oligo-mtDSB/data/mtDNA_DSB_5k_clustered_manual_annotation.h5ad
+Step 1) Pseudobinning: Loading from checkpoint…loaded
+
+Step 2) Filtering: Loading from checkpoint…loaded
+
+Step 3) UMAP: Loading from checkpoint…loaded
+
+Step 4) Clustering (res=0.1): Computing…
+Step 4) Clustering (res=0.1): Saved to /date/gcb/gcb_CML/oligo-mtDSB/results/rbd_checkpoints_mtDSB/clustered_0.1.h5ad
+
+  → Mapping 'rbd_domain_0.1' back to original…

@@ -1,0 +1,33 @@
+# --- submit_compartment_read_based.sub ---
+
+universe                = vanilla
+getenv                  = true
+should_transfer_files   = NO
+
+# Resources (adjust to your data size)
+request_cpus            = 8
+request_memory          = 128 GB
+request_disk            = 50 GB
+
+# Logs
+log     = /home/christopher/projects/oligo-mtDSB/logs/rbd.$(Cluster).log
+output  = /home/christopher/projects/oligo-mtDSB/logs/rbd.$(Cluster).out
+error   = /home/christopher/projects/oligo-mtDSB/logs/rbd.$(Cluster).err
+initialdir = /home/christopher/projects/oligo-mtDSB
+
+# Executable (wrapper activates conda then calls python)
+executable = /home/christopher/projects/oligo-mtDSB/run_compartment_read_based.sh
+
+# Arguments to the Python script
+arguments = --data-base /date/gcb/gcb_CML/oligo-mtDSB \
+            --adata data/mtDNA_DSB_5k_clustered_manual_annotation.h5ad \
+            --results-subdir results/rbd_runs/$(Cluster) \
+            --checkpoints-subdir results/rbd_checkpoints_mtDSB \
+            --sample-key sample_id \
+            --cell-id-key cell_id \
+            --threads 8 \
+            --force-rerun 0 \
+            --tag monod
+
+# Queue the job
+queue

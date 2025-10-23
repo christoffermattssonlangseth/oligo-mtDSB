@@ -1,0 +1,27 @@
+Traceback (most recent call last):
+  File "/home/christopher/projects/oligo-mtDSB/run_compartment_read_based.py", line 333, in <module>
+    main()
+  File "/home/christopher/projects/oligo-mtDSB/run_compartment_read_based.py", line 288, in main
+    ad_annot, ad_pseudo = domains_by_rbd(
+  File "/home/christopher/projects/oligo-mtDSB/run_compartment_read_based.py", line 158, in domains_by_rbd
+    pseudobinned, _ = load_or_compute(
+  File "/home/christopher/projects/oligo-mtDSB/run_compartment_read_based.py", line 126, in load_or_compute
+    ad = _load_h5ad_with_heal(path, cell_id_key)  # self-heal cell_id
+  File "/home/christopher/projects/oligo-mtDSB/run_compartment_read_based.py", line 68, in _load_h5ad_with_heal
+    ad.write_h5ad(path)
+  File "/home/christopher/miniconda3/envs/spatial/lib/python3.10/site-packages/anndata/_core/anndata.py", line 1871, in write_h5ad
+    write_h5ad(
+  File "/home/christopher/miniconda3/envs/spatial/lib/python3.10/site-packages/anndata/_io/h5ad.py", line 106, in write_h5ad
+    write_elem(f, "obs", adata.obs, dataset_kwargs=dataset_kwargs)
+  File "/home/christopher/miniconda3/envs/spatial/lib/python3.10/site-packages/anndata/_io/specs/registry.py", line 487, in write_elem
+    Writer(_REGISTRY).write_elem(store, k, elem, dataset_kwargs=dataset_kwargs)
+  File "/home/christopher/miniconda3/envs/spatial/lib/python3.10/site-packages/anndata/_io/utils.py", line 252, in func_wrapper
+    return func(*args, **kwargs)
+  File "/home/christopher/miniconda3/envs/spatial/lib/python3.10/site-packages/anndata/_io/specs/registry.py", line 354, in write_elem
+    return write_func(store, k, elem, dataset_kwargs=dataset_kwargs)
+  File "/home/christopher/miniconda3/envs/spatial/lib/python3.10/site-packages/anndata/_io/specs/registry.py", line 71, in wrapper
+    result = func(g, k, *args, **kwargs)
+  File "/home/christopher/miniconda3/envs/spatial/lib/python3.10/site-packages/anndata/_io/specs/methods.py", line 902, in write_dataframe
+    raise ValueError(msg)
+ValueError: DataFrame.index.name ('cell_id') is also used by a column whose values are different. This is not supported. Please make sure the values are the same, or use a different name.
+Error raised while writing key 'obs' of <class 'h5py._hl.group.Group'> to /

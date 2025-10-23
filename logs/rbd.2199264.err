@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/home/christopher/projects/oligo-mtDSB/run_compartment_read_based.py", line 306, in <module>
+    main()
+  File "/home/christopher/projects/oligo-mtDSB/run_compartment_read_based.py", line 261, in main
+    ad_annot, ad_pseudo = domains_by_rbd(
+  File "/home/christopher/projects/oligo-mtDSB/run_compartment_read_based.py", line 189, in domains_by_rbd
+    adata_neigh, _ = load_or_compute(
+  File "/home/christopher/projects/oligo-mtDSB/run_compartment_read_based.py", line 120, in load_or_compute
+    ad = compute_fn()
+  File "/home/christopher/projects/oligo-mtDSB/run_compartment_read_based.py", line 184, in compute_cluster
+    sc.tl.leiden(adata_neigh, resolution=res, key_added=key)
+  File "/home/christopher/miniconda3/envs/spatial/lib/python3.10/site-packages/scanpy/tools/_leiden.py", line 126, in leiden
+    _utils.ensure_igraph()
+  File "/home/christopher/miniconda3/envs/spatial/lib/python3.10/site-packages/scanpy/_utils/__init__.py", line 90, in ensure_igraph
+    raise ImportError(msg)
+ImportError: Please install the igraph package: `conda install -c conda-forge python-igraph` or `pip3 install igraph`.

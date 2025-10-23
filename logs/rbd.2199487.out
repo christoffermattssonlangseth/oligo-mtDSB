@@ -1,0 +1,30 @@
+Reading AnnData: /date/gcb/gcb_CML/oligo-mtDSB/data/mtDNA_DSB_5k_clustered_manual_annotation.h5ad
+Step 1) Pseudobinning: Loading from checkpoint…loaded
+
+Step 2) Filtering: Loading from checkpoint…loaded
+
+Step 3) UMAP: Loading from checkpoint…loaded
+
+Step 4) Clustering (res=0.1): Loading from checkpoint…loaded
+
+  → Mapping 'rbd_domain_0.1' back to original…done
+
+Step 4) Clustering (res=0.2): Computing…
+Step 4) Clustering (res=0.2): Saved to /date/gcb/gcb_CML/oligo-mtDSB/results/rbd_checkpoints_mtDSB/clustered_0.2.h5ad
+
+  → Mapping 'rbd_domain_0.2' back to original…done
+
+Step 4) Clustering (res=0.5): Computing…
+Step 4) Clustering (res=0.5): Saved to /date/gcb/gcb_CML/oligo-mtDSB/results/rbd_checkpoints_mtDSB/clustered_0.5.h5ad
+
+  → Mapping 'rbd_domain_0.5' back to original…done
+
+Step 4) Clustering (res=1.0): Computing…
+Step 4) Clustering (res=1.0): Saved to /date/gcb/gcb_CML/oligo-mtDSB/results/rbd_checkpoints_mtDSB/clustered_1.0.h5ad
+
+  → Mapping 'rbd_domain_1.0' back to original…done
+
+All steps complete! Returning results.
+💾 Writing: /date/gcb/gcb_CML/oligo-mtDSB/results/rbd_runs/--data-base/rbd_annotated_monod.h5ad
+💾 Writing: /date/gcb/gcb_CML/oligo-mtDSB/results/rbd_runs/--data-base/rbd_pseudobinned_monod.h5ad
+✅ Done in 296.13 min | meta: /date/gcb/gcb_CML/oligo-mtDSB/results/rbd_runs/--data-base/rbd_run_meta_monod.json
