@@ -24,4 +24,5 @@ Overall, this transcriptional continuum delineates a **bifurcation between produ
 ![Spatial maps](/results/figures/spatial_cell_class.png)
 *(B)* Spatial maps of annotated populations across tissue sections.  
 *(C)* Oligodendrocyte subclustering reveals immature, differentiating, and damage-associated states.  
+![Spatial maps](/results/figures/OL_sub_clust.png)
 *(D)* Marker gene ranking highlighting lineage and stress-specific signatures.  
