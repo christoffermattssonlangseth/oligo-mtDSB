@@ -201,4 +201,3 @@ This finding highlights that **white-matter mitochondrial stress is not cell-aut
 **Figure 7. Neural stem cells: regional activation fingerprints by age**  
 ![Neural stem cells](/results/figures/region_fingerprints_by_age/Neural_Stem_Cells_activation_by_age.png)
 ![Neural stem cells](/results/figures/Neural_Stem_Cells_Ventricular_system_21vs60.png)
-[See neural stem cell section](#non–cell-autonomous-activation-of-neural-stem-cells-in-response-to-oligodendrocyte-mitochondrial-stress)
