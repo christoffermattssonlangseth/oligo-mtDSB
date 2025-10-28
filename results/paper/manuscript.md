@@ -109,8 +109,7 @@ Mature, myelin-maintaining oligodendrocytes exhibit **heightened vulnerability**
 
 ---
 
-### **Figure 5. Age-dependent activation of ISR and UPR pathways in oligodendrocytes**
-
+### **Figure 4. Age-dependent activation of ISR and UPR pathways in oligodendrocytes**
 **(A)** Induction of mtDNA double-strand breaks at postnatal day 21 (P21) leads to mild ISR/UPR activation dominated by *Trib3* and *Cdkn1a*, consistent with transient stress adaptation.  
 **(B)** Induction at P60 elicits strong upregulation of canonical ISR/UPR effectors (*Atf4*, *Atf5*, *Ddit3*, *Hspa5*, *Hspd1*, *Hmox1*, *Ero1lb*, *Sod2*), indicating a chronic stress phenotype and potential translational repression.  
 **(C)** The developmental timing of mtDNA damage determines whether oligodendrocytes engage adaptive versus maladaptive proteostatic remodeling.
@@ -120,7 +119,7 @@ Mature, myelin-maintaining oligodendrocytes exhibit **heightened vulnerability**
 
 <!-- 5-transcript-driven-compartment-analysis.md -->
 
-## 4. Spatial domain discovery and compartment calling
+## 5. Spatial domain discovery and compartment calling
 
 To define spatial compartments within the mtDSB tissues, we utilized a previously established **read-based domain discovery workflow**, implemented in Python. This pipeline operates directly on the Xenium-derived per-cell transcriptomes while preserving spatial context.  
 
@@ -136,8 +135,7 @@ By applying the same read-based analysis to tissues in which mtDNA double-strand
 
 ---
 
-### **Figure 4. Spatial domain discovery and anatomical compartmentalization**
-
+### **Figure 5. Spatial domain discovery and anatomical compartmentalization**
 **(A)** Overview of the read-based domain (RBD) discovery workflow combining pseudobinning, dimensionality reduction, and community detection to resolve transcriptionally contiguous regions.  
 **(B)** Spatial compartment map showing 27 distinct anatomical and transcriptional domains identified across Xenium mtDSB tissue sections. Major regions correspond to cortical layers, subcortical nuclei, fiber tracts, and vascular or meningeal compartments.  
 ![Spatial compartments](/results/figures/compartments.png)
