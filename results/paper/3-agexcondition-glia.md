@@ -21,18 +21,3 @@ In **mature oligodendrocytes**, the response to mtDNA damage evolved from a prim
 
 Overall, these analyses highlight a hierarchical and age-dependent glial response to oligodendrocyte mitochondrial dysfunction: mature oligodendrocytes and microglia undergo the most extensive reprogramming, while astrocytes and OPCs show graded, region-specific sensitivity. The spread and intensity of transcriptional change thus reflect both the chronicity of mitochondrial stress and the degree of intercellular coupling across the glial landscape.
 
----
-
-# 4. Mitochondrial stress drives a mitokine-like secretome in mature oligodendrocytes
-
-Given the pronounced transcriptional activation observed in mature oligodendrocytes, we next examined whether mtDNA damage triggers a secretory program capable of communicating metabolic distress to neighboring glia.
-
-At 60 days, differential expression revealed strong upregulation of *Gdf15* — a canonical mitokine and hallmark of the mitochondrial integrated stress response (*ISR^mt*) — together with *Adm* (*adrenomedullin*), *Cst7*, *Igfbp3*, and *Serpina3n*. These secreted or secretory-associated factors define a **mitokine-like signature**, reflecting both intracellular stress adaptation and intercellular signaling potential. The presence of *Gdf15* and *Adm* underscores the engagement of systemic stress pathways known to modulate metabolic and inflammatory balance.
-
-Concomitantly, persistent elevation of *Atf5*, *Cdkn1a (p21)*, and *Maff* indicates sustained activation of the ATF4–CHOP arm of the ISR, linking translational control and redox regulation to the emerging secretory phenotype. The induction of *Aldh1l2* and *Sesn2* further suggests reinforcement of mitochondrial folate metabolism and NADPH-dependent antioxidant buffering — hallmarks of chronic ISR^mt activation.
-
-Quantification of this gene set across glial types revealed that at 21 days, expression of *Gdf15*, *Cdkn1a*, and *Atf5* was largely restricted to oligodendrocytes, reflecting a cell-intrinsic protective response. By 60 days, however, *Cst7*, *Serpina3n*, and *Gdf15* were also upregulated in astrocytes and microglia, indicating secondary propagation of mitochondrial stress signaling within the glial network.
-
-This pattern suggests a **temporal and spatial expansion of the mitochondrial stress field** — from localized, oligodendrocyte-restricted ISR activation toward a broader, paracrine glial response encompassing astrocytic and microglial compartments. Microglia, in particular, exhibited strong induction of *Cst7* and *Serpina3n*, features characteristic of DAM-like activation, while astrocytic expression patterns pointed to variable regional engagement.
-
-Together, these findings indicate that mtDNA damage in oligodendrocytes not only triggers cell-intrinsic *ISR^mt* pathways but also promotes secretion of mitokine-like factors that propagate mitochondrial stress signals across glial populations. This **intercellular stress communication** likely underpins the widespread yet cell type–graded transcriptional reprogramming observed at later stages, linking oligodendrocyte mitochondrial dysfunction to a coordinated, non–cell-autonomous glial response.
