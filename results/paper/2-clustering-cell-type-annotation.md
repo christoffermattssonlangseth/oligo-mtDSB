@@ -23,6 +23,7 @@ Overall, this transcriptional continuum delineates a **bifurcation between produ
 *(A)* UMAP embedding of all Xenium mtDSB cells showing major annotated cell types.  
 ![Spatial maps](/results/figures/spatial_cell_class.png)
 *(B)* Spatial maps of annotated populations across tissue sections.  
-*(C)* Oligodendrocyte subclustering reveals immature, differentiating, and damage-associated states.  
 ![Spatial maps](/results/figures/OL_sub_clust.png)
+*(C)* Oligodendrocyte subclustering reveals immature, differentiating, and damage-associated states.  
+![Dotplot](/results/figures/dotplot__OL_ANNO_cellclass_markers.png)
 *(D)* Marker gene ranking highlighting lineage and stress-specific signatures.  
