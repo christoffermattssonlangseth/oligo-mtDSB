@@ -1,4 +1,4 @@
-# 3. Differential gene expression reveals cell type–specific stress remodeling and immune–metabolic adaptation
+## 2. Differential gene expression reveals cell type–specific stress remodeling and immune–metabolic adaptation
 
 To determine how mitochondrial DNA double-strand breaks (mtDSBs) in oligodendrocytes influence surrounding glia over time, we compared differential expression profiles between 21- and 60-day-old mice across mature oligodendrocytes, oligodendrocyte precursor cells (OPCs), astrocytes (olfactory and telencephalic), and microglia.
 
