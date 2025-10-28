@@ -36,5 +36,3 @@ Quantification of this gene set across glial types revealed that at 21 days, exp
 This pattern suggests a **temporal and spatial expansion of the mitochondrial stress field** — from localized, oligodendrocyte-restricted ISR activation toward a broader, paracrine glial response encompassing astrocytic and microglial compartments. Microglia, in particular, exhibited strong induction of *Cst7* and *Serpina3n*, features characteristic of DAM-like activation, while astrocytic expression patterns pointed to variable regional engagement.
 
 Together, these findings indicate that mtDNA damage in oligodendrocytes not only triggers cell-intrinsic *ISR^mt* pathways but also promotes secretion of mitokine-like factors that propagate mitochondrial stress signals across glial populations. This **intercellular stress communication** likely underpins the widespread yet cell type–graded transcriptional reprogramming observed at later stages, linking oligodendrocyte mitochondrial dysfunction to a coordinated, non–cell-autonomous glial response.
-
-![Mitokine signature 21 and 60 days](/results/figures/mitokine_bars_facets.png)

@@ -5,17 +5,26 @@
 
 <!-- 0-abstract.md -->
 
-
+# Mitochondrial Genome Damage Rewires the Spatial Stress Architecture of Myelinating Glia
+## Abstract
+Mitochondrial dysfunction is increasingly recognized as a key driver of white matter pathology, yet how mitochondrial DNA (mtDNA) damage impacts oligodendrocyte function in vivo remains unclear. Here, we combine a mouse model of inducible mtDNA double-strand breaks (mtDSBs) in oligodendrocytes with spatial transcriptomics to map mitochondrial stress responses across brain compartments and cell types. Induction of mtDSBs triggered a robust integrated stress response (ISR) characterized by upregulation of *Atf4*, *Atf5*, *Trib3*, and *Cdkn1a*, alongside signatures of proteostatic and metabolic remodeling. Spatial mapping revealed distinct patterns of ISR and unfolded protein response (UPR) gene activation within oligodendrocyte-rich domains, with stronger effects in mature white matter regions. Mechanistically, the data suggest coordinated ISR–mTOR feedback that imposes a translational brake—limiting myelin and lipid synthesis while maintaining stress resilience. Together, these results link mitochondrial genome instability to oligodendrocyte stress signaling and provide a spatially resolved framework for understanding how mitochondrial perturbations contribute to dysmyelination.
 
 
 <!-- 1-introduction.md -->
 
+## 1. Introduction
+Mitochondria are essential for maintaining cellular energy balance, redox regulation, and biosynthetic capacity. In the central nervous system (CNS), oligodendrocytes are particularly dependent on intact mitochondrial function, as they sustain the energetically demanding process of myelin synthesis and maintenance. Perturbations in mitochondrial DNA (mtDNA) integrity—such as double-strand breaks (DSBs)—can therefore have profound effects on the homeostasis of myelinating glia and the stability of white matter.
 
+Beyond their canonical metabolic role, mitochondria are emerging as key regulators of cellular stress signaling. Mitochondrial dysfunction is known to trigger the **integrated stress response (ISR)** and **unfolded protein response (UPR)** pathways, leading to global translational attenuation and selective upregulation of adaptive transcription factors such as *Atf4*, *Atf5*, and *Ddit3*. In parallel, mitochondrial stress feeds back to the **mTOR pathway**, which controls protein and lipid synthesis—processes that are particularly crucial for myelin maintenance. Chronic activation of these stress pathways has been implicated in neurodegenerative and demyelinating disorders, including multiple sclerosis (MS), where oligodendrocytes exhibit signs of metabolic stress and impaired proteostasis.
+
+To investigate how mitochondrial DNA damage affects oligodendrocyte physiology in vivo, we employed a mouse model in which **mtDNA double-strand breaks (mtDSBs)** can be selectively induced in oligodendrocytes at two distinct developmental stages: **postnatal day 21 (P21)**, when myelination is ongoing, and **postnatal day 60 (P60)**, when oligodendrocytes have reached maturity and maintain existing myelin. By combining this model with **spatial transcriptomics (Xenium)** and computational domain discovery, we mapped the cellular and regional responses to mtDNA damage with single-cell and spatial resolution.
+
+Our analyses reveal that oligodendrocyte-intrinsic mtDNA damage elicits a robust transcriptional stress program characterized by activation of ISR/UPR pathways, altered mitochondrial chaperone expression, and transcriptional signatures consistent with mTOR inhibition. These findings suggest that persistent mitochondrial dysfunction enforces a dual translational brake in oligodendrocytes—limiting myelin and lipid synthesis while promoting adaptive stress responses that may contribute to dysmyelination and neuroinflammatory vulnerability.
 
 
 <!-- 2-clustering-cell-type-annotation.md -->
 
-# 1.
+## 2. Cell type clustering annotation
 
 
 <!-- 3-agexcondition-glia.md -->
@@ -59,12 +68,10 @@ This pattern suggests a **temporal and spatial expansion of the mitochondrial st
 
 Together, these findings indicate that mtDNA damage in oligodendrocytes not only triggers cell-intrinsic *ISR^mt* pathways but also promotes secretion of mitokine-like factors that propagate mitochondrial stress signals across glial populations. This **intercellular stress communication** likely underpins the widespread yet cell type–graded transcriptional reprogramming observed at later stages, linking oligodendrocyte mitochondrial dysfunction to a coordinated, non–cell-autonomous glial response.
 
-![Mitokine signature 21 and 60 days](/results/figures/mitokine_bars_facets.png)
-
 
 <!-- 4-transcript-driven-compartment-analysis.md -->
 
-## 3. Spatial domain discovery and compartment calling
+## 4. Spatial domain discovery and compartment calling
 
 To define spatial compartments within the mtDSB tissues, we utilized a previously established **read-based domain discovery workflow**. This pipeline operates directly on the Xenium-derived per-cell transcriptomes while preserving spatial context. In brief, for each sample, we generated a “pseudobinned” expression matrix by aggregating each cell’s transcript counts with those of its spatial neighbors (typically the 20 nearest cells determined by Squidpy). This local neighborhood summation smooths single-cell variability into spatially coherent expression patches while retaining cell-level metadata and coordinates.
 
@@ -78,6 +85,5 @@ This approach enabled the systematic identification of **spatially organized tra
 
 <!-- 5-integrated-stress-reponse-pathway.md -->
 
-### ISR and UPR activation in oligodendrocytes following mtDNA double-strand breaks
-
+### 5. Zeroing in on ISR and UPR activation in oligodendrocytes following mtDNA double-strand breaks
 Induction of mitochondrial DNA double-strand breaks (mtDSBs) in oligodendrocytes triggered a pronounced activation of the integrated stress response (ISR) and unfolded protein response (UPR), with age-dependent intensity and cell-type specificity. When mtDSBs were induced at **postnatal day 21 (P21)**—a developmental stage when oligodendrocyte differentiation and active myelination are still ongoing—the ISR/UPR signature was modest and largely restricted to a limited set of transcripts such as *Trib3* and *Cdkn1a*. This suggests that the early, still-maturing oligodendrocytes can transiently buffer mitochondrial perturbation through adaptive ISR activation without widespread proteostatic failure. In contrast, when mtDSBs were induced at **P60**, when oligodendrocytes are fully mature and responsible for maintaining established myelin, there was a broad and coordinated upregulation of canonical ISR and UPR mediators (*Atf4*, *Atf5*, *Ddit3/Chop*, *Hspa5/BiP*, *Hspd1*, *Hmox1*, *Ero1lb*, *Sod2*). The response was most pronounced in mature oligodendrocytes, with *Trib3*, *Cdkn1a*, and *Atf5* among the top-induced genes, indicating sustained ATF4-driven transcriptional remodeling and possible feedback inhibition of mTOR signaling. This pattern reflects a transition from **transient ISR activation at P21** to a **chronic, maladaptive stress state at P60**, characterized by reduced global translation and selective induction of stress effectors. Together, these findings suggest that the **timing of mtDNA damage relative to the myelination stage critically shapes the ISR/UPR response**, with mature myelinating oligodendrocytes showing heightened sensitivity that may compromise proteostasis, lipid synthesis, and myelin maintenance.

@@ -1,4 +1,4 @@
-## 3. Spatial domain discovery and compartment calling
+## 4. Spatial domain discovery and compartment calling
 
 To define spatial compartments within the mtDSB tissues, we utilized a previously established **read-based domain discovery workflow**. This pipeline operates directly on the Xenium-derived per-cell transcriptomes while preserving spatial context. In brief, for each sample, we generated a “pseudobinned” expression matrix by aggregating each cell’s transcript counts with those of its spatial neighbors (typically the 20 nearest cells determined by Squidpy). This local neighborhood summation smooths single-cell variability into spatially coherent expression patches while retaining cell-level metadata and coordinates.
 
