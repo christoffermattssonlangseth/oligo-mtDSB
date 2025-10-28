@@ -14,8 +14,7 @@ By applying the same read-based analysis to tissues in which mtDNA double-strand
 
 ---
 
-### **Figure 4. Spatial domain discovery and anatomical compartmentalization**
-
+### **Figure 5. Spatial domain discovery and anatomical compartmentalization**
 **(A)** Overview of the read-based domain (RBD) discovery workflow combining pseudobinning, dimensionality reduction, and community detection to resolve transcriptionally contiguous regions.  
 **(B)** Spatial compartment map showing 27 distinct anatomical and transcriptional domains identified across Xenium mtDSB tissue sections. Major regions correspond to cortical layers, subcortical nuclei, fiber tracts, and vascular or meningeal compartments.  
 ![Spatial compartments](/results/figures/compartments.png)
