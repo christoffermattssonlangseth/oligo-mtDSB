@@ -1,4 +1,4 @@
-## 4. Spatial domain discovery and compartment calling
+## 5. Spatial domain discovery and compartment calling
 
 To define spatial compartments within the mtDSB tissues, we utilized a previously established **read-based domain discovery workflow**, implemented in Python. This pipeline operates directly on the Xenium-derived per-cell transcriptomes while preserving spatial context.  
 
