@@ -24,14 +24,21 @@ Our analyses reveal that oligodendrocyte-intrinsic mtDNA damage elicits a robust
 
 <!-- 2-clustering-cell-type-annotation.md -->
 
-# 2. Unsupervised Clustering and Model-Assisted Annotation Reveal Major Glial and Neuronal Populations
-Following preprocessing and dimensionality reduction of the Xenium mtDNA DSB dataset, unsupervised **Leiden clustering** was performed to identify transcriptionally distinct cell populations across the spatially resolved transcriptomes. Clustering was guided by principal component analysis (PCA) and neighborhood graph construction, and the resulting clusters were visualized using **UMAP** embeddings to capture both global and local relationships among cells.
+## 2. Unsupervised Clustering and Model-Assisted Annotation Reveal Major Glial and Neuronal Populations
+
+Following preprocessing and dimensionality reduction of the Xenium mtDNA DSB dataset, unsupervised **Leiden clustering** was performed to identify transcriptionally distinct cell populations across the spatially resolved transcriptomes. Clustering was guided by principal component analysis (PCA) and neighborhood graph construction, and the resulting clusters were visualized using **UMAP** embeddings to capture both global and local relationships among cells.  
+
 ![UMAP embedding](/results/figures/umap_cell_class.png)
+
 To systematically assign biological identities to the clusters, we applied an **LLM-assisted marker-based annotation** approach using the `annotate_clusters()` function. Cluster-specific marker genes were extracted and provided to a large language model (OpenAI `gpt-4o-mini`), together with species (*Mus musculus*) and tissue context (*brain*). The model synthesized the marker information and returned putative cell-type labels for each cluster.
 
-This strategy yielded consistent and biologically coherent annotations corresponding to the expected major brain cell types, including **oligodendrocytes**, **oligodendrocyte precursor cells (OPCs)**, **astrocytes**, **microglia**, **neurons**, **endothelial cells**, and **fibroblast-like stromal cells**. Subclusters within the oligodendrocyte lineage further resolved into newly formed, myelinating, and stress-associated states. The integration of automated, context-aware annotation accelerated the curation process and minimized subjective bias, while retaining full transparency via the underlying marker gene sets.
+This strategy yielded consistent and biologically coherent annotations corresponding to the expected major brain cell types, including **oligodendrocytes**, **oligodendrocyte precursor cells (OPCs)**, **astrocytes**, **microglia**, **neurons**, **endothelial cells**, and **fibroblast-like stromal cells**. Subclusters within the oligodendrocyte lineage further resolved into newly formed, myelinating, and stress-associated states. The integration of automated, context-aware annotation accelerated the curation process and minimized subjective bias, while retaining full transparency via the underlying marker gene sets.  
+
 ![Spatial maps](/results/figures/spatial_cell_class.png)
-These annotations form the foundation for downstream spatial domain discovery and condition-specific transcriptional analyses, enabling the dissection of mitochondrial stress responses within defined glial and neuronal populations.
+
+Moreover, to refine glial subtypes, we performed **subclustering of oligodendrocyte and microglial populations**, revealing disease-associated transcriptional states. Within the oligodendrocyte lineage, distinct subclusters emerged, including multiple **immature** and **differentiating oligodendrocyte (OL) states** as well as a **disease-associated (DA) OL cluster** characterized by strong upregulation of *Gadd45g*, *Atf4*, *Trib3*, and *Cdkn1a*. These stress-related genes suggest activation of the integrated stress response (ISR) and transcriptional reprogramming linked to mitochondrial dysfunction.  Ranking-based marker gene analysis highlights *Prrt1*, *Bcas1*, *Plp1*, and *Mbp* as defining early and myelinating OL populations, whereas *Atf4*, *Gadd45g*, and *Cdkn1a* specifically mark the DA-OL state, consistent with a stress-adaptive phenotype.  
+
+Together, these analyses confirm the presence of transcriptionally distinct **oligodendrocyte maturation trajectories** and **stress-responsive populations** in the mtDNA DSB model, providing a framework for linking mitochondrial injury to altered myelination dynamics.
 
 
 <!-- 3-agexcondition-glia.md -->
