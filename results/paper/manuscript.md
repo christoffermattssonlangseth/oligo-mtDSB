@@ -24,70 +24,121 @@ Our analyses reveal that oligodendrocyte-intrinsic mtDNA damage elicits a robust
 
 <!-- 2-clustering-cell-type-annotation.md -->
 
-## 2. Unsupervised Clustering and Model-Assisted Annotation Reveal Major Glial and Neuronal Populations
+## 2. Unsupervised clustering and model-guided annotation reveal transcriptionally distinct oligodendrocyte states
 
-Following preprocessing and dimensionality reduction of the Xenium mtDNA DSB dataset, unsupervised **Leiden clustering** was performed to identify transcriptionally distinct cell populations across the spatially resolved transcriptomes. Clustering was guided by principal component analysis (PCA) and neighborhood graph construction, and the resulting clusters were visualized using **UMAP** embeddings to capture both global and local relationships among cells.  
+To resolve the cellular composition of the Xenium **mtDNA double-strand break (mtDSB)** model, we performed unsupervised clustering of all captured cells following dimensionality reduction and neighborhood graph construction. **Leiden clustering** identified discrete transcriptional populations that were visualized using **UMAP** embeddings, revealing clear segregation of glial, neuronal, and stromal lineages (Fig. 2A).  
 
+Automated cell-type annotation was achieved using a **marker-informed, large language model (LLM)-based approach**, in which cluster-specific marker genes were supplied to the `annotate_clusters()` function. The model (OpenAI `gpt-4o-mini`) integrated marker information, species, and brain context to assign biologically coherent labels, identifying the major expected CNS cell types including **oligodendrocytes**, **oligodendrocyte precursor cells (OPCs)**, **astrocytes**, **microglia**, **neurons**, **endothelial**, and **fibroblast-like** populations (Fig. 2B). The integration of automated, context-aware annotation accelerated curation while maintaining transparency via the underlying marker gene sets.  
+
+To further resolve heterogeneity within the oligodendrocyte lineage, we subclustered the annotated oligodendrocyte population. This analysis revealed a continuum of transcriptional states spanning immature precursor-like to mature myelinating oligodendrocytes, as well as a distinct **damage-associated (DA) oligodendrocyte** cluster that emerged exclusively in mtDSB tissues (Fig. 2C).  
+
+**Differential expression analysis** across these subclusters identified two dominant transcriptional trajectories:  
+(1) a **differentiation axis**, progressing from OPC-like and immature oligodendrocyte states (Immature I–IV) toward fully myelinating cells, and  
+(2) a **stress-adaptation axis**, diverging toward the DA-OL population characterized by integrated stress response (ISR) activation and mitochondrial stress signatures.  
+
+Within the **DA-OL cluster**, genes associated with the ISR (*Atf4*, *Atf5*, *Trib3*, *Hspa9*), oxidative defense (*Gstp1*, *Mt2*), and immune activation (*H2-D1*, *B2m*, *Serpina3n*) were strongly upregulated, consistent with an adaptive but hypomyelinating phenotype. By contrast, **mature oligodendrocytes** showed robust expression of classical myelin and lipid synthesis genes (*Mbp*, *Plp1*, *Mag*, *Mog*, *Ugt8a*), indicative of intact myelin maintenance programs (Fig. 2D).  
+
+Intermediate states between these extremes reflected distinct phases of oligodendrocyte maturation. **Immature I** cells expressed *Ptprz1*, *Pdgfra*, and *Sox4*, resembling differentiating OPCs with active migratory and axon–glia signaling. **Immature II** cells were enriched for *Sirt2*, *Cnp*, *Plp1*, and *Mbp*, marking the onset of myelin gene induction and biosynthetic upregulation. **Immature III–IV** states, while still expressing OPC-related transcripts, showed elevated expression of inhibitory and axon-guidance genes (*Lingo1*, *Rgma*, *Sema5a*), suggesting partial arrest or reactive remodeling under stress conditions.  
+
+Overall, this transcriptional continuum delineates a **bifurcation between productive differentiation and stress adaptation**, in which mitochondrial DNA damage drives oligodendrocytes toward an ISR-dominant, damage-associated state rather than terminal myelination.  
+
+---
+
+**Figure 2.**  
 ![UMAP embedding](/results/figures/umap_cell_class.png)
-
-To systematically assign biological identities to the clusters, we applied an **LLM-assisted marker-based annotation** approach using the `annotate_clusters()` function. Cluster-specific marker genes were extracted and provided to a large language model (OpenAI `gpt-4o-mini`), together with species (*Mus musculus*) and tissue context (*brain*). The model synthesized the marker information and returned putative cell-type labels for each cluster.
-
-This strategy yielded consistent and biologically coherent annotations corresponding to the expected major brain cell types, including **oligodendrocytes**, **oligodendrocyte precursor cells (OPCs)**, **astrocytes**, **microglia**, **neurons**, **endothelial cells**, and **fibroblast-like stromal cells**. Subclusters within the oligodendrocyte lineage further resolved into newly formed, myelinating, and stress-associated states. The integration of automated, context-aware annotation accelerated the curation process and minimized subjective bias, while retaining full transparency via the underlying marker gene sets.  
-
+*(A)* UMAP embedding of all Xenium mtDSB cells showing major annotated cell types.  
 ![Spatial maps](/results/figures/spatial_cell_class.png)
-
-Moreover, to refine glial subtypes, we performed **subclustering of oligodendrocyte and microglial populations**, revealing disease-associated transcriptional states. Within the oligodendrocyte lineage, distinct subclusters emerged, including multiple **immature** and **differentiating oligodendrocyte (OL) states** as well as a **disease-associated (DA) OL cluster** characterized by strong upregulation of *Gadd45g*, *Atf4*, *Trib3*, and *Cdkn1a*. These stress-related genes suggest activation of the integrated stress response (ISR) and transcriptional reprogramming linked to mitochondrial dysfunction.  Ranking-based marker gene analysis highlights *Prrt1*, *Bcas1*, *Plp1*, and *Mbp* as defining early and myelinating OL populations, whereas *Atf4*, *Gadd45g*, and *Cdkn1a* specifically mark the DA-OL state, consistent with a stress-adaptive phenotype.  
-
-Together, these analyses confirm the presence of transcriptionally distinct **oligodendrocyte maturation trajectories** and **stress-responsive populations** in the mtDNA DSB model, providing a framework for linking mitochondrial injury to altered myelination dynamics.
+*(B)* Spatial maps of annotated populations across tissue sections.  
+*(C)* Oligodendrocyte subclustering reveals immature, differentiating, and damage-associated states.  
+*(D)* Marker gene ranking highlighting lineage and stress-specific signatures.
 
 
 <!-- 3-agexcondition-glia.md -->
 
-## 2. Differential gene expression reveals cell type–specific stress remodeling and immune–metabolic adaptation
+## 3. Differential gene expression reveals cell type–specific stress remodeling and immune–metabolic adaptation
 
-To determine how mitochondrial DNA double-strand breaks (mtDSBs) in oligodendrocytes influence surrounding glia over time, we compared differential expression profiles between 21- and 60-day-old mice across mature oligodendrocytes, oligodendrocyte precursor cells (OPCs), astrocytes (olfactory and telencephalic), and microglia.
+To assess how mitochondrial DNA double-strand breaks (mtDSBs) in oligodendrocytes reshape surrounding glial networks during development and maturation, we compared differential gene expression profiles between **postnatal day 21 (P21)** and **day 60 (P60)** mice across major glial populations, including mature oligodendrocytes, oligodendrocyte precursor cells (OPCs), astrocytes (olfactory and telencephalic), and microglia.  
 
-After applying more stringent expression filtering, transcriptional remodeling was largely confined to a subset of glial types exhibiting strong, high-confidence responses. Mature oligodendrocytes and microglia remained the most transcriptionally dynamic populations, while astrocytes and OPCs displayed more moderate, regionally restricted changes.
+After stringent expression filtering and per-cell normalization, transcriptional remodeling was largely confined to a subset of glial cell types exhibiting high-confidence and temporally progressive responses. **Mature oligodendrocytes** and **microglia** displayed the most pronounced transcriptional plasticity, whereas **astrocytes** and **OPCs** exhibited comparatively moderate, region-restricted changes.
 
-In **mature oligodendrocytes**, the response to mtDNA damage evolved from a primarily stress-adaptive state at 21 days toward a pronounced immune–metabolic activation at 60 days. Early upregulation of canonical *ISR^mt* genes such as *Atf5*, *Cdkn1a (p21)*, *Trib3*, and *Gdf15* indicated engagement of integrated stress signaling and proteostasis control. By 60 days, additional induction of *Cd68*, *Gpnmb*, *Cst7*, and *Igfbp3* reflected a transition toward a reactive, secretory phenotype, coupling sustained ISR activation to lysosomal and cytokine pathways.
+In mature oligodendrocytes, the response to mtDNA damage evolved from a primarily **stress-adaptive program at P21** toward a broad **immune–metabolic activation by P60**. Early induction of canonical *ISR^mt* genes — *Atf5*, *Cdkn1a (p21)*, *Trib3*, and *Gdf15* — signified engagement of the integrated stress response (ISR) and proteostasis control. At later stages, upregulation of *Cd68*, *Gpnmb*, *Cst7*, and *Igfbp3* indicated a transition toward a reactive, secretory phenotype coupling sustained ISR activation to lysosomal and cytokine signaling (Fig. 3A).  
 
-**Microglia** mirrored this trajectory, with mtDSB exposure driving progressive upregulation of *Cd74*, *Cst7*, *Cybb*, and *H2-Ab1* — markers of antigen presentation, phagocytic remodeling, and oxidative stress defense — consistent with a shift toward a disease-associated microglial (DAM)-like state.
+**Microglia** mirrored this progressive trajectory (Fig. 3B). mtDSB exposure led to strong induction of *Cd74*, *Cst7*, *Cybb*, and *H2-Ab1*, genes associated with antigen presentation, phagocytic remodeling, and oxidative stress defense, consistent with the emergence of a **disease-associated microglial (DAM)-like state** that parallels the oligodendrocyte stress phenotype.
 
-![Mature oligodendrocytes](/results/figures/Mature_oligodendrocytes_21w_vs_60w.png)  
+**Astrocytes** displayed a regionally distinct pattern of transcriptional adaptation. In the **olfactory region**, astrocytes exhibited a robust ISR- and cytokine-like profile, marked by *Gdf15*, *Trib3*, *Cd40*, and *Serpina3n* induction (Fig. 3C), suggesting the propagation of metabolic stress and inflammatory cues within local glial networks. In contrast, **telencephalic astrocytes** mounted a comparatively modest response characterized by weak *Atf5* and *Cd40* upregulation with limited immune activation (Fig. 3D).
+
+**OPCs** were the least perturbed population (Fig. 3E). While mild increases in *Gdf15*, *Cd40*, and *Trib3* indicated partial ISR engagement, expression of differentiation and myelin-associated genes remained largely stable, suggesting relative resistance of precursor cells to mtDNA damage–induced stress.
+
+Collectively, these results delineate a **hierarchical and age-dependent glial stress response** to oligodendrocyte mitochondrial dysfunction. Mature oligodendrocytes and microglia undergo the strongest transcriptional reprogramming, characterized by ISR activation and immune-metabolic coupling, whereas astrocytes and OPCs exhibit graded and region-specific sensitivity. The progression from P21 to P60 thus reflects both the chronicity of mitochondrial stress and the degree of metabolic interdependence across the glial landscape.
+
+---
+
+### **Figure 3. Cell type–specific responses to oligodendrocyte mtDNA damage**
+
+**(A)** Differential expression in mature oligodendrocytes highlights early ISR activation (*Atf5*, *Cdkn1a*, *Trib3*, *Gdf15*) and late immune–metabolic remodeling (*Cd68*, *Gpnmb*, *Cst7*, *Igfbp3*).  
+![Mature oligodendrocytes](/results/figures/Mature_oligodendrocytes_21w_vs_60w.png)
+
+**(B)** Microglial transcriptional profiles reveal a DAM-like response marked by *Cd74*, *Cst7*, *Cybb*, and *H2-Ab1*.  
 ![Microglia](/results/figures/Microglia_21w_vs_60w.png)
 
-**Astrocytes** exhibited region-dependent transcriptional adaptation. Olfactory astrocytes displayed a robust ISR- and cytokine-like profile — with *Gdf15*, *Trib3*, *Cd40*, and *Serpina3n* among the most consistently upregulated genes — suggesting metabolic stress propagation within local glial networks. In contrast, telencephalon astrocytes mounted a more limited response, characterized mainly by low-level *Atf5* and *Cd40* induction and minimal inflammatory activation.
+**(C)** Olfactory astrocytes display strong ISR and cytokine signatures (*Gdf15*, *Trib3*, *Cd40*, *Serpina3n*).  
+![Olfactory astrocytes](/results/figures/Olfactory_astrocytes_21w_vs_60w.png)
 
-**OPCs** showed the weakest transcriptional perturbation, maintaining stable expression of differentiation and myelination genes with only minor increases in *Gdf15*, *Cd40*, and *Trib3*. This indicates partial engagement of mitochondrial stress signaling without a full reactive transition, suggesting lineage-specific resilience to mtDNA damage.
+**(D)** Telencephalic astrocytes show limited activation restricted to *Atf5* and *Cd40*.  
+![Telencephalon astrocytes](/results/figures/Telencephalon_astrocytes_21w_vs_60w.png)
 
-![Olfactory astrocytes](/results/figures/Olfactory_astrocytes_21w_vs_60w.png)  
-![Telencephalon astrocytes](/results/figures/Telencephalon_astrocytes_21w_vs_60w.png)  
+**(E)** OPCs maintain stable differentiation programs with mild induction of stress genes (*Gdf15*, *Cd40*, *Trib3*).  
 ![Oligodendrocyte precursor cells](/results/figures/Oligodendrocytes_precursor_cells_21w_vs_60w.png)
 
-Overall, these analyses highlight a hierarchical and age-dependent glial response to oligodendrocyte mitochondrial dysfunction: mature oligodendrocytes and microglia undergo the most extensive reprogramming, while astrocytes and OPCs show graded, region-specific sensitivity. The spread and intensity of transcriptional change thus reflect both the chronicity of mitochondrial stress and the degree of intercellular coupling across the glial landscape.
+
+<!-- 4-integrated-stress-reponse-pathway.md -->
+
+## 4. Zeroing in on ISR and UPR activation in oligodendrocytes following mtDNA double-strand breaks
+
+Induction of mitochondrial DNA double-strand breaks (mtDSBs) in oligodendrocytes triggered a pronounced activation of the **integrated stress response (ISR)** and **unfolded protein response (UPR)**, with clear **age-dependent intensity and cell-type specificity**.
+
+When mtDSBs were induced at **postnatal day 21 (P21)**—a developmental stage when oligodendrocyte differentiation and active myelination are still ongoing—the ISR/UPR signature was **modest and transient**, largely restricted to a small set of transcripts such as *Trib3* and *Cdkn1a*.  
+This pattern suggests that early, still-maturing oligodendrocytes can buffer mitochondrial perturbation through adaptive ISR activation without widespread proteostatic failure.
+
+In contrast, when mtDSBs were induced at **P60**, when oligodendrocytes are fully mature and responsible for maintaining established myelin, we observed a **broad and coordinated upregulation** of canonical ISR and UPR mediators including *Atf4*, *Atf5*, *Ddit3 (Chop)*, *Hspa5 (BiP)*, *Hspd1*, *Hmox1*, *Ero1lb*, and *Sod2*.  
+The response was most pronounced in mature oligodendrocytes, with *Trib3*, *Cdkn1a*, and *Atf5* among the top-induced genes, indicating sustained **ATF4-driven transcriptional remodeling** and possible **feedback inhibition of mTOR signaling**.  
+This reflects a developmental transition from **transient ISR activation at P21** to a **chronic, maladaptive stress state at P60**, characterized by reduced global translation and selective induction of stress effectors.
+
+Together, these findings suggest that the **timing of mitochondrial DNA damage relative to the myelination stage critically shapes the ISR/UPR response**.  
+Mature, myelin-maintaining oligodendrocytes exhibit **heightened vulnerability**, with persistent ISR/UPR activation that may compromise proteostasis, lipid synthesis, and long-term myelin integrity.
+
+---
+
+### **Figure 5. Age-dependent activation of ISR and UPR pathways in oligodendrocytes**
+
+**(A)** Induction of mtDNA double-strand breaks at postnatal day 21 (P21) leads to mild ISR/UPR activation dominated by *Trib3* and *Cdkn1a*, consistent with transient stress adaptation.  
+**(B)** Induction at P60 elicits strong upregulation of canonical ISR/UPR effectors (*Atf4*, *Atf5*, *Ddit3*, *Hspa5*, *Hspd1*, *Hmox1*, *Ero1lb*, *Sod2*), indicating a chronic stress phenotype and potential translational repression.  
+**(C)** The developmental timing of mtDNA damage determines whether oligodendrocytes engage adaptive versus maladaptive proteostatic remodeling.
+![ISR and UPR activation at P21](/results/figures/pathway_ISR_UPR_age21.png)
+![ISR and UPR activation at P60](/results/figures/pathway_ISR_UPR_age60.png)
 
 
-<!-- 4-transcript-driven-compartment-analysis.md -->
+<!-- 5-transcript-driven-compartment-analysis.md -->
 
 ## 4. Spatial domain discovery and compartment calling
 
-To define spatial compartments within the mtDSB tissues, we utilized a previously established **read-based domain discovery workflow**. This pipeline operates directly on the Xenium-derived per-cell transcriptomes while preserving spatial context. In brief, for each sample, we generated a “pseudobinned” expression matrix by aggregating each cell’s transcript counts with those of its spatial neighbors (typically the 20 nearest cells determined by Squidpy). This local neighborhood summation smooths single-cell variability into spatially coherent expression patches while retaining cell-level metadata and coordinates.
+To define spatial compartments within the mtDSB tissues, we utilized a previously established **read-based domain discovery workflow**, implemented in Python. This pipeline operates directly on the Xenium-derived per-cell transcriptomes while preserving spatial context.  
 
-Following pseudobinning, low-count cells were filtered, and the resulting objects were embedded using a standard Scanpy workflow involving PCA, nearest-neighbor graph construction, and UMAP. Spatial domains were then identified by unsupervised community detection (Leiden or Louvain clustering) across a range of resolutions. Each resulting cluster—termed a **read-based domain (RBD)**—represents a transcriptionally defined, spatially contiguous compartment. These compartments were then annotated using the **Allen Brain Reference Atlas** based on their spatial localization and transcriptional identity.
+In brief, for each sample, we generated a *pseudobinned* expression matrix by aggregating each cell’s transcript counts with those of its spatial neighbors (typically the **20 nearest cells**, determined using **Squidpy**). This local neighborhood summation smooths cell-to-cell variability into spatially coherent transcriptional patches while retaining cell-level metadata and coordinates.  
 
-In total, we identified **27 distinct anatomical and transcriptional compartments** spanning both gray and white matter regions, including the **cortex (layers I–VI and subplate), caudoputamen, thalamic nuclei, hypothalamus, hippocampal formation, dentate gyrus, olfactory areas, pallidum, and striatal ventral regions**, as well as several vascular and fiber tract–associated domains (e.g., **cortical and parenchymal vasculature, corticospinal tracts, and fiber tracts I–II**). Additional compartments were annotated at the **meningeal border/glia limitans** and **ventricular system**, along with a small number of **unclassified (unknown) transcriptional clusters**.  
+Following pseudobinning, low-count cells were filtered, and the resulting objects were embedded using a standard **Scanpy** workflow involving principal component analysis (PCA), neighborhood graph construction, and **UMAP** embedding. Spatial domains were then identified by **unsupervised community detection** (Leiden or Louvain clustering) across a range of resolutions. Each resulting cluster—termed a **read-based domain (RBD)**—represents a transcriptionally defined, spatially contiguous compartment.  
 
-This approach enabled the systematic identification of **spatially organized transcriptional compartments** within the mouse brain. By applying the same analysis to tissues in which mtDNA double-strand breaks were induced at **postnatal day 21 (P21)** versus **postnatal day 60 (P60)**, we could directly compare the emergence and composition of these domains between developing (actively myelinating) and mature (myelin-maintaining) oligodendrocyte environments.
-![Compartments](/results/figures/compartments.png)
+These domains were subsequently annotated using the **Allen Brain Reference Atlas**, integrating both their spatial localization and transcriptional signatures.  
 
+In total, we identified **27 distinct anatomical and transcriptional compartments** spanning both gray and white matter regions, including the **cortex (layers I–VI and subplate)**, **caudoputamen**, **thalamic nuclei**, **hypothalamus**, **hippocampal formation**, **dentate gyrus**, **olfactory areas**, **pallidum**, and **striatal ventral regions**. Additional compartments corresponded to **vascular and fiber tract–associated regions** (e.g., cortical vasculature, parenchymal vasculature, corticospinal tracts, and fiber tracts I–II), as well as border regions such as the **meningeal/glia limitans** and **ventricular system**. A small number of **unclassified (unknown)** domains likely represent transitional or low-density areas.  
 
-<!-- 5-integrated-stress-reponse-pathway.md -->
+By applying the same read-based analysis to tissues in which mtDNA double-strand breaks were induced at **postnatal day 21 (P21)** versus **postnatal day 60 (P60)**, we could directly compare the emergence and composition of these domains between the **developing (actively myelinating)** and **mature (myelin-maintaining)** oligodendrocyte environments. This revealed that the global spatial organization of transcriptional compartments remains largely conserved, although local cellular composition and stress gene enrichment vary markedly between developmental stages.
 
-## 5. Zeroing in on ISR and UPR activation in oligodendrocytes following mtDNA double-strand breaks
-Induction of mitochondrial DNA double-strand breaks (mtDSBs) in oligodendrocytes triggered a pronounced activation of the integrated stress response (ISR) and unfolded protein response (UPR), with age-dependent intensity and cell-type specificity. 
+---
 
-When mtDSBs were induced at **postnatal day 21 (P21)**—a developmental stage when oligodendrocyte differentiation and active myelination are still ongoing—the ISR/UPR signature was modest and largely restricted to a limited set of transcripts such as *Trib3* and *Cdkn1a*. This suggests that the early, still-maturing oligodendrocytes can transiently buffer mitochondrial perturbation through adaptive ISR activation without widespread proteostatic failure. 
-![Compartments](/results/figures/pathway_ISR_UPR_age21.png)
-In contrast, when mtDSBs were induced at **P60**, when oligodendrocytes are fully mature and responsible for maintaining established myelin, there was a broad and coordinated upregulation of canonical ISR and UPR mediators (*Atf4*, *Atf5*, *Ddit3/Chop*, *Hspa5/BiP*, *Hspd1*, *Hmox1*, *Ero1lb*, *Sod2*). The response was most pronounced in mature oligodendrocytes, with *Trib3*, *Cdkn1a*, and *Atf5* among the top-induced genes, indicating sustained ATF4-driven transcriptional remodeling and possible feedback inhibition of mTOR signaling. This pattern reflects a transition from **transient ISR activation at P21** to a **chronic, maladaptive stress state at P60**, characterized by reduced global translation and selective induction of stress effectors. 
-![Compartments](/results/figures/pathway_ISR_UPR_age60.png)
-Together, these findings suggest that the **timing of mtDNA damage relative to the myelination stage critically shapes the ISR/UPR response**, with mature myelinating oligodendrocytes showing heightened sensitivity that may compromise proteostasis, lipid synthesis, and myelin maintenance.
+### **Figure 4. Spatial domain discovery and anatomical compartmentalization**
+
+**(A)** Overview of the read-based domain (RBD) discovery workflow combining pseudobinning, dimensionality reduction, and community detection to resolve transcriptionally contiguous regions.  
+**(B)** Spatial compartment map showing 27 distinct anatomical and transcriptional domains identified across Xenium mtDSB tissue sections. Major regions correspond to cortical layers, subcortical nuclei, fiber tracts, and vascular or meningeal compartments.  
+![Spatial compartments](/results/figures/compartments.png)
+**(C)** Comparison of P21 versus P60 mtDSB tissues highlights conserved large-scale organization but altered composition and stress gene enrichment within specific compartments.
