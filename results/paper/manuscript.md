@@ -180,18 +180,21 @@ White-matter and metabolically active regions, particularly the **thalamus, hypo
 **Oligodendrocyte Precursor Cells (OPCs)**  
 ![OPCs](/results/figures/region_fingerprints_by_age/Oligodendrocyte_Precursor_Cells_activation_by_age.png)
 
-### Neural stem cells: indirect sensing of mitochondrial dysfunction in the ventricular niche
 
-Although mitochondrial DNA damage was restricted to oligodendrocytes, **neural stem cells (NSCs)** within the **ventricular system** exhibited one of the most striking secondary transcriptional responses across all analyzed cell types.  
-At **P21**, their activation was minimal and largely confined to stress-adaptive and barrier-associated transcripts (*Cldn10, Gpc4, Tsc22d3*), consistent with a **homeostatic response** to subtle metabolic perturbations in the surrounding tissue.  
+<!-- 7-neural-stem-cells-mount-proliferative-reponse.md -->
 
-By **P60**, however, the same ventricular niche showed a **robust and coordinated transcriptional activation** dominated by **cell cycle regulators and neurogenic transcription factors** (*Ccna2, Dlx2, Mki67, Myt1, Meis2, Dcx, Stmn4, Sox1–4*).  
-This pattern is emblematic of a **latent progenitor reawakening or pseudo-neurogenic activation**, occurring despite the absence of direct mtDNA lesions in these cells.  
+### 7. Neural stem cells mount a proliferative and neurogenic response to oligodendrocyte-restricted mitochondrial stress
+Although mitochondrial double-strand breaks (mtDSBs) were induced specifically in oligodendrocytes, we observed a striking, non–cell-autonomous response in ventricular-zone neural stem cells (NSCs). At postnatal day 21 (P21), NSCs in the ventricular system showed only a modest and spatially confined activation signature, with upregulation of stress/adaptive and barrier-associated genes (e.g. *Cldn10, Gpc4, Tsc22d3*). This suggests that at early time points, the niche registers the disturbance but does not yet undergo a major state transition.
 
-We interpret this as evidence that **adult NSCs are metabolically and paracrinely sensitive to glial mitochondrial stress**. Signals originating from mtDSB-affected oligodendrocytes—potentially involving lactate, cytokines, or ISR-related factors—appear to propagate to the ventricular niche, triggering a **reactive proliferation-like transcriptional state**.  
-Thus, the NSC compartment behaves as a **sensor of the metabolic and inflammatory milieu**, translating glial mitochondrial dysfunction into a regenerative-like transcriptional response.
+By postnatal day 60 (P60), however, ventricular NSCs displayed one of the strongest regional activation indices of any population in the dataset. The response at this stage was dominated by coordinated induction of canonical cell cycle drivers and neurogenic competence factors — including *Ccna2*, *Mki67*, *Myt1*, *Dlx2*, *Dlx5*, *Arx*, *Stmn4*, *Sox1–Sox4*, *Dcx*, and *Tubb2b* — along with chromatin and transcriptional regulators associated with lineage priming and neuroblast output (*Gad1/2*, *Foxg1*, *Lmx1b*, *Lef1*, *Cux2*, *Hist2h2bb*). Many of these genes showed large positive log₂ fold-changes (often >2) with extremely strong statistical support (adjusted p-values <1e-10), indicating a global, niche-wide transcriptional shift rather than sporadic outliers.
+
+Two features stand out. First, this program is not a generic inflammatory response; it looks like a “reactivation” profile, with proliferation markers (*Mki67, Ccna2*), proneurogenic TFs (*Dlx2, Dlx5, Arx, Foxg1*), neuronal lineage commitment markers (*Dcx, Gad1/2*), cytoskeletal/neuroblast motility factors (*Stmn4, Tubb2b*), and synapse/axon remodeling genes (*Syp, Map1b, Plxna3*) all induced together. Second, this happens despite the fact that NSCs are not the cells carrying mtDNA damage. Instead, they appear to be responding to a chronically altered environment created by stressed oligodendrocytes and associated glia.
+
+We interpret this as evidence that the ventricular stem cell niche is sensing and integrating long-range stress cues originating from mtDSB-bearing oligodendrocytes in distant white-matter tracts. By P60 — when oligodendrocytes have transitioned into a persistent ISR/mTOR-inhibited, immune-alert state — NSCs respond as though the tissue requires repair: they upregulate proliferation programs, neurogenic lineage factors, and early neuronal specification modules. In other words, mitochondrial injury in oligodendrocytes is sufficient to broadcast a “damage / remodel” signal to neural stem cells, pushing the adult ventricular niche toward a regenerative-like, pro-neurogenic state.
+
+This implies that white-matter mitochondrial stress is not cell-autonomous. It is sensed at the systems level, and one of the earliest responders outside the oligodendrocyte lineage is the ventricular stem cell compartment.
 
 ---
-
-**Figure. Neural stem cells: regional activation fingerprints by age**  
+**Figure 7. Neural stem cells: regional activation fingerprints by age**  
+![Neural stem cells](/results/figures/Neural_Stem_Cells_Ventricular_system_21vs60.png)
 ![Neural stem cells](/results/figures/region_fingerprints_by_age/Neural_Stem_Cells_activation_by_age.png)

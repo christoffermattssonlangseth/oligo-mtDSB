@@ -31,19 +31,3 @@ White-matter and metabolically active regions, particularly the **thalamus, hypo
 
 **Oligodendrocyte Precursor Cells (OPCs)**  
 ![OPCs](/results/figures/region_fingerprints_by_age/Oligodendrocyte_Precursor_Cells_activation_by_age.png)
-
-### Neural stem cells: indirect sensing of mitochondrial dysfunction in the ventricular niche
-
-Although mitochondrial DNA damage was restricted to oligodendrocytes, **neural stem cells (NSCs)** within the **ventricular system** exhibited one of the most striking secondary transcriptional responses across all analyzed cell types.  
-At **P21**, their activation was minimal and largely confined to stress-adaptive and barrier-associated transcripts (*Cldn10, Gpc4, Tsc22d3*), consistent with a **homeostatic response** to subtle metabolic perturbations in the surrounding tissue.  
-
-By **P60**, however, the same ventricular niche showed a **robust and coordinated transcriptional activation** dominated by **cell cycle regulators and neurogenic transcription factors** (*Ccna2, Dlx2, Mki67, Myt1, Meis2, Dcx, Stmn4, Sox1–4*).  
-This pattern is emblematic of a **latent progenitor reawakening or pseudo-neurogenic activation**, occurring despite the absence of direct mtDNA lesions in these cells.  
-
-We interpret this as evidence that **adult NSCs are metabolically and paracrinely sensitive to glial mitochondrial stress**. Signals originating from mtDSB-affected oligodendrocytes—potentially involving lactate, cytokines, or ISR-related factors—appear to propagate to the ventricular niche, triggering a **reactive proliferation-like transcriptional state**.  
-Thus, the NSC compartment behaves as a **sensor of the metabolic and inflammatory milieu**, translating glial mitochondrial dysfunction into a regenerative-like transcriptional response.
-
----
-
-**Figure. Neural stem cells: regional activation fingerprints by age**  
-![Neural stem cells](/results/figures/region_fingerprints_by_age/Neural_Stem_Cells_activation_by_age.png)
