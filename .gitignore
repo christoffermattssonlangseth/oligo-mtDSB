@@ -1,5 +1,6 @@
 # Ignore data directory
 data/
+export/
 
 # Ignore large output files
 *.h5ad
