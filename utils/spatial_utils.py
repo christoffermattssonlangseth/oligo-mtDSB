@@ -209,7 +209,7 @@ def plot_spatial_compact_fast(
                         wspace=0.02, hspace=0.02)
     plt.ion()
     plt.show()
-    return fig
+    return None
 
 
 def plot_spatial_compact(
