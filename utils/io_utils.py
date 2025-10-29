@@ -5,14 +5,45 @@ Do not edit by hand without moving changes back into notebooks.
 Each function below was extracted from exported analysis notebooks.
 """
 
+
 from typing import *
+import os
+import re
+import pathlib
+import tempfile
+import subprocess
+from collections import defaultdict
+
 import numpy as np
 import pandas as pd
 import scanpy as sc
 import anndata as ad
-import matplotlib.pyplot as plt
-from scipy import sparse
+from anndata import AnnData
 
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+from matplotlib.lines import Line2D
+from matplotlib.gridspec import GridSpec
+import matplotlib.colors as mcolors
+from matplotlib.colors import Normalize
+from adjustText import adjust_text
+
+import seaborn as sns
+
+from scipy import sparse
+import scipy.sparse as sp
+from scipy.stats import combine_pvalues, norm
+
+from sklearn.neighbors import radius_neighbors_graph
+
+import squidpy as sq
+import h5py
+from PIL import Image
+
+# pyDESeq2 imports (used in DE helpers)
+from pydeseq2.dds import DeseqDataSet
+from pydeseq2.ds import DeseqStats
+from pydeseq2.inference import DefaultInference
 def filter_low_genes(df_long, min_mean=MIN_MEAN, min_detect=MIN_DET):
     kept = []
     for ct, dfc in df_long.groupby("cell_class"):

@@ -5,11 +5,15 @@ Do not edit by hand without moving changes back into notebooks.
 Each function below was extracted from exported analysis notebooks.
 """
 
+
 from typing import *
 import numpy as np
 import pandas as pd
-import scanpy as sc
+
+# heavy scientific/plotting deps; keep if you want consistent environment
+import scanpy as sc          # not directly used here, but common in QC code
 import anndata as ad
+from anndata import AnnData  # convenience / type hints
 import matplotlib.pyplot as plt
 from scipy import sparse
 

@@ -5,13 +5,35 @@ Do not edit by hand without moving changes back into notebooks.
 Each function below was extracted from exported analysis notebooks.
 """
 
+
 from typing import *
+import math
+import warnings
+
 import numpy as np
 import pandas as pd
-import scanpy as sc
+
+import scanpy as sc          # kept in case downstream calls rely on sc.pl.* wrappers
 import anndata as ad
+from anndata import AnnData
+
+import matplotlib as mpl
 import matplotlib.pyplot as plt
+import matplotlib.cm as cm
+from matplotlib.lines import Line2D
+from mpl_toolkits.axes_grid1 import make_axes_locatable
+
+import seaborn as sns
+
 from scipy import sparse
+import scipy
+import scipy.cluster.hierarchy
+
+# bring in helpers from misc_utils (same package) so this file stands alone
+from .misc_utils import (
+    create_confusion_matrix,
+    get_confusion_order,
+)
 
 def plot_condition_effect_scatter(summary_df, cell_type, top_n=50, save=None):
     # filter one cell type
@@ -478,7 +500,21 @@ def plot_expression_by_condition_grid(
     plt.subplots_adjust(bottom=0.14, left=0.11, right=0.99, top=0.93, wspace=0.25, hspace=0.35)
     plt.show()
 
-def plot_lesion_dynamics_by_model(comp_frac, MODELS, palette):
+def plot_lesion_dynamics_by_model(comp_frac, MODELS, palette, lesion_cols):
+    """
+    Plot lesion fractions over courses for each model.
+
+    Parameters
+    ----------
+    comp_frac : pandas.DataFrame
+        Index = timepoints / courses, columns = compartment/lesion fractions.
+    MODELS : dict
+        {model_name: {"baseline": <t0_label>, "courses": [<t1_label>, ...]}}
+    palette : dict
+        {lesion_name: color}
+    lesion_cols : list-like
+        Which columns of comp_frac are "lesion" compartments to plot.
+    """
     n_models = len(MODELS)
     fig, axes = plt.subplots(1, n_models, figsize=(6*n_models, 5), sharey=True)
     if n_models == 1:
@@ -492,13 +528,18 @@ def plot_lesion_dynamics_by_model(comp_frac, MODELS, palette):
             ax.set_title(f"{model} (no matching courses)")
             continue
 
-        df = comp_frac.loc[idx, lesion_cols]  # <-- restrict to lesions only
+        df = comp_frac.loc[idx, lesion_cols]
 
         # plot each lesion as line
         for comp in df.columns:
-            ax.plot(df.index, df[comp], marker="o",
-                    label=comp, color=palette.get(comp, "#BBBBBB"),
-                    lw=2)
+            ax.plot(
+                df.index,
+                df[comp],
+                marker="o",
+                label=comp,
+                color=palette.get(comp, "#BBBBBB"),
+                lw=2
+            )
 
         ax.set_title(f"{model}")
         ax.set_xlabel("Course")
@@ -508,7 +549,13 @@ def plot_lesion_dynamics_by_model(comp_frac, MODELS, palette):
 
     # single legend outside
     handles, labels = axes[-1].get_legend_handles_labels()
-    fig.legend(handles, labels, title="Lesion", bbox_to_anchor=(1.02, 1), loc="upper left")
+    fig.legend(
+        handles,
+        labels,
+        title="Lesion",
+        bbox_to_anchor=(1.02, 1),
+        loc="upper left"
+    )
     plt.tight_layout()
     plt.show()
 

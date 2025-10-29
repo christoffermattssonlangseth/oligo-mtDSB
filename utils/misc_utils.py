@@ -5,13 +5,55 @@ Do not edit by hand without moving changes back into notebooks.
 Each function below was extracted from exported analysis notebooks.
 """
 
+"""
+Auto-generated utilities for misc_utils.
+Do not edit by hand without moving changes back into notebooks.
+
+Each function below was extracted from exported analysis notebooks.
+"""
+
 from typing import *
+import os
+import re
+import glob
+from collections import defaultdict
+
 import numpy as np
 import pandas as pd
+
 import scanpy as sc
 import anndata as ad
+from anndata import AnnData
+
+import matplotlib as mpl
 import matplotlib.pyplot as plt
+from matplotlib.lines import Line2D
+from matplotlib.gridspec import GridSpec
+from matplotlib.colors import Normalize
+import matplotlib.colors as mcolors
+
+import seaborn as sns
+from adjustText import adjust_text
+
 from scipy import sparse
+import scipy.sparse as sp
+from scipy.spatial import Delaunay
+from scipy.stats import norm, combine_pvalues
+from statsmodels.stats.multitest import multipletests
+
+from sklearn.neighbors import radius_neighbors_graph
+
+from skimage.draw import polygon2mask
+from skimage.morphology import binary_closing
+from skimage.measure import find_contours
+from shapely.geometry import Polygon  # for generate_smoothed_alpha_polygon
+
+import pymc as pm
+import arviz as az
+
+from pydeseq2.dds import DeseqDataSet
+from pydeseq2.ds import DeseqStats
+from pydeseq2.inference import DefaultInference
 
 def _as_csr(X):
     if sp.issparse(X):
