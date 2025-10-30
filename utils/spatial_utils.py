@@ -45,6 +45,15 @@ def plot_spatial_compact_fast(
     If `color` is an obs column -> categorical plot with legend.
     If `color` is a gene present in ad.var_names (or ad.raw.var_names) -> continuous plot with colorbar.
     """
+    import numpy as np
+    import matplotlib.pyplot as plt
+    import matplotlib as mpl
+    import matplotlib.colors as mcolors
+    from matplotlib.lines import Line2D
+    from matplotlib.gridspec import GridSpec
+    import scanpy as sc
+    import scipy.sparse as sp
+
     # 0) Preconditions ---------------------------------------------------------
     if "spatial" not in ad.obsm:
         raise ValueError("ad.obsm['spatial'] is required.")
@@ -98,24 +107,20 @@ def plot_spatial_compact_fast(
             if hasattr(base_map, "colors"):
                 base = list(base_map.colors)
             else:
-                # fallback to scanpy palettes if tab20 weird
                 base = list(sc.pl.palettes.default_64
                             if hasattr(sc.pl.palettes, "default_64")
                             else sc.pl.palettes.default_102)
             reps = int(np.ceil(len(cat_names) / len(base)))
             col_list = (base * reps)[:len(cat_names)]
 
-        # store for consistency
         ad.uns[f"{color}_colors"] = col_list
 
-        # fast RGBA lookup
         rgba = np.array([mcolors.to_rgba(c) for c in col_list], dtype=float)
         colors_arr = np.empty((cat_codes.size, 4), dtype=float)
         mask_valid = cat_codes >= 0
         colors_arr[mask_valid] = rgba[cat_codes[mask_valid]]
-        colors_arr[~mask_valid] = (0, 0, 0, 0)  # transparent for NA
+        colors_arr[~mask_valid] = (0, 0, 0, 0)
 
-        # panels
         for i, sid in enumerate(uniq_groups):
             r, c = divmod(i, cols)
             ax = fig.add_subplot(gs[r, c])
@@ -136,12 +141,10 @@ def plot_spatial_compact_fast(
                 ax.invert_yaxis()
             ax.set_axis_off()
 
-        # blank unused
         for j in range(n, rows * cols):
             r, c = divmod(j, cols)
             fig.add_subplot(gs[r, c]).axis("off")
 
-        # legend column
         ax_leg = fig.add_subplot(gs[:, -1])
         ax_leg.axis("off")
         handles = [
@@ -158,9 +161,16 @@ def plot_spatial_compact_fast(
             expr = ad.raw[:, color].X
         else:
             expr = ad[:, color].X
-        expr = np.asarray(expr).squeeze()  # dense 1D
+
+        # 🔧 FIX: make dense + numeric 1D array
+        if sp.issparse(expr):
+            expr = expr.toarray().ravel()
+        else:
+            expr = np.asarray(expr).astype(float).ravel()
 
         finite = np.isfinite(expr)
+        if not np.any(finite):
+            raise ValueError(f"No finite values found for gene '{color}'.")
         vmin_eff = np.nanmin(expr[finite]) if vmin is None else vmin
         vmax_eff = np.nanmax(expr[finite]) if vmax is None else vmax
         norm = mpl.colors.Normalize(vmin=vmin_eff, vmax=vmax_eff)
@@ -174,7 +184,6 @@ def plot_spatial_compact_fast(
             if idx.size:
                 xy = coords[idx]
                 vals = expr[idx]
-                # mask NaNs -> transparent by alpha
                 alphas = np.where(np.isfinite(vals), 1.0, na_alpha)
                 col_rgba = cmap_obj(norm(np.nan_to_num(vals, nan=vmin_eff)))
                 col_rgba[:, 3] = alphas
@@ -192,12 +201,10 @@ def plot_spatial_compact_fast(
                 ax.invert_yaxis()
             ax.set_axis_off()
 
-        # blank unused
         for j in range(n, rows * cols):
             r, c = divmod(j, cols)
             fig.add_subplot(gs[r, c]).axis("off")
 
-        # colorbar in legend column
         cax = fig.add_subplot(gs[:, -1])
         cax.set_visible(True)
         sm = mpl.cm.ScalarMappable(norm=norm, cmap=cmap_obj)
