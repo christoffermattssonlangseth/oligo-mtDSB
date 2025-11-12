@@ -1,0 +1,13 @@
+group,posterior_mean,posterior_sd,p(>0),p(<0),PEP,qvalue,selected_fdr_0.05,feature,age
+Astrocytes,0.06991272,0.018384945,1.0,0.0,0.0,0.0,True,Gfap,60
+Endocrine Cells,0.197818,0.05795817,1.0,0.0,0.0,0.0,True,Gfap,60
+Microglia,0.07726391,0.01912359,1.0,0.0,0.0,0.0,True,Gfap,60
+Myocytes,0.11168332,0.023138823,1.0,0.0,0.0,0.0,True,Gfap,60
+Neural Stem Cells,0.11862317,0.018395573,1.0,0.0,0.0,0.0,True,Gfap,60
+Neurons,0.05343196,0.011571527,1.0,0.0,0.0,0.0,True,Gfap,60
+Oligodendrocyte Precursor Cells,0.05219129,0.011967624,1.0,0.0,0.0,0.0,True,Gfap,60
+Oligodendrocytes,0.06163562,0.010345334,1.0,0.0,0.0,0.0,True,Gfap,60
+Medium Spiny Neurons,0.02128052,0.00994856,0.973,0.027,0.027,0.003,True,Gfap,60
+Endothelial Cells,0.048157234,0.029376127,0.953,0.047,0.047,0.0073999999999999995,True,Gfap,60
+Excitatory Neurons,0.014598413,0.013310887,0.861,0.139,0.139,0.019363636363636364,True,Gfap,60
+GABAergic Neurons,0.020969434,0.020686794,0.848,0.152,0.152,0.030416666666666665,True,Gfap,60
