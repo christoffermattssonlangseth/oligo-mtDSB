@@ -4,8 +4,9 @@
 </p>
 This project investigates the consequences of double-stranded breaks (DSBs) in mitochondrial DNA (mtDNA) of oligodendrocytes using a genetically engineered mouse model. Xenium is applied to capture cellular and regional responses to mtDNA damage in the CNS.  
 
-## Link to original publication and thesis
-Link: https://pmc.ncbi.nlm.nih.gov/articles/PMC5647772/ and https://scholarship.miami.edu/view/pdfCoverPage?instCode=01UOML_INST&filePid=13386228880002976&download=true
+## Background references
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC5647772/
+- https://scholarship.miami.edu/view/pdfCoverPage?instCode=01UOML_INST&filePid=13386228880002976&download=true
 
 
 ## Project Overview  
@@ -15,14 +16,22 @@ Link: https://pmc.ncbi.nlm.nih.gov/articles/PMC5647772/ and https://scholarship.
 - **Goal**: Define how mtDNA integrity impacts oligodendrocyte biology and contributes to neuroinflammation and MS-like pathology  
 
 ## Repository Structure  
-- `notebooks/` – analysis workflows (QC, clustering, differential expression, spatial mapping)  
+- `notebooks-01/` – initial analysis workflows (QC, clustering, DE, spatial mapping)  
+- `notebooks-02/` – follow-up analyses and validation  
+- `notebooks-03/` – nuclei data exploration  
+- `results/paper/` – manuscript drafts and figure text  
+- `assets/` – figures and static media  
+- `data/` – inputs (kept minimal in repo)  
+- `exports/` – exported tables and plots  
+- `logs/` – run logs and diagnostics  
+- `utils/` – helper scripts  
+- `utils_builder.ipynb` – utilities notebook
 
 ## 🔄 Updates
 1. 🧩 **Cluster annotation** completed at *leiden* resolution 2.  
 2. 🗺️ **Anatomical compartments** have been defined and annotated.  
 3. 📊 **Differentially expressed genes (DEGs)** identified across both **condition** and **time**.  
 
-## Preliminary findings:🧬 Mitochondrial DNA Damage and Oligodendrocyte Stress Programs
 ## 🧬 Preliminary findings: Mitochondrial DNA Damage and Oligodendrocyte Stress Programs
 
 In this project, we investigate how mitochondrial DNA double-strand breaks (mtDSBs) affect oligodendrocytes (OLs) and their surrounding microenvironment. Our analysis reveals that OLs exposed to mtDNA damage do not simply undergo cell death but instead activate a **coordinated multi-pathway stress and communication program**, combining cell-intrinsic adaptation with extracellular signaling.
@@ -43,7 +52,7 @@ In this project, we investigate how mitochondrial DNA double-strand breaks (mtDS
 
 Mitochondrial DNA double-strand breaks (mtDSBs) in oligodendrocytes trigger a coordinated, cell type–specific transcriptional reprogramming across the CNS. Differential gene expression analysis revealed broad activation of the **integrated stress response (ISR)**, **cytokine and inflammatory signaling**, and **metabolic/mitochondrial remodeling**. Mature oligodendrocytes and microglia exhibited the strongest responses, characterized by upregulation of *Atf5*, *Trib3*, *Cdkn1a*, *Cst7*, *Cd40*, and *Gdf15*, reflecting a transition from mitochondrial stress adaptation to chronic immune activation. Astrocytes showed region-dependent engagement, with olfactory astrocytes mirroring the oligodendrocyte ISR signature, while telencephalic astrocytes and OPCs displayed more constrained transcriptional shifts.  
 
-At later stages, oligodendrocytes developed a **mitokine-like secretome**, prominently featuring *Gdf15*, *Adm*, *Cst7*, and *Serpina3n*, suggesting active communication of mitochondrial distress to neighboring glia. This paracrine signaling likely underlies the widespread inflammatory and metabolic reprogramming observed in astrocytes and microglia, linking oligodendrocyte mitochondrial dysfunction to non–cell-autonomous glial activation and CNS remodeling. 📖 **Read more:** [Detailed on DGE analysis](results/preliminary-results/2-agexcondition-glia.md)
+At later stages, oligodendrocytes developed a **mitokine-like secretome**, prominently featuring *Gdf15*, *Adm*, *Cst7*, and *Serpina3n*, suggesting active communication of mitochondrial distress to neighboring glia. This paracrine signaling likely underlies the widespread inflammatory and metabolic reprogramming observed in astrocytes and microglia, linking oligodendrocyte mitochondrial dysfunction to non–cell-autonomous glial activation and CNS remodeling. 📖 **Read more:** [Detailed on DGE analysis](results/paper/3-agexcondition-glia.md)
 
 ---
 

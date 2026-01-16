@@ -8,90 +8,341 @@ Each function below was extracted from exported analysis notebooks.
 from typing import *
 import os
 
+"""
+Spatial plotting + ordering utilities for RRMap / EAE projects.
+"""
+
+import warnings
+warnings.filterwarnings("ignore")
+
+from typing import Iterable, Optional, Union
+
 import numpy as np
 import pandas as pd
-
 import scanpy as sc
 
 import matplotlib.pyplot as plt
-import matplotlib as mpl
-import matplotlib.colors as mcolors
-from matplotlib.lines import Line2D
 from matplotlib.gridspec import GridSpec
-from matplotlib.colors import Normalize
+from matplotlib.lines import Line2D
+from matplotlib import colors as mcolors
 
-import scipy.sparse as sp
+from pandas.api.types import is_numeric_dtype, is_categorical_dtype
+from scipy.sparse import issparse
+from anndata import AnnData
 
+
+# ------------------------------------------------------------------
+# 1) Global ordering: course + region
+# ------------------------------------------------------------------
+
+COURSE_ORDER = [
+    "MOG CFA",
+    "early onset",
+    "chronic peak",
+    "chronic long",
+
+    "PLP CFA",
+    "non symptomatic",
+    "monophasic",
+
+    "onset I",
+    "onset II",
+    "peak I",
+    "remitt I",
+    "peak II",
+    "remitt II",
+    "peak III",
+]
+
+REGION_ORDER = ["L", "T", "C"]
+
+
+def apply_course_region_and_sample_order(
+    ad: AnnData,
+    sample_key: str = "sample_id",
+    course_order: Optional[Iterable[str]] = None,
+    region_order: Optional[Iterable[str]] = None,
+) -> AnnData:
+    """
+    Make ad.obs['course'], ad.obs['region'], and ad.obs[sample_key]
+    ordered categoricals based on (course, region, sample_id).
+
+    Stores the ordered sample IDs in:
+        ad.uns[f"{sample_key}_order_by_course_region"].
+
+    Parameters
+    ----------
+    ad
+        AnnData object with obs columns 'course', 'region', and `sample_key`.
+    sample_key
+        Name of the sample column in ad.obs.
+    course_order
+        Optional custom ordering for 'course'. If None, uses COURSE_ORDER.
+    region_order
+        Optional custom ordering for 'region'. If None, uses REGION_ORDER.
+
+    Returns
+    -------
+    AnnData
+        The same object, modified in-place and also returned for convenience.
+    """
+    if course_order is None:
+        course_order = COURSE_ORDER
+    if region_order is None:
+        region_order = REGION_ORDER
+
+    # --- course ---
+    if "course" in ad.obs.columns:
+        ad.obs["course"] = ad.obs["course"].astype(
+            pd.CategoricalDtype(categories=list(course_order), ordered=True)
+        )
+
+    # --- region ---
+    if "region" in ad.obs.columns:
+        ad.obs["region"] = ad.obs["region"].astype(
+            pd.CategoricalDtype(categories=list(region_order), ordered=True)
+        )
+
+    # --- sample_id ordered by (course, region, sample_id) ---
+    if (
+        sample_key in ad.obs.columns
+        and "course" in ad.obs.columns
+        and "region" in ad.obs.columns
+    ):
+        tmp = (
+            ad.obs[[sample_key, "course", "region"]]
+            .drop_duplicates()
+            .dropna(subset=["course", "region"])
+            .copy()
+        )
+
+        tmp["course"] = tmp["course"].astype(
+            pd.CategoricalDtype(categories=list(course_order), ordered=True)
+        )
+        tmp["region"] = tmp["region"].astype(
+            pd.CategoricalDtype(categories=list(region_order), ordered=True)
+        )
+
+        tmp = tmp.sort_values(["course", "region", sample_key])
+        sample_order = tmp[sample_key].tolist()
+
+        ad.obs[sample_key] = ad.obs[sample_key].astype(
+            pd.CategoricalDtype(categories=sample_order, ordered=True)
+        )
+
+        ad.uns[f"{sample_key}_order_by_course_region"] = sample_order
+
+    return ad
+
+
+# ------------------------------------------------------------------
+# 2) Compact spatial plot (obs or gene, grouped by sample)
+# ------------------------------------------------------------------
 
 def plot_spatial_compact_fast(
-    ad,
-    color="leiden_2",          # obs column (categorical) OR a gene name
-    groupby="sample_id",
-    spot_size=8,
-    cols=3,
-    height=8,
-    legend_col_width=1.2,
-    palette=None,              # for categorical only: dict {cat:"#hex"} or list
-    rasterized=True,
-    invert_y=True,
-    dpi=120,
-    # --- extra knobs (used when color is a gene) ---
-    cmap="viridis",
-    vmin=None,
-    vmax=None,
-    na_alpha=0.0               # alpha for NaN gene values (0 = fully transparent)
+    ad: AnnData,
+    color: str = "leiden_2",  # obs column *or* gene name
+    groupby: str = "sample_id",
+    spot_size: float = 8,
+    cols: int = 3,
+    height: float = 8,
+    legend_col_width: float = 1.2,
+    palette: Optional[Union[dict, list, str]] = None,
+    rasterized: bool = True,
+    invert_y: bool = True,
+    dpi: int = 120,
+    highlight: Optional[Union[str, Iterable[str]]] = None,
+    group_order: Optional[Iterable[str]] = None,
+    background: str = "white",
+    grey_alpha: float = 0.2,     # alpha for non-highlighted categories
+    vmin: Optional[float] = None,
+    vmax: Optional[float] = None,
+    cmap_name: str = "viridis",
+    shared_scale: bool = False,  # if True: vmin/vmax from whole `ad` (not per subset)
 ):
     """
-    If `color` is an obs column -> categorical plot with legend.
-    If `color` is a gene present in ad.var_names (or ad.raw.var_names) -> continuous plot with colorbar.
-    """
-    import numpy as np
-    import matplotlib.pyplot as plt
-    import matplotlib as mpl
-    import matplotlib.colors as mcolors
-    from matplotlib.lines import Line2D
-    from matplotlib.gridspec import GridSpec
-    import scanpy as sc
-    import scipy.sparse as sp
+    Compact faceted spatial plot, one panel per group (e.g. sample_id),
+    for either an obs column or a gene.
 
-    # 0) Preconditions ---------------------------------------------------------
+    - Handles continuous (gene / numeric obs) and categorical obs.
+    - Respects ordered categoricals in `groupby` if present.
+    - Can share color scale across all panels (shared_scale=True).
+    - Writes color settings into `ad.uns[f"{color}_continuous"]` (continuous)
+      or `ad.uns[f"{color}_colors"]` (categorical).
+
+    Parameters
+    ----------
+    ad
+        AnnData with `ad.obsm['spatial']`.
+    color
+        Name of an obs column (categorical or continuous) or a gene.
+    groupby
+        obs column to facet by (e.g. 'sample_id').
+    spot_size
+        Size of scatter markers.
+    cols
+        Number of columns in the panel grid.
+    height
+        Overall figure height (in inches).
+    legend_col_width
+        Width allocated for the legend / colorbar column.
+    palette
+        For categorical obs: dict {category -> color}, list of colors,
+        or name of a matplotlib colormap. If None, uses default Scanpy palette.
+    rasterized
+        Rasterize the scatter artists (good for large ST plots).
+    invert_y
+        If True, invert y-axis to match image coordinates.
+    dpi
+        Figure DPI.
+    highlight
+        For categorical obs: value or list of values to highlight.
+        Non-highlighted categories are greyed out (alpha=grey_alpha).
+    group_order
+        Optional manual ordering of groups in `groupby`.
+    background
+        Figure and axes background color.
+    grey_alpha
+        Alpha for non-highlighted categories in categorical mode.
+    vmin, vmax
+        If provided, overrides automatic min/max for continuous color.
+    cmap_name
+        Name of colormap for continuous mode (or if `palette` is str).
+    shared_scale
+        If True, compute vmin/vmax globally across the full AnnData
+        for `color`. If False, based on current values only.
+
+    Returns
+    -------
+    None
+        Shows the plot.
+    """
+    # pick background + text color
+    fig_face = background
+    ax_face = background
+    text_color = "white" if background in ("black", "#000000", "k") else "black"
+
+    # ----- 0) Preconditions -----
     if "spatial" not in ad.obsm:
-        raise ValueError("ad.obsm['spatial'] is required.")
+        raise ValueError("ad.obsm['spatial'] not found")
+
+    if groupby not in ad.obs.columns:
+        raise KeyError(f"groupby {groupby!r} not in ad.obs")
+
+    # decide where 'color' comes from: obs vs var (gene)
+    if color in ad.obs.columns:
+        color_source = "obs"
+        col_series = ad.obs[color]
+    elif color in ad.var_names:
+        color_source = "var"   # gene expression
+        col_series = None
+    else:
+        raise KeyError(
+            f"{color!r} not found in ad.obs.columns or ad.var_names "
+            "(expected an obs column or a gene name)."
+        )
 
     coords = np.asarray(ad.obsm["spatial"])[:, :2]
 
-    has_raw = hasattr(ad, "raw") and (ad.raw is not None)
-    is_obs  = color in ad.obs.columns
-    is_gene = (color in ad.var_names) or (has_raw and color in ad.raw.var_names)
+    # Detect continuous vs categorical
+    if color_source == "var":
+        # genes: always continuous
+        is_continuous = True
+    else:
+        if is_categorical_dtype(col_series):
+            is_continuous = False
+        else:
+            is_continuous = is_numeric_dtype(col_series)
 
-    if not (is_obs or is_gene):
-        raise KeyError(f"'{color}' not found as obs column or gene name.")
+    # ----------------------------------------------------
+    # 1) Build colors_arr differently for cont vs cat
+    # ----------------------------------------------------
+    if is_continuous:
+        # ===== CONTINUOUS MODE =====
+        if color_source == "obs":
+            vals = col_series.to_numpy(dtype=float)
+        else:
+            # from var / gene expression
+            gene_idx = ad.var_names.get_loc(color)
+            x = ad.X[:, gene_idx]
+            if issparse(x):
+                vals = x.toarray().ravel()
+            else:
+                vals = np.asarray(x).ravel()
 
-    # 1) Grouping layout -------------------------------------------------------
-    gvals = ad.obs[groupby].astype(str).to_numpy()
-    uniq_groups, gcodes = np.unique(gvals, return_inverse=True)
-    group_indices = [np.flatnonzero(gcodes == gi) for gi in range(len(uniq_groups))]
+        # choose colormap
+        if palette is None:
+            cmap = plt.get_cmap(cmap_name)
+        elif isinstance(palette, str):
+            cmap = plt.get_cmap(palette)
+        else:
+            cmap = palette
 
-    n = len(uniq_groups)
-    rows = int(np.ceil(n / cols))
-    panel_w = height * cols * 0.6 / max(rows, 1)
-    fig_w = panel_w + legend_col_width
+        # ----- determine vmin/vmax -----
+        if shared_scale:
+            # global min/max across the *full AnnData* passed to this function
+            full = ad
+            if color_source == "var":
+                gx = full.X[:, full.var_names.get_loc(color)]
+                if issparse(gx):
+                    full_vals = gx.toarray().ravel()
+                else:
+                    full_vals = np.asarray(gx).ravel()
+            else:
+                full_vals = pd.to_numeric(full.obs[color], errors="coerce").to_numpy()
 
-    plt.ioff()
-    fig = plt.figure(figsize=(fig_w, height), dpi=dpi, constrained_layout=False)
-    gs = GridSpec(
-        rows, cols + 1, figure=fig,
-        width_ratios=[1]*cols + [legend_col_width / max(1e-9, (fig_w - legend_col_width))],
-        wspace=0.02, hspace=0.02
-    )
+            finite_full = np.isfinite(full_vals)
+            if finite_full.sum() == 0:
+                raise ValueError(f"All values for '{color}' are NaN or non-finite.")
+            vmin_use = float(np.min(full_vals[finite_full]))
+            vmax_use = float(np.max(full_vals[finite_full]))
+        else:
+            finite_mask = np.isfinite(vals)
+            if finite_mask.sum() == 0:
+                raise ValueError(f"All values for '{color}' are NaN or non-finite.")
+            vmin_use = float(np.min(vals[finite_mask]))
+            vmax_use = float(np.max(vals[finite_mask]))
 
-    # 2A) Categorical path -----------------------------------------------------
-    if is_obs:
-        cats = ad.obs[color].astype("category")
+        # user overrides everything
+        if vmin is not None:
+            vmin_use = float(vmin)
+        if vmax is not None:
+            vmax_use = float(vmax)
+
+        # avoid zero-range
+        if vmin_use == vmax_use:
+            vmin_use -= 1.0
+            vmax_use += 1.0
+
+        norm = mcolors.Normalize(vmin=vmin_use, vmax=vmax_use)
+
+        colors_arr = np.zeros((vals.size, 4), dtype=float)
+        finite_mask = np.isfinite(vals)
+        colors_arr[finite_mask] = cmap(norm(vals[finite_mask]))
+        colors_arr[~finite_mask] = (0, 0, 0, 0)
+
+        # store continuous settings in uns (also fine for genes)
+        ad.uns[f"{color}_continuous"] = {
+            "vmin": float(vmin_use),
+            "vmax": float(vmax_use),
+            "cmap": cmap.name if hasattr(cmap, "name") else str(cmap),
+        }
+
+        cat_names = None
+        cat_codes = None
+
+    else:
+        # ===== CATEGORICAL (only for obs) =====
+        # preserve existing categorical order if present
+        if is_categorical_dtype(col_series):
+            cats = col_series.cat.remove_unused_categories()
+        else:
+            cats = col_series.astype("category")
+
         cat_names = cats.cat.categories
-        cat_codes = cats.cat.codes.to_numpy()  # -1 for NaN
+        cat_codes = cats.cat.codes.to_numpy()
 
-        # palette
+        # palette handling
         if isinstance(palette, dict):
             col_list = [palette[c] for c in cat_names]
         elif isinstance(palette, (list, tuple)):
@@ -103,120 +354,201 @@ def plot_spatial_compact_fast(
             if len(col_list) != len(cat_names):
                 raise ValueError(f"{color}_colors length != categories.")
         else:
-            base_map = mpl.cm.get_cmap("tab20")
-            if hasattr(base_map, "colors"):
-                base = list(base_map.colors)
-            else:
-                base = list(sc.pl.palettes.default_64
-                            if hasattr(sc.pl.palettes, "default_64")
-                            else sc.pl.palettes.default_102)
+            base = list(
+                sc.pl.palettes.default_64
+                if hasattr(sc.pl.palettes, "default_64")
+                else sc.pl.palettes.default_102
+            )
             reps = int(np.ceil(len(cat_names) / len(base)))
             col_list = (base * reps)[:len(cat_names)]
 
         ad.uns[f"{color}_colors"] = col_list
 
         rgba = np.array([mcolors.to_rgba(c) for c in col_list], dtype=float)
+
         colors_arr = np.empty((cat_codes.size, 4), dtype=float)
-        mask_valid = cat_codes >= 0
-        colors_arr[mask_valid] = rgba[cat_codes[mask_valid]]
-        colors_arr[~mask_valid] = (0, 0, 0, 0)
+        colors_arr[cat_codes >= 0] = rgba[cat_codes[cat_codes >= 0]]
+        colors_arr[cat_codes < 0] = (0, 0, 0, 0)
 
-        for i, sid in enumerate(uniq_groups):
-            r, c = divmod(i, cols)
-            ax = fig.add_subplot(gs[r, c])
-            idx = group_indices[i]
-            if idx.size:
-                xy = coords[idx]
-                ax.scatter(
-                    xy[:, 0], xy[:, 1],
-                    c=colors_arr[idx],
-                    s=spot_size,
-                    marker='o',
-                    linewidths=0,
-                    rasterized=rasterized
-                )
-            ax.set_title(str(sid), fontsize=9, pad=2)
-            ax.set_aspect("equal")
-            if invert_y:
-                ax.invert_yaxis()
-            ax.set_axis_off()
+        # ----- highlighting logic -----
+        if highlight is not None:
+            # allow single value or list/tuple/array
+            if not isinstance(highlight, (list, tuple, set, np.ndarray)):
+                highlight = [highlight]
+            # convert to string for robust matching
+            highlight_str = {str(h) for h in highlight}
 
-        for j in range(n, rows * cols):
-            r, c = divmod(j, cols)
-            fig.add_subplot(gs[r, c]).axis("off")
+            cat_name_str = np.array([str(c) for c in cat_names])
+            keep_cat_mask = np.isin(cat_name_str, list(highlight_str))  # per-category
 
-        ax_leg = fig.add_subplot(gs[:, -1])
-        ax_leg.axis("off")
+            # use user-defined alpha for greyed-out categories
+            grey_rgba = (0.8, 0.8, 0.8, float(grey_alpha))
+
+            valid = cat_codes >= 0
+            keep_flag = np.zeros_like(cat_codes, dtype=bool)
+            keep_flag[valid] = keep_cat_mask[cat_codes[valid]]
+
+            # grey out all non-highlighted cells
+            colors_arr[valid & ~keep_flag] = grey_rgba
+
+            # also grey in legend
+            col_list = [
+                col_list[k] if keep_cat_mask[k] else mcolors.to_hex(grey_rgba)
+                for k in range(len(cat_names))
+            ]
+
+    # ----------------------------------------------------
+    # 2) Precompute group indices (RESPECT ORDERED CATEGORICAL)
+    # ----------------------------------------------------
+    gser = ad.obs[groupby]
+
+    if group_order is not None:
+        group_order = [str(g) for g in group_order]
+        present = set(gser.astype(str))
+        uniq_groups = [g for g in group_order if g in present]
+    else:
+        # if groupby is an ordered categorical, respect its category order
+        if is_categorical_dtype(gser) and gser.cat.ordered:
+            cats = list(gser.cat.categories)
+            present = set(gser.astype(str))
+            uniq_groups = [str(c) for c in cats if str(c) in present]
+        else:
+            # fallback: sorted unique strings
+            uniq_groups = sorted(gser.astype(str).unique())
+
+    gvals = gser.astype(str).to_numpy()
+    gid_to_idx = {g: i for i, g in enumerate(uniq_groups)}
+    gcodes = np.array([gid_to_idx.get(g, -1) for g in gvals], dtype=int)
+
+    group_indices = [np.flatnonzero(gcodes == gi) for gi in range(len(uniq_groups))]
+
+    # ----------------------------------------------------
+    # 3) Figure layout
+    # ----------------------------------------------------
+    n = len(uniq_groups)
+    rows = int(np.ceil(n / cols))
+    panel_w = height * cols * 0.6 / rows
+    fig_w = panel_w + legend_col_width
+
+    plt.ioff()
+    fig = plt.figure(figsize=(fig_w, height), dpi=dpi, constrained_layout=False)
+
+    # background for figure
+    fig.patch.set_facecolor(fig_face)
+
+    gs = GridSpec(
+        rows, cols + 1, figure=fig,
+        width_ratios=[1]*cols + [legend_col_width / (fig_w - legend_col_width)],
+        wspace=0.02, hspace=0.02
+    )
+
+    # ----------------------------------------------------
+    # 4) Panels
+    # ----------------------------------------------------
+    for i, sid in enumerate(uniq_groups):
+        r, c = divmod(i, cols)
+        ax = fig.add_subplot(gs[r, c])
+
+        # panel background
+        ax.set_facecolor(ax_face)
+
+        idx = group_indices[i]
+        if idx.size:
+            xy = coords[idx]
+            ax.scatter(
+                xy[:, 0], -xy[:, 1],
+                c=colors_arr[idx],
+                s=spot_size,
+                marker='o',
+                linewidths=0,
+                rasterized=rasterized
+            )
+
+        meta_strings = []
+
+        if "region" in ad.obs.columns:
+            region_vals = (
+                ad.obs.loc[ad.obs[groupby] == sid, "region"]
+                .dropna().astype(str).unique()
+            )
+            if len(region_vals) == 0:
+                meta_strings.append("Region: unknown")
+            elif len(region_vals) == 1:
+                meta_strings.append(f"Region: {region_vals[0]}")
+            else:
+                meta_strings.append("Region: mixed")
+
+        if "course" in ad.obs.columns:
+            course_vals = (
+                ad.obs.loc[ad.obs[groupby] == sid, "course"]
+                .dropna().astype(str).unique()
+            )
+            if len(course_vals) == 0:
+                meta_strings.append("Course: unknown")
+            elif len(course_vals) == 1:
+                meta_strings.append(f"Course: {course_vals[0]}")
+            else:
+                meta_strings.append("Course: mixed")
+
+        if meta_strings:
+            title = f"{sid}\n[{ ' | '.join(meta_strings) }]"
+        else:
+            title = str(sid)
+
+        ax.set_title(title, fontsize=5, pad=2, color=text_color)
+        ax.set_aspect("equal")
+        if invert_y:
+            ax.invert_yaxis()
+        ax.set_axis_off()
+
+    # blank unused panels
+    for j in range(n, rows * cols):
+        r, c = divmod(j, cols)
+        ax = fig.add_subplot(gs[r, c])
+        ax.set_facecolor(ax_face)
+        ax.axis("off")
+
+    # ----------------------------------------------------
+    # 5) Legend / Colorbar
+    # ----------------------------------------------------
+    ax_leg = fig.add_subplot(gs[:, -1])
+    ax_leg.set_facecolor(ax_face)
+    ax_leg.axis("off")
+
+    if is_continuous:
+        sm = plt.cm.ScalarMappable(norm=norm, cmap=cmap)
+        sm.set_array([])
+        cbar = fig.colorbar(sm, cax=ax_leg)
+        cbar.set_label(color, rotation=90, color=text_color)
+        cbar.ax.yaxis.set_tick_params(color=text_color)
+        plt.setp(plt.getp(cbar.ax.axes, "yticklabels"), color=text_color)
+    else:
         handles = [
-            Line2D([0], [0], marker='o', color='w',
-                   markerfacecolor=col_list[k], markersize=7, label=str(cat))
+            Line2D(
+                [0], [0], marker="o", color="w",
+                markerfacecolor=col_list[k], markersize=7, label=str(cat)
+            )
             for k, cat in enumerate(cat_names)
         ]
-        ax_leg.legend(handles=handles, title=color, frameon=False, loc="center left")
+        leg = ax_leg.legend(
+            handles=handles,
+            title=color,
+            frameon=False,
+            loc="center left",
+            labelcolor=text_color,
+            title_fontsize=10
+        )
+        leg.get_title().set_color(text_color)
+        for text in leg.get_texts():
+            text.set_color(text_color)
 
-    # 2B) Gene (continuous) path ----------------------------------------------
-    else:
-        # pull expression vector
-        if has_raw and color in ad.raw.var_names:
-            expr = ad.raw[:, color].X
-        else:
-            expr = ad[:, color].X
+    fig.subplots_adjust(
+        left=0.01, right=0.98, top=0.98, bottom=0.02,
+        wspace=0.02, hspace=0.02
+    )
 
-        # 🔧 FIX: make dense + numeric 1D array
-        if sp.issparse(expr):
-            expr = expr.toarray().ravel()
-        else:
-            expr = np.asarray(expr).astype(float).ravel()
-
-        finite = np.isfinite(expr)
-        if not np.any(finite):
-            raise ValueError(f"No finite values found for gene '{color}'.")
-        vmin_eff = np.nanmin(expr[finite]) if vmin is None else vmin
-        vmax_eff = np.nanmax(expr[finite]) if vmax is None else vmax
-        norm = mpl.colors.Normalize(vmin=vmin_eff, vmax=vmax_eff)
-        cmap_obj = mpl.cm.get_cmap(cmap)
-
-        # panels
-        for i, sid in enumerate(uniq_groups):
-            r, c = divmod(i, cols)
-            ax = fig.add_subplot(gs[r, c])
-            idx = group_indices[i]
-            if idx.size:
-                xy = coords[idx]
-                vals = expr[idx]
-                alphas = np.where(np.isfinite(vals), 1.0, na_alpha)
-                col_rgba = cmap_obj(norm(np.nan_to_num(vals, nan=vmin_eff)))
-                col_rgba[:, 3] = alphas
-                ax.scatter(
-                    xy[:, 0], xy[:, 1],
-                    c=col_rgba,
-                    s=spot_size,
-                    marker='o',
-                    linewidths=0,
-                    rasterized=rasterized
-                )
-            ax.set_title(str(sid), fontsize=9, pad=2)
-            ax.set_aspect("equal")
-            if invert_y:
-                ax.invert_yaxis()
-            ax.set_axis_off()
-
-        for j in range(n, rows * cols):
-            r, c = divmod(j, cols)
-            fig.add_subplot(gs[r, c]).axis("off")
-
-        cax = fig.add_subplot(gs[:, -1])
-        cax.set_visible(True)
-        sm = mpl.cm.ScalarMappable(norm=norm, cmap=cmap_obj)
-        sm.set_array([])
-        cb = fig.colorbar(sm, cax=cax)
-        cb.set_label(color)
-
-    fig.subplots_adjust(left=0.01, right=0.98, top=0.98, bottom=0.02,
-                        wspace=0.02, hspace=0.02)
     plt.ion()
     plt.show()
-    return None
 
 
 def plot_spatial_compact(
