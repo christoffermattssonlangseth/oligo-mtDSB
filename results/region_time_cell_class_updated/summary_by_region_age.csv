@@ -1,0 +1,20 @@
+cell_type,region,age,n_tested,n_sig,n_up,n_down,mean_abs_log2FC_sig,activation_index,top_up,top_down
+Immature Oligodendrocytes,All regions,21,4264,6,5,1,1.4819451259269993,8.335080652937213,"Hcrt, Zbtb16, Adm, Arc, Mertk",Ermn
+Immature Oligodendrocytes,All regions,60,4263,1,0,1,3.471618352951261,0.0,,Pmch
+Immature Oligodendrocytes,Cortex,21,3688,0,0,0,0.0,0.0,,
+Immature Oligodendrocytes,Cortex,60,3706,1,1,0,0.5896516144952303,0.5896516144952303,Hspa5,
+Immature Oligodendrocytes,Fiber tracts,21,3342,0,0,0,0.0,0.0,,
+Immature Oligodendrocytes,Fiber tracts,60,3366,0,0,0,0.0,0.0,,
+Immature Oligodendrocytes,Hippocampus,21,2698,0,0,0,0.0,0.0,,
+Immature Oligodendrocytes,Hippocampus,60,3036,0,0,0,0.0,0.0,,
+Immature Oligodendrocytes,Hypothalamus,21,3638,1,1,0,2.461394328215025,2.461394328215025,Sst,
+Immature Oligodendrocytes,Hypothalamus,60,2470,24,22,2,2.29865333799807,47.7443136974323,"Cnp, Cldn11, Mag, 9630013A20Rik, Sema4d","Pmch, Hes1"
+Immature Oligodendrocytes,Meningeal border/glia limitans,21,3238,0,0,0,0.0,0.0,,
+Immature Oligodendrocytes,Meningeal border/glia limitans,60,3257,0,0,0,0.0,0.0,,
+Immature Oligodendrocytes,Olfactory areas,21,3514,0,0,0,0.0,0.0,,
+Immature Oligodendrocytes,Olfactory areas,60,3544,0,0,0,0.0,0.0,,
+Immature Oligodendrocytes,Pallidum,21,2889,0,0,0,0.0,0.0,,
+Immature Oligodendrocytes,Striatum,21,3614,0,0,0,0.0,0.0,,
+Immature Oligodendrocytes,Striatum,60,3488,0,0,0,0.0,0.0,,
+Immature Oligodendrocytes,Thalamus,21,3528,1,1,0,1.2195756086611065,1.2195756086611065,Zbtb16,
+Immature Oligodendrocytes,Thalamus,60,3535,2,2,0,2.1707599679907688,4.3415199359815375,"Serpina3n, Gfap",

@@ -1,0 +1,133 @@
+cell_type,region,n_sections,n_control_21,n_mtDSB_21,n_control_60,n_mtDSB_60,status,seconds
+Astrocytes,Cortex,12,3,3,3,3,ok,0.3
+Astrocytes,Fiber tracts,12,3,3,3,3,ok,0.3
+Astrocytes,Hippocampus,12,3,3,3,3,ok,0.3
+Astrocytes,Hypothalamus,12,3,3,3,3,ok,0.3
+Astrocytes,Meningeal border/glia limitans,12,3,3,3,3,ok,0.4
+Astrocytes,Olfactory areas,12,3,3,3,3,ok,0.3
+Astrocytes,Pallidum,11,3,3,3,2,ok,0.3
+Astrocytes,Striatum,12,3,3,3,3,ok,0.4
+Astrocytes,Thalamus,12,3,3,3,3,ok,0.3
+Astrocytes,Vasculature,12,3,3,3,3,ok,0.3
+Astrocytes,Ventricular system,12,3,3,3,3,ok,0.3
+Astrocytes,All regions,12,3,3,3,3,ok,0.3
+Endocrine Cells,Cortex,0,0,0,0,0,skipped: <2 sections in some age x condition cell,
+Endocrine Cells,Fiber tracts,0,0,0,0,0,skipped: <2 sections in some age x condition cell,
+Endocrine Cells,Hippocampus,0,0,0,0,0,skipped: <2 sections in some age x condition cell,
+Endocrine Cells,Hypothalamus,0,0,0,0,0,skipped: <2 sections in some age x condition cell,
+Endocrine Cells,Meningeal border/glia limitans,0,0,0,0,0,skipped: <2 sections in some age x condition cell,
+Endocrine Cells,Olfactory areas,0,0,0,0,0,skipped: <2 sections in some age x condition cell,
+Endocrine Cells,Pallidum,0,0,0,0,0,skipped: <2 sections in some age x condition cell,
+Endocrine Cells,Striatum,0,0,0,0,0,skipped: <2 sections in some age x condition cell,
+Endocrine Cells,Thalamus,0,0,0,0,0,skipped: <2 sections in some age x condition cell,
+Endocrine Cells,Vasculature,0,0,0,0,0,skipped: <2 sections in some age x condition cell,
+Endocrine Cells,Ventricular system,1,0,1,0,0,skipped: <2 sections in some age x condition cell,
+Endocrine Cells,All regions,1,0,1,0,0,skipped: <2 sections in some age x condition cell,
+Endothelial Cells,Cortex,12,3,3,3,3,ok,0.3
+Endothelial Cells,Fiber tracts,12,3,3,3,3,ok,0.3
+Endothelial Cells,Hippocampus,12,3,3,3,3,ok,0.3
+Endothelial Cells,Hypothalamus,12,3,3,3,3,ok,0.3
+Endothelial Cells,Meningeal border/glia limitans,12,3,3,3,3,ok,0.3
+Endothelial Cells,Olfactory areas,12,3,3,3,3,ok,0.3
+Endothelial Cells,Pallidum,11,3,3,3,2,ok,0.3
+Endothelial Cells,Striatum,12,3,3,3,3,ok,0.3
+Endothelial Cells,Thalamus,12,3,3,3,3,ok,0.3
+Endothelial Cells,Vasculature,12,3,3,3,3,ok,0.3
+Endothelial Cells,Ventricular system,12,3,3,3,3,ok,0.3
+Endothelial Cells,All regions,12,3,3,3,3,ok,0.3
+Excitatory Neurons,Cortex,12,3,3,3,3,ok,0.4
+Excitatory Neurons,Fiber tracts,2,1,0,0,1,skipped: <2 sections in some age x condition cell,
+Excitatory Neurons,Hippocampus,12,3,3,3,3,ok,0.3
+Excitatory Neurons,Hypothalamus,0,0,0,0,0,skipped: <2 sections in some age x condition cell,
+Excitatory Neurons,Meningeal border/glia limitans,11,2,3,3,3,ok,0.3
+Excitatory Neurons,Olfactory areas,12,3,3,3,3,ok,0.3
+Excitatory Neurons,Pallidum,0,0,0,0,0,skipped: <2 sections in some age x condition cell,
+Excitatory Neurons,Striatum,12,3,3,3,3,ok,0.3
+Excitatory Neurons,Thalamus,0,0,0,0,0,skipped: <2 sections in some age x condition cell,
+Excitatory Neurons,Vasculature,12,3,3,3,3,ok,0.3
+Excitatory Neurons,Ventricular system,0,0,0,0,0,skipped: <2 sections in some age x condition cell,
+Excitatory Neurons,All regions,12,3,3,3,3,ok,0.3
+GABAergic Neurons,Cortex,12,3,3,3,3,ok,0.3
+GABAergic Neurons,Fiber tracts,12,3,3,3,3,ok,0.3
+GABAergic Neurons,Hippocampus,12,3,3,3,3,ok,0.3
+GABAergic Neurons,Hypothalamus,9,3,2,1,3,skipped: <2 sections in some age x condition cell,
+GABAergic Neurons,Meningeal border/glia limitans,12,3,3,3,3,ok,0.3
+GABAergic Neurons,Olfactory areas,12,3,3,3,3,ok,0.3
+GABAergic Neurons,Pallidum,9,3,2,3,1,skipped: <2 sections in some age x condition cell,
+GABAergic Neurons,Striatum,12,3,3,3,3,ok,0.3
+GABAergic Neurons,Thalamus,3,1,1,0,1,skipped: <2 sections in some age x condition cell,
+GABAergic Neurons,Vasculature,8,2,1,3,2,skipped: <2 sections in some age x condition cell,
+GABAergic Neurons,Ventricular system,1,1,0,0,0,skipped: <2 sections in some age x condition cell,
+GABAergic Neurons,All regions,12,3,3,3,3,ok,0.3
+Medium Spiny Neurons,Cortex,0,0,0,0,0,skipped: <2 sections in some age x condition cell,
+Medium Spiny Neurons,Fiber tracts,0,0,0,0,0,skipped: <2 sections in some age x condition cell,
+Medium Spiny Neurons,Hippocampus,0,0,0,0,0,skipped: <2 sections in some age x condition cell,
+Medium Spiny Neurons,Hypothalamus,0,0,0,0,0,skipped: <2 sections in some age x condition cell,
+Medium Spiny Neurons,Meningeal border/glia limitans,0,0,0,0,0,skipped: <2 sections in some age x condition cell,
+Medium Spiny Neurons,Olfactory areas,1,0,0,0,1,skipped: <2 sections in some age x condition cell,
+Medium Spiny Neurons,Pallidum,1,0,0,0,1,skipped: <2 sections in some age x condition cell,
+Medium Spiny Neurons,Striatum,12,3,3,3,3,ok,0.3
+Medium Spiny Neurons,Thalamus,0,0,0,0,0,skipped: <2 sections in some age x condition cell,
+Medium Spiny Neurons,Vasculature,0,0,0,0,0,skipped: <2 sections in some age x condition cell,
+Medium Spiny Neurons,Ventricular system,11,3,3,3,2,ok,0.3
+Medium Spiny Neurons,All regions,12,3,3,3,3,ok,0.3
+Microglia,Cortex,12,3,3,3,3,ok,0.3
+Microglia,Fiber tracts,12,3,3,3,3,ok,0.3
+Microglia,Hippocampus,12,3,3,3,3,ok,0.3
+Microglia,Hypothalamus,12,3,3,3,3,ok,0.3
+Microglia,Meningeal border/glia limitans,12,3,3,3,3,ok,0.3
+Microglia,Olfactory areas,12,3,3,3,3,ok,0.3
+Microglia,Pallidum,10,3,2,3,2,ok,0.3
+Microglia,Striatum,12,3,3,3,3,ok,0.3
+Microglia,Thalamus,12,3,3,3,3,ok,0.3
+Microglia,Vasculature,3,0,0,1,2,skipped: <2 sections in some age x condition cell,
+Microglia,Ventricular system,11,3,2,3,3,ok,0.4
+Microglia,All regions,12,3,3,3,3,ok,0.3
+Neural Stem Cells,Cortex,1,0,1,0,0,skipped: <2 sections in some age x condition cell,
+Neural Stem Cells,Fiber tracts,10,3,3,2,2,ok,0.3
+Neural Stem Cells,Hippocampus,2,0,0,0,2,skipped: <2 sections in some age x condition cell,
+Neural Stem Cells,Hypothalamus,0,0,0,0,0,skipped: <2 sections in some age x condition cell,
+Neural Stem Cells,Meningeal border/glia limitans,3,1,1,0,1,skipped: <2 sections in some age x condition cell,
+Neural Stem Cells,Olfactory areas,0,0,0,0,0,skipped: <2 sections in some age x condition cell,
+Neural Stem Cells,Pallidum,0,0,0,0,0,skipped: <2 sections in some age x condition cell,
+Neural Stem Cells,Striatum,3,0,1,0,2,skipped: <2 sections in some age x condition cell,
+Neural Stem Cells,Thalamus,1,0,0,0,1,skipped: <2 sections in some age x condition cell,
+Neural Stem Cells,Vasculature,0,0,0,0,0,skipped: <2 sections in some age x condition cell,
+Neural Stem Cells,Ventricular system,12,3,3,3,3,ok,0.3
+Neural Stem Cells,All regions,12,3,3,3,3,ok,0.3
+Neurons,Cortex,12,3,3,3,3,ok,0.3
+Neurons,Fiber tracts,12,3,3,3,3,ok,0.3
+Neurons,Hippocampus,12,3,3,3,3,ok,0.3
+Neurons,Hypothalamus,12,3,3,3,3,ok,0.3
+Neurons,Meningeal border/glia limitans,12,3,3,3,3,ok,0.3
+Neurons,Olfactory areas,12,3,3,3,3,ok,0.3
+Neurons,Pallidum,11,3,3,3,2,ok,0.3
+Neurons,Striatum,12,3,3,3,3,ok,0.3
+Neurons,Thalamus,12,3,3,3,3,ok,0.4
+Neurons,Vasculature,11,3,3,2,3,ok,0.3
+Neurons,Ventricular system,11,3,2,3,3,ok,0.3
+Neurons,All regions,12,3,3,3,3,ok,0.3
+Oligodendrocyte Precursor Cells,Cortex,12,3,3,3,3,ok,0.3
+Oligodendrocyte Precursor Cells,Fiber tracts,12,3,3,3,3,ok,0.3
+Oligodendrocyte Precursor Cells,Hippocampus,12,3,3,3,3,ok,0.3
+Oligodendrocyte Precursor Cells,Hypothalamus,12,3,3,3,3,ok,0.3
+Oligodendrocyte Precursor Cells,Meningeal border/glia limitans,12,3,3,3,3,ok,0.3
+Oligodendrocyte Precursor Cells,Olfactory areas,12,3,3,3,3,ok,0.3
+Oligodendrocyte Precursor Cells,Pallidum,10,3,2,3,2,ok,0.3
+Oligodendrocyte Precursor Cells,Striatum,12,3,3,3,3,ok,0.3
+Oligodendrocyte Precursor Cells,Thalamus,12,3,3,3,3,ok,0.3
+Oligodendrocyte Precursor Cells,Vasculature,0,0,0,0,0,skipped: <2 sections in some age x condition cell,
+Oligodendrocyte Precursor Cells,Ventricular system,6,1,2,2,1,skipped: <2 sections in some age x condition cell,
+Oligodendrocyte Precursor Cells,All regions,12,3,3,3,3,ok,0.3
+Oligodendrocytes,Cortex,12,3,3,3,3,ok,0.4
+Oligodendrocytes,Fiber tracts,12,3,3,3,3,ok,0.3
+Oligodendrocytes,Hippocampus,12,3,3,3,3,ok,0.3
+Oligodendrocytes,Hypothalamus,12,3,3,3,3,ok,0.3
+Oligodendrocytes,Meningeal border/glia limitans,12,3,3,3,3,ok,0.3
+Oligodendrocytes,Olfactory areas,12,3,3,3,3,ok,0.3
+Oligodendrocytes,Pallidum,11,3,3,3,2,ok,0.3
+Oligodendrocytes,Striatum,12,3,3,3,3,ok,0.3
+Oligodendrocytes,Thalamus,12,3,3,3,3,ok,0.3
+Oligodendrocytes,Vasculature,12,3,3,3,3,ok,0.3
+Oligodendrocytes,Ventricular system,12,3,3,3,3,ok,0.3
+Oligodendrocytes,All regions,12,3,3,3,3,ok,0.3

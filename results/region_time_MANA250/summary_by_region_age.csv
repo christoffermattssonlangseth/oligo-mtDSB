@@ -1,0 +1,182 @@
+cell_type,region,age,n_tested,n_sig,n_up,n_down,mean_abs_log2FC_sig,activation_index,top_up,top_down
+Astrocytes,All regions,21,246,2,2,0,2.4667399487098574,4.933479897419715,"Ccn2, Hcrt",
+Astrocytes,All regions,60,250,3,0,3,3.6107509155809177,0.0,,"Pmch, Hcrt, Prl"
+Astrocytes,Cortex,21,187,0,0,0,0.0,0.0,,
+Astrocytes,Cortex,60,192,0,0,0,0.0,0.0,,
+Astrocytes,Fiber tracts,21,182,0,0,0,0.0,0.0,,
+Astrocytes,Fiber tracts,60,190,2,2,0,3.74062057864842,7.48124115729684,"Cd74, Serpina3n",
+Astrocytes,Hippocampus,21,152,0,0,0,0.0,0.0,,
+Astrocytes,Hippocampus,60,171,0,0,0,0.0,0.0,,
+Astrocytes,Hypothalamus,21,214,5,3,2,3.045105389026767,9.761415038299289,"Sst, Pdyn, Hcrt","Olig2, Prl"
+Astrocytes,Hypothalamus,60,214,6,2,4,4.400120475992346,10.259009052214717,"Nmu, Oxt","Pmch, Hcrt, Crabp1, Hdc"
+Astrocytes,Meningeal border/glia limitans,21,191,11,5,6,1.589664812770306,8.260818154108682,"Pdyn, Ccn2, Cxcl10, Calb1, Pmch","Bglap2, Folr1, Mog, Ermn, Crym"
+Astrocytes,Meningeal border/glia limitans,60,226,0,0,0,0.0,0.0,,
+Astrocytes,Olfactory areas,21,170,0,0,0,0.0,0.0,,
+Astrocytes,Olfactory areas,60,184,0,0,0,0.0,0.0,,
+Astrocytes,Pallidum,21,165,0,0,0,0.0,0.0,,
+Astrocytes,Pallidum,60,182,0,0,0,0.0,0.0,,
+Astrocytes,Striatum,21,197,0,0,0,0.0,0.0,,
+Astrocytes,Striatum,60,189,4,1,3,2.374746409602152,2.2302254146115765,Thbs4,"Clic6, Glra1, Tac2"
+Astrocytes,Thalamus,21,192,0,0,0,0.0,0.0,,
+Astrocytes,Thalamus,60,205,4,3,1,2.8951794461603315,9.278069259465388,"Serpina3n, Gfap, Cst7",Pmch
+Astrocytes,Vasculature,21,125,0,0,0,0.0,0.0,,
+Astrocytes,Vasculature,60,125,1,1,0,3.515003149461129,3.515003149461129,Serpina3n,
+Astrocytes,Ventricular system,21,223,0,0,0,0.0,0.0,,
+Astrocytes,Ventricular system,60,213,1,0,1,1.3376366881001736,0.0,,Slc6a11
+Endothelial Cells,All regions,21,246,2,0,2,3.5600395752710647,0.0,,"Tpsb2, Bglap2"
+Endothelial Cells,All regions,60,247,4,0,4,3.801506699786634,0.0,,"Pmch, Hcrt, Cga, Prl"
+Endothelial Cells,Cortex,21,196,0,0,0,0.0,0.0,,
+Endothelial Cells,Cortex,60,197,0,0,0,0.0,0.0,,
+Endothelial Cells,Fiber tracts,21,157,0,0,0,0.0,0.0,,
+Endothelial Cells,Fiber tracts,60,171,1,1,0,2.7040465947979526,2.7040465947979526,Cd74,
+Endothelial Cells,Hippocampus,21,130,0,0,0,0.0,0.0,,
+Endothelial Cells,Hippocampus,60,156,0,0,0,0.0,0.0,,
+Endothelial Cells,Hypothalamus,21,199,3,3,0,2.6047493017048873,7.814247905114662,"Sst, Gfap, Trh",
+Endothelial Cells,Hypothalamus,60,190,2,0,2,5.279555912285998,0.0,,"Pmch, Hcrt"
+Endothelial Cells,Meningeal border/glia limitans,21,225,2,1,1,3.0299550535956903,3.4687727297575752,Chil3,Bglap2
+Endothelial Cells,Meningeal border/glia limitans,60,224,0,0,0,0.0,0.0,,
+Endothelial Cells,Olfactory areas,21,176,0,0,0,0.0,0.0,,
+Endothelial Cells,Olfactory areas,60,185,0,0,0,0.0,0.0,,
+Endothelial Cells,Pallidum,21,150,0,0,0,0.0,0.0,,
+Endothelial Cells,Pallidum,60,160,0,0,0,0.0,0.0,,
+Endothelial Cells,Striatum,21,195,0,0,0,0.0,0.0,,
+Endothelial Cells,Striatum,60,184,1,0,1,0.9306164109440331,0.0,,Slc6a11
+Endothelial Cells,Thalamus,21,185,0,0,0,0.0,0.0,,
+Endothelial Cells,Thalamus,60,181,5,3,2,1.9975434456608667,6.8198789891136515,"Gfap, A2m, Serpina3n","Pmch, Cldn11"
+Endothelial Cells,Vasculature,21,165,0,0,0,0.0,0.0,,
+Endothelial Cells,Vasculature,60,163,0,0,0,0.0,0.0,,
+Endothelial Cells,Ventricular system,21,226,0,0,0,0.0,0.0,,
+Endothelial Cells,Ventricular system,60,221,1,0,1,1.376335859650115,0.0,,Slc6a11
+Excitatory Neurons,All regions,21,249,1,1,0,1.6578275574770298,1.6578275574770298,Pmch,
+Excitatory Neurons,All regions,60,248,0,0,0,0.0,0.0,,
+Excitatory Neurons,Cortex,21,250,0,0,0,0.0,0.0,,
+Excitatory Neurons,Cortex,60,250,0,0,0,0.0,0.0,,
+Excitatory Neurons,Hippocampus,21,203,5,5,0,1.6833675383023212,8.416837691511606,"Spink8, Arc, Fos, Kit, Crym",
+Excitatory Neurons,Hippocampus,60,207,0,0,0,0.0,0.0,,
+Excitatory Neurons,Meningeal border/glia limitans,21,120,0,0,0,0.0,0.0,,
+Excitatory Neurons,Meningeal border/glia limitans,60,117,0,0,0,0.0,0.0,,
+Excitatory Neurons,Olfactory areas,21,233,0,0,0,0.0,0.0,,
+Excitatory Neurons,Olfactory areas,60,229,0,0,0,0.0,0.0,,
+Excitatory Neurons,Striatum,21,150,2,2,0,2.948914015240302,5.897828030480604,"Fos, Slc17a6",
+Excitatory Neurons,Striatum,60,135,0,0,0,0.0,0.0,,
+Excitatory Neurons,Vasculature,21,119,0,0,0,0.0,0.0,,
+Excitatory Neurons,Vasculature,60,130,0,0,0,0.0,0.0,,
+GABAergic Neurons,All regions,21,241,0,0,0,0.0,0.0,,
+GABAergic Neurons,All regions,60,238,5,1,4,1.5271894633217429,1.217816806945383,Gfap,"Prkcd, Spink8, Nts, Pdyn"
+GABAergic Neurons,Cortex,21,204,0,0,0,0.0,0.0,,
+GABAergic Neurons,Cortex,60,207,0,0,0,0.0,0.0,,
+GABAergic Neurons,Fiber tracts,21,165,0,0,0,0.0,0.0,,
+GABAergic Neurons,Fiber tracts,60,175,2,1,1,2.2193748490275307,3.172081405004709,Serpina3n,Npas4
+GABAergic Neurons,Hippocampus,21,112,0,0,0,0.0,0.0,,
+GABAergic Neurons,Hippocampus,60,132,0,0,0,0.0,0.0,,
+GABAergic Neurons,Hypothalamus,21,99,0,0,0,0.0,0.0,,
+GABAergic Neurons,Meningeal border/glia limitans,21,135,0,0,0,0.0,0.0,,
+GABAergic Neurons,Meningeal border/glia limitans,60,135,0,0,0,0.0,0.0,,
+GABAergic Neurons,Olfactory areas,21,174,0,0,0,0.0,0.0,,
+GABAergic Neurons,Olfactory areas,60,183,0,0,0,0.0,0.0,,
+GABAergic Neurons,Pallidum,21,106,0,0,0,0.0,0.0,,
+GABAergic Neurons,Striatum,21,199,0,0,0,0.0,0.0,,
+GABAergic Neurons,Striatum,60,193,10,2,8,2.0934782820781463,4.991409009975008,"Vip, Gfap","Tac2, Prkcd, Nts, Gpc4, Spink8"
+GABAergic Neurons,Vasculature,60,79,0,0,0,0.0,0.0,,
+Medium Spiny Neurons,All regions,21,233,0,0,0,0.0,0.0,,
+Medium Spiny Neurons,All regions,60,218,1,1,0,1.7842353739573962,1.7842353739573962,Cartpt,
+Medium Spiny Neurons,Striatum,21,233,0,0,0,0.0,0.0,,
+Medium Spiny Neurons,Striatum,60,218,2,1,1,1.7872799260250682,2.1336128861112833,Cartpt,Slc30a3
+Medium Spiny Neurons,Ventricular system,21,93,0,0,0,0.0,0.0,,
+Medium Spiny Neurons,Ventricular system,60,74,1,0,1,2.8661151734459205,0.0,,Fos
+Microglia,All regions,21,220,1,1,0,2.953397273748843,2.953397273748843,Cst7,
+Microglia,All regions,60,214,7,6,1,3.4449171948086414,21.92231560158711,"Lpl, Cd74, Cst7, H2-Aa, H2-Ab1",Pmch
+Microglia,Cortex,21,163,0,0,0,0.0,0.0,,
+Microglia,Cortex,60,170,0,0,0,0.0,0.0,,
+Microglia,Fiber tracts,21,114,0,0,0,0.0,0.0,,
+Microglia,Fiber tracts,60,143,0,0,0,0.0,0.0,,
+Microglia,Hippocampus,21,83,0,0,0,0.0,0.0,,
+Microglia,Hippocampus,60,111,0,0,0,0.0,0.0,,
+Microglia,Hypothalamus,21,150,0,0,0,0.0,0.0,,
+Microglia,Hypothalamus,60,152,8,7,1,5.618280813950387,41.03663195472184,"Lpl, Ccl3, Cd74, H2-Ab1, Gfap",Pmch
+Microglia,Meningeal border/glia limitans,21,140,0,0,0,0.0,0.0,,
+Microglia,Meningeal border/glia limitans,60,137,0,0,0,0.0,0.0,,
+Microglia,Olfactory areas,21,140,0,0,0,0.0,0.0,,
+Microglia,Olfactory areas,60,149,0,0,0,0.0,0.0,,
+Microglia,Pallidum,21,93,0,0,0,0.0,0.0,,
+Microglia,Pallidum,60,122,0,0,0,0.0,0.0,,
+Microglia,Striatum,21,161,0,0,0,0.0,0.0,,
+Microglia,Striatum,60,154,3,2,1,2.9266417043284814,7.545477620114379,"Cd74, Lpl",Slc6a11
+Microglia,Thalamus,21,128,1,1,0,3.802745010895008,3.802745010895008,Cd74,
+Microglia,Thalamus,60,136,7,7,0,4.679717069835424,32.75801948884797,"Cd74, Cst7, Serpina3n, Gfap, H2-Aa",
+Microglia,Ventricular system,21,77,0,0,0,0.0,0.0,,
+Microglia,Ventricular system,60,90,0,0,0,0.0,0.0,,
+Neural Stem Cells,All regions,21,184,0,0,0,0.0,0.0,,
+Neural Stem Cells,All regions,60,185,25,8,17,2.318465719805289,10.630265091628456,"Thbs4, Mki67, Olig2, Gad1, Slc32a1","Col23a1, Gpr50, Crym, Six3, Prelp"
+Neural Stem Cells,Fiber tracts,21,69,0,0,0,0.0,0.0,,
+Neural Stem Cells,Fiber tracts,60,45,0,0,0,0.0,0.0,,
+Neural Stem Cells,Ventricular system,21,173,0,0,0,0.0,0.0,,
+Neural Stem Cells,Ventricular system,60,133,21,7,14,2.746651291634547,12.273201244419232,"Thbs4, Mki67, Slc32a1, Gad1, Gad2","Col23a1, Gpr50, Crym, Six3, Prelp"
+Neurons,All regions,21,244,4,3,1,1.7934256444426149,5.836129796419854,"Col23a1, Pdyn, Ghrh",C1ql1
+Neurons,All regions,60,223,12,3,9,3.4134435156388143,8.0153787853505,"Cst7, Thbs4, Ccl3","Agrp, Pmch, Hcrt, Crabp1, Pomc"
+Neurons,Cortex,21,140,0,0,0,0.0,0.0,,
+Neurons,Cortex,60,167,0,0,0,0.0,0.0,,
+Neurons,Fiber tracts,21,139,0,0,0,0.0,0.0,,
+Neurons,Fiber tracts,60,158,0,0,0,0.0,0.0,,
+Neurons,Hippocampus,21,118,0,0,0,0.0,0.0,,
+Neurons,Hippocampus,60,158,0,0,0,0.0,0.0,,
+Neurons,Hypothalamus,21,234,10,6,4,2.6412411079660876,13.128110413116438,"Pdyn, Ghrh, Nptx2, Sst, Pomc","C1ql1, Myh2, Fshb, Prl"
+Neurons,Hypothalamus,60,207,19,6,13,3.7227870496049733,20.8052459375564,"Ucn3, Ccl3, Cst7, Nmu, Gfap","Pmch, Agrp, Hcrt, Pomc, Crabp1"
+Neurons,Meningeal border/glia limitans,21,182,5,4,1,4.46082098171948,17.7992876974685,"Gal, Pdyn, Th, Gpr101",Vip
+Neurons,Meningeal border/glia limitans,60,180,0,0,0,0.0,0.0,,
+Neurons,Olfactory areas,21,147,0,0,0,0.0,0.0,,
+Neurons,Olfactory areas,60,184,0,0,0,0.0,0.0,,
+Neurons,Pallidum,21,167,0,0,0,0.0,0.0,,
+Neurons,Pallidum,60,182,1,0,1,4.579588931327088,0.0,,Pmch
+Neurons,Striatum,21,223,2,2,0,2.816793641833571,5.633587283667142,"Nxph4, Fos",
+Neurons,Striatum,60,184,28,18,10,2.0530447516994594,43.21179347392117,"Kit, Nmu, Adora2a, Lhx8, Ntrk1","Cadps2, Slc6a11, Ucn3, Bdnf, Tac1"
+Neurons,Thalamus,21,240,0,0,0,0.0,0.0,,
+Neurons,Thalamus,60,243,4,2,2,3.2344544534994846,6.4057784067285795,"Cst7, Serpina3n","Pmch, Hcrt"
+Neurons,Vasculature,21,125,0,0,0,0.0,0.0,,
+Neurons,Vasculature,60,119,0,0,0,0.0,0.0,,
+Neurons,Ventricular system,21,178,0,0,0,0.0,0.0,,
+Neurons,Ventricular system,60,171,4,0,4,4.211790513162127,0.0,,"Crabp1, Agrp, Col23a1, Cartpt"
+Oligodendrocyte Precursor Cells,All regions,21,221,2,2,0,4.258163615794039,8.516327231588077,"Hcrt, Pmch",
+Oligodendrocyte Precursor Cells,All regions,60,217,2,0,2,3.589032193558949,0.0,,"Pmch, Hcrt"
+Oligodendrocyte Precursor Cells,Cortex,21,153,0,0,0,0.0,0.0,,
+Oligodendrocyte Precursor Cells,Cortex,60,154,0,0,0,0.0,0.0,,
+Oligodendrocyte Precursor Cells,Fiber tracts,21,113,0,0,0,0.0,0.0,,
+Oligodendrocyte Precursor Cells,Fiber tracts,60,127,0,0,0,0.0,0.0,,
+Oligodendrocyte Precursor Cells,Hippocampus,21,95,0,0,0,0.0,0.0,,
+Oligodendrocyte Precursor Cells,Hippocampus,60,113,0,0,0,0.0,0.0,,
+Oligodendrocyte Precursor Cells,Hypothalamus,21,163,2,2,0,3.859318221428084,7.718636442856168,"Sst, Hcrt",
+Oligodendrocyte Precursor Cells,Hypothalamus,60,165,1,0,1,6.347884057600423,0.0,,Pmch
+Oligodendrocyte Precursor Cells,Meningeal border/glia limitans,21,124,0,0,0,0.0,0.0,,
+Oligodendrocyte Precursor Cells,Meningeal border/glia limitans,60,120,0,0,0,0.0,0.0,,
+Oligodendrocyte Precursor Cells,Olfactory areas,21,150,0,0,0,0.0,0.0,,
+Oligodendrocyte Precursor Cells,Olfactory areas,60,153,0,0,0,0.0,0.0,,
+Oligodendrocyte Precursor Cells,Pallidum,21,97,0,0,0,0.0,0.0,,
+Oligodendrocyte Precursor Cells,Pallidum,60,116,0,0,0,0.0,0.0,,
+Oligodendrocyte Precursor Cells,Striatum,21,165,0,0,0,0.0,0.0,,
+Oligodendrocyte Precursor Cells,Striatum,60,149,0,0,0,0.0,0.0,,
+Oligodendrocyte Precursor Cells,Thalamus,21,140,0,0,0,0.0,0.0,,
+Oligodendrocyte Precursor Cells,Thalamus,60,135,2,2,0,2.3273774621045837,4.6547549242091675,"Gfap, Serpina3n",
+Oligodendrocytes,All regions,21,246,2,2,0,3.0867109829472583,6.173421965894517,"Hcrt, Trh",
+Oligodendrocytes,All regions,60,248,5,3,2,3.1465547667540217,8.078295264671418,"Cst7, Trh, Serpina3n","Pmch, Hcrt"
+Oligodendrocytes,Cortex,21,201,0,0,0,0.0,0.0,,
+Oligodendrocytes,Cortex,60,211,0,0,0,0.0,0.0,,
+Oligodendrocytes,Fiber tracts,21,218,1,0,1,1.314368442625822,0.0,,Gpr88
+Oligodendrocytes,Fiber tracts,60,224,2,2,0,3.9077076380914395,7.815415276182879,"Cst7, Serpina3n",
+Oligodendrocytes,Hippocampus,21,117,0,0,0,0.0,0.0,,
+Oligodendrocytes,Hippocampus,60,126,0,0,0,0.0,0.0,,
+Oligodendrocytes,Hypothalamus,21,213,2,2,0,2.444185860627674,4.888371721255348,"Pdyn, Nptx2",
+Oligodendrocytes,Hypothalamus,60,205,3,1,2,5.343460047998019,3.3007804182187193,Cd74,"Pmch, Hcrt"
+Oligodendrocytes,Meningeal border/glia limitans,21,175,0,0,0,0.0,0.0,,
+Oligodendrocytes,Meningeal border/glia limitans,60,180,0,0,0,0.0,0.0,,
+Oligodendrocytes,Olfactory areas,21,172,1,0,1,4.818813603673044,0.0,,Col1a2
+Oligodendrocytes,Olfactory areas,60,174,0,0,0,0.0,0.0,,
+Oligodendrocytes,Pallidum,21,188,1,0,1,3.4707672331091755,0.0,,Serpind1
+Oligodendrocytes,Pallidum,60,196,0,0,0,0.0,0.0,,
+Oligodendrocytes,Striatum,21,195,0,0,0,0.0,0.0,,
+Oligodendrocytes,Striatum,60,188,0,0,0,0.0,0.0,,
+Oligodendrocytes,Thalamus,21,206,0,0,0,0.0,0.0,,
+Oligodendrocytes,Thalamus,60,206,7,5,2,3.5298270869063697,19.546684525881776,"Gfap, Ecel1, Cd74, Serpina3n, Cst7","Pmch, Kdr"
+Oligodendrocytes,Vasculature,21,103,0,0,0,0.0,0.0,,
+Oligodendrocytes,Vasculature,60,90,0,0,0,0.0,0.0,,
+Oligodendrocytes,Ventricular system,21,147,0,0,0,0.0,0.0,,
+Oligodendrocytes,Ventricular system,60,145,0,0,0,0.0,0.0,,

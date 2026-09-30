@@ -1,0 +1,13 @@
+cell_type,region,n_sections,n_control_21,n_mtDSB_21,n_control_60,n_mtDSB_60,status,seconds
+Immature Oligodendrocytes,Cortex,12,3,3,3,3,ok,2.0
+Immature Oligodendrocytes,Fiber tracts,12,3,3,3,3,ok,1.6
+Immature Oligodendrocytes,Hippocampus,12,3,3,3,3,ok,1.8
+Immature Oligodendrocytes,Hypothalamus,12,3,3,3,3,ok,1.8
+Immature Oligodendrocytes,Meningeal border/glia limitans,12,3,3,3,3,ok,1.5
+Immature Oligodendrocytes,Olfactory areas,12,3,3,3,3,ok,1.6
+Immature Oligodendrocytes,Pallidum,9,3,2,3,1,skipped: <2 sections in some age x condition cell,
+Immature Oligodendrocytes,Striatum,12,3,3,3,3,ok,1.9
+Immature Oligodendrocytes,Thalamus,12,3,3,3,3,ok,2.0
+Immature Oligodendrocytes,Vasculature,0,0,0,0,0,skipped: <2 sections in some age x condition cell,
+Immature Oligodendrocytes,Ventricular system,4,1,1,1,1,skipped: <2 sections in some age x condition cell,
+Immature Oligodendrocytes,All regions,12,3,3,3,3,ok,2.0

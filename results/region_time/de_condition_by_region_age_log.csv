@@ -1,0 +1,337 @@
+cell_type,region,age,n_case,n_control,n_cells,status,n_genes_tested,seconds
+Astrocytes,Cortex,21,3,3,10414,ok,3943,13.0
+Astrocytes,Cortex,60,3,3,12988,ok,3978,3.5
+Astrocytes,Fiber tracts,21,3,3,5206,ok,3778,2.7
+Astrocytes,Fiber tracts,60,3,3,6549,ok,3885,3.8
+Astrocytes,Hippocampus,21,3,3,1758,ok,3482,3.4
+Astrocytes,Hippocampus,60,3,3,2904,ok,3616,3.9
+Astrocytes,Hypothalamus,21,3,3,9177,ok,4044,4.5
+Astrocytes,Hypothalamus,60,3,3,10594,ok,4115,3.3
+Astrocytes,Meningeal border/glia limitans,21,3,3,11089,ok,4301,3.9
+Astrocytes,Meningeal border/glia limitans,60,3,3,13257,ok,4330,3.9
+Astrocytes,Olfactory areas,21,3,3,3549,ok,3599,3.7
+Astrocytes,Olfactory areas,60,3,3,5132,ok,3754,4.1
+Astrocytes,Pallidum,21,3,3,2348,ok,3466,2.6
+Astrocytes,Pallidum,60,2,3,4202,ok,3768,3.7
+Astrocytes,Striatum,21,3,3,6811,ok,3830,3.6
+Astrocytes,Striatum,60,3,3,6153,ok,3792,3.0
+Astrocytes,Thalamus,21,3,3,8983,ok,3958,3.6
+Astrocytes,Thalamus,60,3,3,14154,ok,4157,3.8
+Astrocytes,Vasculature,21,3,3,394,ok,2823,2.4
+Astrocytes,Vasculature,60,3,3,594,ok,3013,2.4
+Astrocytes,Ventricular system,21,3,3,7390,ok,4197,3.3
+Astrocytes,Ventricular system,60,3,3,9576,ok,4209,2.8
+Astrocytes,All regions,21,3,3,67119,ok,4796,4.1
+Astrocytes,All regions,60,3,3,86112,ok,4909,4.0
+DA-Oligodendrocytes,Cortex,21,1,2,720,skipped: <2 sections per condition,0,0.0
+DA-Oligodendrocytes,Cortex,60,3,1,1456,skipped: <2 sections per condition,0,0.0
+DA-Oligodendrocytes,Fiber tracts,21,1,1,1628,skipped: <2 sections per condition,0,0.0
+DA-Oligodendrocytes,Fiber tracts,60,3,1,3566,skipped: <2 sections per condition,0,0.0
+DA-Oligodendrocytes,Hippocampus,21,1,0,32,skipped: <2 sections per condition,0,0.0
+DA-Oligodendrocytes,Hippocampus,60,2,0,90,skipped: <2 sections per condition,0,0.0
+DA-Oligodendrocytes,Hypothalamus,21,1,1,665,skipped: <2 sections per condition,0,0.0
+DA-Oligodendrocytes,Hypothalamus,60,2,0,1442,skipped: <2 sections per condition,0,0.0
+DA-Oligodendrocytes,Meningeal border/glia limitans,21,1,0,132,skipped: <2 sections per condition,0,0.0
+DA-Oligodendrocytes,Meningeal border/glia limitans,60,2,1,279,skipped: <2 sections per condition,0,0.0
+DA-Oligodendrocytes,Olfactory areas,21,1,0,68,skipped: <2 sections per condition,0,0.0
+DA-Oligodendrocytes,Olfactory areas,60,1,0,200,skipped: <2 sections per condition,0,0.0
+DA-Oligodendrocytes,Pallidum,21,1,0,55,skipped: <2 sections per condition,0,0.0
+DA-Oligodendrocytes,Pallidum,60,1,0,38,skipped: <2 sections per condition,0,0.0
+DA-Oligodendrocytes,Striatum,21,1,1,468,skipped: <2 sections per condition,0,0.0
+DA-Oligodendrocytes,Striatum,60,2,0,755,skipped: <2 sections per condition,0,0.0
+DA-Oligodendrocytes,Thalamus,21,2,1,1070,skipped: <2 sections per condition,0,0.0
+DA-Oligodendrocytes,Thalamus,60,2,2,1709,ok,3334,2.7
+DA-Oligodendrocytes,Vasculature,21,0,0,0,skipped: <2 sections per condition,0,0.0
+DA-Oligodendrocytes,Vasculature,60,1,0,42,skipped: <2 sections per condition,0,0.0
+DA-Oligodendrocytes,Ventricular system,21,1,0,64,skipped: <2 sections per condition,0,0.0
+DA-Oligodendrocytes,Ventricular system,60,1,0,153,skipped: <2 sections per condition,0,0.0
+DA-Oligodendrocytes,All regions,21,3,3,5146,ok,3832,3.5
+DA-Oligodendrocytes,All regions,60,3,3,10008,ok,4083,3.0
+Endocrine Cells,Cortex,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Endocrine Cells,Cortex,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Endocrine Cells,Fiber tracts,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Endocrine Cells,Fiber tracts,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Endocrine Cells,Hippocampus,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Endocrine Cells,Hippocampus,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Endocrine Cells,Hypothalamus,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Endocrine Cells,Hypothalamus,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Endocrine Cells,Meningeal border/glia limitans,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Endocrine Cells,Meningeal border/glia limitans,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Endocrine Cells,Olfactory areas,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Endocrine Cells,Olfactory areas,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Endocrine Cells,Pallidum,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Endocrine Cells,Pallidum,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Endocrine Cells,Striatum,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Endocrine Cells,Striatum,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Endocrine Cells,Thalamus,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Endocrine Cells,Thalamus,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Endocrine Cells,Vasculature,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Endocrine Cells,Vasculature,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Endocrine Cells,Ventricular system,21,1,0,122,skipped: <2 sections per condition,0,0.0
+Endocrine Cells,Ventricular system,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Endocrine Cells,All regions,21,1,0,122,skipped: <2 sections per condition,0,0.0
+Endocrine Cells,All regions,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Endothelial Cells,Cortex,21,3,3,12430,ok,4099,3.4
+Endothelial Cells,Cortex,60,3,3,14626,ok,4121,3.6
+Endothelial Cells,Fiber tracts,21,3,3,2457,ok,3541,3.8
+Endothelial Cells,Fiber tracts,60,3,3,3152,ok,3717,2.4
+Endothelial Cells,Hippocampus,21,3,3,864,ok,3273,2.9
+Endothelial Cells,Hippocampus,60,3,3,1525,ok,3464,3.5
+Endothelial Cells,Hypothalamus,21,3,3,5215,ok,3975,2.7
+Endothelial Cells,Hypothalamus,60,3,3,4758,ok,3928,3.5
+Endothelial Cells,Meningeal border/glia limitans,21,3,3,10221,ok,4256,3.0
+Endothelial Cells,Meningeal border/glia limitans,60,3,3,11851,ok,4297,3.7
+Endothelial Cells,Olfactory areas,21,3,3,3119,ok,3776,3.9
+Endothelial Cells,Olfactory areas,60,3,3,4047,ok,3833,2.8
+Endothelial Cells,Pallidum,21,3,3,1495,ok,3379,3.4
+Endothelial Cells,Pallidum,60,2,3,1692,ok,3526,3.2
+Endothelial Cells,Striatum,21,3,3,5405,ok,3932,3.5
+Endothelial Cells,Striatum,60,3,3,4351,ok,3859,3.5
+Endothelial Cells,Thalamus,21,3,3,8111,ok,3961,2.6
+Endothelial Cells,Thalamus,60,3,3,8486,ok,3982,3.4
+Endothelial Cells,Vasculature,21,3,3,1777,ok,3628,2.8
+Endothelial Cells,Vasculature,60,3,3,2331,ok,3711,2.7
+Endothelial Cells,Ventricular system,21,3,3,8534,ok,4336,3.4
+Endothelial Cells,Ventricular system,60,3,3,8830,ok,4267,3.9
+Endothelial Cells,All regions,21,3,3,59628,ok,4780,3.6
+Endothelial Cells,All regions,60,3,3,65653,ok,4809,4.4
+Excitatory Neurons,Cortex,21,3,3,69161,ok,5095,5.2
+Excitatory Neurons,Cortex,60,3,3,78270,ok,5092,4.6
+Excitatory Neurons,Fiber tracts,21,0,1,24,skipped: <2 sections per condition,0,0.0
+Excitatory Neurons,Fiber tracts,60,1,0,25,skipped: <2 sections per condition,0,0.0
+Excitatory Neurons,Hippocampus,21,3,3,8611,ok,4057,4.0
+Excitatory Neurons,Hippocampus,60,3,3,12973,ok,4210,4.0
+Excitatory Neurons,Hypothalamus,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Excitatory Neurons,Hypothalamus,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Excitatory Neurons,Meningeal border/glia limitans,21,3,2,594,ok,3070,2.7
+Excitatory Neurons,Meningeal border/glia limitans,60,3,3,530,ok,3040,2.5
+Excitatory Neurons,Olfactory areas,21,3,3,15834,ok,4728,4.5
+Excitatory Neurons,Olfactory areas,60,3,3,19205,ok,4772,4.2
+Excitatory Neurons,Pallidum,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Excitatory Neurons,Pallidum,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Excitatory Neurons,Striatum,21,3,3,1102,ok,3388,2.8
+Excitatory Neurons,Striatum,60,3,3,943,ok,3276,3.8
+Excitatory Neurons,Thalamus,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Excitatory Neurons,Thalamus,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Excitatory Neurons,Vasculature,21,3,3,553,ok,3089,3.0
+Excitatory Neurons,Vasculature,60,3,3,794,ok,3213,3.1
+Excitatory Neurons,Ventricular system,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Excitatory Neurons,Ventricular system,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Excitatory Neurons,All regions,21,3,3,95966,ok,5096,5.4
+Excitatory Neurons,All regions,60,3,3,112845,ok,5094,4.8
+GABAergic Neurons,Cortex,21,3,3,8892,ok,4192,3.8
+GABAergic Neurons,Cortex,60,3,3,9764,ok,4199,3.5
+GABAergic Neurons,Fiber tracts,21,3,3,2118,ok,3626,3.0
+GABAergic Neurons,Fiber tracts,60,3,3,3076,ok,3744,3.4
+GABAergic Neurons,Hippocampus,21,3,3,477,ok,3078,2.5
+GABAergic Neurons,Hippocampus,60,3,3,807,ok,3273,2.6
+GABAergic Neurons,Hypothalamus,21,2,3,261,ok,2675,2.5
+GABAergic Neurons,Hypothalamus,60,3,1,210,skipped: <2 sections per condition,0,0.0
+GABAergic Neurons,Meningeal border/glia limitans,21,3,3,972,ok,3271,3.2
+GABAergic Neurons,Meningeal border/glia limitans,60,3,3,1088,ok,3263,2.4
+GABAergic Neurons,Olfactory areas,21,3,3,2681,ok,3749,2.4
+GABAergic Neurons,Olfactory areas,60,3,3,3767,ok,3865,3.0
+GABAergic Neurons,Pallidum,21,2,3,310,ok,2827,2.7
+GABAergic Neurons,Pallidum,60,1,3,382,skipped: <2 sections per condition,0,0.0
+GABAergic Neurons,Striatum,21,3,3,7019,ok,4023,3.5
+GABAergic Neurons,Striatum,60,3,3,6715,ok,3990,3.1
+GABAergic Neurons,Thalamus,21,1,1,51,skipped: <2 sections per condition,0,0.0
+GABAergic Neurons,Thalamus,60,1,0,22,skipped: <2 sections per condition,0,0.0
+GABAergic Neurons,Vasculature,21,1,2,70,skipped: <2 sections per condition,0,0.0
+GABAergic Neurons,Vasculature,60,2,3,137,ok,2352,2.2
+GABAergic Neurons,Ventricular system,21,0,1,20,skipped: <2 sections per condition,0,0.0
+GABAergic Neurons,Ventricular system,60,0,0,0,skipped: <2 sections per condition,0,0.0
+GABAergic Neurons,All regions,21,3,3,23006,ok,4733,4.2
+GABAergic Neurons,All regions,60,3,3,26104,ok,4827,3.9
+Immature Oligodendrocytes I,Cortex,21,3,3,2239,ok,3626,2.6
+Immature Oligodendrocytes I,Cortex,60,3,3,2443,ok,3651,3.1
+Immature Oligodendrocytes I,Fiber tracts,21,3,3,737,ok,3064,2.3
+Immature Oligodendrocytes I,Fiber tracts,60,3,3,757,ok,3110,2.2
+Immature Oligodendrocytes I,Hippocampus,21,3,3,241,ok,2698,1.9
+Immature Oligodendrocytes I,Hippocampus,60,3,3,457,ok,3015,2.3
+Immature Oligodendrocytes I,Hypothalamus,21,3,3,1590,ok,3573,2.4
+Immature Oligodendrocytes I,Hypothalamus,60,3,3,1480,ok,3542,3.5
+Immature Oligodendrocytes I,Meningeal border/glia limitans,21,3,3,824,ok,3218,2.5
+Immature Oligodendrocytes I,Meningeal border/glia limitans,60,3,3,890,ok,3233,2.6
+Immature Oligodendrocytes I,Olfactory areas,21,3,3,1239,ok,3489,2.8
+Immature Oligodendrocytes I,Olfactory areas,60,3,3,1524,ok,3521,3.4
+Immature Oligodendrocytes I,Pallidum,21,2,3,418,ok,2762,2.4
+Immature Oligodendrocytes I,Pallidum,60,1,3,492,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes I,Striatum,21,3,3,1687,ok,3585,3.6
+Immature Oligodendrocytes I,Striatum,60,3,3,1326,ok,3453,2.9
+Immature Oligodendrocytes I,Thalamus,21,3,3,1549,ok,3461,3.5
+Immature Oligodendrocytes I,Thalamus,60,3,3,1641,ok,3471,3.2
+Immature Oligodendrocytes I,Vasculature,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes I,Vasculature,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes I,Ventricular system,21,1,1,63,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes I,Ventricular system,60,1,1,60,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes I,All regions,21,3,3,10681,ok,4188,3.5
+Immature Oligodendrocytes I,All regions,60,3,3,11186,ok,4173,3.6
+Immature Oligodendrocytes II,Cortex,21,3,3,344,ok,2872,2.4
+Immature Oligodendrocytes II,Cortex,60,3,3,291,ok,2756,2.4
+Immature Oligodendrocytes II,Fiber tracts,21,3,3,345,ok,2442,2.6
+Immature Oligodendrocytes II,Fiber tracts,60,3,3,287,ok,2488,2.8
+Immature Oligodendrocytes II,Hippocampus,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes II,Hippocampus,60,1,0,21,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes II,Hypothalamus,21,2,3,190,ok,2505,2.1
+Immature Oligodendrocytes II,Hypothalamus,60,3,0,112,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes II,Meningeal border/glia limitans,21,1,0,20,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes II,Meningeal border/glia limitans,60,1,0,25,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes II,Olfactory areas,21,1,1,57,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes II,Olfactory areas,60,2,1,84,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes II,Pallidum,21,0,2,40,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes II,Pallidum,60,1,0,56,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes II,Striatum,21,2,2,105,ok,1962,1.8
+Immature Oligodendrocytes II,Striatum,60,2,1,102,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes II,Thalamus,21,2,3,207,ok,2569,2.4
+Immature Oligodendrocytes II,Thalamus,60,3,3,224,ok,2498,2.4
+Immature Oligodendrocytes II,Vasculature,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes II,Vasculature,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes II,Ventricular system,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes II,Ventricular system,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes II,All regions,21,3,3,1624,ok,3546,2.5
+Immature Oligodendrocytes II,All regions,60,3,3,1468,ok,3483,2.6
+Immature Oligodendrocytes III,Cortex,21,0,1,20,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes III,Cortex,60,1,0,20,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes III,Fiber tracts,21,3,3,375,ok,2529,2.7
+Immature Oligodendrocytes III,Fiber tracts,60,3,3,289,ok,2484,2.7
+Immature Oligodendrocytes III,Hippocampus,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes III,Hippocampus,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes III,Hypothalamus,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes III,Hypothalamus,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes III,Meningeal border/glia limitans,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes III,Meningeal border/glia limitans,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes III,Olfactory areas,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes III,Olfactory areas,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes III,Pallidum,21,1,1,52,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes III,Pallidum,60,1,0,51,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes III,Striatum,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes III,Striatum,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes III,Thalamus,21,1,0,25,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes III,Thalamus,60,1,1,47,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes III,Vasculature,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes III,Vasculature,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes III,Ventricular system,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes III,Ventricular system,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes III,All regions,21,3,3,818,ok,3186,2.3
+Immature Oligodendrocytes III,All regions,60,3,3,750,ok,3197,2.5
+Medium Spiny Neurons,Cortex,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Medium Spiny Neurons,Cortex,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Medium Spiny Neurons,Fiber tracts,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Medium Spiny Neurons,Fiber tracts,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Medium Spiny Neurons,Hippocampus,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Medium Spiny Neurons,Hippocampus,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Medium Spiny Neurons,Hypothalamus,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Medium Spiny Neurons,Hypothalamus,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Medium Spiny Neurons,Meningeal border/glia limitans,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Medium Spiny Neurons,Meningeal border/glia limitans,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Medium Spiny Neurons,Olfactory areas,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Medium Spiny Neurons,Olfactory areas,60,1,0,147,skipped: <2 sections per condition,0,0.0
+Medium Spiny Neurons,Pallidum,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Medium Spiny Neurons,Pallidum,60,1,0,23,skipped: <2 sections per condition,0,0.0
+Medium Spiny Neurons,Striatum,21,3,3,23443,ok,4558,4.8
+Medium Spiny Neurons,Striatum,60,3,3,20474,ok,4480,4.4
+Medium Spiny Neurons,Thalamus,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Medium Spiny Neurons,Thalamus,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Medium Spiny Neurons,Vasculature,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Medium Spiny Neurons,Vasculature,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Medium Spiny Neurons,Ventricular system,21,3,3,227,ok,2543,3.1
+Medium Spiny Neurons,Ventricular system,60,2,3,123,ok,2127,2.2
+Medium Spiny Neurons,All regions,21,3,3,23800,ok,4566,3.9
+Medium Spiny Neurons,All regions,60,3,3,20931,ok,4497,4.2
+Microglia,Cortex,21,3,3,3845,ok,3763,3.2
+Microglia,Cortex,60,3,3,4512,ok,3828,3.3
+Microglia,Fiber tracts,21,3,3,1024,ok,3083,2.8
+Microglia,Fiber tracts,60,3,3,1542,ok,3371,3.0
+Microglia,Hippocampus,21,3,3,333,ok,2694,2.8
+Microglia,Hippocampus,60,3,3,585,ok,3065,3.0
+Microglia,Hypothalamus,21,3,3,1115,ok,3404,2.9
+Microglia,Hypothalamus,60,3,3,1343,ok,3524,2.7
+Microglia,Meningeal border/glia limitans,21,3,3,986,ok,3264,3.4
+Microglia,Meningeal border/glia limitans,60,3,3,1189,ok,3313,2.9
+Microglia,Olfactory areas,21,3,3,1354,ok,3459,3.0
+Microglia,Olfactory areas,60,3,3,1691,ok,3554,3.0
+Microglia,Pallidum,21,2,3,600,ok,2735,2.1
+Microglia,Pallidum,60,2,3,940,ok,3171,2.4
+Microglia,Striatum,21,3,3,1820,ok,3523,2.8
+Microglia,Striatum,60,3,3,1649,ok,3492,3.5
+Microglia,Thalamus,21,3,3,1500,ok,3420,2.6
+Microglia,Thalamus,60,3,3,1979,ok,3561,2.9
+Microglia,Vasculature,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Microglia,Vasculature,60,2,1,77,skipped: <2 sections per condition,0,0.0
+Microglia,Ventricular system,21,2,3,165,ok,2107,2.5
+Microglia,Ventricular system,60,3,3,234,ok,2459,2.7
+Microglia,All regions,21,3,3,12842,ok,4209,3.9
+Microglia,All regions,60,3,3,15776,ok,4291,3.2
+Neural Stem Cells,Cortex,21,1,0,67,skipped: <2 sections per condition,0,0.0
+Neural Stem Cells,Cortex,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Neural Stem Cells,Fiber tracts,21,3,3,391,ok,2395,2.4
+Neural Stem Cells,Fiber tracts,60,2,2,187,ok,1858,2.1
+Neural Stem Cells,Hippocampus,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Neural Stem Cells,Hippocampus,60,2,0,43,skipped: <2 sections per condition,0,0.0
+Neural Stem Cells,Hypothalamus,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Neural Stem Cells,Hypothalamus,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Neural Stem Cells,Meningeal border/glia limitans,21,1,1,60,skipped: <2 sections per condition,0,0.0
+Neural Stem Cells,Meningeal border/glia limitans,60,1,0,32,skipped: <2 sections per condition,0,0.0
+Neural Stem Cells,Olfactory areas,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Neural Stem Cells,Olfactory areas,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Neural Stem Cells,Pallidum,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Neural Stem Cells,Pallidum,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Neural Stem Cells,Striatum,21,1,0,22,skipped: <2 sections per condition,0,0.0
+Neural Stem Cells,Striatum,60,2,0,44,skipped: <2 sections per condition,0,0.0
+Neural Stem Cells,Thalamus,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Neural Stem Cells,Thalamus,60,1,0,31,skipped: <2 sections per condition,0,0.0
+Neural Stem Cells,Vasculature,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Neural Stem Cells,Vasculature,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Neural Stem Cells,Ventricular system,21,3,3,1701,ok,3689,3.3
+Neural Stem Cells,Ventricular system,60,3,3,1618,ok,3633,3.4
+Neural Stem Cells,All regions,21,3,3,2571,ok,3808,3.5
+Neural Stem Cells,All regions,60,3,3,2411,ok,3758,3.4
+Neurons,Cortex,21,3,3,1426,ok,3332,3.5
+Neurons,Cortex,60,3,3,3427,ok,3653,3.0
+Neurons,Fiber tracts,21,3,3,538,ok,3190,2.2
+Neurons,Fiber tracts,60,3,3,849,ok,3375,3.4
+Neurons,Hippocampus,21,3,3,440,ok,2934,2.9
+Neurons,Hippocampus,60,3,3,1290,ok,3441,3.2
+Neurons,Hypothalamus,21,3,3,26182,ok,4786,4.5
+Neurons,Hypothalamus,60,3,3,30647,ok,4859,4.9
+Neurons,Meningeal border/glia limitans,21,3,3,1276,ok,3599,3.8
+Neurons,Meningeal border/glia limitans,60,3,3,1398,ok,3596,3.9
+Neurons,Olfactory areas,21,3,3,685,ok,3278,2.9
+Neurons,Olfactory areas,60,3,3,2784,ok,3825,3.6
+Neurons,Pallidum,21,3,3,1406,ok,3576,2.8
+Neurons,Pallidum,60,2,3,2443,ok,3817,3.6
+Neurons,Striatum,21,3,3,11977,ok,4361,4.4
+Neurons,Striatum,60,3,3,9157,ok,4200,4.0
+Neurons,Thalamus,21,3,3,27985,ok,4798,3.8
+Neurons,Thalamus,60,3,3,30662,ok,4882,4.2
+Neurons,Vasculature,21,3,3,253,ok,2841,3.1
+Neurons,Vasculature,60,3,2,320,ok,2890,2.6
+Neurons,Ventricular system,21,2,3,1168,ok,3618,3.7
+Neurons,Ventricular system,60,3,3,1717,ok,3668,3.5
+Neurons,All regions,21,3,3,73352,ok,5083,4.1
+Neurons,All regions,60,3,3,84709,ok,5091,4.9
+Oligodendrocytes,Cortex,21,3,3,9389,ok,4003,3.9
+Oligodendrocytes,Cortex,60,3,3,12345,ok,4090,3.7
+Oligodendrocytes,Fiber tracts,21,3,3,20115,ok,4072,3.7
+Oligodendrocytes,Fiber tracts,60,3,3,22043,ok,4147,3.9
+Oligodendrocytes,Hippocampus,21,3,3,637,ok,2952,2.7
+Oligodendrocytes,Hippocampus,60,3,3,1034,ok,3143,3.2
+Oligodendrocytes,Hypothalamus,21,3,3,8009,ok,4024,3.2
+Oligodendrocytes,Hypothalamus,60,3,3,6452,ok,3938,3.1
+Oligodendrocytes,Meningeal border/glia limitans,21,3,3,2250,ok,3502,3.2
+Oligodendrocytes,Meningeal border/glia limitans,60,3,3,2660,ok,3564,3.7
+Oligodendrocytes,Olfactory areas,21,3,3,1537,ok,3462,2.6
+Oligodendrocytes,Olfactory areas,60,3,3,3117,ok,3690,3.7
+Oligodendrocytes,Pallidum,21,3,3,7710,ok,3795,3.8
+Oligodendrocytes,Pallidum,60,2,3,8496,ok,3901,3.5
+Oligodendrocytes,Striatum,21,3,3,6569,ok,3852,3.6
+Oligodendrocytes,Striatum,60,3,3,6563,ok,3847,4.0
+Oligodendrocytes,Thalamus,21,3,3,10241,ok,3984,3.2
+Oligodendrocytes,Thalamus,60,3,3,11856,ok,4028,3.8
+Oligodendrocytes,Vasculature,21,3,3,230,ok,2390,2.1
+Oligodendrocytes,Vasculature,60,3,3,201,ok,2229,2.0
+Oligodendrocytes,Ventricular system,21,3,3,1443,ok,3262,2.6
+Oligodendrocytes,Ventricular system,60,3,3,1247,ok,3160,2.5
+Oligodendrocytes,All regions,21,3,3,68130,ok,4839,4.0
+Oligodendrocytes,All regions,60,3,3,76017,ok,4964,4.3

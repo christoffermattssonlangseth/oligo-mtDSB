@@ -1,0 +1,1109 @@
+pb_id,cell_type,region,sample_id,age,condition,n_cells
+Astrocytes|Cortex|RB4282,Astrocytes,Cortex,RB4282,60,control,2262
+Astrocytes|Cortex|RB4350,Astrocytes,Cortex,RB4350,60,control,1800
+Astrocytes|Cortex|RB4401,Astrocytes,Cortex,RB4401,60,mtDSB,1963
+Astrocytes|Cortex|RB4403,Astrocytes,Cortex,RB4403,60,mtDSB,2874
+Astrocytes|Cortex|RB4405,Astrocytes,Cortex,RB4405,60,mtDSB,2140
+Astrocytes|Cortex|RB4498,Astrocytes,Cortex,RB4498,60,control,1949
+Astrocytes|Cortex|RB4620,Astrocytes,Cortex,RB4620,21,control,1979
+Astrocytes|Cortex|RB4627,Astrocytes,Cortex,RB4627,21,mtDSB,1702
+Astrocytes|Cortex|RB4630,Astrocytes,Cortex,RB4630,21,mtDSB,2186
+Astrocytes|Cortex|RB4653,Astrocytes,Cortex,RB4653,21,mtDSB,1898
+Astrocytes|Cortex|RB4658,Astrocytes,Cortex,RB4658,21,control,1004
+Astrocytes|Cortex|RB4676,Astrocytes,Cortex,RB4676,21,control,1645
+Astrocytes|Fiber tracts|RB4282,Astrocytes,Fiber tracts,RB4282,60,control,695
+Astrocytes|Fiber tracts|RB4350,Astrocytes,Fiber tracts,RB4350,60,control,613
+Astrocytes|Fiber tracts|RB4401,Astrocytes,Fiber tracts,RB4401,60,mtDSB,767
+Astrocytes|Fiber tracts|RB4403,Astrocytes,Fiber tracts,RB4403,60,mtDSB,2234
+Astrocytes|Fiber tracts|RB4405,Astrocytes,Fiber tracts,RB4405,60,mtDSB,1414
+Astrocytes|Fiber tracts|RB4498,Astrocytes,Fiber tracts,RB4498,60,control,826
+Astrocytes|Fiber tracts|RB4620,Astrocytes,Fiber tracts,RB4620,21,control,997
+Astrocytes|Fiber tracts|RB4627,Astrocytes,Fiber tracts,RB4627,21,mtDSB,1223
+Astrocytes|Fiber tracts|RB4630,Astrocytes,Fiber tracts,RB4630,21,mtDSB,789
+Astrocytes|Fiber tracts|RB4653,Astrocytes,Fiber tracts,RB4653,21,mtDSB,649
+Astrocytes|Fiber tracts|RB4658,Astrocytes,Fiber tracts,RB4658,21,control,747
+Astrocytes|Fiber tracts|RB4676,Astrocytes,Fiber tracts,RB4676,21,control,801
+Astrocytes|Hippocampus|RB4282,Astrocytes,Hippocampus,RB4282,60,control,472
+Astrocytes|Hippocampus|RB4350,Astrocytes,Hippocampus,RB4350,60,control,418
+Astrocytes|Hippocampus|RB4401,Astrocytes,Hippocampus,RB4401,60,mtDSB,468
+Astrocytes|Hippocampus|RB4403,Astrocytes,Hippocampus,RB4403,60,mtDSB,807
+Astrocytes|Hippocampus|RB4405,Astrocytes,Hippocampus,RB4405,60,mtDSB,325
+Astrocytes|Hippocampus|RB4498,Astrocytes,Hippocampus,RB4498,60,control,414
+Astrocytes|Hippocampus|RB4620,Astrocytes,Hippocampus,RB4620,21,control,181
+Astrocytes|Hippocampus|RB4627,Astrocytes,Hippocampus,RB4627,21,mtDSB,286
+Astrocytes|Hippocampus|RB4630,Astrocytes,Hippocampus,RB4630,21,mtDSB,337
+Astrocytes|Hippocampus|RB4653,Astrocytes,Hippocampus,RB4653,21,mtDSB,398
+Astrocytes|Hippocampus|RB4658,Astrocytes,Hippocampus,RB4658,21,control,239
+Astrocytes|Hippocampus|RB4676,Astrocytes,Hippocampus,RB4676,21,control,317
+Astrocytes|Hypothalamus|RB4282,Astrocytes,Hypothalamus,RB4282,60,control,1580
+Astrocytes|Hypothalamus|RB4350,Astrocytes,Hypothalamus,RB4350,60,control,1446
+Astrocytes|Hypothalamus|RB4401,Astrocytes,Hypothalamus,RB4401,60,mtDSB,1481
+Astrocytes|Hypothalamus|RB4403,Astrocytes,Hypothalamus,RB4403,60,mtDSB,3110
+Astrocytes|Hypothalamus|RB4405,Astrocytes,Hypothalamus,RB4405,60,mtDSB,1735
+Astrocytes|Hypothalamus|RB4498,Astrocytes,Hypothalamus,RB4498,60,control,1242
+Astrocytes|Hypothalamus|RB4620,Astrocytes,Hypothalamus,RB4620,21,control,2079
+Astrocytes|Hypothalamus|RB4627,Astrocytes,Hypothalamus,RB4627,21,mtDSB,1512
+Astrocytes|Hypothalamus|RB4630,Astrocytes,Hypothalamus,RB4630,21,mtDSB,967
+Astrocytes|Hypothalamus|RB4653,Astrocytes,Hypothalamus,RB4653,21,mtDSB,1579
+Astrocytes|Hypothalamus|RB4658,Astrocytes,Hypothalamus,RB4658,21,control,1066
+Astrocytes|Hypothalamus|RB4676,Astrocytes,Hypothalamus,RB4676,21,control,1974
+Astrocytes|Meningeal border/glia limitans|RB4282,Astrocytes,Meningeal border/glia limitans,RB4282,60,control,2133
+Astrocytes|Meningeal border/glia limitans|RB4350,Astrocytes,Meningeal border/glia limitans,RB4350,60,control,2165
+Astrocytes|Meningeal border/glia limitans|RB4401,Astrocytes,Meningeal border/glia limitans,RB4401,60,mtDSB,2678
+Astrocytes|Meningeal border/glia limitans|RB4403,Astrocytes,Meningeal border/glia limitans,RB4403,60,mtDSB,3070
+Astrocytes|Meningeal border/glia limitans|RB4405,Astrocytes,Meningeal border/glia limitans,RB4405,60,mtDSB,1686
+Astrocytes|Meningeal border/glia limitans|RB4498,Astrocytes,Meningeal border/glia limitans,RB4498,60,control,1525
+Astrocytes|Meningeal border/glia limitans|RB4620,Astrocytes,Meningeal border/glia limitans,RB4620,21,control,1470
+Astrocytes|Meningeal border/glia limitans|RB4627,Astrocytes,Meningeal border/glia limitans,RB4627,21,mtDSB,1980
+Astrocytes|Meningeal border/glia limitans|RB4630,Astrocytes,Meningeal border/glia limitans,RB4630,21,mtDSB,1896
+Astrocytes|Meningeal border/glia limitans|RB4653,Astrocytes,Meningeal border/glia limitans,RB4653,21,mtDSB,2289
+Astrocytes|Meningeal border/glia limitans|RB4658,Astrocytes,Meningeal border/glia limitans,RB4658,21,control,1825
+Astrocytes|Meningeal border/glia limitans|RB4676,Astrocytes,Meningeal border/glia limitans,RB4676,21,control,1629
+Astrocytes|Olfactory areas|RB4282,Astrocytes,Olfactory areas,RB4282,60,control,691
+Astrocytes|Olfactory areas|RB4350,Astrocytes,Olfactory areas,RB4350,60,control,788
+Astrocytes|Olfactory areas|RB4401,Astrocytes,Olfactory areas,RB4401,60,mtDSB,1234
+Astrocytes|Olfactory areas|RB4403,Astrocytes,Olfactory areas,RB4403,60,mtDSB,1178
+Astrocytes|Olfactory areas|RB4405,Astrocytes,Olfactory areas,RB4405,60,mtDSB,594
+Astrocytes|Olfactory areas|RB4498,Astrocytes,Olfactory areas,RB4498,60,control,647
+Astrocytes|Olfactory areas|RB4620,Astrocytes,Olfactory areas,RB4620,21,control,223
+Astrocytes|Olfactory areas|RB4627,Astrocytes,Olfactory areas,RB4627,21,mtDSB,418
+Astrocytes|Olfactory areas|RB4630,Astrocytes,Olfactory areas,RB4630,21,mtDSB,514
+Astrocytes|Olfactory areas|RB4653,Astrocytes,Olfactory areas,RB4653,21,mtDSB,672
+Astrocytes|Olfactory areas|RB4658,Astrocytes,Olfactory areas,RB4658,21,control,1054
+Astrocytes|Olfactory areas|RB4676,Astrocytes,Olfactory areas,RB4676,21,control,668
+Astrocytes|Pallidum|RB4282,Astrocytes,Pallidum,RB4282,60,control,427
+Astrocytes|Pallidum|RB4350,Astrocytes,Pallidum,RB4350,60,control,408
+Astrocytes|Pallidum|RB4401,Astrocytes,Pallidum,RB4401,60,mtDSB,71
+Astrocytes|Pallidum|RB4403,Astrocytes,Pallidum,RB4403,60,mtDSB,2681
+Astrocytes|Pallidum|RB4498,Astrocytes,Pallidum,RB4498,60,control,615
+Astrocytes|Pallidum|RB4620,Astrocytes,Pallidum,RB4620,21,control,496
+Astrocytes|Pallidum|RB4627,Astrocytes,Pallidum,RB4627,21,mtDSB,52
+Astrocytes|Pallidum|RB4630,Astrocytes,Pallidum,RB4630,21,mtDSB,570
+Astrocytes|Pallidum|RB4653,Astrocytes,Pallidum,RB4653,21,mtDSB,301
+Astrocytes|Pallidum|RB4658,Astrocytes,Pallidum,RB4658,21,control,389
+Astrocytes|Pallidum|RB4676,Astrocytes,Pallidum,RB4676,21,control,540
+Astrocytes|Striatum|RB4282,Astrocytes,Striatum,RB4282,60,control,1136
+Astrocytes|Striatum|RB4350,Astrocytes,Striatum,RB4350,60,control,831
+Astrocytes|Striatum|RB4401,Astrocytes,Striatum,RB4401,60,mtDSB,885
+Astrocytes|Striatum|RB4403,Astrocytes,Striatum,RB4403,60,mtDSB,730
+Astrocytes|Striatum|RB4405,Astrocytes,Striatum,RB4405,60,mtDSB,1406
+Astrocytes|Striatum|RB4498,Astrocytes,Striatum,RB4498,60,control,1165
+Astrocytes|Striatum|RB4620,Astrocytes,Striatum,RB4620,21,control,1417
+Astrocytes|Striatum|RB4627,Astrocytes,Striatum,RB4627,21,mtDSB,1026
+Astrocytes|Striatum|RB4630,Astrocytes,Striatum,RB4630,21,mtDSB,1303
+Astrocytes|Striatum|RB4653,Astrocytes,Striatum,RB4653,21,mtDSB,934
+Astrocytes|Striatum|RB4658,Astrocytes,Striatum,RB4658,21,control,951
+Astrocytes|Striatum|RB4676,Astrocytes,Striatum,RB4676,21,control,1180
+Astrocytes|Thalamus|RB4282,Astrocytes,Thalamus,RB4282,60,control,2097
+Astrocytes|Thalamus|RB4350,Astrocytes,Thalamus,RB4350,60,control,1909
+Astrocytes|Thalamus|RB4401,Astrocytes,Thalamus,RB4401,60,mtDSB,1618
+Astrocytes|Thalamus|RB4403,Astrocytes,Thalamus,RB4403,60,mtDSB,4648
+Astrocytes|Thalamus|RB4405,Astrocytes,Thalamus,RB4405,60,mtDSB,1852
+Astrocytes|Thalamus|RB4498,Astrocytes,Thalamus,RB4498,60,control,2030
+Astrocytes|Thalamus|RB4620,Astrocytes,Thalamus,RB4620,21,control,1345
+Astrocytes|Thalamus|RB4627,Astrocytes,Thalamus,RB4627,21,mtDSB,1546
+Astrocytes|Thalamus|RB4630,Astrocytes,Thalamus,RB4630,21,mtDSB,1106
+Astrocytes|Thalamus|RB4653,Astrocytes,Thalamus,RB4653,21,mtDSB,1866
+Astrocytes|Thalamus|RB4658,Astrocytes,Thalamus,RB4658,21,control,1449
+Astrocytes|Thalamus|RB4676,Astrocytes,Thalamus,RB4676,21,control,1671
+Astrocytes|Vasculature|RB4282,Astrocytes,Vasculature,RB4282,60,control,101
+Astrocytes|Vasculature|RB4350,Astrocytes,Vasculature,RB4350,60,control,70
+Astrocytes|Vasculature|RB4401,Astrocytes,Vasculature,RB4401,60,mtDSB,133
+Astrocytes|Vasculature|RB4403,Astrocytes,Vasculature,RB4403,60,mtDSB,79
+Astrocytes|Vasculature|RB4405,Astrocytes,Vasculature,RB4405,60,mtDSB,101
+Astrocytes|Vasculature|RB4498,Astrocytes,Vasculature,RB4498,60,control,110
+Astrocytes|Vasculature|RB4620,Astrocytes,Vasculature,RB4620,21,control,86
+Astrocytes|Vasculature|RB4627,Astrocytes,Vasculature,RB4627,21,mtDSB,59
+Astrocytes|Vasculature|RB4630,Astrocytes,Vasculature,RB4630,21,mtDSB,76
+Astrocytes|Vasculature|RB4653,Astrocytes,Vasculature,RB4653,21,mtDSB,61
+Astrocytes|Vasculature|RB4658,Astrocytes,Vasculature,RB4658,21,control,29
+Astrocytes|Vasculature|RB4676,Astrocytes,Vasculature,RB4676,21,control,83
+Astrocytes|Ventricular system|RB4282,Astrocytes,Ventricular system,RB4282,60,control,1521
+Astrocytes|Ventricular system|RB4350,Astrocytes,Ventricular system,RB4350,60,control,1568
+Astrocytes|Ventricular system|RB4401,Astrocytes,Ventricular system,RB4401,60,mtDSB,1320
+Astrocytes|Ventricular system|RB4403,Astrocytes,Ventricular system,RB4403,60,mtDSB,2960
+Astrocytes|Ventricular system|RB4405,Astrocytes,Ventricular system,RB4405,60,mtDSB,894
+Astrocytes|Ventricular system|RB4498,Astrocytes,Ventricular system,RB4498,60,control,1313
+Astrocytes|Ventricular system|RB4620,Astrocytes,Ventricular system,RB4620,21,control,1471
+Astrocytes|Ventricular system|RB4627,Astrocytes,Ventricular system,RB4627,21,mtDSB,1218
+Astrocytes|Ventricular system|RB4630,Astrocytes,Ventricular system,RB4630,21,mtDSB,644
+Astrocytes|Ventricular system|RB4653,Astrocytes,Ventricular system,RB4653,21,mtDSB,1703
+Astrocytes|Ventricular system|RB4658,Astrocytes,Ventricular system,RB4658,21,control,1199
+Astrocytes|Ventricular system|RB4676,Astrocytes,Ventricular system,RB4676,21,control,1155
+Endocrine Cells|Ventricular system|RB4653,Endocrine Cells,Ventricular system,RB4653,21,mtDSB,122
+Endothelial Cells|Cortex|RB4282,Endothelial Cells,Cortex,RB4282,60,control,2528
+Endothelial Cells|Cortex|RB4350,Endothelial Cells,Cortex,RB4350,60,control,2065
+Endothelial Cells|Cortex|RB4401,Endothelial Cells,Cortex,RB4401,60,mtDSB,2338
+Endothelial Cells|Cortex|RB4403,Endothelial Cells,Cortex,RB4403,60,mtDSB,3115
+Endothelial Cells|Cortex|RB4405,Endothelial Cells,Cortex,RB4405,60,mtDSB,2200
+Endothelial Cells|Cortex|RB4498,Endothelial Cells,Cortex,RB4498,60,control,2380
+Endothelial Cells|Cortex|RB4620,Endothelial Cells,Cortex,RB4620,21,control,2433
+Endothelial Cells|Cortex|RB4627,Endothelial Cells,Cortex,RB4627,21,mtDSB,2226
+Endothelial Cells|Cortex|RB4630,Endothelial Cells,Cortex,RB4630,21,mtDSB,2178
+Endothelial Cells|Cortex|RB4653,Endothelial Cells,Cortex,RB4653,21,mtDSB,1957
+Endothelial Cells|Cortex|RB4658,Endothelial Cells,Cortex,RB4658,21,control,1114
+Endothelial Cells|Cortex|RB4676,Endothelial Cells,Cortex,RB4676,21,control,2522
+Endothelial Cells|Fiber tracts|RB4282,Endothelial Cells,Fiber tracts,RB4282,60,control,377
+Endothelial Cells|Fiber tracts|RB4350,Endothelial Cells,Fiber tracts,RB4350,60,control,296
+Endothelial Cells|Fiber tracts|RB4401,Endothelial Cells,Fiber tracts,RB4401,60,mtDSB,456
+Endothelial Cells|Fiber tracts|RB4403,Endothelial Cells,Fiber tracts,RB4403,60,mtDSB,824
+Endothelial Cells|Fiber tracts|RB4405,Endothelial Cells,Fiber tracts,RB4405,60,mtDSB,789
+Endothelial Cells|Fiber tracts|RB4498,Endothelial Cells,Fiber tracts,RB4498,60,control,410
+Endothelial Cells|Fiber tracts|RB4620,Endothelial Cells,Fiber tracts,RB4620,21,control,419
+Endothelial Cells|Fiber tracts|RB4627,Endothelial Cells,Fiber tracts,RB4627,21,mtDSB,631
+Endothelial Cells|Fiber tracts|RB4630,Endothelial Cells,Fiber tracts,RB4630,21,mtDSB,367
+Endothelial Cells|Fiber tracts|RB4653,Endothelial Cells,Fiber tracts,RB4653,21,mtDSB,293
+Endothelial Cells|Fiber tracts|RB4658,Endothelial Cells,Fiber tracts,RB4658,21,control,375
+Endothelial Cells|Fiber tracts|RB4676,Endothelial Cells,Fiber tracts,RB4676,21,control,372
+Endothelial Cells|Hippocampus|RB4282,Endothelial Cells,Hippocampus,RB4282,60,control,261
+Endothelial Cells|Hippocampus|RB4350,Endothelial Cells,Hippocampus,RB4350,60,control,242
+Endothelial Cells|Hippocampus|RB4401,Endothelial Cells,Hippocampus,RB4401,60,mtDSB,249
+Endothelial Cells|Hippocampus|RB4403,Endothelial Cells,Hippocampus,RB4403,60,mtDSB,408
+Endothelial Cells|Hippocampus|RB4405,Endothelial Cells,Hippocampus,RB4405,60,mtDSB,169
+Endothelial Cells|Hippocampus|RB4498,Endothelial Cells,Hippocampus,RB4498,60,control,196
+Endothelial Cells|Hippocampus|RB4620,Endothelial Cells,Hippocampus,RB4620,21,control,122
+Endothelial Cells|Hippocampus|RB4627,Endothelial Cells,Hippocampus,RB4627,21,mtDSB,138
+Endothelial Cells|Hippocampus|RB4630,Endothelial Cells,Hippocampus,RB4630,21,mtDSB,151
+Endothelial Cells|Hippocampus|RB4653,Endothelial Cells,Hippocampus,RB4653,21,mtDSB,237
+Endothelial Cells|Hippocampus|RB4658,Endothelial Cells,Hippocampus,RB4658,21,control,116
+Endothelial Cells|Hippocampus|RB4676,Endothelial Cells,Hippocampus,RB4676,21,control,100
+Endothelial Cells|Hypothalamus|RB4282,Endothelial Cells,Hypothalamus,RB4282,60,control,729
+Endothelial Cells|Hypothalamus|RB4350,Endothelial Cells,Hypothalamus,RB4350,60,control,638
+Endothelial Cells|Hypothalamus|RB4401,Endothelial Cells,Hypothalamus,RB4401,60,mtDSB,1109
+Endothelial Cells|Hypothalamus|RB4403,Endothelial Cells,Hypothalamus,RB4403,60,mtDSB,939
+Endothelial Cells|Hypothalamus|RB4405,Endothelial Cells,Hypothalamus,RB4405,60,mtDSB,723
+Endothelial Cells|Hypothalamus|RB4498,Endothelial Cells,Hypothalamus,RB4498,60,control,620
+Endothelial Cells|Hypothalamus|RB4620,Endothelial Cells,Hypothalamus,RB4620,21,control,1031
+Endothelial Cells|Hypothalamus|RB4627,Endothelial Cells,Hypothalamus,RB4627,21,mtDSB,780
+Endothelial Cells|Hypothalamus|RB4630,Endothelial Cells,Hypothalamus,RB4630,21,mtDSB,529
+Endothelial Cells|Hypothalamus|RB4653,Endothelial Cells,Hypothalamus,RB4653,21,mtDSB,924
+Endothelial Cells|Hypothalamus|RB4658,Endothelial Cells,Hypothalamus,RB4658,21,control,722
+Endothelial Cells|Hypothalamus|RB4676,Endothelial Cells,Hypothalamus,RB4676,21,control,1229
+Endothelial Cells|Meningeal border/glia limitans|RB4282,Endothelial Cells,Meningeal border/glia limitans,RB4282,60,control,1860
+Endothelial Cells|Meningeal border/glia limitans|RB4350,Endothelial Cells,Meningeal border/glia limitans,RB4350,60,control,1895
+Endothelial Cells|Meningeal border/glia limitans|RB4401,Endothelial Cells,Meningeal border/glia limitans,RB4401,60,mtDSB,3164
+Endothelial Cells|Meningeal border/glia limitans|RB4403,Endothelial Cells,Meningeal border/glia limitans,RB4403,60,mtDSB,2164
+Endothelial Cells|Meningeal border/glia limitans|RB4405,Endothelial Cells,Meningeal border/glia limitans,RB4405,60,mtDSB,1585
+Endothelial Cells|Meningeal border/glia limitans|RB4498,Endothelial Cells,Meningeal border/glia limitans,RB4498,60,control,1183
+Endothelial Cells|Meningeal border/glia limitans|RB4620,Endothelial Cells,Meningeal border/glia limitans,RB4620,21,control,1532
+Endothelial Cells|Meningeal border/glia limitans|RB4627,Endothelial Cells,Meningeal border/glia limitans,RB4627,21,mtDSB,2113
+Endothelial Cells|Meningeal border/glia limitans|RB4630,Endothelial Cells,Meningeal border/glia limitans,RB4630,21,mtDSB,1628
+Endothelial Cells|Meningeal border/glia limitans|RB4653,Endothelial Cells,Meningeal border/glia limitans,RB4653,21,mtDSB,2007
+Endothelial Cells|Meningeal border/glia limitans|RB4658,Endothelial Cells,Meningeal border/glia limitans,RB4658,21,control,1478
+Endothelial Cells|Meningeal border/glia limitans|RB4676,Endothelial Cells,Meningeal border/glia limitans,RB4676,21,control,1463
+Endothelial Cells|Olfactory areas|RB4282,Endothelial Cells,Olfactory areas,RB4282,60,control,640
+Endothelial Cells|Olfactory areas|RB4350,Endothelial Cells,Olfactory areas,RB4350,60,control,756
+Endothelial Cells|Olfactory areas|RB4401,Endothelial Cells,Olfactory areas,RB4401,60,mtDSB,811
+Endothelial Cells|Olfactory areas|RB4403,Endothelial Cells,Olfactory areas,RB4403,60,mtDSB,740
+Endothelial Cells|Olfactory areas|RB4405,Endothelial Cells,Olfactory areas,RB4405,60,mtDSB,543
+Endothelial Cells|Olfactory areas|RB4498,Endothelial Cells,Olfactory areas,RB4498,60,control,557
+Endothelial Cells|Olfactory areas|RB4620,Endothelial Cells,Olfactory areas,RB4620,21,control,211
+Endothelial Cells|Olfactory areas|RB4627,Endothelial Cells,Olfactory areas,RB4627,21,mtDSB,440
+Endothelial Cells|Olfactory areas|RB4630,Endothelial Cells,Olfactory areas,RB4630,21,mtDSB,501
+Endothelial Cells|Olfactory areas|RB4653,Endothelial Cells,Olfactory areas,RB4653,21,mtDSB,549
+Endothelial Cells|Olfactory areas|RB4658,Endothelial Cells,Olfactory areas,RB4658,21,control,745
+Endothelial Cells|Olfactory areas|RB4676,Endothelial Cells,Olfactory areas,RB4676,21,control,673
+Endothelial Cells|Pallidum|RB4282,Endothelial Cells,Pallidum,RB4282,60,control,269
+Endothelial Cells|Pallidum|RB4350,Endothelial Cells,Pallidum,RB4350,60,control,209
+Endothelial Cells|Pallidum|RB4401,Endothelial Cells,Pallidum,RB4401,60,mtDSB,54
+Endothelial Cells|Pallidum|RB4403,Endothelial Cells,Pallidum,RB4403,60,mtDSB,840
+Endothelial Cells|Pallidum|RB4498,Endothelial Cells,Pallidum,RB4498,60,control,320
+Endothelial Cells|Pallidum|RB4620,Endothelial Cells,Pallidum,RB4620,21,control,251
+Endothelial Cells|Pallidum|RB4627,Endothelial Cells,Pallidum,RB4627,21,mtDSB,44
+Endothelial Cells|Pallidum|RB4630,Endothelial Cells,Pallidum,RB4630,21,mtDSB,357
+Endothelial Cells|Pallidum|RB4653,Endothelial Cells,Pallidum,RB4653,21,mtDSB,263
+Endothelial Cells|Pallidum|RB4658,Endothelial Cells,Pallidum,RB4658,21,control,219
+Endothelial Cells|Pallidum|RB4676,Endothelial Cells,Pallidum,RB4676,21,control,361
+Endothelial Cells|Striatum|RB4282,Endothelial Cells,Striatum,RB4282,60,control,707
+Endothelial Cells|Striatum|RB4350,Endothelial Cells,Striatum,RB4350,60,control,612
+Endothelial Cells|Striatum|RB4401,Endothelial Cells,Striatum,RB4401,60,mtDSB,448
+Endothelial Cells|Striatum|RB4403,Endothelial Cells,Striatum,RB4403,60,mtDSB,770
+Endothelial Cells|Striatum|RB4405,Endothelial Cells,Striatum,RB4405,60,mtDSB,914
+Endothelial Cells|Striatum|RB4498,Endothelial Cells,Striatum,RB4498,60,control,900
+Endothelial Cells|Striatum|RB4620,Endothelial Cells,Striatum,RB4620,21,control,1414
+Endothelial Cells|Striatum|RB4627,Endothelial Cells,Striatum,RB4627,21,mtDSB,846
+Endothelial Cells|Striatum|RB4630,Endothelial Cells,Striatum,RB4630,21,mtDSB,1078
+Endothelial Cells|Striatum|RB4653,Endothelial Cells,Striatum,RB4653,21,mtDSB,613
+Endothelial Cells|Striatum|RB4658,Endothelial Cells,Striatum,RB4658,21,control,483
+Endothelial Cells|Striatum|RB4676,Endothelial Cells,Striatum,RB4676,21,control,971
+Endothelial Cells|Thalamus|RB4282,Endothelial Cells,Thalamus,RB4282,60,control,1483
+Endothelial Cells|Thalamus|RB4350,Endothelial Cells,Thalamus,RB4350,60,control,1425
+Endothelial Cells|Thalamus|RB4401,Endothelial Cells,Thalamus,RB4401,60,mtDSB,1385
+Endothelial Cells|Thalamus|RB4403,Endothelial Cells,Thalamus,RB4403,60,mtDSB,1556
+Endothelial Cells|Thalamus|RB4405,Endothelial Cells,Thalamus,RB4405,60,mtDSB,1063
+Endothelial Cells|Thalamus|RB4498,Endothelial Cells,Thalamus,RB4498,60,control,1574
+Endothelial Cells|Thalamus|RB4620,Endothelial Cells,Thalamus,RB4620,21,control,1163
+Endothelial Cells|Thalamus|RB4627,Endothelial Cells,Thalamus,RB4627,21,mtDSB,1292
+Endothelial Cells|Thalamus|RB4630,Endothelial Cells,Thalamus,RB4630,21,mtDSB,966
+Endothelial Cells|Thalamus|RB4653,Endothelial Cells,Thalamus,RB4653,21,mtDSB,1802
+Endothelial Cells|Thalamus|RB4658,Endothelial Cells,Thalamus,RB4658,21,control,1319
+Endothelial Cells|Thalamus|RB4676,Endothelial Cells,Thalamus,RB4676,21,control,1569
+Endothelial Cells|Vasculature|RB4282,Endothelial Cells,Vasculature,RB4282,60,control,447
+Endothelial Cells|Vasculature|RB4350,Endothelial Cells,Vasculature,RB4350,60,control,212
+Endothelial Cells|Vasculature|RB4401,Endothelial Cells,Vasculature,RB4401,60,mtDSB,369
+Endothelial Cells|Vasculature|RB4403,Endothelial Cells,Vasculature,RB4403,60,mtDSB,341
+Endothelial Cells|Vasculature|RB4405,Endothelial Cells,Vasculature,RB4405,60,mtDSB,545
+Endothelial Cells|Vasculature|RB4498,Endothelial Cells,Vasculature,RB4498,60,control,417
+Endothelial Cells|Vasculature|RB4620,Endothelial Cells,Vasculature,RB4620,21,control,328
+Endothelial Cells|Vasculature|RB4627,Endothelial Cells,Vasculature,RB4627,21,mtDSB,267
+Endothelial Cells|Vasculature|RB4630,Endothelial Cells,Vasculature,RB4630,21,mtDSB,360
+Endothelial Cells|Vasculature|RB4653,Endothelial Cells,Vasculature,RB4653,21,mtDSB,172
+Endothelial Cells|Vasculature|RB4658,Endothelial Cells,Vasculature,RB4658,21,control,142
+Endothelial Cells|Vasculature|RB4676,Endothelial Cells,Vasculature,RB4676,21,control,508
+Endothelial Cells|Ventricular system|RB4282,Endothelial Cells,Ventricular system,RB4282,60,control,1112
+Endothelial Cells|Ventricular system|RB4350,Endothelial Cells,Ventricular system,RB4350,60,control,1522
+Endothelial Cells|Ventricular system|RB4401,Endothelial Cells,Ventricular system,RB4401,60,mtDSB,1096
+Endothelial Cells|Ventricular system|RB4403,Endothelial Cells,Ventricular system,RB4403,60,mtDSB,3326
+Endothelial Cells|Ventricular system|RB4405,Endothelial Cells,Ventricular system,RB4405,60,mtDSB,568
+Endothelial Cells|Ventricular system|RB4498,Endothelial Cells,Ventricular system,RB4498,60,control,1206
+Endothelial Cells|Ventricular system|RB4620,Endothelial Cells,Ventricular system,RB4620,21,control,1668
+Endothelial Cells|Ventricular system|RB4627,Endothelial Cells,Ventricular system,RB4627,21,mtDSB,1452
+Endothelial Cells|Ventricular system|RB4630,Endothelial Cells,Ventricular system,RB4630,21,mtDSB,620
+Endothelial Cells|Ventricular system|RB4653,Endothelial Cells,Ventricular system,RB4653,21,mtDSB,1674
+Endothelial Cells|Ventricular system|RB4658,Endothelial Cells,Ventricular system,RB4658,21,control,1584
+Endothelial Cells|Ventricular system|RB4676,Endothelial Cells,Ventricular system,RB4676,21,control,1536
+Excitatory Neurons|Cortex|RB4282,Excitatory Neurons,Cortex,RB4282,60,control,12853
+Excitatory Neurons|Cortex|RB4350,Excitatory Neurons,Cortex,RB4350,60,control,10628
+Excitatory Neurons|Cortex|RB4401,Excitatory Neurons,Cortex,RB4401,60,mtDSB,12453
+Excitatory Neurons|Cortex|RB4403,Excitatory Neurons,Cortex,RB4403,60,mtDSB,17059
+Excitatory Neurons|Cortex|RB4405,Excitatory Neurons,Cortex,RB4405,60,mtDSB,12826
+Excitatory Neurons|Cortex|RB4498,Excitatory Neurons,Cortex,RB4498,60,control,12451
+Excitatory Neurons|Cortex|RB4620,Excitatory Neurons,Cortex,RB4620,21,control,13585
+Excitatory Neurons|Cortex|RB4627,Excitatory Neurons,Cortex,RB4627,21,mtDSB,12839
+Excitatory Neurons|Cortex|RB4630,Excitatory Neurons,Cortex,RB4630,21,mtDSB,12700
+Excitatory Neurons|Cortex|RB4653,Excitatory Neurons,Cortex,RB4653,21,mtDSB,11179
+Excitatory Neurons|Cortex|RB4658,Excitatory Neurons,Cortex,RB4658,21,control,6316
+Excitatory Neurons|Cortex|RB4676,Excitatory Neurons,Cortex,RB4676,21,control,12542
+Excitatory Neurons|Fiber tracts|RB4403,Excitatory Neurons,Fiber tracts,RB4403,60,mtDSB,25
+Excitatory Neurons|Fiber tracts|RB4658,Excitatory Neurons,Fiber tracts,RB4658,21,control,24
+Excitatory Neurons|Hippocampus|RB4282,Excitatory Neurons,Hippocampus,RB4282,60,control,2124
+Excitatory Neurons|Hippocampus|RB4350,Excitatory Neurons,Hippocampus,RB4350,60,control,1668
+Excitatory Neurons|Hippocampus|RB4401,Excitatory Neurons,Hippocampus,RB4401,60,mtDSB,2183
+Excitatory Neurons|Hippocampus|RB4403,Excitatory Neurons,Hippocampus,RB4403,60,mtDSB,3792
+Excitatory Neurons|Hippocampus|RB4405,Excitatory Neurons,Hippocampus,RB4405,60,mtDSB,1505
+Excitatory Neurons|Hippocampus|RB4498,Excitatory Neurons,Hippocampus,RB4498,60,control,1701
+Excitatory Neurons|Hippocampus|RB4620,Excitatory Neurons,Hippocampus,RB4620,21,control,881
+Excitatory Neurons|Hippocampus|RB4627,Excitatory Neurons,Hippocampus,RB4627,21,mtDSB,1402
+Excitatory Neurons|Hippocampus|RB4630,Excitatory Neurons,Hippocampus,RB4630,21,mtDSB,1482
+Excitatory Neurons|Hippocampus|RB4653,Excitatory Neurons,Hippocampus,RB4653,21,mtDSB,2190
+Excitatory Neurons|Hippocampus|RB4658,Excitatory Neurons,Hippocampus,RB4658,21,control,1452
+Excitatory Neurons|Hippocampus|RB4676,Excitatory Neurons,Hippocampus,RB4676,21,control,1204
+Excitatory Neurons|Meningeal border/glia limitans|RB4282,Excitatory Neurons,Meningeal border/glia limitans,RB4282,60,control,66
+Excitatory Neurons|Meningeal border/glia limitans|RB4350,Excitatory Neurons,Meningeal border/glia limitans,RB4350,60,control,124
+Excitatory Neurons|Meningeal border/glia limitans|RB4401,Excitatory Neurons,Meningeal border/glia limitans,RB4401,60,mtDSB,72
+Excitatory Neurons|Meningeal border/glia limitans|RB4403,Excitatory Neurons,Meningeal border/glia limitans,RB4403,60,mtDSB,120
+Excitatory Neurons|Meningeal border/glia limitans|RB4405,Excitatory Neurons,Meningeal border/glia limitans,RB4405,60,mtDSB,50
+Excitatory Neurons|Meningeal border/glia limitans|RB4498,Excitatory Neurons,Meningeal border/glia limitans,RB4498,60,control,98
+Excitatory Neurons|Meningeal border/glia limitans|RB4627,Excitatory Neurons,Meningeal border/glia limitans,RB4627,21,mtDSB,79
+Excitatory Neurons|Meningeal border/glia limitans|RB4630,Excitatory Neurons,Meningeal border/glia limitans,RB4630,21,mtDSB,39
+Excitatory Neurons|Meningeal border/glia limitans|RB4653,Excitatory Neurons,Meningeal border/glia limitans,RB4653,21,mtDSB,172
+Excitatory Neurons|Meningeal border/glia limitans|RB4658,Excitatory Neurons,Meningeal border/glia limitans,RB4658,21,control,270
+Excitatory Neurons|Meningeal border/glia limitans|RB4676,Excitatory Neurons,Meningeal border/glia limitans,RB4676,21,control,34
+Excitatory Neurons|Olfactory areas|RB4282,Excitatory Neurons,Olfactory areas,RB4282,60,control,3110
+Excitatory Neurons|Olfactory areas|RB4350,Excitatory Neurons,Olfactory areas,RB4350,60,control,2789
+Excitatory Neurons|Olfactory areas|RB4401,Excitatory Neurons,Olfactory areas,RB4401,60,mtDSB,4530
+Excitatory Neurons|Olfactory areas|RB4403,Excitatory Neurons,Olfactory areas,RB4403,60,mtDSB,2882
+Excitatory Neurons|Olfactory areas|RB4405,Excitatory Neurons,Olfactory areas,RB4405,60,mtDSB,3067
+Excitatory Neurons|Olfactory areas|RB4498,Excitatory Neurons,Olfactory areas,RB4498,60,control,2827
+Excitatory Neurons|Olfactory areas|RB4620,Excitatory Neurons,Olfactory areas,RB4620,21,control,1169
+Excitatory Neurons|Olfactory areas|RB4627,Excitatory Neurons,Olfactory areas,RB4627,21,mtDSB,2140
+Excitatory Neurons|Olfactory areas|RB4630,Excitatory Neurons,Olfactory areas,RB4630,21,mtDSB,2395
+Excitatory Neurons|Olfactory areas|RB4653,Excitatory Neurons,Olfactory areas,RB4653,21,mtDSB,2909
+Excitatory Neurons|Olfactory areas|RB4658,Excitatory Neurons,Olfactory areas,RB4658,21,control,4076
+Excitatory Neurons|Olfactory areas|RB4676,Excitatory Neurons,Olfactory areas,RB4676,21,control,3145
+Excitatory Neurons|Striatum|RB4282,Excitatory Neurons,Striatum,RB4282,60,control,100
+Excitatory Neurons|Striatum|RB4350,Excitatory Neurons,Striatum,RB4350,60,control,84
+Excitatory Neurons|Striatum|RB4401,Excitatory Neurons,Striatum,RB4401,60,mtDSB,413
+Excitatory Neurons|Striatum|RB4403,Excitatory Neurons,Striatum,RB4403,60,mtDSB,31
+Excitatory Neurons|Striatum|RB4405,Excitatory Neurons,Striatum,RB4405,60,mtDSB,212
+Excitatory Neurons|Striatum|RB4498,Excitatory Neurons,Striatum,RB4498,60,control,103
+Excitatory Neurons|Striatum|RB4620,Excitatory Neurons,Striatum,RB4620,21,control,21
+Excitatory Neurons|Striatum|RB4627,Excitatory Neurons,Striatum,RB4627,21,mtDSB,108
+Excitatory Neurons|Striatum|RB4630,Excitatory Neurons,Striatum,RB4630,21,mtDSB,105
+Excitatory Neurons|Striatum|RB4653,Excitatory Neurons,Striatum,RB4653,21,mtDSB,80
+Excitatory Neurons|Striatum|RB4658,Excitatory Neurons,Striatum,RB4658,21,control,700
+Excitatory Neurons|Striatum|RB4676,Excitatory Neurons,Striatum,RB4676,21,control,88
+Excitatory Neurons|Vasculature|RB4282,Excitatory Neurons,Vasculature,RB4282,60,control,186
+Excitatory Neurons|Vasculature|RB4350,Excitatory Neurons,Vasculature,RB4350,60,control,101
+Excitatory Neurons|Vasculature|RB4401,Excitatory Neurons,Vasculature,RB4401,60,mtDSB,124
+Excitatory Neurons|Vasculature|RB4403,Excitatory Neurons,Vasculature,RB4403,60,mtDSB,104
+Excitatory Neurons|Vasculature|RB4405,Excitatory Neurons,Vasculature,RB4405,60,mtDSB,122
+Excitatory Neurons|Vasculature|RB4498,Excitatory Neurons,Vasculature,RB4498,60,control,157
+Excitatory Neurons|Vasculature|RB4620,Excitatory Neurons,Vasculature,RB4620,21,control,112
+Excitatory Neurons|Vasculature|RB4627,Excitatory Neurons,Vasculature,RB4627,21,mtDSB,91
+Excitatory Neurons|Vasculature|RB4630,Excitatory Neurons,Vasculature,RB4630,21,mtDSB,86
+Excitatory Neurons|Vasculature|RB4653,Excitatory Neurons,Vasculature,RB4653,21,mtDSB,59
+Excitatory Neurons|Vasculature|RB4658,Excitatory Neurons,Vasculature,RB4658,21,control,44
+Excitatory Neurons|Vasculature|RB4676,Excitatory Neurons,Vasculature,RB4676,21,control,161
+GABAergic Neurons|Cortex|RB4282,GABAergic Neurons,Cortex,RB4282,60,control,1737
+GABAergic Neurons|Cortex|RB4350,GABAergic Neurons,Cortex,RB4350,60,control,1439
+GABAergic Neurons|Cortex|RB4401,GABAergic Neurons,Cortex,RB4401,60,mtDSB,1617
+GABAergic Neurons|Cortex|RB4403,GABAergic Neurons,Cortex,RB4403,60,mtDSB,1981
+GABAergic Neurons|Cortex|RB4405,GABAergic Neurons,Cortex,RB4405,60,mtDSB,1541
+GABAergic Neurons|Cortex|RB4498,GABAergic Neurons,Cortex,RB4498,60,control,1449
+GABAergic Neurons|Cortex|RB4620,GABAergic Neurons,Cortex,RB4620,21,control,1683
+GABAergic Neurons|Cortex|RB4627,GABAergic Neurons,Cortex,RB4627,21,mtDSB,1707
+GABAergic Neurons|Cortex|RB4630,GABAergic Neurons,Cortex,RB4630,21,mtDSB,1685
+GABAergic Neurons|Cortex|RB4653,GABAergic Neurons,Cortex,RB4653,21,mtDSB,1369
+GABAergic Neurons|Cortex|RB4658,GABAergic Neurons,Cortex,RB4658,21,control,717
+GABAergic Neurons|Cortex|RB4676,GABAergic Neurons,Cortex,RB4676,21,control,1731
+GABAergic Neurons|Fiber tracts|RB4282,GABAergic Neurons,Fiber tracts,RB4282,60,control,367
+GABAergic Neurons|Fiber tracts|RB4350,GABAergic Neurons,Fiber tracts,RB4350,60,control,282
+GABAergic Neurons|Fiber tracts|RB4401,GABAergic Neurons,Fiber tracts,RB4401,60,mtDSB,348
+GABAergic Neurons|Fiber tracts|RB4403,GABAergic Neurons,Fiber tracts,RB4403,60,mtDSB,1174
+GABAergic Neurons|Fiber tracts|RB4405,GABAergic Neurons,Fiber tracts,RB4405,60,mtDSB,522
+GABAergic Neurons|Fiber tracts|RB4498,GABAergic Neurons,Fiber tracts,RB4498,60,control,383
+GABAergic Neurons|Fiber tracts|RB4620,GABAergic Neurons,Fiber tracts,RB4620,21,control,345
+GABAergic Neurons|Fiber tracts|RB4627,GABAergic Neurons,Fiber tracts,RB4627,21,mtDSB,477
+GABAergic Neurons|Fiber tracts|RB4630,GABAergic Neurons,Fiber tracts,RB4630,21,mtDSB,415
+GABAergic Neurons|Fiber tracts|RB4653,GABAergic Neurons,Fiber tracts,RB4653,21,mtDSB,182
+GABAergic Neurons|Fiber tracts|RB4658,GABAergic Neurons,Fiber tracts,RB4658,21,control,350
+GABAergic Neurons|Fiber tracts|RB4676,GABAergic Neurons,Fiber tracts,RB4676,21,control,349
+GABAergic Neurons|Hippocampus|RB4282,GABAergic Neurons,Hippocampus,RB4282,60,control,117
+GABAergic Neurons|Hippocampus|RB4350,GABAergic Neurons,Hippocampus,RB4350,60,control,89
+GABAergic Neurons|Hippocampus|RB4401,GABAergic Neurons,Hippocampus,RB4401,60,mtDSB,134
+GABAergic Neurons|Hippocampus|RB4403,GABAergic Neurons,Hippocampus,RB4403,60,mtDSB,265
+GABAergic Neurons|Hippocampus|RB4405,GABAergic Neurons,Hippocampus,RB4405,60,mtDSB,88
+GABAergic Neurons|Hippocampus|RB4498,GABAergic Neurons,Hippocampus,RB4498,60,control,114
+GABAergic Neurons|Hippocampus|RB4620,GABAergic Neurons,Hippocampus,RB4620,21,control,37
+GABAergic Neurons|Hippocampus|RB4627,GABAergic Neurons,Hippocampus,RB4627,21,mtDSB,79
+GABAergic Neurons|Hippocampus|RB4630,GABAergic Neurons,Hippocampus,RB4630,21,mtDSB,107
+GABAergic Neurons|Hippocampus|RB4653,GABAergic Neurons,Hippocampus,RB4653,21,mtDSB,127
+GABAergic Neurons|Hippocampus|RB4658,GABAergic Neurons,Hippocampus,RB4658,21,control,76
+GABAergic Neurons|Hippocampus|RB4676,GABAergic Neurons,Hippocampus,RB4676,21,control,51
+GABAergic Neurons|Hypothalamus|RB4401,GABAergic Neurons,Hypothalamus,RB4401,60,mtDSB,28
+GABAergic Neurons|Hypothalamus|RB4403,GABAergic Neurons,Hypothalamus,RB4403,60,mtDSB,73
+GABAergic Neurons|Hypothalamus|RB4405,GABAergic Neurons,Hypothalamus,RB4405,60,mtDSB,84
+GABAergic Neurons|Hypothalamus|RB4498,GABAergic Neurons,Hypothalamus,RB4498,60,control,25
+GABAergic Neurons|Hypothalamus|RB4620,GABAergic Neurons,Hypothalamus,RB4620,21,control,114
+GABAergic Neurons|Hypothalamus|RB4627,GABAergic Neurons,Hypothalamus,RB4627,21,mtDSB,65
+GABAergic Neurons|Hypothalamus|RB4630,GABAergic Neurons,Hypothalamus,RB4630,21,mtDSB,31
+GABAergic Neurons|Hypothalamus|RB4658,GABAergic Neurons,Hypothalamus,RB4658,21,control,22
+GABAergic Neurons|Hypothalamus|RB4676,GABAergic Neurons,Hypothalamus,RB4676,21,control,29
+GABAergic Neurons|Meningeal border/glia limitans|RB4282,GABAergic Neurons,Meningeal border/glia limitans,RB4282,60,control,175
+GABAergic Neurons|Meningeal border/glia limitans|RB4350,GABAergic Neurons,Meningeal border/glia limitans,RB4350,60,control,195
+GABAergic Neurons|Meningeal border/glia limitans|RB4401,GABAergic Neurons,Meningeal border/glia limitans,RB4401,60,mtDSB,203
+GABAergic Neurons|Meningeal border/glia limitans|RB4403,GABAergic Neurons,Meningeal border/glia limitans,RB4403,60,mtDSB,208
+GABAergic Neurons|Meningeal border/glia limitans|RB4405,GABAergic Neurons,Meningeal border/glia limitans,RB4405,60,mtDSB,149
+GABAergic Neurons|Meningeal border/glia limitans|RB4498,GABAergic Neurons,Meningeal border/glia limitans,RB4498,60,control,158
+GABAergic Neurons|Meningeal border/glia limitans|RB4620,GABAergic Neurons,Meningeal border/glia limitans,RB4620,21,control,132
+GABAergic Neurons|Meningeal border/glia limitans|RB4627,GABAergic Neurons,Meningeal border/glia limitans,RB4627,21,mtDSB,172
+GABAergic Neurons|Meningeal border/glia limitans|RB4630,GABAergic Neurons,Meningeal border/glia limitans,RB4630,21,mtDSB,191
+GABAergic Neurons|Meningeal border/glia limitans|RB4653,GABAergic Neurons,Meningeal border/glia limitans,RB4653,21,mtDSB,176
+GABAergic Neurons|Meningeal border/glia limitans|RB4658,GABAergic Neurons,Meningeal border/glia limitans,RB4658,21,control,171
+GABAergic Neurons|Meningeal border/glia limitans|RB4676,GABAergic Neurons,Meningeal border/glia limitans,RB4676,21,control,130
+GABAergic Neurons|Olfactory areas|RB4282,GABAergic Neurons,Olfactory areas,RB4282,60,control,506
+GABAergic Neurons|Olfactory areas|RB4350,GABAergic Neurons,Olfactory areas,RB4350,60,control,638
+GABAergic Neurons|Olfactory areas|RB4401,GABAergic Neurons,Olfactory areas,RB4401,60,mtDSB,793
+GABAergic Neurons|Olfactory areas|RB4403,GABAergic Neurons,Olfactory areas,RB4403,60,mtDSB,991
+GABAergic Neurons|Olfactory areas|RB4405,GABAergic Neurons,Olfactory areas,RB4405,60,mtDSB,416
+GABAergic Neurons|Olfactory areas|RB4498,GABAergic Neurons,Olfactory areas,RB4498,60,control,423
+GABAergic Neurons|Olfactory areas|RB4620,GABAergic Neurons,Olfactory areas,RB4620,21,control,195
+GABAergic Neurons|Olfactory areas|RB4627,GABAergic Neurons,Olfactory areas,RB4627,21,mtDSB,287
+GABAergic Neurons|Olfactory areas|RB4630,GABAergic Neurons,Olfactory areas,RB4630,21,mtDSB,387
+GABAergic Neurons|Olfactory areas|RB4653,GABAergic Neurons,Olfactory areas,RB4653,21,mtDSB,472
+GABAergic Neurons|Olfactory areas|RB4658,GABAergic Neurons,Olfactory areas,RB4658,21,control,776
+GABAergic Neurons|Olfactory areas|RB4676,GABAergic Neurons,Olfactory areas,RB4676,21,control,564
+GABAergic Neurons|Pallidum|RB4282,GABAergic Neurons,Pallidum,RB4282,60,control,54
+GABAergic Neurons|Pallidum|RB4350,GABAergic Neurons,Pallidum,RB4350,60,control,55
+GABAergic Neurons|Pallidum|RB4403,GABAergic Neurons,Pallidum,RB4403,60,mtDSB,177
+GABAergic Neurons|Pallidum|RB4498,GABAergic Neurons,Pallidum,RB4498,60,control,96
+GABAergic Neurons|Pallidum|RB4620,GABAergic Neurons,Pallidum,RB4620,21,control,63
+GABAergic Neurons|Pallidum|RB4630,GABAergic Neurons,Pallidum,RB4630,21,mtDSB,79
+GABAergic Neurons|Pallidum|RB4653,GABAergic Neurons,Pallidum,RB4653,21,mtDSB,73
+GABAergic Neurons|Pallidum|RB4658,GABAergic Neurons,Pallidum,RB4658,21,control,47
+GABAergic Neurons|Pallidum|RB4676,GABAergic Neurons,Pallidum,RB4676,21,control,48
+GABAergic Neurons|Striatum|RB4282,GABAergic Neurons,Striatum,RB4282,60,control,1146
+GABAergic Neurons|Striatum|RB4350,GABAergic Neurons,Striatum,RB4350,60,control,1113
+GABAergic Neurons|Striatum|RB4401,GABAergic Neurons,Striatum,RB4401,60,mtDSB,1092
+GABAergic Neurons|Striatum|RB4403,GABAergic Neurons,Striatum,RB4403,60,mtDSB,746
+GABAergic Neurons|Striatum|RB4405,GABAergic Neurons,Striatum,RB4405,60,mtDSB,1406
+GABAergic Neurons|Striatum|RB4498,GABAergic Neurons,Striatum,RB4498,60,control,1212
+GABAergic Neurons|Striatum|RB4620,GABAergic Neurons,Striatum,RB4620,21,control,943
+GABAergic Neurons|Striatum|RB4627,GABAergic Neurons,Striatum,RB4627,21,mtDSB,1418
+GABAergic Neurons|Striatum|RB4630,GABAergic Neurons,Striatum,RB4630,21,mtDSB,1038
+GABAergic Neurons|Striatum|RB4653,GABAergic Neurons,Striatum,RB4653,21,mtDSB,1303
+GABAergic Neurons|Striatum|RB4658,GABAergic Neurons,Striatum,RB4658,21,control,1232
+GABAergic Neurons|Striatum|RB4676,GABAergic Neurons,Striatum,RB4676,21,control,1085
+GABAergic Neurons|Thalamus|RB4403,GABAergic Neurons,Thalamus,RB4403,60,mtDSB,22
+GABAergic Neurons|Thalamus|RB4620,GABAergic Neurons,Thalamus,RB4620,21,control,24
+GABAergic Neurons|Thalamus|RB4653,GABAergic Neurons,Thalamus,RB4653,21,mtDSB,27
+GABAergic Neurons|Vasculature|RB4282,GABAergic Neurons,Vasculature,RB4282,60,control,36
+GABAergic Neurons|Vasculature|RB4350,GABAergic Neurons,Vasculature,RB4350,60,control,20
+GABAergic Neurons|Vasculature|RB4401,GABAergic Neurons,Vasculature,RB4401,60,mtDSB,20
+GABAergic Neurons|Vasculature|RB4405,GABAergic Neurons,Vasculature,RB4405,60,mtDSB,27
+GABAergic Neurons|Vasculature|RB4498,GABAergic Neurons,Vasculature,RB4498,60,control,34
+GABAergic Neurons|Vasculature|RB4620,GABAergic Neurons,Vasculature,RB4620,21,control,22
+GABAergic Neurons|Vasculature|RB4630,GABAergic Neurons,Vasculature,RB4630,21,mtDSB,25
+GABAergic Neurons|Vasculature|RB4676,GABAergic Neurons,Vasculature,RB4676,21,control,23
+GABAergic Neurons|Ventricular system|RB4658,GABAergic Neurons,Ventricular system,RB4658,21,control,20
+Medium Spiny Neurons|Olfactory areas|RB4403,Medium Spiny Neurons,Olfactory areas,RB4403,60,mtDSB,147
+Medium Spiny Neurons|Pallidum|RB4403,Medium Spiny Neurons,Pallidum,RB4403,60,mtDSB,23
+Medium Spiny Neurons|Striatum|RB4282,Medium Spiny Neurons,Striatum,RB4282,60,control,2229
+Medium Spiny Neurons|Striatum|RB4350,Medium Spiny Neurons,Striatum,RB4350,60,control,2094
+Medium Spiny Neurons|Striatum|RB4401,Medium Spiny Neurons,Striatum,RB4401,60,mtDSB,1644
+Medium Spiny Neurons|Striatum|RB4403,Medium Spiny Neurons,Striatum,RB4403,60,mtDSB,7272
+Medium Spiny Neurons|Striatum|RB4405,Medium Spiny Neurons,Striatum,RB4405,60,mtDSB,4102
+Medium Spiny Neurons|Striatum|RB4498,Medium Spiny Neurons,Striatum,RB4498,60,control,3133
+Medium Spiny Neurons|Striatum|RB4620,Medium Spiny Neurons,Striatum,RB4620,21,control,8280
+Medium Spiny Neurons|Striatum|RB4627,Medium Spiny Neurons,Striatum,RB4627,21,mtDSB,2983
+Medium Spiny Neurons|Striatum|RB4630,Medium Spiny Neurons,Striatum,RB4630,21,mtDSB,4458
+Medium Spiny Neurons|Striatum|RB4653,Medium Spiny Neurons,Striatum,RB4653,21,mtDSB,1587
+Medium Spiny Neurons|Striatum|RB4658,Medium Spiny Neurons,Striatum,RB4658,21,control,2339
+Medium Spiny Neurons|Striatum|RB4676,Medium Spiny Neurons,Striatum,RB4676,21,control,3796
+Medium Spiny Neurons|Ventricular system|RB4282,Medium Spiny Neurons,Ventricular system,RB4282,60,control,26
+Medium Spiny Neurons|Ventricular system|RB4350,Medium Spiny Neurons,Ventricular system,RB4350,60,control,24
+Medium Spiny Neurons|Ventricular system|RB4401,Medium Spiny Neurons,Ventricular system,RB4401,60,mtDSB,32
+Medium Spiny Neurons|Ventricular system|RB4405,Medium Spiny Neurons,Ventricular system,RB4405,60,mtDSB,20
+Medium Spiny Neurons|Ventricular system|RB4498,Medium Spiny Neurons,Ventricular system,RB4498,60,control,21
+Medium Spiny Neurons|Ventricular system|RB4620,Medium Spiny Neurons,Ventricular system,RB4620,21,control,58
+Medium Spiny Neurons|Ventricular system|RB4627,Medium Spiny Neurons,Ventricular system,RB4627,21,mtDSB,24
+Medium Spiny Neurons|Ventricular system|RB4630,Medium Spiny Neurons,Ventricular system,RB4630,21,mtDSB,27
+Medium Spiny Neurons|Ventricular system|RB4653,Medium Spiny Neurons,Ventricular system,RB4653,21,mtDSB,22
+Medium Spiny Neurons|Ventricular system|RB4658,Medium Spiny Neurons,Ventricular system,RB4658,21,control,42
+Medium Spiny Neurons|Ventricular system|RB4676,Medium Spiny Neurons,Ventricular system,RB4676,21,control,54
+Microglia|Cortex|RB4282,Microglia,Cortex,RB4282,60,control,715
+Microglia|Cortex|RB4350,Microglia,Cortex,RB4350,60,control,700
+Microglia|Cortex|RB4401,Microglia,Cortex,RB4401,60,mtDSB,679
+Microglia|Cortex|RB4403,Microglia,Cortex,RB4403,60,mtDSB,1059
+Microglia|Cortex|RB4405,Microglia,Cortex,RB4405,60,mtDSB,660
+Microglia|Cortex|RB4498,Microglia,Cortex,RB4498,60,control,699
+Microglia|Cortex|RB4620,Microglia,Cortex,RB4620,21,control,694
+Microglia|Cortex|RB4627,Microglia,Cortex,RB4627,21,mtDSB,671
+Microglia|Cortex|RB4630,Microglia,Cortex,RB4630,21,mtDSB,686
+Microglia|Cortex|RB4653,Microglia,Cortex,RB4653,21,mtDSB,598
+Microglia|Cortex|RB4658,Microglia,Cortex,RB4658,21,control,401
+Microglia|Cortex|RB4676,Microglia,Cortex,RB4676,21,control,795
+Microglia|Fiber tracts|RB4282,Microglia,Fiber tracts,RB4282,60,control,116
+Microglia|Fiber tracts|RB4350,Microglia,Fiber tracts,RB4350,60,control,105
+Microglia|Fiber tracts|RB4401,Microglia,Fiber tracts,RB4401,60,mtDSB,199
+Microglia|Fiber tracts|RB4403,Microglia,Fiber tracts,RB4403,60,mtDSB,296
+Microglia|Fiber tracts|RB4405,Microglia,Fiber tracts,RB4405,60,mtDSB,700
+Microglia|Fiber tracts|RB4498,Microglia,Fiber tracts,RB4498,60,control,126
+Microglia|Fiber tracts|RB4620,Microglia,Fiber tracts,RB4620,21,control,177
+Microglia|Fiber tracts|RB4627,Microglia,Fiber tracts,RB4627,21,mtDSB,340
+Microglia|Fiber tracts|RB4630,Microglia,Fiber tracts,RB4630,21,mtDSB,117
+Microglia|Fiber tracts|RB4653,Microglia,Fiber tracts,RB4653,21,mtDSB,140
+Microglia|Fiber tracts|RB4658,Microglia,Fiber tracts,RB4658,21,control,115
+Microglia|Fiber tracts|RB4676,Microglia,Fiber tracts,RB4676,21,control,135
+Microglia|Hippocampus|RB4282,Microglia,Hippocampus,RB4282,60,control,97
+Microglia|Hippocampus|RB4350,Microglia,Hippocampus,RB4350,60,control,82
+Microglia|Hippocampus|RB4401,Microglia,Hippocampus,RB4401,60,mtDSB,103
+Microglia|Hippocampus|RB4403,Microglia,Hippocampus,RB4403,60,mtDSB,176
+Microglia|Hippocampus|RB4405,Microglia,Hippocampus,RB4405,60,mtDSB,57
+Microglia|Hippocampus|RB4498,Microglia,Hippocampus,RB4498,60,control,70
+Microglia|Hippocampus|RB4620,Microglia,Hippocampus,RB4620,21,control,32
+Microglia|Hippocampus|RB4627,Microglia,Hippocampus,RB4627,21,mtDSB,59
+Microglia|Hippocampus|RB4630,Microglia,Hippocampus,RB4630,21,mtDSB,69
+Microglia|Hippocampus|RB4653,Microglia,Hippocampus,RB4653,21,mtDSB,70
+Microglia|Hippocampus|RB4658,Microglia,Hippocampus,RB4658,21,control,49
+Microglia|Hippocampus|RB4676,Microglia,Hippocampus,RB4676,21,control,54
+Microglia|Hypothalamus|RB4282,Microglia,Hypothalamus,RB4282,60,control,148
+Microglia|Hypothalamus|RB4350,Microglia,Hypothalamus,RB4350,60,control,173
+Microglia|Hypothalamus|RB4401,Microglia,Hypothalamus,RB4401,60,mtDSB,244
+Microglia|Hypothalamus|RB4403,Microglia,Hypothalamus,RB4403,60,mtDSB,294
+Microglia|Hypothalamus|RB4405,Microglia,Hypothalamus,RB4405,60,mtDSB,331
+Microglia|Hypothalamus|RB4498,Microglia,Hypothalamus,RB4498,60,control,153
+Microglia|Hypothalamus|RB4620,Microglia,Hypothalamus,RB4620,21,control,315
+Microglia|Hypothalamus|RB4627,Microglia,Hypothalamus,RB4627,21,mtDSB,208
+Microglia|Hypothalamus|RB4630,Microglia,Hypothalamus,RB4630,21,mtDSB,116
+Microglia|Hypothalamus|RB4653,Microglia,Hypothalamus,RB4653,21,mtDSB,179
+Microglia|Hypothalamus|RB4658,Microglia,Hypothalamus,RB4658,21,control,93
+Microglia|Hypothalamus|RB4676,Microglia,Hypothalamus,RB4676,21,control,204
+Microglia|Meningeal border/glia limitans|RB4282,Microglia,Meningeal border/glia limitans,RB4282,60,control,202
+Microglia|Meningeal border/glia limitans|RB4350,Microglia,Meningeal border/glia limitans,RB4350,60,control,221
+Microglia|Meningeal border/glia limitans|RB4401,Microglia,Meningeal border/glia limitans,RB4401,60,mtDSB,234
+Microglia|Meningeal border/glia limitans|RB4403,Microglia,Meningeal border/glia limitans,RB4403,60,mtDSB,231
+Microglia|Meningeal border/glia limitans|RB4405,Microglia,Meningeal border/glia limitans,RB4405,60,mtDSB,165
+Microglia|Meningeal border/glia limitans|RB4498,Microglia,Meningeal border/glia limitans,RB4498,60,control,136
+Microglia|Meningeal border/glia limitans|RB4620,Microglia,Meningeal border/glia limitans,RB4620,21,control,109
+Microglia|Meningeal border/glia limitans|RB4627,Microglia,Meningeal border/glia limitans,RB4627,21,mtDSB,193
+Microglia|Meningeal border/glia limitans|RB4630,Microglia,Meningeal border/glia limitans,RB4630,21,mtDSB,162
+Microglia|Meningeal border/glia limitans|RB4653,Microglia,Meningeal border/glia limitans,RB4653,21,mtDSB,202
+Microglia|Meningeal border/glia limitans|RB4658,Microglia,Meningeal border/glia limitans,RB4658,21,control,178
+Microglia|Meningeal border/glia limitans|RB4676,Microglia,Meningeal border/glia limitans,RB4676,21,control,142
+Microglia|Olfactory areas|RB4282,Microglia,Olfactory areas,RB4282,60,control,258
+Microglia|Olfactory areas|RB4350,Microglia,Olfactory areas,RB4350,60,control,302
+Microglia|Olfactory areas|RB4401,Microglia,Olfactory areas,RB4401,60,mtDSB,321
+Microglia|Olfactory areas|RB4403,Microglia,Olfactory areas,RB4403,60,mtDSB,330
+Microglia|Olfactory areas|RB4405,Microglia,Olfactory areas,RB4405,60,mtDSB,236
+Microglia|Olfactory areas|RB4498,Microglia,Olfactory areas,RB4498,60,control,244
+Microglia|Olfactory areas|RB4620,Microglia,Olfactory areas,RB4620,21,control,85
+Microglia|Olfactory areas|RB4627,Microglia,Olfactory areas,RB4627,21,mtDSB,185
+Microglia|Olfactory areas|RB4630,Microglia,Olfactory areas,RB4630,21,mtDSB,191
+Microglia|Olfactory areas|RB4653,Microglia,Olfactory areas,RB4653,21,mtDSB,218
+Microglia|Olfactory areas|RB4658,Microglia,Olfactory areas,RB4658,21,control,380
+Microglia|Olfactory areas|RB4676,Microglia,Olfactory areas,RB4676,21,control,295
+Microglia|Pallidum|RB4282,Microglia,Pallidum,RB4282,60,control,103
+Microglia|Pallidum|RB4350,Microglia,Pallidum,RB4350,60,control,89
+Microglia|Pallidum|RB4401,Microglia,Pallidum,RB4401,60,mtDSB,27
+Microglia|Pallidum|RB4403,Microglia,Pallidum,RB4403,60,mtDSB,558
+Microglia|Pallidum|RB4498,Microglia,Pallidum,RB4498,60,control,163
+Microglia|Pallidum|RB4620,Microglia,Pallidum,RB4620,21,control,119
+Microglia|Pallidum|RB4630,Microglia,Pallidum,RB4630,21,mtDSB,163
+Microglia|Pallidum|RB4653,Microglia,Pallidum,RB4653,21,mtDSB,82
+Microglia|Pallidum|RB4658,Microglia,Pallidum,RB4658,21,control,99
+Microglia|Pallidum|RB4676,Microglia,Pallidum,RB4676,21,control,137
+Microglia|Striatum|RB4282,Microglia,Striatum,RB4282,60,control,242
+Microglia|Striatum|RB4350,Microglia,Striatum,RB4350,60,control,200
+Microglia|Striatum|RB4401,Microglia,Striatum,RB4401,60,mtDSB,136
+Microglia|Striatum|RB4403,Microglia,Striatum,RB4403,60,mtDSB,397
+Microglia|Striatum|RB4405,Microglia,Striatum,RB4405,60,mtDSB,372
+Microglia|Striatum|RB4498,Microglia,Striatum,RB4498,60,control,302
+Microglia|Striatum|RB4620,Microglia,Striatum,RB4620,21,control,504
+Microglia|Striatum|RB4627,Microglia,Striatum,RB4627,21,mtDSB,288
+Microglia|Striatum|RB4630,Microglia,Striatum,RB4630,21,mtDSB,325
+Microglia|Striatum|RB4653,Microglia,Striatum,RB4653,21,mtDSB,197
+Microglia|Striatum|RB4658,Microglia,Striatum,RB4658,21,control,192
+Microglia|Striatum|RB4676,Microglia,Striatum,RB4676,21,control,314
+Microglia|Thalamus|RB4282,Microglia,Thalamus,RB4282,60,control,250
+Microglia|Thalamus|RB4350,Microglia,Thalamus,RB4350,60,control,266
+Microglia|Thalamus|RB4401,Microglia,Thalamus,RB4401,60,mtDSB,430
+Microglia|Thalamus|RB4403,Microglia,Thalamus,RB4403,60,mtDSB,342
+Microglia|Thalamus|RB4405,Microglia,Thalamus,RB4405,60,mtDSB,426
+Microglia|Thalamus|RB4498,Microglia,Thalamus,RB4498,60,control,265
+Microglia|Thalamus|RB4620,Microglia,Thalamus,RB4620,21,control,188
+Microglia|Thalamus|RB4627,Microglia,Thalamus,RB4627,21,mtDSB,335
+Microglia|Thalamus|RB4630,Microglia,Thalamus,RB4630,21,mtDSB,130
+Microglia|Thalamus|RB4653,Microglia,Thalamus,RB4653,21,mtDSB,291
+Microglia|Thalamus|RB4658,Microglia,Thalamus,RB4658,21,control,242
+Microglia|Thalamus|RB4676,Microglia,Thalamus,RB4676,21,control,314
+Microglia|Vasculature|RB4282,Microglia,Vasculature,RB4282,60,control,20
+Microglia|Vasculature|RB4401,Microglia,Vasculature,RB4401,60,mtDSB,23
+Microglia|Vasculature|RB4405,Microglia,Vasculature,RB4405,60,mtDSB,34
+Microglia|Ventricular system|RB4282,Microglia,Ventricular system,RB4282,60,control,34
+Microglia|Ventricular system|RB4350,Microglia,Ventricular system,RB4350,60,control,40
+Microglia|Ventricular system|RB4401,Microglia,Ventricular system,RB4401,60,mtDSB,33
+Microglia|Ventricular system|RB4403,Microglia,Ventricular system,RB4403,60,mtDSB,43
+Microglia|Ventricular system|RB4405,Microglia,Ventricular system,RB4405,60,mtDSB,32
+Microglia|Ventricular system|RB4498,Microglia,Ventricular system,RB4498,60,control,52
+Microglia|Ventricular system|RB4620,Microglia,Ventricular system,RB4620,21,control,31
+Microglia|Ventricular system|RB4627,Microglia,Ventricular system,RB4627,21,mtDSB,28
+Microglia|Ventricular system|RB4653,Microglia,Ventricular system,RB4653,21,mtDSB,61
+Microglia|Ventricular system|RB4658,Microglia,Ventricular system,RB4658,21,control,24
+Microglia|Ventricular system|RB4676,Microglia,Ventricular system,RB4676,21,control,21
+Neural Stem Cells|Cortex|RB4653,Neural Stem Cells,Cortex,RB4653,21,mtDSB,67
+Neural Stem Cells|Fiber tracts|RB4350,Neural Stem Cells,Fiber tracts,RB4350,60,control,32
+Neural Stem Cells|Fiber tracts|RB4403,Neural Stem Cells,Fiber tracts,RB4403,60,mtDSB,64
+Neural Stem Cells|Fiber tracts|RB4405,Neural Stem Cells,Fiber tracts,RB4405,60,mtDSB,43
+Neural Stem Cells|Fiber tracts|RB4498,Neural Stem Cells,Fiber tracts,RB4498,60,control,48
+Neural Stem Cells|Fiber tracts|RB4620,Neural Stem Cells,Fiber tracts,RB4620,21,control,56
+Neural Stem Cells|Fiber tracts|RB4627,Neural Stem Cells,Fiber tracts,RB4627,21,mtDSB,29
+Neural Stem Cells|Fiber tracts|RB4630,Neural Stem Cells,Fiber tracts,RB4630,21,mtDSB,35
+Neural Stem Cells|Fiber tracts|RB4653,Neural Stem Cells,Fiber tracts,RB4653,21,mtDSB,199
+Neural Stem Cells|Fiber tracts|RB4658,Neural Stem Cells,Fiber tracts,RB4658,21,control,33
+Neural Stem Cells|Fiber tracts|RB4676,Neural Stem Cells,Fiber tracts,RB4676,21,control,39
+Neural Stem Cells|Hippocampus|RB4401,Neural Stem Cells,Hippocampus,RB4401,60,mtDSB,22
+Neural Stem Cells|Hippocampus|RB4403,Neural Stem Cells,Hippocampus,RB4403,60,mtDSB,21
+Neural Stem Cells|Meningeal border/glia limitans|RB4401,Neural Stem Cells,Meningeal border/glia limitans,RB4401,60,mtDSB,32
+Neural Stem Cells|Meningeal border/glia limitans|RB4630,Neural Stem Cells,Meningeal border/glia limitans,RB4630,21,mtDSB,22
+Neural Stem Cells|Meningeal border/glia limitans|RB4658,Neural Stem Cells,Meningeal border/glia limitans,RB4658,21,control,38
+Neural Stem Cells|Striatum|RB4401,Neural Stem Cells,Striatum,RB4401,60,mtDSB,24
+Neural Stem Cells|Striatum|RB4405,Neural Stem Cells,Striatum,RB4405,60,mtDSB,20
+Neural Stem Cells|Striatum|RB4653,Neural Stem Cells,Striatum,RB4653,21,mtDSB,22
+Neural Stem Cells|Thalamus|RB4403,Neural Stem Cells,Thalamus,RB4403,60,mtDSB,31
+Neural Stem Cells|Ventricular system|RB4282,Neural Stem Cells,Ventricular system,RB4282,60,control,348
+Neural Stem Cells|Ventricular system|RB4350,Neural Stem Cells,Ventricular system,RB4350,60,control,322
+Neural Stem Cells|Ventricular system|RB4401,Neural Stem Cells,Ventricular system,RB4401,60,mtDSB,155
+Neural Stem Cells|Ventricular system|RB4403,Neural Stem Cells,Ventricular system,RB4403,60,mtDSB,278
+Neural Stem Cells|Ventricular system|RB4405,Neural Stem Cells,Ventricular system,RB4405,60,mtDSB,155
+Neural Stem Cells|Ventricular system|RB4498,Neural Stem Cells,Ventricular system,RB4498,60,control,360
+Neural Stem Cells|Ventricular system|RB4620,Neural Stem Cells,Ventricular system,RB4620,21,control,228
+Neural Stem Cells|Ventricular system|RB4627,Neural Stem Cells,Ventricular system,RB4627,21,mtDSB,141
+Neural Stem Cells|Ventricular system|RB4630,Neural Stem Cells,Ventricular system,RB4630,21,mtDSB,180
+Neural Stem Cells|Ventricular system|RB4653,Neural Stem Cells,Ventricular system,RB4653,21,mtDSB,701
+Neural Stem Cells|Ventricular system|RB4658,Neural Stem Cells,Ventricular system,RB4658,21,control,161
+Neural Stem Cells|Ventricular system|RB4676,Neural Stem Cells,Ventricular system,RB4676,21,control,290
+Neurons|Cortex|RB4282,Neurons,Cortex,RB4282,60,control,356
+Neurons|Cortex|RB4350,Neurons,Cortex,RB4350,60,control,321
+Neurons|Cortex|RB4401,Neurons,Cortex,RB4401,60,mtDSB,219
+Neurons|Cortex|RB4403,Neurons,Cortex,RB4403,60,mtDSB,1734
+Neurons|Cortex|RB4405,Neurons,Cortex,RB4405,60,mtDSB,411
+Neurons|Cortex|RB4498,Neurons,Cortex,RB4498,60,control,386
+Neurons|Cortex|RB4620,Neurons,Cortex,RB4620,21,control,241
+Neurons|Cortex|RB4627,Neurons,Cortex,RB4627,21,mtDSB,139
+Neurons|Cortex|RB4630,Neurons,Cortex,RB4630,21,mtDSB,368
+Neurons|Cortex|RB4653,Neurons,Cortex,RB4653,21,mtDSB,116
+Neurons|Cortex|RB4658,Neurons,Cortex,RB4658,21,control,380
+Neurons|Cortex|RB4676,Neurons,Cortex,RB4676,21,control,182
+Neurons|Fiber tracts|RB4282,Neurons,Fiber tracts,RB4282,60,control,44
+Neurons|Fiber tracts|RB4350,Neurons,Fiber tracts,RB4350,60,control,35
+Neurons|Fiber tracts|RB4401,Neurons,Fiber tracts,RB4401,60,mtDSB,82
+Neurons|Fiber tracts|RB4403,Neurons,Fiber tracts,RB4403,60,mtDSB,200
+Neurons|Fiber tracts|RB4405,Neurons,Fiber tracts,RB4405,60,mtDSB,436
+Neurons|Fiber tracts|RB4498,Neurons,Fiber tracts,RB4498,60,control,52
+Neurons|Fiber tracts|RB4620,Neurons,Fiber tracts,RB4620,21,control,57
+Neurons|Fiber tracts|RB4627,Neurons,Fiber tracts,RB4627,21,mtDSB,298
+Neurons|Fiber tracts|RB4630,Neurons,Fiber tracts,RB4630,21,mtDSB,44
+Neurons|Fiber tracts|RB4653,Neurons,Fiber tracts,RB4653,21,mtDSB,21
+Neurons|Fiber tracts|RB4658,Neurons,Fiber tracts,RB4658,21,control,82
+Neurons|Fiber tracts|RB4676,Neurons,Fiber tracts,RB4676,21,control,36
+Neurons|Hippocampus|RB4282,Neurons,Hippocampus,RB4282,60,control,163
+Neurons|Hippocampus|RB4350,Neurons,Hippocampus,RB4350,60,control,131
+Neurons|Hippocampus|RB4401,Neurons,Hippocampus,RB4401,60,mtDSB,125
+Neurons|Hippocampus|RB4403,Neurons,Hippocampus,RB4403,60,mtDSB,621
+Neurons|Hippocampus|RB4405,Neurons,Hippocampus,RB4405,60,mtDSB,155
+Neurons|Hippocampus|RB4498,Neurons,Hippocampus,RB4498,60,control,95
+Neurons|Hippocampus|RB4620,Neurons,Hippocampus,RB4620,21,control,24
+Neurons|Hippocampus|RB4627,Neurons,Hippocampus,RB4627,21,mtDSB,45
+Neurons|Hippocampus|RB4630,Neurons,Hippocampus,RB4630,21,mtDSB,150
+Neurons|Hippocampus|RB4653,Neurons,Hippocampus,RB4653,21,mtDSB,57
+Neurons|Hippocampus|RB4658,Neurons,Hippocampus,RB4658,21,control,47
+Neurons|Hippocampus|RB4676,Neurons,Hippocampus,RB4676,21,control,117
+Neurons|Hypothalamus|RB4282,Neurons,Hypothalamus,RB4282,60,control,4573
+Neurons|Hypothalamus|RB4350,Neurons,Hypothalamus,RB4350,60,control,4701
+Neurons|Hypothalamus|RB4401,Neurons,Hypothalamus,RB4401,60,mtDSB,3967
+Neurons|Hypothalamus|RB4403,Neurons,Hypothalamus,RB4403,60,mtDSB,9989
+Neurons|Hypothalamus|RB4405,Neurons,Hypothalamus,RB4405,60,mtDSB,3859
+Neurons|Hypothalamus|RB4498,Neurons,Hypothalamus,RB4498,60,control,3558
+Neurons|Hypothalamus|RB4620,Neurons,Hypothalamus,RB4620,21,control,5739
+Neurons|Hypothalamus|RB4627,Neurons,Hypothalamus,RB4627,21,mtDSB,4097
+Neurons|Hypothalamus|RB4630,Neurons,Hypothalamus,RB4630,21,mtDSB,2919
+Neurons|Hypothalamus|RB4653,Neurons,Hypothalamus,RB4653,21,mtDSB,5568
+Neurons|Hypothalamus|RB4658,Neurons,Hypothalamus,RB4658,21,control,2260
+Neurons|Hypothalamus|RB4676,Neurons,Hypothalamus,RB4676,21,control,5599
+Neurons|Meningeal border/glia limitans|RB4282,Neurons,Meningeal border/glia limitans,RB4282,60,control,224
+Neurons|Meningeal border/glia limitans|RB4350,Neurons,Meningeal border/glia limitans,RB4350,60,control,224
+Neurons|Meningeal border/glia limitans|RB4401,Neurons,Meningeal border/glia limitans,RB4401,60,mtDSB,195
+Neurons|Meningeal border/glia limitans|RB4403,Neurons,Meningeal border/glia limitans,RB4403,60,mtDSB,411
+Neurons|Meningeal border/glia limitans|RB4405,Neurons,Meningeal border/glia limitans,RB4405,60,mtDSB,236
+Neurons|Meningeal border/glia limitans|RB4498,Neurons,Meningeal border/glia limitans,RB4498,60,control,108
+Neurons|Meningeal border/glia limitans|RB4620,Neurons,Meningeal border/glia limitans,RB4620,21,control,96
+Neurons|Meningeal border/glia limitans|RB4627,Neurons,Meningeal border/glia limitans,RB4627,21,mtDSB,243
+Neurons|Meningeal border/glia limitans|RB4630,Neurons,Meningeal border/glia limitans,RB4630,21,mtDSB,222
+Neurons|Meningeal border/glia limitans|RB4653,Neurons,Meningeal border/glia limitans,RB4653,21,mtDSB,241
+Neurons|Meningeal border/glia limitans|RB4658,Neurons,Meningeal border/glia limitans,RB4658,21,control,310
+Neurons|Meningeal border/glia limitans|RB4676,Neurons,Meningeal border/glia limitans,RB4676,21,control,164
+Neurons|Olfactory areas|RB4282,Neurons,Olfactory areas,RB4282,60,control,212
+Neurons|Olfactory areas|RB4350,Neurons,Olfactory areas,RB4350,60,control,217
+Neurons|Olfactory areas|RB4401,Neurons,Olfactory areas,RB4401,60,mtDSB,149
+Neurons|Olfactory areas|RB4403,Neurons,Olfactory areas,RB4403,60,mtDSB,1895
+Neurons|Olfactory areas|RB4405,Neurons,Olfactory areas,RB4405,60,mtDSB,187
+Neurons|Olfactory areas|RB4498,Neurons,Olfactory areas,RB4498,60,control,124
+Neurons|Olfactory areas|RB4620,Neurons,Olfactory areas,RB4620,21,control,57
+Neurons|Olfactory areas|RB4627,Neurons,Olfactory areas,RB4627,21,mtDSB,81
+Neurons|Olfactory areas|RB4630,Neurons,Olfactory areas,RB4630,21,mtDSB,85
+Neurons|Olfactory areas|RB4653,Neurons,Olfactory areas,RB4653,21,mtDSB,117
+Neurons|Olfactory areas|RB4658,Neurons,Olfactory areas,RB4658,21,control,180
+Neurons|Olfactory areas|RB4676,Neurons,Olfactory areas,RB4676,21,control,165
+Neurons|Pallidum|RB4282,Neurons,Pallidum,RB4282,60,control,238
+Neurons|Pallidum|RB4350,Neurons,Pallidum,RB4350,60,control,211
+Neurons|Pallidum|RB4401,Neurons,Pallidum,RB4401,60,mtDSB,41
+Neurons|Pallidum|RB4403,Neurons,Pallidum,RB4403,60,mtDSB,1648
+Neurons|Pallidum|RB4498,Neurons,Pallidum,RB4498,60,control,305
+Neurons|Pallidum|RB4620,Neurons,Pallidum,RB4620,21,control,406
+Neurons|Pallidum|RB4627,Neurons,Pallidum,RB4627,21,mtDSB,36
+Neurons|Pallidum|RB4630,Neurons,Pallidum,RB4630,21,mtDSB,376
+Neurons|Pallidum|RB4653,Neurons,Pallidum,RB4653,21,mtDSB,157
+Neurons|Pallidum|RB4658,Neurons,Pallidum,RB4658,21,control,143
+Neurons|Pallidum|RB4676,Neurons,Pallidum,RB4676,21,control,288
+Neurons|Striatum|RB4282,Neurons,Striatum,RB4282,60,control,2612
+Neurons|Striatum|RB4350,Neurons,Striatum,RB4350,60,control,1715
+Neurons|Striatum|RB4401,Neurons,Striatum,RB4401,60,mtDSB,209
+Neurons|Striatum|RB4403,Neurons,Striatum,RB4403,60,mtDSB,205
+Neurons|Striatum|RB4405,Neurons,Striatum,RB4405,60,mtDSB,1948
+Neurons|Striatum|RB4498,Neurons,Striatum,RB4498,60,control,2468
+Neurons|Striatum|RB4620,Neurons,Striatum,RB4620,21,control,2204
+Neurons|Striatum|RB4627,Neurons,Striatum,RB4627,21,mtDSB,2276
+Neurons|Striatum|RB4630,Neurons,Striatum,RB4630,21,mtDSB,2729
+Neurons|Striatum|RB4653,Neurons,Striatum,RB4653,21,mtDSB,2244
+Neurons|Striatum|RB4658,Neurons,Striatum,RB4658,21,control,261
+Neurons|Striatum|RB4676,Neurons,Striatum,RB4676,21,control,2263
+Neurons|Thalamus|RB4282,Neurons,Thalamus,RB4282,60,control,5531
+Neurons|Thalamus|RB4350,Neurons,Thalamus,RB4350,60,control,4342
+Neurons|Thalamus|RB4401,Neurons,Thalamus,RB4401,60,mtDSB,4524
+Neurons|Thalamus|RB4403,Neurons,Thalamus,RB4403,60,mtDSB,8219
+Neurons|Thalamus|RB4405,Neurons,Thalamus,RB4405,60,mtDSB,3880
+Neurons|Thalamus|RB4498,Neurons,Thalamus,RB4498,60,control,4166
+Neurons|Thalamus|RB4620,Neurons,Thalamus,RB4620,21,control,5294
+Neurons|Thalamus|RB4627,Neurons,Thalamus,RB4627,21,mtDSB,4749
+Neurons|Thalamus|RB4630,Neurons,Thalamus,RB4630,21,mtDSB,2901
+Neurons|Thalamus|RB4653,Neurons,Thalamus,RB4653,21,mtDSB,6001
+Neurons|Thalamus|RB4658,Neurons,Thalamus,RB4658,21,control,3900
+Neurons|Thalamus|RB4676,Neurons,Thalamus,RB4676,21,control,5140
+Neurons|Vasculature|RB4282,Neurons,Vasculature,RB4282,60,control,32
+Neurons|Vasculature|RB4401,Neurons,Vasculature,RB4401,60,mtDSB,83
+Neurons|Vasculature|RB4403,Neurons,Vasculature,RB4403,60,mtDSB,38
+Neurons|Vasculature|RB4405,Neurons,Vasculature,RB4405,60,mtDSB,100
+Neurons|Vasculature|RB4498,Neurons,Vasculature,RB4498,60,control,67
+Neurons|Vasculature|RB4620,Neurons,Vasculature,RB4620,21,control,44
+Neurons|Vasculature|RB4627,Neurons,Vasculature,RB4627,21,mtDSB,40
+Neurons|Vasculature|RB4630,Neurons,Vasculature,RB4630,21,mtDSB,42
+Neurons|Vasculature|RB4653,Neurons,Vasculature,RB4653,21,mtDSB,29
+Neurons|Vasculature|RB4658,Neurons,Vasculature,RB4658,21,control,26
+Neurons|Vasculature|RB4676,Neurons,Vasculature,RB4676,21,control,72
+Neurons|Ventricular system|RB4282,Neurons,Ventricular system,RB4282,60,control,301
+Neurons|Ventricular system|RB4350,Neurons,Ventricular system,RB4350,60,control,475
+Neurons|Ventricular system|RB4401,Neurons,Ventricular system,RB4401,60,mtDSB,177
+Neurons|Ventricular system|RB4403,Neurons,Ventricular system,RB4403,60,mtDSB,398
+Neurons|Ventricular system|RB4405,Neurons,Ventricular system,RB4405,60,mtDSB,148
+Neurons|Ventricular system|RB4498,Neurons,Ventricular system,RB4498,60,control,218
+Neurons|Ventricular system|RB4620,Neurons,Ventricular system,RB4620,21,control,282
+Neurons|Ventricular system|RB4627,Neurons,Ventricular system,RB4627,21,mtDSB,239
+Neurons|Ventricular system|RB4653,Neurons,Ventricular system,RB4653,21,mtDSB,343
+Neurons|Ventricular system|RB4658,Neurons,Ventricular system,RB4658,21,control,133
+Neurons|Ventricular system|RB4676,Neurons,Ventricular system,RB4676,21,control,171
+Oligodendrocyte Precursor Cells|Cortex|RB4282,Oligodendrocyte Precursor Cells,Cortex,RB4282,60,control,413
+Oligodendrocyte Precursor Cells|Cortex|RB4350,Oligodendrocyte Precursor Cells,Cortex,RB4350,60,control,352
+Oligodendrocyte Precursor Cells|Cortex|RB4401,Oligodendrocyte Precursor Cells,Cortex,RB4401,60,mtDSB,409
+Oligodendrocyte Precursor Cells|Cortex|RB4403,Oligodendrocyte Precursor Cells,Cortex,RB4403,60,mtDSB,566
+Oligodendrocyte Precursor Cells|Cortex|RB4405,Oligodendrocyte Precursor Cells,Cortex,RB4405,60,mtDSB,395
+Oligodendrocyte Precursor Cells|Cortex|RB4498,Oligodendrocyte Precursor Cells,Cortex,RB4498,60,control,420
+Oligodendrocyte Precursor Cells|Cortex|RB4620,Oligodendrocyte Precursor Cells,Cortex,RB4620,21,control,445
+Oligodendrocyte Precursor Cells|Cortex|RB4627,Oligodendrocyte Precursor Cells,Cortex,RB4627,21,mtDSB,356
+Oligodendrocyte Precursor Cells|Cortex|RB4630,Oligodendrocyte Precursor Cells,Cortex,RB4630,21,mtDSB,371
+Oligodendrocyte Precursor Cells|Cortex|RB4653,Oligodendrocyte Precursor Cells,Cortex,RB4653,21,mtDSB,466
+Oligodendrocyte Precursor Cells|Cortex|RB4658,Oligodendrocyte Precursor Cells,Cortex,RB4658,21,control,261
+Oligodendrocyte Precursor Cells|Cortex|RB4676,Oligodendrocyte Precursor Cells,Cortex,RB4676,21,control,471
+Oligodendrocyte Precursor Cells|Fiber tracts|RB4282,Oligodendrocyte Precursor Cells,Fiber tracts,RB4282,60,control,97
+Oligodendrocyte Precursor Cells|Fiber tracts|RB4350,Oligodendrocyte Precursor Cells,Fiber tracts,RB4350,60,control,55
+Oligodendrocyte Precursor Cells|Fiber tracts|RB4401,Oligodendrocyte Precursor Cells,Fiber tracts,RB4401,60,mtDSB,155
+Oligodendrocyte Precursor Cells|Fiber tracts|RB4403,Oligodendrocyte Precursor Cells,Fiber tracts,RB4403,60,mtDSB,206
+Oligodendrocyte Precursor Cells|Fiber tracts|RB4405,Oligodendrocyte Precursor Cells,Fiber tracts,RB4405,60,mtDSB,236
+Oligodendrocyte Precursor Cells|Fiber tracts|RB4498,Oligodendrocyte Precursor Cells,Fiber tracts,RB4498,60,control,70
+Oligodendrocyte Precursor Cells|Fiber tracts|RB4620,Oligodendrocyte Precursor Cells,Fiber tracts,RB4620,21,control,157
+Oligodendrocyte Precursor Cells|Fiber tracts|RB4627,Oligodendrocyte Precursor Cells,Fiber tracts,RB4627,21,mtDSB,156
+Oligodendrocyte Precursor Cells|Fiber tracts|RB4630,Oligodendrocyte Precursor Cells,Fiber tracts,RB4630,21,mtDSB,98
+Oligodendrocyte Precursor Cells|Fiber tracts|RB4653,Oligodendrocyte Precursor Cells,Fiber tracts,RB4653,21,mtDSB,156
+Oligodendrocyte Precursor Cells|Fiber tracts|RB4658,Oligodendrocyte Precursor Cells,Fiber tracts,RB4658,21,control,130
+Oligodendrocyte Precursor Cells|Fiber tracts|RB4676,Oligodendrocyte Precursor Cells,Fiber tracts,RB4676,21,control,91
+Oligodendrocyte Precursor Cells|Hippocampus|RB4282,Oligodendrocyte Precursor Cells,Hippocampus,RB4282,60,control,76
+Oligodendrocyte Precursor Cells|Hippocampus|RB4350,Oligodendrocyte Precursor Cells,Hippocampus,RB4350,60,control,68
+Oligodendrocyte Precursor Cells|Hippocampus|RB4401,Oligodendrocyte Precursor Cells,Hippocampus,RB4401,60,mtDSB,72
+Oligodendrocyte Precursor Cells|Hippocampus|RB4403,Oligodendrocyte Precursor Cells,Hippocampus,RB4403,60,mtDSB,141
+Oligodendrocyte Precursor Cells|Hippocampus|RB4405,Oligodendrocyte Precursor Cells,Hippocampus,RB4405,60,mtDSB,54
+Oligodendrocyte Precursor Cells|Hippocampus|RB4498,Oligodendrocyte Precursor Cells,Hippocampus,RB4498,60,control,69
+Oligodendrocyte Precursor Cells|Hippocampus|RB4620,Oligodendrocyte Precursor Cells,Hippocampus,RB4620,21,control,38
+Oligodendrocyte Precursor Cells|Hippocampus|RB4627,Oligodendrocyte Precursor Cells,Hippocampus,RB4627,21,mtDSB,44
+Oligodendrocyte Precursor Cells|Hippocampus|RB4630,Oligodendrocyte Precursor Cells,Hippocampus,RB4630,21,mtDSB,37
+Oligodendrocyte Precursor Cells|Hippocampus|RB4653,Oligodendrocyte Precursor Cells,Hippocampus,RB4653,21,mtDSB,67
+Oligodendrocyte Precursor Cells|Hippocampus|RB4658,Oligodendrocyte Precursor Cells,Hippocampus,RB4658,21,control,36
+Oligodendrocyte Precursor Cells|Hippocampus|RB4676,Oligodendrocyte Precursor Cells,Hippocampus,RB4676,21,control,33
+Oligodendrocyte Precursor Cells|Hypothalamus|RB4282,Oligodendrocyte Precursor Cells,Hypothalamus,RB4282,60,control,222
+Oligodendrocyte Precursor Cells|Hypothalamus|RB4350,Oligodendrocyte Precursor Cells,Hypothalamus,RB4350,60,control,207
+Oligodendrocyte Precursor Cells|Hypothalamus|RB4401,Oligodendrocyte Precursor Cells,Hypothalamus,RB4401,60,mtDSB,197
+Oligodendrocyte Precursor Cells|Hypothalamus|RB4403,Oligodendrocyte Precursor Cells,Hypothalamus,RB4403,60,mtDSB,429
+Oligodendrocyte Precursor Cells|Hypothalamus|RB4405,Oligodendrocyte Precursor Cells,Hypothalamus,RB4405,60,mtDSB,255
+Oligodendrocyte Precursor Cells|Hypothalamus|RB4498,Oligodendrocyte Precursor Cells,Hypothalamus,RB4498,60,control,210
+Oligodendrocyte Precursor Cells|Hypothalamus|RB4620,Oligodendrocyte Precursor Cells,Hypothalamus,RB4620,21,control,411
+Oligodendrocyte Precursor Cells|Hypothalamus|RB4627,Oligodendrocyte Precursor Cells,Hypothalamus,RB4627,21,mtDSB,267
+Oligodendrocyte Precursor Cells|Hypothalamus|RB4630,Oligodendrocyte Precursor Cells,Hypothalamus,RB4630,21,mtDSB,206
+Oligodendrocyte Precursor Cells|Hypothalamus|RB4653,Oligodendrocyte Precursor Cells,Hypothalamus,RB4653,21,mtDSB,319
+Oligodendrocyte Precursor Cells|Hypothalamus|RB4658,Oligodendrocyte Precursor Cells,Hypothalamus,RB4658,21,control,165
+Oligodendrocyte Precursor Cells|Hypothalamus|RB4676,Oligodendrocyte Precursor Cells,Hypothalamus,RB4676,21,control,298
+Oligodendrocyte Precursor Cells|Meningeal border/glia limitans|RB4282,Oligodendrocyte Precursor Cells,Meningeal border/glia limitans,RB4282,60,control,152
+Oligodendrocyte Precursor Cells|Meningeal border/glia limitans|RB4350,Oligodendrocyte Precursor Cells,Meningeal border/glia limitans,RB4350,60,control,176
+Oligodendrocyte Precursor Cells|Meningeal border/glia limitans|RB4401,Oligodendrocyte Precursor Cells,Meningeal border/glia limitans,RB4401,60,mtDSB,189
+Oligodendrocyte Precursor Cells|Meningeal border/glia limitans|RB4403,Oligodendrocyte Precursor Cells,Meningeal border/glia limitans,RB4403,60,mtDSB,191
+Oligodendrocyte Precursor Cells|Meningeal border/glia limitans|RB4405,Oligodendrocyte Precursor Cells,Meningeal border/glia limitans,RB4405,60,mtDSB,96
+Oligodendrocyte Precursor Cells|Meningeal border/glia limitans|RB4498,Oligodendrocyte Precursor Cells,Meningeal border/glia limitans,RB4498,60,control,122
+Oligodendrocyte Precursor Cells|Meningeal border/glia limitans|RB4620,Oligodendrocyte Precursor Cells,Meningeal border/glia limitans,RB4620,21,control,90
+Oligodendrocyte Precursor Cells|Meningeal border/glia limitans|RB4627,Oligodendrocyte Precursor Cells,Meningeal border/glia limitans,RB4627,21,mtDSB,142
+Oligodendrocyte Precursor Cells|Meningeal border/glia limitans|RB4630,Oligodendrocyte Precursor Cells,Meningeal border/glia limitans,RB4630,21,mtDSB,129
+Oligodendrocyte Precursor Cells|Meningeal border/glia limitans|RB4653,Oligodendrocyte Precursor Cells,Meningeal border/glia limitans,RB4653,21,mtDSB,204
+Oligodendrocyte Precursor Cells|Meningeal border/glia limitans|RB4658,Oligodendrocyte Precursor Cells,Meningeal border/glia limitans,RB4658,21,control,173
+Oligodendrocyte Precursor Cells|Meningeal border/glia limitans|RB4676,Oligodendrocyte Precursor Cells,Meningeal border/glia limitans,RB4676,21,control,109
+Oligodendrocyte Precursor Cells|Olfactory areas|RB4282,Oligodendrocyte Precursor Cells,Olfactory areas,RB4282,60,control,212
+Oligodendrocyte Precursor Cells|Olfactory areas|RB4350,Oligodendrocyte Precursor Cells,Olfactory areas,RB4350,60,control,309
+Oligodendrocyte Precursor Cells|Olfactory areas|RB4401,Oligodendrocyte Precursor Cells,Olfactory areas,RB4401,60,mtDSB,381
+Oligodendrocyte Precursor Cells|Olfactory areas|RB4403,Oligodendrocyte Precursor Cells,Olfactory areas,RB4403,60,mtDSB,275
+Oligodendrocyte Precursor Cells|Olfactory areas|RB4405,Oligodendrocyte Precursor Cells,Olfactory areas,RB4405,60,mtDSB,198
+Oligodendrocyte Precursor Cells|Olfactory areas|RB4498,Oligodendrocyte Precursor Cells,Olfactory areas,RB4498,60,control,208
+Oligodendrocyte Precursor Cells|Olfactory areas|RB4620,Oligodendrocyte Precursor Cells,Olfactory areas,RB4620,21,control,66
+Oligodendrocyte Precursor Cells|Olfactory areas|RB4627,Oligodendrocyte Precursor Cells,Olfactory areas,RB4627,21,mtDSB,132
+Oligodendrocyte Precursor Cells|Olfactory areas|RB4630,Oligodendrocyte Precursor Cells,Olfactory areas,RB4630,21,mtDSB,182
+Oligodendrocyte Precursor Cells|Olfactory areas|RB4653,Oligodendrocyte Precursor Cells,Olfactory areas,RB4653,21,mtDSB,250
+Oligodendrocyte Precursor Cells|Olfactory areas|RB4658,Oligodendrocyte Precursor Cells,Olfactory areas,RB4658,21,control,378
+Oligodendrocyte Precursor Cells|Olfactory areas|RB4676,Oligodendrocyte Precursor Cells,Olfactory areas,RB4676,21,control,278
+Oligodendrocyte Precursor Cells|Pallidum|RB4282,Oligodendrocyte Precursor Cells,Pallidum,RB4282,60,control,68
+Oligodendrocyte Precursor Cells|Pallidum|RB4350,Oligodendrocyte Precursor Cells,Pallidum,RB4350,60,control,72
+Oligodendrocyte Precursor Cells|Pallidum|RB4401,Oligodendrocyte Precursor Cells,Pallidum,RB4401,60,mtDSB,21
+Oligodendrocyte Precursor Cells|Pallidum|RB4403,Oligodendrocyte Precursor Cells,Pallidum,RB4403,60,mtDSB,308
+Oligodendrocyte Precursor Cells|Pallidum|RB4498,Oligodendrocyte Precursor Cells,Pallidum,RB4498,60,control,90
+Oligodendrocyte Precursor Cells|Pallidum|RB4620,Oligodendrocyte Precursor Cells,Pallidum,RB4620,21,control,81
+Oligodendrocyte Precursor Cells|Pallidum|RB4630,Oligodendrocyte Precursor Cells,Pallidum,RB4630,21,mtDSB,83
+Oligodendrocyte Precursor Cells|Pallidum|RB4653,Oligodendrocyte Precursor Cells,Pallidum,RB4653,21,mtDSB,75
+Oligodendrocyte Precursor Cells|Pallidum|RB4658,Oligodendrocyte Precursor Cells,Pallidum,RB4658,21,control,77
+Oligodendrocyte Precursor Cells|Pallidum|RB4676,Oligodendrocyte Precursor Cells,Pallidum,RB4676,21,control,122
+Oligodendrocyte Precursor Cells|Striatum|RB4282,Oligodendrocyte Precursor Cells,Striatum,RB4282,60,control,233
+Oligodendrocyte Precursor Cells|Striatum|RB4350,Oligodendrocyte Precursor Cells,Striatum,RB4350,60,control,231
+Oligodendrocyte Precursor Cells|Striatum|RB4401,Oligodendrocyte Precursor Cells,Striatum,RB4401,60,mtDSB,119
+Oligodendrocyte Precursor Cells|Striatum|RB4403,Oligodendrocyte Precursor Cells,Striatum,RB4403,60,mtDSB,213
+Oligodendrocyte Precursor Cells|Striatum|RB4405,Oligodendrocyte Precursor Cells,Striatum,RB4405,60,mtDSB,283
+Oligodendrocyte Precursor Cells|Striatum|RB4498,Oligodendrocyte Precursor Cells,Striatum,RB4498,60,control,293
+Oligodendrocyte Precursor Cells|Striatum|RB4620,Oligodendrocyte Precursor Cells,Striatum,RB4620,21,control,371
+Oligodendrocyte Precursor Cells|Striatum|RB4627,Oligodendrocyte Precursor Cells,Striatum,RB4627,21,mtDSB,282
+Oligodendrocyte Precursor Cells|Striatum|RB4630,Oligodendrocyte Precursor Cells,Striatum,RB4630,21,mtDSB,318
+Oligodendrocyte Precursor Cells|Striatum|RB4653,Oligodendrocyte Precursor Cells,Striatum,RB4653,21,mtDSB,230
+Oligodendrocyte Precursor Cells|Striatum|RB4658,Oligodendrocyte Precursor Cells,Striatum,RB4658,21,control,197
+Oligodendrocyte Precursor Cells|Striatum|RB4676,Oligodendrocyte Precursor Cells,Striatum,RB4676,21,control,337
+Oligodendrocyte Precursor Cells|Thalamus|RB4282,Oligodendrocyte Precursor Cells,Thalamus,RB4282,60,control,254
+Oligodendrocyte Precursor Cells|Thalamus|RB4350,Oligodendrocyte Precursor Cells,Thalamus,RB4350,60,control,302
+Oligodendrocyte Precursor Cells|Thalamus|RB4401,Oligodendrocyte Precursor Cells,Thalamus,RB4401,60,mtDSB,237
+Oligodendrocyte Precursor Cells|Thalamus|RB4403,Oligodendrocyte Precursor Cells,Thalamus,RB4403,60,mtDSB,374
+Oligodendrocyte Precursor Cells|Thalamus|RB4405,Oligodendrocyte Precursor Cells,Thalamus,RB4405,60,mtDSB,221
+Oligodendrocyte Precursor Cells|Thalamus|RB4498,Oligodendrocyte Precursor Cells,Thalamus,RB4498,60,control,322
+Oligodendrocyte Precursor Cells|Thalamus|RB4620,Oligodendrocyte Precursor Cells,Thalamus,RB4620,21,control,241
+Oligodendrocyte Precursor Cells|Thalamus|RB4627,Oligodendrocyte Precursor Cells,Thalamus,RB4627,21,mtDSB,272
+Oligodendrocyte Precursor Cells|Thalamus|RB4630,Oligodendrocyte Precursor Cells,Thalamus,RB4630,21,mtDSB,152
+Oligodendrocyte Precursor Cells|Thalamus|RB4653,Oligodendrocyte Precursor Cells,Thalamus,RB4653,21,mtDSB,349
+Oligodendrocyte Precursor Cells|Thalamus|RB4658,Oligodendrocyte Precursor Cells,Thalamus,RB4658,21,control,259
+Oligodendrocyte Precursor Cells|Thalamus|RB4676,Oligodendrocyte Precursor Cells,Thalamus,RB4676,21,control,353
+Oligodendrocyte Precursor Cells|Ventricular system|RB4350,Oligodendrocyte Precursor Cells,Ventricular system,RB4350,60,control,40
+Oligodendrocyte Precursor Cells|Ventricular system|RB4403,Oligodendrocyte Precursor Cells,Ventricular system,RB4403,60,mtDSB,22
+Oligodendrocyte Precursor Cells|Ventricular system|RB4498,Oligodendrocyte Precursor Cells,Ventricular system,RB4498,60,control,20
+Oligodendrocyte Precursor Cells|Ventricular system|RB4620,Oligodendrocyte Precursor Cells,Ventricular system,RB4620,21,control,21
+Oligodendrocyte Precursor Cells|Ventricular system|RB4627,Oligodendrocyte Precursor Cells,Ventricular system,RB4627,21,mtDSB,21
+Oligodendrocyte Precursor Cells|Ventricular system|RB4653,Oligodendrocyte Precursor Cells,Ventricular system,RB4653,21,mtDSB,45
+Oligodendrocytes|Cortex|RB4282,Oligodendrocytes,Cortex,RB4282,60,control,2597
+Oligodendrocytes|Cortex|RB4350,Oligodendrocytes,Cortex,RB4350,60,control,2273
+Oligodendrocytes|Cortex|RB4401,Oligodendrocytes,Cortex,RB4401,60,mtDSB,1781
+Oligodendrocytes|Cortex|RB4403,Oligodendrocytes,Cortex,RB4403,60,mtDSB,3483
+Oligodendrocytes|Cortex|RB4405,Oligodendrocytes,Cortex,RB4405,60,mtDSB,1632
+Oligodendrocytes|Cortex|RB4498,Oligodendrocytes,Cortex,RB4498,60,control,2305
+Oligodendrocytes|Cortex|RB4620,Oligodendrocytes,Cortex,RB4620,21,control,2424
+Oligodendrocytes|Cortex|RB4627,Oligodendrocytes,Cortex,RB4627,21,mtDSB,1590
+Oligodendrocytes|Cortex|RB4630,Oligodendrocytes,Cortex,RB4630,21,mtDSB,1932
+Oligodendrocytes|Cortex|RB4653,Oligodendrocytes,Cortex,RB4653,21,mtDSB,1382
+Oligodendrocytes|Cortex|RB4658,Oligodendrocytes,Cortex,RB4658,21,control,1030
+Oligodendrocytes|Cortex|RB4676,Oligodendrocytes,Cortex,RB4676,21,control,2034
+Oligodendrocytes|Fiber tracts|RB4282,Oligodendrocytes,Fiber tracts,RB4282,60,control,3817
+Oligodendrocytes|Fiber tracts|RB4350,Oligodendrocytes,Fiber tracts,RB4350,60,control,2819
+Oligodendrocytes|Fiber tracts|RB4401,Oligodendrocytes,Fiber tracts,RB4401,60,mtDSB,4709
+Oligodendrocytes|Fiber tracts|RB4403,Oligodendrocytes,Fiber tracts,RB4403,60,mtDSB,7570
+Oligodendrocytes|Fiber tracts|RB4405,Oligodendrocytes,Fiber tracts,RB4405,60,mtDSB,3923
+Oligodendrocytes|Fiber tracts|RB4498,Oligodendrocytes,Fiber tracts,RB4498,60,control,3301
+Oligodendrocytes|Fiber tracts|RB4620,Oligodendrocytes,Fiber tracts,RB4620,21,control,4673
+Oligodendrocytes|Fiber tracts|RB4627,Oligodendrocytes,Fiber tracts,RB4627,21,mtDSB,4125
+Oligodendrocytes|Fiber tracts|RB4630,Oligodendrocytes,Fiber tracts,RB4630,21,mtDSB,3097
+Oligodendrocytes|Fiber tracts|RB4653,Oligodendrocytes,Fiber tracts,RB4653,21,mtDSB,3143
+Oligodendrocytes|Fiber tracts|RB4658,Oligodendrocytes,Fiber tracts,RB4658,21,control,3787
+Oligodendrocytes|Fiber tracts|RB4676,Oligodendrocytes,Fiber tracts,RB4676,21,control,3638
+Oligodendrocytes|Hippocampus|RB4282,Oligodendrocytes,Hippocampus,RB4282,60,control,153
+Oligodendrocytes|Hippocampus|RB4350,Oligodendrocytes,Hippocampus,RB4350,60,control,185
+Oligodendrocytes|Hippocampus|RB4401,Oligodendrocytes,Hippocampus,RB4401,60,mtDSB,135
+Oligodendrocytes|Hippocampus|RB4403,Oligodendrocytes,Hippocampus,RB4403,60,mtDSB,434
+Oligodendrocytes|Hippocampus|RB4405,Oligodendrocytes,Hippocampus,RB4405,60,mtDSB,110
+Oligodendrocytes|Hippocampus|RB4498,Oligodendrocytes,Hippocampus,RB4498,60,control,184
+Oligodendrocytes|Hippocampus|RB4620,Oligodendrocytes,Hippocampus,RB4620,21,control,103
+Oligodendrocytes|Hippocampus|RB4627,Oligodendrocytes,Hippocampus,RB4627,21,mtDSB,125
+Oligodendrocytes|Hippocampus|RB4630,Oligodendrocytes,Hippocampus,RB4630,21,mtDSB,116
+Oligodendrocytes|Hippocampus|RB4653,Oligodendrocytes,Hippocampus,RB4653,21,mtDSB,145
+Oligodendrocytes|Hippocampus|RB4658,Oligodendrocytes,Hippocampus,RB4658,21,control,92
+Oligodendrocytes|Hippocampus|RB4676,Oligodendrocytes,Hippocampus,RB4676,21,control,130
+Oligodendrocytes|Hypothalamus|RB4282,Oligodendrocytes,Hypothalamus,RB4282,60,control,1360
+Oligodendrocytes|Hypothalamus|RB4350,Oligodendrocytes,Hypothalamus,RB4350,60,control,1061
+Oligodendrocytes|Hypothalamus|RB4401,Oligodendrocytes,Hypothalamus,RB4401,60,mtDSB,1460
+Oligodendrocytes|Hypothalamus|RB4403,Oligodendrocytes,Hypothalamus,RB4403,60,mtDSB,1640
+Oligodendrocytes|Hypothalamus|RB4405,Oligodendrocytes,Hypothalamus,RB4405,60,mtDSB,1589
+Oligodendrocytes|Hypothalamus|RB4498,Oligodendrocytes,Hypothalamus,RB4498,60,control,981
+Oligodendrocytes|Hypothalamus|RB4620,Oligodendrocytes,Hypothalamus,RB4620,21,control,1692
+Oligodendrocytes|Hypothalamus|RB4627,Oligodendrocytes,Hypothalamus,RB4627,21,mtDSB,1510
+Oligodendrocytes|Hypothalamus|RB4630,Oligodendrocytes,Hypothalamus,RB4630,21,mtDSB,1044
+Oligodendrocytes|Hypothalamus|RB4653,Oligodendrocytes,Hypothalamus,RB4653,21,mtDSB,1356
+Oligodendrocytes|Hypothalamus|RB4658,Oligodendrocytes,Hypothalamus,RB4658,21,control,1275
+Oligodendrocytes|Hypothalamus|RB4676,Oligodendrocytes,Hypothalamus,RB4676,21,control,2038
+Oligodendrocytes|Meningeal border/glia limitans|RB4282,Oligodendrocytes,Meningeal border/glia limitans,RB4282,60,control,379
+Oligodendrocytes|Meningeal border/glia limitans|RB4350,Oligodendrocytes,Meningeal border/glia limitans,RB4350,60,control,426
+Oligodendrocytes|Meningeal border/glia limitans|RB4401,Oligodendrocytes,Meningeal border/glia limitans,RB4401,60,mtDSB,621
+Oligodendrocytes|Meningeal border/glia limitans|RB4403,Oligodendrocytes,Meningeal border/glia limitans,RB4403,60,mtDSB,1024
+Oligodendrocytes|Meningeal border/glia limitans|RB4405,Oligodendrocytes,Meningeal border/glia limitans,RB4405,60,mtDSB,286
+Oligodendrocytes|Meningeal border/glia limitans|RB4498,Oligodendrocytes,Meningeal border/glia limitans,RB4498,60,control,300
+Oligodendrocytes|Meningeal border/glia limitans|RB4620,Oligodendrocytes,Meningeal border/glia limitans,RB4620,21,control,416
+Oligodendrocytes|Meningeal border/glia limitans|RB4627,Oligodendrocytes,Meningeal border/glia limitans,RB4627,21,mtDSB,465
+Oligodendrocytes|Meningeal border/glia limitans|RB4630,Oligodendrocytes,Meningeal border/glia limitans,RB4630,21,mtDSB,305
+Oligodendrocytes|Meningeal border/glia limitans|RB4653,Oligodendrocytes,Meningeal border/glia limitans,RB4653,21,mtDSB,432
+Oligodendrocytes|Meningeal border/glia limitans|RB4658,Oligodendrocytes,Meningeal border/glia limitans,RB4658,21,control,473
+Oligodendrocytes|Meningeal border/glia limitans|RB4676,Oligodendrocytes,Meningeal border/glia limitans,RB4676,21,control,399
+Oligodendrocytes|Olfactory areas|RB4282,Oligodendrocytes,Olfactory areas,RB4282,60,control,444
+Oligodendrocytes|Olfactory areas|RB4350,Oligodendrocytes,Olfactory areas,RB4350,60,control,682
+Oligodendrocytes|Olfactory areas|RB4401,Oligodendrocytes,Olfactory areas,RB4401,60,mtDSB,309
+Oligodendrocytes|Olfactory areas|RB4403,Oligodendrocytes,Olfactory areas,RB4403,60,mtDSB,1126
+Oligodendrocytes|Olfactory areas|RB4405,Oligodendrocytes,Olfactory areas,RB4405,60,mtDSB,428
+Oligodendrocytes|Olfactory areas|RB4498,Oligodendrocytes,Olfactory areas,RB4498,60,control,454
+Oligodendrocytes|Olfactory areas|RB4620,Oligodendrocytes,Olfactory areas,RB4620,21,control,183
+Oligodendrocytes|Olfactory areas|RB4627,Oligodendrocytes,Olfactory areas,RB4627,21,mtDSB,263
+Oligodendrocytes|Olfactory areas|RB4630,Oligodendrocytes,Olfactory areas,RB4630,21,mtDSB,282
+Oligodendrocytes|Olfactory areas|RB4653,Oligodendrocytes,Olfactory areas,RB4653,21,mtDSB,269
+Oligodendrocytes|Olfactory areas|RB4658,Oligodendrocytes,Olfactory areas,RB4658,21,control,315
+Oligodendrocytes|Olfactory areas|RB4676,Oligodendrocytes,Olfactory areas,RB4676,21,control,380
+Oligodendrocytes|Pallidum|RB4282,Oligodendrocytes,Pallidum,RB4282,60,control,1521
+Oligodendrocytes|Pallidum|RB4350,Oligodendrocytes,Pallidum,RB4350,60,control,1475
+Oligodendrocytes|Pallidum|RB4401,Oligodendrocytes,Pallidum,RB4401,60,mtDSB,300
+Oligodendrocytes|Pallidum|RB4403,Oligodendrocytes,Pallidum,RB4403,60,mtDSB,3627
+Oligodendrocytes|Pallidum|RB4498,Oligodendrocytes,Pallidum,RB4498,60,control,1794
+Oligodendrocytes|Pallidum|RB4620,Oligodendrocytes,Pallidum,RB4620,21,control,1326
+Oligodendrocytes|Pallidum|RB4627,Oligodendrocytes,Pallidum,RB4627,21,mtDSB,190
+Oligodendrocytes|Pallidum|RB4630,Oligodendrocytes,Pallidum,RB4630,21,mtDSB,1608
+Oligodendrocytes|Pallidum|RB4653,Oligodendrocytes,Pallidum,RB4653,21,mtDSB,1559
+Oligodendrocytes|Pallidum|RB4658,Oligodendrocytes,Pallidum,RB4658,21,control,1304
+Oligodendrocytes|Pallidum|RB4676,Oligodendrocytes,Pallidum,RB4676,21,control,1977
+Oligodendrocytes|Striatum|RB4282,Oligodendrocytes,Striatum,RB4282,60,control,1281
+Oligodendrocytes|Striatum|RB4350,Oligodendrocytes,Striatum,RB4350,60,control,1067
+Oligodendrocytes|Striatum|RB4401,Oligodendrocytes,Striatum,RB4401,60,mtDSB,732
+Oligodendrocytes|Striatum|RB4403,Oligodendrocytes,Striatum,RB4403,60,mtDSB,1907
+Oligodendrocytes|Striatum|RB4405,Oligodendrocytes,Striatum,RB4405,60,mtDSB,1141
+Oligodendrocytes|Striatum|RB4498,Oligodendrocytes,Striatum,RB4498,60,control,1346
+Oligodendrocytes|Striatum|RB4620,Oligodendrocytes,Striatum,RB4620,21,control,1851
+Oligodendrocytes|Striatum|RB4627,Oligodendrocytes,Striatum,RB4627,21,mtDSB,1010
+Oligodendrocytes|Striatum|RB4630,Oligodendrocytes,Striatum,RB4630,21,mtDSB,1453
+Oligodendrocytes|Striatum|RB4653,Oligodendrocytes,Striatum,RB4653,21,mtDSB,762
+Oligodendrocytes|Striatum|RB4658,Oligodendrocytes,Striatum,RB4658,21,control,918
+Oligodendrocytes|Striatum|RB4676,Oligodendrocytes,Striatum,RB4676,21,control,1194
+Oligodendrocytes|Thalamus|RB4282,Oligodendrocytes,Thalamus,RB4282,60,control,2563
+Oligodendrocytes|Thalamus|RB4350,Oligodendrocytes,Thalamus,RB4350,60,control,2414
+Oligodendrocytes|Thalamus|RB4401,Oligodendrocytes,Thalamus,RB4401,60,mtDSB,1820
+Oligodendrocytes|Thalamus|RB4403,Oligodendrocytes,Thalamus,RB4403,60,mtDSB,2885
+Oligodendrocytes|Thalamus|RB4405,Oligodendrocytes,Thalamus,RB4405,60,mtDSB,1558
+Oligodendrocytes|Thalamus|RB4498,Oligodendrocytes,Thalamus,RB4498,60,control,2598
+Oligodendrocytes|Thalamus|RB4620,Oligodendrocytes,Thalamus,RB4620,21,control,1425
+Oligodendrocytes|Thalamus|RB4627,Oligodendrocytes,Thalamus,RB4627,21,mtDSB,1657
+Oligodendrocytes|Thalamus|RB4630,Oligodendrocytes,Thalamus,RB4630,21,mtDSB,1699
+Oligodendrocytes|Thalamus|RB4653,Oligodendrocytes,Thalamus,RB4653,21,mtDSB,2572
+Oligodendrocytes|Thalamus|RB4658,Oligodendrocytes,Thalamus,RB4658,21,control,1760
+Oligodendrocytes|Thalamus|RB4676,Oligodendrocytes,Thalamus,RB4676,21,control,2459
+Oligodendrocytes|Vasculature|RB4282,Oligodendrocytes,Vasculature,RB4282,60,control,34
+Oligodendrocytes|Vasculature|RB4350,Oligodendrocytes,Vasculature,RB4350,60,control,30
+Oligodendrocytes|Vasculature|RB4401,Oligodendrocytes,Vasculature,RB4401,60,mtDSB,42
+Oligodendrocytes|Vasculature|RB4403,Oligodendrocytes,Vasculature,RB4403,60,mtDSB,32
+Oligodendrocytes|Vasculature|RB4405,Oligodendrocytes,Vasculature,RB4405,60,mtDSB,67
+Oligodendrocytes|Vasculature|RB4498,Oligodendrocytes,Vasculature,RB4498,60,control,56
+Oligodendrocytes|Vasculature|RB4620,Oligodendrocytes,Vasculature,RB4620,21,control,56
+Oligodendrocytes|Vasculature|RB4627,Oligodendrocytes,Vasculature,RB4627,21,mtDSB,38
+Oligodendrocytes|Vasculature|RB4630,Oligodendrocytes,Vasculature,RB4630,21,mtDSB,41
+Oligodendrocytes|Vasculature|RB4653,Oligodendrocytes,Vasculature,RB4653,21,mtDSB,30
+Oligodendrocytes|Vasculature|RB4658,Oligodendrocytes,Vasculature,RB4658,21,control,24
+Oligodendrocytes|Vasculature|RB4676,Oligodendrocytes,Vasculature,RB4676,21,control,65
+Oligodendrocytes|Ventricular system|RB4282,Oligodendrocytes,Ventricular system,RB4282,60,control,298
+Oligodendrocytes|Ventricular system|RB4350,Oligodendrocytes,Ventricular system,RB4350,60,control,285
+Oligodendrocytes|Ventricular system|RB4401,Oligodendrocytes,Ventricular system,RB4401,60,mtDSB,190
+Oligodendrocytes|Ventricular system|RB4403,Oligodendrocytes,Ventricular system,RB4403,60,mtDSB,248
+Oligodendrocytes|Ventricular system|RB4405,Oligodendrocytes,Ventricular system,RB4405,60,mtDSB,196
+Oligodendrocytes|Ventricular system|RB4498,Oligodendrocytes,Ventricular system,RB4498,60,control,240
+Oligodendrocytes|Ventricular system|RB4620,Oligodendrocytes,Ventricular system,RB4620,21,control,209
+Oligodendrocytes|Ventricular system|RB4627,Oligodendrocytes,Ventricular system,RB4627,21,mtDSB,211
+Oligodendrocytes|Ventricular system|RB4630,Oligodendrocytes,Ventricular system,RB4630,21,mtDSB,195
+Oligodendrocytes|Ventricular system|RB4653,Oligodendrocytes,Ventricular system,RB4653,21,mtDSB,489
+Oligodendrocytes|Ventricular system|RB4658,Oligodendrocytes,Ventricular system,RB4658,21,control,236
+Oligodendrocytes|Ventricular system|RB4676,Oligodendrocytes,Ventricular system,RB4676,21,control,238
+Astrocytes|All regions|RB4282,Astrocytes,All regions,RB4282,60,control,13115
+Astrocytes|All regions|RB4350,Astrocytes,All regions,RB4350,60,control,12016
+Astrocytes|All regions|RB4401,Astrocytes,All regions,RB4401,60,mtDSB,12618
+Astrocytes|All regions|RB4403,Astrocytes,All regions,RB4403,60,mtDSB,24371
+Astrocytes|All regions|RB4405,Astrocytes,All regions,RB4405,60,mtDSB,12156
+Astrocytes|All regions|RB4498,Astrocytes,All regions,RB4498,60,control,11836
+Astrocytes|All regions|RB4620,Astrocytes,All regions,RB4620,21,control,11744
+Astrocytes|All regions|RB4627,Astrocytes,All regions,RB4627,21,mtDSB,11022
+Astrocytes|All regions|RB4630,Astrocytes,All regions,RB4630,21,mtDSB,10388
+Astrocytes|All regions|RB4653,Astrocytes,All regions,RB4653,21,mtDSB,12350
+Astrocytes|All regions|RB4658,Astrocytes,All regions,RB4658,21,control,9952
+Astrocytes|All regions|RB4676,Astrocytes,All regions,RB4676,21,control,11663
+Endocrine Cells|All regions|RB4653,Endocrine Cells,All regions,RB4653,21,mtDSB,122
+Endothelial Cells|All regions|RB4282,Endothelial Cells,All regions,RB4282,60,control,10413
+Endothelial Cells|All regions|RB4350,Endothelial Cells,All regions,RB4350,60,control,9872
+Endothelial Cells|All regions|RB4401,Endothelial Cells,All regions,RB4401,60,mtDSB,11479
+Endothelial Cells|All regions|RB4403,Endothelial Cells,All regions,RB4403,60,mtDSB,15023
+Endothelial Cells|All regions|RB4405,Endothelial Cells,All regions,RB4405,60,mtDSB,9103
+Endothelial Cells|All regions|RB4498,Endothelial Cells,All regions,RB4498,60,control,9763
+Endothelial Cells|All regions|RB4620,Endothelial Cells,All regions,RB4620,21,control,10572
+Endothelial Cells|All regions|RB4627,Endothelial Cells,All regions,RB4627,21,mtDSB,10229
+Endothelial Cells|All regions|RB4630,Endothelial Cells,All regions,RB4630,21,mtDSB,8735
+Endothelial Cells|All regions|RB4653,Endothelial Cells,All regions,RB4653,21,mtDSB,10491
+Endothelial Cells|All regions|RB4658,Endothelial Cells,All regions,RB4658,21,control,8297
+Endothelial Cells|All regions|RB4676,Endothelial Cells,All regions,RB4676,21,control,11304
+Excitatory Neurons|All regions|RB4282,Excitatory Neurons,All regions,RB4282,60,control,18455
+Excitatory Neurons|All regions|RB4350,Excitatory Neurons,All regions,RB4350,60,control,15410
+Excitatory Neurons|All regions|RB4401,Excitatory Neurons,All regions,RB4401,60,mtDSB,19797
+Excitatory Neurons|All regions|RB4403,Excitatory Neurons,All regions,RB4403,60,mtDSB,24038
+Excitatory Neurons|All regions|RB4405,Excitatory Neurons,All regions,RB4405,60,mtDSB,17803
+Excitatory Neurons|All regions|RB4498,Excitatory Neurons,All regions,RB4498,60,control,17342
+Excitatory Neurons|All regions|RB4620,Excitatory Neurons,All regions,RB4620,21,control,15802
+Excitatory Neurons|All regions|RB4627,Excitatory Neurons,All regions,RB4627,21,mtDSB,16669
+Excitatory Neurons|All regions|RB4630,Excitatory Neurons,All regions,RB4630,21,mtDSB,16821
+Excitatory Neurons|All regions|RB4653,Excitatory Neurons,All regions,RB4653,21,mtDSB,16600
+Excitatory Neurons|All regions|RB4658,Excitatory Neurons,All regions,RB4658,21,control,12891
+Excitatory Neurons|All regions|RB4676,Excitatory Neurons,All regions,RB4676,21,control,17183
+GABAergic Neurons|All regions|RB4282,GABAergic Neurons,All regions,RB4282,60,control,4170
+GABAergic Neurons|All regions|RB4350,GABAergic Neurons,All regions,RB4350,60,control,3856
+GABAergic Neurons|All regions|RB4401,GABAergic Neurons,All regions,RB4401,60,mtDSB,4270
+GABAergic Neurons|All regions|RB4403,GABAergic Neurons,All regions,RB4403,60,mtDSB,5652
+GABAergic Neurons|All regions|RB4405,GABAergic Neurons,All regions,RB4405,60,mtDSB,4253
+GABAergic Neurons|All regions|RB4498,GABAergic Neurons,All regions,RB4498,60,control,3903
+GABAergic Neurons|All regions|RB4620,GABAergic Neurons,All regions,RB4620,21,control,3567
+GABAergic Neurons|All regions|RB4627,GABAergic Neurons,All regions,RB4627,21,mtDSB,4235
+GABAergic Neurons|All regions|RB4630,GABAergic Neurons,All regions,RB4630,21,mtDSB,3970
+GABAergic Neurons|All regions|RB4653,GABAergic Neurons,All regions,RB4653,21,mtDSB,3765
+GABAergic Neurons|All regions|RB4658,GABAergic Neurons,All regions,RB4658,21,control,3434
+GABAergic Neurons|All regions|RB4676,GABAergic Neurons,All regions,RB4676,21,control,4035
+Medium Spiny Neurons|All regions|RB4282,Medium Spiny Neurons,All regions,RB4282,60,control,2281
+Medium Spiny Neurons|All regions|RB4350,Medium Spiny Neurons,All regions,RB4350,60,control,2142
+Medium Spiny Neurons|All regions|RB4401,Medium Spiny Neurons,All regions,RB4401,60,mtDSB,1697
+Medium Spiny Neurons|All regions|RB4403,Medium Spiny Neurons,All regions,RB4403,60,mtDSB,7492
+Medium Spiny Neurons|All regions|RB4405,Medium Spiny Neurons,All regions,RB4405,60,mtDSB,4144
+Medium Spiny Neurons|All regions|RB4498,Medium Spiny Neurons,All regions,RB4498,60,control,3175
+Medium Spiny Neurons|All regions|RB4620,Medium Spiny Neurons,All regions,RB4620,21,control,8369
+Medium Spiny Neurons|All regions|RB4627,Medium Spiny Neurons,All regions,RB4627,21,mtDSB,3024
+Medium Spiny Neurons|All regions|RB4630,Medium Spiny Neurons,All regions,RB4630,21,mtDSB,4506
+Medium Spiny Neurons|All regions|RB4653,Medium Spiny Neurons,All regions,RB4653,21,mtDSB,1622
+Medium Spiny Neurons|All regions|RB4658,Medium Spiny Neurons,All regions,RB4658,21,control,2403
+Medium Spiny Neurons|All regions|RB4676,Medium Spiny Neurons,All regions,RB4676,21,control,3876
+Microglia|All regions|RB4282,Microglia,All regions,RB4282,60,control,2185
+Microglia|All regions|RB4350,Microglia,All regions,RB4350,60,control,2190
+Microglia|All regions|RB4401,Microglia,All regions,RB4401,60,mtDSB,2429
+Microglia|All regions|RB4403,Microglia,All regions,RB4403,60,mtDSB,3732
+Microglia|All regions|RB4405,Microglia,All regions,RB4405,60,mtDSB,3015
+Microglia|All regions|RB4498,Microglia,All regions,RB4498,60,control,2225
+Microglia|All regions|RB4620,Microglia,All regions,RB4620,21,control,2267
+Microglia|All regions|RB4627,Microglia,All regions,RB4627,21,mtDSB,2333
+Microglia|All regions|RB4630,Microglia,All regions,RB4630,21,mtDSB,1988
+Microglia|All regions|RB4653,Microglia,All regions,RB4653,21,mtDSB,2048
+Microglia|All regions|RB4658,Microglia,All regions,RB4658,21,control,1782
+Microglia|All regions|RB4676,Microglia,All regions,RB4676,21,control,2424
+Neural Stem Cells|All regions|RB4282,Neural Stem Cells,All regions,RB4282,60,control,440
+Neural Stem Cells|All regions|RB4350,Neural Stem Cells,All regions,RB4350,60,control,458
+Neural Stem Cells|All regions|RB4401,Neural Stem Cells,All regions,RB4401,60,mtDSB,295
+Neural Stem Cells|All regions|RB4403,Neural Stem Cells,All regions,RB4403,60,mtDSB,483
+Neural Stem Cells|All regions|RB4405,Neural Stem Cells,All regions,RB4405,60,mtDSB,278
+Neural Stem Cells|All regions|RB4498,Neural Stem Cells,All regions,RB4498,60,control,457
+Neural Stem Cells|All regions|RB4620,Neural Stem Cells,All regions,RB4620,21,control,349
+Neural Stem Cells|All regions|RB4627,Neural Stem Cells,All regions,RB4627,21,mtDSB,214
+Neural Stem Cells|All regions|RB4630,Neural Stem Cells,All regions,RB4630,21,mtDSB,279
+Neural Stem Cells|All regions|RB4653,Neural Stem Cells,All regions,RB4653,21,mtDSB,1041
+Neural Stem Cells|All regions|RB4658,Neural Stem Cells,All regions,RB4658,21,control,293
+Neural Stem Cells|All regions|RB4676,Neural Stem Cells,All regions,RB4676,21,control,395
+Neurons|All regions|RB4282,Neurons,All regions,RB4282,60,control,14286
+Neurons|All regions|RB4350,Neurons,All regions,RB4350,60,control,12387
+Neurons|All regions|RB4401,Neurons,All regions,RB4401,60,mtDSB,9771
+Neurons|All regions|RB4403,Neurons,All regions,RB4403,60,mtDSB,25358
+Neurons|All regions|RB4405,Neurons,All regions,RB4405,60,mtDSB,11360
+Neurons|All regions|RB4498,Neurons,All regions,RB4498,60,control,11547
+Neurons|All regions|RB4620,Neurons,All regions,RB4620,21,control,14444
+Neurons|All regions|RB4627,Neurons,All regions,RB4627,21,mtDSB,12243
+Neurons|All regions|RB4630,Neurons,All regions,RB4630,21,mtDSB,9852
+Neurons|All regions|RB4653,Neurons,All regions,RB4653,21,mtDSB,14894
+Neurons|All regions|RB4658,Neurons,All regions,RB4658,21,control,7722
+Neurons|All regions|RB4676,Neurons,All regions,RB4676,21,control,14197
+Oligodendrocyte Precursor Cells|All regions|RB4282,Oligodendrocyte Precursor Cells,All regions,RB4282,60,control,1749
+Oligodendrocyte Precursor Cells|All regions|RB4350,Oligodendrocyte Precursor Cells,All regions,RB4350,60,control,1819
+Oligodendrocyte Precursor Cells|All regions|RB4401,Oligodendrocyte Precursor Cells,All regions,RB4401,60,mtDSB,1803
+Oligodendrocyte Precursor Cells|All regions|RB4403,Oligodendrocyte Precursor Cells,All regions,RB4403,60,mtDSB,2728
+Oligodendrocyte Precursor Cells|All regions|RB4405,Oligodendrocyte Precursor Cells,All regions,RB4405,60,mtDSB,1757
+Oligodendrocyte Precursor Cells|All regions|RB4498,Oligodendrocyte Precursor Cells,All regions,RB4498,60,control,1835
+Oligodendrocyte Precursor Cells|All regions|RB4620,Oligodendrocyte Precursor Cells,All regions,RB4620,21,control,1922
+Oligodendrocyte Precursor Cells|All regions|RB4627,Oligodendrocyte Precursor Cells,All regions,RB4627,21,mtDSB,1684
+Oligodendrocyte Precursor Cells|All regions|RB4630,Oligodendrocyte Precursor Cells,All regions,RB4630,21,mtDSB,1596
+Oligodendrocyte Precursor Cells|All regions|RB4653,Oligodendrocyte Precursor Cells,All regions,RB4653,21,mtDSB,2165
+Oligodendrocyte Precursor Cells|All regions|RB4658,Oligodendrocyte Precursor Cells,All regions,RB4658,21,control,1695
+Oligodendrocyte Precursor Cells|All regions|RB4676,Oligodendrocyte Precursor Cells,All regions,RB4676,21,control,2118
+Oligodendrocytes|All regions|RB4282,Oligodendrocytes,All regions,RB4282,60,control,14447
+Oligodendrocytes|All regions|RB4350,Oligodendrocytes,All regions,RB4350,60,control,12717
+Oligodendrocytes|All regions|RB4401,Oligodendrocytes,All regions,RB4401,60,mtDSB,12099
+Oligodendrocytes|All regions|RB4403,Oligodendrocytes,All regions,RB4403,60,mtDSB,23976
+Oligodendrocytes|All regions|RB4405,Oligodendrocytes,All regions,RB4405,60,mtDSB,10940
+Oligodendrocytes|All regions|RB4498,Oligodendrocytes,All regions,RB4498,60,control,13559
+Oligodendrocytes|All regions|RB4620,Oligodendrocytes,All regions,RB4620,21,control,14358
+Oligodendrocytes|All regions|RB4627,Oligodendrocytes,All regions,RB4627,21,mtDSB,11184
+Oligodendrocytes|All regions|RB4630,Oligodendrocytes,All regions,RB4630,21,mtDSB,11772
+Oligodendrocytes|All regions|RB4653,Oligodendrocytes,All regions,RB4653,21,mtDSB,12139
+Oligodendrocytes|All regions|RB4658,Oligodendrocytes,All regions,RB4658,21,control,11214
+Oligodendrocytes|All regions|RB4676,Oligodendrocytes,All regions,RB4676,21,control,14552

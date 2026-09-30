@@ -10,7 +10,9 @@ exports/
 *.hdf5
 *.loom
 *.log
-*.
+
+# Scratch output of the synthetic test suite
+tests/_tmp_region_time/
 
 # Ignore Jupyter and notebook cache files
 .ipynb_checkpoints/
@@ -27,3 +29,10 @@ Thumbs.db
 # Ignore secret files
 .env
 *.env 
+# Regenerable large tables of the region x time pipeline (>100 MB, GitHub limit);
+# recreate with scripts/run_region_time_de.py. Summaries, hit lists, logs and figures are tracked.
+results/region_time*/pseudobulk_counts.csv
+results/region_time*/de_condition_by_region_age.csv
+results/region_time*/de_age_contrast_by_region.csv
+results/region_time*/de_interaction_by_region.csv
+results/region_time*/de_region_vs_rest.csv

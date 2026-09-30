@@ -1,0 +1,25 @@
+cell_type,region,age,n_case,n_control,n_cells,status,n_genes_tested,seconds
+Immature Oligodendrocytes,Cortex,21,3,3,2603,ok,3688,4.5
+Immature Oligodendrocytes,Cortex,60,3,3,2754,ok,3706,1.2
+Immature Oligodendrocytes,Fiber tracts,21,3,3,1457,ok,3342,1.1
+Immature Oligodendrocytes,Fiber tracts,60,3,3,1333,ok,3366,1.1
+Immature Oligodendrocytes,Hippocampus,21,3,3,241,ok,2698,0.9
+Immature Oligodendrocytes,Hippocampus,60,3,3,478,ok,3036,1.0
+Immature Oligodendrocytes,Hypothalamus,21,3,3,1780,ok,3638,1.1
+Immature Oligodendrocytes,Hypothalamus,60,3,3,1592,ok,3582,1.2
+Immature Oligodendrocytes,Meningeal border/glia limitans,21,3,3,844,ok,3238,1.0
+Immature Oligodendrocytes,Meningeal border/glia limitans,60,3,3,915,ok,3257,1.1
+Immature Oligodendrocytes,Olfactory areas,21,3,3,1296,ok,3514,1.2
+Immature Oligodendrocytes,Olfactory areas,60,3,3,1608,ok,3544,1.1
+Immature Oligodendrocytes,Pallidum,21,2,3,510,ok,2889,1.0
+Immature Oligodendrocytes,Pallidum,60,1,3,599,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes,Striatum,21,3,3,1792,ok,3614,1.1
+Immature Oligodendrocytes,Striatum,60,3,3,1428,ok,3488,1.2
+Immature Oligodendrocytes,Thalamus,21,3,3,1781,ok,3528,1.1
+Immature Oligodendrocytes,Thalamus,60,3,3,1912,ok,3535,1.1
+Immature Oligodendrocytes,Vasculature,21,0,0,0,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes,Vasculature,60,0,0,0,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes,Ventricular system,21,1,1,63,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes,Ventricular system,60,1,1,60,skipped: <2 sections per condition,0,0.0
+Immature Oligodendrocytes,All regions,21,3,3,13123,ok,4264,1.4
+Immature Oligodendrocytes,All regions,60,3,3,13404,ok,4263,1.7

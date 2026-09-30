@@ -1,0 +1,32 @@
+{
+  "keys": {
+    "cell_type": "cell_class",
+    "region": "RBD_compartment_simplified",
+    "sample": "sample_id",
+    "age": "age",
+    "condition": "condition",
+    "case": "mtDSB",
+    "control": "control",
+    "ages": [
+      "21",
+      "60"
+    ]
+  },
+  "layer": "counts",
+  "min_cells_per_sample": 20,
+  "exclude_regions": [
+    "Unknown"
+  ],
+  "min_per_condition": 2,
+  "thresholds": {
+    "padj": 0.05,
+    "abs_log2FC": 0.5,
+    "baseMean": 20.0
+  },
+  "n_cells": 980474,
+  "n_genes": 5101,
+  "n_pseudobulk_samples": 1264,
+  "n_pseudobulk_dropped": 585,
+  "seconds": 1624.4,
+  "pydeseq2": "0.5.4"
+}
