@@ -642,6 +642,7 @@ def classify_cells(
     outdir: str | Path | None = None,
     resume: bool = True,
     cell_type_map: dict[str, str] | None = None,
+    save_coefficients: bool = False,
 ) -> dict[str, pd.DataFrame]:
     """Leave-one-section-out cell classifiers, one per cell type and task.
 
@@ -662,6 +663,13 @@ def classify_cells(
     ``cell_type_map`` relabels cell types before anything else (e.g.
     ``{"DA-Oligodendrocytes": "Oligodendrocytes"}`` to avoid disease-defined
     clusters); unmapped labels are kept.
+
+    With ``save_coefficients``, the gene weights of every binary fold model
+    are kept (long table ``cell_type, task, fold, gene, coef``; weight per SD of
+    log-normalized expression, positive = towards the positive class, i.e.
+    late age / mtDSB; ``fold`` = held-out section(s), or the training cohort
+    for transfer tasks) and written to ``outdir/coefficients/<cell type>.csv.gz``.
+    Cell types loaded from disk on resume have no coefficients.
 
     Returns
     -------
@@ -692,7 +700,8 @@ def classify_cells(
     if score_dir is not None:
         score_dir.mkdir(parents=True, exist_ok=True)
 
-    score_frames = []
+    score_frames, coef_frames = [], []
+    genes = np.asarray(adata.var_names)
     t0 = time.time()
     for ct in cts:
         ct_file = score_dir / f"{_safe_name(ct)}.csv.gz" if score_dir is not None else None
@@ -707,6 +716,7 @@ def classify_cells(
         ok_samples = n_per.index[n_per >= min_cells_per_sample]
         smeta_all = ct_obs.groupby("sample_id")[["age", "condition"]].first().loc[sorted(ok_samples)]
         scores = pd.DataFrame(index=ct_obs.index[ct_obs["sample_id"].isin(ok_samples)])
+        ct_coefs = []
         sample_of = ct_obs["sample_id"].to_numpy()
         for task in tasks:
             pool = _pool(smeta_all, task)
@@ -737,6 +747,11 @@ def classify_cells(
                 clf = LogisticRegression(C=C, class_weight="balanced", max_iter=1000)
                 clf.fit(scaler.transform(Xtr), y)
                 order = [list(clf.classes_).index(c) for c in classes]
+                if save_coefficients and binary:
+                    sign = 1.0 if clf.classes_[1] == classes[1] else -1.0
+                    fold = f"train {task.train_age}" if task.is_transfer else "+".join(te_s)
+                    ct_coefs.append(pd.DataFrame({"cell_type": ct, "task": task.name, "fold": fold,
+                                                  "gene": genes, "coef": sign * clf.coef_[0]}))
                 te_pos = np.flatnonzero(np.isin(sample_of, te_s))
                 for start in range(0, len(te_pos), chunk):
                     sl = te_pos[start : start + chunk]
@@ -751,6 +766,12 @@ def classify_cells(
         scores.insert(0, "region", ct_obs.loc[scores.index, "region"])
         scores.insert(0, "cell_type", ct)
         score_frames.append(scores)
+        if ct_coefs:
+            coef_frames.append(pd.concat(ct_coefs, ignore_index=True))
+            if outdir is not None:
+                cdir = Path(outdir) / "coefficients"
+                cdir.mkdir(parents=True, exist_ok=True)
+                coef_frames[-1].to_csv(cdir / f"{_safe_name(ct)}.csv.gz", index=False, compression="gzip")
         if ct_file is not None:
             scores.to_csv(ct_file, compression="gzip")
             _checkpoint(outdir, score_frames, smeta_sections, tasks, keys, done=len(score_frames), total=len(cts), t0=t0)
@@ -761,7 +782,10 @@ def classify_cells(
     cell_scores = pd.concat(score_frames)
     predictions = aggregate_cell_scores(cell_scores, smeta_sections, tasks, keys)
     metrics = score_predictions(predictions, ["task", "cell_type", "region"])
-    return {"cell_scores": cell_scores, "predictions": predictions, "metrics": metrics}
+    out = {"cell_scores": cell_scores, "predictions": predictions, "metrics": metrics}
+    if coef_frames:
+        out["coefficients"] = pd.concat(coef_frames, ignore_index=True)
+    return out
 
 
 def _safe_name(s: str) -> str:
@@ -838,7 +862,7 @@ def save_results(outdir: str | Path, tables: dict[str, pd.DataFrame], run_info: 
     outdir = Path(outdir)
     outdir.mkdir(parents=True, exist_ok=True)
     for name, df in tables.items():
-        if name == "cell_scores":
+        if name in ("cell_scores", "coefficients"):
             continue  # written per cell type by classify_cells(outdir=...)
         df.to_csv(outdir / f"{name}.csv", index=False)
     if run_info is not None:

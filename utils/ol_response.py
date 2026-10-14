@@ -136,3 +136,76 @@ def region_rank_per_animal(values: pd.DataFrame, sections: pd.DataFrame, value: 
     r = w.rank(ascending=False)
     r["mean rank"] = r.mean(1)
     return r.sort_values("mean rank")
+
+
+# ----------------------------------------------------------------------------
+# Which genes drive the classifier?
+# ----------------------------------------------------------------------------
+
+
+def summarize_coefficients(coefs: pd.DataFrame) -> pd.DataFrame:
+    """Per (task, gene): fold-mean weight, SD, sign consistency and mean rank.
+
+    ``coefs`` is the long table from ``classify_cells(save_coefficients=True)``.
+    ``sign_consistency`` = fraction of folds whose weight has the sign of the
+    mean; ``mean_rank`` ranks genes by weight within each fold (1 = most
+    positive, i.e. most mtDSB-like) and averages over folds.
+    """
+    c = coefs.copy()
+    c["rank"] = c.groupby(["task", "fold"])["coef"].rank(ascending=False)
+    g = c.groupby(["task", "gene"])
+    out = g.agg(mean_coef=("coef", "mean"), sd_coef=("coef", "std"), n_folds=("coef", "size"), mean_rank=("rank", "mean"))
+    c["same_sign"] = np.sign(c["coef"]) == np.sign(c.groupby(["task", "gene"])["coef"].transform("mean"))
+    out["sign_consistency"] = c.groupby(["task", "gene"])["same_sign"].mean()
+    return out.reset_index()
+
+
+def gene_score_association(X, sample_of: np.ndarray, score: np.ndarray, genes: Sequence[str],
+                           min_cells: int = 200, eps: float = 1e-4) -> pd.DataFrame:
+    """Within-section Pearson correlation of every gene with a per-cell score.
+
+    ``X`` (cells x genes, sparse or dense) holds log-normalized expression for
+    the cells of one type, ``score`` their out-of-fold p(mtDSB); the score is
+    logit-transformed. Computing the correlation *within* each section removes
+    section-level (batch, plane) differences: a driver gene must separate
+    high- from low-scoring cells inside the same section.
+
+    Returns long rows ``sample_id, gene, r, mean_expr, frac_expr, n_cells``.
+    """
+    from scipy import sparse as sp
+
+    genes = np.asarray(genes)
+    y_all = np.log(np.clip(score, eps, 1 - eps) / (1 - np.clip(score, eps, 1 - eps)))
+    rows = []
+    for sid in pd.unique(sample_of):
+        idx = np.flatnonzero(sample_of == sid)
+        if len(idx) < min_cells:
+            continue
+        Xs = X[idx]
+        Xs = Xs.toarray() if sp.issparse(Xs) else np.asarray(Xs)
+        Xs = Xs.astype(np.float64)
+        y = y_all[idx] - y_all[idx].mean()
+        mu = Xs.mean(0)
+        Xc = Xs - mu
+        sx = np.sqrt((Xc**2).sum(0))
+        sy = np.sqrt((y**2).sum())
+        with np.errstate(invalid="ignore", divide="ignore"):
+            r = (Xc.T @ y) / (sx * sy)
+        rows.append(pd.DataFrame({"sample_id": sid, "gene": genes, "r": r, "mean_expr": mu,
+                                  "frac_expr": (Xs > 0).mean(0), "n_cells": len(idx)}))
+    return pd.concat(rows, ignore_index=True)
+
+
+def summarize_association(assoc: pd.DataFrame, sections: pd.DataFrame) -> pd.DataFrame:
+    """Mean within-section r per gene and group (responder / non-responder / control).
+
+    Also ``min_r_responders`` (the weakest responder), so a gene driven by one
+    animal does not rank high.
+    """
+    a = assoc.merge(sections[["group"]], left_on="sample_id", right_index=True)
+    wide = a.pivot_table(index="gene", columns="group", values="r", aggfunc="mean")
+    wide.columns = [f"r_{c}" for c in wide.columns]
+    resp = a.loc[a["group"] == "responder"].pivot(index="gene", columns="sample_id", values="r")
+    wide["min_r_responders"] = resp.min(1)
+    wide["r_resp_minus_ctrl"] = wide.get("r_responder") - wide.get("r_control")
+    return wide.reset_index()

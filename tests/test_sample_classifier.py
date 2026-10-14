@@ -151,6 +151,21 @@ def test_cell_classifier_runs_and_separates():
     assert set(merged["cell_scores"].cell_type) == {"Glia"} and len(merged["cell_scores"]) == a.n_obs
 
 
+def test_cell_classifier_coefficients_find_planted_genes():
+    from utils import ol_response as olr
+
+    a = make_adata(cells_per_group=30)
+    tasks = [t for t in sc.default_tasks() if t.name in ("condition", "condition 21->60", "joint")]
+    res = sc.classify_cells(a, cells_per_sample=60, tasks=tasks, cell_types=["OL"], save_coefficients=True)
+    co = res["coefficients"]
+    assert set(co.task) == {"condition", "condition 21->60"}  # joint is multi-class: no coefficients
+    assert co[co.task == "condition"].fold.nunique() == 12 and set(co[co.task != "condition"].fold) == {"train 21"}
+    summ = olr.summarize_coefficients(co)
+    top = summ[summ.task == "condition"].nlargest(10, "mean_coef")
+    assert len(set(top.gene) & {f"g{i}" for i in range(10, 20)}) >= 8
+    assert (top.sign_consistency == 1).all()
+
+
 def test_cell_classifier_checkpoints_and_resumes(tmp_path=None):
     import shutil
 

@@ -92,6 +92,22 @@ def test_high_score_fraction_and_region_tables():
     assert t.loc["Thalamus", "responder"] > 0.9 and t.loc["Thalamus", "control"] == 0
 
 
+def test_gene_score_association_within_section():
+    rng = np.random.default_rng(2)
+    rows, samples, scores = [], [], []
+    for sid in ["A", "B"]:
+        n = 400
+        sc_ = rng.uniform(0.01, 0.99, n)
+        x = rng.normal(size=(n, 5))
+        x[:, 0] += 2 * np.log(sc_ / (1 - sc_))       # tracks the score within the section
+        x[:, 1] += 5 if sid == "B" else 0            # section offset only, no within-section signal
+        rows.append(x); samples += [sid] * n; scores.append(sc_)
+    assoc = olr.gene_score_association(np.vstack(rows), np.array(samples), np.concatenate(scores),
+                                       [f"g{i}" for i in range(5)], min_cells=100)
+    r = assoc.groupby("gene")["r"].mean()
+    assert r["g0"] > 0.8 and abs(r["g1"]) < 0.15
+
+
 if __name__ == "__main__":
     for name, fn in list(globals().items()):
         if name.startswith("test_"):
