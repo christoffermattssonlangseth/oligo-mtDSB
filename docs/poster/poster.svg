@@ -13,10 +13,11 @@
 <g id="header">
 <rect x="0" y="0" width="841" height="104" fill="url(#header-gradient)"/>
 <rect x="0" y="100.5" width="841" height="3.5" fill="#ff876f"/>
-<text x="25.0" y="36.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="24" fill="#ffffff" font-weight="bold" font-style="normal" text-anchor="start">Mitochondrial DNA breaks trigger an all-or-none</text>
-<text x="25.0" y="63.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="24" fill="#ffffff" font-weight="bold" font-style="normal" text-anchor="start">stress response in oligodendrocytes</text>
-<text x="25.0" y="79.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10.5" fill="#f6dcec" font-weight="normal" font-style="normal" text-anchor="start">Leave-one-mouse-out classifiers on Xenium 5k spatial transcriptomics</text>
-<text x="25.0" y="93.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.5" fill="#d7aec6" font-weight="normal" font-style="normal" text-anchor="start">Christoffer M. Langseth, [co-authors]  ·  Karolinska Institutet, [affiliations]</text>
+<text x="25.0" y="32.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="24" fill="#ffffff" font-weight="bold" font-style="normal" text-anchor="start">Mitochondrial DNA breaks trigger an all-or-none</text>
+<text x="25.0" y="58.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="24" fill="#ffffff" font-weight="bold" font-style="normal" text-anchor="start">stress response in oligodendrocytes</text>
+<text x="25.0" y="73.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10.5" fill="#f6dcec" font-weight="normal" font-style="normal" text-anchor="start">Leave-one-mouse-out classifiers on Xenium 5k spatial transcriptomics</text>
+<text x="25.0" y="87.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="8.5" fill="#ffffff" font-weight="normal" font-style="normal" text-anchor="start">Christoffer Mattsson Langseth¹, Antonella Mini², Leslie Kirby³, Anita Girardi⁴, Roberta Brambilla², Gonçalo Castelo-Branco¹</text>
+<text x="25.0" y="96.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="6.8" fill="#d7aec6" font-weight="normal" font-style="normal" text-anchor="start">¹ Karolinska Institutet  ·  ² [affiliation 2]  ·  ³ [affiliation 3]  ·  ⁴ [affiliation 4]</text>
 <image id="ki_logo" x="734.0" y="20.0" width="82.0" height="33.6" href="ki-logo-white.png" xlink:href="ki-logo-white.png" preserveAspectRatio="xMidYMid meet"/>
 </g>
 <g id="stats_row">

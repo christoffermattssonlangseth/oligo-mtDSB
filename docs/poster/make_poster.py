@@ -140,10 +140,14 @@ HH = 104
 add('<g id="header">')
 add(f'<rect x="0" y="0" width="{W}" height="{HH}" fill="url(#header-gradient)"/>')
 add(f'<rect x="0" y="{HH - 3.5}" width="{W}" height="3.5" fill="{CORAL}"/>')
-text(M, 36, "Mitochondrial DNA breaks trigger an all-or-none", size=24, color="#ffffff", weight="bold")
-text(M, 63, "stress response in oligodendrocytes", size=24, color="#ffffff", weight="bold")
-text(M, 79, "Leave-one-mouse-out classifiers on Xenium 5k spatial transcriptomics", size=10.5, color=PINK_LIGHT)
-text(M, 93, "Christoffer M. Langseth, [co-authors]  ·  Karolinska Institutet, [affiliations]", size=7.5, color=PINK_MID)
+text(M, 32, "Mitochondrial DNA breaks trigger an all-or-none", size=24, color="#ffffff", weight="bold")
+text(M, 58, "stress response in oligodendrocytes", size=24, color="#ffffff", weight="bold")
+text(M, 73, "Leave-one-mouse-out classifiers on Xenium 5k spatial transcriptomics", size=10.5, color=PINK_LIGHT)
+AUTHORS = ("Christoffer Mattsson Langseth\u00b9, Antonella Mini\u00b2, Leslie Kirby\u00b3, Anita Girardi\u2074, "
+           "Roberta Brambilla\u00b2, Gon\u00e7alo Castelo-Branco\u00b9")
+AFFILIATIONS = ("\u00b9 Karolinska Institutet  \u00b7  \u00b2 [affiliation 2]  \u00b7  \u00b3 [affiliation 3]  \u00b7  \u2074 [affiliation 4]")
+text(M, 87, AUTHORS, size=8.5, color="#ffffff")
+text(M, 96.5, AFFILIATIONS, size=6.8, color=PINK_MID)
 image(W - M - 82, 20, 82, 82 * 556 / 1356, "ki-logo-white.png", gid="ki_logo")
 add("</g>")
 
