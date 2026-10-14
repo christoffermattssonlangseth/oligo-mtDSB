@@ -73,6 +73,9 @@ expression), but they use different inputs (prior genes / labels of other sectio
 * Condition (mtDSB vs control) is not: 0 of 101 strata reach permutation p < 0.05 pooled, within cohort or
   across cohorts. This follows from claim 1: half of the "mtDSB" labels belong to animals whose tissue looks
   like control.
+* **Caveat: age cohort = Xenium slide.** All P60 sections are on slide 0060539 and all P21 sections on slide
+  0060541 (`results/cell_table/sections.csv`), so the age prediction cannot be separated from slide effects.
+  Condition and the responder split are *within* slides and unaffected.
 * Leave-one-out AUC far below 0.5 (e.g. 0.00 within cohort) is a known artefact when there is no signal
   in the training labels, not a reversed effect.
 
@@ -86,6 +89,11 @@ expression), but they use different inputs (prior genes / labels of other sectio
   hippocampus and olfactory areas are least affected (8.7, 8.9).
 * Spatial maps (F5): OLs scoring above the 90th percentile of control OLs make up 24-40% of OLs in
   responders vs 5-16% in controls and 4-6% in non-responders, concentrated in thalamus and fiber-tract arcs.
+* **ISR disease map** (F9, Tab `ol_isr_cell_score_by_section`; `scripts/export_ol_gene_scores.py`): the prespecified
+  ISR score per OL, smoothed over the 15 nearest OLs and expressed as a percentile of the controls on the same slide:
+  31-55% of responder OLs exceed the control 90th percentile vs 7-13% in controls and 8-14% in non-responders,
+  concentrated in thalamus and fiber tracts. All maps are oriented dorsal up, midline right
+  (`utils/spatial_orientation.py`, fitted from region centroids; `results/cell_table/section_orientation.csv`).
 * The score itself (F8, Tab `ol_score_percentile_by_section`): expressed as a percentile of control OLs, responder
   OLs pile up at the top (median 65-85) while non-responders sit low (23-35); controls vary (38-63). Continuous
   maps show the high-scoring OLs in thalamus and fiber tracts.
@@ -109,6 +117,11 @@ rest on 3 animals.
 * RB4403 has ~2x the cells of other sections (135 k); its proportions are normal, and it is a
   non-responder on all three readouts.
 * The panel has no probes for the transgenes (tTA, mtPstI), so induction cannot be measured in this data.
+* Slide layout: each Xenium slide holds one age cohort with 3 controls and 3 mtDSB; responders and non-responders
+  share a slide (P60: RB4401, RB4405 vs RB4403; P21: RB4627 vs RB4630, RB4653), so slide cannot explain the split.
+  On both slides the control sections are mounted mirror-image to the mtDSB sections (possibly opposite
+  hemispheres), a potential confound for weak all-mtDSB signals (astrocytes, endothelial cells), not for responders.
+* RB4403's doubled cell count is a segmentation effect (128 804 interior-stain cells vs 66-82 k in other sections).
 
 ### 7. What the responding oligodendrocytes do: 34 genes up, 9 down
 *`results/ol_gene_drivers/`: Fig G1-G4, Tab `driver_genes`, `cohort_weight_replication`,

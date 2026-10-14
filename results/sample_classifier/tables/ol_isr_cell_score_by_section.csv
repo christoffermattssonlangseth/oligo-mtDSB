@@ -1,0 +1,13 @@
+sample_id,age,condition,group,isr_mean,isr_pct_median,frac_above_90,myelin_mean,n_OLs
+RB4620,21,control,control,2.051,44.096,0.073,6.909,13999
+RB4658,21,control,control,2.08,46.017,0.092,6.84,12134
+RB4676,21,control,control,2.273,58.907,0.134,6.845,14204
+RB4627,21,mtDSB,responder,2.903,91.627,0.537,6.296,10902
+RB4630,21,mtDSB,non-responder,2.252,58.671,0.137,6.778,11547
+RB4653,21,mtDSB,non-responder,2.217,55.476,0.105,6.859,11774
+RB4282,60,control,control,2.435,49.89,0.097,6.789,14245
+RB4350,60,control,control,2.39,43.301,0.072,6.645,12487
+RB4498,60,control,control,2.529,56.444,0.13,6.698,13304
+RB4401,60,mtDSB,responder,2.734,74.108,0.305,6.487,12373
+RB4403,60,mtDSB,non-responder,2.453,49.805,0.082,6.604,23572
+RB4405,60,mtDSB,responder,3.08,92.618,0.549,5.816,10660

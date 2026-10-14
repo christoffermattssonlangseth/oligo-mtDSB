@@ -31,7 +31,8 @@ after induction. Cells carry a cell type (`cell_class`) and an anatomical compar
   Mal). The top genes replicate between models trained on disjoint mice (P21-only vs P60-only; 10 / 50
   shared, p = 2e-11). Microglia in the same three mice show a DAM-like response (Cd74, Cst7 10-30x).
 * **Where.** Throughout the brain in responders, strongest in the thalamus and fiber tracts.
-* **Not explained by** sex, genotype label, sample swap (sex labels match Xist) or white-matter content.
+* **Not explained by** sex, genotype label, sample swap (sex labels match Xist), white-matter content or slide
+  (responders and non-responders share each Xenium slide; note that each slide is one age cohort).
   Open: induction efficiency (no transgene probe on the panel).
 
 <p align="center">
@@ -69,7 +70,7 @@ half of the mtDSB mice, which also explains why it looked weak or age-dependent.
 | I want to ... | Go to |
 |---|---|
 | read the findings and their evidence | `results/sample_classifier/FINDINGS.md` |
-| see the figures (F1-F8 responders / regions / score maps / checks; G1-G4 genes) | `results/sample_classifier/figures/`, `results/ol_gene_drivers/figures/` |
+| see the figures (F1-F9 responders / regions / score and ISR maps / checks; G1-G4 genes) | `results/sample_classifier/figures/`, `results/ol_gene_drivers/figures/` |
 | check whether an earlier notebook's conclusion still holds | `docs/ANALYSIS_REVIEW.md` |
 | regenerate figures and tables (laptop, no h5ad needed) | `analysis/02-ol-response-and-classifiers.ipynb`, `analysis/03-ol-stress-genes.ipynb` |
 | region x time-point DE figures | `analysis/01-region-time-treatment-figures.ipynb` |
@@ -86,7 +87,7 @@ analysis/        current notebooks (figures + tables from the result folders; no
   01-region-time-treatment-figures.ipynb   region x time-point DE
   02-ol-response-and-classifiers.ipynb     responders, classifiers, regions, checks   -> F1-F7
   03-ol-stress-genes.ipynb                 driver genes of the OL response            -> G1-G4
-utils/           maintained modules: sample_classifier, ol_response, region_time_de, region_time_plots, spatial_utils
+utils/           maintained modules: sample_classifier, ol_response, spatial_orientation, region_time_de, region_time_plots, spatial_utils
 scripts/         batch runs (need the h5ad): run_sample_classifier, run_ol_gene_drivers, run_region_time_de,
                  export_cell_table; compartments/ = read-based compartment cluster job
 tests/           synthetic tests for the maintained modules
@@ -140,6 +141,7 @@ python scripts/run_sample_classifier.py --h5ad $H5AD --outdir results/sample_cla
 python scripts/run_ol_gene_drivers.py --h5ad $H5AD --outdir results/ol_gene_drivers \
     --cell-scores results/sample_classifier/cells_general/cell_scores/Oligodendrocytes.csv.gz               # 1-2 min
 python scripts/export_cell_table.py --h5ad $H5AD --outdir results/cell_table                               # 1 min
+python scripts/export_ol_gene_scores.py --h5ad $H5AD --out results/cell_table/ol_gene_scores.csv.gz      # 1 min (per-OL ISR score)
 # laptop (no h5ad):
 python scripts/run_sample_classifier.py --pseudobulk results/region_time \
     --outdir results/sample_classifier/pseudobulk_general --merge DA-Oligodendrocytes=Oligodendrocytes     # 3 min

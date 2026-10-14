@@ -114,7 +114,7 @@ def arrow(x1, y1, x2, y2, color=MUTED, w=1.6):
 import shutil
 REPO = HERE.parents[1]
 (HERE / "figures").mkdir(exist_ok=True)
-for src in ["results/sample_classifier/figures/F2_three_readouts", "results/sample_classifier/figures/F8_ol_score_maps",
+for src in ["results/sample_classifier/figures/F2_three_readouts", "results/sample_classifier/figures/F9_ol_isr_maps",
             "results/ol_gene_drivers/figures/G3_driver_genes_by_section"]:
     for ext in (".png", ".pdf"):
         shutil.copy2(REPO / (src + ext), HERE / "figures" / (Path(src).name + ext))
@@ -305,7 +305,7 @@ bullets(tx, cy + 34, [
     "Same 3 mice by three independent readouts.",
     "ISR genes (Atf5, Trib3, Ddit3, Sesn2): no overlap with controls; non-responders = controls.",
     "mtDSB group 10x more variable than controls (p = 1e-4) while means do not differ.",
-    "Not explained by sex, genotype, sample swap or white-matter content.",
+    "Not explained by sex, genotype, sample swap, white-matter content or Xenium slide.",
 ], twid, size=7.3, gap=1.4)
 add("</g>")
 para(cx, cy + ih + 6, "Each mouse scored by models that never saw it. Filled orange = responders, open = non-responders, blue = controls.",
@@ -328,19 +328,19 @@ end()
 
 rx = M + lw + GAP
 rw = W - M - rx
-cx, cy, cwid = panel("result3_panel", rx, yD, rw, hD, "7 · Where: brain-wide, strongest in thalamus and fiber tracts",
+cx, cy, cwid = panel("result3_panel", rx, yD, rw, hD, "7 · Where: the stress response in space (ISR score)",
                      title_size=11)
-ih3 = cwid / 2.065
-image(cx, cy - 6, cwid, ih3, FIG + "F8_ol_score_maps.png", gid="fig_F8")
+ih3 = cwid / (3139 / 1481)
+image(cx, cy - 6, cwid, ih3, FIG + "F9_ol_isr_maps.png", gid="fig_F9")
 ty3 = cy + ih3 + 2
 half3 = (cwid - 16) / 2
 bullets(cx, ty3, [
-    "Score = each OL's held-out p(mtDSB) as a percentile of control OLs: responder OLs pile up at the top (median 65-85 vs 23-35 in non-responders).",
-    "High-scoring OLs concentrate in the thalamus and the fiber-tract arcs.",
+    "Prespecified ISR score in every OL (spatially smoothed, percentile of same-slide controls): 31-55% of OLs above the control 90th percentile in responders vs 7-14% elsewhere.",
+    "Stressed OLs concentrate in the thalamus and the fiber-tract arcs (sections oriented dorsal up, midline right).",
 ], half3, size=7.3, gap=1.3)
 bullets(cx + half3 + 16, ty3, [
     "Thalamus and fiber tracts rank top on all three readouts; myelin genes drop most there.",
-    "Controls vary (median 38-63); microglia in the responders turn DAM-like (Cd74, Cst7 10-30x).",
+    "Microglia in the same three mice turn DAM-like (Cd74, Cst7 10-30x).",
 ], half3, size=7.3, gap=1.3)
 end()
 
