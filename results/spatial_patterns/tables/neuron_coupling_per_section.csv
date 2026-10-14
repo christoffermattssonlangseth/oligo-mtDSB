@@ -1,0 +1,97 @@
+cell_type,readout,sample_id,group,n_cells,r,slope
+Excitatory Neurons,AXON_INJURY,RB4282,control,7471,0.0152,0.0208
+Excitatory Neurons,ISR,RB4282,control,7471,0.0315,0.0571
+Excitatory Neurons,AXON_INJURY,RB4350,control,6585,0.0351,0.0448
+Excitatory Neurons,ISR,RB4350,control,6585,0.0203,0.0329
+Excitatory Neurons,AXON_INJURY,RB4401,responder,4459,-0.0078,-0.0097
+Excitatory Neurons,ISR,RB4401,responder,4459,0.0394,0.0637
+Excitatory Neurons,AXON_INJURY,RB4403,non-responder,11558,-0.0134,-0.0181
+Excitatory Neurons,ISR,RB4403,non-responder,11558,0.0153,0.028
+Excitatory Neurons,AXON_INJURY,RB4405,responder,4595,-0.0024,-0.0033
+Excitatory Neurons,ISR,RB4405,responder,4595,0.016,0.0274
+Excitatory Neurons,AXON_INJURY,RB4498,control,5915,0.0048,0.0063
+Excitatory Neurons,ISR,RB4498,control,5915,0.0229,0.0397
+Excitatory Neurons,AXON_INJURY,RB4620,control,6966,-0.0274,-0.0331
+Excitatory Neurons,ISR,RB4620,control,6966,0.0246,0.0419
+Excitatory Neurons,AXON_INJURY,RB4627,responder,4714,-0.0052,-0.0065
+Excitatory Neurons,ISR,RB4627,responder,4714,0.0234,0.0404
+Excitatory Neurons,AXON_INJURY,RB4630,non-responder,5933,0.0132,0.0166
+Excitatory Neurons,ISR,RB4630,non-responder,5933,0.0367,0.0625
+Excitatory Neurons,AXON_INJURY,RB4653,non-responder,2956,-0.0459,-0.0533
+Excitatory Neurons,ISR,RB4653,non-responder,2956,0.0339,0.0548
+Excitatory Neurons,AXON_INJURY,RB4658,control,2858,-0.006,-0.0086
+Excitatory Neurons,ISR,RB4658,control,2858,-0.0098,-0.0183
+Excitatory Neurons,AXON_INJURY,RB4676,control,5201,-0.0192,-0.0223
+Excitatory Neurons,ISR,RB4676,control,5201,-0.013,-0.0214
+GABAergic Neurons,AXON_INJURY,RB4282,control,2098,-0.0066,-0.0093
+GABAergic Neurons,ISR,RB4282,control,2098,-0.0201,-0.0368
+GABAergic Neurons,AXON_INJURY,RB4350,control,1849,0.032,0.043
+GABAergic Neurons,ISR,RB4350,control,1849,0.0317,0.0559
+GABAergic Neurons,AXON_INJURY,RB4401,responder,1377,-0.0094,-0.0124
+GABAergic Neurons,ISR,RB4401,responder,1377,0.0389,0.0683
+GABAergic Neurons,AXON_INJURY,RB4403,non-responder,3902,-0.0095,-0.0146
+GABAergic Neurons,ISR,RB4403,non-responder,3902,0.0023,0.0047
+GABAergic Neurons,AXON_INJURY,RB4405,responder,1748,0.0009,0.0013
+GABAergic Neurons,ISR,RB4405,responder,1748,0.0404,0.0727
+GABAergic Neurons,AXON_INJURY,RB4498,control,1646,0.0022,0.003
+GABAergic Neurons,ISR,RB4498,control,1646,0.0641,0.1158
+GABAergic Neurons,AXON_INJURY,RB4620,control,1857,-0.0018,-0.0023
+GABAergic Neurons,ISR,RB4620,control,1857,-0.0098,-0.0169
+GABAergic Neurons,AXON_INJURY,RB4627,responder,1537,-0.0227,-0.0266
+GABAergic Neurons,ISR,RB4627,responder,1537,0.0474,0.0779
+GABAergic Neurons,AXON_INJURY,RB4630,non-responder,1787,0.0206,0.0298
+GABAergic Neurons,ISR,RB4630,non-responder,1787,-0.0116,-0.0213
+GABAergic Neurons,AXON_INJURY,RB4653,non-responder,957,0.0206,0.0273
+GABAergic Neurons,ISR,RB4653,non-responder,957,-0.023,-0.0425
+GABAergic Neurons,AXON_INJURY,RB4658,control,1168,-0.0352,-0.0443
+GABAergic Neurons,ISR,RB4658,control,1168,0.0347,0.0644
+GABAergic Neurons,AXON_INJURY,RB4676,control,1423,-0.006,-0.0078
+GABAergic Neurons,ISR,RB4676,control,1423,0.0064,0.0115
+Medium Spiny Neurons,AXON_INJURY,RB4282,control,1797,-0.0068,-0.0131
+Medium Spiny Neurons,ISR,RB4282,control,1797,-0.0001,-0.0002
+Medium Spiny Neurons,AXON_INJURY,RB4350,control,1524,0.0417,0.0656
+Medium Spiny Neurons,ISR,RB4350,control,1524,0.0306,0.0552
+Medium Spiny Neurons,AXON_INJURY,RB4401,responder,1209,-0.025,-0.0412
+Medium Spiny Neurons,ISR,RB4401,responder,1209,0.0106,0.0189
+Medium Spiny Neurons,AXON_INJURY,RB4403,non-responder,4920,-0.0268,-0.0483
+Medium Spiny Neurons,ISR,RB4403,non-responder,4920,0.0167,0.0336
+Medium Spiny Neurons,AXON_INJURY,RB4405,responder,1634,-0.0157,-0.0264
+Medium Spiny Neurons,ISR,RB4405,responder,1634,0.0235,0.0426
+Medium Spiny Neurons,AXON_INJURY,RB4498,control,1982,-0.0027,-0.0046
+Medium Spiny Neurons,ISR,RB4498,control,1982,0.0101,0.0182
+Medium Spiny Neurons,AXON_INJURY,RB4620,control,3691,-0.054,-0.0822
+Medium Spiny Neurons,ISR,RB4620,control,3691,-0.0059,-0.0098
+Medium Spiny Neurons,AXON_INJURY,RB4627,responder,1545,-0.0374,-0.0493
+Medium Spiny Neurons,ISR,RB4627,responder,1545,0.0009,0.0014
+Medium Spiny Neurons,AXON_INJURY,RB4630,non-responder,2925,0.0445,0.0699
+Medium Spiny Neurons,ISR,RB4630,non-responder,2925,0.0269,0.0462
+Medium Spiny Neurons,AXON_INJURY,RB4653,non-responder,1011,0.0283,0.0501
+Medium Spiny Neurons,ISR,RB4653,non-responder,1011,0.0308,0.0611
+Medium Spiny Neurons,AXON_INJURY,RB4658,control,1820,0.0365,0.0695
+Medium Spiny Neurons,ISR,RB4658,control,1820,-0.007,-0.0144
+Medium Spiny Neurons,AXON_INJURY,RB4676,control,1914,-0.0309,-0.0444
+Medium Spiny Neurons,ISR,RB4676,control,1914,-0.0311,-0.0527
+Neurons,AXON_INJURY,RB4282,control,7848,-0.0142,-0.0187
+Neurons,ISR,RB4282,control,7848,0.0131,0.0242
+Neurons,AXON_INJURY,RB4350,control,6639,0.031,0.0404
+Neurons,ISR,RB4350,control,6639,0.0429,0.08
+Neurons,AXON_INJURY,RB4401,responder,6528,0.0559,0.0757
+Neurons,ISR,RB4401,responder,6528,0.024,0.0426
+Neurons,AXON_INJURY,RB4403,non-responder,17073,-0.0136,-0.0191
+Neurons,ISR,RB4403,non-responder,17073,0.0294,0.0596
+Neurons,AXON_INJURY,RB4405,responder,7685,-0.0096,-0.0117
+Neurons,ISR,RB4405,responder,7685,0.0343,0.0628
+Neurons,AXON_INJURY,RB4498,control,6993,-0.0142,-0.0166
+Neurons,ISR,RB4498,control,6993,0.0202,0.0361
+Neurons,AXON_INJURY,RB4620,control,8018,-0.0589,-0.0626
+Neurons,ISR,RB4620,control,8018,0.0569,0.0987
+Neurons,AXON_INJURY,RB4627,responder,6653,0.0767,0.0735
+Neurons,ISR,RB4627,responder,6653,0.0459,0.0727
+Neurons,AXON_INJURY,RB4630,non-responder,6096,0.044,0.0484
+Neurons,ISR,RB4630,non-responder,6096,0.0314,0.0565
+Neurons,AXON_INJURY,RB4653,non-responder,7113,-0.0742,-0.0746
+Neurons,ISR,RB4653,non-responder,7113,0.0391,0.0648
+Neurons,AXON_INJURY,RB4658,control,5519,-0.0072,-0.0081
+Neurons,ISR,RB4658,control,5519,0.0485,0.0836
+Neurons,AXON_INJURY,RB4676,control,8775,-0.0228,-0.0254
+Neurons,ISR,RB4676,control,8775,0.0326,0.0568

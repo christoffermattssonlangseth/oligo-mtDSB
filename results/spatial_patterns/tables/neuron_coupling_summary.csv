@@ -1,0 +1,9 @@
+cell_type,readout,r_control,r_responder,perm_p
+Excitatory Neurons,AXON_INJURY,0.0004,-0.0051,0.631
+Excitatory Neurons,ISR,0.0127,0.0263,0.1786
+GABAergic Neurons,AXON_INJURY,-0.0026,-0.0104,0.7024
+GABAergic Neurons,ISR,0.0178,0.0422,0.131
+Medium Spiny Neurons,AXON_INJURY,-0.0027,-0.026,0.8333
+Medium Spiny Neurons,ISR,-0.0006,0.0117,0.1667
+Neurons,AXON_INJURY,-0.0144,0.041,0.0357
+Neurons,ISR,0.0357,0.0347,0.5357

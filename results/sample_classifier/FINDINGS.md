@@ -30,6 +30,8 @@ fiber tracts and the thalamus.**
 | 6. Microglial expression predicts closeness to stressed OLs | 9 |
 | 7. Stress comes before myelin loss | 10 |
 | 8. Confirms and explains the earlier analyses | 8, `docs/ANALYSIS_REVIEW.md` |
+| 9. Regional and diffuse, not focal or border-driven | 11 |
+| 10. No repair response, no neuronal injury yet | 12 |
 | Next cohort design | "Designing the next cohort" |
 
 ## Claims and evidence
@@ -208,6 +210,33 @@ model (residual fine anatomy read through neuronal transcripts), which is why th
   severe, myelin loss extends beyond the stressed cells (58% vs 86%). Myelin genes fall steadily with ISR level.
 * Cross-sectional: consistent with stress preceding myelin loss, not a time course. Non-responder RB4403 shows
   somewhat more myelin-low OLs than controls, likely its over-segmentation.
+
+### 11. The stress is regional and diffuse, not focal or border-driven
+*`results/spatial_patterns/`: Fig S1, S2, Tab `border_coupling_summary`, `isr_correlogram_summary`; `analysis/06`*
+
+* **Borders** (`utils/spatial_patterns.py`): within regions, responder OL stress does not rise towards the ventricles
+  or the meningeal surface; if anything it is higher farther away (region-centred r +0.11 vs +0.04 for ventricle
+  distance, p = 0.10; meninges p = 0.25). Responder OLs are at the 75th-80th control percentile at every distance from
+  the ventricle. OLs near vessels are slightly more stressed in all groups (baseline, p = 0.08). No support for an
+  outside-in (CSF / meningeal) origin at 42 days.
+* **Focal vs diffuse:** a spatial correlogram of the raw per-cell ISR score (no smoothing), region-centred, shows the
+  same neighbour coherence in responders and controls at every distance from 0 to 400 um (p = 0.08-0.89). The response
+  is a regional shift (thalamus, white matter) spread diffusely within regions, not focal lesions.
+
+### 12. No repair response and no neuronal injury yet
+*`results/spatial_patterns/`: Fig S3, S4, Tab `repair_coupling_summary`, `repair_density`, `neuron_coupling_summary`*
+
+* **Repair:** immature OLs (OPC-like I, pre-myelinating II) are not more abundant near stressed OLs (p = 0.98) or in
+  responder sections (2.7% vs 2.9% of cells). Pre-myelinating immature OL II near stressed OLs show a weak, non-
+  significant tendency towards proliferation and newly-formed-OL genes (p = 0.07; ~170 cells per section).
+* **Neurons:** no consistent axonal-injury (regeneration-associated genes) or ISR response in neurons near stressed OLs
+  (excitatory, GABAergic, medium spiny: p = 0.63-0.83 for axon injury; one generic "Neurons" class p = 0.036, not robust
+  across 8 tests).
+* Interpretation: at 42 days the response is confined to OLs and their glial neighbours, with no detectable repair
+  attempt or neuronal damage, consistent with an early stage before the demyelination seen at 4-6 months.
+
+**Strength: moderate (negative results).** Absence of evidence with 3 responders; the readouts are noisy single-cell
+gene-set scores.
 
 ---
 

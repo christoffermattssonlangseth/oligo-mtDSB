@@ -1,0 +1,7 @@
+cell_type,readout,r_control,r_responder,perm_p,median_cells_per_section
+Immature Oligodendrocytes I,NEWLY_FORMED_OL,0.0086,0.0196,0.2976,886
+Immature Oligodendrocytes I,OPC,-0.0015,0.0031,0.381,886
+Immature Oligodendrocytes I,PROLIF,-0.0064,-0.0432,0.9643,886
+Immature Oligodendrocytes II,NEWLY_FORMED_OL,-0.0132,0.1239,0.0714,169
+Immature Oligodendrocytes II,OPC,-0.0197,0.0738,0.1429,169
+Immature Oligodendrocytes II,PROLIF,0.0128,0.1036,0.0714,169

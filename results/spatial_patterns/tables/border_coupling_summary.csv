@@ -1,0 +1,4 @@
+distance,r_control,r_responder,perm_p_two_sided
+d_meninges,0.0205,0.0872,0.25
+d_ventricle,0.0419,0.1091,0.0952
+d_vessel,-0.0447,-0.0756,0.0833

@@ -24,6 +24,8 @@ after induction. Cells carry a cell type (`cell_class`) and an anatomical compar
 | 6 | **A microglia's own expression predicts how close it is to a stressed oligodendrocyte** (Cd68, Cd83, Trem2) | r 0.17 in responders vs 0.10 in controls, p = 0.012 | moderate | N3 |
 | 7 | **The stress response comes before myelin loss** | share of stressed OLs that lost myelin: 0.40 -> 0.73 -> 0.90 with severity (controls 0.09-0.25) | moderate | N2 |
 | 8 | **This confirms and explains the earlier analyses** | all 22 driver genes tested by the earlier Bayesian model agree in direction | strong | - |
+| 9 | **The stress is regional and diffuse, not focal and not concentrated at the brain's borders** | no rise towards ventricles / meninges (p = 0.10, 0.25); neighbour coherence = controls | moderate (negative) | S1, S2 |
+| 10 | **No repair response and no neuronal injury yet at 42 days** | immature-OL density p = 0.98; neuronal axon-injury genes p = 0.63-0.83 | moderate (negative) | S3, S4 |
 
 Every mouse is predicted or scored by models that never saw it; "p" values compare the 3 responders with the 6
 controls by exact permutation (smallest possible p = 0.012). Full claims, numbers and caveats:
@@ -123,6 +125,29 @@ age-dependent:
   (stress hormones, vary between sections), Kif5a (one odd section) and Il33 (one control) were confounds.
   Claim-by-claim review of every earlier notebook: **[`docs/ANALYSIS_REVIEW.md`](docs/ANALYSIS_REVIEW.md)**.
 
+### 9. The stress is regional and diffuse, not focal and not concentrated at the brain's borders
+The IHC found immune cells at the ventral meninges, around the ventricle and in the internal capsule / thalamus, so
+we asked whether oligodendrocyte stress starts at these borders. It does not: within each brain region, responder
+oligodendrocytes are not more stressed near the ventricles or the meningeal surface (if anything slightly more
+stressed farther away; p = 0.10 and 0.25), and they sit at the 75th-80th control percentile at every distance from the
+ventricle. Nor is the stress focal: neighbouring oligodendrocytes share stress no more than in controls at any
+distance up to 400 um. The response is a regional shift (thalamus, white matter) spread evenly within regions, not
+lesions or an outside-in front from the CSF or meninges.
+
+<p align="center"><img src="results/spatial_patterns/figures/S1_border_distances.png" width="900"/><br>
+<em>S1. Oligodendrocyte stress vs distance to ventricle, meninges and vessels. D: responders are elevated at every distance.</em></p>
+
+### 10. No repair response and no neuronal injury yet at 42 days
+* **Repair:** immature oligodendrocytes (precursor-like and pre-myelinating) are not more numerous near stressed
+  oligodendrocytes (p = 0.98) or in responder brains (2.7% vs 2.9% of cells); a weak tendency towards proliferation in
+  pre-myelinating cells near stressed oligodendrocytes is not significant (p = 0.07).
+* **Neurons:** neurons near stressed oligodendrocytes show no consistent axonal-injury (regeneration-associated genes)
+  or stress response.
+
+So at 42 days the response is confined to oligodendrocytes and their glial neighbours (findings 5-6), with no
+detectable repair attempt or neuronal damage: an early stage before the demyelination seen at 4-6 months. These are
+negative results with 3 responders; they set the baseline for the chronic time points.
+
 ---
 
 ## What we cannot claim (yet)
@@ -134,6 +159,8 @@ age-dependent:
   non-responders share each slide.
 * **A time course.** Every section is 42 days after induction; finding 7 is inferred from a snapshot.
 * **Causality between cell types.** Findings 5-6 show co-location and coupling, not who signals to whom.
+* **That there is no repair or neuronal effect at all.** Findings 9-10 are negative results with 3 responders and
+  noisy single-cell scores; small effects could be missed.
 * Notes: controls and mtDSB sections were mounted mirror-image on both slides (corrected for display); RB4403's
   doubled cell count is over-segmentation; control RB4620 is mtPst1-only (others PlpTA-only).
 
@@ -185,8 +212,9 @@ analysis/        current notebooks (figures + tables from the result folders; no
   02-ol-response-and-classifiers.ipynb     responders, classifiers, regions, checks   -> F1-F7
   03-ol-stress-genes.ipynb                 driver genes of the OL response            -> G1-G4
   04-neighbourhood-and-staging.ipynb       neighbour coupling, proximity model, staging -> N1-N3
+  06-borders-patches-repair-neurons.ipynb  borders, focal vs diffuse, repair, neurons   -> S1-S4
   05-design-power.ipynb                    how many mice for the next cohort, which test  -> D1
-utils/           maintained modules: sample_classifier, ol_response, spatial_orientation, gene_sets, neighbourhood, ol_staging, region_time_de, region_time_plots, spatial_utils
+utils/           maintained modules: sample_classifier, ol_response, spatial_orientation, gene_sets, neighbourhood, ol_staging, spatial_patterns, region_time_de, region_time_plots, spatial_utils
 scripts/         batch runs (need the h5ad): run_sample_classifier, run_ol_gene_drivers, run_region_time_de,
                  export_cell_table; compartments/ = read-based compartment cluster job
 tests/           synthetic tests for the maintained modules
@@ -195,6 +223,7 @@ results/
   ol_gene_drivers/     gene weights, within-section associations, driver genes, figures G1-G4
   neighbourhood_staging/  coupling, ISR x myelin states, proximity-model tests, figures N1-N3
   proximity_model/     distance targets, ridge metrics and weights
+  spatial_patterns/    border distances, correlogram, repair and neuron coupling, figures S1-S4
   region_time/         region x time DE tables (+ _cell_class_updated, _MANA250 example)
   cell_table/          sections.csv (age, condition, sex, genotype); cells.csv.gz gitignored
   paper/               manuscript sections + build_manuscript.py
