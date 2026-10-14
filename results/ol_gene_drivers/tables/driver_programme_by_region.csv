@@ -1,0 +1,14 @@
+,myelin_down,myelin_down,myelin_down,up_programme,up_programme,up_programme
+group,control,non-responder,responder,control,non-responder,responder
+region,,,,,,
+Thalamus,-0.01,-0.09,-0.767,-0.068,-0.191,1.639
+Fiber tracts,-0.013,-0.089,-0.774,-0.077,-0.054,1.596
+Hypothalamus,-0.012,-0.217,-0.617,-0.051,-0.115,1.45
+Cortex,-0.007,-0.059,-0.658,-0.049,-0.075,1.372
+Striatum,-0.009,-0.068,-0.637,-0.066,-0.075,1.325
+Ventricular system,-0.01,-0.099,-0.667,-0.139,0.129,1.302
+Hippocampus,-0.019,-0.209,-0.527,-0.168,-0.22,1.085
+Meningeal border/glia limitans,-0.015,-0.051,-0.506,-0.204,-0.217,1.074
+Pallidum,-0.012,-0.187,-0.342,-0.055,-0.002,1.011
+Vasculature,-0.009,0.098,-0.279,-0.577,-0.37,0.88
+Olfactory areas,-0.005,-0.115,-0.325,-0.087,-0.014,0.825

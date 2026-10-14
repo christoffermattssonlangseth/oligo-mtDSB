@@ -107,6 +107,37 @@ rest on 3 animals.
   non-responder on all three readouts.
 * The panel has no probes for the transgenes (tTA, mtPstI), so induction cannot be measured in this data.
 
+### 7. What the responding oligodendrocytes do: 34 genes up, 9 down
+*`results/ol_gene_drivers/`: Fig G1-G4, Tab `driver_genes`, `cohort_weight_replication`,
+`driver_genes_log2fc_by_section`, `driver_programme_by_region`; notebook `notebooks-05/03-ol-stress-genes.ipynb`*
+
+* **Driver rule (fixed before inspecting genes):** within each responder section, across individual OLs,
+  the gene correlates with the cell's out-of-fold mtDSB score (r > 0.1 in each of the three responders) and
+  not in controls or non-responders (mean r < 0.1); mirror rule for down genes. Being within a section, this
+  is immune to batch, section plane and time of sacrifice.
+* **Up (34):** the ATF4 / integrated stress response (Atf4, Atf5, Ddit3, Trib3, Cebpg, Sesn2, Yars, Vegfa);
+  mitochondrial and protein quality control (Hspa9 = mortalin, Sqstm1 = p62, Lamp2, Nfe2l1, Gstp1, Mt2);
+  cell cycle / survival (Cdkn1a = p21, Ccnd1, Myc, Bcl2l1); immune / reactive (MHC-I H2-D1 and B2m, Cd40,
+  Serpina3n, Adamts1); lineage / immature (Olig2, Adgrg1); cytoskeleton (Flna, Msn, Coro1c, Mpzl1, Ptpra);
+  lipid (Abca1). Six of the ten prespecified ISR genes are recovered without being given to the analysis.
+* **Down (9):** mature-OL / myelin genes (Cldn11, Mog, Mal, Cnp, Ugt8a, Tppp, Stmn4, Aplp1, Mapk8ip1). With
+  Olig2 / Adgrg1 up, stressed OLs appear to lose part of their mature, myelinating identity.
+* **Per animal:** in OL pseudobulk, Cd40 goes from 1-4 CPM (controls, non-responders) to 49-165 (responders);
+  Cdkn1a 6-31 -> 147-235; Serpina3n 34-59 -> 242-620; Mog 3741-6376 -> 1570-3778. Non-responders are flat.
+* **Replication:** the classifier trained only on the 6 P21 mice and the one trained only on the 6 P60 mice
+  (no animals in common) share 10 of their top-50 up genes (0.5 expected; hypergeometric p = 2e-11),
+  including Atf5, Trib3, Mt2, Bcl2l1, and 4 of their top-50 down genes (Cldn11, Opalin, Il33, Vstm2a; p = 0.001).
+* **Region:** the up-programme is highest in the thalamus in all three responders (mean log2 FC 1.4-1.8),
+  then fiber tracts and hypothalamus; the myelin genes drop most in fiber tracts and thalamus.
+* **Checked and excluded:** glucocorticoid-response genes (Sgk1, Fkbp5, Zbtb16, Plin4) carry large
+  classifier weights but no within-section signal and no responder pattern (Sgk1 is highest in a control),
+  so they reflect a section-level state such as stress / time at sacrifice, not mtDSB. Xist has a negative
+  weight (sex imbalance in training folds). No driver is neuron-enriched (max neuron / OL ratio 1.8x), so
+  segmentation spill-over does not explain them.
+
+**Strength: strong for the programme** (within-section design, replication across disjoint animals,
+recovery of the prior ISR genes). Individual gene ranks rest on 3 animals; the programme annotation is manual.
+
 ---
 
 ## Hypotheses only (not claims)
@@ -131,8 +162,8 @@ rest on 3 animals.
    Bench test on remaining tissue (the unused 60-day fresh-frozen cohort includes RB4403, RB4401, RB4405):
    mtPstI transcript (qPCR) and mtDNA damage (copy number / deletion assay).
 2. **Xenium slide layout** of the 12 sections, to rule batch in or out for the weak non-OL signals.
-3. Responder-aware DE (responders vs controls; non-responders vs controls) to define the OL response
-   programme beyond the 10 ISR genes, with the explicit caveat that the grouping comes from the data.
+3. Follow up the immune-presentation genes on stressed OLs (MHC-I, Cd40) with IHC, and test whether the
+   myelin-gene loss (claim 7) precedes the demyelination seen at 4-6 months.
 4. Link to histology: are RB4627 / RB4401 / RB4405 the animals with immune infiltrates (IHC, flow), and does
    the thalamus / fiber-tract pattern precede the 4-6 month demyelination in corpus callosum and cerebellum?
 
@@ -146,6 +177,9 @@ python scripts/run_sample_classifier.py --pseudobulk results/region_time \
 python scripts/run_sample_classifier.py --h5ad <novae4.h5ad> \
     --outdir results/sample_classifier/cells_general --merge DA-Oligodendrocytes=Oligodendrocytes
 python scripts/export_cell_table.py --h5ad <novae4.h5ad> --outdir results/cell_table
+python scripts/run_ol_gene_drivers.py --h5ad <novae4.h5ad> \
+    --cell-scores results/sample_classifier/cells_general/cell_scores/Oligodendrocytes.csv.gz --outdir results/ol_gene_drivers
 # figures + tables:
 jupyter nbconvert --to notebook --execute --inplace notebooks-05/02-ol-response-and-classifiers.ipynb
+jupyter nbconvert --to notebook --execute --inplace notebooks-05/03-ol-stress-genes.ipynb
 ```

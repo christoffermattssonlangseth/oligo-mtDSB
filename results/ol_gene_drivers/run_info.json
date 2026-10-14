@@ -1,0 +1,14 @@
+{
+  "h5ad": "/Volumes/processing2/oligo-mtDSB/data/mtDNA_DSB_5k_clustered_annotation_with_rbd_2_cytetype_brain_novae4.h5ad",
+  "cell_scores": "results/sample_classifier/cells_general/cell_scores/Oligodendrocytes.csv.gz",
+  "tasks": [
+    "condition",
+    "condition 21->60",
+    "condition 60->21"
+  ],
+  "C": 0.1,
+  "cells_per_sample": 2000,
+  "norm_target": 815.0,
+  "n_scored_cells": 159301,
+  "seconds": 81.3
+}

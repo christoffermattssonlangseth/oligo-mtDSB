@@ -17,15 +17,18 @@ biological replicate in every test.
 animals (RB4405, RB4401, RB4627) and no detectable response in the other 3 (RB4403, RB4630, RB4653).** Three
 readouts agree (a predefined ISR gene set, a leave-one-section-out single-cell classifier that never sees
 the disease cluster, and the DA-oligodendrocyte cluster share). In responders every region is affected,
-most strongly fiber tracts and thalamus. Non-response is not explained by sex, genotype label, sample
+most strongly fiber tracts and thalamus. Responding OLs switch on an ATF4 stress / mitochondrial
+quality-control / p21 / MHC-I-Cd40 programme and switch down myelin genes (34 up, 9 down; replicated
+between models trained on disjoint animals). Non-response is not explained by sex, genotype label, sample
 swap or section plane; induction efficiency is the open question.
 
 | | |
 |---|---|
 | claims, numbers, strength of evidence, open questions | [`results/sample_classifier/FINDINGS.md`](results/sample_classifier/FINDINGS.md) |
 | figures F1-F7 and the tables behind every number | `results/sample_classifier/figures/`, `results/sample_classifier/tables/` |
-| notebook that makes them (laptop, no h5ad needed) | `notebooks-05/02-ol-response-and-classifiers.ipynb` |
-| code | `utils/ol_response.py`, `utils/sample_classifier.py`, `scripts/run_sample_classifier.py`, `scripts/export_cell_table.py` |
+| notebooks that make them (laptop, no h5ad needed) | `notebooks-05/02-ol-response-and-classifiers.ipynb`, `notebooks-05/03-ol-stress-genes.ipynb` (genes) |
+| driver genes of the OL response (figures G1-G4, tables) | `results/ol_gene_drivers/` |
+| code | `utils/ol_response.py`, `utils/sample_classifier.py`, `scripts/run_sample_classifier.py`, `scripts/run_ol_gene_drivers.py`, `scripts/export_cell_table.py` |
 
 ## Background references
 - https://pmc.ncbi.nlm.nih.gov/articles/PMC5647772/
@@ -164,7 +167,7 @@ notebooks-01/   first pass (old 5-glia annotation, `compartment` regions)      L
 notebooks-02/   current annotation (cell_class x RBD_compartment_simplified)   CURRENT for annotation, compartments, Bayesian track
 notebooks-03/   nuclei-segmented data exploration, scCellFie                   side project
 notebooks-04/   inspection / OL sub-clustering on the novae3 h5ad              CURRENT (in progress)
-notebooks-05/   region x time DE figures (01), OL response + classifiers (02)  CURRENT
+notebooks-05/   region x time DE (01), OL response + classifiers (02), genes (03) CURRENT
 scripts/        run_region_time_de.py, run_sample_classifier.py, export_cell_table.py
 tests/          synthetic tests of region_time_de, sample_classifier, ol_response
 utils/          region_time_de.py, region_time_plots.py, sample_classifier.py, ol_response.py,
@@ -187,6 +190,7 @@ logs/           cluster logs of run_compartment_read_based
 | `results/region_time/` | `scripts/run_region_time_de.py` (run 2026-09-30 on the office Mac, `novae4`, 27 min) + `notebooks-05/01` | `cell_class` x RBD | condition x region x age DE, 14 cell classes, 5 101 genes, 197/336 strata testable | **current** |
 | `results/region_time_cell_class_updated/` | `utils.region_time_de.merge_cell_types` on the pseudobulk above | Immature OL I-IV merged | same tests for the merged "Immature Oligodendrocytes" class only | current |
 | `results/sample_classifier/` | `scripts/run_sample_classifier.py` (2026-10-14; `pseudobulk_general/` from `results/region_time/`, `cells_general/` on `novae4`, office Mac, 26 min) + `notebooks-05/02` | `cell_class` with DA-OL folded into OL, x RBD | FINDINGS.md, figures F1-F7, tables; classifier metrics / held-out predictions; per-cell scores (`cell_scores/`, gitignored) | **current, headline** |
+| `results/ol_gene_drivers/` | `scripts/run_ol_gene_drivers.py` (office Mac, 81 s) + `notebooks-05/03` | `cell_class`, DA-OL folded into OL | fold-model gene weights, within-section gene / score correlations, driver genes, figures G1-G4 | **current** |
 | `results/cell_table/` | `scripts/export_cell_table.py` | - | per-cell metadata + centroids (`cells.csv.gz`, 18 MB), `sections.csv` (age, condition, sex, genotype) | current |
 | `results/region_time_MANA250/` | same, on the 250-gene MANA file | cell_class x RBD | worked example on real data; 181/264 strata testable | example only |
 | `results/age/` | `notebooks-01/25` | old 5 glia | mtDSB vs control per age (whole tissue) + `deltaLFC_60_vs_21.csv` (0 genes with q < 0.05 in any type) | legacy |
