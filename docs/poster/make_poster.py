@@ -336,7 +336,7 @@ ty3 = cy + ih3 + 2
 half3 = (cwid - 16) / 2
 bullets(cx, ty3, [
     "Prespecified ISR score in every OL (spatially smoothed, percentile of same-slide controls): 31-55% of OLs above the control 90th percentile in responders vs 7-14% elsewhere.",
-    "Stressed OLs concentrate in the thalamus and the fiber-tract arcs (sections oriented dorsal up, midline right).",
+    "Blue = below, red = above the control median. In controls, white-matter OLs have the lowest ISR; in responders the thalamus and fiber-tract arcs turn red.",
 ], half3, size=7.3, gap=1.3)
 bullets(cx + half3 + 16, ty3, [
     "Thalamus and fiber tracts rank top on all three readouts; myelin genes drop most there.",

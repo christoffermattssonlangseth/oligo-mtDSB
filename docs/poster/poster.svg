@@ -351,8 +351,9 @@
 </text>
 <text x="307.0" y="1050.1" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.3" fill="#870052" font-weight="bold" font-style="normal" text-anchor="start">✓</text>
 <text x="313.6" y="1050.1" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.3" fill="#1a1a1a" font-weight="normal">
-<tspan x="313.6" dy="0.00">Stressed OLs concentrate in the thalamus and the fiber-tract</tspan>
-<tspan x="313.6" dy="9.49">arcs (sections oriented dorsal up, midline right).</tspan>
+<tspan x="313.6" dy="0.00">Blue = below, red = above the control median. In controls,</tspan>
+<tspan x="313.6" dy="9.49">white-matter OLs have the lowest ISR; in responders the thalamus</tspan>
+<tspan x="313.6" dy="9.49">and fiber-tract arcs turn red.</tspan>
 </text>
 <text x="565.5" y="1020.4" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.3" fill="#870052" font-weight="bold" font-style="normal" text-anchor="start">✓</text>
 <text x="572.1" y="1020.4" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.3" fill="#1a1a1a" font-weight="normal">
