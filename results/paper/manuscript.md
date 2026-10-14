@@ -6,6 +6,8 @@
 <!-- 0-abstract.md -->
 
 # Mitochondrial Genome Damage Rewires the Spatial Stress Architecture of Myelinating Glia
+
+> **Review note (2026-10-14):** The P21-vs-P60 progression in this abstract is most likely responder composition (1 of 3 vs 2 of 3 mtDSB mice respond); the ISR genes are real but responder-only. See `docs/ANALYSIS_REVIEW.md` and `results/sample_classifier/FINDINGS.md`.
 ## Abstract
 Mitochondrial dysfunction is increasingly recognized as a key driver of white matter pathology, yet how mitochondrial DNA (mtDNA) damage impacts oligodendrocyte function in vivo remains unclear. Here, we combine a mouse model of inducible mtDNA double-strand breaks (mtDSBs) in oligodendrocytes with spatial transcriptomics to map mitochondrial stress responses across brain compartments and cell types. Induction of mtDSBs triggered a robust integrated stress response (ISR) characterized by upregulation of *Atf4*, *Atf5*, *Trib3*, and *Cdkn1a*, alongside signatures of proteostatic and metabolic remodeling. Spatial mapping revealed distinct patterns of ISR and unfolded protein response (UPR) gene activation within oligodendrocyte-rich domains, with stronger effects in mature white matter regions. Mechanistically, the data suggest coordinated ISR–mTOR feedback that imposes a translational brake—limiting myelin and lipid synthesis while maintaining stress resilience. Together, these results link mitochondrial genome instability to oligodendrocyte stress signaling and provide a spatially resolved framework for understanding how mitochondrial perturbations contribute to dysmyelination.
 
@@ -25,6 +27,8 @@ Our analyses reveal that oligodendrocyte-intrinsic mtDNA damage elicits a robust
 <!-- 2-clustering-cell-type-annotation.md -->
 
 ## 2. Unsupervised clustering and model-guided annotation reveal transcriptionally distinct oligodendrocyte states
+
+> **Review note (2026-10-14):** The DA-OL cluster appears in 3 of the 6 mtDSB animals (RB4405, RB4401, RB4627), not in all mtDSB tissue; its gene programme is confirmed by the label-free analysis. See `docs/ANALYSIS_REVIEW.md` and `results/sample_classifier/FINDINGS.md`.
 
 To resolve the cellular composition of the Xenium **mtDNA double-strand break (mtDSB)** model, we performed unsupervised clustering of all captured cells following dimensionality reduction and neighborhood graph construction. **Leiden clustering** identified discrete transcriptional populations that were visualized using **UMAP** embeddings, revealing clear segregation of glial, neuronal, and stromal lineages (Fig. 2A).  
 
@@ -58,6 +62,8 @@ Overall, this transcriptional continuum delineates a **bifurcation between produ
 <!-- 3-agexcondition-glia.md -->
 
 ## 3. Differential gene expression reveals cell type–specific stress remodeling and immune–metabolic adaptation
+
+> **Review note (2026-10-14):** OL and microglia genes here are real but responder-only; the P21-vs-P60 progression reflects responder composition, and the olfactory-astrocyte panel (old annotation) does not replicate. See `docs/ANALYSIS_REVIEW.md` and `results/sample_classifier/FINDINGS.md`.
 
 To assess how mitochondrial DNA double-strand breaks (mtDSBs) in oligodendrocytes reshape surrounding glial networks during development and maturation, we compared differential gene expression profiles between **postnatal day 21 (P21)** and **day 60 (P60)** mice across major glial populations, including mature oligodendrocytes, oligodendrocyte precursor cells (OPCs), astrocytes (olfactory and telencephalic), and microglia.  
 
@@ -96,6 +102,8 @@ Collectively, these results delineate a **hierarchical and age-dependent glial s
 <!-- 4-integrated-stress-reponse-pathway.md -->
 
 ## 4. Zeroing in on ISR and UPR activation in oligodendrocytes following mtDNA double-strand breaks
+
+> **Review note (2026-10-14):** "Modest at P21 / broad at P60" is most likely responder composition: the P21 responder RB4627 has the highest Trib3 and Gdf15 of any animal. Hspa5 and Sod2 are not responder-specific (Sod2 is an age effect). See `docs/ANALYSIS_REVIEW.md` and `results/sample_classifier/FINDINGS.md`.
 
 Induction of mitochondrial DNA double-strand breaks (mtDSBs) in oligodendrocytes triggered a pronounced activation of the **integrated stress response (ISR)** and **unfolded protein response (UPR)**, with clear **age-dependent intensity and cell-type specificity**.
 
@@ -147,6 +155,8 @@ By applying the same read-based analysis to tissues in which mtDNA double-strand
 <!-- 6-regional-activation-fingerprint.md -->
 
 
+
+> **Review note (2026-10-14):** Regions are consistent with the new analysis (thalamus and fiber tracts top, hypothalamus mid); re-derive the numbers from `results/sample_classifier/` and `results/ol_gene_drivers/`. See `docs/ANALYSIS_REVIEW.md` and `results/sample_classifier/FINDINGS.md`.
 ## 6. Regional activation fingerprints reveal cell type– and age–specific stress responses
 To assess how mitochondrial DNA double-strand breaks (mtDSBs) remodel gene-expression programs across the CNS, we derived **regional activation fingerprints** for each major glial population.  
 Differential expression was aggregated per *cell type × anatomical compartment × age*, restricted to upregulated and sufficiently expressed genes (*log₂FC > 0.5*, *baseMean > 50*, *FDR < 0.05*).  
@@ -184,6 +194,8 @@ White-matter and metabolically active regions, particularly the **thalamus, hypo
 <!-- 7-neural-stem-cells-mount-proliferative-reponse.md -->
 
 ### 7. Neural stem cells mount a proliferative and neurogenic response to oligodendrocyte-restricted mitochondrial stress
+
+> **Review note (2026-10-14):** The NSC proliferation genes do not follow the OL responders (high in two P21 controls and in non-responders); most likely section plane. Do not use as an mtDSB effect without a section-plane control. See `docs/ANALYSIS_REVIEW.md` and `results/sample_classifier/FINDINGS.md`.
 Although mitochondrial double-strand breaks (mtDSBs) were induced specifically in oligodendrocytes, we observed a striking **non–cell-autonomous response** in ventricular-zone neural stem cells (NSCs). At postnatal day 21 (P21), NSCs in the ventricular system showed only a modest and spatially confined activation signature, with upregulation of stress/adaptive and barrier-associated genes (e.g. *Cldn10*, *Gpc4*, *Tsc22d3*). This suggests that at early time points, the niche registers the disturbance but does not yet undergo a major state transition.
 
 By postnatal day 60 (P60), however, ventricular NSCs displayed one of the **strongest regional activation indices** of any population in the dataset. The response at this stage was dominated by coordinated induction of canonical cell-cycle drivers and neurogenic competence factors — including *Ccna2*, *Mki67*, *Myt1*, *Dlx2*, *Dlx5*, *Arx*, *Stmn4*, *Sox1*, *Sox2*, *Sox3*, *Sox4*, *Dcx*, and *Tubb2b* — together with chromatin and transcriptional regulators associated with lineage priming and neuroblast output (*Gad1*, *Gad2*, *Foxg1*, *Lmx1b*, *Lef1*, *Cux2*, *Hist2h2bb*). Many of these genes exhibited large positive log₂ fold-changes (often >2) with extremely strong statistical support (adjusted p-values <1×10⁻¹⁰), consistent with a **global, niche-wide transcriptional shift** rather than sporadic activation in isolated cells.

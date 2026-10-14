@@ -1,4 +1,6 @@
 
+
+> **Review note (2026-10-14):** Regions are consistent with the new analysis (thalamus and fiber tracts top, hypothalamus mid); re-derive the numbers from `results/sample_classifier/` and `results/ol_gene_drivers/`. See `docs/ANALYSIS_REVIEW.md` and `results/sample_classifier/FINDINGS.md`.
 ## 6. Regional activation fingerprints reveal cell type– and age–specific stress responses
 To assess how mitochondrial DNA double-strand breaks (mtDSBs) remodel gene-expression programs across the CNS, we derived **regional activation fingerprints** for each major glial population.  
 Differential expression was aggregated per *cell type × anatomical compartment × age*, restricted to upregulated and sufficiently expressed genes (*log₂FC > 0.5*, *baseMean > 50*, *FDR < 0.05*).  

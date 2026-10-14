@@ -1,5 +1,7 @@
 ## 3. Differential gene expression reveals cell type–specific stress remodeling and immune–metabolic adaptation
 
+> **Review note (2026-10-14):** OL and microglia genes here are real but responder-only; the P21-vs-P60 progression reflects responder composition, and the olfactory-astrocyte panel (old annotation) does not replicate. See `docs/ANALYSIS_REVIEW.md` and `results/sample_classifier/FINDINGS.md`.
+
 To assess how mitochondrial DNA double-strand breaks (mtDSBs) in oligodendrocytes reshape surrounding glial networks during development and maturation, we compared differential gene expression profiles between **postnatal day 21 (P21)** and **day 60 (P60)** mice across major glial populations, including mature oligodendrocytes, oligodendrocyte precursor cells (OPCs), astrocytes (olfactory and telencephalic), and microglia.  
 
 After stringent expression filtering and per-cell normalization, transcriptional remodeling was largely confined to a subset of glial cell types exhibiting high-confidence and temporally progressive responses. **Mature oligodendrocytes** and **microglia** displayed the most pronounced transcriptional plasticity, whereas **astrocytes** and **OPCs** exhibited comparatively moderate, region-restricted changes.

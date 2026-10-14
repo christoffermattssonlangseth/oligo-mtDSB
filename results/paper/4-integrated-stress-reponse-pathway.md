@@ -1,5 +1,7 @@
 ## 4. Zeroing in on ISR and UPR activation in oligodendrocytes following mtDNA double-strand breaks
 
+> **Review note (2026-10-14):** "Modest at P21 / broad at P60" is most likely responder composition: the P21 responder RB4627 has the highest Trib3 and Gdf15 of any animal. Hspa5 and Sod2 are not responder-specific (Sod2 is an age effect). See `docs/ANALYSIS_REVIEW.md` and `results/sample_classifier/FINDINGS.md`.
+
 Induction of mitochondrial DNA double-strand breaks (mtDSBs) in oligodendrocytes triggered a pronounced activation of the **integrated stress response (ISR)** and **unfolded protein response (UPR)**, with clear **age-dependent intensity and cell-type specificity**.
 
 When mtDSBs were induced at **postnatal day 21 (P21)**—a developmental stage when oligodendrocyte differentiation and active myelination are still ongoing—the ISR/UPR signature was **modest and transient**, largely restricted to a small set of transcripts such as *Trib3* and *Cdkn1a*.  

@@ -1,5 +1,7 @@
 ## 2. Unsupervised clustering and model-guided annotation reveal transcriptionally distinct oligodendrocyte states
 
+> **Review note (2026-10-14):** The DA-OL cluster appears in 3 of the 6 mtDSB animals (RB4405, RB4401, RB4627), not in all mtDSB tissue; its gene programme is confirmed by the label-free analysis. See `docs/ANALYSIS_REVIEW.md` and `results/sample_classifier/FINDINGS.md`.
+
 To resolve the cellular composition of the Xenium **mtDNA double-strand break (mtDSB)** model, we performed unsupervised clustering of all captured cells following dimensionality reduction and neighborhood graph construction. **Leiden clustering** identified discrete transcriptional populations that were visualized using **UMAP** embeddings, revealing clear segregation of glial, neuronal, and stromal lineages (Fig. 2A).  
 
 Automated cell-type annotation was achieved using a **marker-informed, large language model (LLM)-based approach**, in which cluster-specific marker genes were supplied to the `annotate_clusters()` function. The model (OpenAI `gpt-4o-mini`) integrated marker information, species, and brain context to assign biologically coherent labels, identifying the major expected CNS cell types including **oligodendrocytes**, **oligodendrocyte precursor cells (OPCs)**, **astrocytes**, **microglia**, **neurons**, **endothelial**, and **fibroblast-like** populations (Fig. 2B). The integration of automated, context-aware annotation accelerated curation while maintaining transparency via the underlying marker gene sets.  

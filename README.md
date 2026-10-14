@@ -28,6 +28,7 @@ swap or section plane; induction efficiency is the open question.
 | figures F1-F7 and the tables behind every number | `results/sample_classifier/figures/`, `results/sample_classifier/tables/` |
 | notebooks that make them (laptop, no h5ad needed) | `notebooks-05/02-ol-response-and-classifiers.ipynb`, `notebooks-05/03-ol-stress-genes.ipynb` (genes) |
 | driver genes of the OL response (figures G1-G4, tables) | `results/ol_gene_drivers/` |
+| how this changes earlier analyses, notebook by notebook (what holds, what doesn't) | [`docs/ANALYSIS_REVIEW.md`](docs/ANALYSIS_REVIEW.md) |
 | code | `utils/ol_response.py`, `utils/sample_classifier.py`, `scripts/run_sample_classifier.py`, `scripts/run_ol_gene_drivers.py`, `scripts/export_cell_table.py` |
 
 ## Background references
@@ -42,6 +43,7 @@ swap or section plane; induction efficiency is the open question.
 |---|---|
 | run the **region x time-point treatment comparison** on the full data | `scripts/run_region_time_de.py` (see below) |
 | make / update the figures for that comparison | `notebooks-05/01-region-time-treatment-figures.ipynb` |
+| check whether an earlier notebook's conclusion still holds | `docs/ANALYSIS_REVIEW.md` |
 | **see the OL responder finding** and its evidence | `results/sample_classifier/FINDINGS.md`, figures from `notebooks-05/02-ol-response-and-classifiers.ipynb` |
 | predict age cohort / condition per section (leave-one-section-out classifiers) | `scripts/run_sample_classifier.py`, method in `utils/sample_classifier.py` docstring |
 | score the OL stress response per section / region (ISR genes, responder calls) | `utils/ol_response.py` docstring |
@@ -164,9 +166,9 @@ cannot be predicted. Every prediction is for a held-out section (leave-one-secti
 
 ```
 notebooks-01/   first pass (old 5-glia annotation, `compartment` regions)      LEGACY
-notebooks-02/   current annotation (cell_class x RBD_compartment_simplified)   CURRENT for annotation, compartments, Bayesian track
+notebooks-02/   current annotation (cell_class x RBD_compartment_simplified)   CURRENT for annotation + compartments; DE / Bayes / ISR notebooks superseded (docs/ANALYSIS_REVIEW.md)
 notebooks-03/   nuclei-segmented data exploration, scCellFie                   side project
-notebooks-04/   inspection / OL sub-clustering on the novae3 h5ad              CURRENT (in progress)
+notebooks-04/   inspection / OL sub-clustering (DA-OL cluster; now used descriptively only)
 notebooks-05/   region x time DE (01), OL response + classifiers (02), genes (03) CURRENT
 scripts/        run_region_time_de.py, run_sample_classifier.py, export_cell_table.py
 tests/          synthetic tests of region_time_de, sample_classifier, ol_response
@@ -177,7 +179,8 @@ utils/          region_time_de.py, region_time_plots.py, sample_classifier.py, o
                                                                                 functions, missing imports; reference only
                 run_compartment_read_based.{py,sh,sub}                          cluster job for read-based domains (logs in logs/)
 results/        see the map below
-results/paper/  manuscript sections + build_manuscript.py
+results/paper/  manuscript sections + build_manuscript.py (review notes added 2026-10-14)
+docs/           ANALYSIS_REVIEW.md: earlier analyses re-checked against the responder finding
 assets/         logo, figure, markers_mouse_xenium.csv (marker list input)
 data/           local inputs only (gitignored)
 logs/           cluster logs of run_compartment_read_based
@@ -238,8 +241,16 @@ logs/           cluster logs of run_compartment_read_based
 3. DEGs across condition and time, whole tissue (`notebooks-01/25`) and per region (`notebooks-01/26`, `notebooks-02/04`).
 4. Hierarchical Bayesian case-control models (`notebooks-02/09-12`).
 5. 2026-09: consolidated region x time-point pipeline (`utils/region_time_de.py`, `notebooks-05`).
+6. 2026-10-14: leave-one-section-out classifiers, OL responder finding and within-section driver genes
+   (`notebooks-05/02-03`, `results/sample_classifier/FINDINGS.md`); all earlier analyses re-checked in
+   `docs/ANALYSIS_REVIEW.md`.
 
-## Preliminary findings (from the legacy analyses; to be re-checked with `results/region_time/`)
+## Preliminary findings (from the legacy analyses; reviewed 2026-10-14)
+
+> **Reviewed:** the gene programmes below are real but carried by 3 of the 6 mtDSB animals; the
+> "stronger after P60 than P21" statement is most likely responder composition, and the hypothalamic
+> Hcrt / Pmch signal is neuronal spill-over. Current statements: `results/sample_classifier/FINDINGS.md`;
+> claim-by-claim review: `docs/ANALYSIS_REVIEW.md`.
 
 Oligodendrocytes exposed to mtDNA damage activate a coordinated stress and communication program rather
 than simply dying: oxidative-stress defences (*Mt1/Mt2*, *Gstp1*, *Sqstm1*), integrated stress response and
