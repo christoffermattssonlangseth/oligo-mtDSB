@@ -1,0 +1,31 @@
+cell_type,readout,radius_um,r_control,r_non_responder,r_responder,perm_p_resp_vs_ctrl,n_perm,direction_tested
+Astrocytes,ASTRO_REACTIVE,30,-0.0372,-0.007,0.0447,0.0119,84,higher in responders
+Astrocytes,ASTRO_REACTIVE,50,-0.039,-0.0074,0.056,0.0119,84,higher in responders
+Astrocytes,ASTRO_REACTIVE,100,-0.0585,-0.0272,0.0624,0.0119,84,higher in responders
+Astrocytes,IFN,30,0.0001,0.015,0.0073,0.2381,84,higher in responders
+Astrocytes,IFN,50,-0.0052,0.0027,0.0039,0.1429,84,higher in responders
+Astrocytes,IFN,100,-0.003,0.0037,0.0168,0.0476,84,higher in responders
+Astrocytes,MHC1,30,-0.0142,0.0142,-0.0008,0.1548,84,higher in responders
+Astrocytes,MHC1,50,-0.0063,0.0119,0.0202,0.0714,84,higher in responders
+Astrocytes,MHC1,100,-0.0116,0.0103,0.0262,0.0238,84,higher in responders
+Endothelial Cells,ENDO_ACTIVATION,30,-0.0088,0.0288,-0.0161,0.5833,84,higher in responders
+Endothelial Cells,ENDO_ACTIVATION,50,-0.0022,0.0074,-0.0146,0.869,84,higher in responders
+Endothelial Cells,ENDO_ACTIVATION,100,0.0087,0.0015,-0.0005,0.8095,84,higher in responders
+Endothelial Cells,IFN,30,-0.0072,0.0379,-0.0007,0.3929,84,higher in responders
+Endothelial Cells,IFN,50,0.0045,0.0132,0.0043,0.5,84,higher in responders
+Endothelial Cells,IFN,100,0.002,0.0071,-0.0082,0.7738,84,higher in responders
+Endothelial Cells,MHC1,30,-0.0041,0.0425,0.0231,0.1548,84,higher in responders
+Endothelial Cells,MHC1,50,0.0019,0.0052,0.0056,0.4167,84,higher in responders
+Endothelial Cells,MHC1,100,0.0057,0.0005,-0.0049,0.7738,84,higher in responders
+Microglia,DAM,30,0.0328,0.0493,0.1076,0.0833,84,higher in responders
+Microglia,DAM,50,0.0336,0.0186,0.0817,0.0476,84,higher in responders
+Microglia,DAM,100,0.0133,0.0306,0.1089,0.0119,84,higher in responders
+Microglia,HOMEOSTATIC,30,-0.024,0.0032,-0.0547,0.2976,84,lower in responders
+Microglia,HOMEOSTATIC,50,-0.0189,0.0248,-0.0484,0.131,84,lower in responders
+Microglia,HOMEOSTATIC,100,-0.0163,0.0182,-0.0663,0.0238,84,lower in responders
+Microglia,IFN,30,-0.0013,0.0326,0.0064,0.369,84,higher in responders
+Microglia,IFN,50,0.0114,-0.0164,-0.0253,0.9048,84,higher in responders
+Microglia,IFN,100,0.0076,0.0102,-0.0032,0.7262,84,higher in responders
+Microglia,MHC1,30,0.0137,0.0392,0.0697,0.0714,84,higher in responders
+Microglia,MHC1,50,0.0014,0.0012,0.0311,0.0119,84,higher in responders
+Microglia,MHC1,100,-0.012,-0.0088,0.0578,0.0119,84,higher in responders

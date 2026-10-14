@@ -44,3 +44,4 @@ results/sample_classifier/superseded/
 # Per-cell metadata + centroids (18 MB); recreate with scripts/export_cell_table.py
 results/cell_table/cells.csv.gz
 results/cell_table/ol_gene_scores.csv.gz
+results/cell_table/cell_gene_scores.csv.gz
