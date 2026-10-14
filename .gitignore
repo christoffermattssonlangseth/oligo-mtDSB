@@ -13,6 +13,7 @@ exports/
 
 # Scratch output of the synthetic test suite
 tests/_tmp_region_time/
+tests/_tmp_sample_classifier/
 
 # Ignore Jupyter and notebook cache files
 .ipynb_checkpoints/
@@ -36,3 +37,7 @@ results/region_time*/de_condition_by_region_age.csv
 results/region_time*/de_age_contrast_by_region.csv
 results/region_time*/de_interaction_by_region.csv
 results/region_time*/de_region_vs_rest.csv
+# Per-cell out-of-fold classifier scores (~1M rows); recreate with scripts/run_sample_classifier.py --h5ad
+results/sample_classifier/*/cell_scores/
+# Superseded classifier outputs (original DA-OL labels, partial runs, first-draft figures); kept locally only
+results/sample_classifier/superseded/
