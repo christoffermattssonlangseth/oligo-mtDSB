@@ -31,6 +31,10 @@ after induction. Cells carry a cell type (`cell_class`) and an anatomical compar
   Mal). The top genes replicate between models trained on disjoint mice (P21-only vs P60-only; 10 / 50
   shared, p = 2e-11). Microglia in the same three mice show a DAM-like response (Cd74, Cst7 10-30x).
 * **Where.** Throughout the brain in responders, strongest in the thalamus and fiber tracts.
+* **Around and within stressed OLs.** Microglia next to stressed OLs become DAM / MHC-I-high and their own
+  expression predicts proximity to stressed OLs (Cd68, Cd83, Trem2); astrocytes become more reactive; endothelial
+  cells do not respond. Within responders, stressed OLs lose myelin genes progressively with severity, consistent
+  with the ISR preceding myelin loss (`analysis/04`, FINDINGS claims 9-10).
 * **Not explained by** sex, genotype label, sample swap (sex labels match Xist), white-matter content or slide
   (responders and non-responders share each Xenium slide; note that each slide is one age cohort).
   Open: induction efficiency (no transgene probe on the panel).
@@ -87,13 +91,16 @@ analysis/        current notebooks (figures + tables from the result folders; no
   01-region-time-treatment-figures.ipynb   region x time-point DE
   02-ol-response-and-classifiers.ipynb     responders, classifiers, regions, checks   -> F1-F7
   03-ol-stress-genes.ipynb                 driver genes of the OL response            -> G1-G4
-utils/           maintained modules: sample_classifier, ol_response, spatial_orientation, region_time_de, region_time_plots, spatial_utils
+  04-neighbourhood-and-staging.ipynb       neighbour coupling, proximity model, staging -> N1-N3
+utils/           maintained modules: sample_classifier, ol_response, spatial_orientation, gene_sets, neighbourhood, ol_staging, region_time_de, region_time_plots, spatial_utils
 scripts/         batch runs (need the h5ad): run_sample_classifier, run_ol_gene_drivers, run_region_time_de,
                  export_cell_table; compartments/ = read-based compartment cluster job
 tests/           synthetic tests for the maintained modules
 results/
   sample_classifier/   FINDINGS.md, figures F1-F7, tables, classifier outputs (per-cell scores gitignored)
   ol_gene_drivers/     gene weights, within-section associations, driver genes, figures G1-G4
+  neighbourhood_staging/  coupling, ISR x myelin states, proximity-model tests, figures N1-N3
+  proximity_model/     distance targets, ridge metrics and weights
   region_time/         region x time DE tables (+ _cell_class_updated, _MANA250 example)
   cell_table/          sections.csv (age, condition, sex, genotype); cells.csv.gz gitignored
   paper/               manuscript sections + build_manuscript.py
@@ -142,6 +149,8 @@ python scripts/run_ol_gene_drivers.py --h5ad $H5AD --outdir results/ol_gene_driv
     --cell-scores results/sample_classifier/cells_general/cell_scores/Oligodendrocytes.csv.gz               # 1-2 min
 python scripts/export_cell_table.py --h5ad $H5AD --outdir results/cell_table                               # 1 min
 python scripts/export_ol_gene_scores.py --h5ad $H5AD --out results/cell_table/ol_gene_scores.csv.gz      # 1 min (per-OL ISR score)
+python scripts/export_cell_gene_scores.py --h5ad $H5AD                                                    # 1 min (all cells, prespecified sets)
+python scripts/run_proximity_model.py --h5ad $H5AD                                                       # ~45 min (needs targets from analysis/04)
 # laptop (no h5ad):
 python scripts/run_sample_classifier.py --pseudobulk results/region_time \
     --outdir results/sample_classifier/pseudobulk_general --merge DA-Oligodendrocytes=Oligodendrocytes     # 3 min

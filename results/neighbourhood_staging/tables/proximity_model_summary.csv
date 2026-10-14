@@ -1,0 +1,25 @@
+cell_type,features,scheme,mean,min,max,size
+Astrocytes,all,ctrl_loso,0.091,0.072,0.1,6
+Astrocytes,all,resp_loso,0.107,0.102,0.113,3
+Astrocytes,all,resp_to_ctrl,0.08,0.044,0.121,6
+Astrocytes,all,resp_to_nonresp,0.103,0.066,0.137,3
+Astrocytes,strict,ctrl_loso,0.087,0.068,0.096,6
+Astrocytes,strict,resp_loso,0.101,0.095,0.109,3
+Astrocytes,strict,resp_to_ctrl,0.076,0.042,0.115,6
+Astrocytes,strict,resp_to_nonresp,0.101,0.065,0.13,3
+Endothelial Cells,all,ctrl_loso,0.105,0.069,0.138,6
+Endothelial Cells,all,resp_loso,0.092,0.082,0.108,3
+Endothelial Cells,all,resp_to_ctrl,0.064,0.037,0.102,6
+Endothelial Cells,all,resp_to_nonresp,0.083,0.045,0.102,3
+Endothelial Cells,strict,ctrl_loso,0.094,0.058,0.123,6
+Endothelial Cells,strict,resp_loso,0.081,0.072,0.089,3
+Endothelial Cells,strict,resp_to_ctrl,0.073,0.047,0.115,6
+Endothelial Cells,strict,resp_to_nonresp,0.085,0.037,0.126,3
+Microglia,all,ctrl_loso,0.111,0.085,0.141,6
+Microglia,all,resp_loso,0.168,0.138,0.196,3
+Microglia,all,resp_to_ctrl,0.08,0.05,0.117,6
+Microglia,all,resp_to_nonresp,0.062,0.017,0.117,3
+Microglia,strict,ctrl_loso,0.102,0.076,0.126,6
+Microglia,strict,resp_loso,0.168,0.135,0.196,3
+Microglia,strict,resp_to_ctrl,0.074,0.042,0.103,6
+Microglia,strict,resp_to_nonresp,0.047,0.006,0.097,3

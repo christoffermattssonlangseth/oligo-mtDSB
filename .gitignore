@@ -45,3 +45,4 @@ results/sample_classifier/superseded/
 results/cell_table/cells.csv.gz
 results/cell_table/ol_gene_scores.csv.gz
 results/cell_table/cell_gene_scores.csv.gz
+results/proximity_model/targets.csv.gz

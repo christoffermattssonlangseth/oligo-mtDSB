@@ -76,3 +76,35 @@ def binned_response(local: pd.DataFrame, readout: str, cell_type: str, group: pd
     b = d.groupby(["sample_id", "bin"], observed=True)["readout_c"].mean().reset_index()
     b["group"] = b.sample_id.map(group)
     return b
+
+
+def proximity_targets(cells: pd.DataFrame, stressed: pd.Series, target_types, x: str = "x_centroid",
+                      y: str = "y_centroid", ol_type: str = "Oligodendrocytes", radius: float = 50.0) -> pd.DataFrame:
+    """Distance of each target cell to the nearest *stressed* OL, adjusted for anatomy and OL density.
+
+    ``stressed`` is a boolean Series over OL cell ids. For every target cell (same section) returns
+    ``d_stressed`` and ``d_any_ol`` (micrometres), ``n_ols`` within ``radius`` and the target ``y_resid``:
+    log1p(d_stressed) after regressing out, within each section, region (one-hot), log1p(d_any_ol) and
+    log1p(n_ols). A model that predicts ``y_resid`` from a cell's own expression therefore has to read
+    proximity to stressed OLs specifically, not white-matter location or OL density.
+    """
+    out = []
+    for sid, sec in cells.groupby("sample_id", observed=True):
+        ol = sec[sec.cell_type == ol_type]
+        st_ol = ol[stressed.reindex(ol.index).fillna(False).to_numpy()]
+        tg = sec[sec.cell_type.isin(target_types)].copy()
+        if tg.empty or st_ol.empty:
+            continue
+        P = tg[[x, y]].to_numpy()
+        tg["d_stressed"] = cKDTree(st_ol[[x, y]].to_numpy()).query(P)[0]
+        tg["d_any_ol"] = cKDTree(ol[[x, y]].to_numpy()).query(P)[0]
+        tg["n_ols"] = [len(i) for i in cKDTree(ol[[x, y]].to_numpy()).query_ball_point(P, r=radius)]
+        Xc = pd.get_dummies(tg["region"], dtype=float)
+        Xc["log_d_any"] = np.log1p(tg["d_any_ol"])
+        Xc["log_n_ols"] = np.log1p(tg["n_ols"])
+        Xc["intercept"] = 1.0
+        yv = np.log1p(tg["d_stressed"].to_numpy())
+        beta, *_ = np.linalg.lstsq(Xc.to_numpy(), yv, rcond=None)
+        tg["y_resid"] = yv - Xc.to_numpy() @ beta
+        out.append(tg)
+    return pd.concat(out)

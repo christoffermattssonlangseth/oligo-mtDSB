@@ -166,6 +166,35 @@ recovery of the prior ISR genes). Individual gene ranks rest on 3 animals; the p
   RB4627; the DA-OL sub-clustering found the same programme. The earlier "P21 modest / P60 strong" reading is
   explained by responder composition (claim 3).
 
+### 9. Neighbours of stressed OLs: microglia and astrocytes respond, endothelium does not
+*`results/neighbourhood_staging/`: Fig N1, N3, Tab `coupling_summary`, `proximity_model_tests`; notebook `analysis/04`*
+
+* **Coupling** (`utils/neighbourhood.py`): each microglia / astrocyte / endothelial cell's prespecified readout vs
+  the ISR of OLs within 50 um, both centred within section x region. Responders vs controls (exact permutation,
+  84 relabellings, floor 0.012): reactive astrocytes r +0.056 vs -0.039 (p = 0.012), microglial MHC-I 0.031 vs 0.001
+  (p = 0.012), microglial DAM 0.082 vs 0.034 (p = 0.048), homeostatic microglia lower (p = 0.13), endothelial
+  activation none (p = 0.87). Same pattern at 30 and 100 um.
+* **Proximity model** (`scripts/run_proximity_model.py`): ridge regression predicting a cell's adjusted distance to
+  the nearest stressed OL from its own expression, with OL-enriched, driver and ISR genes removed (rules out
+  transcript spill-over). Microglia: held-out r 0.17 in responders vs 0.10 in controls (every responder above every
+  control, p = 0.012); the responder model does not transfer to controls / non-responders. Proximity genes include
+  Cd68, Cd83 and Trem2 (activation / phagocytosis). Astrocytes: small but consistent excess (0.10 vs 0.09, p = 0.024).
+  Endothelial cells: none.
+
+**Strength: moderate.** Single-cell correlations are small (noisy scores); the evidence is the consistent
+responder-vs-control difference with region and spill-over controlled. Controls are not at zero for the proximity
+model (residual fine anatomy read through neuronal transcripts), which is why the comparison is against controls.
+
+### 10. Order of events: the ISR comes before myelin loss
+*`results/neighbourhood_staging/`: Fig N2, Tab `ol_isr_myelin_states`, `myelin_by_isr_bin`; `utils/ol_staging.py`*
+
+* Prespecified ISR and myelin scores per OL (smoothed over 15 OLs; percentile of same-slide, same-region controls).
+* P(myelin-low | ISR-high) rises with severity: RB4401 (mildest) 0.40, RB4627 0.73, RB4405 0.90, vs 0.09-0.25 in
+  controls (p = 0.012). In the mildest responder ISR-high OLs outnumber myelin-low ones (32% vs 21%); in the most
+  severe, myelin loss extends beyond the stressed cells (58% vs 86%). Myelin genes fall steadily with ISR level.
+* Cross-sectional: consistent with stress preceding myelin loss, not a time course. Non-responder RB4403 shows
+  somewhat more myelin-low OLs than controls, likely its over-segmentation.
+
 ---
 
 ## Hypotheses only (not claims)

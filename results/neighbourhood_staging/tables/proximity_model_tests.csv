@@ -1,0 +1,7 @@
+cell_type,features,r_resp_loso,r_ctrl_loso,perm_p
+Astrocytes,all,0.107,0.091,0.012
+Astrocytes,strict,0.101,0.087,0.024
+Endothelial Cells,all,0.092,0.105,0.786
+Endothelial Cells,strict,0.081,0.094,0.774
+Microglia,all,0.168,0.111,0.024
+Microglia,strict,0.168,0.102,0.012
