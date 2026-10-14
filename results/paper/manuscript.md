@@ -49,13 +49,13 @@ Overall, this transcriptional continuum delineates a **bifurcation between produ
 ---
 
 **Figure 2.**  
-![UMAP embedding](/results/figures/umap_cell_class.png)
+![UMAP embedding](/legacy/results/figures/umap_cell_class.png)
 *(A)* UMAP embedding of all Xenium mtDSB cells showing major annotated cell types.  
-![Spatial maps](/results/figures/spatial_cell_class.png)
+![Spatial maps](/legacy/results/figures/spatial_cell_class.png)
 *(B)* Spatial maps of annotated populations across tissue sections.  
-![Spatial maps](/results/figures/OL_sub_clust.png)
+![Spatial maps](/legacy/results/figures/OL_sub_clust.png)
 *(C)* Oligodendrocyte subclustering reveals immature, differentiating, and damage-associated states.  
-![Dotplot](/results/figures/dotplot__OL_ANNO_cellclass_markers.png)
+![Dotplot](/legacy/results/figures/dotplot__OL_ANNO_cellclass_markers.png)
 *(D)* Marker gene ranking highlighting lineage and stress-specific signatures.
 
 
@@ -84,19 +84,19 @@ Collectively, these results delineate a **hierarchical and age-dependent glial s
 ### **Figure 3. Cell type–specific responses to oligodendrocyte mtDNA damage**
 
 **(A)** Differential expression in mature oligodendrocytes highlights early ISR activation (*Atf5*, *Cdkn1a*, *Trib3*, *Gdf15*) and late immune–metabolic remodeling (*Cd68*, *Gpnmb*, *Cst7*, *Igfbp3*).  
-![Mature oligodendrocytes](/results/figures/Mature_oligodendrocytes_21w_vs_60w.png)
+![Mature oligodendrocytes](/legacy/results/figures/Mature_oligodendrocytes_21w_vs_60w.png)
 
 **(B)** Microglial transcriptional profiles reveal a DAM-like response marked by *Cd74*, *Cst7*, *Cybb*, and *H2-Ab1*.  
-![Microglia](/results/figures/Microglia_21w_vs_60w.png)
+![Microglia](/legacy/results/figures/Microglia_21w_vs_60w.png)
 
 **(C)** Olfactory astrocytes display strong ISR and cytokine signatures (*Gdf15*, *Trib3*, *Cd40*, *Serpina3n*).  
-![Olfactory astrocytes](/results/figures/Olfactory_astrocytes_21w_vs_60w.png)
+![Olfactory astrocytes](/legacy/results/figures/Olfactory_astrocytes_21w_vs_60w.png)
 
 **(D)** Telencephalic astrocytes show limited activation restricted to *Atf5* and *Cd40*.  
-![Telencephalon astrocytes](/results/figures/Telencephalon_astrocytes_21w_vs_60w.png)
+![Telencephalon astrocytes](/legacy/results/figures/Telencephalon_astrocytes_21w_vs_60w.png)
 
 **(E)** OPCs maintain stable differentiation programs with mild induction of stress genes (*Gdf15*, *Cd40*, *Trib3*).  
-![Oligodendrocyte precursor cells](/results/figures/Oligodendrocytes_precursor_cells_21w_vs_60w.png)
+![Oligodendrocyte precursor cells](/legacy/results/figures/Oligodendrocytes_precursor_cells_21w_vs_60w.png)
 
 
 <!-- 4-integrated-stress-reponse-pathway.md -->
@@ -123,8 +123,8 @@ Mature, myelin-maintaining oligodendrocytes exhibit **heightened vulnerability**
 **(A)** Induction of mtDNA double-strand breaks at postnatal day 21 (P21) leads to mild ISR/UPR activation dominated by *Trib3* and *Cdkn1a*, consistent with transient stress adaptation.  
 **(B)** Induction at P60 elicits strong upregulation of canonical ISR/UPR effectors (*Atf4*, *Atf5*, *Ddit3*, *Hspa5*, *Hspd1*, *Hmox1*, *Ero1lb*, *Sod2*), indicating a chronic stress phenotype and potential translational repression.  
 **(C)** The developmental timing of mtDNA damage determines whether oligodendrocytes engage adaptive versus maladaptive proteostatic remodeling.
-![ISR and UPR activation at P21](/results/figures/pathway_ISR_UPR_age21.png)
-![ISR and UPR activation at P60](/results/figures/pathway_ISR_UPR_age60.png)
+![ISR and UPR activation at P21](/legacy/results/figures/pathway_ISR_UPR_age21.png)
+![ISR and UPR activation at P60](/legacy/results/figures/pathway_ISR_UPR_age60.png)
 
 
 <!-- 5-transcript-driven-compartment-analysis.md -->
@@ -148,7 +148,7 @@ By applying the same read-based analysis to tissues in which mtDNA double-strand
 ### **Figure 5. Spatial domain discovery and anatomical compartmentalization**
 **(A)** Overview of the read-based domain (RBD) discovery workflow combining pseudobinning, dimensionality reduction, and community detection to resolve transcriptionally contiguous regions.  
 **(B)** Spatial compartment map showing 27 distinct anatomical and transcriptional domains identified across Xenium mtDSB tissue sections. Major regions correspond to cortical layers, subcortical nuclei, fiber tracts, and vascular or meningeal compartments.  
-![Spatial compartments](/results/figures/compartments.png)
+![Spatial compartments](/legacy/results/figures/compartments.png)
 **(C)** Comparison of P21 versus P60 mtDSB tissues highlights conserved large-scale organization but altered composition and stress gene enrichment within specific compartments.
 
 
@@ -179,16 +179,16 @@ White-matter and metabolically active regions, particularly the **thalamus, hypo
 **(B)** Representative cell type–specific activation fingerprints comparing P21 and P60 mtDSB induction.  
 
 **Oligodendrocytes**  
-![Oligodendrocytes](/results/figures/region_fingerprints_by_age/Oligodendrocytes_activation_by_age.png)
+![Oligodendrocytes](/legacy/results/figures/region_fingerprints_by_age/Oligodendrocytes_activation_by_age.png)
 
 **Astrocytes**  
-![Astrocytes](/results/figures/region_fingerprints_by_age/Astrocytes_activation_by_age.png)
+![Astrocytes](/legacy/results/figures/region_fingerprints_by_age/Astrocytes_activation_by_age.png)
 
 **Microglia**  
-![Microglia](/results/figures/region_fingerprints_by_age/Microglia_activation_by_age.png)
+![Microglia](/legacy/results/figures/region_fingerprints_by_age/Microglia_activation_by_age.png)
 
 **Oligodendrocyte Precursor Cells (OPCs)**  
-![OPCs](/results/figures/region_fingerprints_by_age/Oligodendrocyte_Precursor_Cells_activation_by_age.png)
+![OPCs](/legacy/results/figures/region_fingerprints_by_age/Oligodendrocyte_Precursor_Cells_activation_by_age.png)
 
 
 <!-- 7-neural-stem-cells-mount-proliferative-reponse.md -->
@@ -211,5 +211,5 @@ This finding highlights that **white-matter mitochondrial stress is not cell-aut
 ---
 ---
 **Figure 7. Neural stem cells: regional activation fingerprints by age**  
-![Neural stem cells](/results/figures/region_fingerprints_by_age/Neural_Stem_Cells_activation_by_age.png)
-![Neural stem cells](/results/figures/Neural_Stem_Cells_Ventricular_system_21vs60.png)
+![Neural stem cells](/legacy/results/figures/region_fingerprints_by_age/Neural_Stem_Cells_activation_by_age.png)
+![Neural stem cells](/legacy/results/figures/Neural_Stem_Cells_Ventricular_system_21vs60.png)

@@ -20,5 +20,5 @@ Mature, myelin-maintaining oligodendrocytes exhibit **heightened vulnerability**
 **(A)** Induction of mtDNA double-strand breaks at postnatal day 21 (P21) leads to mild ISR/UPR activation dominated by *Trib3* and *Cdkn1a*, consistent with transient stress adaptation.  
 **(B)** Induction at P60 elicits strong upregulation of canonical ISR/UPR effectors (*Atf4*, *Atf5*, *Ddit3*, *Hspa5*, *Hspd1*, *Hmox1*, *Ero1lb*, *Sod2*), indicating a chronic stress phenotype and potential translational repression.  
 **(C)** The developmental timing of mtDNA damage determines whether oligodendrocytes engage adaptive versus maladaptive proteostatic remodeling.
-![ISR and UPR activation at P21](/results/figures/pathway_ISR_UPR_age21.png)
-![ISR and UPR activation at P60](/results/figures/pathway_ISR_UPR_age60.png)
+![ISR and UPR activation at P21](/legacy/results/figures/pathway_ISR_UPR_age21.png)
+![ISR and UPR activation at P60](/legacy/results/figures/pathway_ISR_UPR_age60.png)

@@ -23,13 +23,13 @@ White-matter and metabolically active regions, particularly the **thalamus, hypo
 **(B)** Representative cell type–specific activation fingerprints comparing P21 and P60 mtDSB induction.  
 
 **Oligodendrocytes**  
-![Oligodendrocytes](/results/figures/region_fingerprints_by_age/Oligodendrocytes_activation_by_age.png)
+![Oligodendrocytes](/legacy/results/figures/region_fingerprints_by_age/Oligodendrocytes_activation_by_age.png)
 
 **Astrocytes**  
-![Astrocytes](/results/figures/region_fingerprints_by_age/Astrocytes_activation_by_age.png)
+![Astrocytes](/legacy/results/figures/region_fingerprints_by_age/Astrocytes_activation_by_age.png)
 
 **Microglia**  
-![Microglia](/results/figures/region_fingerprints_by_age/Microglia_activation_by_age.png)
+![Microglia](/legacy/results/figures/region_fingerprints_by_age/Microglia_activation_by_age.png)
 
 **Oligodendrocyte Precursor Cells (OPCs)**  
-![OPCs](/results/figures/region_fingerprints_by_age/Oligodendrocyte_Precursor_Cells_activation_by_age.png)
+![OPCs](/legacy/results/figures/region_fingerprints_by_age/Oligodendrocyte_Precursor_Cells_activation_by_age.png)

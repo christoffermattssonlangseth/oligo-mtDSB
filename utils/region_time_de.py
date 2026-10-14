@@ -4,7 +4,7 @@ This module is the single, canonical implementation of the
 "condition x region x age" differential-expression comparison for the
 oligo-mtDSB Xenium data set. It replaces the inline copies of
 ``pseudobulk_by`` / ``run_by_region`` / ``combine_delta`` that were pasted into
-``notebooks-01/25``, ``notebooks-01/26`` and ``notebooks-02/04``.
+``legacy/notebooks-01/25``, ``legacy/notebooks-01/26`` and ``legacy/notebooks-02/04``.
 
 Design
 ------

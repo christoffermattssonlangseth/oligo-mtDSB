@@ -2,7 +2,7 @@
 
 Xenium 5k, 12 sections (one per animal): DOX removal at P21 or P60 x control / mtDSB x 3, all collected
 42 days after induction. Status: 2026-10-14, full `novae4` data. Every number below is reproduced by
-`notebooks-05/02-ol-response-and-classifiers.ipynb`. **Fig** = `figures/`, **Tab** = `tables/` in this folder.
+`analysis/02-ol-response-and-classifiers.ipynb`. **Fig** = `figures/`, **Tab** = `tables/` in this folder.
 
 All models use *general* cell-type labels: the disease-defined cluster `DA-Oligodendrocytes` is folded into
 `Oligodendrocytes`, so the treatment effect has to be found by the readouts, not by the clustering.
@@ -109,7 +109,7 @@ rest on 3 animals.
 
 ### 7. What the responding oligodendrocytes do: 34 genes up, 9 down
 *`results/ol_gene_drivers/`: Fig G1-G4, Tab `driver_genes`, `cohort_weight_replication`,
-`driver_genes_log2fc_by_section`, `driver_programme_by_region`; notebook `notebooks-05/03-ol-stress-genes.ipynb`*
+`driver_genes_log2fc_by_section`, `driver_programme_by_region`; notebook `analysis/03-ol-stress-genes.ipynb`*
 
 * **Driver rule (fixed before inspecting genes):** within each responder section, across individual OLs,
   the gene correlates with the cell's out-of-fold mtDSB score (r > 0.1 in each of the three responders) and
@@ -137,6 +137,18 @@ rest on 3 animals.
 
 **Strength: strong for the programme** (within-section design, replication across disjoint animals,
 recovery of the prior ISR genes). Individual gene ranks rest on 3 animals; the programme annotation is manual.
+
+### 8. Consistent with the earlier Bayesian and DE analyses
+*`docs/ANALYSIS_REVIEW.md`; `legacy/results/baysian_diff_condition.csv`*
+
+* The hierarchical Bayesian case-control model (`legacy/notebooks-02/09-12`, OLs, ages pooled) tested 22 of the
+  43 driver genes; **all 22 have the same direction** (17 up, 5 down; one-sided sign test p = 2.4e-7) and 12
+  reached its FDR < 0.05 (Mt2, Gstp1, B2m, H2-D1, Atf4, Atf5, Olig2 up; Cldn11, Cnp, Mal, Mog, Ugt8a down). Its
+  posterior shifts were small (0.01-0.05) because each estimate averaged responders with non-responders.
+* Per age: P21 13 / 13 tested drivers in the same direction; P60 13 / 18.
+* The earliest per-sample marker lists (`legacy/notebooks-01/06`) already show the driver genes in RB4405 and
+  RB4627; the DA-OL sub-clustering found the same programme. The earlier "P21 modest / P60 strong" reading is
+  explained by responder composition (claim 3).
 
 ---
 
@@ -180,6 +192,6 @@ python scripts/export_cell_table.py --h5ad <novae4.h5ad> --outdir results/cell_t
 python scripts/run_ol_gene_drivers.py --h5ad <novae4.h5ad> \
     --cell-scores results/sample_classifier/cells_general/cell_scores/Oligodendrocytes.csv.gz --outdir results/ol_gene_drivers
 # figures + tables:
-jupyter nbconvert --to notebook --execute --inplace notebooks-05/02-ol-response-and-classifiers.ipynb
-jupyter nbconvert --to notebook --execute --inplace notebooks-05/03-ol-stress-genes.ipynb
+jupyter nbconvert --to notebook --execute --inplace analysis/02-ol-response-and-classifiers.ipynb
+jupyter nbconvert --to notebook --execute --inplace analysis/03-ol-stress-genes.ipynb
 ```

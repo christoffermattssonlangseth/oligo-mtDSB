@@ -21,16 +21,16 @@ Collectively, these results delineate a **hierarchical and age-dependent glial s
 ### **Figure 3. Cell type–specific responses to oligodendrocyte mtDNA damage**
 
 **(A)** Differential expression in mature oligodendrocytes highlights early ISR activation (*Atf5*, *Cdkn1a*, *Trib3*, *Gdf15*) and late immune–metabolic remodeling (*Cd68*, *Gpnmb*, *Cst7*, *Igfbp3*).  
-![Mature oligodendrocytes](/results/figures/Mature_oligodendrocytes_21w_vs_60w.png)
+![Mature oligodendrocytes](/legacy/results/figures/Mature_oligodendrocytes_21w_vs_60w.png)
 
 **(B)** Microglial transcriptional profiles reveal a DAM-like response marked by *Cd74*, *Cst7*, *Cybb*, and *H2-Ab1*.  
-![Microglia](/results/figures/Microglia_21w_vs_60w.png)
+![Microglia](/legacy/results/figures/Microglia_21w_vs_60w.png)
 
 **(C)** Olfactory astrocytes display strong ISR and cytokine signatures (*Gdf15*, *Trib3*, *Cd40*, *Serpina3n*).  
-![Olfactory astrocytes](/results/figures/Olfactory_astrocytes_21w_vs_60w.png)
+![Olfactory astrocytes](/legacy/results/figures/Olfactory_astrocytes_21w_vs_60w.png)
 
 **(D)** Telencephalic astrocytes show limited activation restricted to *Atf5* and *Cd40*.  
-![Telencephalon astrocytes](/results/figures/Telencephalon_astrocytes_21w_vs_60w.png)
+![Telencephalon astrocytes](/legacy/results/figures/Telencephalon_astrocytes_21w_vs_60w.png)
 
 **(E)** OPCs maintain stable differentiation programs with mild induction of stress genes (*Gdf15*, *Cd40*, *Trib3*).  
-![Oligodendrocyte precursor cells](/results/figures/Oligodendrocytes_precursor_cells_21w_vs_60w.png)
+![Oligodendrocyte precursor cells](/legacy/results/figures/Oligodendrocytes_precursor_cells_21w_vs_60w.png)

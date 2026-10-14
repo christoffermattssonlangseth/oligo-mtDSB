@@ -4,7 +4,7 @@
 The annotated h5ad lives on the processing server, so this script is meant to
 be run where the data is mounted (laptop with /Volumes/processing2, or the
 cluster). It writes tidy CSV tables to ``--outdir`` that the notebook
-``notebooks-05/01-region-time-treatment-figures.ipynb`` turns into figures.
+``analysis/01-region-time-treatment-figures.ipynb`` turns into figures.
 
 Example
 -------
