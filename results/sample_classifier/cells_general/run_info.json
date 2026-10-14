@@ -1,0 +1,77 @@
+{
+  "tasks": [
+    {
+      "name": "age",
+      "label": "age",
+      "pool": null,
+      "train_age": null,
+      "permute_within": "condition"
+    },
+    {
+      "name": "condition",
+      "label": "condition",
+      "pool": null,
+      "train_age": null,
+      "permute_within": "age"
+    },
+    {
+      "name": "joint",
+      "label": "joint",
+      "pool": null,
+      "train_age": null,
+      "permute_within": null
+    },
+    {
+      "name": "condition@21",
+      "label": "condition",
+      "pool": "21",
+      "train_age": null,
+      "permute_within": null
+    },
+    {
+      "name": "condition@60",
+      "label": "condition",
+      "pool": "60",
+      "train_age": null,
+      "permute_within": null
+    },
+    {
+      "name": "condition 21->60",
+      "label": "condition",
+      "pool": null,
+      "train_age": "21",
+      "permute_within": null
+    },
+    {
+      "name": "condition 60->21",
+      "label": "condition",
+      "pool": null,
+      "train_age": "60",
+      "permute_within": null
+    }
+  ],
+  "keys": {
+    "cell_type": "cell_class",
+    "region": "RBD_compartment_simplified",
+    "sample": "sample_id",
+    "age": "age",
+    "condition": "condition",
+    "case": "mtDSB",
+    "control": "control",
+    "ages": [
+      "21",
+      "60"
+    ]
+  },
+  "level": "cells",
+  "source": "/Volumes/processing2/oligo-mtDSB/data/mtDNA_DSB_5k_clustered_annotation_with_rbd_2_cytetype_brain_novae4.h5ad",
+  "cell_type_map": {
+    "DA-Oligodendrocytes": "Oligodendrocytes"
+  },
+  "C": 0.1,
+  "cells_per_sample": 2000,
+  "min_cells_per_sample": 50,
+  "n_cells": 980474,
+  "n_genes": 5101,
+  "seconds": 1533.0
+}

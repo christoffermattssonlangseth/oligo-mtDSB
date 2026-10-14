@@ -1,0 +1,4 @@
+test,statistic,p
+"mtDSB > control (Mann-Whitney, one-sided)",25.0,0.15476190476190477
+"variance mtDSB / control (F, one-sided)",9.578057985547753,0.013443592165651665
+"Brown-Forsythe (Levene, median)",38.322014998616545,0.00010272475170869955

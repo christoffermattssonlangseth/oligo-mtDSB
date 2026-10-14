@@ -41,3 +41,5 @@ results/region_time*/de_region_vs_rest.csv
 results/sample_classifier/*/cell_scores/
 # Superseded classifier outputs (original DA-OL labels, partial runs, first-draft figures); kept locally only
 results/sample_classifier/superseded/
+# Per-cell metadata + centroids (18 MB); recreate with scripts/export_cell_table.py
+results/cell_table/cells.csv.gz

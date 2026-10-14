@@ -1,0 +1,14 @@
+,ISR (x control),ISR (x control),ISR (x control),ISR (x control),classifier frac p>0.8 (x control),classifier frac p>0.8 (x control),classifier frac p>0.8 (x control),classifier frac p>0.8 (x control),DA cluster share,DA cluster share,DA cluster share,DA cluster share
+group,control,non-responder,responder,responder / control,control,non-responder,responder,responder / control,control,non-responder,responder,responder / control
+region,,,,,,,,,,,,
+Cortex,1.0,0.969,1.461,1.461,1.0,0.59,1.789,1.789,0.012,0.004,0.418,33.949
+Fiber tracts,1.0,1.008,1.877,1.877,1.0,0.544,2.003,2.003,0.008,0.004,0.422,50.311
+Hippocampus,1.0,0.952,1.281,1.281,1.0,0.755,1.386,1.386,0.042,0.017,0.351,8.325
+Hypothalamus,1.0,0.897,1.498,1.498,1.0,0.63,1.697,1.697,0.008,0.008,0.464,55.138
+Meningeal border/glia limitans,1.0,0.997,1.533,1.533,1.0,0.548,1.52,1.52,0.016,0.01,0.349,22.42
+Olfactory areas,1.0,0.985,1.233,1.233,1.0,0.611,1.612,1.612,0.008,0.007,0.268,34.285
+Pallidum,1.0,0.969,1.386,1.386,1.0,0.553,1.422,1.422,0.004,0.004,0.211,50.805
+Striatum,1.0,0.931,1.498,1.498,1.0,0.57,1.871,1.871,0.006,0.002,0.39,63.879
+Thalamus,1.0,0.933,1.783,1.783,1.0,0.489,1.824,1.824,0.017,0.006,0.527,30.36
+Vasculature,1.0,1.02,1.427,1.427,1.0,,2.929,2.929,0.023,,0.646,27.849
+Ventricular system,1.0,0.992,1.753,1.753,1.0,0.556,1.608,1.608,0.009,0.003,0.392,43.775

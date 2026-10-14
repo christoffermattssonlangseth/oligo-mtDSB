@@ -1,0 +1,13 @@
+sample_id,age,condition,sex,genotype,n_cells
+RB4620,21,control,male,mtPst1,88718
+RB4658,21,control,female,PlptTA,71184
+RB4676,21,control,female,PlptTA,81758
+RB4627,21,mtDSB,male,PlptTA:mtPst1,72848
+RB4630,21,mtDSB,male,PlptTA:mtPst1,69913
+RB4653,21,mtDSB,female,PlptTA:mtPst1,77245
+RB4282,60,control,male,PlptTA,81721
+RB4350,60,control,male,PlptTA,72889
+RB4498,60,control,female,PlptTA,75676
+RB4401,60,mtDSB,female,PlptTA:mtPst1,78305
+RB4403,60,mtDSB,male,PlptTA:mtPst1,135378
+RB4405,60,mtDSB,male,PlptTA:mtPst1,74839

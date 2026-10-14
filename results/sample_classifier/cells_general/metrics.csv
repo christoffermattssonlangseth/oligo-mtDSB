@@ -1,0 +1,813 @@
+task,cell_type,region,n_samples,auc,accuracy,mean_p_true
+age,Astrocytes,All regions,12,1.0,1.0,0.6317252498196543
+age,Astrocytes,Cortex,12,1.0,0.9166666666666666,0.6431604664242495
+age,Astrocytes,Fiber tracts,12,1.0,1.0,0.6116945734921698
+age,Astrocytes,Hippocampus,12,0.9444444444444444,0.9166666666666666,0.6089839454550591
+age,Astrocytes,Hypothalamus,12,0.9722222222222222,0.8333333333333334,0.619253612639903
+age,Astrocytes,Meningeal border/glia limitans,12,1.0,1.0,0.6310828395376219
+age,Astrocytes,Olfactory areas,12,1.0,0.9166666666666666,0.6343649639974716
+age,Astrocytes,Pallidum,11,1.0,1.0,0.6323024308989639
+age,Astrocytes,Striatum,12,1.0,0.9166666666666666,0.6255526501211987
+age,Astrocytes,Thalamus,12,1.0,0.9166666666666666,0.6466345492545725
+age,Astrocytes,Vasculature,12,1.0,0.9166666666666666,0.6400115943866689
+age,Astrocytes,Ventricular system,12,0.9722222222222222,0.9166666666666666,0.627314986667273
+age,Endothelial Cells,All regions,12,1.0,1.0,0.6525547115850898
+age,Endothelial Cells,Cortex,12,1.0,0.9166666666666666,0.6751009595263073
+age,Endothelial Cells,Fiber tracts,12,0.9722222222222222,0.9166666666666666,0.6207467136443516
+age,Endothelial Cells,Hippocampus,12,1.0,0.9166666666666666,0.6451433268726429
+age,Endothelial Cells,Hypothalamus,12,1.0,0.9166666666666666,0.6431220871789559
+age,Endothelial Cells,Meningeal border/glia limitans,12,1.0,1.0,0.6382361497987136
+age,Endothelial Cells,Olfactory areas,12,1.0,1.0,0.6802018323328847
+age,Endothelial Cells,Pallidum,11,1.0,1.0,0.6486188980860469
+age,Endothelial Cells,Striatum,12,1.0,1.0,0.663561902787126
+age,Endothelial Cells,Thalamus,12,1.0,1.0,0.6694880124491599
+age,Endothelial Cells,Vasculature,12,1.0,0.9166666666666666,0.6376448635320434
+age,Endothelial Cells,Ventricular system,12,1.0,1.0,0.6163825504855743
+age,Excitatory Neurons,All regions,12,1.0,1.0,0.6830834165610181
+age,Excitatory Neurons,Cortex,12,1.0,1.0,0.7160120500196103
+age,Excitatory Neurons,Fiber tracts,2,0.0,0.5,0.4757860584794988
+age,Excitatory Neurons,Hippocampus,12,1.0,0.9166666666666666,0.6031137080990674
+age,Excitatory Neurons,Meningeal border/glia limitans,11,1.0,1.0,0.676410279989868
+age,Excitatory Neurons,Olfactory areas,12,0.9722222222222222,0.9166666666666666,0.6287432560820215
+age,Excitatory Neurons,Striatum,12,0.8055555555555556,0.75,0.5706845934445713
+age,Excitatory Neurons,Vasculature,12,1.0,1.0,0.7275069649618318
+age,GABAergic Neurons,All regions,12,1.0,0.9166666666666666,0.6338145704301773
+age,GABAergic Neurons,Cortex,12,1.0,0.9166666666666666,0.6497438846423035
+age,GABAergic Neurons,Fiber tracts,12,1.0,0.9166666666666666,0.6364096848446146
+age,GABAergic Neurons,Hippocampus,12,1.0,0.8333333333333334,0.6406448850156704
+age,GABAergic Neurons,Hypothalamus,9,0.8,0.7777777777777778,0.5769355215860303
+age,GABAergic Neurons,Meningeal border/glia limitans,12,1.0,1.0,0.6430544132545677
+age,GABAergic Neurons,Olfactory areas,12,1.0,0.9166666666666666,0.6393837936398824
+age,GABAergic Neurons,Pallidum,9,1.0,0.8888888888888888,0.6313157301042652
+age,GABAergic Neurons,Striatum,12,0.9722222222222222,0.8333333333333334,0.6140278276453137
+age,GABAergic Neurons,Thalamus,3,1.0,1.0,0.7492231011765605
+age,GABAergic Neurons,Vasculature,8,0.8666666666666667,0.875,0.6221275491101608
+age,GABAergic Neurons,Ventricular system,1,,0.0,0.46142957644700533
+age,Immature Oligodendrocytes I,All regions,12,1.0,0.9166666666666666,0.6421524681129734
+age,Immature Oligodendrocytes I,Cortex,12,1.0,0.9166666666666666,0.6480696668116251
+age,Immature Oligodendrocytes I,Fiber tracts,12,0.9722222222222222,0.9166666666666666,0.6197620813314112
+age,Immature Oligodendrocytes I,Hippocampus,12,0.9722222222222222,0.9166666666666666,0.6395076695090944
+age,Immature Oligodendrocytes I,Hypothalamus,12,0.9722222222222222,0.9166666666666666,0.6169469423810828
+age,Immature Oligodendrocytes I,Meningeal border/glia limitans,12,1.0,1.0,0.644761018326698
+age,Immature Oligodendrocytes I,Olfactory areas,12,1.0,1.0,0.6549988859609871
+age,Immature Oligodendrocytes I,Pallidum,9,0.95,0.8888888888888888,0.6187975111532041
+age,Immature Oligodendrocytes I,Striatum,12,1.0,1.0,0.6385384219062943
+age,Immature Oligodendrocytes I,Thalamus,12,1.0,0.9166666666666666,0.6496584015051879
+age,Immature Oligodendrocytes I,Ventricular system,4,1.0,0.75,0.6360327779871339
+age,Immature Oligodendrocytes II,All regions,12,1.0,0.9166666666666666,0.6097722298499996
+age,Immature Oligodendrocytes II,Cortex,12,0.9444444444444444,0.8333333333333334,0.596920925759226
+age,Immature Oligodendrocytes II,Fiber tracts,12,0.8611111111111112,0.9166666666666666,0.6001830634981893
+age,Immature Oligodendrocytes II,Hippocampus,1,,1.0,0.6434643745290215
+age,Immature Oligodendrocytes II,Hypothalamus,8,0.9333333333333333,0.875,0.6117452544786641
+age,Immature Oligodendrocytes II,Meningeal border/glia limitans,2,1.0,1.0,0.6267748885731114
+age,Immature Oligodendrocytes II,Olfactory areas,5,1.0,1.0,0.6289897023075747
+age,Immature Oligodendrocytes II,Pallidum,3,1.0,1.0,0.628290983178715
+age,Immature Oligodendrocytes II,Striatum,7,1.0,1.0,0.6873644020403329
+age,Immature Oligodendrocytes II,Thalamus,11,1.0,0.9090909090909091,0.6515131172157399
+age,Immature Oligodendrocytes III,All regions,11,0.8666666666666667,0.8181818181818182,0.589082089442734
+age,Immature Oligodendrocytes III,Cortex,2,1.0,1.0,0.5347620865512992
+age,Immature Oligodendrocytes III,Fiber tracts,11,0.9,0.8181818181818182,0.6191921668911354
+age,Immature Oligodendrocytes III,Pallidum,3,1.0,1.0,0.687569187135542
+age,Immature Oligodendrocytes III,Thalamus,3,0.5,0.3333333333333333,0.5013823047631941
+age,Medium Spiny Neurons,All regions,12,1.0,1.0,0.6529627929047717
+age,Medium Spiny Neurons,Olfactory areas,1,,0.0,0.48539209735122624
+age,Medium Spiny Neurons,Pallidum,1,,1.0,0.7455022189525128
+age,Medium Spiny Neurons,Striatum,12,1.0,1.0,0.6542246365523628
+age,Medium Spiny Neurons,Ventricular system,11,0.9333333333333333,0.8181818181818182,0.6116437172317265
+age,Microglia,All regions,12,1.0,0.9166666666666666,0.6494538482790809
+age,Microglia,Cortex,12,1.0,0.9166666666666666,0.6725930810632942
+age,Microglia,Fiber tracts,12,1.0,0.8333333333333334,0.6170408987783068
+age,Microglia,Hippocampus,12,0.9722222222222222,0.8333333333333334,0.6196887651706641
+age,Microglia,Hypothalamus,12,1.0,0.8333333333333334,0.6208296517446995
+age,Microglia,Meningeal border/glia limitans,12,1.0,0.9166666666666666,0.6294610809070624
+age,Microglia,Olfactory areas,12,1.0,1.0,0.6724213875604118
+age,Microglia,Pallidum,10,1.0,1.0,0.6384966305145471
+age,Microglia,Striatum,12,1.0,0.9166666666666666,0.6276004594103205
+age,Microglia,Thalamus,12,1.0,1.0,0.6616106080979332
+age,Microglia,Vasculature,3,,1.0,0.7114681183350715
+age,Microglia,Ventricular system,11,0.9666666666666667,0.9090909090909091,0.5914189012472675
+age,Neural Stem Cells,All regions,12,0.75,0.6666666666666666,0.5516296438494449
+age,Neural Stem Cells,Cortex,1,,1.0,0.5088075527669067
+age,Neural Stem Cells,Fiber tracts,10,0.75,0.5,0.5495790383309782
+age,Neural Stem Cells,Hippocampus,2,,1.0,0.57259383239658
+age,Neural Stem Cells,Meningeal border/glia limitans,3,0.5,0.6666666666666666,0.5479562680692346
+age,Neural Stem Cells,Striatum,3,0.5,0.3333333333333333,0.5430441798816911
+age,Neural Stem Cells,Thalamus,1,,1.0,0.5711081543766147
+age,Neural Stem Cells,Ventricular system,12,0.7222222222222222,0.5833333333333334,0.5540086863966054
+age,Neurons,All regions,12,1.0,1.0,0.6397555293081784
+age,Neurons,Cortex,12,1.0,0.8333333333333334,0.6151019825546041
+age,Neurons,Fiber tracts,12,0.8888888888888888,0.75,0.6108407051645693
+age,Neurons,Hippocampus,12,1.0,0.6666666666666666,0.5996491333681272
+age,Neurons,Hypothalamus,12,0.9722222222222222,0.9166666666666666,0.6144083687838289
+age,Neurons,Meningeal border/glia limitans,12,1.0,0.8333333333333334,0.6091899248489175
+age,Neurons,Olfactory areas,12,1.0,0.9166666666666666,0.626198405668832
+age,Neurons,Pallidum,11,1.0,1.0,0.6564282986693978
+age,Neurons,Striatum,12,1.0,1.0,0.6200314323355126
+age,Neurons,Thalamus,12,1.0,1.0,0.6733187884443225
+age,Neurons,Vasculature,11,0.9,0.8181818181818182,0.6097882144132025
+age,Neurons,Ventricular system,11,1.0,0.9090909090909091,0.6298572778105737
+age,Oligodendrocytes,All regions,12,1.0,0.8333333333333334,0.6838516916874386
+age,Oligodendrocytes,Cortex,12,1.0,0.8333333333333334,0.6653603970272475
+age,Oligodendrocytes,Fiber tracts,12,0.9444444444444444,0.8333333333333334,0.6992446978968676
+age,Oligodendrocytes,Hippocampus,12,1.0,0.75,0.6702487579007688
+age,Oligodendrocytes,Hypothalamus,12,1.0,0.8333333333333334,0.6724619563212967
+age,Oligodendrocytes,Meningeal border/glia limitans,12,1.0,0.9166666666666666,0.6837894632513151
+age,Oligodendrocytes,Olfactory areas,12,1.0,0.9166666666666666,0.6660555875272147
+age,Oligodendrocytes,Pallidum,11,1.0,0.8181818181818182,0.6947449640146275
+age,Oligodendrocytes,Striatum,12,1.0,0.8333333333333334,0.6754671494499415
+age,Oligodendrocytes,Thalamus,12,1.0,0.8333333333333334,0.6869055488996673
+age,Oligodendrocytes,Vasculature,12,0.8888888888888888,0.9166666666666666,0.6427374309510812
+age,Oligodendrocytes,Ventricular system,12,0.9444444444444444,0.9166666666666666,0.6907152828154391
+condition,Astrocytes,All regions,12,0.5,0.4166666666666667,0.4981287070713982
+condition,Astrocytes,Cortex,12,0.4722222222222222,0.5,0.5012139711825153
+condition,Astrocytes,Fiber tracts,12,0.6944444444444444,0.5,0.5231980724285803
+condition,Astrocytes,Hippocampus,12,0.5,0.5,0.49519751291682407
+condition,Astrocytes,Hypothalamus,12,0.4722222222222222,0.5,0.5077282812500713
+condition,Astrocytes,Meningeal border/glia limitans,12,0.5555555555555556,0.5,0.5001504124500492
+condition,Astrocytes,Olfactory areas,12,0.4722222222222222,0.5833333333333334,0.4952506937883984
+condition,Astrocytes,Pallidum,11,0.23333333333333334,0.2727272727272727,0.4786305920986253
+condition,Astrocytes,Striatum,12,0.4166666666666667,0.5,0.4926655306351216
+condition,Astrocytes,Thalamus,12,0.3611111111111111,0.5,0.48945533752791465
+condition,Astrocytes,Vasculature,12,0.4166666666666667,0.4166666666666667,0.496977464949423
+condition,Astrocytes,Ventricular system,12,0.2777777777777778,0.4166666666666667,0.47639782255817664
+condition,Endothelial Cells,All regions,12,0.5,0.5,0.5028068354951619
+condition,Endothelial Cells,Cortex,12,0.4722222222222222,0.5,0.5056251682832203
+condition,Endothelial Cells,Fiber tracts,12,0.6388888888888888,0.6666666666666666,0.5319996922371322
+condition,Endothelial Cells,Hippocampus,12,0.3055555555555556,0.4166666666666667,0.4834254580900949
+condition,Endothelial Cells,Hypothalamus,12,0.5,0.4166666666666667,0.5128163171343183
+condition,Endothelial Cells,Meningeal border/glia limitans,12,0.7222222222222222,0.6666666666666666,0.5230858332842407
+condition,Endothelial Cells,Olfactory areas,12,0.5555555555555556,0.5,0.5065548939100656
+condition,Endothelial Cells,Pallidum,11,0.36666666666666664,0.5454545454545454,0.4996266753466136
+condition,Endothelial Cells,Striatum,12,0.5833333333333334,0.5,0.5085595258304421
+condition,Endothelial Cells,Thalamus,12,0.3888888888888889,0.5,0.49554629555372603
+condition,Endothelial Cells,Vasculature,12,0.6388888888888888,0.5833333333333334,0.5140023048191121
+condition,Endothelial Cells,Ventricular system,12,0.1388888888888889,0.3333333333333333,0.45407685504100265
+condition,Excitatory Neurons,All regions,12,0.19444444444444445,0.25,0.4706901185367541
+condition,Excitatory Neurons,Cortex,12,0.3333333333333333,0.4166666666666667,0.47911220324949033
+condition,Excitatory Neurons,Fiber tracts,2,1.0,0.5,0.5064880557307645
+condition,Excitatory Neurons,Hippocampus,12,0.25,0.25,0.46933793054047945
+condition,Excitatory Neurons,Meningeal border/glia limitans,11,0.26666666666666666,0.45454545454545453,0.47384899670838615
+condition,Excitatory Neurons,Olfactory areas,12,0.2222222222222222,0.3333333333333333,0.46886936773583826
+condition,Excitatory Neurons,Striatum,12,0.4444444444444444,0.5,0.4660986059996641
+condition,Excitatory Neurons,Vasculature,12,0.3611111111111111,0.3333333333333333,0.47670158880299573
+condition,GABAergic Neurons,All regions,12,0.16666666666666666,0.16666666666666666,0.47193152232774055
+condition,GABAergic Neurons,Cortex,12,0.2777777777777778,0.3333333333333333,0.4791008489448055
+condition,GABAergic Neurons,Fiber tracts,12,0.4722222222222222,0.4166666666666667,0.496330874556454
+condition,GABAergic Neurons,Hippocampus,12,0.16666666666666666,0.3333333333333333,0.45654368116646166
+condition,GABAergic Neurons,Hypothalamus,9,0.35,0.4444444444444444,0.4975294376659422
+condition,GABAergic Neurons,Meningeal border/glia limitans,12,0.3611111111111111,0.5,0.49022194078569675
+condition,GABAergic Neurons,Olfactory areas,12,0.2222222222222222,0.3333333333333333,0.4707218463002656
+condition,GABAergic Neurons,Pallidum,9,0.0,0.0,0.4441513216201501
+condition,GABAergic Neurons,Striatum,12,0.2222222222222222,0.25,0.46453163867388586
+condition,GABAergic Neurons,Thalamus,3,0.0,0.0,0.34230779214010026
+condition,GABAergic Neurons,Vasculature,8,0.6,0.5,0.5013780889263255
+condition,GABAergic Neurons,Ventricular system,1,,0.0,0.2712349917901836
+condition,Immature Oligodendrocytes I,All regions,12,0.25,0.3333333333333333,0.4757159931117172
+condition,Immature Oligodendrocytes I,Cortex,12,0.3611111111111111,0.4166666666666667,0.48840410001163265
+condition,Immature Oligodendrocytes I,Fiber tracts,12,0.3611111111111111,0.3333333333333333,0.48892082174740614
+condition,Immature Oligodendrocytes I,Hippocampus,12,0.16666666666666666,0.16666666666666666,0.4546700062600189
+condition,Immature Oligodendrocytes I,Hypothalamus,12,0.3333333333333333,0.4166666666666667,0.4832996291372185
+condition,Immature Oligodendrocytes I,Meningeal border/glia limitans,12,0.25,0.25,0.46944513262063187
+condition,Immature Oligodendrocytes I,Olfactory areas,12,0.25,0.4166666666666667,0.47487553480602385
+condition,Immature Oligodendrocytes I,Pallidum,9,0.2222222222222222,0.2222222222222222,0.47164707302657877
+condition,Immature Oligodendrocytes I,Striatum,12,0.25,0.25,0.48030789104606036
+condition,Immature Oligodendrocytes I,Thalamus,12,0.19444444444444445,0.3333333333333333,0.45255648281037736
+condition,Immature Oligodendrocytes I,Ventricular system,4,0.0,0.0,0.37205656637382617
+condition,Immature Oligodendrocytes II,All regions,12,0.19444444444444445,0.3333333333333333,0.46839546238438134
+condition,Immature Oligodendrocytes II,Cortex,12,0.2777777777777778,0.4166666666666667,0.47555229561128926
+condition,Immature Oligodendrocytes II,Fiber tracts,12,0.3333333333333333,0.4166666666666667,0.4808583510498345
+condition,Immature Oligodendrocytes II,Hippocampus,1,,0.0,0.4073342957777851
+condition,Immature Oligodendrocytes II,Hypothalamus,8,0.2,0.375,0.47096368078654294
+condition,Immature Oligodendrocytes II,Meningeal border/glia limitans,2,,0.5,0.5260864040415048
+condition,Immature Oligodendrocytes II,Olfactory areas,5,0.6666666666666666,0.4,0.5233581277001754
+condition,Immature Oligodendrocytes II,Pallidum,3,0.5,0.3333333333333333,0.4817427793882924
+condition,Immature Oligodendrocytes II,Striatum,7,0.16666666666666666,0.2857142857142857,0.43754866429201134
+condition,Immature Oligodendrocytes II,Thalamus,11,0.43333333333333335,0.36363636363636365,0.4800033199764264
+condition,Immature Oligodendrocytes III,All regions,11,0.06666666666666667,0.18181818181818182,0.3952250161370765
+condition,Immature Oligodendrocytes III,Cortex,2,0.0,0.5,0.33348702032011635
+condition,Immature Oligodendrocytes III,Fiber tracts,11,0.1,0.2727272727272727,0.4015771658853172
+condition,Immature Oligodendrocytes III,Pallidum,3,0.0,0.0,0.3212510806188707
+condition,Immature Oligodendrocytes III,Thalamus,3,0.0,0.0,0.3084288500000037
+condition,Medium Spiny Neurons,All regions,12,0.3888888888888889,0.4166666666666667,0.4777965996628047
+condition,Medium Spiny Neurons,Olfactory areas,1,,0.0,0.3305816119617389
+condition,Medium Spiny Neurons,Pallidum,1,,0.0,0.3933232487874188
+condition,Medium Spiny Neurons,Striatum,12,0.3888888888888889,0.4166666666666667,0.4782901910259332
+condition,Medium Spiny Neurons,Ventricular system,11,0.3,0.45454545454545453,0.45498444210499867
+condition,Microglia,All regions,12,0.4444444444444444,0.5,0.5040314589317892
+condition,Microglia,Cortex,12,0.4722222222222222,0.6666666666666666,0.49522820042131516
+condition,Microglia,Fiber tracts,12,0.5555555555555556,0.5833333333333334,0.5352911890708552
+condition,Microglia,Hippocampus,12,0.3333333333333333,0.4166666666666667,0.4741148375764854
+condition,Microglia,Hypothalamus,12,0.4722222222222222,0.5,0.510760468480208
+condition,Microglia,Meningeal border/glia limitans,12,0.4722222222222222,0.6666666666666666,0.49579570721763555
+condition,Microglia,Olfactory areas,12,0.3888888888888889,0.4166666666666667,0.4904597218376671
+condition,Microglia,Pallidum,10,0.25,0.4,0.47554348504100774
+condition,Microglia,Striatum,12,0.4444444444444444,0.5833333333333334,0.4926430907655237
+condition,Microglia,Thalamus,12,0.5,0.6666666666666666,0.5190451090242255
+condition,Microglia,Vasculature,3,0.5,0.3333333333333333,0.5306558533186299
+condition,Microglia,Ventricular system,11,0.3333333333333333,0.18181818181818182,0.4711954472824331
+condition,Neural Stem Cells,All regions,12,0.3333333333333333,0.3333333333333333,0.4546693541465643
+condition,Neural Stem Cells,Cortex,1,,0.0,0.45514228699626674
+condition,Neural Stem Cells,Fiber tracts,10,0.32,0.3,0.4642151062865822
+condition,Neural Stem Cells,Hippocampus,2,,0.0,0.3977965903590987
+condition,Neural Stem Cells,Meningeal border/glia limitans,3,0.0,0.3333333333333333,0.4700594872001466
+condition,Neural Stem Cells,Striatum,3,,0.6666666666666666,0.5033388797058932
+condition,Neural Stem Cells,Thalamus,1,,1.0,0.5075395851335369
+condition,Neural Stem Cells,Ventricular system,12,0.3055555555555556,0.3333333333333333,0.4519081045929822
+condition,Neurons,All regions,12,0.19444444444444445,0.25,0.44028264852978305
+condition,Neurons,Cortex,12,0.4166666666666667,0.25,0.4734235528637652
+condition,Neurons,Fiber tracts,12,0.4166666666666667,0.3333333333333333,0.4814150872830884
+condition,Neurons,Hippocampus,12,0.3333333333333333,0.25,0.4614716627673076
+condition,Neurons,Hypothalamus,12,0.2777777777777778,0.4166666666666667,0.4330836503206042
+condition,Neurons,Meningeal border/glia limitans,12,0.25,0.3333333333333333,0.46221772931877575
+condition,Neurons,Olfactory areas,12,0.16666666666666666,0.25,0.45214368700952895
+condition,Neurons,Pallidum,11,0.13333333333333333,0.18181818181818182,0.43913385861135695
+condition,Neurons,Striatum,12,0.3611111111111111,0.5,0.46799404971260733
+condition,Neurons,Thalamus,12,0.1388888888888889,0.25,0.430131529168017
+condition,Neurons,Vasculature,11,0.26666666666666666,0.36363636363636365,0.4652475436511377
+condition,Neurons,Ventricular system,11,0.16666666666666666,0.18181818181818182,0.4412040892334055
+condition,Oligodendrocytes,All regions,12,0.5,0.4166666666666667,0.5102098783000153
+condition,Oligodendrocytes,Cortex,12,0.5277777777777778,0.5833333333333334,0.5090522469252506
+condition,Oligodendrocytes,Fiber tracts,12,0.5833333333333334,0.4166666666666667,0.5201654614295926
+condition,Oligodendrocytes,Hippocampus,12,0.5,0.5,0.5053373106422773
+condition,Oligodendrocytes,Hypothalamus,12,0.5277777777777778,0.4166666666666667,0.5058432178388265
+condition,Oligodendrocytes,Meningeal border/glia limitans,12,0.4722222222222222,0.5,0.4958053345494599
+condition,Oligodendrocytes,Olfactory areas,12,0.5277777777777778,0.5833333333333334,0.5089338855963166
+condition,Oligodendrocytes,Pallidum,11,0.4,0.36363636363636365,0.472598222382576
+condition,Oligodendrocytes,Striatum,12,0.5555555555555556,0.5833333333333334,0.5128306299114805
+condition,Oligodendrocytes,Thalamus,12,0.5,0.5,0.5027310238106123
+condition,Oligodendrocytes,Vasculature,12,0.5,0.4166666666666667,0.5103053285505966
+condition,Oligodendrocytes,Ventricular system,12,0.4722222222222222,0.4166666666666667,0.49803179836190425
+joint,Astrocytes,All regions,12,,0.25,0.27413922300293303
+joint,Astrocytes,Cortex,12,,0.3333333333333333,0.275427242252622
+joint,Astrocytes,Fiber tracts,12,,0.16666666666666666,0.26171632029460956
+joint,Astrocytes,Hippocampus,12,,0.16666666666666666,0.26778221239524996
+joint,Astrocytes,Hypothalamus,12,,0.3333333333333333,0.28665887967248926
+joint,Astrocytes,Meningeal border/glia limitans,12,,0.25,0.2705325901199328
+joint,Astrocytes,Olfactory areas,12,,0.25,0.26973890167918707
+joint,Astrocytes,Pallidum,11,,0.09090909090909091,0.2499394552955663
+joint,Astrocytes,Striatum,12,,0.3333333333333333,0.2773085180026483
+joint,Astrocytes,Thalamus,12,,0.25,0.27679676593827335
+joint,Astrocytes,Vasculature,12,,0.16666666666666666,0.2703771236242853
+joint,Astrocytes,Ventricular system,12,,0.25,0.2698160461731407
+joint,Endothelial Cells,All regions,12,,0.3333333333333333,0.3092532149360986
+joint,Endothelial Cells,Cortex,12,,0.5833333333333334,0.32906220391171104
+joint,Endothelial Cells,Fiber tracts,12,,0.4166666666666667,0.3158262592193178
+joint,Endothelial Cells,Hippocampus,12,,0.25,0.28870477855032783
+joint,Endothelial Cells,Hypothalamus,12,,0.5,0.3141686412884023
+joint,Endothelial Cells,Meningeal border/glia limitans,12,,0.5,0.312021367400173
+joint,Endothelial Cells,Olfactory areas,12,,0.3333333333333333,0.3190866239748374
+joint,Endothelial Cells,Pallidum,11,,0.45454545454545453,0.30069222886203967
+joint,Endothelial Cells,Striatum,12,,0.4166666666666667,0.31952218434129215
+joint,Endothelial Cells,Thalamus,12,,0.4166666666666667,0.3254498847630244
+joint,Endothelial Cells,Vasculature,12,,0.4166666666666667,0.3036128767936071
+joint,Endothelial Cells,Ventricular system,12,,0.25,0.24867663864824321
+joint,Excitatory Neurons,All regions,12,,0.16666666666666666,0.2808980989134997
+joint,Excitatory Neurons,Cortex,12,,0.25,0.2990793047706548
+joint,Excitatory Neurons,Fiber tracts,2,,0.0,0.19896327696827495
+joint,Excitatory Neurons,Hippocampus,12,,0.08333333333333333,0.2318865188680167
+joint,Excitatory Neurons,Meningeal border/glia limitans,11,,0.2727272727272727,0.28358894046100835
+joint,Excitatory Neurons,Olfactory areas,12,,0.3333333333333333,0.26836683450347887
+joint,Excitatory Neurons,Striatum,12,,0.25,0.23936609561908914
+joint,Excitatory Neurons,Vasculature,12,,0.3333333333333333,0.2828460684601302
+joint,GABAergic Neurons,All regions,12,,0.16666666666666666,0.26205892269098346
+joint,GABAergic Neurons,Cortex,12,,0.25,0.27298779942948864
+joint,GABAergic Neurons,Fiber tracts,12,,0.25,0.2625804625480063
+joint,GABAergic Neurons,Hippocampus,12,,0.08333333333333333,0.25798823724150216
+joint,GABAergic Neurons,Hypothalamus,9,,0.3333333333333333,0.2522915133866523
+joint,GABAergic Neurons,Meningeal border/glia limitans,12,,0.25,0.2511881393044036
+joint,GABAergic Neurons,Olfactory areas,12,,0.3333333333333333,0.2633820955231433
+joint,GABAergic Neurons,Pallidum,9,,0.2222222222222222,0.2644242707440816
+joint,GABAergic Neurons,Striatum,12,,0.25,0.26249406734826763
+joint,GABAergic Neurons,Thalamus,3,,0.0,0.176157504645285
+joint,GABAergic Neurons,Vasculature,8,,0.375,0.2837497964484201
+joint,GABAergic Neurons,Ventricular system,1,,0.0,0.0699999871193454
+joint,Immature Oligodendrocytes I,All regions,12,,0.25,0.26962531818213514
+joint,Immature Oligodendrocytes I,Cortex,12,,0.25,0.27784046900422726
+joint,Immature Oligodendrocytes I,Fiber tracts,12,,0.3333333333333333,0.2698119322752574
+joint,Immature Oligodendrocytes I,Hippocampus,12,,0.16666666666666666,0.2638781931523462
+joint,Immature Oligodendrocytes I,Hypothalamus,12,,0.25,0.2693600197554989
+joint,Immature Oligodendrocytes I,Meningeal border/glia limitans,12,,0.3333333333333333,0.27164561746799637
+joint,Immature Oligodendrocytes I,Olfactory areas,12,,0.25,0.2773635003289606
+joint,Immature Oligodendrocytes I,Pallidum,9,,0.1111111111111111,0.2559009307013836
+joint,Immature Oligodendrocytes I,Striatum,12,,0.25,0.27421648886837185
+joint,Immature Oligodendrocytes I,Thalamus,12,,0.16666666666666666,0.258635076066333
+joint,Immature Oligodendrocytes I,Ventricular system,4,,0.0,0.1440864025819781
+joint,Immature Oligodendrocytes II,All regions,12,,0.08333333333333333,0.2208491969331986
+joint,Immature Oligodendrocytes II,Cortex,12,,0.25,0.2214413275282006
+joint,Immature Oligodendrocytes II,Fiber tracts,12,,0.08333333333333333,0.23382298769974044
+joint,Immature Oligodendrocytes II,Hippocampus,1,,0.0,0.12689257740072932
+joint,Immature Oligodendrocytes II,Hypothalamus,8,,0.25,0.24544097422337954
+joint,Immature Oligodendrocytes II,Meningeal border/glia limitans,2,,0.5,0.26012603543966417
+joint,Immature Oligodendrocytes II,Olfactory areas,5,,0.2,0.2504800498982156
+joint,Immature Oligodendrocytes II,Pallidum,3,,0.0,0.2456315749078737
+joint,Immature Oligodendrocytes II,Striatum,7,,0.14285714285714285,0.2521587216436203
+joint,Immature Oligodendrocytes II,Thalamus,11,,0.0,0.20549376671001277
+joint,Immature Oligodendrocytes III,All regions,11,,0.09090909090909091,0.18811873897287068
+joint,Immature Oligodendrocytes III,Cortex,2,,0.0,0.09476679109302592
+joint,Immature Oligodendrocytes III,Fiber tracts,11,,0.09090909090909091,0.20028858869982227
+joint,Immature Oligodendrocytes III,Pallidum,3,,0.0,0.1456483359859063
+joint,Immature Oligodendrocytes III,Thalamus,3,,0.0,0.1094947967084421
+joint,Medium Spiny Neurons,All regions,12,,0.25,0.2740197933076177
+joint,Medium Spiny Neurons,Olfactory areas,1,,0.0,0.12478299916287676
+joint,Medium Spiny Neurons,Pallidum,1,,0.0,0.2525585341963028
+joint,Medium Spiny Neurons,Striatum,12,,0.25,0.27499316977672345
+joint,Medium Spiny Neurons,Ventricular system,11,,0.2727272727272727,0.21833335728886663
+joint,Microglia,All regions,12,,0.25,0.293917338409252
+joint,Microglia,Cortex,12,,0.25,0.2931376772478827
+joint,Microglia,Fiber tracts,12,,0.3333333333333333,0.2900405749477408
+joint,Microglia,Hippocampus,12,,0.25,0.26192801704634733
+joint,Microglia,Hypothalamus,12,,0.4166666666666667,0.31365896207549615
+joint,Microglia,Meningeal border/glia limitans,12,,0.25,0.2692644586458954
+joint,Microglia,Olfactory areas,12,,0.25,0.2927515975212553
+joint,Microglia,Pallidum,10,,0.2,0.2573677831649051
+joint,Microglia,Striatum,12,,0.3333333333333333,0.2895381511385144
+joint,Microglia,Thalamus,12,,0.3333333333333333,0.30568312744897796
+joint,Microglia,Vasculature,3,,0.3333333333333333,0.32790304360038225
+joint,Microglia,Ventricular system,11,,0.18181818181818182,0.2857800688225263
+joint,Neural Stem Cells,All regions,12,,0.25,0.24138968962537696
+joint,Neural Stem Cells,Cortex,1,,0.0,0.07647887671950325
+joint,Neural Stem Cells,Fiber tracts,10,,0.2,0.20916272334569225
+joint,Neural Stem Cells,Hippocampus,2,,0.0,0.21987978591401758
+joint,Neural Stem Cells,Meningeal border/glia limitans,3,,0.0,0.2158140041320753
+joint,Neural Stem Cells,Striatum,3,,0.0,0.2067596604627914
+joint,Neural Stem Cells,Thalamus,1,,0.0,0.16735620246354888
+joint,Neural Stem Cells,Ventricular system,12,,0.16666666666666666,0.25208120663769346
+joint,Neurons,All regions,12,,0.16666666666666666,0.2571531109601924
+joint,Neurons,Cortex,12,,0.25,0.2529630799229821
+joint,Neurons,Fiber tracts,12,,0.25,0.22133023843120625
+joint,Neurons,Hippocampus,12,,0.16666666666666666,0.24150319916893495
+joint,Neurons,Hypothalamus,12,,0.25,0.26644591292920866
+joint,Neurons,Meningeal border/glia limitans,12,,0.08333333333333333,0.2662470011688041
+joint,Neurons,Olfactory areas,12,,0.25,0.2740395242608305
+joint,Neurons,Pallidum,11,,0.18181818181818182,0.2550850337517892
+joint,Neurons,Striatum,12,,0.3333333333333333,0.2605142955948691
+joint,Neurons,Thalamus,12,,0.08333333333333333,0.2493222391568495
+joint,Neurons,Vasculature,11,,0.36363636363636365,0.2547660636148584
+joint,Neurons,Ventricular system,11,,0.09090909090909091,0.2478050947828675
+joint,Oligodendrocytes,All regions,12,,0.16666666666666666,0.2797169102578718
+joint,Oligodendrocytes,Cortex,12,,0.16666666666666666,0.2693477809175691
+joint,Oligodendrocytes,Fiber tracts,12,,0.25,0.2845706467370061
+joint,Oligodendrocytes,Hippocampus,12,,0.08333333333333333,0.270528378399084
+joint,Oligodendrocytes,Hypothalamus,12,,0.25,0.2895240775508084
+joint,Oligodendrocytes,Meningeal border/glia limitans,12,,0.08333333333333333,0.2626104008429551
+joint,Oligodendrocytes,Olfactory areas,12,,0.25,0.2775779252048185
+joint,Oligodendrocytes,Pallidum,11,,0.18181818181818182,0.2651379911030771
+joint,Oligodendrocytes,Striatum,12,,0.25,0.27686041690795316
+joint,Oligodendrocytes,Thalamus,12,,0.25,0.2795591705257478
+joint,Oligodendrocytes,Vasculature,12,,0.3333333333333333,0.2650394523990413
+joint,Oligodendrocytes,Ventricular system,12,,0.16666666666666666,0.272294246620553
+condition@21,Astrocytes,All regions,6,0.0,0.0,0.4046900442123678
+condition@21,Astrocytes,Cortex,6,0.0,0.0,0.4043746832259389
+condition@21,Astrocytes,Fiber tracts,6,0.0,0.0,0.40343490315250774
+condition@21,Astrocytes,Hippocampus,6,0.0,0.0,0.40618395443585503
+condition@21,Astrocytes,Hypothalamus,6,0.2222222222222222,0.3333333333333333,0.4461498601512899
+condition@21,Astrocytes,Meningeal border/glia limitans,6,0.0,0.0,0.40502647275730336
+condition@21,Astrocytes,Olfactory areas,6,0.0,0.0,0.39336229265686534
+condition@21,Astrocytes,Pallidum,6,0.0,0.0,0.41667936733818384
+condition@21,Astrocytes,Striatum,6,0.0,0.16666666666666666,0.3969982840193717
+condition@21,Astrocytes,Thalamus,6,0.0,0.0,0.39213874652639086
+condition@21,Astrocytes,Vasculature,6,0.0,0.16666666666666666,0.42946246256783077
+condition@21,Astrocytes,Ventricular system,6,0.0,0.0,0.3845558321008719
+condition@21,Endothelial Cells,All regions,6,0.2222222222222222,0.16666666666666666,0.45527632905088283
+condition@21,Endothelial Cells,Cortex,6,0.2222222222222222,0.3333333333333333,0.4642330835837371
+condition@21,Endothelial Cells,Fiber tracts,6,0.3333333333333333,0.16666666666666666,0.4682091201135661
+condition@21,Endothelial Cells,Hippocampus,6,0.3333333333333333,0.3333333333333333,0.45914815599196773
+condition@21,Endothelial Cells,Hypothalamus,6,0.3333333333333333,0.3333333333333333,0.47553930328444255
+condition@21,Endothelial Cells,Meningeal border/glia limitans,6,0.3333333333333333,0.5,0.47687455026006437
+condition@21,Endothelial Cells,Olfactory areas,6,0.3333333333333333,0.16666666666666666,0.46136658007236536
+condition@21,Endothelial Cells,Pallidum,6,0.2222222222222222,0.16666666666666666,0.458231518246373
+condition@21,Endothelial Cells,Striatum,6,0.3333333333333333,0.16666666666666666,0.46495150090644377
+condition@21,Endothelial Cells,Thalamus,6,0.2222222222222222,0.16666666666666666,0.44986770877027427
+condition@21,Endothelial Cells,Vasculature,6,0.1111111111111111,0.3333333333333333,0.4437413096495937
+condition@21,Endothelial Cells,Ventricular system,6,0.0,0.3333333333333333,0.3877546526553692
+condition@21,Excitatory Neurons,All regions,6,0.0,0.0,0.38469370268809727
+condition@21,Excitatory Neurons,Cortex,6,0.0,0.16666666666666666,0.3900541678017457
+condition@21,Excitatory Neurons,Fiber tracts,1,,0.0,0.4468569909415795
+condition@21,Excitatory Neurons,Hippocampus,6,0.0,0.0,0.40771107725491246
+condition@21,Excitatory Neurons,Meningeal border/glia limitans,5,0.16666666666666666,0.4,0.4029834991499013
+condition@21,Excitatory Neurons,Olfactory areas,6,0.0,0.16666666666666666,0.38909977136313784
+condition@21,Excitatory Neurons,Striatum,6,0.2222222222222222,0.16666666666666666,0.3754356500402319
+condition@21,Excitatory Neurons,Vasculature,6,0.0,0.16666666666666666,0.3834081329764066
+condition@21,GABAergic Neurons,All regions,6,0.0,0.0,0.38828946096670025
+condition@21,GABAergic Neurons,Cortex,6,0.0,0.0,0.39660455759144986
+condition@21,GABAergic Neurons,Fiber tracts,6,0.0,0.16666666666666666,0.41027927784952495
+condition@21,GABAergic Neurons,Hippocampus,6,0.0,0.16666666666666666,0.3531228688793628
+condition@21,GABAergic Neurons,Hypothalamus,5,0.0,0.0,0.43135993467282335
+condition@21,GABAergic Neurons,Meningeal border/glia limitans,6,0.0,0.0,0.40686599522967276
+condition@21,GABAergic Neurons,Olfactory areas,6,0.0,0.16666666666666666,0.4003987795422345
+condition@21,GABAergic Neurons,Pallidum,5,0.0,0.2,0.39830305264542165
+condition@21,GABAergic Neurons,Striatum,6,0.0,0.0,0.3817624207956775
+condition@21,GABAergic Neurons,Thalamus,2,0.0,0.0,0.24430277357302937
+condition@21,GABAergic Neurons,Vasculature,3,0.0,0.3333333333333333,0.3631145751568443
+condition@21,GABAergic Neurons,Ventricular system,1,,0.0,0.28626481975895046
+condition@21,Immature Oligodendrocytes I,All regions,6,0.0,0.16666666666666666,0.40342025412463034
+condition@21,Immature Oligodendrocytes I,Cortex,6,0.0,0.0,0.4138127345594531
+condition@21,Immature Oligodendrocytes I,Fiber tracts,6,0.0,0.3333333333333333,0.39615618531851354
+condition@21,Immature Oligodendrocytes I,Hippocampus,6,0.0,0.0,0.41923131258898344
+condition@21,Immature Oligodendrocytes I,Hypothalamus,6,0.1111111111111111,0.3333333333333333,0.44447372401963947
+condition@21,Immature Oligodendrocytes I,Meningeal border/glia limitans,6,0.0,0.16666666666666666,0.3837693276170881
+condition@21,Immature Oligodendrocytes I,Olfactory areas,6,0.0,0.16666666666666666,0.3960049654547597
+condition@21,Immature Oligodendrocytes I,Pallidum,5,0.0,0.4,0.4326262899444421
+condition@21,Immature Oligodendrocytes I,Striatum,6,0.0,0.16666666666666666,0.4067818473748955
+condition@21,Immature Oligodendrocytes I,Thalamus,6,0.0,0.0,0.3724896083151806
+condition@21,Immature Oligodendrocytes I,Ventricular system,2,0.0,0.0,0.2713547542583239
+condition@21,Immature Oligodendrocytes II,All regions,6,0.0,0.0,0.3593172873349162
+condition@21,Immature Oligodendrocytes II,Cortex,6,0.0,0.0,0.3840266415658533
+condition@21,Immature Oligodendrocytes II,Fiber tracts,6,0.0,0.0,0.3772378492168249
+condition@21,Immature Oligodendrocytes II,Hypothalamus,5,0.0,0.0,0.35501605934245684
+condition@21,Immature Oligodendrocytes II,Meningeal border/glia limitans,1,,0.0,0.3316725770993497
+condition@21,Immature Oligodendrocytes II,Olfactory areas,2,0.0,0.0,0.3397950909612758
+condition@21,Immature Oligodendrocytes II,Pallidum,2,,0.0,0.30103559857610496
+condition@21,Immature Oligodendrocytes II,Striatum,4,0.0,0.0,0.3459680527624457
+condition@21,Immature Oligodendrocytes II,Thalamus,5,0.0,0.0,0.3165862628934283
+condition@21,Immature Oligodendrocytes III,All regions,6,0.0,0.0,0.35651724628037984
+condition@21,Immature Oligodendrocytes III,Cortex,1,,0.0,0.2960897894306965
+condition@21,Immature Oligodendrocytes III,Fiber tracts,6,0.0,0.3333333333333333,0.37495469024247835
+condition@21,Immature Oligodendrocytes III,Pallidum,2,0.0,0.0,0.26048509436140566
+condition@21,Immature Oligodendrocytes III,Thalamus,1,,0.0,0.24509228008729536
+condition@21,Medium Spiny Neurons,All regions,6,0.0,0.16666666666666666,0.40272636513350646
+condition@21,Medium Spiny Neurons,Striatum,6,0.0,0.16666666666666666,0.40361551055339656
+condition@21,Medium Spiny Neurons,Ventricular system,6,0.0,0.0,0.35748296787517225
+condition@21,Microglia,All regions,6,0.0,0.0,0.4165774701736444
+condition@21,Microglia,Cortex,6,0.0,0.0,0.42243377992795605
+condition@21,Microglia,Fiber tracts,6,0.0,0.0,0.4057183444571517
+condition@21,Microglia,Hippocampus,6,0.0,0.0,0.37089434545305194
+condition@21,Microglia,Hypothalamus,6,0.1111111111111111,0.16666666666666666,0.44797718655414687
+condition@21,Microglia,Meningeal border/glia limitans,6,0.0,0.0,0.41252455539424493
+condition@21,Microglia,Olfactory areas,6,0.0,0.16666666666666666,0.4215696385063847
+condition@21,Microglia,Pallidum,5,0.0,0.2,0.4115238394226681
+condition@21,Microglia,Striatum,6,0.1111111111111111,0.16666666666666666,0.4388066572168241
+condition@21,Microglia,Thalamus,6,0.0,0.0,0.38297787284017226
+condition@21,Microglia,Ventricular system,5,0.3333333333333333,0.4,0.4603740370385857
+condition@21,Neural Stem Cells,All regions,6,0.0,0.0,0.3058721891442741
+condition@21,Neural Stem Cells,Cortex,1,,0.0,0.23453445795859515
+condition@21,Neural Stem Cells,Fiber tracts,6,0.0,0.0,0.38333747565580095
+condition@21,Neural Stem Cells,Meningeal border/glia limitans,2,0.0,0.0,0.3609543561516205
+condition@21,Neural Stem Cells,Striatum,1,,0.0,0.27041034513407847
+condition@21,Neural Stem Cells,Ventricular system,6,0.0,0.0,0.2849604100338803
+condition@21,Neurons,All regions,6,0.0,0.16666666666666666,0.396524698836708
+condition@21,Neurons,Cortex,6,0.0,0.16666666666666666,0.4087575974704338
+condition@21,Neurons,Fiber tracts,6,0.0,0.0,0.38174976712886305
+condition@21,Neurons,Hippocampus,6,0.0,0.0,0.4061713747453566
+condition@21,Neurons,Hypothalamus,6,0.3333333333333333,0.3333333333333333,0.4570064686417974
+condition@21,Neurons,Meningeal border/glia limitans,6,0.0,0.16666666666666666,0.4124310961092637
+condition@21,Neurons,Olfactory areas,6,0.0,0.16666666666666666,0.4293684509121829
+condition@21,Neurons,Pallidum,6,0.0,0.16666666666666666,0.41245149504716544
+condition@21,Neurons,Striatum,6,0.0,0.3333333333333333,0.4017410916037419
+condition@21,Neurons,Thalamus,6,0.0,0.0,0.34065525242789846
+condition@21,Neurons,Vasculature,6,0.2222222222222222,0.3333333333333333,0.4640437932670622
+condition@21,Neurons,Ventricular system,5,0.0,0.0,0.3718275913303685
+condition@21,Oligodendrocytes,All regions,6,0.0,0.0,0.4043228037235491
+condition@21,Oligodendrocytes,Cortex,6,0.0,0.16666666666666666,0.4113761789723484
+condition@21,Oligodendrocytes,Fiber tracts,6,0.0,0.0,0.4009386670697499
+condition@21,Oligodendrocytes,Hippocampus,6,0.1111111111111111,0.3333333333333333,0.4320709348075807
+condition@21,Oligodendrocytes,Hypothalamus,6,0.1111111111111111,0.3333333333333333,0.44253909152879395
+condition@21,Oligodendrocytes,Meningeal border/glia limitans,6,0.0,0.0,0.38161321111925733
+condition@21,Oligodendrocytes,Olfactory areas,6,0.1111111111111111,0.16666666666666666,0.42512218631705895
+condition@21,Oligodendrocytes,Pallidum,6,0.0,0.16666666666666666,0.40530501306805533
+condition@21,Oligodendrocytes,Striatum,6,0.0,0.16666666666666666,0.4088506773257056
+condition@21,Oligodendrocytes,Thalamus,6,0.0,0.0,0.38081171030776845
+condition@21,Oligodendrocytes,Vasculature,6,0.1111111111111111,0.16666666666666666,0.3971693036580411
+condition@21,Oligodendrocytes,Ventricular system,6,0.0,0.16666666666666666,0.39854688269294725
+condition@60,Astrocytes,All regions,6,0.1111111111111111,0.3333333333333333,0.4397734654033223
+condition@60,Astrocytes,Cortex,6,0.2222222222222222,0.16666666666666666,0.42661160797657205
+condition@60,Astrocytes,Fiber tracts,6,0.2222222222222222,0.16666666666666666,0.4313915123018268
+condition@60,Astrocytes,Hippocampus,6,0.2222222222222222,0.3333333333333333,0.44449950297208235
+condition@60,Astrocytes,Hypothalamus,6,0.4444444444444444,0.6666666666666666,0.47644397297813823
+condition@60,Astrocytes,Meningeal border/glia limitans,6,0.0,0.16666666666666666,0.42870032270790165
+condition@60,Astrocytes,Olfactory areas,6,0.1111111111111111,0.16666666666666666,0.43869679512250875
+condition@60,Astrocytes,Pallidum,5,0.0,0.2,0.40088076726978167
+condition@60,Astrocytes,Striatum,6,0.2222222222222222,0.16666666666666666,0.4637061214323686
+condition@60,Astrocytes,Thalamus,6,0.1111111111111111,0.3333333333333333,0.44648064875505783
+condition@60,Astrocytes,Vasculature,6,0.1111111111111111,0.3333333333333333,0.43551475378097154
+condition@60,Astrocytes,Ventricular system,6,0.0,0.0,0.41749217529876176
+condition@60,Endothelial Cells,All regions,6,0.1111111111111111,0.3333333333333333,0.45551992538132186
+condition@60,Endothelial Cells,Cortex,6,0.2222222222222222,0.3333333333333333,0.46317475945072767
+condition@60,Endothelial Cells,Fiber tracts,6,0.4444444444444444,0.3333333333333333,0.4774479320909569
+condition@60,Endothelial Cells,Hippocampus,6,0.1111111111111111,0.16666666666666666,0.4422415997572921
+condition@60,Endothelial Cells,Hypothalamus,6,0.2222222222222222,0.5,0.46146113667685446
+condition@60,Endothelial Cells,Meningeal border/glia limitans,6,0.2222222222222222,0.16666666666666666,0.46353227339851516
+condition@60,Endothelial Cells,Olfactory areas,6,0.1111111111111111,0.5,0.4600644599994285
+condition@60,Endothelial Cells,Pallidum,5,0.16666666666666666,0.2,0.4492944389033151
+condition@60,Endothelial Cells,Striatum,6,0.2222222222222222,0.16666666666666666,0.46698386985171453
+condition@60,Endothelial Cells,Thalamus,6,0.3333333333333333,0.5,0.4656660208024644
+condition@60,Endothelial Cells,Vasculature,6,0.3333333333333333,0.3333333333333333,0.4725350976253657
+condition@60,Endothelial Cells,Ventricular system,6,0.0,0.16666666666666666,0.4039966321954802
+condition@60,Excitatory Neurons,All regions,6,0.1111111111111111,0.3333333333333333,0.44070963153911635
+condition@60,Excitatory Neurons,Cortex,6,0.2222222222222222,0.3333333333333333,0.4531829386611666
+condition@60,Excitatory Neurons,Fiber tracts,1,,0.0,0.2905686138487874
+condition@60,Excitatory Neurons,Hippocampus,6,0.0,0.16666666666666666,0.3932210444628524
+condition@60,Excitatory Neurons,Meningeal border/glia limitans,6,0.1111111111111111,0.16666666666666666,0.40439003492708037
+condition@60,Excitatory Neurons,Olfactory areas,6,0.2222222222222222,0.3333333333333333,0.4370518216187886
+condition@60,Excitatory Neurons,Striatum,6,0.2222222222222222,0.16666666666666666,0.4156126741750515
+condition@60,Excitatory Neurons,Vasculature,6,0.0,0.0,0.40043085512195903
+condition@60,GABAergic Neurons,All regions,6,0.0,0.16666666666666666,0.4101626382537123
+condition@60,GABAergic Neurons,Cortex,6,0.0,0.16666666666666666,0.4055220481443758
+condition@60,GABAergic Neurons,Fiber tracts,6,0.1111111111111111,0.3333333333333333,0.4216970064348012
+condition@60,GABAergic Neurons,Hippocampus,6,0.0,0.0,0.367779426438386
+condition@60,GABAergic Neurons,Hypothalamus,4,0.6666666666666666,0.5,0.49912816976857105
+condition@60,GABAergic Neurons,Meningeal border/glia limitans,6,0.0,0.16666666666666666,0.4140982737521299
+condition@60,GABAergic Neurons,Olfactory areas,6,0.0,0.0,0.4005787346514636
+condition@60,GABAergic Neurons,Pallidum,4,0.0,0.0,0.3995107002446438
+condition@60,GABAergic Neurons,Striatum,6,0.2222222222222222,0.3333333333333333,0.4281109234522525
+condition@60,GABAergic Neurons,Thalamus,1,,0.0,0.3493205773999653
+condition@60,GABAergic Neurons,Vasculature,5,0.0,0.2,0.3859481143741765
+condition@60,Immature Oligodendrocytes I,All regions,6,0.1111111111111111,0.16666666666666666,0.4187122114748291
+condition@60,Immature Oligodendrocytes I,Cortex,6,0.1111111111111111,0.3333333333333333,0.42540368592776323
+condition@60,Immature Oligodendrocytes I,Fiber tracts,6,0.2222222222222222,0.16666666666666666,0.4271494879288796
+condition@60,Immature Oligodendrocytes I,Hippocampus,6,0.0,0.0,0.37484907883949353
+condition@60,Immature Oligodendrocytes I,Hypothalamus,6,0.2222222222222222,0.3333333333333333,0.44558823439435313
+condition@60,Immature Oligodendrocytes I,Meningeal border/glia limitans,6,0.1111111111111111,0.16666666666666666,0.4205787017429396
+condition@60,Immature Oligodendrocytes I,Olfactory areas,6,0.1111111111111111,0.16666666666666666,0.40636107603379235
+condition@60,Immature Oligodendrocytes I,Pallidum,4,0.0,0.0,0.34202619465035844
+condition@60,Immature Oligodendrocytes I,Striatum,6,0.1111111111111111,0.16666666666666666,0.42471433482869264
+condition@60,Immature Oligodendrocytes I,Thalamus,6,0.0,0.16666666666666666,0.40527464456807843
+condition@60,Immature Oligodendrocytes I,Ventricular system,2,0.0,0.0,0.35000856973482314
+condition@60,Immature Oligodendrocytes II,All regions,6,0.0,0.16666666666666666,0.3786489599564871
+condition@60,Immature Oligodendrocytes II,Cortex,6,0.0,0.16666666666666666,0.36854883998112364
+condition@60,Immature Oligodendrocytes II,Fiber tracts,6,0.0,0.16666666666666666,0.39140713126313814
+condition@60,Immature Oligodendrocytes II,Hippocampus,1,,0.0,0.18990932990499929
+condition@60,Immature Oligodendrocytes II,Hypothalamus,3,,0.3333333333333333,0.49469682469895676
+condition@60,Immature Oligodendrocytes II,Meningeal border/glia limitans,1,,1.0,0.5060235102635119
+condition@60,Immature Oligodendrocytes II,Olfactory areas,3,0.0,0.0,0.39824745853612065
+condition@60,Immature Oligodendrocytes II,Pallidum,1,,0.0,0.4524570685079456
+condition@60,Immature Oligodendrocytes II,Striatum,3,0.0,0.3333333333333333,0.4027566806752592
+condition@60,Immature Oligodendrocytes II,Thalamus,6,0.0,0.0,0.38726864524459925
+condition@60,Medium Spiny Neurons,All regions,6,0.2222222222222222,0.3333333333333333,0.4342755211187887
+condition@60,Medium Spiny Neurons,Olfactory areas,1,,0.0,0.2709835121777079
+condition@60,Medium Spiny Neurons,Pallidum,1,,0.0,0.24527863071570494
+condition@60,Medium Spiny Neurons,Striatum,6,0.2222222222222222,0.3333333333333333,0.4343946455389412
+condition@60,Medium Spiny Neurons,Ventricular system,5,0.3333333333333333,0.2,0.43211341523340857
+condition@60,Microglia,All regions,6,0.3333333333333333,0.3333333333333333,0.46800405275299
+condition@60,Microglia,Cortex,6,0.1111111111111111,0.3333333333333333,0.4421981747564144
+condition@60,Microglia,Fiber tracts,6,0.4444444444444444,0.3333333333333333,0.4774504545780392
+condition@60,Microglia,Hippocampus,6,0.0,0.0,0.36754258025841585
+condition@60,Microglia,Hypothalamus,6,0.6666666666666666,0.6666666666666666,0.5202323167055611
+condition@60,Microglia,Meningeal border/glia limitans,6,0.1111111111111111,0.16666666666666666,0.42798461273460675
+condition@60,Microglia,Olfactory areas,6,0.2222222222222222,0.3333333333333333,0.4512954299340999
+condition@60,Microglia,Pallidum,5,0.16666666666666666,0.4,0.42172043908924206
+condition@60,Microglia,Striatum,6,0.3333333333333333,0.3333333333333333,0.45263876266483555
+condition@60,Microglia,Thalamus,6,0.6666666666666666,0.8333333333333334,0.5223063367227408
+condition@60,Microglia,Vasculature,3,0.0,0.3333333333333333,0.41582312531894733
+condition@60,Microglia,Ventricular system,6,0.3333333333333333,0.16666666666666666,0.44972901628125594
+condition@60,Neural Stem Cells,All regions,6,0.6666666666666666,0.6666666666666666,0.5339511592230566
+condition@60,Neural Stem Cells,Fiber tracts,4,0.0,0.25,0.36017129852640906
+condition@60,Neural Stem Cells,Hippocampus,2,,0.0,0.36393127324949825
+condition@60,Neural Stem Cells,Meningeal border/glia limitans,1,,0.0,0.2642820183501985
+condition@60,Neural Stem Cells,Striatum,2,,0.5,0.4447230936750399
+condition@60,Neural Stem Cells,Thalamus,1,,0.0,0.3276418330465995
+condition@60,Neural Stem Cells,Ventricular system,6,1.0,0.6666666666666666,0.5841003358705471
+condition@60,Neurons,All regions,6,0.1111111111111111,0.3333333333333333,0.4210263794260285
+condition@60,Neurons,Cortex,6,0.0,0.3333333333333333,0.4176189376576418
+condition@60,Neurons,Fiber tracts,6,0.2222222222222222,0.3333333333333333,0.42455582705230843
+condition@60,Neurons,Hippocampus,6,0.0,0.3333333333333333,0.4279486026611341
+condition@60,Neurons,Hypothalamus,6,0.2222222222222222,0.3333333333333333,0.4307152660324302
+condition@60,Neurons,Meningeal border/glia limitans,6,0.0,0.0,0.3889804301107503
+condition@60,Neurons,Olfactory areas,6,0.0,0.16666666666666666,0.3792039886398398
+condition@60,Neurons,Pallidum,5,0.0,0.0,0.3602072315298523
+condition@60,Neurons,Striatum,6,0.4444444444444444,0.3333333333333333,0.47302934294379595
+condition@60,Neurons,Thalamus,6,0.1111111111111111,0.16666666666666666,0.4040119155498998
+condition@60,Neurons,Vasculature,5,0.0,0.2,0.4069509007036617
+condition@60,Neurons,Ventricular system,6,0.0,0.0,0.41690638763618154
+condition@60,Oligodendrocytes,All regions,6,0.3333333333333333,0.3333333333333333,0.43297701574164793
+condition@60,Oligodendrocytes,Cortex,6,0.4444444444444444,0.3333333333333333,0.4387869772788224
+condition@60,Oligodendrocytes,Fiber tracts,6,0.3333333333333333,0.3333333333333333,0.42653944716146913
+condition@60,Oligodendrocytes,Hippocampus,6,0.2222222222222222,0.3333333333333333,0.403320252848379
+condition@60,Oligodendrocytes,Hypothalamus,6,0.4444444444444444,0.3333333333333333,0.4602461328286305
+condition@60,Oligodendrocytes,Meningeal border/glia limitans,6,0.3333333333333333,0.16666666666666666,0.4087989199867705
+condition@60,Oligodendrocytes,Olfactory areas,6,0.3333333333333333,0.3333333333333333,0.43438038115830063
+condition@60,Oligodendrocytes,Pallidum,5,0.0,0.2,0.3532478191956521
+condition@60,Oligodendrocytes,Striatum,6,0.3333333333333333,0.3333333333333333,0.4160763709526531
+condition@60,Oligodendrocytes,Thalamus,6,0.4444444444444444,0.3333333333333333,0.44843559037599806
+condition@60,Oligodendrocytes,Vasculature,6,0.3333333333333333,0.5,0.44216203279957683
+condition@60,Oligodendrocytes,Ventricular system,6,0.3333333333333333,0.3333333333333333,0.408855872688278
+condition 21->60,Astrocytes,All regions,6,0.7777777777777778,0.6666666666666666,0.5391341752914255
+condition 21->60,Astrocytes,Cortex,6,0.7777777777777778,0.5,0.5388928213938673
+condition 21->60,Astrocytes,Fiber tracts,6,0.7777777777777778,0.6666666666666666,0.5669838391279529
+condition 21->60,Astrocytes,Hippocampus,6,0.8888888888888888,0.5,0.528826795999492
+condition 21->60,Astrocytes,Hypothalamus,6,0.6666666666666666,0.3333333333333333,0.5277765741988855
+condition 21->60,Astrocytes,Meningeal border/glia limitans,6,0.7777777777777778,0.5,0.5355653450576702
+condition 21->60,Astrocytes,Olfactory areas,6,0.7777777777777778,0.5,0.5392413996358587
+condition 21->60,Astrocytes,Pallidum,5,0.5,0.4,0.48078034251846286
+condition 21->60,Astrocytes,Striatum,6,0.7777777777777778,0.5,0.5387391163827304
+condition 21->60,Astrocytes,Thalamus,6,0.6666666666666666,0.5,0.5483461114626437
+condition 21->60,Astrocytes,Vasculature,6,0.7777777777777778,0.5,0.558887251552782
+condition 21->60,Astrocytes,Ventricular system,6,0.6666666666666666,0.6666666666666666,0.5277909709172024
+condition 21->60,Endothelial Cells,All regions,6,0.7777777777777778,0.5,0.5285035052074881
+condition 21->60,Endothelial Cells,Cortex,6,0.7777777777777778,0.5,0.5274986162734017
+condition 21->60,Endothelial Cells,Fiber tracts,6,0.7777777777777778,0.5,0.551979941731512
+condition 21->60,Endothelial Cells,Hippocampus,6,0.6666666666666666,0.5,0.5360977956569808
+condition 21->60,Endothelial Cells,Hypothalamus,6,0.6666666666666666,0.5,0.5129834029275985
+condition 21->60,Endothelial Cells,Meningeal border/glia limitans,6,0.7777777777777778,0.5,0.5233134039438717
+condition 21->60,Endothelial Cells,Olfactory areas,6,0.7777777777777778,0.6666666666666666,0.5398869144502725
+condition 21->60,Endothelial Cells,Pallidum,5,0.6666666666666666,0.4,0.49449551549984266
+condition 21->60,Endothelial Cells,Striatum,6,0.6666666666666666,0.5,0.5364247224275839
+condition 21->60,Endothelial Cells,Thalamus,6,0.6666666666666666,0.5,0.5310375646159847
+condition 21->60,Endothelial Cells,Vasculature,6,0.8888888888888888,0.5,0.535212991747442
+condition 21->60,Endothelial Cells,Ventricular system,6,0.5555555555555556,0.6666666666666666,0.5073136826275654
+condition 21->60,Excitatory Neurons,All regions,6,0.6666666666666666,0.5,0.5211628319296878
+condition 21->60,Excitatory Neurons,Cortex,6,0.8888888888888888,0.5,0.5279631147298534
+condition 21->60,Excitatory Neurons,Fiber tracts,1,,0.0,0.3757439695472308
+condition 21->60,Excitatory Neurons,Hippocampus,6,1.0,0.5,0.5311553903963228
+condition 21->60,Excitatory Neurons,Meningeal border/glia limitans,6,0.7777777777777778,0.5,0.5255811383463103
+condition 21->60,Excitatory Neurons,Olfactory areas,6,0.6666666666666666,0.3333333333333333,0.5083738927513747
+condition 21->60,Excitatory Neurons,Striatum,6,0.4444444444444444,0.3333333333333333,0.4822269735243349
+condition 21->60,Excitatory Neurons,Vasculature,6,1.0,0.5,0.5325426440698761
+condition 21->60,GABAergic Neurons,All regions,6,0.7777777777777778,0.6666666666666666,0.5201968833530285
+condition 21->60,GABAergic Neurons,Cortex,6,0.8888888888888888,0.8333333333333334,0.5299934804850396
+condition 21->60,GABAergic Neurons,Fiber tracts,6,0.8888888888888888,0.6666666666666666,0.569410290878979
+condition 21->60,GABAergic Neurons,Hippocampus,6,0.4444444444444444,0.3333333333333333,0.4872794044665103
+condition 21->60,GABAergic Neurons,Hypothalamus,4,0.3333333333333333,0.5,0.46879870471525487
+condition 21->60,GABAergic Neurons,Meningeal border/glia limitans,6,1.0,0.6666666666666666,0.5137337129541052
+condition 21->60,GABAergic Neurons,Olfactory areas,6,0.6666666666666666,0.8333333333333334,0.5255571003227276
+condition 21->60,GABAergic Neurons,Pallidum,4,0.3333333333333333,0.5,0.5013934332593886
+condition 21->60,GABAergic Neurons,Striatum,6,0.3333333333333333,0.16666666666666666,0.49521653265486104
+condition 21->60,GABAergic Neurons,Thalamus,1,,0.0,0.44536392157183313
+condition 21->60,GABAergic Neurons,Vasculature,5,1.0,0.4,0.5416117650479512
+condition 21->60,Immature Oligodendrocytes I,All regions,6,0.6666666666666666,0.5,0.5225001388510618
+condition 21->60,Immature Oligodendrocytes I,Cortex,6,0.8888888888888888,0.5,0.5322266737353635
+condition 21->60,Immature Oligodendrocytes I,Fiber tracts,6,0.6666666666666666,0.5,0.5352597804778344
+condition 21->60,Immature Oligodendrocytes I,Hippocampus,6,0.6666666666666666,0.5,0.5020924539859586
+condition 21->60,Immature Oligodendrocytes I,Hypothalamus,6,0.5555555555555556,0.5,0.4956290177260165
+condition 21->60,Immature Oligodendrocytes I,Meningeal border/glia limitans,6,0.7777777777777778,0.5,0.5203395007457431
+condition 21->60,Immature Oligodendrocytes I,Olfactory areas,6,0.5555555555555556,0.5,0.5122745233243094
+condition 21->60,Immature Oligodendrocytes I,Pallidum,4,0.3333333333333333,0.5,0.48430340049060944
+condition 21->60,Immature Oligodendrocytes I,Striatum,6,0.7777777777777778,0.5,0.5317484835773828
+condition 21->60,Immature Oligodendrocytes I,Thalamus,6,0.6666666666666666,0.3333333333333333,0.5316195640474742
+condition 21->60,Immature Oligodendrocytes I,Ventricular system,2,0.0,0.0,0.42425402273127566
+condition 21->60,Immature Oligodendrocytes II,All regions,6,1.0,1.0,0.5340120229183168
+condition 21->60,Immature Oligodendrocytes II,Cortex,6,0.8888888888888888,0.8333333333333334,0.552075704592585
+condition 21->60,Immature Oligodendrocytes II,Fiber tracts,6,0.8888888888888888,0.6666666666666666,0.5336978368655053
+condition 21->60,Immature Oligodendrocytes II,Hippocampus,1,,1.0,0.5756745945474685
+condition 21->60,Immature Oligodendrocytes II,Hypothalamus,3,,0.6666666666666666,0.5911445791442937
+condition 21->60,Immature Oligodendrocytes II,Meningeal border/glia limitans,1,,1.0,0.58988698489044
+condition 21->60,Immature Oligodendrocytes II,Olfactory areas,3,0.5,0.3333333333333333,0.4970545158057004
+condition 21->60,Immature Oligodendrocytes II,Pallidum,1,,1.0,0.5300904328633892
+condition 21->60,Immature Oligodendrocytes II,Striatum,3,0.5,0.6666666666666666,0.5208312716023943
+condition 21->60,Immature Oligodendrocytes II,Thalamus,6,1.0,0.5,0.5465400860871111
+condition 21->60,Immature Oligodendrocytes III,All regions,5,0.6666666666666666,0.4,0.4820384025536331
+condition 21->60,Immature Oligodendrocytes III,Cortex,1,,0.0,0.437518220644602
+condition 21->60,Immature Oligodendrocytes III,Fiber tracts,5,0.3333333333333333,0.2,0.47913216455681196
+condition 21->60,Immature Oligodendrocytes III,Pallidum,1,,1.0,0.5887342427371819
+condition 21->60,Immature Oligodendrocytes III,Thalamus,2,0.0,0.5,0.49761149008475214
+condition 21->60,Medium Spiny Neurons,All regions,6,0.6666666666666666,0.3333333333333333,0.5022161425951127
+condition 21->60,Medium Spiny Neurons,Olfactory areas,1,,0.0,0.48631393410185575
+condition 21->60,Medium Spiny Neurons,Pallidum,1,,0.0,0.491904727922255
+condition 21->60,Medium Spiny Neurons,Striatum,6,0.6666666666666666,0.3333333333333333,0.5026536026580682
+condition 21->60,Medium Spiny Neurons,Ventricular system,5,0.5,0.4,0.4177025885163915
+condition 21->60,Microglia,All regions,6,0.6666666666666666,0.5,0.5518334470413576
+condition 21->60,Microglia,Cortex,6,0.8888888888888888,0.5,0.547267026040204
+condition 21->60,Microglia,Fiber tracts,6,0.8888888888888888,0.5,0.5877776085019706
+condition 21->60,Microglia,Hippocampus,6,0.7777777777777778,0.5,0.5242325722927011
+condition 21->60,Microglia,Hypothalamus,6,0.6666666666666666,0.5,0.5252386823259411
+condition 21->60,Microglia,Meningeal border/glia limitans,6,0.7777777777777778,0.6666666666666666,0.558164741637211
+condition 21->60,Microglia,Olfactory areas,6,0.7777777777777778,0.5,0.5312904205676324
+condition 21->60,Microglia,Pallidum,5,0.5,0.2,0.5237265261090115
+condition 21->60,Microglia,Striatum,6,0.6666666666666666,0.5,0.5322696873173793
+condition 21->60,Microglia,Thalamus,6,0.6666666666666666,0.5,0.5763720768200445
+condition 21->60,Microglia,Vasculature,3,0.5,0.6666666666666666,0.5835537849935029
+condition 21->60,Microglia,Ventricular system,6,0.6666666666666666,0.5,0.5477061335635035
+condition 21->60,Neural Stem Cells,All regions,6,0.0,0.5,0.41931739650289424
+condition 21->60,Neural Stem Cells,Fiber tracts,4,0.5,0.5,0.5027817422469874
+condition 21->60,Neural Stem Cells,Hippocampus,2,,0.5,0.48708172787504694
+condition 21->60,Neural Stem Cells,Meningeal border/glia limitans,1,,1.0,0.5515333411148723
+condition 21->60,Neural Stem Cells,Striatum,2,,1.0,0.5398743703131297
+condition 21->60,Neural Stem Cells,Thalamus,1,,0.0,0.4904833765636927
+condition 21->60,Neural Stem Cells,Ventricular system,6,0.0,0.5,0.408218916878672
+condition 21->60,Neurons,All regions,6,0.3333333333333333,0.16666666666666666,0.4734666494719795
+condition 21->60,Neurons,Cortex,6,1.0,0.5,0.5357904817914526
+condition 21->60,Neurons,Fiber tracts,6,0.6666666666666666,0.5,0.5362934107602552
+condition 21->60,Neurons,Hippocampus,6,0.8888888888888888,0.8333333333333334,0.5359653324536432
+condition 21->60,Neurons,Hypothalamus,6,0.3333333333333333,0.16666666666666666,0.42833870233339394
+condition 21->60,Neurons,Meningeal border/glia limitans,6,0.2222222222222222,0.3333333333333333,0.45678323404994003
+condition 21->60,Neurons,Olfactory areas,6,0.1111111111111111,0.16666666666666666,0.45795772155865294
+condition 21->60,Neurons,Pallidum,5,0.0,0.2,0.43394930165437096
+condition 21->60,Neurons,Striatum,6,0.3333333333333333,0.3333333333333333,0.48352768558534187
+condition 21->60,Neurons,Thalamus,6,0.6666666666666666,0.5,0.5020710688279736
+condition 21->60,Neurons,Vasculature,5,0.3333333333333333,0.2,0.45715973730645276
+condition 21->60,Neurons,Ventricular system,6,0.3333333333333333,0.3333333333333333,0.4897731483188534
+condition 21->60,Oligodendrocytes,All regions,6,0.7777777777777778,0.5,0.5448126888156538
+condition 21->60,Oligodendrocytes,Cortex,6,0.7777777777777778,0.5,0.5458557090989473
+condition 21->60,Oligodendrocytes,Fiber tracts,6,0.7777777777777778,0.5,0.5533818459376069
+condition 21->60,Oligodendrocytes,Hippocampus,6,0.7777777777777778,0.5,0.540220779895063
+condition 21->60,Oligodendrocytes,Hypothalamus,6,0.6666666666666666,0.5,0.5342445420391843
+condition 21->60,Oligodendrocytes,Meningeal border/glia limitans,6,0.7777777777777778,0.5,0.542748993991403
+condition 21->60,Oligodendrocytes,Olfactory areas,6,0.6666666666666666,0.5,0.5375385685342029
+condition 21->60,Oligodendrocytes,Pallidum,5,0.5,0.4,0.4701378824851428
+condition 21->60,Oligodendrocytes,Striatum,6,0.7777777777777778,0.5,0.5435718340842715
+condition 21->60,Oligodendrocytes,Thalamus,6,0.6666666666666666,0.5,0.5405519139974596
+condition 21->60,Oligodendrocytes,Vasculature,6,0.7777777777777778,0.5,0.5793391334623489
+condition 21->60,Oligodendrocytes,Ventricular system,6,0.7777777777777778,0.5,0.5273789587970209
+condition 60->21,Astrocytes,All regions,6,0.7777777777777778,0.6666666666666666,0.5321229304130306
+condition 60->21,Astrocytes,Cortex,6,0.7777777777777778,0.6666666666666666,0.5391727049488201
+condition 60->21,Astrocytes,Fiber tracts,6,0.7777777777777778,0.6666666666666666,0.541780382258044
+condition 60->21,Astrocytes,Hippocampus,6,0.6666666666666666,0.6666666666666666,0.5237479889606244
+condition 60->21,Astrocytes,Hypothalamus,6,0.5555555555555556,0.3333333333333333,0.522631162869119
+condition 60->21,Astrocytes,Meningeal border/glia limitans,6,1.0,0.6666666666666666,0.5382722861420742
+condition 60->21,Astrocytes,Olfactory areas,6,0.7777777777777778,0.6666666666666666,0.5416234152134548
+condition 60->21,Astrocytes,Pallidum,6,1.0,0.8333333333333334,0.5499790312318483
+condition 60->21,Astrocytes,Striatum,6,0.6666666666666666,0.5,0.5212459960134029
+condition 60->21,Astrocytes,Thalamus,6,0.5555555555555556,0.5,0.5231039666887126
+condition 60->21,Astrocytes,Vasculature,6,0.7777777777777778,0.5,0.5240512704557622
+condition 60->21,Astrocytes,Ventricular system,6,0.6666666666666666,0.6666666666666666,0.513471417999719
+condition 60->21,Endothelial Cells,All regions,6,1.0,0.6666666666666666,0.5322201456531824
+condition 60->21,Endothelial Cells,Cortex,6,1.0,0.6666666666666666,0.5407164444398399
+condition 60->21,Endothelial Cells,Fiber tracts,6,1.0,0.8333333333333334,0.5512061203944888
+condition 60->21,Endothelial Cells,Hippocampus,6,1.0,0.8333333333333334,0.5499071422821016
+condition 60->21,Endothelial Cells,Hypothalamus,6,0.8888888888888888,0.6666666666666666,0.5434217046794724
+condition 60->21,Endothelial Cells,Meningeal border/glia limitans,6,1.0,0.6666666666666666,0.5558372497042899
+condition 60->21,Endothelial Cells,Olfactory areas,6,0.5555555555555556,0.6666666666666666,0.5247035725013919
+condition 60->21,Endothelial Cells,Pallidum,6,0.8888888888888888,0.5,0.5390090568400703
+condition 60->21,Endothelial Cells,Striatum,6,0.7777777777777778,0.6666666666666666,0.5353729541569661
+condition 60->21,Endothelial Cells,Thalamus,6,0.5555555555555556,0.5,0.5130681051550268
+condition 60->21,Endothelial Cells,Vasculature,6,1.0,0.6666666666666666,0.5481978341139523
+condition 60->21,Endothelial Cells,Ventricular system,6,0.3333333333333333,0.5,0.4873160202515067
+condition 60->21,Excitatory Neurons,All regions,6,0.6666666666666666,0.5,0.5117848638029534
+condition 60->21,Excitatory Neurons,Cortex,6,0.6666666666666666,0.5,0.5183026231552558
+condition 60->21,Excitatory Neurons,Fiber tracts,1,,0.0,0.4626705127875891
+condition 60->21,Excitatory Neurons,Hippocampus,6,0.8888888888888888,0.8333333333333334,0.5368756917941243
+condition 60->21,Excitatory Neurons,Meningeal border/glia limitans,5,0.5,0.6,0.4892510267155645
+condition 60->21,Excitatory Neurons,Olfactory areas,6,0.4444444444444444,0.6666666666666666,0.4992275514623785
+condition 60->21,Excitatory Neurons,Striatum,6,0.4444444444444444,0.3333333333333333,0.47724960412049966
+condition 60->21,Excitatory Neurons,Vasculature,6,0.6666666666666666,0.6666666666666666,0.5458017561798013
+condition 60->21,GABAergic Neurons,All regions,6,0.6666666666666666,0.3333333333333333,0.5193317740328914
+condition 60->21,GABAergic Neurons,Cortex,6,0.7777777777777778,0.6666666666666666,0.5299403646243007
+condition 60->21,GABAergic Neurons,Fiber tracts,6,0.5555555555555556,0.5,0.5084958030961455
+condition 60->21,GABAergic Neurons,Hippocampus,6,0.7777777777777778,0.6666666666666666,0.5314692425946791
+condition 60->21,GABAergic Neurons,Hypothalamus,5,0.5,0.4,0.5153379863145252
+condition 60->21,GABAergic Neurons,Meningeal border/glia limitans,6,1.0,1.0,0.5504305551323346
+condition 60->21,GABAergic Neurons,Olfactory areas,6,0.7777777777777778,0.6666666666666666,0.5314376484208497
+condition 60->21,GABAergic Neurons,Pallidum,5,0.3333333333333333,0.2,0.4604446437276238
+condition 60->21,GABAergic Neurons,Striatum,6,0.5555555555555556,0.5,0.5083738623564668
+condition 60->21,GABAergic Neurons,Thalamus,2,0.0,0.5,0.4938336928186099
+condition 60->21,GABAergic Neurons,Vasculature,3,1.0,1.0,0.5628993113101203
+condition 60->21,GABAergic Neurons,Ventricular system,1,,0.0,0.2784972904186972
+condition 60->21,Immature Oligodendrocytes I,All regions,6,0.8888888888888888,0.5,0.5205308096455781
+condition 60->21,Immature Oligodendrocytes I,Cortex,6,0.6666666666666666,0.6666666666666666,0.5142344359937124
+condition 60->21,Immature Oligodendrocytes I,Fiber tracts,6,1.0,0.6666666666666666,0.5417889298347002
+condition 60->21,Immature Oligodendrocytes I,Hippocampus,6,0.5555555555555556,0.3333333333333333,0.5068486100406203
+condition 60->21,Immature Oligodendrocytes I,Hypothalamus,6,1.0,0.5,0.5510908740505671
+condition 60->21,Immature Oligodendrocytes I,Meningeal border/glia limitans,6,0.7777777777777778,0.5,0.5191266527004254
+condition 60->21,Immature Oligodendrocytes I,Olfactory areas,6,0.3333333333333333,0.6666666666666666,0.4954098101746984
+condition 60->21,Immature Oligodendrocytes I,Pallidum,5,1.0,0.8,0.5409333414920965
+condition 60->21,Immature Oligodendrocytes I,Striatum,6,0.6666666666666666,0.6666666666666666,0.5053869055708846
+condition 60->21,Immature Oligodendrocytes I,Thalamus,6,0.4444444444444444,0.3333333333333333,0.4972169980838706
+condition 60->21,Immature Oligodendrocytes I,Ventricular system,2,1.0,0.5,0.6253299033434087
+condition 60->21,Immature Oligodendrocytes II,All regions,6,0.8888888888888888,0.8333333333333334,0.5255253249623089
+condition 60->21,Immature Oligodendrocytes II,Cortex,6,0.3333333333333333,0.5,0.504683913664088
+condition 60->21,Immature Oligodendrocytes II,Fiber tracts,6,0.7777777777777778,0.6666666666666666,0.5341620048661856
+condition 60->21,Immature Oligodendrocytes II,Hypothalamus,5,0.0,0.4,0.42640995020354805
+condition 60->21,Immature Oligodendrocytes II,Meningeal border/glia limitans,1,,1.0,0.6420602354128074
+condition 60->21,Immature Oligodendrocytes II,Olfactory areas,2,1.0,1.0,0.578065277920148
+condition 60->21,Immature Oligodendrocytes II,Pallidum,2,,0.5,0.5156593714469895
+condition 60->21,Immature Oligodendrocytes II,Striatum,4,0.25,0.5,0.4730397059299497
+condition 60->21,Immature Oligodendrocytes II,Thalamus,5,1.0,0.6,0.5423789923112372
+condition 60->21,Immature Oligodendrocytes III,All regions,6,0.5555555555555556,0.5,0.5078233509169873
+condition 60->21,Immature Oligodendrocytes III,Cortex,1,,1.0,0.6376204971879607
+condition 60->21,Immature Oligodendrocytes III,Fiber tracts,6,1.0,0.5,0.542411670098974
+condition 60->21,Immature Oligodendrocytes III,Pallidum,2,0.0,0.5,0.4797461496724488
+condition 60->21,Immature Oligodendrocytes III,Thalamus,1,,0.0,0.36119802020142033
+condition 60->21,Medium Spiny Neurons,All regions,6,0.6666666666666666,0.6666666666666666,0.520745834244793
+condition 60->21,Medium Spiny Neurons,Striatum,6,0.6666666666666666,0.5,0.5200234642706567
+condition 60->21,Medium Spiny Neurons,Ventricular system,6,0.7777777777777778,0.6666666666666666,0.5855955660884841
+condition 60->21,Microglia,All regions,6,0.8888888888888888,0.8333333333333334,0.5416748267147727
+condition 60->21,Microglia,Cortex,6,1.0,0.6666666666666666,0.541021893628422
+condition 60->21,Microglia,Fiber tracts,6,1.0,0.6666666666666666,0.5761663614591441
+condition 60->21,Microglia,Hippocampus,6,0.8888888888888888,0.6666666666666666,0.5345911407540701
+condition 60->21,Microglia,Hypothalamus,6,0.8888888888888888,0.6666666666666666,0.5547257576370674
+condition 60->21,Microglia,Meningeal border/glia limitans,6,0.7777777777777778,0.6666666666666666,0.5296926830336511
+condition 60->21,Microglia,Olfactory areas,6,0.8888888888888888,0.6666666666666666,0.5409429853919507
+condition 60->21,Microglia,Pallidum,5,1.0,0.8,0.5649253607146838
+condition 60->21,Microglia,Striatum,6,0.5555555555555556,0.3333333333333333,0.51063386705111
+condition 60->21,Microglia,Thalamus,6,0.6666666666666666,0.6666666666666666,0.5242929137126131
+condition 60->21,Microglia,Ventricular system,5,0.8333333333333334,0.8,0.533737942361679
+condition 60->21,Neural Stem Cells,All regions,6,0.5555555555555556,0.5,0.48590859610946735
+condition 60->21,Neural Stem Cells,Cortex,1,,1.0,0.7211545029236607
+condition 60->21,Neural Stem Cells,Fiber tracts,6,0.7777777777777778,0.5,0.5242342716594675
+condition 60->21,Neural Stem Cells,Meningeal border/glia limitans,2,0.0,0.5,0.43792469939022144
+condition 60->21,Neural Stem Cells,Striatum,1,,1.0,0.5701580067032282
+condition 60->21,Neural Stem Cells,Ventricular system,6,0.4444444444444444,0.5,0.47320537452987826
+condition 60->21,Neurons,All regions,6,0.2222222222222222,0.3333333333333333,0.47017547694970974
+condition 60->21,Neurons,Cortex,6,0.5555555555555556,0.5,0.5011977810193118
+condition 60->21,Neurons,Fiber tracts,6,0.6666666666666666,0.6666666666666666,0.5185146682168457
+condition 60->21,Neurons,Hippocampus,6,0.3333333333333333,0.6666666666666666,0.49347108842637594
+condition 60->21,Neurons,Hypothalamus,6,0.2222222222222222,0.3333333333333333,0.4338676528704212
+condition 60->21,Neurons,Meningeal border/glia limitans,6,0.4444444444444444,0.5,0.4924495448320377
+condition 60->21,Neurons,Olfactory areas,6,1.0,0.8333333333333334,0.5347764541970634
+condition 60->21,Neurons,Pallidum,6,0.4444444444444444,0.5,0.49376407341749146
+condition 60->21,Neurons,Striatum,6,0.4444444444444444,0.3333333333333333,0.48899517825070576
+condition 60->21,Neurons,Thalamus,6,0.4444444444444444,0.3333333333333333,0.4838107383552226
+condition 60->21,Neurons,Vasculature,6,0.5555555555555556,0.5,0.5010492832312498
+condition 60->21,Neurons,Ventricular system,5,0.16666666666666666,0.4,0.44806193854128323
+condition 60->21,Oligodendrocytes,All regions,6,0.8888888888888888,0.6666666666666666,0.5766611154276987
+condition 60->21,Oligodendrocytes,Cortex,6,0.8888888888888888,0.6666666666666666,0.5695333867769864
+condition 60->21,Oligodendrocytes,Fiber tracts,6,0.8888888888888888,0.8333333333333334,0.5941788631734739
+condition 60->21,Oligodendrocytes,Hippocampus,6,0.6666666666666666,0.6666666666666666,0.5365772824009741
+condition 60->21,Oligodendrocytes,Hypothalamus,6,0.8888888888888888,0.6666666666666666,0.5532092732573188
+condition 60->21,Oligodendrocytes,Meningeal border/glia limitans,6,0.8888888888888888,0.8333333333333334,0.5691432880733883
+condition 60->21,Oligodendrocytes,Olfactory areas,6,0.8888888888888888,0.6666666666666666,0.5557234925482297
+condition 60->21,Oligodendrocytes,Pallidum,6,0.8888888888888888,0.6666666666666666,0.5655320987593037
+condition 60->21,Oligodendrocytes,Striatum,6,0.8888888888888888,0.6666666666666666,0.574704678487706
+condition 60->21,Oligodendrocytes,Thalamus,6,0.7777777777777778,0.6666666666666666,0.5721718598609215
+condition 60->21,Oligodendrocytes,Vasculature,6,0.7777777777777778,0.6666666666666666,0.5763975080789631
+condition 60->21,Oligodendrocytes,Ventricular system,6,0.8888888888888888,0.8333333333333334,0.6096572384387025

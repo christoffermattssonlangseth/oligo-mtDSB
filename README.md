@@ -11,6 +11,22 @@ genetically engineered mouse model, measured with 10x Xenium spatial transcripto
 read-based anatomical compartment (`RBD_compartment_simplified`, 12 regions). The section is the
 biological replicate in every test.
 
+## Current headline (2026-10-14)
+
+**At 42 days after induction, mtDSB produces a strong oligodendrocyte stress response in 3 of the 6 mtDSB
+animals (RB4405, RB4401, RB4627) and no detectable response in the other 3 (RB4403, RB4630, RB4653).** Three
+readouts agree (a predefined ISR gene set, a leave-one-section-out single-cell classifier that never sees
+the disease cluster, and the DA-oligodendrocyte cluster share). In responders every region is affected,
+most strongly fiber tracts and thalamus. Non-response is not explained by sex, genotype label, sample
+swap or section plane; induction efficiency is the open question.
+
+| | |
+|---|---|
+| claims, numbers, strength of evidence, open questions | [`results/sample_classifier/FINDINGS.md`](results/sample_classifier/FINDINGS.md) |
+| figures F1-F7 and the tables behind every number | `results/sample_classifier/figures/`, `results/sample_classifier/tables/` |
+| notebook that makes them (laptop, no h5ad needed) | `notebooks-05/02-ol-response-and-classifiers.ipynb` |
+| code | `utils/ol_response.py`, `utils/sample_classifier.py`, `scripts/run_sample_classifier.py`, `scripts/export_cell_table.py` |
+
 ## Background references
 - https://pmc.ncbi.nlm.nih.gov/articles/PMC5647772/
 - https://scholarship.miami.edu/view/pdfCoverPage?instCode=01UOML_INST&filePid=13386228880002976&download=true
@@ -23,7 +39,9 @@ biological replicate in every test.
 |---|---|
 | run the **region x time-point treatment comparison** on the full data | `scripts/run_region_time_de.py` (see below) |
 | make / update the figures for that comparison | `notebooks-05/01-region-time-treatment-figures.ipynb` |
-| **predict age cohort / condition per section** (leave-one-section-out classifiers) | `scripts/run_sample_classifier.py`, figures in `notebooks-05/02-sample-classifier-figures.ipynb`, method in `utils/sample_classifier.py` docstring |
+| **see the OL responder finding** and its evidence | `results/sample_classifier/FINDINGS.md`, figures from `notebooks-05/02-ol-response-and-classifiers.ipynb` |
+| predict age cohort / condition per section (leave-one-section-out classifiers) | `scripts/run_sample_classifier.py`, method in `utils/sample_classifier.py` docstring |
+| score the OL stress response per section / region (ISR genes, responder calls) | `utils/ol_response.py` docstring |
 | understand the statistics | `utils/region_time_de.py` module docstring |
 | check the pipeline works without the data | `python tests/test_region_time_de.py` (synthetic data, ~20 s) |
 | read the manuscript draft | `results/paper/manuscript.md` (built from `results/paper/[0-9]*-*.md` by `build_manuscript.py`) |
@@ -114,7 +132,8 @@ lollipops, region-vs-rest scatter, volcanoes. The notebook also writes `summary_
 ## Sample classifiers: can a section's age cohort and condition be predicted?
 
 `utils/sample_classifier.py`, `scripts/run_sample_classifier.py`, `tests/test_sample_classifier.py`,
-figures in `notebooks-05/02`. Tasks: `age` (P21 vs P60), `condition` (ages pooled), `joint` (4 groups),
+figures in `notebooks-05/02-ol-response-and-classifiers.ipynb`, findings in
+`results/sample_classifier/FINDINGS.md`. All runs use general labels (`--merge DA-Oligodendrocytes=Oligodendrocytes`). Tasks: `age` (P21 vs P60), `condition` (ages pooled), `joint` (4 groups),
 `condition@21` / `condition@60` (within cohort), `condition 21->60` / `60->21` (train on one cohort,
 predict the other). All Xenium sections were collected 42 days after induction, so time since induction
 cannot be predicted. Every prediction is for a held-out section (leave-one-section-out).
@@ -123,14 +142,17 @@ cannot be predicted. Every prediction is for a held-out section (leave-one-secti
   log-CPM of `results/region_time/pseudobulk_*.csv`, plus a cell-type x region composition model, with
   sample-level permutation p-values (floors: 1/400 pooled tasks, 1/20 within-cohort / transfer tasks).
   ```bash
-  python scripts/run_sample_classifier.py --pseudobulk results/region_time --outdir results/sample_classifier/pseudobulk
+  python scripts/run_sample_classifier.py --pseudobulk results/region_time --outdir results/sample_classifier/pseudobulk_general \
+      --merge DA-Oligodendrocytes=Oligodendrocytes
   ```
 * **Single-cell level** (needs the h5ad, office Mac, ~1 h): one logistic model per cell type trained on
   2000 cells per section; every cell of the held-out section gets an out-of-fold score
   (`cell_scores/<cell type>.csv.gz`, joinable to the h5ad for spatial maps); section prediction = mean cell score.
   Results are refreshed after every cell type (`progress.json`), and rerunning resumes.
   ```bash
-  python scripts/run_sample_classifier.py --h5ad /Volumes/processing2/oligo-mtDSB/data/..._novae4.h5ad --outdir results/sample_classifier/cells
+  python scripts/run_sample_classifier.py --h5ad /Volumes/processing2/oligo-mtDSB/data/..._novae4.h5ad --outdir results/sample_classifier/cells_general \
+      --merge DA-Oligodendrocytes=Oligodendrocytes
+  python scripts/export_cell_table.py --h5ad /Volumes/processing2/oligo-mtDSB/data/..._novae4.h5ad --outdir results/cell_table
   ```
 
 ---
@@ -142,10 +164,10 @@ notebooks-01/   first pass (old 5-glia annotation, `compartment` regions)      L
 notebooks-02/   current annotation (cell_class x RBD_compartment_simplified)   CURRENT for annotation, compartments, Bayesian track
 notebooks-03/   nuclei-segmented data exploration, scCellFie                   side project
 notebooks-04/   inspection / OL sub-clustering on the novae3 h5ad              CURRENT (in progress)
-notebooks-05/   region x time-point DE figures (01), sample classifiers (02)   CURRENT
-scripts/        run_region_time_de.py, run_sample_classifier.py - batch runs
-tests/          synthetic tests of utils/region_time_de and utils/sample_classifier
-utils/          region_time_de.py, region_time_plots.py, sample_classifier.py,
+notebooks-05/   region x time DE figures (01), OL response + classifiers (02)  CURRENT
+scripts/        run_region_time_de.py, run_sample_classifier.py, export_cell_table.py
+tests/          synthetic tests of region_time_de, sample_classifier, ol_response
+utils/          region_time_de.py, region_time_plots.py, sample_classifier.py, ol_response.py,
                 spatial_utils.py                                                maintained
                 de_analysis_utils.py, io_utils.py, misc_utils.py,
                 plotting_utils.py, qc_utils.py                                  auto-harvested from notebooks by utils_builder.ipynb; duplicated
@@ -164,7 +186,8 @@ logs/           cluster logs of run_compartment_read_based
 |---|---|---|---|---|
 | `results/region_time/` | `scripts/run_region_time_de.py` (run 2026-09-30 on the office Mac, `novae4`, 27 min) + `notebooks-05/01` | `cell_class` x RBD | condition x region x age DE, 14 cell classes, 5 101 genes, 197/336 strata testable | **current** |
 | `results/region_time_cell_class_updated/` | `utils.region_time_de.merge_cell_types` on the pseudobulk above | Immature OL I-IV merged | same tests for the merged "Immature Oligodendrocytes" class only | current |
-| `results/sample_classifier/` | `scripts/run_sample_classifier.py` (2026-10-14; pseudobulk from `results/region_time/`, cells on `novae4`) + `notebooks-05/02` | `cell_class` x RBD | leave-one-section-out age / condition classifiers, metrics, held-out predictions, per-cell scores (gitignored) | **current** |
+| `results/sample_classifier/` | `scripts/run_sample_classifier.py` (2026-10-14; `pseudobulk_general/` from `results/region_time/`, `cells_general/` on `novae4`, office Mac, 26 min) + `notebooks-05/02` | `cell_class` with DA-OL folded into OL, x RBD | FINDINGS.md, figures F1-F7, tables; classifier metrics / held-out predictions; per-cell scores (`cell_scores/`, gitignored) | **current, headline** |
+| `results/cell_table/` | `scripts/export_cell_table.py` | - | per-cell metadata + centroids (`cells.csv.gz`, 18 MB), `sections.csv` (age, condition, sex, genotype) | current |
 | `results/region_time_MANA250/` | same, on the 250-gene MANA file | cell_class x RBD | worked example on real data; 181/264 strata testable | example only |
 | `results/age/` | `notebooks-01/25` | old 5 glia | mtDSB vs control per age (whole tissue) + `deltaLFC_60_vs_21.csv` (0 genes with q < 0.05 in any type) | legacy |
 | `results/region/` | `notebooks-01/26` | old 5 glia, 14 old compartments | mtDSB vs control per region x age, OL and OPC only | legacy |

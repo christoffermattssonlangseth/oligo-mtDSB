@@ -1,0 +1,13 @@
+sample_id,age,condition,group,frac_OL_above_control_p90
+RB4620,21,control,control,0.05
+RB4658,21,control,control,0.144
+RB4676,21,control,control,0.048
+RB4627,21,mtDSB,responder,0.239
+RB4630,21,mtDSB,non-responder,0.058
+RB4653,21,mtDSB,non-responder,0.049
+RB4282,60,control,control,0.156
+RB4350,60,control,control,0.11
+RB4498,60,control,control,0.102
+RB4401,60,mtDSB,responder,0.243
+RB4403,60,mtDSB,non-responder,0.038
+RB4405,60,mtDSB,responder,0.404

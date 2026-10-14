@@ -1,0 +1,37 @@
+cell_type,region,condition,condition 21->60,condition 60->21
+Astrocytes,All regions,0.5,0.78,0.78
+Astrocytes,Cortex,0.47,0.78,0.78
+Astrocytes,Fiber tracts,0.69,0.78,0.78
+Astrocytes,Hippocampus,0.5,0.89,0.67
+Astrocytes,Hypothalamus,0.47,0.67,0.56
+Astrocytes,Meningeal border/glia limitans,0.56,0.78,1.0
+Astrocytes,Olfactory areas,0.47,0.78,0.78
+Astrocytes,Pallidum,0.23,0.5,1.0
+Astrocytes,Striatum,0.42,0.78,0.67
+Astrocytes,Thalamus,0.36,0.67,0.56
+Astrocytes,Vasculature,0.42,0.78,0.78
+Astrocytes,Ventricular system,0.28,0.67,0.67
+Endothelial Cells,All regions,0.5,0.78,1.0
+Endothelial Cells,Cortex,0.47,0.78,1.0
+Endothelial Cells,Fiber tracts,0.64,0.78,1.0
+Endothelial Cells,Hippocampus,0.31,0.67,1.0
+Endothelial Cells,Hypothalamus,0.5,0.67,0.89
+Endothelial Cells,Meningeal border/glia limitans,0.72,0.78,1.0
+Endothelial Cells,Olfactory areas,0.56,0.78,0.56
+Endothelial Cells,Pallidum,0.37,0.67,0.89
+Endothelial Cells,Striatum,0.58,0.67,0.78
+Endothelial Cells,Thalamus,0.39,0.67,0.56
+Endothelial Cells,Vasculature,0.64,0.89,1.0
+Endothelial Cells,Ventricular system,0.14,0.56,0.33
+Microglia,All regions,0.44,0.67,0.89
+Microglia,Cortex,0.47,0.89,1.0
+Microglia,Fiber tracts,0.56,0.89,1.0
+Microglia,Hippocampus,0.33,0.78,0.89
+Microglia,Hypothalamus,0.47,0.67,0.89
+Microglia,Meningeal border/glia limitans,0.47,0.78,0.78
+Microglia,Olfactory areas,0.39,0.78,0.89
+Microglia,Pallidum,0.25,0.5,1.0
+Microglia,Striatum,0.44,0.67,0.56
+Microglia,Thalamus,0.5,0.67,0.67
+Microglia,Vasculature,0.5,0.5,
+Microglia,Ventricular system,0.33,0.67,0.83

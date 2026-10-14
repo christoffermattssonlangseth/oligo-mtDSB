@@ -1,0 +1,13 @@
+sample_id,age,condition,sex,group,n_cells,Xist_cpm,pct_cells_in_fiber_tracts,sex_consistent_with_Xist
+RB4620,21,control,male,control,88718,1.9,8.27,True
+RB4658,21,control,female,control,71184,381.42,9.46,True
+RB4676,21,control,female,control,81758,398.44,6.7,True
+RB4627,21,mtDSB,male,responder,72848,5.24,10.01,True
+RB4630,21,mtDSB,male,non-responder,69913,2.3,7.11,True
+RB4653,21,mtDSB,female,non-responder,77245,421.24,6.21,True
+RB4282,60,control,male,control,81721,0.4,6.8,True
+RB4350,60,control,male,control,72889,3.81,5.84,True
+RB4498,60,control,female,control,75676,396.63,6.9,True
+RB4401,60,mtDSB,female,responder,78305,401.01,8.85,True
+RB4403,60,mtDSB,male,non-responder,135378,1.21,9.49,True
+RB4405,60,mtDSB,male,responder,74839,8.65,10.83,True

@@ -1,0 +1,14 @@
+cell_type,age,condition,condition 21->60,condition 60->21,condition@21,condition@60
+Astrocytes,0.861,0.444,0.667,0.667,0.111,0.333
+Composition,0.639,0.333,0.222,0.444,0.0,0.556
+Endothelial Cells,0.861,0.472,0.667,0.778,0.556,0.111
+Excitatory Neurons,1.0,0.167,0.667,0.444,0.0,0.444
+GABAergic Neurons,0.944,0.167,0.333,0.444,0.0,0.556
+Immature Oligodendrocytes I,0.944,0.111,0.333,0.111,0.0,0.222
+Immature Oligodendrocytes II,0.889,0.167,0.778,0.556,0.0,0.0
+Immature Oligodendrocytes III,0.778,0.139,0.444,0.444,0.0,0.0
+Medium Spiny Neurons,1.0,0.222,0.222,0.556,0.222,0.333
+Microglia,0.944,0.5,0.778,0.667,0.0,0.667
+Neural Stem Cells,0.5,0.583,0.0,0.444,0.0,1.0
+Neurons,0.833,0.139,0.222,0.111,0.444,1.0
+Oligodendrocytes,0.889,0.444,0.778,0.556,0.111,0.444
