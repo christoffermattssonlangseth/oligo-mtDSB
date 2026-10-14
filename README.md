@@ -92,6 +92,7 @@ analysis/        current notebooks (figures + tables from the result folders; no
   02-ol-response-and-classifiers.ipynb     responders, classifiers, regions, checks   -> F1-F7
   03-ol-stress-genes.ipynb                 driver genes of the OL response            -> G1-G4
   04-neighbourhood-and-staging.ipynb       neighbour coupling, proximity model, staging -> N1-N3
+  05-design-power.ipynb                    how many mice for the next cohort, which test  -> D1
 utils/           maintained modules: sample_classifier, ol_response, spatial_orientation, gene_sets, neighbourhood, ol_staging, region_time_de, region_time_plots, spatial_utils
 scripts/         batch runs (need the h5ad): run_sample_classifier, run_ol_gene_drivers, run_region_time_de,
                  export_cell_table; compartments/ = read-based compartment cluster job

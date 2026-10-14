@@ -224,6 +224,15 @@ model (residual fine anatomy read through neuronal transcripts), which is why th
 4. Link to histology: are RB4627 / RB4401 / RB4405 the animals with immune infiltrates (IHC, flow), and does
    the thalamus / fiber-tract pattern precede the 4-6 month demyelination in corpus callosum and cerebellum?
 
+## Designing the next cohort
+*`analysis/05-design-power.ipynb`, `results/design_power/` (Fig D1)*
+
+Simulated from the observed per-mouse ISR scores (responders ~50%, non-responders like controls): the classic
+group-mean comparison reaches only ~0.45 power at 6 and ~0.7 at 12 mice per group; per-mouse analyses (variance,
+responder count) reach 0.8 at ~10 per group; **with an induction check that excludes failed inductions, 5-6 mice per
+group give 0.8-0.9 power**. Recommendations: induction QC (mtPstI qPCR / mtDNA damage) for every mouse; analyse and
+report per mouse; put both cohorts on every Xenium slide so age and slide are no longer confounded.
+
 ## Reproduce
 
 ```bash
