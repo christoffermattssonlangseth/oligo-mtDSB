@@ -18,6 +18,20 @@ fiber tracts and the thalamus.**
 
 ---
 
+## Index: README findings -> claims in this document
+
+| README finding | Claims here |
+|---|---|
+| 1. Only 3 of 6 mtDSB mice respond | 1, 2, 6 |
+| 2. What responding OLs do (stress, immune visibility, myelin loss) | 7 |
+| 3. Same response at both ages | 3, 4 |
+| 4. Brain-wide, strongest in thalamus and white matter | 5 |
+| 5. Neighbouring microglia and astrocytes respond | 9 |
+| 6. Microglial expression predicts closeness to stressed OLs | 9 |
+| 7. Stress comes before myelin loss | 10 |
+| 8. Confirms and explains the earlier analyses | 8, `docs/ANALYSIS_REVIEW.md` |
+| Next cohort design | "Designing the next cohort" |
+
 ## Claims and evidence
 
 ### 1. The mtDSB group splits into responders and non-responders on a predefined stress signature

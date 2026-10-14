@@ -12,60 +12,153 @@ after induction. Cells carry a cell type (`cell_class`) and an anatomical compar
 
 ---
 
-## Headline (2026-10-14)
+## Key findings at a glance (updated 2026-10-14)
 
-**At 42 days after induction, mtDSB produces a strong oligodendrocyte stress response in 3 of the 6 mtDSB mice
-(RB4405, RB4401, RB4627) and no detectable response in the other 3 (RB4403, RB4630, RB4653).**
+| # | Finding | Key number | Evidence | Figure |
+|---|---|---|---|---|
+| 1 | **Only 3 of the 6 mtDSB mice respond, and they respond strongly**; the other 3 look like controls | ISR genes up 2-100x in RB4405, RB4401, RB4627; non-responders inside the control range | strong | F2 |
+| 2 | **Responding oligodendrocytes switch on a stress programme, become immune-visible and lose myelin genes** | 34 genes up, 9 down; top genes replicate across cohorts (p = 2e-11) | strong | G3 |
+| 3 | **The response is the same at both ages**; the earlier "weak at P21, strong at P60" was 1 vs 2 responders | model trained on P60 mice finds the P21 responder and vice versa | moderate | F3 |
+| 4 | **It is brain-wide, strongest in the thalamus and white-matter tracts** | 31-55% of OLs stressed in responders vs 7-14% elsewhere | moderate | F9 |
+| 5 | **Neighbouring microglia and astrocytes respond; blood-vessel cells do not** | astrocyte reactivity p = 0.012, microglial MHC-I p = 0.012, DAM p = 0.048 | moderate | N1 |
+| 6 | **A microglia's own expression predicts how close it is to a stressed oligodendrocyte** (Cd68, Cd83, Trem2) | r 0.17 in responders vs 0.10 in controls, p = 0.012 | moderate | N3 |
+| 7 | **The stress response comes before myelin loss** | share of stressed OLs that lost myelin: 0.40 -> 0.73 -> 0.90 with severity (controls 0.09-0.25) | moderate | N2 |
+| 8 | **This confirms and explains the earlier analyses** | all 22 driver genes tested by the earlier Bayesian model agree in direction | strong | - |
 
-* **How we found it.** Leave-one-mouse-out classifiers: each mouse's group is predicted by a model that never
-  saw it, per cell type and region, using general cell-type labels (the disease-defined DA-OL cluster is
-  folded into Oligodendrocytes). Age is predicted almost perfectly; mtDSB vs control is not, because half of
-  the mtDSB mice look like controls.
-* **Three independent readouts agree on the same three mice:** a predefined ISR gene set, the label-free OL
-  classifier, and the DA-OL cluster. On the prespecified ISR score the mtDSB group is ~10x more variable than
-  the controls (p = 1e-4) while the group means do not differ: heterogeneous, not uniformly shifted.
-* **What responding OLs do** (34 genes up, 9 down; defined *within* tissue sections, so batch, section plane
-  and time of sacrifice cannot create them): ATF4 / integrated stress response (Atf4, Atf5, Ddit3, Trib3,
-  Sesn2), mitochondrial and protein quality control (Hspa9, Sqstm1/p62, Gstp1, Mt2), p21 / cell cycle,
-  immune-visibility genes (MHC-I H2-D1 / B2m, Cd40, Serpina3n), and loss of myelin genes (Mog, Cnp, Cldn11,
-  Mal). The top genes replicate between models trained on disjoint mice (P21-only vs P60-only; 10 / 50
-  shared, p = 2e-11). Microglia in the same three mice show a DAM-like response (Cd74, Cst7 10-30x).
-* **Where.** Throughout the brain in responders, strongest in the thalamus and fiber tracts.
-* **Around and within stressed OLs.** Microglia next to stressed OLs become DAM / MHC-I-high and their own
-  expression predicts proximity to stressed OLs (Cd68, Cd83, Trem2); astrocytes become more reactive; endothelial
-  cells do not respond. Within responders, stressed OLs lose myelin genes progressively with severity, consistent
-  with the ISR preceding myelin loss (`analysis/04`, FINDINGS claims 9-10).
-* **Not explained by** sex, genotype label, sample swap (sex labels match Xist), white-matter content or slide
-  (responders and non-responders share each Xenium slide; note that each slide is one age cohort).
-  Open: induction efficiency (no transgene probe on the panel).
+Every mouse is predicted or scored by models that never saw it; "p" values compare the 3 responders with the 6
+controls by exact permutation (smallest possible p = 0.012). Full claims, numbers and caveats:
+**[`results/sample_classifier/FINDINGS.md`](results/sample_classifier/FINDINGS.md)**. Responders: RB4405, RB4401,
+RB4627. Non-responders: RB4403, RB4630, RB4653.
 
-<p align="center">
-  <img src="results/sample_classifier/figures/F2_three_readouts.png" alt="three readouts" width="900"/>
-  <br><em>Three readouts, same three mice (filled orange = responders, open = non-responders, blue = controls).</em>
-</p>
+---
 
-Full claims with evidence and strength: **[`results/sample_classifier/FINDINGS.md`](results/sample_classifier/FINDINGS.md)**.
+## The findings in detail
 
-### How this confirms and explains the earlier analyses
+### 1. Only 3 of the 6 mtDSB mice respond, and they respond strongly
+Three independent readouts single out the same three mice: a stress gene set chosen from the literature beforehand
+(ATF4 / integrated stress response: Atf4, Atf5, Ddit3, Trib3, Sesn2, ...), a classifier that never saw the disease
+cluster, and the earlier "stressed oligodendrocyte" (DA-OL) cluster. The other three mtDSB mice are indistinguishable
+from controls on every one of these genes. Formally, the mtDSB group is ~10x more variable than the controls
+(p = 1e-4) while the group averages do not differ: half respond, half do not. Not explained by sex, genotype label,
+sample swap (sex labels match Xist), white-matter content or Xenium slide.
 
-The new analysis does not overturn the earlier work; it shows that the earlier signal was real but carried by
-half of the mtDSB mice, which also explains why it looked weak or age-dependent.
+<p align="center"><img src="results/sample_classifier/figures/F2_three_readouts.png" width="850"/><br>
+<em>F2. Three readouts, same three mice. Filled orange = responders, open = non-responders, blue = controls.</em></p>
 
-* **Hierarchical Bayesian case-control model** (`legacy/notebooks-02/09-12`, `legacy/results/baysian_diff_condition.csv`,
-  OLs, ages pooled): all 22 of today's driver genes that it tested have the **same direction** (17 up, 5 down;
-  sign test p < 1e-6), and 12 reached its FDR < 0.05 (Mt2, Gstp1, B2m, H2-D1, Atf4, Atf5, Olig2 up; Cldn11, Cnp,
-  Mal, Mog, Ugt8a down). Its posterior shifts were small (0.01-0.05) because every estimate averaged
-  responders with non-responders.
-* **PyMC models** (`legacy/notebooks-01/29-30`): "myelin identity" down and Serpina3n up (beta = 2.1), as now.
-* **Per-sample markers** (`legacy/notebooks-01/06`): RB4405 and RB4627 already showed Atf4, Atf5, Gstp1,
-  Serpina3n, H2-D1, B2m, Mt2, Olig2, i.e. today's driver genes.
-* **DA-OL sub-clustering** (`legacy/notebooks-02/06`, `legacy/notebooks-04/06`): same ISR / redox / immune programme;
-  the cluster is the responder OL state.
-* **Region x time DE** (`results/region_time/`, paper sec. 6): same hotspots (thalamus, fiber tracts, hypothalamus).
-* **What changes:** the "P21 modest / P60 strong" progression is responder composition (1 of 3 vs 2 of 3 mice
-  respond; the P21 responder is as strong as any); top genes such as Sgk1, Fkbp5, Zbtb16 (stress hormones),
-  Kif5a (one odd section) and Il33 (one control) were section-level confounds. Claim-by-claim review of every
-  earlier notebook: **[`docs/ANALYSIS_REVIEW.md`](docs/ANALYSIS_REVIEW.md)**.
+### 2. What responding oligodendrocytes do
+Genes that rise or fall with each cell's stress score *within the same tissue section* (so differences between
+mice, slides or time of sacrifice cannot create them), required in all three responders and absent in controls:
+* **up (34):** integrated stress response (Atf4, Atf5, Ddit3/CHOP, Trib3, Sesn2), mitochondrial and protein quality
+  control (Hspa9, Sqstm1/p62, Lamp2, Gstp1, Mt2), cell cycle / survival (Cdkn1a/p21, Ccnd1, Myc, Bcl2l1),
+  immune visibility (MHC class I H2-D1 / B2m, Cd40, Serpina3n);
+* **down (9):** myelin / mature-oligodendrocyte genes (Mog, Cnp, Cldn11, Mal, Ugt8a, ...).
+
+Models trained on completely separate mice (P21-only vs P60-only) pick the same top genes (10 of 50 shared,
+p = 2e-11), and 6 of the 10 literature stress genes are recovered without being given to the analysis.
+
+<p align="center"><img src="results/ol_gene_drivers/figures/G3_driver_genes_by_section.png" width="420"/><br>
+<em>G3. The 43 driver genes per mouse (log2 fold change vs controls): up in the three responders, flat elsewhere.</em></p>
+
+### 3. The response looks the same at both ages
+A model trained only on the P60 mice ranks the P21 responder (RB4627) as the most mtDSB-like P21 mouse, and a model
+trained only on P21 mice ranks the P60 responders top. The earlier impression of a weak P21 and a strong P60
+response came from the P21 group having 1 responder of 3 and the P60 group 2 of 3; the P21 responder is as strong
+as any. With 3 mice per cohort, 2 vs 1 responders says nothing about age.
+
+### 4. Where: brain-wide, strongest in the thalamus and white-matter tracts
+Every oligodendrocyte coloured by its stress (ISR) score, sections oriented dorsal up / midline right, colours
+relative to control cells on the same slide (blue = below, red = above the control median). In responders 31-55% of
+oligodendrocytes are above the control 90th percentile (7-14% in controls and non-responders). In controls the
+white-matter oligodendrocytes have the *lowest* stress; in responders the thalamus and fiber-tract arcs turn red.
+
+<p align="center"><img src="results/sample_classifier/figures/F9_ol_isr_maps.png" width="900"/><br>
+<em>F9. Stress score in every oligodendrocyte. Left: per-mouse distributions; right: maps of all 12 sections.</em></p>
+
+### 5. Neighbouring microglia and astrocytes respond; blood-vessel cells do not
+For every microglia, astrocyte and endothelial cell we measured how stressed the oligodendrocytes within 50 um are
+and compared that with the cell's own activation (gene sets from the literature), within the same section and brain
+region. Only in responders: astrocytes near stressed oligodendrocytes are more reactive (p = 0.012), microglia more
+antigen-presenting (MHC-I, p = 0.012) and more disease-associated (DAM, p = 0.048). Endothelial cells show nothing.
+The same pattern holds at 30 and 100 um.
+
+<p align="center"><img src="results/neighbourhood_staging/figures/N1_neighbour_coupling.png" width="900"/><br>
+<em>N1. Top: one dot per mouse. Bottom: neighbour activation across deciles of local oligodendrocyte stress.</em></p>
+
+### 6. A microglia's own expression predicts how close it is to a stressed oligodendrocyte
+A model reads a cell's gene expression and predicts its distance to the nearest stressed oligodendrocyte (adjusted
+for brain region, distance to any oligodendrocyte and local oligodendrocyte density; every mouse predicted by a model
+that never saw it). For microglia this works in responders and not in controls (held-out r 0.17 vs 0.10; every
+responder above every control, p = 0.012), still holds with every oligodendrocyte-related gene removed (so it is not
+leaked RNA from the neighbouring cell), and a responder-trained model does not work on controls. Microglia closer to
+stressed oligodendrocytes express **Cd68, Cd83 and Trem2** (activated, phagocytic). Astrocytes: small consistent
+excess (p = 0.024); endothelial cells: none. The correlation is modest (single cells are noisy); the evidence is the
+consistent responder-vs-control difference.
+
+<p align="center"><img src="results/neighbourhood_staging/figures/N3_proximity_model.png" width="900"/><br>
+<em>N3. Prediction accuracy per mouse (A-C) and the microglial genes that mark proximity (D).</em></p>
+
+### 7. The stress response comes before myelin loss
+Within responder tissue, each oligodendrocyte was classed as stressed (ISR high) and / or myelin-low, relative to
+control cells of the same slide and brain region. In the mildest responder (RB4401) most stressed cells still have
+normal myelin genes; with increasing severity (RB4627, RB4405) a growing share of stressed cells has also lost myelin
+(0.40 -> 0.73 -> 0.90, controls 0.09-0.25, p = 0.012), and in the most severe mouse myelin loss extends beyond the
+stressed cells. This snapshot is consistent with stress preceding myelin loss, a candidate prelude to the
+demyelination seen at 4-6 months (it is not a time course).
+
+<p align="center"><img src="results/neighbourhood_staging/figures/N2_isr_myelin_staging.png" width="900"/><br>
+<em>N2. Oligodendrocyte states per mouse (A), myelin genes vs stress level (B), stressed cells that lost myelin (C).</em></p>
+
+### 8. This confirms and explains the earlier analyses
+The earlier signal was real but carried by half of the mtDSB mice, which also explains why it looked weak or
+age-dependent:
+* **Hierarchical Bayesian case-control model** (`legacy/notebooks-02/09-12`): all 22 of today's driver genes it
+  tested agree in direction (17 up, 5 down; p < 1e-6), 12 at its FDR < 0.05 (Mt2, Gstp1, B2m, H2-D1, Atf4, Atf5,
+  Olig2 up; Cldn11, Cnp, Mal, Mog, Ugt8a down); its effects were small because it averaged responders with
+  non-responders.
+* **PyMC models** (`legacy/notebooks-01/29-30`): myelin identity down, Serpina3n up, as now.
+* **Earliest per-mouse marker lists** (`legacy/notebooks-01/06`): RB4405 and RB4627 already showed today's genes.
+* **DA-OL sub-clustering** (`legacy/notebooks-02/06`, `04/06`): the same programme; the cluster is the responder state.
+* **Microglial DAM response** (manuscript sec. 3, 6): real, and restricted to the responders (Cd74, Cst7 10-30x).
+* **What changes:** the P21-vs-P60 progression (responder composition); top "mtDSB genes" such as Sgk1, Fkbp5
+  (stress hormones, vary between sections), Kif5a (one odd section) and Il33 (one control) were confounds.
+  Claim-by-claim review of every earlier notebook: **[`docs/ANALYSIS_REVIEW.md`](docs/ANALYSIS_REVIEW.md)**.
+
+---
+
+## What we cannot claim (yet)
+
+* **That mtDSB shifts the whole group.** Group averages do not differ; the effect is all-or-none per mouse.
+* **An age difference in susceptibility.** 2 of 3 vs 1 of 3 responders is uninformative.
+* **Anything about the age effect alone.** Each Xenium slide holds one age cohort (slide 0060539 = P60,
+  0060541 = P21), so age and slide cannot be separated. The responder finding is unaffected: responders and
+  non-responders share each slide.
+* **A time course.** Every section is 42 days after induction; finding 7 is inferred from a snapshot.
+* **Causality between cell types.** Findings 5-6 show co-location and coupling, not who signals to whom.
+* Notes: controls and mtDSB sections were mounted mirror-image on both slides (corrected for display); RB4403's
+  doubled cell count is over-segmentation; control RB4620 is mtPst1-only (others PlpTA-only).
+
+## What we need from collaborators
+
+1. **Why do 3 mice not respond?** Induction check on remaining tissue (the unused 60-day fresh-frozen cohort includes
+   RB4403 vs RB4401 / RB4405): mtPstI qPCR and an mtDNA damage assay. This decides how non-responders are treated.
+2. **Overlap with histology:** were RB4627, RB4401 or RB4405 among the mice with immune infiltrates (IHC, flow)?
+3. **Next cohort design** (`analysis/05`, figure D1): with ~50% responders the classic group comparison stays under
+   0.7 power even at 12 mice per group; with an induction check that excludes failed inductions, **5-6 mice per group
+   give 0.8-0.9 power**. Put both age cohorts on every slide.
+
+<p align="center"><img src="results/design_power/figures/D1_power_by_design.png" width="700"/><br>
+<em>D1. Power by design (simulated from the observed per-mouse stress scores).</em></p>
+
+## How the analysis works (in brief)
+
+* **Leave-one-mouse-out classifiers** (`utils/sample_classifier.py`): predict each mouse's group from its
+  expression with a model trained on the other mice, per cell type and region; general cell-type labels only.
+* **Three readouts** (`utils/ol_response.py`): a literature stress (ISR) score, the classifier score per cell, and
+  the DA-OL cluster share.
+* **Within-section analyses** (`analysis/03`, `04`): genes and neighbour effects are measured by comparing cells in
+  the *same* tissue section, so slide, section plane and time of sacrifice cannot create them.
+* **Prespecified gene sets** (`utils/gene_sets.py`) for stress, myelin, microglia (DAM / homeostatic), reactive
+  astrocytes, endothelial activation, MHC-I and interferon, fixed from the literature before use.
 
 ---
 
