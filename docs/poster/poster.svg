@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="841mm" height="1189mm" viewBox="0 0 841 1189">
+<title>oligo-mtDSB poster</title>
+<defs>
+  <linearGradient id="header-gradient" x1="0" y1="0" x2="0.35" y2="1">
+    <stop offset="0" stop-color="#4f0433"/><stop offset="1" stop-color="#870052"/></linearGradient>
+  <linearGradient id="footer-gradient" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#870052"/><stop offset="1" stop-color="#4f0433"/></linearGradient>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#6a5667"/></marker>
+</defs>
+<rect id="background" width="841" height="1189" fill="#f6f0f4"/>
+<g id="header">
+<rect x="0" y="0" width="841" height="104" fill="url(#header-gradient)"/>
+<rect x="0" y="100.5" width="841" height="3.5" fill="#ff876f"/>
+<text x="25.0" y="36.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="24" fill="#ffffff" font-weight="bold" font-style="normal" text-anchor="start">Mitochondrial DNA breaks trigger an all-or-none</text>
+<text x="25.0" y="63.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="24" fill="#ffffff" font-weight="bold" font-style="normal" text-anchor="start">stress response in oligodendrocytes</text>
+<text x="25.0" y="79.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10.5" fill="#f6dcec" font-weight="normal" font-style="normal" text-anchor="start">Leave-one-mouse-out classifiers on Xenium 5k spatial transcriptomics</text>
+<text x="25.0" y="93.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.5" fill="#d7aec6" font-weight="normal" font-style="normal" text-anchor="start">Christoffer M. Langseth, [co-authors]  ·  Karolinska Institutet, [affiliations]</text>
+<image id="ki_logo" x="734.0" y="20.0" width="82.0" height="33.6" href="ki-logo-white.png" xlink:href="ki-logo-white.png" preserveAspectRatio="xMidYMid meet"/>
+</g>
+<g id="stats_row">
+<text x="123.9" y="138.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" fill="#870052" font-weight="bold" font-style="normal" text-anchor="middle">3 / 6</text>
+<text x="123.9" y="149.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.5" fill="#6a5667" font-weight="normal" font-style="normal" text-anchor="middle">mtDSB mice respond</text>
+<text x="321.6" y="138.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" fill="#ff876f" font-weight="bold" font-style="normal" text-anchor="middle">43</text>
+<text x="321.6" y="149.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.5" fill="#6a5667" font-weight="normal" font-style="normal" text-anchor="middle">driver genes (34 up, 9 down)</text>
+<text x="519.4" y="138.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" fill="#4f0433" font-weight="bold" font-style="normal" text-anchor="middle">10 / 50</text>
+<text x="519.4" y="149.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.5" fill="#6a5667" font-weight="normal" font-style="normal" text-anchor="middle">top genes replicate across cohorts</text>
+<text x="717.1" y="138.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" fill="#870052" font-weight="bold" font-style="normal" text-anchor="middle">22 / 22</text>
+<text x="717.1" y="149.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.5" fill="#6a5667" font-weight="normal" font-style="normal" text-anchor="middle">agree with earlier Bayesian model</text>
+</g>
+<g id="background_panel">
+<rect x="25.0" y="168.0" width="255.7" height="142.0" rx="3" fill="#ffffff" stroke="#e3d6de" stroke-width="0.8"/>
+<path d="M28.0,168.0 H277.7 Q280.7,168.0 280.7,171.0 V185.0 H25.0 V171.0 Q25.0,168.0 28.0,168.0 Z" fill="#870052"/>
+<text x="33.0" y="180.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="bold" font-style="normal" text-anchor="start">1 · Background</text>
+<text x="33.0" y="196.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.8" fill="#1a1a1a" font-weight="normal">
+<tspan x="33.0" dy="0.00">Mitochondrial dysfunction in oligodendrocytes (OLs) is</tspan>
+<tspan x="33.0" dy="10.14">implicated in white-matter disease. In PlpTA:mtPst1 mice,</tspan>
+<tspan x="33.0" dy="10.14">removing doxycycline induces double-strand breaks in OL</tspan>
+<tspan x="33.0" dy="10.14">mitochondrial DNA (mtDSB).</tspan>
+</text>
+<text x="33.0" y="239.6" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.8" fill="#1a1a1a" font-weight="normal">
+<tspan x="33.0" dy="0.00">This line shows demyelination of corpus callosum and</tspan>
+<tspan x="33.0" dy="10.14">cerebellum 4-6 months after induction. What happens in the</tspan>
+<tspan x="33.0" dy="10.14">tissue before that, and in which cells and regions?</tspan>
+</text>
+<text x="33.0" y="273.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.8" fill="#870052" font-weight="bold">
+<tspan x="33.0" dy="0.00">Can the tissue itself tell which group a mouse belongs to,</tspan>
+<tspan x="33.0" dy="10.14">and which genes does it use?</tspan>
+</text>
+</g>
+<g id="design_panel">
+<rect x="292.7" y="168.0" width="255.7" height="142.0" rx="3" fill="#ffffff" stroke="#e3d6de" stroke-width="0.8"/>
+<path d="M295.7,168.0 H545.3 Q548.3,168.0 548.3,171.0 V185.0 H292.7 V171.0 Q292.7,168.0 295.7,168.0 Z" fill="#870052"/>
+<text x="300.7" y="180.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="bold" font-style="normal" text-anchor="start">2 · Study design</text>
+<line x1="300.66666666666663" y1="202" x2="540.3333333333333" y2="202" stroke="#6a5667" stroke-width="1"/>
+<circle cx="300.7" cy="202" r="2.4" fill="#870052"/>
+<text x="300.7" y="197.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.2" fill="#1a1a1a" font-weight="bold" font-style="normal" text-anchor="start">DOX removal</text>
+<text x="300.7" y="210.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="6.5" fill="#6a5667" font-weight="normal" font-style="normal" text-anchor="start">P21 or P60</text>
+<circle cx="420.5" cy="202" r="2.4" fill="#870052"/>
+<text x="420.5" y="197.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.2" fill="#1a1a1a" font-weight="bold" font-style="normal" text-anchor="middle">+42 days</text>
+<circle cx="540.3" cy="202" r="2.4" fill="#870052"/>
+<text x="540.3" y="197.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.2" fill="#1a1a1a" font-weight="bold" font-style="normal" text-anchor="end">Xenium 5k</text>
+<text x="540.3" y="210.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="6.5" fill="#6a5667" font-weight="normal" font-style="normal" text-anchor="end">1 section / mouse</text>
+<text x="380.7" y="223.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.2" fill="#2a78d6" font-weight="bold" font-style="normal" text-anchor="middle">control</text>
+<text x="470.7" y="223.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.2" fill="#eb6834" font-weight="bold" font-style="normal" text-anchor="middle">mtDSB</text>
+<text x="300.7" y="234.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.2" fill="#6a5667" font-weight="normal" font-style="normal" text-anchor="start">P21 cohort</text>
+<circle cx="350.7" cy="232.0" r="4.2" fill="#2a78d6"/>
+<text x="350.7" y="243.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="5.6" fill="#6a5667" font-weight="normal" font-style="normal" text-anchor="middle">4620</text>
+<circle cx="380.7" cy="232.0" r="4.2" fill="#2a78d6"/>
+<text x="380.7" y="243.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="5.6" fill="#6a5667" font-weight="normal" font-style="normal" text-anchor="middle">4658</text>
+<circle cx="410.7" cy="232.0" r="4.2" fill="#2a78d6"/>
+<text x="410.7" y="243.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="5.6" fill="#6a5667" font-weight="normal" font-style="normal" text-anchor="middle">4676</text>
+<circle cx="440.7" cy="232.0" r="4.2" fill="#eb6834"/>
+<text x="440.7" y="243.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="5.6" fill="#6a5667" font-weight="normal" font-style="normal" text-anchor="middle">4627</text>
+<circle cx="470.7" cy="232.0" r="3.4000000000000004" fill="#ffffff" stroke="#eb6834" stroke-width="1.6"/>
+<text x="470.7" y="243.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="5.6" fill="#6a5667" font-weight="normal" font-style="normal" text-anchor="middle">4630</text>
+<circle cx="500.7" cy="232.0" r="3.4000000000000004" fill="#ffffff" stroke="#eb6834" stroke-width="1.6"/>
+<text x="500.7" y="243.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="5.6" fill="#6a5667" font-weight="normal" font-style="normal" text-anchor="middle">4653</text>
+<text x="300.7" y="259.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.2" fill="#6a5667" font-weight="normal" font-style="normal" text-anchor="start">P60 cohort</text>
+<circle cx="350.7" cy="257.0" r="4.2" fill="#2a78d6"/>
+<text x="350.7" y="268.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="5.6" fill="#6a5667" font-weight="normal" font-style="normal" text-anchor="middle">4282</text>
+<circle cx="380.7" cy="257.0" r="4.2" fill="#2a78d6"/>
+<text x="380.7" y="268.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="5.6" fill="#6a5667" font-weight="normal" font-style="normal" text-anchor="middle">4350</text>
+<circle cx="410.7" cy="257.0" r="4.2" fill="#2a78d6"/>
+<text x="410.7" y="268.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="5.6" fill="#6a5667" font-weight="normal" font-style="normal" text-anchor="middle">4498</text>
+<circle cx="440.7" cy="257.0" r="4.2" fill="#eb6834"/>
+<text x="440.7" y="268.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="5.6" fill="#6a5667" font-weight="normal" font-style="normal" text-anchor="middle">4401</text>
+<circle cx="470.7" cy="257.0" r="4.2" fill="#eb6834"/>
+<text x="470.7" y="268.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="5.6" fill="#6a5667" font-weight="normal" font-style="normal" text-anchor="middle">4405</text>
+<circle cx="500.7" cy="257.0" r="3.4000000000000004" fill="#ffffff" stroke="#eb6834" stroke-width="1.6"/>
+<text x="500.7" y="268.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="5.6" fill="#6a5667" font-weight="normal" font-style="normal" text-anchor="middle">4403</text>
+<circle cx="303.7" cy="290.0" r="3" fill="#eb6834"/>
+<text x="309.7" y="292.4" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="6.5" fill="#6a5667" font-weight="normal" font-style="normal" text-anchor="start">responder</text>
+<circle cx="350.7" cy="290.0" r="2.2" fill="#ffffff" stroke="#eb6834" stroke-width="1.6"/>
+<text x="356.7" y="292.4" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="6.5" fill="#6a5667" font-weight="normal" font-style="normal" text-anchor="start">non-responder</text>
+<circle cx="408.7" cy="290.0" r="3" fill="#2a78d6"/>
+<text x="414.7" y="292.4" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="6.5" fill="#6a5667" font-weight="normal" font-style="normal" text-anchor="start">control</text>
+<text x="300.7" y="303.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="6.8" fill="#6a5667" font-weight="normal">
+<tspan x="300.7" dy="0.00">980 474 cells · 5 101 genes · 14 cell classes · 11 brain regions</tspan>
+</text>
+</g>
+<g id="earlier_panel">
+<rect x="560.3" y="168.0" width="255.7" height="142.0" rx="3" fill="#ffffff" stroke="#e3d6de" stroke-width="0.8"/>
+<path d="M563.3,168.0 H813.0 Q816.0,168.0 816.0,171.0 V185.0 H560.3 V171.0 Q560.3,168.0 563.3,168.0 Z" fill="#870052"/>
+<text x="568.3" y="180.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="bold" font-style="normal" text-anchor="start">3 · Earlier analyses, explained</text>
+<text x="568.3" y="196.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.6" fill="#1a1a1a" font-weight="normal">
+<tspan x="568.3" dy="0.00">Group comparisons (DESeq2, hierarchical Bayes) gave weak,</tspan>
+<tspan x="568.3" dy="9.88">age-dependent effects. Averaging 3 responders with 3</tspan>
+<tspan x="568.3" dy="9.88">non-responders explains both:</tspan>
+</text>
+<text x="568.3" y="228.6" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.3" fill="#870052" font-weight="bold" font-style="normal" text-anchor="start">✓</text>
+<text x="574.9" y="228.6" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.3" fill="#1a1a1a" font-weight="normal">
+<tspan x="574.9" dy="0.00">Bayesian case-control model: all 22 driver genes it tested</tspan>
+<tspan x="574.9" dy="9.49">agree in direction (p &lt; 1e-6), but shifts were small</tspan>
+<tspan x="574.9" dy="9.49">(0.01-0.05).</tspan>
+</text>
+<text x="568.3" y="258.9" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.3" fill="#870052" font-weight="bold" font-style="normal" text-anchor="start">✓</text>
+<text x="574.9" y="258.9" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.3" fill="#1a1a1a" font-weight="normal">
+<tspan x="574.9" dy="0.00">'P21 modest / P60 strong' = 1 of 3 vs 2 of 3 responders; the</tspan>
+<tspan x="574.9" dy="9.49">P21 responder is as strong as any.</tspan>
+</text>
+<text x="568.3" y="279.7" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.3" fill="#870052" font-weight="bold" font-style="normal" text-anchor="start">✓</text>
+<text x="574.9" y="279.7" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.3" fill="#1a1a1a" font-weight="normal">
+<tspan x="574.9" dy="0.00">Top 'mtDSB genes' Sgk1, Fkbp5 (stress hormones) varied between</tspan>
+<tspan x="574.9" dy="9.49">sections, not with treatment.</tspan>
+</text>
+</g>
+<g id="methods_panel">
+<rect x="25.0" y="322.0" width="791.0" height="196.0" rx="3" fill="#ffffff" stroke="#e3d6de" stroke-width="0.8"/>
+<path d="M28.0,322.0 H813.0 Q816.0,322.0 816.0,325.0 V339.0 H25.0 V325.0 Q25.0,322.0 28.0,322.0 Z" fill="#4f0433"/>
+<text x="33.0" y="334.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" fill="#ffffff" font-weight="bold" font-style="normal" text-anchor="start">4 · Methods: let the tissue predict the mouse</text>
+<g id="method_step_1">
+<rect x="33.0" y="350.0" width="143.8" height="124" rx="3" fill="#f6f0f4"/>
+<circle cx="42.0" cy="359.0" r="5.5" fill="#870052"/>
+<text x="42.0" y="361.6" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.5" fill="#ffffff" font-weight="bold" font-style="normal" text-anchor="middle">1</text>
+<text x="51.0" y="361.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="8.3" fill="#4f0433" font-weight="bold" font-style="normal" text-anchor="start">Spatial data</text>
+<text x="38.0" y="375.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.0" fill="#1a1a1a" font-weight="normal">
+<tspan x="38.0" dy="0.00">Xenium 5k, 12 mice. Counts summed per</tspan>
+<tspan x="38.0" dy="9.10">cell type x region x mouse</tspan>
+<tspan x="38.0" dy="9.10">(pseudobulk) or kept per cell.</tspan>
+</text>
+<circle cx="45.0" cy="442.0" r="3.2" fill="#870052"/>
+<circle cx="58.0" cy="442.0" r="3.2" fill="#e3d6de"/>
+<circle cx="71.0" cy="442.0" r="3.2" fill="#e3d6de"/>
+<circle cx="84.0" cy="442.0" r="3.2" fill="#e3d6de"/>
+<circle cx="97.0" cy="442.0" r="3.2" fill="#870052"/>
+<circle cx="110.0" cy="442.0" r="3.2" fill="#e3d6de"/>
+<circle cx="123.0" cy="442.0" r="3.2" fill="#e3d6de"/>
+<circle cx="136.0" cy="442.0" r="3.2" fill="#e3d6de"/>
+<circle cx="149.0" cy="442.0" r="3.2" fill="#870052"/>
+<circle cx="45.0" cy="454.0" r="3.2" fill="#e3d6de"/>
+<circle cx="58.0" cy="454.0" r="3.2" fill="#e3d6de"/>
+<circle cx="71.0" cy="454.0" r="3.2" fill="#e3d6de"/>
+<circle cx="84.0" cy="454.0" r="3.2" fill="#870052"/>
+<circle cx="97.0" cy="454.0" r="3.2" fill="#e3d6de"/>
+<circle cx="110.0" cy="454.0" r="3.2" fill="#e3d6de"/>
+<circle cx="123.0" cy="454.0" r="3.2" fill="#e3d6de"/>
+<circle cx="136.0" cy="454.0" r="3.2" fill="#870052"/>
+<circle cx="149.0" cy="454.0" r="3.2" fill="#e3d6de"/>
+</g>
+<line x1="177.8" y1="412.0" x2="189.8" y2="412.0" stroke="#6a5667" stroke-width="1.6" marker-end="url(#arrow)"/>
+<g id="method_step_2">
+<rect x="190.8" y="350.0" width="143.8" height="124" rx="3" fill="#f6f0f4"/>
+<circle cx="199.8" cy="359.0" r="5.5" fill="#870052"/>
+<text x="199.8" y="361.6" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.5" fill="#ffffff" font-weight="bold" font-style="normal" text-anchor="middle">2</text>
+<text x="208.8" y="361.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="8.3" fill="#4f0433" font-weight="bold" font-style="normal" text-anchor="start">General labels</text>
+<text x="195.8" y="375.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.0" fill="#1a1a1a" font-weight="normal">
+<tspan x="195.8" dy="0.00">Disease-defined cluster (DA-OL) folded</tspan>
+<tspan x="195.8" dy="9.10">into oligodendrocytes, so the model,</tspan>
+<tspan x="195.8" dy="9.10">not the clustering, must find the</tspan>
+<tspan x="195.8" dy="9.10">effect.</tspan>
+</text>
+<circle cx="212.8" cy="447.0" r="8" fill="#f6dcec"/>
+<circle cx="230.8" cy="447.0" r="6" fill="#eb6834" opacity="0.8"/>
+<line x1="242.8" y1="447.0" x2="264.8" y2="447.0" stroke="#6a5667" stroke-width="1.6" marker-end="url(#arrow)"/>
+<circle cx="282.8" cy="447.0" r="11" fill="#f6dcec"/>
+<text x="282.8" y="467.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="6.0" fill="#6a5667" font-weight="normal" font-style="normal" text-anchor="middle">Oligodendrocytes</text>
+</g>
+<line x1="335.6" y1="412.0" x2="347.6" y2="412.0" stroke="#6a5667" stroke-width="1.6" marker-end="url(#arrow)"/>
+<g id="method_step_3">
+<rect x="348.6" y="350.0" width="143.8" height="124" rx="3" fill="#f6f0f4"/>
+<circle cx="357.6" cy="359.0" r="5.5" fill="#ff876f"/>
+<text x="357.6" y="361.6" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.5" fill="#ffffff" font-weight="bold" font-style="normal" text-anchor="middle">3</text>
+<text x="366.6" y="361.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="8.3" fill="#4f0433" font-weight="bold" font-style="normal" text-anchor="start">Leave-one-mouse-out</text>
+<text x="353.6" y="375.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.0" fill="#1a1a1a" font-weight="normal">
+<tspan x="353.6" dy="0.00">Train on 11 mice, predict the 12th;</tspan>
+<tspan x="353.6" dy="9.10">repeat for every mouse. Ridge logistic</tspan>
+<tspan x="353.6" dy="9.10">regression; permutation tests at the</tspan>
+<tspan x="353.6" dy="9.10">mouse level.</tspan>
+</text>
+<circle cx="360.6" cy="442.0" r="3.6" fill="#a0889a"/>
+<circle cx="373.6" cy="442.0" r="3.6" fill="#a0889a"/>
+<circle cx="386.6" cy="442.0" r="3.6" fill="#a0889a"/>
+<circle cx="399.6" cy="442.0" r="3.6" fill="#a0889a"/>
+<circle cx="412.6" cy="442.0" r="3.6" fill="#a0889a"/>
+<circle cx="425.6" cy="442.0" r="3.6" fill="#a0889a"/>
+<circle cx="360.6" cy="455.0" r="3.6" fill="#a0889a"/>
+<circle cx="373.6" cy="455.0" r="3.6" fill="#a0889a"/>
+<circle cx="386.6" cy="455.0" r="3.6" fill="#a0889a"/>
+<circle cx="399.6" cy="455.0" r="4" fill="#ffffff" stroke="#ff876f" stroke-width="1.8"/>
+<circle cx="412.6" cy="455.0" r="3.6" fill="#a0889a"/>
+<circle cx="425.6" cy="455.0" r="3.6" fill="#a0889a"/>
+<text x="360.6" y="468.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="6.0" fill="#6a5667" font-weight="normal" font-style="normal" text-anchor="start">11 train</text>
+<text x="400.6" y="468.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="6.0" fill="#ff876f" font-weight="bold" font-style="normal" text-anchor="start">1 predict</text>
+</g>
+<line x1="493.4" y1="412.0" x2="505.4" y2="412.0" stroke="#6a5667" stroke-width="1.6" marker-end="url(#arrow)"/>
+<g id="method_step_4">
+<rect x="506.4" y="350.0" width="143.8" height="124" rx="3" fill="#f6f0f4"/>
+<circle cx="515.4" cy="359.0" r="5.5" fill="#870052"/>
+<text x="515.4" y="361.6" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.5" fill="#ffffff" font-weight="bold" font-style="normal" text-anchor="middle">4</text>
+<text x="524.4" y="361.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="8.3" fill="#4f0433" font-weight="bold" font-style="normal" text-anchor="start">Three readouts</text>
+<text x="511.4" y="375.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.0" fill="#1a1a1a" font-weight="normal">
+<tspan x="511.4" dy="0.00">Prespecified ISR gene score;</tspan>
+<tspan x="511.4" dy="9.10">classifier score per OL; DA-OL cluster</tspan>
+<tspan x="511.4" dy="9.10">share. Agreement between independent</tspan>
+<tspan x="511.4" dy="9.10">inputs.</tspan>
+</text>
+<rect x="514.4" y="438.0" width="6" height="6" rx="1" fill="#4f0433"/>
+<text x="524.4" y="443.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="6.5" fill="#6a5667" font-weight="normal" font-style="normal" text-anchor="start">ISR genes (prior)</text>
+<rect x="514.4" y="448.0" width="6" height="6" rx="1" fill="#870052"/>
+<text x="524.4" y="453.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="6.5" fill="#6a5667" font-weight="normal" font-style="normal" text-anchor="start">classifier (label-free)</text>
+<rect x="514.4" y="458.0" width="6" height="6" rx="1" fill="#ff876f"/>
+<text x="524.4" y="463.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="6.5" fill="#6a5667" font-weight="normal" font-style="normal" text-anchor="start">cluster (descriptive)</text>
+</g>
+<line x1="651.2" y1="412.0" x2="663.2" y2="412.0" stroke="#6a5667" stroke-width="1.6" marker-end="url(#arrow)"/>
+<g id="method_step_5">
+<rect x="664.2" y="350.0" width="143.8" height="124" rx="3" fill="#f6f0f4"/>
+<circle cx="673.2" cy="359.0" r="5.5" fill="#ff876f"/>
+<text x="673.2" y="361.6" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.5" fill="#ffffff" font-weight="bold" font-style="normal" text-anchor="middle">5</text>
+<text x="682.2" y="361.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="8.3" fill="#4f0433" font-weight="bold" font-style="normal" text-anchor="start">Driver genes</text>
+<text x="669.2" y="375.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.0" fill="#1a1a1a" font-weight="normal">
+<tspan x="669.2" dy="0.00">Correlate each gene with the OL score</tspan>
+<tspan x="669.2" dy="9.10">within each section (removes batch,</tspan>
+<tspan x="669.2" dy="9.10">plane, sacrifice time). Replicate</tspan>
+<tspan x="669.2" dy="9.10">across cohorts.</tspan>
+</text>
+<line x1="674.2" y1="464" x2="734.2" y2="464" stroke="#e3d6de"/>
+<line x1="674.2" y1="464" x2="674.2" y2="438" stroke="#e3d6de"/>
+<circle cx="685.5" cy="461.2" r="1.3" fill="#870052"/>
+<circle cx="692.0" cy="451.7" r="1.3" fill="#870052"/>
+<circle cx="705.0" cy="447.0" r="1.3" fill="#870052"/>
+<circle cx="720.8" cy="446.6" r="1.3" fill="#870052"/>
+<circle cx="683.3" cy="464.7" r="1.3" fill="#870052"/>
+<circle cx="701.6" cy="453.4" r="1.3" fill="#870052"/>
+<circle cx="719.4" cy="449.0" r="1.3" fill="#870052"/>
+<circle cx="717.2" cy="446.6" r="1.3" fill="#870052"/>
+<circle cx="690.6" cy="462.5" r="1.3" fill="#870052"/>
+<circle cx="679.9" cy="458.2" r="1.3" fill="#870052"/>
+<circle cx="679.6" cy="453.6" r="1.3" fill="#870052"/>
+<circle cx="698.8" cy="451.5" r="1.3" fill="#870052"/>
+<circle cx="689.9" cy="456.0" r="1.3" fill="#870052"/>
+<circle cx="690.2" cy="456.9" r="1.3" fill="#870052"/>
+<circle cx="701.8" cy="450.1" r="1.3" fill="#870052"/>
+<circle cx="690.7" cy="456.4" r="1.3" fill="#870052"/>
+<circle cx="690.0" cy="454.2" r="1.3" fill="#870052"/>
+<circle cx="679.4" cy="461.2" r="1.3" fill="#870052"/>
+<circle cx="723.4" cy="440.2" r="1.3" fill="#870052"/>
+<circle cx="688.2" cy="455.8" r="1.3" fill="#870052"/>
+<circle cx="731.8" cy="442.1" r="1.3" fill="#870052"/>
+<circle cx="696.2" cy="453.2" r="1.3" fill="#870052"/>
+<circle cx="717.2" cy="444.9" r="1.3" fill="#870052"/>
+<circle cx="701.0" cy="445.7" r="1.3" fill="#870052"/>
+<circle cx="723.0" cy="443.2" r="1.3" fill="#870052"/>
+<circle cx="709.9" cy="447.0" r="1.3" fill="#870052"/>
+<circle cx="725.9" cy="445.4" r="1.3" fill="#870052"/>
+<circle cx="710.0" cy="446.3" r="1.3" fill="#870052"/>
+<text x="740.2" y="452.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="6.0" fill="#6a5667" font-weight="normal" font-style="normal" text-anchor="start">gene vs</text>
+<text x="740.2" y="459.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="6.0" fill="#6a5667" font-weight="normal" font-style="normal" text-anchor="start">OL score</text>
+</g>
+<text x="33.0" y="488.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9.5" fill="#870052" font-weight="bold" font-style="normal" text-anchor="start">Why this is robust</text>
+<text x="33.0" y="500.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.5" fill="#870052" font-weight="bold" font-style="normal" text-anchor="start">✓</text>
+<text x="39.8" y="500.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.5" fill="#1a1a1a" font-weight="normal">
+<tspan x="39.8" dy="0.00">The mouse is the unit: no cell is ever scored by a model that saw its mouse.</tspan>
+</text>
+<text x="33.0" y="511.2" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.5" fill="#870052" font-weight="bold" font-style="normal" text-anchor="start">✓</text>
+<text x="39.8" y="511.2" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.5" fill="#1a1a1a" font-weight="normal">
+<tspan x="39.8" dy="0.00">Confounds cannot create driver genes: they must vary between cells of the same section.</tspan>
+</text>
+<text x="430.5" y="500.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.5" fill="#870052" font-weight="bold" font-style="normal" text-anchor="start">✓</text>
+<text x="437.2" y="500.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.5" fill="#1a1a1a" font-weight="normal">
+<tspan x="437.2" dy="0.00">Independent of clustering: prior gene set, label-free classifier and cluster agree.</tspan>
+</text>
+<text x="430.5" y="511.2" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.5" fill="#870052" font-weight="bold" font-style="normal" text-anchor="start">✓</text>
+<text x="437.2" y="511.2" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.5" fill="#1a1a1a" font-weight="normal">
+<tspan x="437.2" dy="0.00">Replication: models trained on disjoint mice (P21-only vs P60-only) share top genes.</tspan>
+</text>
+</g>
+<g id="result1_panel">
+<rect x="25.0" y="530.0" width="791.0" height="212.0" rx="3" fill="#ffffff" stroke="#e3d6de" stroke-width="0.8"/>
+<path d="M28.0,530.0 H813.0 Q816.0,530.0 816.0,533.0 V547.0 H25.0 V533.0 Q25.0,530.0 28.0,530.0 Z" fill="#870052"/>
+<text x="33.0" y="542.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" fill="#ffffff" font-weight="bold" font-style="normal" text-anchor="start">5 · Only 3 of 6 mtDSB mice respond, and they respond strongly</text>
+<image id="fig_F2" x="33.0" y="556.0" width="540.0" height="167.0" href="figures/F2_three_readouts.png" xlink:href="figures/F2_three_readouts.png" preserveAspectRatio="xMidYMid meet"/>
+<g id="result1_text">
+<text x="587.0" y="574.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="28" fill="#ff876f" font-weight="bold" font-style="normal" text-anchor="start">3 / 6</text>
+<text x="651.0" y="566.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.6" fill="#6a5667" font-weight="normal" font-style="normal" text-anchor="start">mtDSB mice with an</text>
+<text x="651.0" y="575.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.6" fill="#6a5667" font-weight="normal" font-style="normal" text-anchor="start">OL stress response</text>
+<text x="587.0" y="592.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.3" fill="#870052" font-weight="bold" font-style="normal" text-anchor="start">✓</text>
+<text x="593.6" y="592.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.3" fill="#1a1a1a" font-weight="normal">
+<tspan x="593.6" dy="0.00">Same 3 mice by three independent readouts.</tspan>
+</text>
+<text x="587.0" y="602.9" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.3" fill="#870052" font-weight="bold" font-style="normal" text-anchor="start">✓</text>
+<text x="593.6" y="602.9" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.3" fill="#1a1a1a" font-weight="normal">
+<tspan x="593.6" dy="0.00">ISR genes (Atf5, Trib3, Ddit3, Sesn2): no overlap with</tspan>
+<tspan x="593.6" dy="9.49">controls; non-responders = controls.</tspan>
+</text>
+<text x="587.0" y="623.3" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.3" fill="#870052" font-weight="bold" font-style="normal" text-anchor="start">✓</text>
+<text x="593.6" y="623.3" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.3" fill="#1a1a1a" font-weight="normal">
+<tspan x="593.6" dy="0.00">mtDSB group 10x more variable than controls (p = 1e-4)</tspan>
+<tspan x="593.6" dy="9.49">while means do not differ.</tspan>
+</text>
+<text x="587.0" y="643.6" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.3" fill="#870052" font-weight="bold" font-style="normal" text-anchor="start">✓</text>
+<text x="593.6" y="643.6" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.3" fill="#1a1a1a" font-weight="normal">
+<tspan x="593.6" dy="0.00">Not explained by sex, genotype, sample swap or</tspan>
+<tspan x="593.6" dy="9.49">white-matter content.</tspan>
+</text>
+</g>
+<text x="33.0" y="731.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="6.5" fill="#6a5667" font-weight="normal">
+<tspan x="33.0" dy="0.00">Each mouse scored by models that never saw it. Filled orange = responders, open = non-responders, blue = controls.</tspan>
+</text>
+</g>
+<g id="result2_panel">
+<rect x="25.0" y="754.0" width="262.0" height="336.0" rx="3" fill="#ffffff" stroke="#e3d6de" stroke-width="0.8"/>
+<path d="M28.0,754.0 H284.0 Q287.0,754.0 287.0,757.0 V771.0 H25.0 V757.0 Q25.0,754.0 28.0,754.0 Z" fill="#870052"/>
+<text x="33.0" y="766.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="bold" font-style="normal" text-anchor="start">6 · What responding OLs do</text>
+<image id="fig_G3" x="55.6" y="778.0" width="200.8" height="236.0" href="figures/G3_driver_genes_by_section.png" xlink:href="figures/G3_driver_genes_by_section.png" preserveAspectRatio="xMidYMid meet"/>
+<text x="33.0" y="1020.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.0" fill="#870052" font-weight="bold" font-style="normal" text-anchor="start">✓</text>
+<text x="39.3" y="1020.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.0" fill="#1a1a1a" font-weight="normal">
+<tspan x="39.3" dy="0.00">34 up: ATF4 stress response, mitochondrial &amp; protein quality control</tspan>
+<tspan x="39.3" dy="9.10">(Hspa9, p62), p21, MHC-I and Cd40.</tspan>
+</text>
+<text x="33.0" y="1039.3" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.0" fill="#870052" font-weight="bold" font-style="normal" text-anchor="start">✓</text>
+<text x="39.3" y="1039.3" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.0" fill="#1a1a1a" font-weight="normal">
+<tspan x="39.3" dy="0.00">9 myelin genes down (Mog, Cnp, Cldn11, Mal).</tspan>
+</text>
+<text x="33.0" y="1049.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.0" fill="#870052" font-weight="bold" font-style="normal" text-anchor="start">✓</text>
+<text x="39.3" y="1049.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.0" fill="#1a1a1a" font-weight="normal">
+<tspan x="39.3" dy="0.00">Top genes replicate across cohorts (10/50 shared, p = 2e-11).</tspan>
+</text>
+</g>
+<g id="result3_panel">
+<rect x="299.0" y="754.0" width="517.0" height="336.0" rx="3" fill="#ffffff" stroke="#e3d6de" stroke-width="0.8"/>
+<path d="M302.0,754.0 H813.0 Q816.0,754.0 816.0,757.0 V771.0 H299.0 V757.0 Q299.0,754.0 302.0,754.0 Z" fill="#870052"/>
+<text x="307.0" y="766.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="bold" font-style="normal" text-anchor="start">7 · Where: brain-wide, strongest in thalamus and fiber tracts</text>
+<image id="fig_F8" x="307.0" y="776.0" width="501.0" height="242.6" href="figures/F8_ol_score_maps.png" xlink:href="figures/F8_ol_score_maps.png" preserveAspectRatio="xMidYMid meet"/>
+<text x="307.0" y="1026.6" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.3" fill="#870052" font-weight="bold" font-style="normal" text-anchor="start">✓</text>
+<text x="313.6" y="1026.6" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.3" fill="#1a1a1a" font-weight="normal">
+<tspan x="313.6" dy="0.00">Score = each OL's held-out p(mtDSB) as a percentile of control</tspan>
+<tspan x="313.6" dy="9.49">OLs: responder OLs pile up at the top (median 65-85 vs 23-35 in</tspan>
+<tspan x="313.6" dy="9.49">non-responders).</tspan>
+</text>
+<text x="307.0" y="1056.4" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.3" fill="#870052" font-weight="bold" font-style="normal" text-anchor="start">✓</text>
+<text x="313.6" y="1056.4" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.3" fill="#1a1a1a" font-weight="normal">
+<tspan x="313.6" dy="0.00">High-scoring OLs concentrate in the thalamus and the fiber-tract</tspan>
+<tspan x="313.6" dy="9.49">arcs.</tspan>
+</text>
+<text x="565.5" y="1026.6" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.3" fill="#870052" font-weight="bold" font-style="normal" text-anchor="start">✓</text>
+<text x="572.1" y="1026.6" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.3" fill="#1a1a1a" font-weight="normal">
+<tspan x="572.1" dy="0.00">Thalamus and fiber tracts rank top on all three readouts; myelin</tspan>
+<tspan x="572.1" dy="9.49">genes drop most there.</tspan>
+</text>
+<text x="565.5" y="1046.9" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.3" fill="#870052" font-weight="bold" font-style="normal" text-anchor="start">✓</text>
+<text x="572.1" y="1046.9" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.3" fill="#1a1a1a" font-weight="normal">
+<tspan x="572.1" dy="0.00">Controls vary (median 38-63); microglia in the responders turn</tspan>
+<tspan x="572.1" dy="9.49">DAM-like (Cd74, Cst7 10-30x).</tspan>
+</text>
+</g>
+<g id="conclusions_panel">
+<rect x="0" y="1098.5" width="841" height="3.5" fill="#ff876f"/>
+<rect x="0" y="1102.0" width="841" height="87.0" fill="url(#footer-gradient)"/>
+<text x="25.0" y="1117.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="bold" font-style="normal" text-anchor="start">8 · Conclusions and next steps</text>
+<text x="25.0" y="1130.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.4" fill="#ff876f" font-weight="bold" font-style="normal" text-anchor="start">✓</text>
+<text x="31.7" y="1130.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.4" fill="#ffffff" font-weight="normal">
+<tspan x="31.7" dy="0.00">mtDSB causes an all-or-none OL stress response at 42 days: ISR + mitochondrial quality control, immune</tspan>
+<tspan x="31.7" dy="9.62">visibility, myelin loss.</tspan>
+</text>
+<text x="25.0" y="1150.6" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.4" fill="#ff876f" font-weight="bold" font-style="normal" text-anchor="start">✓</text>
+<text x="31.7" y="1150.6" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.4" fill="#ffffff" font-weight="normal">
+<tspan x="31.7" dy="0.00">Responding OLs sit with DAM-like microglia in thalamus and white matter: a candidate prelude to</tspan>
+<tspan x="31.7" dy="9.62">demyelination.</tspan>
+</text>
+<text x="430.5" y="1130.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.4" fill="#f6dcec" font-weight="bold" font-style="normal" text-anchor="start">✓</text>
+<text x="437.2" y="1130.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.4" fill="#ffffff" font-weight="normal">
+<tspan x="437.2" dy="0.00">Why do 3 mice not respond? Testing induction (mtPstI qPCR, mtDNA damage) on remaining tissue.</tspan>
+</text>
+<text x="430.5" y="1141.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.4" fill="#f6dcec" font-weight="bold" font-style="normal" text-anchor="start">✓</text>
+<text x="437.2" y="1141.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="7.4" fill="#ffffff" font-weight="normal">
+<tspan x="437.2" dy="0.00">Code, figures, tables: github.com/christoffermattssonlangseth/oligo-mtDSB</tspan>
+</text>
+</g>
+</svg>

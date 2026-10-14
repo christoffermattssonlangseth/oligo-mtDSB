@@ -77,7 +77,7 @@ expression), but they use different inputs (prior genes / labels of other sectio
   in the training labels, not a reversed effect.
 
 ### 5. Where: brain-wide in responders, strongest in fiber tracts and thalamus
-*Fig F4, F5, Tab `region_summary_by_group`, `region_rank_in_responders`, `ol_frac_above_control_p90`*
+*Fig F4, F5, F8, Tab `region_summary_by_group`, `region_rank_in_responders`, `ol_frac_above_control_p90`*
 
 * In responders every region is affected: ISR score 1.23-1.88x controls, classifier high-score fraction
   1.39-2.93x, cluster share 21-65% (controls 0-4%).
@@ -86,6 +86,9 @@ expression), but they use different inputs (prior genes / labels of other sectio
   hippocampus and olfactory areas are least affected (8.7, 8.9).
 * Spatial maps (F5): OLs scoring above the 90th percentile of control OLs make up 24-40% of OLs in
   responders vs 5-16% in controls and 4-6% in non-responders, concentrated in thalamus and fiber-tract arcs.
+* The score itself (F8, Tab `ol_score_percentile_by_section`): expressed as a percentile of control OLs, responder
+  OLs pile up at the top (median 65-85) while non-responders sit low (23-35); controls vary (38-63). Continuous
+  maps show the high-scoring OLs in thalamus and fiber tracts.
 * The earlier observation "hypothalamus and thalamus are enriched for stressed oligodendrocytes" holds for
   the **thalamus**; the hypothalamus is clearly affected but mid-ranked. It is not explained by neuronal
   neuropeptide spill-over (control hypothalamus has 0.8% cluster share).

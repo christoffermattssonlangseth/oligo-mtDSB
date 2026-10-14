@@ -69,12 +69,13 @@ half of the mtDSB mice, which also explains why it looked weak or age-dependent.
 | I want to ... | Go to |
 |---|---|
 | read the findings and their evidence | `results/sample_classifier/FINDINGS.md` |
-| see the figures (F1-F7 responders / regions / checks; G1-G4 genes) | `results/sample_classifier/figures/`, `results/ol_gene_drivers/figures/` |
+| see the figures (F1-F8 responders / regions / score maps / checks; G1-G4 genes) | `results/sample_classifier/figures/`, `results/ol_gene_drivers/figures/` |
 | check whether an earlier notebook's conclusion still holds | `docs/ANALYSIS_REVIEW.md` |
 | regenerate figures and tables (laptop, no h5ad needed) | `analysis/02-ol-response-and-classifiers.ipynb`, `analysis/03-ol-stress-genes.ipynb` |
 | region x time-point DE figures | `analysis/01-region-time-treatment-figures.ipynb` |
 | understand the methods | docstrings of `utils/sample_classifier.py`, `utils/ol_response.py`, `utils/region_time_de.py` |
 | check the code works without the data | `python tests/test_sample_classifier.py`, `tests/test_ol_response.py`, `tests/test_region_time_de.py` |
+| edit the A0 poster (KI style, editable SVG; regenerate with `make_poster.py`) | `docs/poster/poster.svg` |
 | read the manuscript draft (with review notes) | `results/paper/manuscript.md` (built from `results/paper/[0-9]*-*.md`) |
 | see how the annotation / compartments were made | `legacy/notebooks-02/01-03`, `legacy/notebooks-02/13`, `legacy/notebooks-04/00`, `scripts/compartments/` |
 
@@ -95,7 +96,7 @@ results/
   region_time/         region x time DE tables (+ _cell_class_updated, _MANA250 example)
   cell_table/          sections.csv (age, condition, sex, genotype); cells.csv.gz gitignored
   paper/               manuscript sections + build_manuscript.py
-docs/            ANALYSIS_REVIEW.md
+docs/            ANALYSIS_REVIEW.md; poster/ (A0 poster SVG + generator)
 legacy/          earlier work, kept for the record (not maintained; relative paths inside no longer resolve)
   notebooks-01 ... notebooks-04, utils_builder.ipynb
   utils/       auto-harvested helper modules

@@ -1,0 +1,13 @@
+sample_id,age,condition,group,median,frac_above_90,n_OLs
+RB4620,21,control,control,39.275,0.05,13965
+RB4658,21,control,control,60.67,0.144,10884
+RB4676,21,control,control,37.593,0.048,14204
+RB4627,21,mtDSB,responder,64.684,0.239,10902
+RB4630,21,mtDSB,non-responder,35.137,0.058,11547
+RB4653,21,mtDSB,non-responder,35.105,0.049,11774
+RB4282,60,control,control,63.38,0.157,14198
+RB4350,60,control,control,52.749,0.11,12487
+RB4498,60,control,control,51.17,0.102,13303
+RB4401,60,mtDSB,responder,71.939,0.243,11897
+RB4403,60,mtDSB,non-responder,23.083,0.038,23485
+RB4405,60,mtDSB,responder,85.457,0.404,10655
