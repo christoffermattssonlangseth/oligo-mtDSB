@@ -22,7 +22,7 @@ fiber tracts and the thalamus.**
 
 | README finding | Claims here |
 |---|---|
-| 1. Only 3 of 6 mtDSB mice respond | 1, 2, 6 |
+| 1. Only 3 of 6 mtDSB mice respond | 1, 2, 6, 13 |
 | 2. What responding OLs do (stress, immune visibility, myelin loss) | 7 |
 | 3. Same response at both ages | 3, 4 |
 | 4. Brain-wide, strongest in thalamus and white matter | 5 |
@@ -240,6 +240,24 @@ gene-set scores.
 
 ---
 
+### 13. How certain each responder call is
+*`analysis/07-responder-probability.ipynb`, `utils/responder_mixture.py`, `results/responder_probability/` (Fig R1)*
+
+* Two-component Bayesian mixture on the prespecified whole-section OL ISR score, centred on each slide's controls;
+  non-responders drawn like controls (multivariate t, pooled control SD, df 4), responders shifted up with unknown
+  shift and spread; responding fraction pi ~ Beta(1, 1). Exact posterior over all 64 labelings.
+* P(responder): RB4627, RB4405, RB4401 > 0.99 (11-19 control SDs); RB4630 0.17; RB4653, RB4403 < 0.01.
+  Unchanged for the three responders under every prior variant; RB4630 ranges 0.01-0.34 (0.67 only under a
+  prior capping the shift at 6 SD, which cannot fit the observed responders).
+* Null: each control scored as unlabelled (left out of the reference) stays <= 0.08.
+* Readouts: the per-OL ISR mean is noisier (a control reaches 0.93) and the condition classifier alone separates
+  poorly (control RB4658 0.90); ISR + classifier gives the same three responders (RB4630 0.06).
+* Responding fraction 0.52, 90% credible interval 0.23-0.80.
+* Simulated cohorts of this design: responders P > 0.9 in 100%; non-responders P > 0.9 in 1%, P < 0.1 in 87%.
+
+**Strength: strong** for the three responders and for RB4653 / RB4403; **RB4630 is unresolved** (likely a
+non-responder, possibly weak).
+
 ## Hypotheses only (not claims)
 
 * **Astrocytes and endothelial cells** carry weak cross-cohort signals (single-cell transfer AUC 0.78-1.0
@@ -275,6 +293,9 @@ group-mean comparison reaches only ~0.45 power at 6 and ~0.7 at 12 mice per grou
 responder count) reach 0.8 at ~10 per group; **with an induction check that excludes failed inductions, 5-6 mice per
 group give 0.8-0.9 power**. Recommendations: induction QC (mtPstI qPCR / mtDNA damage) for every mouse; analyse and
 report per mouse; put both cohorts on every Xenium slide so age and slide are no longer confounded.
+
+Responder rule (`analysis/07`, R1 D): with three controls per slide, whole-section OL ISR >= 1.11x / 1.17x / 1.19x
+the slide's control mean gives P(responder) >= 0.5 / 0.9 / 0.95.
 
 ## Reproduce
 

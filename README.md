@@ -12,11 +12,11 @@ after induction. Cells carry a cell type (`cell_class`) and an anatomical compar
 
 ---
 
-## Key findings at a glance (updated 2026-10-14)
+## Key findings at a glance (updated 2026-10-15)
 
 | # | Finding | Key number | Evidence | Figure |
 |---|---|---|---|---|
-| 1 | **Only 3 of the 6 mtDSB mice respond, and they respond strongly**; the other 3 look like controls | ISR genes up 2-100x in RB4405, RB4401, RB4627; non-responders inside the control range | strong | F2 |
+| 1 | **Only 3 of the 6 mtDSB mice respond, and they respond strongly**; the other 3 look like controls | ISR genes up 2-100x in RB4405, RB4401, RB4627 (P(responder) > 0.99 each); non-responders inside the control range (RB4630 borderline, P = 0.17) | strong | F2, R1 |
 | 2 | **Responding oligodendrocytes switch on a stress programme, become immune-visible and lose myelin genes** | 34 genes up, 9 down; top genes replicate across cohorts (p = 2e-11) | strong | G3 |
 | 3 | **The response is the same at both ages**; the earlier "weak at P21, strong at P60" was 1 vs 2 responders | model trained on P60 mice finds the P21 responder and vice versa | moderate | F3 |
 | 4 | **It is brain-wide, strongest in the thalamus and white-matter tracts** | 31-55% of OLs stressed in responders vs 7-14% elsewhere | moderate | F9 |
@@ -30,7 +30,7 @@ after induction. Cells carry a cell type (`cell_class`) and an anatomical compar
 Every mouse is predicted or scored by models that never saw it; "p" values compare the 3 responders with the 6
 controls by exact permutation (smallest possible p = 0.012). Full claims, numbers and caveats:
 **[`results/sample_classifier/FINDINGS.md`](results/sample_classifier/FINDINGS.md)**. Responders: RB4405, RB4401,
-RB4627. Non-responders: RB4403, RB4630, RB4653.
+RB4627. Non-responders: RB4403, RB4653 and, less certainly, RB4630 (`analysis/07`).
 
 ---
 
@@ -46,6 +46,16 @@ sample swap (sex labels match Xist), white-matter content or Xenium slide.
 
 <p align="center"><img src="results/sample_classifier/figures/F2_three_readouts.png" width="850"/><br>
 <em>F2. Three readouts, same three mice. Filled orange = responders, open = non-responders, blue = controls.</em></p>
+
+**How sure is each call?** (`analysis/07`, figure R1) A Bayesian mixture anchored on the controls gives each mouse a
+probability of responding instead of a yes / no call. RB4627, RB4405 and RB4401 have P > 0.99 under every prior tried
+(11-19 control SDs above their slide's controls); RB4653 and RB4403 lie below their slide's control mean (P < 0.01).
+**RB4630 is the one open case (P = 0.17, range 0.01-0.34 across priors)**: 1.07x its slide's controls, above every
+P21 control but far below any responder, so possibly a weak responder. No control, scored as if unlabelled, exceeds
+P = 0.08. The responding fraction is 0.52 (90% interval 0.23-0.80).
+
+<p align="center"><img src="results/responder_probability/figures/R1_responder_probability.png" width="850"/><br>
+<em>R1. A: P(responder) per mouse; B: responding fraction; C: robustness to the priors; D: the rule for the next cohort.</em></p>
 
 ### 2. What responding oligodendrocytes do
 Genes that rise or fall with each cell's stress score *within the same tissue section* (so differences between
@@ -168,10 +178,12 @@ negative results with 3 responders; they set the baseline for the chronic time p
 
 1. **Why do 3 mice not respond?** Induction check on remaining tissue (the unused 60-day fresh-frozen cohort includes
    RB4403 vs RB4401 / RB4405): mtPstI qPCR and an mtDNA damage assay. This decides how non-responders are treated.
+   RB4630 is the mouse to check first (borderline, P(responder) = 0.17).
 2. **Overlap with histology:** were RB4627, RB4401 or RB4405 among the mice with immune infiltrates (IHC, flow)?
 3. **Next cohort design** (`analysis/05`, figure D1): with ~50% responders the classic group comparison stays under
    0.7 power even at 12 mice per group; with an induction check that excludes failed inductions, **5-6 mice per group
-   give 0.8-0.9 power**. Put both age cohorts on every slide.
+   give 0.8-0.9 power**. Put both age cohorts on every slide. Call responders with `utils/responder_mixture.py`:
+   whole-section OL ISR >= 1.17x the slide's control mean gives P(responder) >= 0.9 (`analysis/07`, R1 D).
 
 <p align="center"><img src="results/design_power/figures/D1_power_by_design.png" width="700"/><br>
 <em>D1. Power by design (simulated from the observed per-mouse stress scores).</em></p>
@@ -214,7 +226,8 @@ analysis/        current notebooks (figures + tables from the result folders; no
   04-neighbourhood-and-staging.ipynb       neighbour coupling, proximity model, staging -> N1-N3
   06-borders-patches-repair-neurons.ipynb  borders, focal vs diffuse, repair, neurons   -> S1-S4
   05-design-power.ipynb                    how many mice for the next cohort, which test  -> D1
-utils/           maintained modules: sample_classifier, ol_response, spatial_orientation, gene_sets, neighbourhood, ol_staging, spatial_patterns, region_time_de, region_time_plots, spatial_utils
+  07-responder-probability.ipynb           P(responder) per mouse, rule for the next cohort -> R1
+utils/           maintained modules: sample_classifier, ol_response, spatial_orientation, gene_sets, neighbourhood, ol_staging, spatial_patterns, responder_mixture, region_time_de, region_time_plots, spatial_utils
 scripts/         batch runs (need the h5ad): run_sample_classifier, run_ol_gene_drivers, run_region_time_de,
                  export_cell_table; compartments/ = read-based compartment cluster job
 tests/           synthetic tests for the maintained modules
@@ -224,6 +237,7 @@ results/
   neighbourhood_staging/  coupling, ISR x myelin states, proximity-model tests, figures N1-N3
   proximity_model/     distance targets, ridge metrics and weights
   spatial_patterns/    border distances, correlogram, repair and neuron coupling, figures S1-S4
+  responder_probability/  P(responder) per mouse and readout, prior sensitivity, next-cohort rule, figure R1
   region_time/         region x time DE tables (+ _cell_class_updated, _MANA250 example)
   cell_table/          sections.csv (age, condition, sex, genotype); cells.csv.gz gitignored
   paper/               manuscript sections + build_manuscript.py

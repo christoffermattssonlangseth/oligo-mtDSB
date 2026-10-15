@@ -1,0 +1,6 @@
+,0
+responders with P > 0.9,1.0
+responders with P < 0.1,0.0
+non-responders with P > 0.9,0.01
+non-responders with P < 0.1,0.867
+"non-responders, 0.1 <= P <= 0.9",0.123

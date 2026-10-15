@@ -1,0 +1,13 @@
+,age,hard call,ISR fold vs slide controls,shift (control SDs),P(responder),note
+RB4620,21,control,0.961,-1.343,0.0,"control, left out of the reference"
+RB4658,21,control,1.019,0.624,0.043,"control, left out of the reference"
+RB4676,21,control,1.021,0.719,0.053,"control, left out of the reference"
+RB4627,21,responder,1.731,18.612,0.999,
+RB4630,21,non-responder,1.069,2.275,0.172,
+RB4653,21,non-responder,0.97,-1.026,0.0,
+RB4282,60,control,0.991,-0.319,0.0,"control, left out of the reference"
+RB4350,60,control,0.983,-0.594,0.0,"control, left out of the reference"
+RB4498,60,control,1.027,0.913,0.082,"control, left out of the reference"
+RB4401,60,responder,1.391,11.187,0.999,
+RB4403,60,non-responder,0.939,-2.132,0.0,
+RB4405,60,responder,1.613,16.203,0.999,
