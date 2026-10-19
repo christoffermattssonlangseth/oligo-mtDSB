@@ -26,6 +26,7 @@ after induction. Cells carry a cell type (`cell_class`) and an anatomical compar
 | 8 | **This confirms and explains the earlier analyses** | all 22 driver genes tested by the earlier Bayesian model agree in direction | strong | - |
 | 9 | **The stress is regional and diffuse, not focal and not concentrated at the brain's borders** | no rise towards ventricles / meninges (p = 0.10, 0.25); neighbour coherence = controls | moderate (negative) | S1, S2 |
 | 10 | **No repair response and no neuronal injury yet at 42 days** | immature-OL density p = 0.98; neuronal axon-injury genes p = 0.63-0.83 | moderate (negative) | S3, S4 |
+| 11 | **T cells are rare and not more numerous in responders**; they hide in endothelial / astrocyte / OL clusters | 242 of 980k cells (shuffle null ~4); 3.4 vs 2.8 per 10k, p = 0.46; ~40% OL-labelled in RB4627 / RB4405 vs 0-19% in controls (p = 0.06) | moderate (negative) | T5, T6 |
 
 Every mouse is predicted or scored by models that never saw it; "p" values compare the 3 responders with the 6
 controls by exact permutation (smallest possible p = 0.012). Full claims, numbers and caveats:
@@ -158,6 +159,20 @@ So at 42 days the response is confined to oligodendrocytes and their glial neigh
 detectable repair attempt or neuronal damage: an early stage before the demyelination seen at 4-6 months. These are
 negative results with 3 responders; they set the baseline for the chronic time points.
 
+### 11. T cells are rare, sit at the borders, and are not more numerous in responders
+No cluster or annotation contains T cells: at ~2.5 per 10k cells they are too few to cluster and take their
+neighbours' labels (endothelial / leptomeningeal 55 %, astrocyte 18 %, DA-oligodendrocyte 15 %). Called per cell from
+co-expression of core genes (>= 3 transcripts over >= 2 of Cd3d/e/g, Cd247, Cd2, Cd8a/b1, Itk, Cxcr6), 242 cells pass
+against ~4 when genes are shuffled within each section. They are CD8 / Cxcr6 tissue-resident-type cells, mostly at the
+meninges, ventricles and along vessels, and the polygons show small round cells with the transcripts inside. Responders
+do not have more (p = 0.46); in RB4627 and RB4405 a larger share sits in the tissue among oligodendrocytes (p = 0.06).
+**Probe warning:** Trbc1 and Ighm are dominated by off-target signal in cortical neurons (30k / 68k cells); a
+Trbc1-based score calls ~6,000 false "T cells". (`analysis/08`, `utils/tcells.py`)
+
+<p align="center"><img src="results/tcells/figures/T5_polygon_zooms.png" width="900"/><br>
+<em>T5. The two strongest T cells per section: cell polygons coloured by class, T-cell transcripts as dots.
+All 242: <code>results/tcells/figures/T5b_all_tcells_polygon_zooms.pdf</code>.</em></p>
+
 ---
 
 ## What we cannot claim (yet)
@@ -180,6 +195,8 @@ negative results with 3 responders; they set the baseline for the chronic time p
    RB4403 vs RB4401 / RB4405): mtPstI qPCR and an mtDNA damage assay. This decides how non-responders are treated.
    RB4630 is the mouse to check first (borderline, P(responder) = 0.17).
 2. **Overlap with histology:** were RB4627, RB4401 or RB4405 among the mice with immune infiltrates (IHC, flow)?
+   Xenium finds no excess of T cells in them, but more tissue-located T cells in RB4627 and RB4405 (finding 11);
+   which cell types did the IHC stain?
 3. **Next cohort design** (`analysis/05`, figure D1): with ~50% responders the classic group comparison stays under
    0.7 power even at 12 mice per group; with an induction check that excludes failed inductions, **5-6 mice per group
    give 0.8-0.9 power**. Put both age cohorts on every slide. Call responders with `utils/responder_mixture.py`:
@@ -210,6 +227,7 @@ negative results with 3 responders; they set the baseline for the chronic time p
 | check whether an earlier notebook's conclusion still holds | `docs/ANALYSIS_REVIEW.md` |
 | regenerate figures and tables (laptop, no h5ad needed) | `analysis/02-ol-response-and-classifiers.ipynb`, `analysis/03-ol-stress-genes.ipynb` |
 | region x time-point DE figures | `analysis/01-region-time-treatment-figures.ipynb` |
+| T cells: calls, polygon close-ups, responders vs controls | `analysis/08-t-cells.ipynb` |
 | understand the methods | docstrings of `utils/sample_classifier.py`, `utils/ol_response.py`, `utils/region_time_de.py` |
 | check the code works without the data | `python tests/test_sample_classifier.py`, `tests/test_ol_response.py`, `tests/test_region_time_de.py` |
 | edit the A0 poster (KI style, editable SVG; regenerate with `make_poster.py`) | `docs/poster/poster.svg` |
@@ -227,7 +245,8 @@ analysis/        current notebooks (figures + tables from the result folders; no
   06-borders-patches-repair-neurons.ipynb  borders, focal vs diffuse, repair, neurons   -> S1-S4
   05-design-power.ipynb                    how many mice for the next cohort, which test  -> D1
   07-responder-probability.ipynb           P(responder) per mouse, rule for the next cohort -> R1
-utils/           maintained modules: sample_classifier, ol_response, spatial_orientation, gene_sets, neighbourhood, ol_staging, spatial_patterns, responder_mixture, region_time_de, region_time_plots, spatial_utils
+  08-t-cells.ipynb                         T-cell calls, polygon close-ups, responders vs controls -> T1-T6
+utils/           maintained modules: sample_classifier, ol_response, spatial_orientation, gene_sets, neighbourhood, ol_staging, spatial_patterns, responder_mixture, tcells, region_time_de, region_time_plots, spatial_utils
 scripts/         batch runs (need the h5ad): run_sample_classifier, run_ol_gene_drivers, run_region_time_de,
                  export_cell_table; compartments/ = read-based compartment cluster job
 tests/           synthetic tests for the maintained modules
@@ -238,6 +257,7 @@ results/
   proximity_model/     distance targets, ridge metrics and weights
   spatial_patterns/    border distances, correlogram, repair and neuron coupling, figures S1-S4
   responder_probability/  P(responder) per mouse and readout, prior sensitivity, next-cohort rule, figure R1
+  tcells/              T-cell calls, probe QC, polygons / transcripts around each T cell, figures T1-T6
   region_time/         region x time DE tables (+ _cell_class_updated, _MANA250 example)
   cell_table/          sections.csv (age, condition, sex, genotype); cells.csv.gz gitignored
   paper/               manuscript sections + build_manuscript.py
@@ -273,6 +293,7 @@ runs at ~2 MB/s (10 GB takes ~1.5 h), so run the h5ad steps on the office Mac or
 |---|---|
 | `karospace311` (laptop) | all maintained code, tests, `analysis/` notebooks (scanpy, scikit-learn, pydeseq2 0.5.4) |
 | `cellcharter-env` (office Mac) | the h5ad steps below (scikit-learn, anndata, pydeseq2) |
+| `sopa` (office Mac) | `export_tcells.py` (needs polars: pyarrow fails on the raw `transcripts.parquet`) |
 
 ### Steps
 
@@ -288,6 +309,7 @@ python scripts/export_cell_table.py --h5ad $H5AD --outdir results/cell_table    
 python scripts/export_ol_gene_scores.py --h5ad $H5AD --out results/cell_table/ol_gene_scores.csv.gz      # 1 min (per-OL ISR score)
 python scripts/export_cell_gene_scores.py --h5ad $H5AD                                                    # 1 min (all cells, prespecified sets)
 python scripts/run_proximity_model.py --h5ad $H5AD                                                       # ~45 min (needs targets from analysis/04)
+python scripts/export_tcells.py --h5ad $H5AD --raw-dir /Volumes/moldiassd/oligo-mtDSB/raw_xenium/run4   # 3 min, sopa env (polars)
 # laptop (no h5ad):
 python scripts/run_sample_classifier.py --pseudobulk results/region_time \
     --outdir results/sample_classifier/pseudobulk_general --merge DA-Oligodendrocytes=Oligodendrocytes     # 3 min

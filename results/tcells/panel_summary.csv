@@ -1,0 +1,41 @@
+gene,role,total_counts,cells_ge1,cells_ge2,top_class,top_class_frac,top_region,top_region_frac
+Cd3d,core,738,589,89,Endothelial Cells,0.317,Meningeal border/glia limitans,0.216
+Cd3e,core,359,331,19,Endothelial Cells,0.441,Meningeal border/glia limitans,0.399
+Cd3g,core,695,561,80,Endothelial Cells,0.278,Cortex,0.196
+Cd247,core,2105,1954,128,Neurons,0.654,Thalamus,0.713
+Cd2,core,746,693,43,Endothelial Cells,0.222,Ventricular system,0.189
+Cd8a,core,448,331,60,Excitatory Neurons,0.266,Cortex,0.242
+Cd8b1,core,653,512,59,Excitatory Neurons,0.25,Cortex,0.236
+Itk,core,1362,1302,51,Excitatory Neurons,0.284,Cortex,0.254
+Cxcr6,core,604,412,93,Endothelial Cells,0.374,Meningeal border/glia limitans,0.267
+Ptprc,extra,13709,11273,1849,Microglia,0.531,Cortex,0.179
+Lck,extra,9321,8954,318,Neurons,0.338,Striatum,0.236
+Lat,extra,6328,6042,194,Excitatory Neurons,0.309,Cortex,0.294
+Zap70,extra,7539,7276,254,Neurons,0.45,Thalamus,0.426
+Cd6,extra,6816,6133,588,Excitatory Neurons,0.837,Cortex,0.79
+Cd5,extra,298,296,2,Excitatory Neurons,0.301,Cortex,0.243
+Cd28,extra,775,757,18,Excitatory Neurons,0.42,Cortex,0.312
+Il7r,extra,6808,5784,806,Microglia,0.661,Cortex,0.272
+Cd4,extra,29761,21378,5987,Medium Spiny Neurons,0.789,Striatum,0.879
+Gzma,extra,492,292,24,Excitatory Neurons,0.277,Cortex,0.301
+Gzmb,extra,285,228,19,Excitatory Neurons,0.421,Cortex,0.382
+Gzmk,extra,4764,4646,113,Neurons,0.423,Hypothalamus,0.297
+Prf1,extra,274,249,17,Excitatory Neurons,0.257,Cortex,0.277
+Ifng,extra,450,426,24,Astrocytes,0.465,Ventricular system,0.547
+Klrk1,extra,366,305,41,Endothelial Cells,0.338,Cortex,0.203
+Klrd1,extra,364,354,8,Excitatory Neurons,0.257,Cortex,0.274
+Pdcd1,extra,422,397,22,Microglia,0.426,Thalamus,0.214
+Ctla4,extra,507,504,3,Excitatory Neurons,0.51,Cortex,0.442
+Icos,extra,722,703,18,Excitatory Neurons,0.226,Cortex,0.293
+Foxp3,extra,224,218,6,Excitatory Neurons,0.275,Cortex,0.234
+Cd69,extra,362,353,5,Excitatory Neurons,0.252,Cortex,0.261
+Ccr7,extra,237,222,12,Excitatory Neurons,0.36,Cortex,0.338
+Sell,extra,497,394,63,Endothelial Cells,0.355,Cortex,0.201
+Trbc1,noisy,37929,29880,5894,Excitatory Neurons,0.704,Cortex,0.809
+Ighm,noisy,112997,67574,23053,Excitatory Neurons,0.309,Cortex,0.448
+Cd19,extra,382,360,20,Excitatory Neurons,0.231,Cortex,0.219
+Ms4a1,extra,447,303,46,Endothelial Cells,0.208,Cortex,0.198
+Cd79a,extra,933,816,50,Excitatory Neurons,0.37,Cortex,0.315
+Cd79b,extra,3866,3308,353,Microglia,0.543,Cortex,0.226
+Jchain,extra,2655,2565,36,Excitatory Neurons,0.318,Cortex,0.248
+Mzb1,extra,1095,1079,15,Astrocytes,0.292,Ventricular system,0.268

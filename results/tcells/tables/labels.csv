@@ -1,0 +1,25 @@
+column,label,n_tcells
+cell_class_updated,Endothelial Cells,133
+cell_class_updated,Astrocytes,44
+cell_class_updated,DA-Oligodendrocytes,37
+cell_class_updated,Oligodendrocytes,6
+cell_class_updated,Myocytes,5
+cell_class_updated,Microglia,4
+cell_class_updated,Excitatory Neurons,3
+cell_class_updated,Neural Stem Cells,3
+cell_type,Vascular leptomeningeal cells I,88
+cell_type,Mature oligodendrocytes V,40
+cell_type,Vascular endothelial cells I,34
+cell_type,Endothelial cells I,28
+cell_type,Telencephalon astrocytes II,9
+cell_type,Pericytes I,7
+cell_type,Chorid plexus epithelial cells I,7
+cell_type,Unknown,6
+cytetype_annotation_leiden_3,Stress-Responsive Oligodendrocyte (GFAP-elevated),39
+cytetype_annotation_leiden_3,Leptomeningeal Cell,35
+cytetype_annotation_leiden_3,Perivascular Astrocyte,34
+cytetype_annotation_leiden_3,Astrocyte (reactive),32
+cytetype_annotation_leiden_3,Hybrid Vascular Endothelial Cell,27
+cytetype_annotation_leiden_3,Meningeal Vascular Endothelial Cell,23
+cytetype_annotation_leiden_3,Astrocyte (demyelination-responsive),9
+cytetype_annotation_leiden_3,Choroid Plexus Epithelial Cell,7

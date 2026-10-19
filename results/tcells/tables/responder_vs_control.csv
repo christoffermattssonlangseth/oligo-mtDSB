@@ -1,0 +1,5 @@
+metric,control,responder,non-responder,perm_p_two_sided
+per_10k,2.816,3.351,1.111,0.464
+tissue_per_10k,1.157,1.819,0.556,0.286
+frac_tissue,0.441,0.531,0.44,0.702
+frac_ol_label,0.114,0.302,0.128,0.06
