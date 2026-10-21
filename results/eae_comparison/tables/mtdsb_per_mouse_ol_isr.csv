@@ -1,0 +1,13 @@
+sample_id,ISR,group,age,ISR_z
+RB4282,2.435,control,60,-0.225
+RB4350,2.39,control,60,-0.868
+RB4401,2.734,responder,60,3.995
+RB4403,2.453,non-responder,60,0.026
+RB4405,3.08,responder,60,8.877
+RB4498,2.529,control,60,1.093
+RB4620,2.051,control,21,-0.695
+RB4627,2.903,responder,21,6.365
+RB4630,2.252,non-responder,21,0.972
+RB4653,2.217,non-responder,21,0.677
+RB4658,2.08,control,21,-0.451
+RB4676,2.273,control,21,1.146

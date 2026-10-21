@@ -1,0 +1,85 @@
+cell_type,region,metric,ctrl_mean,resp_mean,nonresp_mean,log2_resp_vs_ctrl,p_resp,log2_nonresp_vs_ctrl,p_nonresp
+Microglia,Thalamus,density,70.8471,119.7406,67.482,0.7571,0.0119,-0.0702,0.6429
+Microglia,Thalamus,share,2.3864,4.1344,2.0028,0.7929,0.0119,-0.2528,0.119
+Microglia,Fiber tracts,density,60.2813,134.4357,68.8216,1.1571,0.0119,0.1911,0.1548
+Microglia,Fiber tracts,share,2.3398,5.4183,2.5397,1.2114,0.0119,0.1183,0.2976
+Microglia,Hypothalamus,density,64.6874,93.1002,68.486,0.5253,0.0595,0.0823,0.6786
+Microglia,Hypothalamus,share,2.0447,3.06,1.8579,0.5817,0.0238,-0.1382,0.5357
+Microglia,Striatum,density,83.7955,86.8806,92.3731,0.0522,0.5952,0.1406,0.3214
+Microglia,Striatum,share,2.6939,2.7823,2.7457,0.0465,0.6667,0.0274,0.8452
+Microglia,Cortex,density,106.1303,101.2159,110.5769,-0.0684,0.2976,0.0592,0.6071
+Microglia,Cortex,share,3.3221,3.1148,3.1879,-0.093,0.3452,-0.0595,0.4405
+Microglia,Hippocampus,density,94.5048,93.9162,91.4703,-0.009,0.9048,-0.0471,0.6667
+Microglia,Hippocampus,share,2.5503,2.654,2.5231,0.0575,0.6071,-0.0154,0.9048
+Oligodendrocytes,Thalamus,density,596.7844,488.1151,653.3531,-0.29,0.0714,0.1307,0.4167
+Oligodendrocytes,Thalamus,share,20.1215,17.0134,19.722,-0.2421,0.131,-0.0289,0.869
+Oligodendrocytes,Fiber tracts,density,1673.5736,1395.6527,1675.2774,-0.262,0.0357,0.0015,1.0
+Oligodendrocytes,Fiber tracts,share,64.8932,57.0015,61.0296,-0.1871,0.0833,-0.0886,0.0238
+Oligodendrocytes,Hypothalamus,density,507.78,525.7347,482.0599,0.0501,0.7143,-0.075,0.7024
+Oligodendrocytes,Hypothalamus,share,16.1192,17.4183,13.5057,0.1118,0.5595,-0.2552,0.3452
+Oligodendrocytes,Striatum,density,374.1391,331.7648,400.643,-0.1734,0.2738,0.0987,0.6786
+Oligodendrocytes,Striatum,share,11.9574,10.6097,11.8596,-0.1725,0.1905,-0.0118,0.9286
+Oligodendrocytes,Cortex,density,324.6781,245.987,310.2587,-0.4004,0.0357,-0.0655,0.8095
+Oligodendrocytes,Cortex,share,10.0821,7.5904,8.7719,-0.4096,0.0119,-0.2008,0.2143
+Oligodendrocytes,Hippocampus,density,207.8545,162.3373,181.5193,-0.3566,0.1548,-0.1955,0.4167
+Oligodendrocytes,Hippocampus,share,5.641,4.5816,5.0103,-0.3001,0.1905,-0.171,0.4524
+Immature Oligodendrocytes I,Thalamus,density,76.3642,70.9046,73.671,-0.107,0.4167,-0.0518,0.7262
+Immature Oligodendrocytes I,Thalamus,share,2.5712,2.4713,2.2054,-0.0572,0.6548,-0.2214,0.1548
+Immature Oligodendrocytes I,Fiber tracts,density,43.1652,57.213,53.7629,0.4065,0.1429,0.3167,0.2262
+Immature Oligodendrocytes I,Fiber tracts,share,1.661,2.3248,2.0771,0.4851,0.0833,0.3225,0.3571
+Immature Oligodendrocytes I,Hypothalamus,density,87.584,81.937,108.1048,-0.0962,0.4405,0.3037,0.0119
+Immature Oligodendrocytes I,Hypothalamus,share,2.7808,2.7197,2.9699,-0.032,0.7976,0.095,0.5119
+Immature Oligodendrocytes I,Striatum,density,80.0723,73.1753,75.8652,-0.1299,0.3214,-0.0779,0.6667
+Immature Oligodendrocytes I,Striatum,share,2.5719,2.3457,2.2804,-0.1328,0.2976,-0.1735,0.3452
+Immature Oligodendrocytes I,Cortex,density,59.8728,55.0856,63.4324,-0.1202,0.0833,0.0833,0.3095
+Immature Oligodendrocytes I,Cortex,share,1.8744,1.7008,1.8748,-0.1403,0.2143,0.0003,1.0
+Immature Oligodendrocytes I,Hippocampus,density,73.9635,71.5381,64.4177,-0.0481,0.7262,-0.1994,0.2381
+Immature Oligodendrocytes I,Hippocampus,share,2.0227,2.0235,1.7963,0.0005,1.0,-0.1713,0.3929
+Astrocytes,Thalamus,density,488.3106,506.5902,677.0778,0.053,0.7857,0.4715,0.2857
+Astrocytes,Thalamus,share,16.3498,17.4421,18.6687,0.0933,0.5,0.1914,0.4524
+Astrocytes,Fiber tracts,density,365.1902,374.4767,443.4805,0.0362,0.869,0.2802,0.2857
+Astrocytes,Fiber tracts,share,14.1764,15.1998,15.704,0.1006,0.4881,0.1476,0.1786
+Astrocytes,Hypothalamus,density,574.8074,559.1779,642.2434,-0.0398,0.7381,0.16,0.5595
+Astrocytes,Hypothalamus,share,18.103,18.4933,17.1103,0.0308,0.6667,-0.0814,0.2024
+Astrocytes,Striatum,density,337.9821,390.6415,307.9602,0.2089,0.381,-0.1342,0.5952
+Astrocytes,Striatum,share,10.7829,12.4807,9.2731,0.211,0.2857,-0.2176,0.3571
+Astrocytes,Cortex,density,281.6709,290.8745,331.5318,0.0464,0.7024,0.2351,0.1786
+Astrocytes,Cortex,share,8.7521,8.9858,9.6222,0.038,0.6548,0.1367,0.1071
+Astrocytes,Hippocampus,density,506.2885,467.7704,455.9488,-0.1142,0.4286,-0.1511,0.3452
+Astrocytes,Hippocampus,share,13.6956,13.2237,12.6264,-0.0506,0.6071,-0.1173,0.3452
+Endothelial Cells,Thalamus,density,397.7663,368.2965,394.4638,-0.1111,0.2619,-0.012,0.8929
+Endothelial Cells,Thalamus,share,13.3614,12.894,12.1371,-0.0514,0.5238,-0.1386,0.4286
+Endothelial Cells,Fiber tracts,density,176.3186,206.5679,185.5272,0.2284,0.1429,0.0734,0.7024
+Endothelial Cells,Fiber tracts,share,6.8518,8.3847,6.6743,0.2913,0.0595,-0.0379,0.6905
+Endothelial Cells,Hypothalamus,density,304.2605,308.0572,286.7064,0.0179,0.9405,-0.0857,0.6071
+Endothelial Cells,Hypothalamus,share,9.663,10.2234,8.0219,0.0813,0.6786,-0.2685,0.3095
+Endothelial Cells,Striatum,density,242.0421,248.3005,249.5416,0.0368,0.4762,0.044,0.7024
+Endothelial Cells,Striatum,share,7.7996,7.9516,7.4545,0.0278,0.7381,-0.0653,0.5833
+Endothelial Cells,Cortex,density,341.2722,340.3037,343.8153,-0.0041,0.9524,0.0107,0.9167
+Endothelial Cells,Cortex,share,10.6435,10.4816,9.9653,-0.0221,0.6905,-0.095,0.0833
+Endothelial Cells,Hippocampus,density,254.8953,239.2528,232.6948,-0.0914,0.5833,-0.1315,0.4048
+Endothelial Cells,Hippocampus,share,6.9509,6.7664,6.4817,-0.0388,0.7976,-0.1008,0.631
+Excitatory Neurons,Thalamus,density,1.05,0.4195,1.8185,-1.3237,0.2857,0.7924,0.381
+Excitatory Neurons,Thalamus,share,0.0341,0.0141,0.0475,-1.2759,0.2857,0.4774,0.5595
+Excitatory Neurons,Fiber tracts,density,4.9866,3.0568,4.3932,-0.7061,0.5238,-0.1828,0.8452
+Excitatory Neurons,Fiber tracts,share,0.1884,0.1232,0.155,-0.6127,0.5119,-0.2818,0.75
+Excitatory Neurons,Hypothalamus,density,0.4295,2.3404,1.4047,2.4462,0.0238,1.7097,0.0595
+Excitatory Neurons,Hypothalamus,share,0.0138,0.0784,0.0367,2.5095,0.0238,1.4144,0.119
+Excitatory Neurons,Striatum,density,73.8559,105.8674,22.8122,0.5195,0.7857,-1.6949,0.6429
+Excitatory Neurons,Striatum,share,2.2561,3.3639,0.6916,0.5763,0.7738,-1.7059,0.5952
+Excitatory Neurons,Cortex,density,1799.3476,1921.0487,1948.3156,0.0944,0.2976,0.1148,0.2262
+Excitatory Neurons,Cortex,share,56.1045,59.0631,56.5467,0.0741,0.0238,0.0113,0.75
+Excitatory Neurons,Hippocampus,density,2290.7664,2214.0223,2198.5509,-0.0492,0.7976,-0.0593,0.7619
+Excitatory Neurons,Hippocampus,share,61.3619,62.5721,61.1799,0.0282,0.6667,-0.0043,0.9762
+Neurons,Thalamus,density,1343.1202,1300.4007,1520.9078,-0.0466,0.7976,0.1793,0.5476
+Neurons,Thalamus,share,44.4451,45.4114,44.5036,0.031,0.8214,0.0019,0.9762
+Neurons,Fiber tracts,density,24.0614,88.3347,29.3916,1.8763,0.0238,0.2887,0.6548
+Neurons,Fiber tracts,share,0.9245,3.5619,0.9695,1.9459,0.0238,0.0685,0.9286
+Neurons,Hypothalamus,density,1610.6268,1405.6543,2084.0712,-0.1964,0.3452,0.3718,0.1667
+Neurons,Hypothalamus,share,50.3208,46.662,55.5472,-0.1089,0.3333,0.1426,0.2381
+Neurons,Striatum,density,557.1642,438.6672,557.8149,-0.345,0.5357,0.0017,1.0
+Neurons,Striatum,share,17.9603,14.1266,17.0331,-0.3464,0.5714,-0.0765,0.8571
+Neurons,Cortex,density,53.8283,38.0903,96.9869,-0.4989,0.5119,0.8494,0.3929
+Neurons,Cortex,share,1.6901,1.1857,2.5701,-0.5113,0.4762,0.6047,0.5595
+Neurons,Hippocampus,density,136.9606,139.9589,210.8689,0.0312,0.9881,0.6226,0.3333
+Neurons,Hippocampus,share,3.7047,3.9728,5.7168,0.1008,0.8333,0.6259,0.2738

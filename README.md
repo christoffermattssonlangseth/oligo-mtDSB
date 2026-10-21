@@ -12,7 +12,7 @@ after induction. Cells carry a cell type (`cell_class`) and an anatomical compar
 
 ---
 
-## Key findings at a glance (updated 2026-10-15)
+## Key findings at a glance (updated 2026-10-21)
 
 | # | Finding | Key number | Evidence | Figure |
 |---|---|---|---|---|
@@ -27,6 +27,11 @@ after induction. Cells carry a cell type (`cell_class`) and an anatomical compar
 | 9 | **The stress is regional and diffuse, not focal and not concentrated at the brain's borders** | no rise towards ventricles / meninges (p = 0.10, 0.25); neighbour coherence = controls | moderate (negative) | S1, S2 |
 | 10 | **No repair response and no neuronal injury yet at 42 days** | immature-OL density p = 0.98; neuronal axon-injury genes p = 0.63-0.83 | moderate (negative) | S3, S4 |
 | 11 | **T cells are rare and not more numerous in responders**; they hide in endothelial / astrocyte / OL clusters | 242 of 980k cells (shuffle null ~4); 3.4 vs 2.8 per 10k, p = 0.46; ~40% OL-labelled in RB4627 / RB4405 vs 0-19% in controls (p = 0.06) | moderate (negative) | T5, T6 |
+| 12 | **Non-responders hide no responding oligodendrocytes**; in responders at least a fifth to a third respond, in every region | top-1% excess 0.6-1.2x in non-responders (controls 0.9-1.2x, responders 5-8x); >= 3% responding OLs would have been detected | moderate (negative) | M1-M4 |
+| 13 | **The OL stress (ISR) and p21 arm is specific to mtDSB; the immune-visible core is shared with EAE** | ISR genes +1.8 log2 in mtDSB vs +0.1 in EAE lesion OLs (59 EAE mice, same panel); IFN-gamma genes +0.3 vs +3.1 | strong | E1-E3 |
+| 14 | **Responders have more microglia, in white matter only**, spread through the region rather than piled on stressed OLs | thalamus 92-153 vs 60-82 /mm2, fibre tracts 71-219 vs 51-68 (both p = 0.012); holds without region labels; cortex unchanged | strong | C2-C4 |
+| 15 | **Outside OLs, only microglia, astrocytes and (less) endothelial cells respond once spill-over is removed; the NSC "proliferation" is section plane** | most neuronal hits are neighbours' RNA; NSC proliferation within lateral-ventricle NSCs = controls (p = 0.38); responder sections lack pallidum and Tbx3+ third-ventricle NSCs | moderate | D2-D6 |
+| 16 | **Inside OLs: ATF4 + p53 programme, no cGAS-STING / interferon, no mitophagy; OPCs spared; myelin genes lost, not OLs** | ISR +1.9, p53 +1.0 log2, cGAS-STING +0.3 (spill-over); OPC ISR 1.2x = astrocytes (OLs 4.2x); Mog / Opalin -40-55 % per OL counting all transcripts, Sox10 unchanged | moderate | O1-O4 |
 
 Every mouse is predicted or scored by models that never saw it; "p" values compare the 3 responders with the 6
 controls by exact permutation (smallest possible p = 0.012). Full claims, numbers and caveats:
@@ -173,6 +178,65 @@ Trbc1-based score calls ~6,000 false "T cells". (`analysis/08`, `utils/tcells.py
 <em>T5. The two strongest T cells per section: cell polygons coloured by class, T-cell transcripts as dots.
 All 242: <code>results/tcells/figures/T5b_all_tcells_polygon_zooms.pdf</code>.</em></p>
 
+### 12. Non-responders are not mosaic: no hidden responding oligodendrocytes
+If induction worked in only some cells, a non-responder would carry a few strongly stressed OLs on top of a normal
+majority. Placing every OL at its percentile among same-slide, same-region control OLs, the three non-responders are
+flat like the controls: 0.6-1.2x the expected share in the control top 1 % (controls 0.9-1.2x; responders 5-8x), and
+no region forms a pocket. Planting responder-like cells into control sections shows that >= 3 % responding OLs would
+have been caught. In responders at least 20-36 % of OLs respond (lower bound from the ISR score; 40-80 % with the
+driver genes), in every region. So the response is all-or-none per mouse at the cell level too: if induction failed in
+the non-responders it failed almost completely. (`analysis/09`, `utils/mosaic.py`)
+
+### 13. The OL stress programme is specific to mitochondrial damage; the immune-visible core is shared with EAE
+The RR-map EAE spinal-cord atlas (8 control, 59 EAE mice, chronic and relapsing-remitting, onset to remission) was run
+on the same 5k panel, so the OL responses can be compared gene for gene. The **ATF4 / integrated stress response (Trib3,
+Gdf15, Atf5, Ddit3, Eif4ebp1, Sesn2) and p21 / cell-cycle genes (Cdkn1a, Ccnd1) are mtDSB-specific**: up 3-40x in
+responder OLs, essentially unchanged in EAE OLs in lesions, in normal-appearing tissue and in DAOs, at every stage.
+The **immune-visible core (Serpina3n, Cd74, H2-D1, B2m, Lgals1, Hmox1) is shared**; EAE OLs add a strong
+interferon-gamma programme (Irf1, Psmb8, Gbp7, Irgm1; +3 log2) that mtDSB OLs lack. Microglia react alike in both
+(r = 0.61 across genes, DAM +2.6 vs +2.5 log2). A Trib3 / Gdf15 / p21 panel could mark mitochondrial-damage OLs in
+other tissue, e.g. MS lesions. Caveats: brain vs spinal cord, one time point vs a disease course. (`analysis/10`)
+
+<p align="center"><img src="results/eae_comparison/figures/E2_programmes.png" width="800"/><br>
+<em>E2. Mean log2 fold change per programme in OLs: mtDSB responders vs EAE lesion, normal-appearing and DAO vs MOL.</em></p>
+
+### 14. More microglia in responder white matter, not clustered on stressed OLs
+Counting cells per mm2 of each region, responders have **1.5-3x the control microglia density in thalamus and fibre
+tracts** (complete separation) and a trend in hypothalamus; cortex, striatum and hippocampus are unchanged and
+non-responders are normal. The excess sits in OL-rich 100 um squares whatever their region label, so it does not depend
+on the region map. It is graded RB4405 > RB4627 > RB4401, and 15-17 % of responder microglia carry a proliferation
+transcript vs 11-15 % in controls (depth- and region-adjusted, p = 0.012). An OL in the top 1 % of stress has only
+5-25 % more microglia within 50 um than an unstressed OL in the same region, as in controls: the microgliosis is
+regional, like the OL response (finding 9). OL density is at most modestly lower (cortex, fibre tracts, p = 0.036).
+Caveat: **pallidum is almost absent from all three responder sections** (0-0.7 % of cells vs 3-7 %), a section-plane
+or region-calling difference that every region-level result should keep in mind. A histology check: Iba1 counts
+in thalamus and internal capsule. (`analysis/11`, `utils/composition.py`)
+
+### 15. Outside OLs: microglia, astrocytes and some endothelial changes; most other hits are spill-over or anatomy
+Responders vs controls per cell type (non-responders: 0-4 genes anywhere). Segmentation puts some RNA of each cell
+into its neighbours; a mixing model estimated from cell-type marker genes (2-5 % of OL / microglial RNA, 6-14 % of
+astrocytic RNA ends up in other cell types) predicts how much of each change is spill-over. **Most neuronal and
+immature-OL hits are neighbours' RNA** (myelin genes "down", Cst7 / Ccl3 "up"). What remains: **microglia** (DAM and
+lipid handling: Cst7, Lpl, Igf1, Axl, Cd9; Csf1, Cxcl16, Plau / Plaur), **astrocytes** (Serpina3n, C4b, Gfap and a
+small, patchy type-I interferon programme, Isg15 / Ifit1 / Cxcl10 / Usp18, not located near stressed OLs or microglia)
+and some **endothelial** changes. The **neural stem cell differences are anatomy**: responder sections contain more
+lateral-ventricle wall and almost no Tbx3+ third-ventricle NSCs, and within lateral-ventricle (Foxg1+) NSCs
+proliferation equals controls (p = 0.38). The manuscript's NSC proliferation point (`results/paper/7`) is not supported.
+(`analysis/12`, `utils/spillover.py`)
+
+### 16. Inside OLs: ATF4 + p53, no innate mtDNA sensing; OPCs spared; myelin genes, not OLs, are lost
+* **Pathways** (prespecified sets, OL pseudobulk): ATF4 / ISR +1.9 log2 and p53 targets +1.0 (p21, PUMA, Gadd45a)
+  dominate, with pro-survival BCL-XL up and caspases flat; small NRF2 (Hmox1), mitochondrial-UPR (Hspa9) and ER-UPR
+  arms. **No cGAS-STING / type-I interferon** (Cgas, STING, Tbk1, Irf3, Ifnb1 flat; the small ISG rises match
+  spill-over from astrocytes), **no mitophagy** (Pink1, Prkn, Bnip3 flat) and **no classic SASP** (p16, Il1a flat).
+  For the bench: ISR (PERK / ISRIB) and p53 are the pathways to perturb, not STING.
+* **OPCs are spared**: pure OPCs (Pdgfra+, Mog-) carry 1.2x the control ISR transcripts, the same as astrocytes
+  (spill-over level), against 4.2x in OLs.
+* **Myelin RNA counted without segmentation** (all transcripts in a region, ~77 % of Mbp lies outside cell
+  outlines): Mog and Opalin fall ~40-55 % per OL in every region, Mbp 13-30 %, while Sox10 and Olig2 per OL are
+  unchanged: OLs lose the myelin programme rather than disappearing. Gfap rises 2-3 log2 per mm2 (astrocyte
+  processes); Snap25 is flat. (`analysis/13`, `scripts/export_myelin_transcripts.py`)
+
 ---
 
 ## What we cannot claim (yet)
@@ -184,6 +248,7 @@ All 242: <code>results/tcells/figures/T5b_all_tcells_polygon_zooms.pdf</code>.</
   non-responders share each slide.
 * **A time course.** Every section is 42 days after induction; finding 7 is inferred from a snapshot.
 * **Causality between cell types.** Findings 5-6 show co-location and coupling, not who signals to whom.
+* **An NSC proliferative response.** It tracks section plane (finding 15).
 * **That there is no repair or neuronal effect at all.** Findings 9-10 are negative results with 3 responders and
   noisy single-cell scores; small effects could be missed.
 * Notes: controls and mtDSB sections were mounted mirror-image on both slides (corrected for display); RB4403's
@@ -228,6 +293,11 @@ All 242: <code>results/tcells/figures/T5b_all_tcells_polygon_zooms.pdf</code>.</
 | regenerate figures and tables (laptop, no h5ad needed) | `analysis/02-ol-response-and-classifiers.ipynb`, `analysis/03-ol-stress-genes.ipynb` |
 | region x time-point DE figures | `analysis/01-region-time-treatment-figures.ipynb` |
 | T cells: calls, polygon close-ups, responders vs controls | `analysis/08-t-cells.ipynb` |
+| are the non-responders mosaic? responding share per mouse | `analysis/09-mosaic-response.ipynb` |
+| mtDSB vs EAE oligodendrocytes and glia (same panel) | `analysis/10-eae-comparison.ipynb` |
+| cell densities, microgliosis, region coverage | `analysis/11-composition-microglia.ipynb` |
+| which non-OL cell types respond, with spill-over removed; NSC check | `analysis/12-celltype-response-spillover.ipynb` |
+| OL pathways (cGAS-STING, p53, mitophagy ...), OPCs, segmentation-free myelin RNA | `analysis/13-ol-mechanism-myelin-rna.ipynb` |
 | understand the methods | docstrings of `utils/sample_classifier.py`, `utils/ol_response.py`, `utils/region_time_de.py` |
 | check the code works without the data | `python tests/test_sample_classifier.py`, `tests/test_ol_response.py`, `tests/test_region_time_de.py` |
 | edit the A0 poster (KI style, editable SVG; regenerate with `make_poster.py`) | `docs/poster/poster.svg` |
@@ -246,7 +316,12 @@ analysis/        current notebooks (figures + tables from the result folders; no
   05-design-power.ipynb                    how many mice for the next cohort, which test  -> D1
   07-responder-probability.ipynb           P(responder) per mouse, rule for the next cohort -> R1
   08-t-cells.ipynb                         T-cell calls, polygon close-ups, responders vs controls -> T1-T6
-utils/           maintained modules: sample_classifier, ol_response, spatial_orientation, gene_sets, neighbourhood, ol_staging, spatial_patterns, responder_mixture, tcells, region_time_de, region_time_plots, spatial_utils
+  09-mosaic-response.ipynb                 per-cell tails: hidden responders? responding share     -> M1-M4
+  10-eae-comparison.ipynb                  mtDSB vs EAE OLs / microglia / astrocytes, same panel   -> E1-E3
+  11-composition-microglia.ipynb           cell densities per region, microgliosis, region coverage -> C1-C7
+  12-celltype-response-spillover.ipynb     DE in every cell type, spill-over model, NSC per cell     -> D1-D6
+  13-ol-mechanism-myelin-rna.ipynb         OL pathway map, OPCs, segmentation-free myelin RNA        -> O1-O4
+utils/           maintained modules: sample_classifier, ol_response, spatial_orientation, gene_sets, neighbourhood, ol_staging, spatial_patterns, responder_mixture, tcells, mosaic, composition, spillover, region_time_de, region_time_plots, spatial_utils
 scripts/         batch runs (need the h5ad): run_sample_classifier, run_ol_gene_drivers, run_region_time_de,
                  export_cell_table; compartments/ = read-based compartment cluster job
 tests/           synthetic tests for the maintained modules
@@ -258,6 +333,12 @@ results/
   spatial_patterns/    border distances, correlogram, repair and neuron coupling, figures S1-S4
   responder_probability/  P(responder) per mouse and readout, prior sensitivity, next-cohort rule, figure R1
   tcells/              T-cell calls, probe QC, polygons / transcripts around each T cell, figures T1-T6
+  mosaic/              per-cell tail enrichment, regional tails, spike-in sensitivity, figures M1-M4
+  eae_comparison/      RR-map EAE OL / glia pseudobulk, mtDSB vs EAE fold changes, figures E1-E3 (cell scores gitignored)
+  composition/         densities per region / cell type, OL-fraction bins, microglia proliferation, figures C1-C7
+  celltype_de/         DE per cell type, contamination fractions, own vs spilled changes, figures D1-D6
+  ol_mechanism/        pathway scores, OPC ISR, myelin transcripts per region, figures O1-O4
+  myelin_rna/          myelin / OL transcripts on a 20 um grid, inside vs outside cells (export_myelin_transcripts.py)
   region_time/         region x time DE tables (+ _cell_class_updated, _MANA250 example)
   cell_table/          sections.csv (age, condition, sex, genotype); cells.csv.gz gitignored
   paper/               manuscript sections + build_manuscript.py
@@ -293,7 +374,7 @@ runs at ~2 MB/s (10 GB takes ~1.5 h), so run the h5ad steps on the office Mac or
 |---|---|
 | `karospace311` (laptop) | all maintained code, tests, `analysis/` notebooks (scanpy, scikit-learn, pydeseq2 0.5.4) |
 | `cellcharter-env` (office Mac) | the h5ad steps below (scikit-learn, anndata, pydeseq2) |
-| `sopa` (office Mac) | `export_tcells.py` (needs polars: pyarrow fails on the raw `transcripts.parquet`) |
+| `sopa` (office Mac) | `export_tcells.py`, `export_myelin_transcripts.py`, `export_cell_counts.py` (polars: pyarrow fails on the raw `transcripts.parquet`) |
 
 ### Steps
 
@@ -310,6 +391,13 @@ python scripts/export_ol_gene_scores.py --h5ad $H5AD --out results/cell_table/ol
 python scripts/export_cell_gene_scores.py --h5ad $H5AD                                                    # 1 min (all cells, prespecified sets)
 python scripts/run_proximity_model.py --h5ad $H5AD                                                       # ~45 min (needs targets from analysis/04)
 python scripts/export_tcells.py --h5ad $H5AD --raw-dir /Volumes/moldiassd/oligo-mtDSB/raw_xenium/run4   # 3 min, sopa env (polars)
+# laptop, RR-map EAE atlas (same 5k panel; ~/Downloads/RRMAP2_xenium_all_samples...Anno2to4Updated.h5ad):
+python scripts/export_eae_pseudobulk.py --h5ad <RRMAP2 h5ad>                                             # 10 min
+python scripts/export_myelin_transcripts.py --raw-dir /Volumes/moldiassd/oligo-mtDSB/raw_xenium/run4 --out results/myelin_rna   # 5 min, sopa env
+python scripts/export_cell_counts.py --h5ad $H5AD --out results/cell_table/nsc_ol_lineage_counts.csv.gz \
+    --cell-types "Neural Stem Cells" "Immature Oligodendrocytes I" "Immature Oligodendrocytes II" "Immature Oligodendrocytes III" \
+    "Oligodendrocytes" "DA-Oligodendrocytes" "Astrocytes" --genes Foxg1 Tbx3 Gpc3 Col23a1 Mki67 Top2a Ccnb1 Cenpf Pcna Mcm2 \
+    Ccna2 Ascl1 Dcx Egfr Sox2 Elavl2 Erbb4 Pdgfra Cspg4 Sox10 Olig2 Trib3 Cdkn1a Atf5 Ddit3 Gdf15 Sesn2 Cebpg Gfap Mog Mbp Cst7 Aqp4   # 3 min
 # laptop (no h5ad):
 python scripts/run_sample_classifier.py --pseudobulk results/region_time \
     --outdir results/sample_classifier/pseudobulk_general --merge DA-Oligodendrocytes=Oligodendrocytes     # 3 min

@@ -1,0 +1,196 @@
+region,gene,metric,ctrl_mean,resp_mean,p_resp,log2_resp_vs_ctrl
+Fiber tracts,Mbp,per_mm2,239257.8822,170577.7727,0.0238,-0.4881
+Fiber tracts,Mbp,per_ol,143.1674,120.7754,0.0357,-0.2454
+Fiber tracts,Mbp,share_unassigned,0.7981,0.803,0.5238,0.0089
+Fiber tracts,Mog,per_mm2,7556.6576,3774.2059,0.0119,-1.0016
+Fiber tracts,Mog,per_ol,4.5068,2.6533,0.0119,-0.7643
+Fiber tracts,Mog,share_unassigned,0.185,0.2361,0.0357,0.3523
+Fiber tracts,Mag,per_mm2,4444.0827,2949.3604,0.0476,-0.5915
+Fiber tracts,Mag,per_ol,2.6567,2.1188,0.2143,-0.3264
+Fiber tracts,Mag,share_unassigned,0.1766,0.2041,0.1905,0.2088
+Fiber tracts,Cldn11,per_mm2,22465.2508,11366.9345,0.0119,-0.9829
+Fiber tracts,Cldn11,per_ol,13.4045,8.0293,0.0119,-0.7394
+Fiber tracts,Cldn11,share_unassigned,0.1874,0.2341,0.0119,0.3203
+Fiber tracts,Cnp,per_mm2,42704.4599,26767.7353,0.0119,-0.6739
+Fiber tracts,Cnp,per_ol,25.588,19.2433,0.0119,-0.4111
+Fiber tracts,Cnp,share_unassigned,0.2839,0.3374,0.0952,0.2491
+Fiber tracts,Ermn,per_mm2,15230.8566,9788.0024,0.0357,-0.6379
+Fiber tracts,Ermn,per_ol,9.096,6.8687,0.0238,-0.4052
+Fiber tracts,Ermn,share_unassigned,0.2886,0.2663,0.2381,-0.1157
+Fiber tracts,Opalin,per_mm2,1202.6919,455.9064,0.0119,-1.3995
+Fiber tracts,Opalin,per_ol,0.7184,0.324,0.0238,-1.1488
+Fiber tracts,Opalin,share_unassigned,0.2591,0.3226,0.0714,0.3163
+Fiber tracts,Sox10,per_mm2,1322.4578,1101.237,0.0238,-0.2641
+Fiber tracts,Sox10,per_ol,0.794,0.8058,0.8929,0.0212
+Fiber tracts,Sox10,share_unassigned,0.2013,0.2071,0.6786,0.0411
+Fiber tracts,Olig2,per_mm2,2058.7899,2635.1867,0.0952,0.3561
+Fiber tracts,Olig2,per_ol,1.2388,1.9659,0.0476,0.6662
+Fiber tracts,Olig2,share_unassigned,0.2279,0.2103,0.2381,-0.1161
+Fiber tracts,Trib3,per_mm2,11.5082,179.2177,0.0119,3.961
+Fiber tracts,Trib3,per_ol,0.0069,0.1383,0.0119,4.3181
+Fiber tracts,Trib3,share_unassigned,0.3055,0.1553,0.0476,-0.9759
+Fiber tracts,Cdkn1a,per_mm2,20.1717,234.4558,0.0119,3.5389
+Fiber tracts,Cdkn1a,per_ol,0.012,0.1769,0.0119,3.8858
+Fiber tracts,Cdkn1a,share_unassigned,0.3025,0.1694,0.0714,-0.8363
+Fiber tracts,Gfap,per_mm2,10414.8256,40908.3604,0.0119,1.9738
+Fiber tracts,Gfap,per_ol,6.284,31.7682,0.0119,2.3378
+Fiber tracts,Gfap,share_unassigned,0.7431,0.8073,0.0357,0.1197
+Fiber tracts,Snap25,per_mm2,6461.0639,9386.2704,0.0714,0.5388
+Fiber tracts,Snap25,per_ol,3.8789,7.1056,0.0714,0.8733
+Fiber tracts,Snap25,share_unassigned,0.5097,0.5433,0.2381,0.092
+Thalamus,Mbp,per_mm2,97827.0395,59102.1198,0.0714,-0.727
+Thalamus,Mbp,per_ol,163.1827,120.7417,0.1071,-0.4346
+Thalamus,Mbp,share_unassigned,0.768,0.7677,1.0,-0.0006
+Thalamus,Mog,per_mm2,2609.9864,1140.0912,0.0119,-1.1949
+Thalamus,Mog,per_ol,4.4425,2.3614,0.0119,-0.9117
+Thalamus,Mog,share_unassigned,0.1905,0.2386,0.0595,0.3245
+Thalamus,Mag,per_mm2,1772.4007,932.6467,0.0119,-0.9263
+Thalamus,Mag,per_ol,3.038,1.9401,0.0476,-0.647
+Thalamus,Mag,share_unassigned,0.1875,0.2141,0.2262,0.1917
+Thalamus,Cldn11,per_mm2,6388.9507,3060.1879,0.0119,-1.062
+Thalamus,Cldn11,per_ol,10.8076,6.2903,0.0119,-0.7808
+Thalamus,Cldn11,share_unassigned,0.1882,0.2341,0.0357,0.3151
+Thalamus,Cnp,per_mm2,14981.9676,9644.3418,0.0238,-0.6355
+Thalamus,Cnp,per_ol,25.0394,19.7742,0.0119,-0.3406
+Thalamus,Cnp,share_unassigned,0.3203,0.399,0.0476,0.317
+Thalamus,Ermn,per_mm2,5087.8134,2631.8811,0.0119,-0.951
+Thalamus,Ermn,per_ol,8.6043,5.4517,0.0238,-0.6584
+Thalamus,Ermn,share_unassigned,0.294,0.27,0.4048,-0.1227
+Thalamus,Opalin,per_mm2,280.2262,105.1255,0.0119,-1.4145
+Thalamus,Opalin,per_ol,0.4735,0.2175,0.0119,-1.1224
+Thalamus,Opalin,share_unassigned,0.2795,0.3416,0.2143,0.2897
+Thalamus,Sox10,per_mm2,695.7204,552.8354,0.0595,-0.3317
+Thalamus,Sox10,per_ol,1.167,1.1324,0.5238,-0.0434
+Thalamus,Sox10,share_unassigned,0.2303,0.2278,0.8929,-0.0158
+Thalamus,Olig2,per_mm2,1830.622,1771.9507,0.8452,-0.047
+Thalamus,Olig2,per_ol,3.0811,3.6365,0.1429,0.2391
+Thalamus,Olig2,share_unassigned,0.3812,0.3229,0.0119,-0.2394
+Thalamus,Trib3,per_mm2,17.0805,122.7405,0.0119,2.8452
+Thalamus,Trib3,per_ol,0.0292,0.2512,0.0119,3.1049
+Thalamus,Trib3,share_unassigned,0.2865,0.1285,0.0119,-1.1571
+Thalamus,Cdkn1a,per_mm2,51.3396,160.2017,0.0119,1.6417
+Thalamus,Cdkn1a,per_ol,0.087,0.3248,0.0119,1.9001
+Thalamus,Cdkn1a,share_unassigned,0.3926,0.2378,0.0357,-0.7234
+Thalamus,Gfap,per_mm2,1929.6101,10752.2276,0.0119,2.4783
+Thalamus,Gfap,per_ol,3.2652,21.3914,0.0119,2.7118
+Thalamus,Gfap,share_unassigned,0.6012,0.7584,0.0119,0.3351
+Thalamus,Snap25,per_mm2,32712.4347,31932.2075,0.7976,-0.0348
+Thalamus,Snap25,per_ol,56.1376,65.7689,0.3095,0.2284
+Thalamus,Snap25,share_unassigned,0.4486,0.4759,0.4643,0.085
+Hypothalamus,Mbp,per_mm2,94228.7132,68952.2922,0.1905,-0.4506
+Hypothalamus,Mbp,per_ol,184.5487,131.7878,0.0476,-0.4858
+Hypothalamus,Mbp,share_unassigned,0.7804,0.767,0.4167,-0.0248
+Hypothalamus,Mog,per_mm2,2202.6711,1289.412,0.0595,-0.7725
+Hypothalamus,Mog,per_ol,4.3113,2.4845,0.0357,-0.7952
+Hypothalamus,Mog,share_unassigned,0.191,0.225,0.1786,0.2364
+Hypothalamus,Mag,per_mm2,1521.0127,1151.3379,0.2857,-0.4017
+Hypothalamus,Mag,per_ol,2.9888,2.2139,0.1548,-0.433
+Hypothalamus,Mag,share_unassigned,0.1943,0.2084,0.4405,0.1011
+Hypothalamus,Cldn11,per_mm2,6082.7019,3750.1542,0.0595,-0.6978
+Hypothalamus,Cldn11,per_ol,11.968,7.2073,0.0119,-0.7317
+Hypothalamus,Cldn11,share_unassigned,0.1869,0.2236,0.0714,0.2585
+Hypothalamus,Cnp,per_mm2,15350.2431,12703.4285,0.0476,-0.273
+Hypothalamus,Cnp,per_ol,30.5185,24.1897,0.0119,-0.3353
+Hypothalamus,Cnp,share_unassigned,0.3877,0.4366,0.0119,0.1711
+Hypothalamus,Ermn,per_mm2,4472.3167,3140.2162,0.131,-0.5102
+Hypothalamus,Ermn,per_ol,8.7426,6.0255,0.0476,-0.537
+Hypothalamus,Ermn,share_unassigned,0.3185,0.2791,0.1071,-0.1906
+Hypothalamus,Opalin,per_mm2,251.1496,134.6547,0.0238,-0.8993
+Hypothalamus,Opalin,per_ol,0.4954,0.2592,0.0119,-0.9344
+Hypothalamus,Opalin,share_unassigned,0.2912,0.3055,0.631,0.0696
+Hypothalamus,Sox10,per_mm2,607.1141,603.7191,0.9643,-0.0081
+Hypothalamus,Sox10,per_ol,1.2009,1.1445,0.4167,-0.0694
+Hypothalamus,Sox10,share_unassigned,0.2383,0.2264,0.4524,-0.0741
+Hypothalamus,Olig2,per_mm2,1780.7509,1903.8221,0.619,0.0964
+Hypothalamus,Olig2,per_ol,3.5317,3.6215,0.8095,0.0362
+Hypothalamus,Olig2,share_unassigned,0.343,0.2813,0.0952,-0.286
+Hypothalamus,Trib3,per_mm2,25.7048,83.8797,0.0119,1.7063
+Hypothalamus,Trib3,per_ol,0.0506,0.1587,0.0119,1.6497
+Hypothalamus,Trib3,share_unassigned,0.2665,0.1571,0.0119,-0.7626
+Hypothalamus,Cdkn1a,per_mm2,61.7478,180.1374,0.0119,1.5446
+Hypothalamus,Cdkn1a,per_ol,0.1228,0.341,0.0119,1.4737
+Hypothalamus,Cdkn1a,share_unassigned,0.356,0.2445,0.2262,-0.5417
+Hypothalamus,Gfap,per_mm2,2348.8502,17029.4423,0.0119,2.858
+Hypothalamus,Gfap,per_ol,4.8214,31.498,0.0119,2.7077
+Hypothalamus,Gfap,share_unassigned,0.7246,0.7739,0.0714,0.0948
+Hypothalamus,Snap25,per_mm2,21129.8823,21289.4698,0.9762,0.0109
+Hypothalamus,Snap25,per_ol,41.5354,40.7773,0.8571,-0.0266
+Hypothalamus,Snap25,share_unassigned,0.3875,0.4054,0.6071,0.0651
+Striatum,Mbp,per_mm2,66377.2314,47820.2416,0.1429,-0.4731
+Striatum,Mbp,per_ol,178.4328,138.7277,0.119,-0.3631
+Striatum,Mbp,share_unassigned,0.7954,0.7759,0.3929,-0.0358
+Striatum,Mog,per_mm2,1703.4847,938.1716,0.0119,-0.8606
+Striatum,Mog,per_ol,4.5906,2.7838,0.0119,-0.7216
+Striatum,Mog,share_unassigned,0.2059,0.2512,0.0714,0.2872
+Striatum,Mag,per_mm2,1063.9285,723.173,0.0119,-0.557
+Striatum,Mag,per_ol,2.9224,2.1994,0.1429,-0.41
+Striatum,Mag,share_unassigned,0.2106,0.2179,0.7738,0.0491
+Striatum,Cldn11,per_mm2,5156.4084,2882.4855,0.0119,-0.8391
+Striatum,Cldn11,per_ol,13.858,8.5423,0.0119,-0.698
+Striatum,Cldn11,share_unassigned,0.2058,0.2391,0.1429,0.2166
+Striatum,Cnp,per_mm2,10937.7395,7665.282,0.0476,-0.5129
+Striatum,Cnp,per_ol,29.2655,23.3178,0.0238,-0.3278
+Striatum,Cnp,share_unassigned,0.373,0.4152,0.0833,0.1547
+Striatum,Ermn,per_mm2,3298.278,2306.3336,0.0833,-0.5161
+Striatum,Ermn,per_ol,8.8693,6.7605,0.0357,-0.3917
+Striatum,Ermn,share_unassigned,0.3108,0.2889,0.2381,-0.1054
+Striatum,Opalin,per_mm2,209.4782,93.823,0.0119,-1.1588
+Striatum,Opalin,per_ol,0.5725,0.2888,0.0119,-0.9873
+Striatum,Opalin,share_unassigned,0.3001,0.3515,0.1667,0.2278
+Striatum,Sox10,per_mm2,465.689,409.9034,0.2143,-0.1841
+Striatum,Sox10,per_ol,1.2544,1.2579,0.9881,0.004
+Striatum,Sox10,share_unassigned,0.2371,0.2587,0.0833,0.1254
+Striatum,Olig2,per_mm2,1010.8884,1079.8546,0.5238,0.0952
+Striatum,Olig2,per_ol,2.724,3.3627,0.2143,0.3039
+Striatum,Olig2,share_unassigned,0.3181,0.2887,0.0476,-0.14
+Striatum,Trib3,per_mm2,26.3017,74.1658,0.0357,1.4956
+Striatum,Trib3,per_ol,0.0752,0.241,0.0357,1.679
+Striatum,Trib3,share_unassigned,0.2017,0.1683,0.3095,-0.2613
+Striatum,Cdkn1a,per_mm2,57.7645,121.901,0.0119,1.0775
+Striatum,Cdkn1a,per_ol,0.1562,0.3813,0.0119,1.2879
+Striatum,Cdkn1a,share_unassigned,0.2404,0.238,0.9524,-0.014
+Striatum,Gfap,per_mm2,2854.0032,6879.2999,0.0238,1.2693
+Striatum,Gfap,per_ol,7.5619,21.3354,0.0119,1.4964
+Striatum,Gfap,share_unassigned,0.7347,0.7488,0.6429,0.0275
+Striatum,Snap25,per_mm2,18960.4706,20936.0511,0.369,0.143
+Striatum,Snap25,per_ol,51.752,66.0083,0.2262,0.351
+Striatum,Snap25,share_unassigned,0.3508,0.3702,0.4048,0.0779
+Cortex,Mbp,per_mm2,59654.0007,33086.1371,0.0238,-0.8504
+Cortex,Mbp,per_ol,183.7001,134.3143,0.0833,-0.4517
+Cortex,Mbp,share_unassigned,0.757,0.7412,0.4167,-0.0304
+Cortex,Mog,per_mm2,1476.5332,637.7218,0.0119,-1.2112
+Cortex,Mog,per_ol,4.5678,2.5734,0.0119,-0.8278
+Cortex,Mog,share_unassigned,0.2164,0.2664,0.0357,0.3
+Cortex,Mag,per_mm2,941.3887,508.3205,0.0238,-0.8891
+Cortex,Mag,per_ol,2.9433,2.0505,0.119,-0.5215
+Cortex,Mag,share_unassigned,0.2033,0.2309,0.1429,0.1834
+Cortex,Cldn11,per_mm2,4091.0961,1837.5131,0.0119,-1.1547
+Cortex,Cldn11,per_ol,12.663,7.4153,0.0119,-0.772
+Cortex,Cldn11,share_unassigned,0.2083,0.242,0.0714,0.2164
+Cortex,Cnp,per_mm2,8624.1233,5305.9943,0.0119,-0.7008
+Cortex,Cnp,per_ol,26.6387,21.5045,0.0119,-0.3089
+Cortex,Cnp,share_unassigned,0.3796,0.4319,0.0833,0.1863
+Cortex,Ermn,per_mm2,2676.6321,1435.4697,0.0119,-0.8989
+Cortex,Ermn,per_ol,8.2739,5.8115,0.0119,-0.5097
+Cortex,Ermn,share_unassigned,0.3261,0.2971,0.1548,-0.1343
+Cortex,Opalin,per_mm2,177.6113,74.9894,0.0119,-1.244
+Cortex,Opalin,per_ol,0.5537,0.3016,0.0595,-0.8766
+Cortex,Opalin,share_unassigned,0.289,0.3437,0.0476,0.2498
+Cortex,Sox10,per_mm2,365.6776,278.8269,0.0238,-0.3912
+Cortex,Sox10,per_ol,1.1385,1.1331,1.0,-0.0068
+Cortex,Sox10,share_unassigned,0.248,0.2619,0.25,0.079
+Cortex,Olig2,per_mm2,1026.8547,918.0335,0.2738,-0.1616
+Cortex,Olig2,per_ol,3.2149,3.7226,0.2738,0.2115
+Cortex,Olig2,share_unassigned,0.3874,0.3526,0.0476,-0.1359
+Cortex,Trib3,per_mm2,21.0501,59.9407,0.0119,1.5097
+Cortex,Trib3,per_ol,0.0671,0.2426,0.0119,1.8533
+Cortex,Trib3,share_unassigned,0.2462,0.1692,0.0357,-0.5417
+Cortex,Cdkn1a,per_mm2,109.9991,177.0196,0.0238,0.6864
+Cortex,Cdkn1a,per_ol,0.3472,0.724,0.0238,1.0601
+Cortex,Cdkn1a,share_unassigned,0.2836,0.2608,0.4286,-0.1208
+Cortex,Gfap,per_mm2,1786.9287,3047.5293,0.0476,0.7702
+Cortex,Gfap,per_ol,5.6023,12.5742,0.0238,1.1664
+Cortex,Gfap,share_unassigned,0.7485,0.7575,0.5952,0.0173
+Cortex,Snap25,per_mm2,55095.0856,58591.5869,0.5,0.0888
+Cortex,Snap25,per_ol,172.4898,238.0218,0.0357,0.4646
+Cortex,Snap25,share_unassigned,0.3879,0.4025,0.4881,0.0533

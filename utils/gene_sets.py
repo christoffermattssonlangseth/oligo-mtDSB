@@ -49,3 +49,23 @@ NEIGHBOUR_READOUTS = {
 # repair (OL lineage) and neuronal readouts, tested with the same neighbourhood framework
 REPAIR_READOUTS = {ct: ["PROLIF", "OPC", "NEWLY_FORMED_OL"] for ct in IMMATURE_OL}
 NEURON_READOUTS = {ct: ["AXON_INJURY", "ISR"] for ct in NEURONS}
+
+# OL mechanism (analysis/13): which stress pathways does mtDNA damage engage in oligodendrocytes?
+# Prespecified from the literature, restricted to the panel. Absent from the panel:
+#   ATF4/ISR  Asns, Chac1, Mthfd2, Ppp1r15a, Nupr1, Slc7a11, Phgdh   p53  Eda2r, Zmat3, Aen, Phlda3, Rrm2b
+#   mito UPR  Lonp1, Clpp, Hspe1, Yme1l1, Trap1   mitophagy  Bnip3l, Optn, Map1lc3b   biogenesis  Tfb2m, Polrmt
+#   cGAS/IFN  Rsad2   SASP  Il1b, Il6, Igfbp7   ER UPR  Xbp1, Dnajb9, Sdf2l1, Hyou1, Pdia4, Manf, Herpud1
+#   NRF2  Gclm, Gclc, Txnrd1, Srxn1   cholesterol  Hmgcs1, Sqle, Dhcr24, Dhcr7, Insig1, Fdft1, Cyp51
+MECHANISM_SETS = {
+    "ATF4 / ISR": ["Atf4", "Atf5", "Ddit3", "Trib3", "Cebpg", "Aldh1l2", "Sesn2", "Psat1", "Vegfa", "Gdf15", "Fgf21", "Eif4ebp1"],
+    "p53 targets": ["Cdkn1a", "Mdm2", "Bax", "Bbc3", "Pmaip1", "Apaf1", "Fas", "Gadd45a", "Sesn1", "Polk"],
+    "mito UPR": ["Hspd1", "Hspa9", "Afg3l2", "Grpel1"],
+    "mitophagy": ["Pink1", "Prkn", "Bnip3", "Fundc1", "Sqstm1", "Ulk1", "Phb2"],
+    "mtDNA / biogenesis": ["Tfam", "Polg", "Twnk", "Ppargc1a", "Nrf1", "Esrra"],
+    "cGAS-STING / IFN-I": ["Cgas", "Tmem173", "Tbk1", "Irf3", "Irf7", "Ifnb1", "Isg15", "Ifit1", "Ifit3", "Oasl2", "Usp18", "Zbp1", "Ddx58", "Ifih1"],
+    "apoptosis (BCL2, caspases)": ["Bak1", "Bcl2", "Bcl2l1", "Mcl1", "Bcl2l11", "Casp3", "Casp9", "Casp8", "Diablo", "Xiap", "Birc2"],
+    "senescence / SASP": ["Cdkn2a", "Il1a", "Cxcl1", "Ccl2", "Serpine1", "Igfbp3", "Mmp3", "Timp1", "Glb1", "Lmnb1"],
+    "ER UPR": ["Hspa5", "Atf6", "Ern1", "Eif2ak3"],
+    "NRF2 / oxidative": ["Nfe2l2", "Hmox1", "Nqo1", "G6pdx"],
+    "cholesterol": ["Hmgcr", "Ldlr", "Srebf2", "Lss", "Idi1", "Msmo1"],
+}

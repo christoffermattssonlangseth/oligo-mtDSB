@@ -1,0 +1,1622 @@
+sample_id,region,cell_type,n,area_mm2,share,density
+RB4282,Cortex,Astrocytes,2262,6.57,9.637,344.292
+RB4282,Cortex,Endothelial Cells,2528,6.57,10.771,384.779
+RB4282,Cortex,Excitatory Neurons,12853,6.57,54.761,1956.317
+RB4282,Cortex,GABAergic Neurons,1737,6.57,7.401,264.384
+RB4282,Cortex,Immature Oligodendrocytes I,394,6.57,1.679,59.97
+RB4282,Cortex,Immature Oligodendrocytes II,31,6.57,0.132,4.718
+RB4282,Cortex,Immature Oligodendrocytes III,19,6.57,0.081,2.892
+RB4282,Cortex,Medium Spiny Neurons,2,6.57,0.009,0.304
+RB4282,Cortex,Microglia,715,6.57,3.046,108.828
+RB4282,Cortex,Neural Stem Cells,8,6.57,0.034,1.218
+RB4282,Cortex,Neurons,356,6.57,1.517,54.186
+RB4282,Cortex,Oligodendrocytes,2566,6.57,10.933,390.563
+RB4282,Fiber tracts,Astrocytes,695,2.252,12.534,308.546
+RB4282,Fiber tracts,Endothelial Cells,377,2.252,6.799,167.37
+RB4282,Fiber tracts,Excitatory Neurons,10,2.252,0.18,4.44
+RB4282,Fiber tracts,GABAergic Neurons,367,2.252,6.619,162.93
+RB4282,Fiber tracts,Immature Oligodendrocytes I,90,2.252,1.623,39.956
+RB4282,Fiber tracts,Immature Oligodendrocytes II,38,2.252,0.685,16.87
+RB4282,Fiber tracts,Immature Oligodendrocytes III,61,2.252,1.1,27.081
+RB4282,Fiber tracts,Medium Spiny Neurons,10,2.252,0.18,4.44
+RB4282,Fiber tracts,Microglia,116,2.252,2.092,51.498
+RB4282,Fiber tracts,Neural Stem Cells,12,2.252,0.216,5.327
+RB4282,Fiber tracts,Neurons,44,2.252,0.794,19.534
+RB4282,Fiber tracts,Oligodendrocytes,3725,2.252,67.178,1653.718
+RB4282,Hippocampus,Astrocytes,472,0.972,13.555,485.347
+RB4282,Hippocampus,Endothelial Cells,261,0.972,7.496,268.38
+RB4282,Hippocampus,Excitatory Neurons,2124,0.972,60.999,2184.062
+RB4282,Hippocampus,GABAergic Neurons,117,0.972,3.36,120.308
+RB4282,Hippocampus,Immature Oligodendrocytes I,73,0.972,2.096,75.064
+RB4282,Hippocampus,Immature Oligodendrocytes II,9,0.972,0.258,9.254
+RB4282,Hippocampus,Immature Oligodendrocytes III,4,0.972,0.115,4.113
+RB4282,Hippocampus,Microglia,97,0.972,2.786,99.743
+RB4282,Hippocampus,Neural Stem Cells,19,0.972,0.546,19.537
+RB4282,Hippocampus,Neurons,163,0.972,4.681,167.609
+RB4282,Hippocampus,Oligodendrocytes,143,0.972,4.107,147.044
+RB4282,Hypothalamus,Astrocytes,1580,2.64,18.291,598.485
+RB4282,Hypothalamus,Endothelial Cells,729,2.64,8.439,276.136
+RB4282,Hypothalamus,GABAergic Neurons,17,2.64,0.197,6.439
+RB4282,Hypothalamus,Immature Oligodendrocytes I,217,2.64,2.512,82.197
+RB4282,Hypothalamus,Immature Oligodendrocytes II,18,2.64,0.208,6.818
+RB4282,Hypothalamus,Immature Oligodendrocytes III,5,2.64,0.058,1.894
+RB4282,Hypothalamus,Microglia,148,2.64,1.713,56.061
+RB4282,Hypothalamus,Neural Stem Cells,9,2.64,0.104,3.409
+RB4282,Hypothalamus,Neurons,4573,2.64,52.94,1732.197
+RB4282,Hypothalamus,Oligodendrocytes,1342,2.64,15.536,508.333
+RB4282,Meningeal border/glia limitans,Astrocytes,2133,2.338,40.909,912.513
+RB4282,Meningeal border/glia limitans,Endothelial Cells,1860,2.338,35.673,795.722
+RB4282,Meningeal border/glia limitans,Excitatory Neurons,66,2.338,1.266,28.235
+RB4282,Meningeal border/glia limitans,GABAergic Neurons,175,2.338,3.356,74.866
+RB4282,Meningeal border/glia limitans,Immature Oligodendrocytes I,142,2.338,2.723,60.749
+RB4282,Meningeal border/glia limitans,Immature Oligodendrocytes II,14,2.338,0.269,5.989
+RB4282,Meningeal border/glia limitans,Immature Oligodendrocytes III,5,2.338,0.096,2.139
+RB4282,Meningeal border/glia limitans,Medium Spiny Neurons,1,2.338,0.019,0.428
+RB4282,Meningeal border/glia limitans,Microglia,202,2.338,3.874,86.417
+RB4282,Meningeal border/glia limitans,Myocytes,5,2.338,0.096,2.139
+RB4282,Meningeal border/glia limitans,Neural Stem Cells,17,2.338,0.326,7.273
+RB4282,Meningeal border/glia limitans,Neurons,224,2.338,4.296,95.829
+RB4282,Meningeal border/glia limitans,Oligodendrocytes,370,2.338,7.096,158.289
+RB4282,Olfactory areas,Astrocytes,691,2.39,11.356,289.121
+RB4282,Olfactory areas,Endothelial Cells,640,2.39,10.518,267.782
+RB4282,Olfactory areas,Excitatory Neurons,3110,2.39,51.109,1301.255
+RB4282,Olfactory areas,GABAergic Neurons,506,2.39,8.316,211.715
+RB4282,Olfactory areas,Immature Oligodendrocytes I,205,2.39,3.369,85.774
+RB4282,Olfactory areas,Immature Oligodendrocytes II,13,2.39,0.214,5.439
+RB4282,Olfactory areas,Immature Oligodendrocytes III,3,2.39,0.049,1.255
+RB4282,Olfactory areas,Medium Spiny Neurons,6,2.39,0.099,2.51
+RB4282,Olfactory areas,Microglia,258,2.39,4.24,107.95
+RB4282,Olfactory areas,Neural Stem Cells,6,2.39,0.099,2.51
+RB4282,Olfactory areas,Neurons,212,2.39,3.484,88.703
+RB4282,Olfactory areas,Oligodendrocytes,435,2.39,7.149,182.008
+RB4282,Pallidum,Astrocytes,427,1.402,15.903,304.456
+RB4282,Pallidum,Endothelial Cells,269,1.402,10.019,191.8
+RB4282,Pallidum,GABAergic Neurons,54,1.402,2.011,38.503
+RB4282,Pallidum,Immature Oligodendrocytes I,59,1.402,2.197,42.068
+RB4282,Pallidum,Immature Oligodendrocytes II,11,1.402,0.41,7.843
+RB4282,Pallidum,Immature Oligodendrocytes III,13,1.402,0.484,9.269
+RB4282,Pallidum,Medium Spiny Neurons,4,1.402,0.149,2.852
+RB4282,Pallidum,Microglia,103,1.402,3.836,73.44
+RB4282,Pallidum,Neural Stem Cells,1,1.402,0.037,0.713
+RB4282,Pallidum,Neurons,238,1.402,8.864,169.697
+RB4282,Pallidum,Oligodendrocytes,1506,1.402,56.089,1073.797
+RB4282,Striatum,Astrocytes,1136,2.892,11.719,392.74
+RB4282,Striatum,Endocrine Cells,1,2.892,0.01,0.346
+RB4282,Striatum,Endothelial Cells,707,2.892,7.293,244.425
+RB4282,Striatum,Excitatory Neurons,100,2.892,1.032,34.572
+RB4282,Striatum,GABAergic Neurons,1146,2.892,11.822,396.197
+RB4282,Striatum,Immature Oligodendrocytes I,229,2.892,2.362,79.17
+RB4282,Striatum,Immature Oligodendrocytes II,11,2.892,0.113,3.803
+RB4282,Striatum,Immature Oligodendrocytes III,5,2.892,0.052,1.729
+RB4282,Striatum,Medium Spiny Neurons,2229,2.892,22.994,770.614
+RB4282,Striatum,Microglia,242,2.892,2.496,83.665
+RB4282,Striatum,Neural Stem Cells,7,2.892,0.072,2.42
+RB4282,Striatum,Neurons,2612,2.892,26.945,903.025
+RB4282,Striatum,Oligodendrocytes,1269,2.892,13.091,438.721
+RB4282,Thalamus,Astrocytes,2097,3.85,17.183,544.675
+RB4282,Thalamus,Endothelial Cells,1483,3.85,12.152,385.195
+RB4282,Thalamus,Excitatory Neurons,5,3.85,0.041,1.299
+RB4282,Thalamus,GABAergic Neurons,8,3.85,0.066,2.078
+RB4282,Thalamus,Immature Oligodendrocytes I,244,3.85,1.999,63.377
+RB4282,Thalamus,Immature Oligodendrocytes II,35,3.85,0.287,9.091
+RB4282,Thalamus,Immature Oligodendrocytes III,17,3.85,0.139,4.416
+RB4282,Thalamus,Medium Spiny Neurons,1,3.85,0.008,0.26
+RB4282,Thalamus,Microglia,250,3.85,2.049,64.935
+RB4282,Thalamus,Neural Stem Cells,12,3.85,0.098,3.117
+RB4282,Thalamus,Neurons,5531,3.85,45.321,1436.623
+RB4282,Thalamus,Oligodendrocytes,2521,3.85,20.657,654.805
+RB4282,Unknown,Astrocytes,21,0.062,12.651,336.0
+RB4282,Unknown,Endothelial Cells,17,0.062,10.241,272.0
+RB4282,Unknown,Excitatory Neurons,46,0.062,27.711,736.0
+RB4282,Unknown,GABAergic Neurons,3,0.062,1.807,48.0
+RB4282,Unknown,Medium Spiny Neurons,2,0.062,1.205,32.0
+RB4282,Unknown,Microglia,3,0.062,1.807,48.0
+RB4282,Unknown,Myocytes,1,0.062,0.602,16.0
+RB4282,Unknown,Neurons,26,0.062,15.663,416.0
+RB4282,Unknown,Oligodendrocytes,47,0.062,28.313,752.0
+RB4282,Vasculature,Astrocytes,101,0.385,11.69,262.338
+RB4282,Vasculature,Endothelial Cells,447,0.385,51.736,1161.039
+RB4282,Vasculature,Excitatory Neurons,186,0.385,21.528,483.117
+RB4282,Vasculature,GABAergic Neurons,36,0.385,4.167,93.506
+RB4282,Vasculature,Immature Oligodendrocytes I,5,0.385,0.579,12.987
+RB4282,Vasculature,Immature Oligodendrocytes II,1,0.385,0.116,2.597
+RB4282,Vasculature,Medium Spiny Neurons,2,0.385,0.231,5.195
+RB4282,Vasculature,Microglia,20,0.385,2.315,51.948
+RB4282,Vasculature,Neural Stem Cells,1,0.385,0.116,2.597
+RB4282,Vasculature,Neurons,32,0.385,3.704,83.117
+RB4282,Vasculature,Oligodendrocytes,33,0.385,3.819,85.714
+RB4282,Ventricular system,Astrocytes,1521,0.8,41.41,1901.25
+RB4282,Ventricular system,Endocrine Cells,8,0.8,0.218,10.0
+RB4282,Ventricular system,Endothelial Cells,1112,0.8,30.275,1390.0
+RB4282,Ventricular system,Excitatory Neurons,1,0.8,0.027,1.25
+RB4282,Ventricular system,GABAergic Neurons,7,0.8,0.191,8.75
+RB4282,Ventricular system,Immature Oligodendrocytes I,17,0.8,0.463,21.25
+RB4282,Ventricular system,Immature Oligodendrocytes II,1,0.8,0.027,1.25
+RB4282,Ventricular system,Immature Oligodendrocytes III,9,0.8,0.245,11.25
+RB4282,Ventricular system,Medium Spiny Neurons,26,0.8,0.708,32.5
+RB4282,Ventricular system,Microglia,34,0.8,0.926,42.5
+RB4282,Ventricular system,Neural Stem Cells,348,0.8,9.475,435.0
+RB4282,Ventricular system,Neurons,301,0.8,8.195,376.25
+RB4282,Ventricular system,Oligodendrocytes,288,0.8,7.841,360.0
+RB4350,Cortex,Astrocytes,1800,6.168,9.185,291.852
+RB4350,Cortex,Endothelial Cells,2065,6.168,10.537,334.82
+RB4350,Cortex,Excitatory Neurons,10628,6.168,54.23,1723.227
+RB4350,Cortex,GABAergic Neurons,1439,6.168,7.343,233.32
+RB4350,Cortex,Immature Oligodendrocytes I,343,6.168,1.75,55.614
+RB4350,Cortex,Immature Oligodendrocytes II,39,6.168,0.199,6.323
+RB4350,Cortex,Immature Oligodendrocytes III,9,6.168,0.046,1.459
+RB4350,Cortex,Medium Spiny Neurons,5,6.168,0.026,0.811
+RB4350,Cortex,Microglia,700,6.168,3.572,113.498
+RB4350,Cortex,Myocytes,1,6.168,0.005,0.162
+RB4350,Cortex,Neural Stem Cells,14,6.168,0.071,2.27
+RB4350,Cortex,Neurons,321,6.168,1.638,52.047
+RB4350,Cortex,Oligodendrocytes,2234,6.168,11.399,362.221
+RB4350,Fiber tracts,Astrocytes,613,1.625,14.407,377.231
+RB4350,Fiber tracts,Endothelial Cells,296,1.625,6.957,182.154
+RB4350,Fiber tracts,Excitatory Neurons,10,1.625,0.235,6.154
+RB4350,Fiber tracts,GABAergic Neurons,282,1.625,6.627,173.538
+RB4350,Fiber tracts,Immature Oligodendrocytes I,50,1.625,1.175,30.769
+RB4350,Fiber tracts,Immature Oligodendrocytes II,23,1.625,0.541,14.154
+RB4350,Fiber tracts,Immature Oligodendrocytes III,22,1.625,0.517,13.538
+RB4350,Fiber tracts,Medium Spiny Neurons,7,1.625,0.165,4.308
+RB4350,Fiber tracts,Microglia,105,1.625,2.468,64.615
+RB4350,Fiber tracts,Myocytes,1,1.625,0.024,0.615
+RB4350,Fiber tracts,Neural Stem Cells,32,1.625,0.752,19.692
+RB4350,Fiber tracts,Neurons,35,1.625,0.823,21.538
+RB4350,Fiber tracts,Oligodendrocytes,2779,1.625,65.311,1710.154
+RB4350,Hippocampus,Astrocytes,418,0.838,14.414,499.104
+RB4350,Hippocampus,Endothelial Cells,242,0.838,8.345,288.955
+RB4350,Hippocampus,Excitatory Neurons,1668,0.838,57.517,1991.642
+RB4350,Hippocampus,GABAergic Neurons,89,0.838,3.069,106.269
+RB4350,Hippocampus,Immature Oligodendrocytes I,61,0.838,2.103,72.836
+RB4350,Hippocampus,Immature Oligodendrocytes II,11,0.838,0.379,13.134
+RB4350,Hippocampus,Immature Oligodendrocytes III,4,0.838,0.138,4.776
+RB4350,Hippocampus,Microglia,82,0.838,2.828,97.91
+RB4350,Hippocampus,Neural Stem Cells,17,0.838,0.586,20.299
+RB4350,Hippocampus,Neurons,131,0.838,4.517,156.418
+RB4350,Hippocampus,Oligodendrocytes,177,0.838,6.103,211.343
+RB4350,Hypothalamus,Astrocytes,1446,2.185,17.512,661.785
+RB4350,Hypothalamus,Endothelial Cells,638,2.185,7.727,291.991
+RB4350,Hypothalamus,Excitatory Neurons,1,2.185,0.012,0.458
+RB4350,Hypothalamus,GABAergic Neurons,14,2.185,0.17,6.407
+RB4350,Hypothalamus,Immature Oligodendrocytes I,200,2.185,2.422,91.533
+RB4350,Hypothalamus,Immature Oligodendrocytes II,12,2.185,0.145,5.492
+RB4350,Hypothalamus,Immature Oligodendrocytes III,8,2.185,0.097,3.661
+RB4350,Hypothalamus,Medium Spiny Neurons,1,2.185,0.012,0.458
+RB4350,Hypothalamus,Microglia,173,2.185,2.095,79.176
+RB4350,Hypothalamus,Neural Stem Cells,15,2.185,0.182,6.865
+RB4350,Hypothalamus,Neurons,4701,2.185,56.934,2151.487
+RB4350,Hypothalamus,Oligodendrocytes,1048,2.185,12.692,479.634
+RB4350,Meningeal border/glia limitans,Astrocytes,2165,2.475,39.739,874.747
+RB4350,Meningeal border/glia limitans,Endothelial Cells,1895,2.475,34.783,765.657
+RB4350,Meningeal border/glia limitans,Excitatory Neurons,124,2.475,2.276,50.101
+RB4350,Meningeal border/glia limitans,GABAergic Neurons,195,2.475,3.579,78.788
+RB4350,Meningeal border/glia limitans,Immature Oligodendrocytes I,172,2.475,3.157,69.495
+RB4350,Meningeal border/glia limitans,Immature Oligodendrocytes II,9,2.475,0.165,3.636
+RB4350,Meningeal border/glia limitans,Immature Oligodendrocytes III,6,2.475,0.11,2.424
+RB4350,Meningeal border/glia limitans,Microglia,221,2.475,4.057,89.293
+RB4350,Meningeal border/glia limitans,Myocytes,3,2.475,0.055,1.212
+RB4350,Meningeal border/glia limitans,Neural Stem Cells,19,2.475,0.349,7.677
+RB4350,Meningeal border/glia limitans,Neurons,224,2.475,4.112,90.505
+RB4350,Meningeal border/glia limitans,Oligodendrocytes,415,2.475,7.617,167.677
+RB4350,Olfactory areas,Astrocytes,788,2.805,12.127,280.927
+RB4350,Olfactory areas,Endothelial Cells,756,2.805,11.634,269.519
+RB4350,Olfactory areas,Excitatory Neurons,2789,2.805,42.921,994.296
+RB4350,Olfactory areas,GABAergic Neurons,638,2.805,9.818,227.451
+RB4350,Olfactory areas,Immature Oligodendrocytes I,295,2.805,4.54,105.169
+RB4350,Olfactory areas,Immature Oligodendrocytes II,34,2.805,0.523,12.121
+RB4350,Olfactory areas,Immature Oligodendrocytes III,9,2.805,0.139,3.209
+RB4350,Olfactory areas,Medium Spiny Neurons,7,2.805,0.108,2.496
+RB4350,Olfactory areas,Microglia,302,2.805,4.648,107.665
+RB4350,Olfactory areas,Neural Stem Cells,10,2.805,0.154,3.565
+RB4350,Olfactory areas,Neurons,217,2.805,3.339,77.362
+RB4350,Olfactory areas,Oligodendrocytes,653,2.805,10.049,232.799
+RB4350,Pallidum,Astrocytes,408,1.055,16.146,386.73
+RB4350,Pallidum,Endothelial Cells,209,1.055,8.271,198.104
+RB4350,Pallidum,GABAergic Neurons,55,1.055,2.176,52.133
+RB4350,Pallidum,Immature Oligodendrocytes I,65,1.055,2.572,61.611
+RB4350,Pallidum,Immature Oligodendrocytes II,12,1.055,0.475,11.374
+RB4350,Pallidum,Immature Oligodendrocytes III,18,1.055,0.712,17.062
+RB4350,Pallidum,Medium Spiny Neurons,4,1.055,0.158,3.791
+RB4350,Pallidum,Microglia,89,1.055,3.522,84.36
+RB4350,Pallidum,Neural Stem Cells,4,1.055,0.158,3.791
+RB4350,Pallidum,Neurons,211,1.055,8.35,200.0
+RB4350,Pallidum,Oligodendrocytes,1452,1.055,57.459,1376.303
+RB4350,Striatum,Astrocytes,831,2.572,10.448,323.032
+RB4350,Striatum,Endothelial Cells,612,2.572,7.694,237.901
+RB4350,Striatum,Excitatory Neurons,84,2.572,1.056,32.653
+RB4350,Striatum,GABAergic Neurons,1113,2.572,13.993,432.653
+RB4350,Striatum,Immature Oligodendrocytes I,224,2.572,2.816,87.075
+RB4350,Striatum,Immature Oligodendrocytes II,16,2.572,0.201,6.22
+RB4350,Striatum,Immature Oligodendrocytes III,10,2.572,0.126,3.887
+RB4350,Striatum,Medium Spiny Neurons,2094,2.572,26.326,813.994
+RB4350,Striatum,Microglia,200,2.572,2.514,77.745
+RB4350,Striatum,Neural Stem Cells,7,2.572,0.088,2.721
+RB4350,Striatum,Neurons,1715,2.572,21.561,666.667
+RB4350,Striatum,Oligodendrocytes,1048,2.572,13.176,407.386
+RB4350,Thalamus,Astrocytes,1909,3.23,17.859,591.022
+RB4350,Thalamus,Endothelial Cells,1425,3.23,13.331,441.176
+RB4350,Thalamus,Excitatory Neurons,5,3.23,0.047,1.548
+RB4350,Thalamus,GABAergic Neurons,7,3.23,0.065,2.167
+RB4350,Thalamus,Immature Oligodendrocytes I,291,3.23,2.722,90.093
+RB4350,Thalamus,Immature Oligodendrocytes II,33,3.23,0.309,10.217
+RB4350,Thalamus,Immature Oligodendrocytes III,17,3.23,0.159,5.263
+RB4350,Thalamus,Microglia,266,3.23,2.489,82.353
+RB4350,Thalamus,Myocytes,1,3.23,0.009,0.31
+RB4350,Thalamus,Neural Stem Cells,18,3.23,0.168,5.573
+RB4350,Thalamus,Neurons,4342,3.23,40.621,1344.272
+RB4350,Thalamus,Oligodendrocytes,2375,3.23,22.219,735.294
+RB4350,Unknown,Excitatory Neurons,1,0.01,7.143,100.0
+RB4350,Unknown,GABAergic Neurons,4,0.01,28.571,400.0
+RB4350,Unknown,Medium Spiny Neurons,9,0.01,64.286,900.0
+RB4350,Vasculature,Astrocytes,70,0.23,14.989,304.348
+RB4350,Vasculature,Endothelial Cells,212,0.23,45.396,921.739
+RB4350,Vasculature,Excitatory Neurons,101,0.23,21.627,439.13
+RB4350,Vasculature,GABAergic Neurons,20,0.23,4.283,86.957
+RB4350,Vasculature,Immature Oligodendrocytes I,7,0.23,1.499,30.435
+RB4350,Vasculature,Microglia,12,0.23,2.57,52.174
+RB4350,Vasculature,Neurons,15,0.23,3.212,65.217
+RB4350,Vasculature,Oligodendrocytes,30,0.23,6.424,130.435
+RB4350,Ventricular system,Astrocytes,1568,0.948,36.618,1654.881
+RB4350,Ventricular system,Endocrine Cells,2,0.948,0.047,2.111
+RB4350,Ventricular system,Endothelial Cells,1522,0.948,35.544,1606.332
+RB4350,Ventricular system,GABAergic Neurons,4,0.948,0.093,4.222
+RB4350,Ventricular system,Immature Oligodendrocytes I,39,0.948,0.911,41.161
+RB4350,Ventricular system,Immature Oligodendrocytes II,3,0.948,0.07,3.166
+RB4350,Ventricular system,Immature Oligodendrocytes III,7,0.948,0.163,7.388
+RB4350,Ventricular system,Medium Spiny Neurons,24,0.948,0.56,25.33
+RB4350,Ventricular system,Microglia,40,0.948,0.934,42.216
+RB4350,Ventricular system,Neural Stem Cells,322,0.948,7.52,339.842
+RB4350,Ventricular system,Neurons,475,0.948,11.093,501.319
+RB4350,Ventricular system,Oligodendrocytes,276,0.948,6.446,291.293
+RB4401,Cortex,Astrocytes,1963,7.1,9.138,276.479
+RB4401,Cortex,Endothelial Cells,2338,7.1,10.884,329.296
+RB4401,Cortex,Excitatory Neurons,12453,7.1,57.972,1753.944
+RB4401,Cortex,GABAergic Neurons,1617,7.1,7.528,227.746
+RB4401,Cortex,Immature Oligodendrocytes I,389,7.1,1.811,54.789
+RB4401,Cortex,Immature Oligodendrocytes II,49,7.1,0.228,6.901
+RB4401,Cortex,Immature Oligodendrocytes III,4,7.1,0.019,0.563
+RB4401,Cortex,Medium Spiny Neurons,6,7.1,0.028,0.845
+RB4401,Cortex,Microglia,679,7.1,3.161,95.634
+RB4401,Cortex,Neural Stem Cells,16,7.1,0.074,2.254
+RB4401,Cortex,Neurons,219,7.1,1.02,30.845
+RB4401,Cortex,Oligodendrocytes,1748,7.1,8.137,246.197
+RB4401,Fiber tracts,Astrocytes,767,2.808,11.366,273.197
+RB4401,Fiber tracts,Endothelial Cells,456,2.808,6.758,162.422
+RB4401,Fiber tracts,Excitatory Neurons,8,2.808,0.119,2.85
+RB4401,Fiber tracts,GABAergic Neurons,348,2.808,5.157,123.954
+RB4401,Fiber tracts,Immature Oligodendrocytes I,161,2.808,2.386,57.346
+RB4401,Fiber tracts,Immature Oligodendrocytes II,33,2.808,0.489,11.754
+RB4401,Fiber tracts,Immature Oligodendrocytes III,42,2.808,0.622,14.96
+RB4401,Fiber tracts,Medium Spiny Neurons,7,2.808,0.104,2.493
+RB4401,Fiber tracts,Microglia,199,2.808,2.949,70.882
+RB4401,Fiber tracts,Neural Stem Cells,17,2.808,0.252,6.055
+RB4401,Fiber tracts,Neurons,82,2.808,1.215,29.207
+RB4401,Fiber tracts,Oligodendrocytes,4628,2.808,68.583,1648.442
+RB4401,Hippocampus,Astrocytes,468,0.992,13.406,471.537
+RB4401,Hippocampus,Endothelial Cells,249,0.992,7.133,250.882
+RB4401,Hippocampus,Excitatory Neurons,2183,0.992,62.532,2199.496
+RB4401,Hippocampus,GABAergic Neurons,134,0.992,3.838,135.013
+RB4401,Hippocampus,Immature Oligodendrocytes I,70,0.992,2.005,70.529
+RB4401,Hippocampus,Immature Oligodendrocytes II,5,0.992,0.143,5.038
+RB4401,Hippocampus,Microglia,103,0.992,2.95,103.778
+RB4401,Hippocampus,Neural Stem Cells,22,0.992,0.63,22.166
+RB4401,Hippocampus,Neurons,125,0.992,3.581,125.945
+RB4401,Hippocampus,Oligodendrocytes,132,0.992,3.781,132.997
+RB4401,Hypothalamus,Astrocytes,1481,2.815,17.397,526.11
+RB4401,Hypothalamus,Endothelial Cells,1109,2.815,13.027,393.961
+RB4401,Hypothalamus,Excitatory Neurons,12,2.815,0.141,4.263
+RB4401,Hypothalamus,GABAergic Neurons,28,2.815,0.329,9.947
+RB4401,Hypothalamus,Immature Oligodendrocytes I,195,2.815,2.291,69.272
+RB4401,Hypothalamus,Immature Oligodendrocytes II,24,2.815,0.282,8.526
+RB4401,Hypothalamus,Immature Oligodendrocytes III,5,2.815,0.059,1.776
+RB4401,Hypothalamus,Microglia,244,2.815,2.866,86.679
+RB4401,Hypothalamus,Neural Stem Cells,15,2.815,0.176,5.329
+RB4401,Hypothalamus,Neurons,3967,2.815,46.599,1409.236
+RB4401,Hypothalamus,Oligodendrocytes,1433,2.815,16.833,509.059
+RB4401,Meningeal border/glia limitans,Astrocytes,2678,3.308,36.189,809.675
+RB4401,Meningeal border/glia limitans,Endocrine Cells,2,3.308,0.027,0.605
+RB4401,Meningeal border/glia limitans,Endothelial Cells,3164,3.308,42.757,956.614
+RB4401,Meningeal border/glia limitans,Excitatory Neurons,72,3.308,0.973,21.769
+RB4401,Meningeal border/glia limitans,GABAergic Neurons,203,3.308,2.743,61.376
+RB4401,Meningeal border/glia limitans,Immature Oligodendrocytes I,181,3.308,2.446,54.724
+RB4401,Meningeal border/glia limitans,Immature Oligodendrocytes II,10,3.308,0.135,3.023
+RB4401,Meningeal border/glia limitans,Immature Oligodendrocytes III,6,3.308,0.081,1.814
+RB4401,Meningeal border/glia limitans,Medium Spiny Neurons,1,3.308,0.014,0.302
+RB4401,Meningeal border/glia limitans,Microglia,234,3.308,3.162,70.748
+RB4401,Meningeal border/glia limitans,Myocytes,9,3.308,0.122,2.721
+RB4401,Meningeal border/glia limitans,Neural Stem Cells,32,3.308,0.432,9.675
+RB4401,Meningeal border/glia limitans,Neurons,195,3.308,2.635,58.957
+RB4401,Meningeal border/glia limitans,Oligodendrocytes,613,3.308,8.284,185.336
+RB4401,Olfactory areas,Astrocytes,1234,3.628,14.455,340.179
+RB4401,Olfactory areas,Endothelial Cells,811,3.628,9.5,223.57
+RB4401,Olfactory areas,Excitatory Neurons,4530,3.628,53.063,1248.794
+RB4401,Olfactory areas,GABAergic Neurons,793,3.628,9.289,218.608
+RB4401,Olfactory areas,Immature Oligodendrocytes I,375,3.628,4.393,103.377
+RB4401,Olfactory areas,Immature Oligodendrocytes II,14,3.628,0.164,3.859
+RB4401,Olfactory areas,Immature Oligodendrocytes III,1,3.628,0.012,0.276
+RB4401,Olfactory areas,Medium Spiny Neurons,6,3.628,0.07,1.654
+RB4401,Olfactory areas,Microglia,321,3.628,3.76,88.491
+RB4401,Olfactory areas,Neural Stem Cells,3,3.628,0.035,0.827
+RB4401,Olfactory areas,Neurons,149,3.628,1.745,41.075
+RB4401,Olfactory areas,Oligodendrocytes,300,3.628,3.514,82.702
+RB4401,Pallidum,Astrocytes,71,0.435,13.271,163.218
+RB4401,Pallidum,Endothelial Cells,54,0.435,10.093,124.138
+RB4401,Pallidum,Excitatory Neurons,1,0.435,0.187,2.299
+RB4401,Pallidum,GABAergic Neurons,19,0.435,3.551,43.678
+RB4401,Pallidum,Immature Oligodendrocytes I,17,0.435,3.178,39.08
+RB4401,Pallidum,Immature Oligodendrocytes II,4,0.435,0.748,9.195
+RB4401,Pallidum,Immature Oligodendrocytes III,2,0.435,0.374,4.598
+RB4401,Pallidum,Medium Spiny Neurons,1,0.435,0.187,2.299
+RB4401,Pallidum,Microglia,27,0.435,5.047,62.069
+RB4401,Pallidum,Neurons,41,0.435,7.664,94.253
+RB4401,Pallidum,Oligodendrocytes,298,0.435,55.701,685.057
+RB4401,Striatum,Astrocytes,885,1.805,15.518,490.305
+RB4401,Striatum,Endothelial Cells,448,1.805,7.856,248.199
+RB4401,Striatum,Excitatory Neurons,413,1.805,7.242,228.809
+RB4401,Striatum,GABAergic Neurons,1092,1.805,19.148,604.986
+RB4401,Striatum,Immature Oligodendrocytes I,117,1.805,2.052,64.82
+RB4401,Striatum,Immature Oligodendrocytes II,5,1.805,0.088,2.77
+RB4401,Striatum,Immature Oligodendrocytes III,3,1.805,0.053,1.662
+RB4401,Striatum,Medium Spiny Neurons,1644,1.805,28.827,910.803
+RB4401,Striatum,Microglia,136,1.805,2.385,75.346
+RB4401,Striatum,Myocytes,1,1.805,0.018,0.554
+RB4401,Striatum,Neural Stem Cells,24,1.805,0.421,13.296
+RB4401,Striatum,Neurons,209,1.805,3.665,115.789
+RB4401,Striatum,Oligodendrocytes,726,1.805,12.73,402.216
+RB4401,Thalamus,Astrocytes,1618,3.772,16.117,428.893
+RB4401,Thalamus,Endothelial Cells,1385,3.772,13.796,367.131
+RB4401,Thalamus,Excitatory Neurons,1,3.772,0.01,0.265
+RB4401,Thalamus,GABAergic Neurons,13,3.772,0.129,3.446
+RB4401,Thalamus,Immature Oligodendrocytes I,233,3.772,2.321,61.763
+RB4401,Thalamus,Immature Oligodendrocytes II,24,3.772,0.239,6.362
+RB4401,Thalamus,Immature Oligodendrocytes III,9,3.772,0.09,2.386
+RB4401,Thalamus,Microglia,430,3.772,4.283,113.983
+RB4401,Thalamus,Neural Stem Cells,11,3.772,0.11,2.916
+RB4401,Thalamus,Neurons,4524,3.772,45.064,1199.205
+RB4401,Thalamus,Oligodendrocytes,1791,3.772,17.84,474.751
+RB4401,Unknown,Astrocytes,291,0.738,14.3,394.576
+RB4401,Unknown,Endothelial Cells,247,0.738,12.138,334.915
+RB4401,Unknown,Excitatory Neurons,16,0.738,0.786,21.695
+RB4401,Unknown,GABAergic Neurons,1,0.738,0.049,1.356
+RB4401,Unknown,Immature Oligodendrocytes I,36,0.738,1.769,48.814
+RB4401,Unknown,Immature Oligodendrocytes II,7,0.738,0.344,9.492
+RB4401,Unknown,Immature Oligodendrocytes III,5,0.738,0.246,6.78
+RB4401,Unknown,Microglia,54,0.738,2.654,73.22
+RB4401,Unknown,Myocytes,2,0.738,0.098,2.712
+RB4401,Unknown,Neurons,900,0.738,44.226,1220.339
+RB4401,Unknown,Oligodendrocytes,476,0.738,23.391,645.424
+RB4401,Vasculature,Astrocytes,133,0.408,16.584,326.38
+RB4401,Vasculature,Endothelial Cells,369,0.408,46.01,905.521
+RB4401,Vasculature,Excitatory Neurons,124,0.408,15.461,304.294
+RB4401,Vasculature,GABAergic Neurons,20,0.408,2.494,49.08
+RB4401,Vasculature,Immature Oligodendrocytes I,8,0.408,0.998,19.632
+RB4401,Vasculature,Microglia,23,0.408,2.868,56.442
+RB4401,Vasculature,Neurons,83,0.408,10.349,203.681
+RB4401,Vasculature,Oligodendrocytes,42,0.408,5.237,103.067
+RB4401,Ventricular system,Astrocytes,1320,0.648,43.694,2038.61
+RB4401,Ventricular system,Endothelial Cells,1096,0.648,36.279,1692.664
+RB4401,Ventricular system,GABAergic Neurons,3,0.648,0.099,4.633
+RB4401,Ventricular system,Immature Oligodendrocytes I,13,0.648,0.43,20.077
+RB4401,Ventricular system,Immature Oligodendrocytes III,6,0.648,0.199,9.266
+RB4401,Ventricular system,Medium Spiny Neurons,32,0.648,1.059,49.421
+RB4401,Ventricular system,Microglia,33,0.648,1.092,50.965
+RB4401,Ventricular system,Neural Stem Cells,155,0.648,5.131,239.382
+RB4401,Ventricular system,Neurons,177,0.648,5.859,273.359
+RB4401,Ventricular system,Oligodendrocytes,186,0.648,6.157,287.259
+RB4403,Cortex,Astrocytes,2874,8.155,9.012,352.422
+RB4403,Cortex,Endothelial Cells,3115,8.155,9.768,381.974
+RB4403,Cortex,Excitatory Neurons,17059,8.155,53.492,2091.845
+RB4403,Cortex,GABAergic Neurons,1981,8.155,6.212,242.918
+RB4403,Cortex,Immature Oligodendrocytes I,543,8.155,1.703,66.585
+RB4403,Cortex,Immature Oligodendrocytes II,71,8.155,0.223,8.706
+RB4403,Cortex,Immature Oligodendrocytes III,20,8.155,0.063,2.452
+RB4403,Cortex,Medium Spiny Neurons,5,8.155,0.016,0.613
+RB4403,Cortex,Microglia,1059,8.155,3.321,129.859
+RB4403,Cortex,Myocytes,1,8.155,0.003,0.123
+RB4403,Cortex,Neural Stem Cells,14,8.155,0.044,1.717
+RB4403,Cortex,Neurons,1734,8.155,5.437,212.63
+RB4403,Cortex,Oligodendrocytes,3415,8.155,10.708,418.761
+RB4403,Fiber tracts,Astrocytes,2234,3.68,17.715,607.065
+RB4403,Fiber tracts,Endothelial Cells,824,3.68,6.534,223.913
+RB4403,Fiber tracts,Excitatory Neurons,25,3.68,0.198,6.793
+RB4403,Fiber tracts,GABAergic Neurons,1174,3.68,9.309,319.022
+RB4403,Fiber tracts,Immature Oligodendrocytes I,179,3.68,1.419,48.641
+RB4403,Fiber tracts,Immature Oligodendrocytes II,57,3.68,0.452,15.489
+RB4403,Fiber tracts,Immature Oligodendrocytes III,114,3.68,0.904,30.978
+RB4403,Fiber tracts,Medium Spiny Neurons,18,3.68,0.143,4.891
+RB4403,Fiber tracts,Microglia,296,3.68,2.347,80.435
+RB4403,Fiber tracts,Neural Stem Cells,64,3.68,0.507,17.391
+RB4403,Fiber tracts,Neurons,200,3.68,1.586,54.348
+RB4403,Fiber tracts,Oligodendrocytes,7426,3.68,58.885,2017.935
+RB4403,Hippocampus,Astrocytes,807,1.8,12.108,448.333
+RB4403,Hippocampus,Endothelial Cells,408,1.8,6.122,226.667
+RB4403,Hippocampus,Excitatory Neurons,3792,1.8,56.894,2106.667
+RB4403,Hippocampus,GABAergic Neurons,265,1.8,3.976,147.222
+RB4403,Hippocampus,Immature Oligodendrocytes I,131,1.8,1.965,72.778
+RB4403,Hippocampus,Immature Oligodendrocytes II,21,1.8,0.315,11.667
+RB4403,Hippocampus,Immature Oligodendrocytes III,7,1.8,0.105,3.889
+RB4403,Hippocampus,Microglia,176,1.8,2.641,97.778
+RB4403,Hippocampus,Neural Stem Cells,21,1.8,0.315,11.667
+RB4403,Hippocampus,Neurons,621,1.8,9.317,345.0
+RB4403,Hippocampus,Oligodendrocytes,416,1.8,6.242,231.111
+RB4403,Hypothalamus,Astrocytes,3110,3.562,18.846,872.982
+RB4403,Hypothalamus,Endothelial Cells,939,3.562,5.69,263.579
+RB4403,Hypothalamus,Excitatory Neurons,8,3.562,0.048,2.246
+RB4403,Hypothalamus,GABAergic Neurons,73,3.562,0.442,20.491
+RB4403,Hypothalamus,Immature Oligodendrocytes I,421,3.562,2.551,118.175
+RB4403,Hypothalamus,Immature Oligodendrocytes II,35,3.562,0.212,9.825
+RB4403,Hypothalamus,Immature Oligodendrocytes III,10,3.562,0.061,2.807
+RB4403,Hypothalamus,Medium Spiny Neurons,1,3.562,0.006,0.281
+RB4403,Hypothalamus,Microglia,294,3.562,1.782,82.526
+RB4403,Hypothalamus,Neural Stem Cells,19,3.562,0.115,5.333
+RB4403,Hypothalamus,Neurons,9989,3.562,60.532,2803.93
+RB4403,Hypothalamus,Oligodendrocytes,1603,3.562,9.714,449.965
+RB4403,Meningeal border/glia limitans,Astrocytes,3070,2.42,41.258,1268.595
+RB4403,Meningeal border/glia limitans,Endothelial Cells,2164,2.42,29.082,894.215
+RB4403,Meningeal border/glia limitans,Excitatory Neurons,120,2.42,1.613,49.587
+RB4403,Meningeal border/glia limitans,GABAergic Neurons,208,2.42,2.795,85.95
+RB4403,Meningeal border/glia limitans,Immature Oligodendrocytes I,185,2.42,2.486,76.446
+RB4403,Meningeal border/glia limitans,Immature Oligodendrocytes II,25,2.42,0.336,10.331
+RB4403,Meningeal border/glia limitans,Immature Oligodendrocytes III,9,2.42,0.121,3.719
+RB4403,Meningeal border/glia limitans,Medium Spiny Neurons,8,2.42,0.108,3.306
+RB4403,Meningeal border/glia limitans,Microglia,231,2.42,3.104,95.455
+RB4403,Meningeal border/glia limitans,Neural Stem Cells,14,2.42,0.188,5.785
+RB4403,Meningeal border/glia limitans,Neurons,411,2.42,5.523,169.835
+RB4403,Meningeal border/glia limitans,Oligodendrocytes,996,2.42,13.385,411.57
+RB4403,Olfactory areas,Astrocytes,1178,2.67,12.302,441.199
+RB4403,Olfactory areas,Endothelial Cells,740,2.67,7.728,277.154
+RB4403,Olfactory areas,Excitatory Neurons,2882,2.67,30.096,1079.401
+RB4403,Olfactory areas,GABAergic Neurons,991,2.67,10.349,371.161
+RB4403,Olfactory areas,Immature Oligodendrocytes I,259,2.67,2.705,97.004
+RB4403,Olfactory areas,Immature Oligodendrocytes II,27,2.67,0.282,10.112
+RB4403,Olfactory areas,Immature Oligodendrocytes III,10,2.67,0.104,3.745
+RB4403,Olfactory areas,Medium Spiny Neurons,147,2.67,1.535,55.056
+RB4403,Olfactory areas,Microglia,330,2.67,3.446,123.596
+RB4403,Olfactory areas,Neural Stem Cells,12,2.67,0.125,4.494
+RB4403,Olfactory areas,Neurons,1895,2.67,19.789,709.738
+RB4403,Olfactory areas,Oligodendrocytes,1105,2.67,11.539,413.858
+RB4403,Pallidum,Astrocytes,2681,3.192,27.141,839.781
+RB4403,Pallidum,Endothelial Cells,840,3.192,8.504,263.117
+RB4403,Pallidum,Excitatory Neurons,3,3.192,0.03,0.94
+RB4403,Pallidum,GABAergic Neurons,177,3.192,1.792,55.442
+RB4403,Pallidum,Immature Oligodendrocytes I,280,3.192,2.835,87.706
+RB4403,Pallidum,Immature Oligodendrocytes II,56,3.192,0.567,17.541
+RB4403,Pallidum,Immature Oligodendrocytes III,51,3.192,0.516,15.975
+RB4403,Pallidum,Medium Spiny Neurons,23,3.192,0.233,7.204
+RB4403,Pallidum,Microglia,558,3.192,5.649,174.785
+RB4403,Pallidum,Neural Stem Cells,13,3.192,0.132,4.072
+RB4403,Pallidum,Neurons,1648,3.192,16.684,516.21
+RB4403,Pallidum,Oligodendrocytes,3548,3.192,35.918,1111.355
+RB4403,Striatum,Astrocytes,730,3.535,5.942,206.506
+RB4403,Striatum,Endothelial Cells,770,3.535,6.267,217.822
+RB4403,Striatum,Excitatory Neurons,31,3.535,0.252,8.769
+RB4403,Striatum,GABAergic Neurons,746,3.535,6.072,211.033
+RB4403,Striatum,Immature Oligodendrocytes I,201,3.535,1.636,56.86
+RB4403,Striatum,Immature Oligodendrocytes II,40,3.535,0.326,11.315
+RB4403,Striatum,Immature Oligodendrocytes III,16,3.535,0.13,4.526
+RB4403,Striatum,Medium Spiny Neurons,7272,3.535,59.189,2057.143
+RB4403,Striatum,Microglia,397,3.535,3.231,112.306
+RB4403,Striatum,Neural Stem Cells,15,3.535,0.122,4.243
+RB4403,Striatum,Neurons,205,3.535,1.669,57.992
+RB4403,Striatum,Oligodendrocytes,1863,3.535,15.164,527.016
+RB4403,Thalamus,Astrocytes,4648,3.998,25.691,1162.727
+RB4403,Thalamus,Endothelial Cells,1556,3.998,8.6,389.243
+RB4403,Thalamus,Excitatory Neurons,14,3.998,0.077,3.502
+RB4403,Thalamus,GABAergic Neurons,22,3.998,0.122,5.503
+RB4403,Thalamus,Immature Oligodendrocytes I,357,3.998,1.973,89.306
+RB4403,Thalamus,Immature Oligodendrocytes II,45,3.998,0.249,11.257
+RB4403,Thalamus,Immature Oligodendrocytes III,23,3.998,0.127,5.754
+RB4403,Thalamus,Medium Spiny Neurons,1,3.998,0.006,0.25
+RB4403,Thalamus,Microglia,342,3.998,1.89,85.553
+RB4403,Thalamus,Neural Stem Cells,31,3.998,0.171,7.755
+RB4403,Thalamus,Neurons,8219,3.998,45.429,2056.035
+RB4403,Thalamus,Oligodendrocytes,2834,3.998,15.664,708.943
+RB4403,Unknown,Astrocytes,147,0.675,5.824,217.778
+RB4403,Unknown,Endothelial Cells,123,0.675,4.873,182.222
+RB4403,Unknown,Excitatory Neurons,91,0.675,3.605,134.815
+RB4403,Unknown,GABAergic Neurons,363,0.675,14.382,537.778
+RB4403,Unknown,Immature Oligodendrocytes I,50,0.675,1.981,74.074
+RB4403,Unknown,Immature Oligodendrocytes II,3,0.675,0.119,4.444
+RB4403,Unknown,Immature Oligodendrocytes III,3,0.675,0.119,4.444
+RB4403,Unknown,Medium Spiny Neurons,1488,0.675,58.954,2204.444
+RB4403,Unknown,Microglia,51,0.675,2.021,75.556
+RB4403,Unknown,Neural Stem Cells,8,0.675,0.317,11.852
+RB4403,Unknown,Neurons,110,0.675,4.358,162.963
+RB4403,Unknown,Oligodendrocytes,87,0.675,3.447,128.889
+RB4403,Vasculature,Astrocytes,79,0.24,12.783,329.167
+RB4403,Vasculature,Endothelial Cells,341,0.24,55.178,1420.833
+RB4403,Vasculature,Excitatory Neurons,104,0.24,16.828,433.333
+RB4403,Vasculature,GABAergic Neurons,13,0.24,2.104,54.167
+RB4403,Vasculature,Immature Oligodendrocytes I,3,0.24,0.485,12.5
+RB4403,Vasculature,Microglia,6,0.24,0.971,25.0
+RB4403,Vasculature,Neural Stem Cells,2,0.24,0.324,8.333
+RB4403,Vasculature,Neurons,38,0.24,6.149,158.333
+RB4403,Vasculature,Oligodendrocytes,32,0.24,5.178,133.333
+RB4403,Ventricular system,Astrocytes,2960,1.145,40.581,2585.153
+RB4403,Ventricular system,Endothelial Cells,3326,1.145,45.599,2904.803
+RB4403,Ventricular system,GABAergic Neurons,2,1.145,0.027,1.747
+RB4403,Ventricular system,Immature Oligodendrocytes I,21,1.145,0.288,18.341
+RB4403,Ventricular system,Immature Oligodendrocytes II,1,1.145,0.014,0.873
+RB4403,Ventricular system,Immature Oligodendrocytes III,1,1.145,0.014,0.873
+RB4403,Ventricular system,Medium Spiny Neurons,17,1.145,0.233,14.847
+RB4403,Ventricular system,Microglia,43,1.145,0.59,37.555
+RB4403,Ventricular system,Neural Stem Cells,278,1.145,3.811,242.795
+RB4403,Ventricular system,Neurons,398,1.145,5.457,347.598
+RB4403,Ventricular system,Oligodendrocytes,247,1.145,3.386,215.721
+RB4405,Cortex,Astrocytes,2140,6.8,9.806,314.706
+RB4405,Cortex,Endothelial Cells,2200,6.8,10.081,323.529
+RB4405,Cortex,Excitatory Neurons,12826,6.8,58.773,1886.176
+RB4405,Cortex,GABAergic Neurons,1541,6.8,7.061,226.618
+RB4405,Cortex,Immature Oligodendrocytes I,370,6.8,1.695,54.412
+RB4405,Cortex,Immature Oligodendrocytes II,55,6.8,0.252,8.088
+RB4405,Cortex,Immature Oligodendrocytes III,2,6.8,0.009,0.294
+RB4405,Cortex,Medium Spiny Neurons,2,6.8,0.009,0.294
+RB4405,Cortex,Microglia,660,6.8,3.024,97.059
+RB4405,Cortex,Neural Stem Cells,16,6.8,0.073,2.353
+RB4405,Cortex,Neurons,411,6.8,1.883,60.441
+RB4405,Cortex,Oligodendrocytes,1600,6.8,7.332,235.294
+RB4405,Fiber tracts,Astrocytes,1414,3.195,17.457,442.567
+RB4405,Fiber tracts,Endocrine Cells,1,3.195,0.012,0.313
+RB4405,Fiber tracts,Endothelial Cells,789,3.195,9.741,246.948
+RB4405,Fiber tracts,Excitatory Neurons,17,3.195,0.21,5.321
+RB4405,Fiber tracts,GABAergic Neurons,522,3.195,6.444,163.38
+RB4405,Fiber tracts,Immature Oligodendrocytes I,215,3.195,2.654,67.293
+RB4405,Fiber tracts,Immature Oligodendrocytes II,97,3.195,1.198,30.36
+RB4405,Fiber tracts,Immature Oligodendrocytes III,22,3.195,0.272,6.886
+RB4405,Fiber tracts,Medium Spiny Neurons,18,3.195,0.222,5.634
+RB4405,Fiber tracts,Microglia,700,3.195,8.642,219.092
+RB4405,Fiber tracts,Myocytes,1,3.195,0.012,0.313
+RB4405,Fiber tracts,Neural Stem Cells,43,3.195,0.531,13.459
+RB4405,Fiber tracts,Neurons,436,3.195,5.383,136.463
+RB4405,Fiber tracts,Oligodendrocytes,3825,3.195,47.222,1197.183
+RB4405,Hippocampus,Astrocytes,325,0.705,13.158,460.993
+RB4405,Hippocampus,Endothelial Cells,169,0.705,6.842,239.716
+RB4405,Hippocampus,Excitatory Neurons,1505,0.705,60.931,2134.752
+RB4405,Hippocampus,GABAergic Neurons,88,0.705,3.563,124.823
+RB4405,Hippocampus,Immature Oligodendrocytes I,54,0.705,2.186,76.596
+RB4405,Hippocampus,Immature Oligodendrocytes II,2,0.705,0.081,2.837
+RB4405,Hippocampus,Microglia,57,0.705,2.308,80.851
+RB4405,Hippocampus,Neural Stem Cells,7,0.705,0.283,9.929
+RB4405,Hippocampus,Neurons,155,0.705,6.275,219.858
+RB4405,Hippocampus,Oligodendrocytes,108,0.705,4.372,153.191
+RB4405,Hypothalamus,Astrocytes,1735,2.698,20.198,643.188
+RB4405,Hypothalamus,Endothelial Cells,723,2.698,8.417,268.026
+RB4405,Hypothalamus,Excitatory Neurons,2,2.698,0.023,0.741
+RB4405,Hypothalamus,GABAergic Neurons,84,2.698,0.978,31.14
+RB4405,Hypothalamus,Immature Oligodendrocytes I,245,2.698,2.852,90.825
+RB4405,Hypothalamus,Immature Oligodendrocytes II,53,2.698,0.617,19.648
+RB4405,Hypothalamus,Immature Oligodendrocytes III,3,2.698,0.035,1.112
+RB4405,Hypothalamus,Microglia,331,2.698,3.853,122.706
+RB4405,Hypothalamus,Myocytes,2,2.698,0.023,0.741
+RB4405,Hypothalamus,Neural Stem Cells,10,2.698,0.116,3.707
+RB4405,Hypothalamus,Neurons,3859,2.698,44.924,1430.584
+RB4405,Hypothalamus,Oligodendrocytes,1543,2.698,17.963,572.011
+RB4405,Meningeal border/glia limitans,Astrocytes,1686,2.148,39.55,785.099
+RB4405,Meningeal border/glia limitans,Endothelial Cells,1585,2.148,37.18,738.068
+RB4405,Meningeal border/glia limitans,Excitatory Neurons,50,2.148,1.173,23.283
+RB4405,Meningeal border/glia limitans,GABAergic Neurons,149,2.148,3.495,69.383
+RB4405,Meningeal border/glia limitans,Immature Oligodendrocytes I,92,2.148,2.158,42.841
+RB4405,Meningeal border/glia limitans,Immature Oligodendrocytes II,14,2.148,0.328,6.519
+RB4405,Meningeal border/glia limitans,Immature Oligodendrocytes III,4,2.148,0.094,1.863
+RB4405,Meningeal border/glia limitans,Microglia,165,2.148,3.871,76.834
+RB4405,Meningeal border/glia limitans,Myocytes,1,2.148,0.023,0.466
+RB4405,Meningeal border/glia limitans,Neural Stem Cells,9,2.148,0.211,4.191
+RB4405,Meningeal border/glia limitans,Neurons,236,2.148,5.536,109.895
+RB4405,Meningeal border/glia limitans,Oligodendrocytes,272,2.148,6.38,126.659
+RB4405,Olfactory areas,Astrocytes,594,2.29,10.465,259.389
+RB4405,Olfactory areas,Endothelial Cells,543,2.29,9.567,237.118
+RB4405,Olfactory areas,Excitatory Neurons,3067,2.29,54.035,1339.301
+RB4405,Olfactory areas,GABAergic Neurons,416,2.29,7.329,181.659
+RB4405,Olfactory areas,Immature Oligodendrocytes I,186,2.29,3.277,81.223
+RB4405,Olfactory areas,Immature Oligodendrocytes II,23,2.29,0.405,10.044
+RB4405,Olfactory areas,Immature Oligodendrocytes III,1,2.29,0.018,0.437
+RB4405,Olfactory areas,Medium Spiny Neurons,1,2.29,0.018,0.437
+RB4405,Olfactory areas,Microglia,236,2.29,4.158,103.057
+RB4405,Olfactory areas,Neural Stem Cells,6,2.29,0.106,2.62
+RB4405,Olfactory areas,Neurons,187,2.29,3.295,81.659
+RB4405,Olfactory areas,Oligodendrocytes,416,2.29,7.329,181.659
+RB4405,Pallidum,Astrocytes,9,0.03,29.032,300.0
+RB4405,Pallidum,Endothelial Cells,4,0.03,12.903,133.333
+RB4405,Pallidum,GABAergic Neurons,4,0.03,12.903,133.333
+RB4405,Pallidum,Immature Oligodendrocytes I,1,0.03,3.226,33.333
+RB4405,Pallidum,Immature Oligodendrocytes II,4,0.03,12.903,133.333
+RB4405,Pallidum,Medium Spiny Neurons,1,0.03,3.226,33.333
+RB4405,Pallidum,Microglia,2,0.03,6.452,66.667
+RB4405,Pallidum,Oligodendrocytes,6,0.03,19.355,200.0
+RB4405,Striatum,Astrocytes,1406,3.755,11.91,374.434
+RB4405,Striatum,Endothelial Cells,914,3.755,7.742,243.409
+RB4405,Striatum,Excitatory Neurons,212,3.755,1.796,56.458
+RB4405,Striatum,GABAergic Neurons,1406,3.755,11.91,374.434
+RB4405,Striatum,Immature Oligodendrocytes I,274,3.755,2.321,72.969
+RB4405,Striatum,Immature Oligodendrocytes II,33,3.755,0.28,8.788
+RB4405,Striatum,Immature Oligodendrocytes III,3,3.755,0.025,0.799
+RB4405,Striatum,Medium Spiny Neurons,4102,3.755,34.748,1092.41
+RB4405,Striatum,Microglia,372,3.755,3.151,99.068
+RB4405,Striatum,Myocytes,1,3.755,0.008,0.266
+RB4405,Striatum,Neural Stem Cells,20,3.755,0.169,5.326
+RB4405,Striatum,Neurons,1948,3.755,16.501,518.775
+RB4405,Striatum,Oligodendrocytes,1114,3.755,9.437,296.671
+RB4405,Thalamus,Astrocytes,1852,2.788,20.534,664.395
+RB4405,Thalamus,Endothelial Cells,1063,2.788,11.786,381.345
+RB4405,Thalamus,Excitatory Neurons,2,2.788,0.022,0.717
+RB4405,Thalamus,GABAergic Neurons,8,2.788,0.089,2.87
+RB4405,Thalamus,Immature Oligodendrocytes I,217,2.788,2.406,77.848
+RB4405,Thalamus,Immature Oligodendrocytes II,48,2.788,0.532,17.22
+RB4405,Thalamus,Immature Oligodendrocytes III,2,2.788,0.022,0.717
+RB4405,Thalamus,Microglia,426,2.788,4.723,152.825
+RB4405,Thalamus,Neural Stem Cells,9,2.788,0.1,3.229
+RB4405,Thalamus,Neurons,3880,2.788,43.02,1391.928
+RB4405,Thalamus,Oligodendrocytes,1512,2.788,16.765,542.422
+RB4405,Unknown,Medium Spiny Neurons,14,0.012,60.87,1120.0
+RB4405,Unknown,Microglia,3,0.012,13.043,240.0
+RB4405,Unknown,Neurons,1,0.012,4.348,80.0
+RB4405,Unknown,Oligodendrocytes,5,0.012,21.739,400.0
+RB4405,Vasculature,Astrocytes,101,0.385,10.04,262.338
+RB4405,Vasculature,Endothelial Cells,545,0.385,54.175,1415.584
+RB4405,Vasculature,Excitatory Neurons,122,0.385,12.127,316.883
+RB4405,Vasculature,GABAergic Neurons,27,0.385,2.684,70.13
+RB4405,Vasculature,Immature Oligodendrocytes I,6,0.385,0.596,15.584
+RB4405,Vasculature,Immature Oligodendrocytes II,1,0.385,0.099,2.597
+RB4405,Vasculature,Immature Oligodendrocytes III,1,0.385,0.099,2.597
+RB4405,Vasculature,Microglia,34,0.385,3.38,88.312
+RB4405,Vasculature,Myocytes,1,0.385,0.099,2.597
+RB4405,Vasculature,Neural Stem Cells,3,0.385,0.298,7.792
+RB4405,Vasculature,Neurons,100,0.385,9.94,259.74
+RB4405,Vasculature,Oligodendrocytes,65,0.385,6.461,168.831
+RB4405,Ventricular system,Astrocytes,894,0.515,43.974,1735.922
+RB4405,Ventricular system,Endothelial Cells,568,0.515,27.939,1102.913
+RB4405,Ventricular system,GABAergic Neurons,8,0.515,0.394,15.534
+RB4405,Ventricular system,Immature Oligodendrocytes I,12,0.515,0.59,23.301
+RB4405,Ventricular system,Immature Oligodendrocytes II,1,0.515,0.049,1.942
+RB4405,Ventricular system,Immature Oligodendrocytes III,1,0.515,0.049,1.942
+RB4405,Ventricular system,Medium Spiny Neurons,20,0.515,0.984,38.835
+RB4405,Ventricular system,Microglia,32,0.515,1.574,62.136
+RB4405,Ventricular system,Neural Stem Cells,155,0.515,7.624,300.971
+RB4405,Ventricular system,Neurons,148,0.515,7.28,287.379
+RB4405,Ventricular system,Oligodendrocytes,194,0.515,9.543,376.699
+RB4498,Cortex,Astrocytes,1949,7.152,8.837,272.492
+RB4498,Cortex,Endothelial Cells,2380,7.152,10.791,332.751
+RB4498,Cortex,Excitatory Neurons,12451,7.152,56.454,1740.79
+RB4498,Cortex,GABAergic Neurons,1449,7.152,6.57,202.587
+RB4498,Cortex,Immature Oligodendrocytes I,404,7.152,1.832,56.484
+RB4498,Cortex,Immature Oligodendrocytes II,46,7.152,0.209,6.431
+RB4498,Cortex,Immature Oligodendrocytes III,12,7.152,0.054,1.678
+RB4498,Cortex,Medium Spiny Neurons,7,7.152,0.032,0.979
+RB4498,Cortex,Microglia,699,7.152,3.169,97.728
+RB4498,Cortex,Myocytes,1,7.152,0.005,0.14
+RB4498,Cortex,Neural Stem Cells,8,7.152,0.036,1.118
+RB4498,Cortex,Neurons,386,7.152,1.75,53.967
+RB4498,Cortex,Oligodendrocytes,2263,7.152,10.261,316.393
+RB4498,Fiber tracts,Astrocytes,826,2.122,15.815,389.164
+RB4498,Fiber tracts,Endothelial Cells,410,2.122,7.85,193.168
+RB4498,Fiber tracts,Excitatory Neurons,3,2.122,0.057,1.413
+RB4498,Fiber tracts,GABAergic Neurons,383,2.122,7.333,180.448
+RB4498,Fiber tracts,Immature Oligodendrocytes I,62,2.122,1.187,29.211
+RB4498,Fiber tracts,Immature Oligodendrocytes II,39,2.122,0.747,18.375
+RB4498,Fiber tracts,Immature Oligodendrocytes III,28,2.122,0.536,13.192
+RB4498,Fiber tracts,Medium Spiny Neurons,3,2.122,0.057,1.413
+RB4498,Fiber tracts,Microglia,126,2.122,2.412,59.364
+RB4498,Fiber tracts,Myocytes,1,2.122,0.019,0.471
+RB4498,Fiber tracts,Neural Stem Cells,48,2.122,0.919,22.615
+RB4498,Fiber tracts,Neurons,52,2.122,0.996,24.499
+RB4498,Fiber tracts,Oligodendrocytes,3242,2.122,62.072,1527.444
+RB4498,Hippocampus,Astrocytes,414,0.9,14.506,460.0
+RB4498,Hippocampus,Endothelial Cells,196,0.9,6.868,217.778
+RB4498,Hippocampus,Excitatory Neurons,1701,0.9,59.601,1890.0
+RB4498,Hippocampus,GABAergic Neurons,114,0.9,3.994,126.667
+RB4498,Hippocampus,Immature Oligodendrocytes I,68,0.9,2.383,75.556
+RB4498,Hippocampus,Immature Oligodendrocytes II,8,0.9,0.28,8.889
+RB4498,Hippocampus,Immature Oligodendrocytes III,1,0.9,0.035,1.111
+RB4498,Hippocampus,Microglia,70,0.9,2.453,77.778
+RB4498,Hippocampus,Neural Stem Cells,11,0.9,0.385,12.222
+RB4498,Hippocampus,Neurons,95,0.9,3.329,105.556
+RB4498,Hippocampus,Oligodendrocytes,176,0.9,6.167,195.556
+RB4498,Hypothalamus,Astrocytes,1242,2.11,18.243,588.626
+RB4498,Hypothalamus,Endocrine Cells,8,2.11,0.118,3.791
+RB4498,Hypothalamus,Endothelial Cells,620,2.11,9.107,293.839
+RB4498,Hypothalamus,GABAergic Neurons,25,2.11,0.367,11.848
+RB4498,Hypothalamus,Immature Oligodendrocytes I,202,2.11,2.967,95.735
+RB4498,Hypothalamus,Immature Oligodendrocytes II,15,2.11,0.22,7.109
+RB4498,Hypothalamus,Immature Oligodendrocytes III,8,2.11,0.118,3.791
+RB4498,Hypothalamus,Medium Spiny Neurons,1,2.11,0.015,0.474
+RB4498,Hypothalamus,Microglia,153,2.11,2.247,72.512
+RB4498,Hypothalamus,Myocytes,2,2.11,0.029,0.948
+RB4498,Hypothalamus,Neural Stem Cells,8,2.11,0.118,3.791
+RB4498,Hypothalamus,Neurons,3558,2.11,52.262,1686.256
+RB4498,Hypothalamus,Oligodendrocytes,966,2.11,14.189,457.82
+RB4498,Meningeal border/glia limitans,Astrocytes,1525,1.735,41.896,878.963
+RB4498,Meningeal border/glia limitans,Endothelial Cells,1183,1.735,32.5,681.844
+RB4498,Meningeal border/glia limitans,Excitatory Neurons,98,1.735,2.692,56.484
+RB4498,Meningeal border/glia limitans,GABAergic Neurons,158,1.735,4.341,91.066
+RB4498,Meningeal border/glia limitans,Immature Oligodendrocytes I,118,1.735,3.242,68.012
+RB4498,Meningeal border/glia limitans,Immature Oligodendrocytes II,12,1.735,0.33,6.916
+RB4498,Meningeal border/glia limitans,Immature Oligodendrocytes III,8,1.735,0.22,4.611
+RB4498,Meningeal border/glia limitans,Microglia,136,1.735,3.736,78.386
+RB4498,Meningeal border/glia limitans,Neural Stem Cells,10,1.735,0.275,5.764
+RB4498,Meningeal border/glia limitans,Neurons,108,1.735,2.967,62.248
+RB4498,Meningeal border/glia limitans,Oligodendrocytes,284,1.735,7.802,163.689
+RB4498,Olfactory areas,Astrocytes,647,2.58,11.785,250.775
+RB4498,Olfactory areas,Endocrine Cells,1,2.58,0.018,0.388
+RB4498,Olfactory areas,Endothelial Cells,557,2.58,10.146,215.891
+RB4498,Olfactory areas,Excitatory Neurons,2827,2.58,51.494,1095.736
+RB4498,Olfactory areas,GABAergic Neurons,423,2.58,7.705,163.953
+RB4498,Olfactory areas,Immature Oligodendrocytes I,204,2.58,3.716,79.07
+RB4498,Olfactory areas,Immature Oligodendrocytes II,15,2.58,0.273,5.814
+RB4498,Olfactory areas,Immature Oligodendrocytes III,4,2.58,0.073,1.55
+RB4498,Olfactory areas,Medium Spiny Neurons,4,2.58,0.073,1.55
+RB4498,Olfactory areas,Microglia,244,2.58,4.444,94.574
+RB4498,Olfactory areas,Neural Stem Cells,1,2.58,0.018,0.388
+RB4498,Olfactory areas,Neurons,124,2.58,2.259,48.062
+RB4498,Olfactory areas,Oligodendrocytes,439,2.58,7.996,170.155
+RB4498,Pallidum,Astrocytes,615,1.635,18.179,376.147
+RB4498,Pallidum,Endothelial Cells,320,1.635,9.459,195.719
+RB4498,Pallidum,GABAergic Neurons,96,1.635,2.838,58.716
+RB4498,Pallidum,Immature Oligodendrocytes I,88,1.635,2.601,53.823
+RB4498,Pallidum,Immature Oligodendrocytes II,7,1.635,0.207,4.281
+RB4498,Pallidum,Immature Oligodendrocytes III,18,1.635,0.532,11.009
+RB4498,Pallidum,Microglia,163,1.635,4.818,99.694
+RB4498,Pallidum,Neurons,305,1.635,9.016,186.544
+RB4498,Pallidum,Oligodendrocytes,1771,1.635,52.35,1083.18
+RB4498,Striatum,Astrocytes,1165,3.622,10.661,321.601
+RB4498,Striatum,Endothelial Cells,900,3.622,8.236,248.447
+RB4498,Striatum,Excitatory Neurons,103,3.622,0.943,28.433
+RB4498,Striatum,GABAergic Neurons,1212,3.622,11.091,334.576
+RB4498,Striatum,Immature Oligodendrocytes I,281,3.622,2.571,77.571
+RB4498,Striatum,Immature Oligodendrocytes II,29,3.622,0.265,8.006
+RB4498,Striatum,Immature Oligodendrocytes III,14,3.622,0.128,3.865
+RB4498,Striatum,Medium Spiny Neurons,3133,3.622,28.669,864.872
+RB4498,Striatum,Microglia,302,3.622,2.764,83.368
+RB4498,Striatum,Neural Stem Cells,6,3.622,0.055,1.656
+RB4498,Striatum,Neurons,2468,3.622,22.584,681.297
+RB4498,Striatum,Oligodendrocytes,1315,3.622,12.033,363.009
+RB4498,Thalamus,Astrocytes,2030,4.412,18.51,460.057
+RB4498,Thalamus,Endothelial Cells,1574,4.412,14.352,356.714
+RB4498,Thalamus,Excitatory Neurons,2,4.412,0.018,0.453
+RB4498,Thalamus,GABAergic Neurons,5,4.412,0.046,1.133
+RB4498,Thalamus,Immature Oligodendrocytes I,299,4.412,2.726,67.762
+RB4498,Thalamus,Immature Oligodendrocytes II,39,4.412,0.356,8.839
+RB4498,Thalamus,Immature Oligodendrocytes III,24,4.412,0.219,5.439
+RB4498,Thalamus,Microglia,265,4.412,2.416,60.057
+RB4498,Thalamus,Neural Stem Cells,5,4.412,0.046,1.133
+RB4498,Thalamus,Neurons,4166,4.412,37.987,944.136
+RB4498,Thalamus,Oligodendrocytes,2558,4.412,23.325,579.717
+RB4498,Unknown,Astrocytes,5,0.012,23.81,400.0
+RB4498,Unknown,Endothelial Cells,1,0.012,4.762,80.0
+RB4498,Unknown,Excitatory Neurons,13,0.012,61.905,1040.0
+RB4498,Unknown,Immature Oligodendrocytes I,1,0.012,4.762,80.0
+RB4498,Unknown,Oligodendrocytes,1,0.012,4.762,80.0
+RB4498,Vasculature,Astrocytes,110,0.405,12.6,271.605
+RB4498,Vasculature,Endothelial Cells,417,0.405,47.766,1029.63
+RB4498,Vasculature,Excitatory Neurons,157,0.405,17.984,387.654
+RB4498,Vasculature,GABAergic Neurons,34,0.405,3.895,83.951
+RB4498,Vasculature,Immature Oligodendrocytes I,8,0.405,0.916,19.753
+RB4498,Vasculature,Immature Oligodendrocytes II,3,0.405,0.344,7.407
+RB4498,Vasculature,Medium Spiny Neurons,6,0.405,0.687,14.815
+RB4498,Vasculature,Microglia,15,0.405,1.718,37.037
+RB4498,Vasculature,Neurons,67,0.405,7.675,165.432
+RB4498,Vasculature,Oligodendrocytes,56,0.405,6.415,138.272
+RB4498,Ventricular system,Astrocytes,1313,0.785,38.235,1672.611
+RB4498,Ventricular system,Endothelial Cells,1206,0.785,35.119,1536.306
+RB4498,Ventricular system,GABAergic Neurons,4,0.785,0.116,5.096
+RB4498,Ventricular system,Immature Oligodendrocytes I,19,0.785,0.553,24.204
+RB4498,Ventricular system,Immature Oligodendrocytes II,4,0.785,0.116,5.096
+RB4498,Ventricular system,Immature Oligodendrocytes III,4,0.785,0.116,5.096
+RB4498,Ventricular system,Medium Spiny Neurons,21,0.785,0.612,26.752
+RB4498,Ventricular system,Microglia,52,0.785,1.514,66.242
+RB4498,Ventricular system,Neural Stem Cells,360,0.785,10.483,458.599
+RB4498,Ventricular system,Neurons,218,0.785,6.348,277.707
+RB4498,Ventricular system,Oligodendrocytes,233,0.785,6.785,296.815
+RB4620,Cortex,Astrocytes,1979,6.905,8.421,286.604
+RB4620,Cortex,Endocrine Cells,1,6.905,0.004,0.145
+RB4620,Cortex,Endothelial Cells,2433,6.905,10.353,352.353
+RB4620,Cortex,Excitatory Neurons,13585,6.905,57.809,1967.415
+RB4620,Cortex,GABAergic Neurons,1683,6.905,7.162,243.736
+RB4620,Cortex,Immature Oligodendrocytes I,419,6.905,1.783,60.681
+RB4620,Cortex,Immature Oligodendrocytes II,66,6.905,0.281,9.558
+RB4620,Cortex,Immature Oligodendrocytes III,8,6.905,0.034,1.159
+RB4620,Cortex,Medium Spiny Neurons,8,6.905,0.034,1.159
+RB4620,Cortex,Microglia,694,6.905,2.953,100.507
+RB4620,Cortex,Neural Stem Cells,7,6.905,0.03,1.014
+RB4620,Cortex,Neurons,241,6.905,1.026,34.902
+RB4620,Cortex,Oligodendrocytes,2376,6.905,10.111,344.098
+RB4620,Fiber tracts,Astrocytes,997,2.585,14.456,385.687
+RB4620,Fiber tracts,Endothelial Cells,419,2.585,6.075,162.089
+RB4620,Fiber tracts,Excitatory Neurons,11,2.585,0.159,4.255
+RB4620,Fiber tracts,GABAergic Neurons,345,2.585,5.002,133.462
+RB4620,Fiber tracts,Immature Oligodendrocytes I,149,2.585,2.16,57.64
+RB4620,Fiber tracts,Immature Oligodendrocytes II,96,2.585,1.392,37.137
+RB4620,Fiber tracts,Immature Oligodendrocytes III,92,2.585,1.334,35.59
+RB4620,Fiber tracts,Medium Spiny Neurons,5,2.585,0.072,1.934
+RB4620,Fiber tracts,Microglia,177,2.585,2.566,68.472
+RB4620,Fiber tracts,Neural Stem Cells,56,2.585,0.812,21.663
+RB4620,Fiber tracts,Neurons,57,2.585,0.826,22.05
+RB4620,Fiber tracts,Oligodendrocytes,4493,2.585,65.144,1738.104
+RB4620,Hippocampus,Astrocytes,181,0.388,12.711,467.097
+RB4620,Hippocampus,Endothelial Cells,122,0.388,8.567,314.839
+RB4620,Hippocampus,Excitatory Neurons,881,0.388,61.868,2273.548
+RB4620,Hippocampus,GABAergic Neurons,37,0.388,2.598,95.484
+RB4620,Hippocampus,Immature Oligodendrocytes I,35,0.388,2.458,90.323
+RB4620,Hippocampus,Immature Oligodendrocytes II,3,0.388,0.211,7.742
+RB4620,Hippocampus,Immature Oligodendrocytes III,3,0.388,0.211,7.742
+RB4620,Hippocampus,Medium Spiny Neurons,1,0.388,0.07,2.581
+RB4620,Hippocampus,Microglia,32,0.388,2.247,82.581
+RB4620,Hippocampus,Neural Stem Cells,5,0.388,0.351,12.903
+RB4620,Hippocampus,Neurons,24,0.388,1.685,61.935
+RB4620,Hippocampus,Oligodendrocytes,100,0.388,7.022,258.065
+RB4620,Hypothalamus,Astrocytes,2079,4.145,18.235,501.568
+RB4620,Hypothalamus,Endocrine Cells,4,4.145,0.035,0.965
+RB4620,Hypothalamus,Endothelial Cells,1031,4.145,9.043,248.733
+RB4620,Hypothalamus,Excitatory Neurons,1,4.145,0.009,0.241
+RB4620,Hypothalamus,GABAergic Neurons,114,4.145,1.0,27.503
+RB4620,Hypothalamus,Immature Oligodendrocytes I,396,4.145,3.473,95.537
+RB4620,Hypothalamus,Immature Oligodendrocytes II,41,4.145,0.36,9.891
+RB4620,Hypothalamus,Immature Oligodendrocytes III,19,4.145,0.167,4.584
+RB4620,Hypothalamus,Medium Spiny Neurons,4,4.145,0.035,0.965
+RB4620,Hypothalamus,Microglia,315,4.145,2.763,75.995
+RB4620,Hypothalamus,Neural Stem Cells,11,4.145,0.096,2.654
+RB4620,Hypothalamus,Neurons,5739,4.145,50.338,1384.56
+RB4620,Hypothalamus,Oligodendrocytes,1647,4.145,14.446,397.346
+RB4620,Meningeal border/glia limitans,Astrocytes,1470,1.655,37.887,888.218
+RB4620,Meningeal border/glia limitans,Endothelial Cells,1532,1.655,39.485,925.68
+RB4620,Meningeal border/glia limitans,Excitatory Neurons,18,1.655,0.464,10.876
+RB4620,Meningeal border/glia limitans,GABAergic Neurons,132,1.655,3.402,79.758
+RB4620,Meningeal border/glia limitans,Immature Oligodendrocytes I,87,1.655,2.242,52.568
+RB4620,Meningeal border/glia limitans,Immature Oligodendrocytes II,15,1.655,0.387,9.063
+RB4620,Meningeal border/glia limitans,Immature Oligodendrocytes III,7,1.655,0.18,4.23
+RB4620,Meningeal border/glia limitans,Medium Spiny Neurons,1,1.655,0.026,0.604
+RB4620,Meningeal border/glia limitans,Microglia,109,1.655,2.809,65.861
+RB4620,Meningeal border/glia limitans,Myocytes,9,1.655,0.232,5.438
+RB4620,Meningeal border/glia limitans,Neural Stem Cells,7,1.655,0.18,4.23
+RB4620,Meningeal border/glia limitans,Neurons,96,1.655,2.474,58.006
+RB4620,Meningeal border/glia limitans,Oligodendrocytes,397,1.655,10.232,239.879
+RB4620,Olfactory areas,Astrocytes,223,0.898,10.178,248.468
+RB4620,Olfactory areas,Endothelial Cells,211,0.898,9.63,235.097
+RB4620,Olfactory areas,Excitatory Neurons,1169,0.898,53.355,1302.507
+RB4620,Olfactory areas,GABAergic Neurons,195,0.898,8.9,217.27
+RB4620,Olfactory areas,Immature Oligodendrocytes I,62,0.898,2.83,69.081
+RB4620,Olfactory areas,Immature Oligodendrocytes II,11,0.898,0.502,12.256
+RB4620,Olfactory areas,Medium Spiny Neurons,2,0.898,0.091,2.228
+RB4620,Olfactory areas,Microglia,85,0.898,3.88,94.708
+RB4620,Olfactory areas,Neurons,57,0.898,2.602,63.51
+RB4620,Olfactory areas,Oligodendrocytes,176,0.898,8.033,196.1
+RB4620,Pallidum,Astrocytes,496,1.392,17.952,356.194
+RB4620,Pallidum,Endothelial Cells,251,1.392,9.084,180.251
+RB4620,Pallidum,Excitatory Neurons,2,1.392,0.072,1.436
+RB4620,Pallidum,GABAergic Neurons,63,1.392,2.28,45.242
+RB4620,Pallidum,Immature Oligodendrocytes I,78,1.392,2.823,56.014
+RB4620,Pallidum,Immature Oligodendrocytes II,14,1.392,0.507,10.054
+RB4620,Pallidum,Immature Oligodendrocytes III,19,1.392,0.688,13.645
+RB4620,Pallidum,Medium Spiny Neurons,10,1.392,0.362,7.181
+RB4620,Pallidum,Microglia,119,1.392,4.307,85.458
+RB4620,Pallidum,Neural Stem Cells,9,1.392,0.326,6.463
+RB4620,Pallidum,Neurons,406,1.392,14.694,291.562
+RB4620,Pallidum,Oligodendrocytes,1296,1.392,46.906,930.7
+RB4620,Striatum,Astrocytes,1417,5.66,8.326,250.353
+RB4620,Striatum,Endothelial Cells,1414,5.66,8.308,249.823
+RB4620,Striatum,Excitatory Neurons,21,5.66,0.123,3.71
+RB4620,Striatum,GABAergic Neurons,943,5.66,5.541,166.608
+RB4620,Striatum,Immature Oligodendrocytes I,360,5.66,2.115,63.604
+RB4620,Striatum,Immature Oligodendrocytes II,31,5.66,0.182,5.477
+RB4620,Striatum,Immature Oligodendrocytes III,12,5.66,0.071,2.12
+RB4620,Striatum,Medium Spiny Neurons,8280,5.66,48.652,1462.898
+RB4620,Striatum,Microglia,504,5.66,2.961,89.046
+RB4620,Striatum,Neural Stem Cells,14,5.66,0.082,2.473
+RB4620,Striatum,Neurons,2204,5.66,12.95,389.399
+RB4620,Striatum,Oligodendrocytes,1819,5.66,10.688,321.378
+RB4620,Thalamus,Astrocytes,1345,2.808,13.876,479.074
+RB4620,Thalamus,Endothelial Cells,1163,2.808,11.998,414.248
+RB4620,Thalamus,Excitatory Neurons,2,2.808,0.021,0.712
+RB4620,Thalamus,GABAergic Neurons,24,2.808,0.248,8.549
+RB4620,Thalamus,Immature Oligodendrocytes I,224,2.808,2.311,79.786
+RB4620,Thalamus,Immature Oligodendrocytes II,27,2.808,0.279,9.617
+RB4620,Thalamus,Immature Oligodendrocytes III,6,2.808,0.062,2.137
+RB4620,Thalamus,Microglia,188,2.808,1.94,66.963
+RB4620,Thalamus,Neural Stem Cells,11,2.808,0.113,3.918
+RB4620,Thalamus,Neurons,5294,2.808,54.617,1885.663
+RB4620,Thalamus,Oligodendrocytes,1409,2.808,14.536,501.87
+RB4620,Unknown,Astrocytes,295,0.71,5.564,415.493
+RB4620,Unknown,Endocrine Cells,3107,0.71,58.601,4376.056
+RB4620,Unknown,Endothelial Cells,135,0.71,2.546,190.141
+RB4620,Unknown,Excitatory Neurons,17,0.71,0.321,23.944
+RB4620,Unknown,GABAergic Neurons,423,0.71,7.978,595.775
+RB4620,Unknown,Immature Oligodendrocytes I,39,0.71,0.736,54.93
+RB4620,Unknown,Medium Spiny Neurons,1135,0.71,21.407,1598.592
+RB4620,Unknown,Microglia,49,0.71,0.924,69.014
+RB4620,Unknown,Myocytes,18,0.71,0.339,25.352
+RB4620,Unknown,Neural Stem Cells,5,0.71,0.094,7.042
+RB4620,Unknown,Neurons,45,0.71,0.849,63.38
+RB4620,Unknown,Oligodendrocytes,34,0.71,0.641,47.887
+RB4620,Vasculature,Astrocytes,86,0.332,12.932,258.647
+RB4620,Vasculature,Endothelial Cells,328,0.332,49.323,986.466
+RB4620,Vasculature,Excitatory Neurons,112,0.332,16.842,336.842
+RB4620,Vasculature,GABAergic Neurons,22,0.332,3.308,66.165
+RB4620,Vasculature,Immature Oligodendrocytes I,1,0.332,0.15,3.008
+RB4620,Vasculature,Immature Oligodendrocytes II,1,0.332,0.15,3.008
+RB4620,Vasculature,Microglia,13,0.332,1.955,39.098
+RB4620,Vasculature,Myocytes,2,0.332,0.301,6.015
+RB4620,Vasculature,Neural Stem Cells,1,0.332,0.15,3.008
+RB4620,Vasculature,Neurons,44,0.332,6.617,132.331
+RB4620,Vasculature,Oligodendrocytes,55,0.332,8.271,165.414
+RB4620,Ventricular system,Astrocytes,1471,0.832,36.932,1766.967
+RB4620,Ventricular system,Endocrine Cells,1,0.832,0.025,1.201
+RB4620,Ventricular system,Endothelial Cells,1668,0.832,41.878,2003.604
+RB4620,Ventricular system,GABAergic Neurons,9,0.832,0.226,10.811
+RB4620,Ventricular system,Immature Oligodendrocytes I,21,0.832,0.527,25.225
+RB4620,Ventricular system,Immature Oligodendrocytes II,7,0.832,0.176,8.408
+RB4620,Ventricular system,Immature Oligodendrocytes III,5,0.832,0.126,6.006
+RB4620,Ventricular system,Medium Spiny Neurons,58,0.832,1.456,69.67
+RB4620,Ventricular system,Microglia,31,0.832,0.778,37.237
+RB4620,Ventricular system,Myocytes,5,0.832,0.126,6.006
+RB4620,Ventricular system,Neural Stem Cells,228,0.832,5.724,273.874
+RB4620,Ventricular system,Neurons,282,0.832,7.08,338.739
+RB4620,Ventricular system,Oligodendrocytes,197,0.832,4.946,236.637
+RB4627,Cortex,Astrocytes,1702,6.048,8.013,281.439
+RB4627,Cortex,Endothelial Cells,2226,6.048,10.48,368.086
+RB4627,Cortex,Excitatory Neurons,12839,6.048,60.444,2123.026
+RB4627,Cortex,GABAergic Neurons,1707,6.048,8.036,282.265
+RB4627,Cortex,Immature Oligodendrocytes I,339,6.048,1.596,56.056
+RB4627,Cortex,Immature Oligodendrocytes II,48,6.048,0.226,7.937
+RB4627,Cortex,Immature Oligodendrocytes III,8,6.048,0.038,1.323
+RB4627,Cortex,Medium Spiny Neurons,3,6.048,0.014,0.496
+RB4627,Cortex,Microglia,671,6.048,3.159,110.955
+RB4627,Cortex,Neural Stem Cells,8,6.048,0.038,1.323
+RB4627,Cortex,Neurons,139,6.048,0.654,22.985
+RB4627,Cortex,Oligodendrocytes,1551,6.048,7.302,256.47
+RB4627,Fiber tracts,Astrocytes,1223,3.0,16.776,407.667
+RB4627,Fiber tracts,Endothelial Cells,631,3.0,8.656,210.333
+RB4627,Fiber tracts,Excitatory Neurons,3,3.0,0.041,1.0
+RB4627,Fiber tracts,GABAergic Neurons,477,3.0,6.543,159.0
+RB4627,Fiber tracts,Immature Oligodendrocytes I,141,3.0,1.934,47.0
+RB4627,Fiber tracts,Immature Oligodendrocytes II,64,3.0,0.878,21.333
+RB4627,Fiber tracts,Immature Oligodendrocytes III,52,3.0,0.713,17.333
+RB4627,Fiber tracts,Medium Spiny Neurons,8,3.0,0.11,2.667
+RB4627,Fiber tracts,Microglia,340,3.0,4.664,113.333
+RB4627,Fiber tracts,Neural Stem Cells,29,3.0,0.398,9.667
+RB4627,Fiber tracts,Neurons,298,3.0,4.088,99.333
+RB4627,Fiber tracts,Oligodendrocytes,4024,3.0,55.199,1341.333
+RB4627,Hippocampus,Astrocytes,286,0.608,13.107,470.782
+RB4627,Hippocampus,Endothelial Cells,138,0.608,6.324,227.16
+RB4627,Hippocampus,Excitatory Neurons,1402,0.608,64.253,2307.819
+RB4627,Hippocampus,GABAergic Neurons,79,0.608,3.621,130.041
+RB4627,Hippocampus,Immature Oligodendrocytes I,41,0.608,1.879,67.49
+RB4627,Hippocampus,Immature Oligodendrocytes II,6,0.608,0.275,9.877
+RB4627,Hippocampus,Medium Spiny Neurons,1,0.608,0.046,1.646
+RB4627,Hippocampus,Microglia,59,0.608,2.704,97.119
+RB4627,Hippocampus,Neural Stem Cells,3,0.608,0.137,4.938
+RB4627,Hippocampus,Neurons,45,0.608,2.062,74.074
+RB4627,Hippocampus,Oligodendrocytes,122,0.608,5.591,200.823
+RB4627,Hypothalamus,Astrocytes,1512,2.975,17.885,508.235
+RB4627,Hypothalamus,Endocrine Cells,1,2.975,0.012,0.336
+RB4627,Hypothalamus,Endothelial Cells,780,2.975,9.226,262.185
+RB4627,Hypothalamus,Excitatory Neurons,6,2.975,0.071,2.017
+RB4627,Hypothalamus,GABAergic Neurons,65,2.975,0.769,21.849
+RB4627,Hypothalamus,Immature Oligodendrocytes I,255,2.975,3.016,85.714
+RB4627,Hypothalamus,Immature Oligodendrocytes II,38,2.975,0.449,12.773
+RB4627,Hypothalamus,Immature Oligodendrocytes III,8,2.975,0.095,2.689
+RB4627,Hypothalamus,Microglia,208,2.975,2.46,69.916
+RB4627,Hypothalamus,Neural Stem Cells,8,2.975,0.095,2.689
+RB4627,Hypothalamus,Neurons,4097,2.975,48.462,1377.143
+RB4627,Hypothalamus,Oligodendrocytes,1476,2.975,17.459,496.134
+RB4627,Meningeal border/glia limitans,Astrocytes,1980,2.325,36.66,851.613
+RB4627,Meningeal border/glia limitans,Endocrine Cells,1,2.325,0.019,0.43
+RB4627,Meningeal border/glia limitans,Endothelial Cells,2113,2.325,39.122,908.817
+RB4627,Meningeal border/glia limitans,Excitatory Neurons,79,2.325,1.463,33.978
+RB4627,Meningeal border/glia limitans,GABAergic Neurons,172,2.325,3.185,73.978
+RB4627,Meningeal border/glia limitans,Immature Oligodendrocytes I,136,2.325,2.518,58.495
+RB4627,Meningeal border/glia limitans,Immature Oligodendrocytes II,20,2.325,0.37,8.602
+RB4627,Meningeal border/glia limitans,Immature Oligodendrocytes III,11,2.325,0.204,4.731
+RB4627,Meningeal border/glia limitans,Microglia,193,2.325,3.573,83.011
+RB4627,Meningeal border/glia limitans,Myocytes,5,2.325,0.093,2.151
+RB4627,Meningeal border/glia limitans,Neural Stem Cells,8,2.325,0.148,3.441
+RB4627,Meningeal border/glia limitans,Neurons,243,2.325,4.499,104.516
+RB4627,Meningeal border/glia limitans,Oligodendrocytes,440,2.325,8.147,189.247
+RB4627,Olfactory areas,Astrocytes,418,1.778,10.566,235.162
+RB4627,Olfactory areas,Endothelial Cells,440,1.778,11.122,247.539
+RB4627,Olfactory areas,Excitatory Neurons,2140,1.778,54.095,1203.938
+RB4627,Olfactory areas,GABAergic Neurons,287,1.778,7.255,161.463
+RB4627,Olfactory areas,Immature Oligodendrocytes I,120,1.778,3.033,67.511
+RB4627,Olfactory areas,Immature Oligodendrocytes II,23,1.778,0.581,12.94
+RB4627,Olfactory areas,Immature Oligodendrocytes III,1,1.778,0.025,0.563
+RB4627,Olfactory areas,Medium Spiny Neurons,5,1.778,0.126,2.813
+RB4627,Olfactory areas,Microglia,185,1.778,4.676,104.079
+RB4627,Olfactory areas,Myocytes,2,1.778,0.051,1.125
+RB4627,Olfactory areas,Neural Stem Cells,3,1.778,0.076,1.688
+RB4627,Olfactory areas,Neurons,81,1.778,2.048,45.57
+RB4627,Olfactory areas,Oligodendrocytes,251,1.778,6.345,141.21
+RB4627,Pallidum,Astrocytes,52,0.262,15.029,198.095
+RB4627,Pallidum,Endothelial Cells,44,0.262,12.717,167.619
+RB4627,Pallidum,GABAergic Neurons,5,0.262,1.445,19.048
+RB4627,Pallidum,Immature Oligodendrocytes I,4,0.262,1.156,15.238
+RB4627,Pallidum,Immature Oligodendrocytes II,2,0.262,0.578,7.619
+RB4627,Pallidum,Immature Oligodendrocytes III,1,0.262,0.289,3.81
+RB4627,Pallidum,Microglia,14,0.262,4.046,53.333
+RB4627,Pallidum,Neural Stem Cells,1,0.262,0.289,3.81
+RB4627,Pallidum,Neurons,36,0.262,10.405,137.143
+RB4627,Pallidum,Oligodendrocytes,187,0.262,54.046,712.381
+RB4627,Striatum,Astrocytes,1026,3.34,10.014,307.186
+RB4627,Striatum,Endocrine Cells,1,3.34,0.01,0.299
+RB4627,Striatum,Endothelial Cells,846,3.34,8.257,253.293
+RB4627,Striatum,Excitatory Neurons,108,3.34,1.054,32.335
+RB4627,Striatum,GABAergic Neurons,1418,3.34,13.84,424.551
+RB4627,Striatum,Immature Oligodendrocytes I,273,3.34,2.664,81.737
+RB4627,Striatum,Immature Oligodendrocytes II,23,3.34,0.224,6.886
+RB4627,Striatum,Immature Oligodendrocytes III,6,3.34,0.059,1.796
+RB4627,Striatum,Medium Spiny Neurons,2983,3.34,29.114,893.114
+RB4627,Striatum,Microglia,288,3.34,2.811,86.228
+RB4627,Striatum,Neural Stem Cells,8,3.34,0.078,2.395
+RB4627,Striatum,Neurons,2276,3.34,22.214,681.437
+RB4627,Striatum,Oligodendrocytes,990,3.34,9.662,296.407
+RB4627,Thalamus,Astrocytes,1546,3.625,15.675,426.483
+RB4627,Thalamus,Endothelial Cells,1292,3.625,13.099,356.414
+RB4627,Thalamus,Excitatory Neurons,1,3.625,0.01,0.276
+RB4627,Thalamus,GABAergic Neurons,5,3.625,0.051,1.379
+RB4627,Thalamus,Immature Oligodendrocytes I,265,3.625,2.687,73.103
+RB4627,Thalamus,Immature Oligodendrocytes II,35,3.625,0.355,9.655
+RB4627,Thalamus,Immature Oligodendrocytes III,8,3.625,0.081,2.207
+RB4627,Thalamus,Microglia,335,3.625,3.397,92.414
+RB4627,Thalamus,Myocytes,1,3.625,0.01,0.276
+RB4627,Thalamus,Neural Stem Cells,5,3.625,0.051,1.379
+RB4627,Thalamus,Neurons,4749,3.625,48.15,1310.069
+RB4627,Thalamus,Oligodendrocytes,1621,3.625,16.435,447.172
+RB4627,Vasculature,Astrocytes,59,0.255,11.153,231.373
+RB4627,Vasculature,Endothelial Cells,267,0.255,50.473,1047.059
+RB4627,Vasculature,Excitatory Neurons,91,0.255,17.202,356.863
+RB4627,Vasculature,GABAergic Neurons,14,0.255,2.647,54.902
+RB4627,Vasculature,Immature Oligodendrocytes I,6,0.255,1.134,23.529
+RB4627,Vasculature,Immature Oligodendrocytes II,2,0.255,0.378,7.843
+RB4627,Vasculature,Microglia,12,0.255,2.268,47.059
+RB4627,Vasculature,Neurons,40,0.255,7.561,156.863
+RB4627,Vasculature,Oligodendrocytes,38,0.255,7.183,149.02
+RB4627,Ventricular system,Astrocytes,1218,0.732,36.467,1662.799
+RB4627,Ventricular system,Endothelial Cells,1452,0.732,43.473,1982.253
+RB4627,Ventricular system,GABAergic Neurons,6,0.732,0.18,8.191
+RB4627,Ventricular system,Immature Oligodendrocytes I,19,0.732,0.569,25.939
+RB4627,Ventricular system,Immature Oligodendrocytes II,10,0.732,0.299,13.652
+RB4627,Ventricular system,Immature Oligodendrocytes III,1,0.732,0.03,1.365
+RB4627,Ventricular system,Medium Spiny Neurons,24,0.732,0.719,32.765
+RB4627,Ventricular system,Microglia,28,0.732,0.838,38.225
+RB4627,Ventricular system,Neural Stem Cells,141,0.732,4.222,192.491
+RB4627,Ventricular system,Neurons,239,0.732,7.156,326.28
+RB4627,Ventricular system,Oligodendrocytes,202,0.732,6.048,275.768
+RB4630,Cortex,Astrocytes,2186,5.998,9.883,364.485
+RB4630,Cortex,Endothelial Cells,2178,5.998,9.847,363.151
+RB4630,Cortex,Excitatory Neurons,12700,5.998,57.417,2117.549
+RB4630,Cortex,GABAergic Neurons,1685,5.998,7.618,280.95
+RB4630,Cortex,Immature Oligodendrocytes I,355,5.998,1.605,59.191
+RB4630,Cortex,Immature Oligodendrocytes II,42,5.998,0.19,7.003
+RB4630,Cortex,Immature Oligodendrocytes III,11,5.998,0.05,1.834
+RB4630,Cortex,Medium Spiny Neurons,6,5.998,0.027,1.0
+RB4630,Cortex,Microglia,686,5.998,3.101,114.381
+RB4630,Cortex,Myocytes,1,5.998,0.005,0.167
+RB4630,Cortex,Neural Stem Cells,6,5.998,0.027,1.0
+RB4630,Cortex,Neurons,368,5.998,1.664,61.359
+RB4630,Cortex,Oligodendrocytes,1895,5.998,8.567,315.965
+RB4630,Fiber tracts,Astrocytes,789,1.772,15.862,445.134
+RB4630,Fiber tracts,Endothelial Cells,367,1.772,7.378,207.052
+RB4630,Fiber tracts,Excitatory Neurons,6,1.772,0.121,3.385
+RB4630,Fiber tracts,GABAergic Neurons,415,1.772,8.343,234.133
+RB4630,Fiber tracts,Immature Oligodendrocytes I,91,1.772,1.83,51.34
+RB4630,Fiber tracts,Immature Oligodendrocytes II,39,1.772,0.784,22.003
+RB4630,Fiber tracts,Immature Oligodendrocytes III,52,1.772,1.045,29.337
+RB4630,Fiber tracts,Medium Spiny Neurons,6,1.772,0.121,3.385
+RB4630,Fiber tracts,Microglia,117,1.772,2.352,66.008
+RB4630,Fiber tracts,Neural Stem Cells,35,1.772,0.704,19.746
+RB4630,Fiber tracts,Neurons,44,1.772,0.885,24.824
+RB4630,Fiber tracts,Oligodendrocytes,3013,1.772,60.575,1699.859
+RB4630,Hippocampus,Astrocytes,337,0.652,13.721,516.475
+RB4630,Hippocampus,Endothelial Cells,151,0.652,6.148,231.418
+RB4630,Hippocampus,Excitatory Neurons,1482,0.652,60.342,2271.264
+RB4630,Hippocampus,GABAergic Neurons,107,0.652,4.357,163.985
+RB4630,Hippocampus,Immature Oligodendrocytes I,35,0.652,1.425,53.64
+RB4630,Hippocampus,Immature Oligodendrocytes II,2,0.652,0.081,3.065
+RB4630,Hippocampus,Immature Oligodendrocytes III,2,0.652,0.081,3.065
+RB4630,Hippocampus,Medium Spiny Neurons,1,0.652,0.041,1.533
+RB4630,Hippocampus,Microglia,69,0.652,2.809,105.747
+RB4630,Hippocampus,Neural Stem Cells,6,0.652,0.244,9.195
+RB4630,Hippocampus,Neurons,150,0.652,6.107,229.885
+RB4630,Hippocampus,Oligodendrocytes,114,0.652,4.642,174.713
+RB4630,Hypothalamus,Astrocytes,967,1.835,16.627,526.975
+RB4630,Hypothalamus,Endothelial Cells,529,1.835,9.096,288.283
+RB4630,Hypothalamus,Excitatory Neurons,3,1.835,0.052,1.635
+RB4630,Hypothalamus,GABAergic Neurons,31,1.835,0.533,16.894
+RB4630,Hypothalamus,Immature Oligodendrocytes I,194,1.835,3.336,105.722
+RB4630,Hypothalamus,Immature Oligodendrocytes II,18,1.835,0.309,9.809
+RB4630,Hypothalamus,Immature Oligodendrocytes III,7,1.835,0.12,3.815
+RB4630,Hypothalamus,Microglia,116,1.835,1.994,63.215
+RB4630,Hypothalamus,Neural Stem Cells,1,1.835,0.017,0.545
+RB4630,Hypothalamus,Neurons,2919,1.835,50.189,1590.736
+RB4630,Hypothalamus,Oligodendrocytes,1031,1.835,17.727,561.853
+RB4630,Meningeal border/glia limitans,Astrocytes,1896,2.01,41.253,943.284
+RB4630,Meningeal border/glia limitans,Endothelial Cells,1628,2.01,35.422,809.95
+RB4630,Meningeal border/glia limitans,Excitatory Neurons,39,2.01,0.849,19.403
+RB4630,Meningeal border/glia limitans,GABAergic Neurons,191,2.01,4.156,95.025
+RB4630,Meningeal border/glia limitans,Immature Oligodendrocytes I,125,2.01,2.72,62.189
+RB4630,Meningeal border/glia limitans,Immature Oligodendrocytes II,10,2.01,0.218,4.975
+RB4630,Meningeal border/glia limitans,Immature Oligodendrocytes III,2,2.01,0.044,0.995
+RB4630,Meningeal border/glia limitans,Medium Spiny Neurons,1,2.01,0.022,0.498
+RB4630,Meningeal border/glia limitans,Microglia,162,2.01,3.525,80.597
+RB4630,Meningeal border/glia limitans,Myocytes,1,2.01,0.022,0.498
+RB4630,Meningeal border/glia limitans,Neural Stem Cells,22,2.01,0.479,10.945
+RB4630,Meningeal border/glia limitans,Neurons,222,2.01,4.83,110.448
+RB4630,Meningeal border/glia limitans,Oligodendrocytes,297,2.01,6.462,147.761
+RB4630,Olfactory areas,Astrocytes,514,1.958,11.307,262.58
+RB4630,Olfactory areas,Endothelial Cells,501,1.958,11.021,255.939
+RB4630,Olfactory areas,Excitatory Neurons,2395,1.958,52.684,1223.499
+RB4630,Olfactory areas,GABAergic Neurons,387,1.958,8.513,197.701
+RB4630,Olfactory areas,Immature Oligodendrocytes I,174,1.958,3.828,88.889
+RB4630,Olfactory areas,Immature Oligodendrocytes II,14,1.958,0.308,7.152
+RB4630,Olfactory areas,Immature Oligodendrocytes III,2,1.958,0.044,1.022
+RB4630,Olfactory areas,Medium Spiny Neurons,1,1.958,0.022,0.511
+RB4630,Olfactory areas,Microglia,191,1.958,4.201,97.573
+RB4630,Olfactory areas,Myocytes,2,1.958,0.044,1.022
+RB4630,Olfactory areas,Neural Stem Cells,6,1.958,0.132,3.065
+RB4630,Olfactory areas,Neurons,85,1.958,1.87,43.423
+RB4630,Olfactory areas,Oligodendrocytes,274,1.958,6.027,139.974
+RB4630,Pallidum,Astrocytes,570,1.47,17.593,387.755
+RB4630,Pallidum,Endocrine Cells,1,1.47,0.031,0.68
+RB4630,Pallidum,Endothelial Cells,357,1.47,11.019,242.857
+RB4630,Pallidum,Excitatory Neurons,1,1.47,0.031,0.68
+RB4630,Pallidum,GABAergic Neurons,79,1.47,2.438,53.741
+RB4630,Pallidum,Immature Oligodendrocytes I,80,1.47,2.469,54.422
+RB4630,Pallidum,Immature Oligodendrocytes II,19,1.47,0.586,12.925
+RB4630,Pallidum,Immature Oligodendrocytes III,9,1.47,0.278,6.122
+RB4630,Pallidum,Medium Spiny Neurons,1,1.47,0.031,0.68
+RB4630,Pallidum,Microglia,163,1.47,5.031,110.884
+RB4630,Pallidum,Neural Stem Cells,1,1.47,0.031,0.68
+RB4630,Pallidum,Neurons,376,1.47,11.605,255.782
+RB4630,Pallidum,Oligodendrocytes,1583,1.47,48.858,1076.871
+RB4630,Striatum,Astrocytes,1303,3.715,10.161,350.74
+RB4630,Striatum,Endothelial Cells,1078,3.715,8.407,290.175
+RB4630,Striatum,Excitatory Neurons,105,3.715,0.819,28.264
+RB4630,Striatum,GABAergic Neurons,1038,3.715,8.095,279.408
+RB4630,Striatum,Immature Oligodendrocytes I,312,3.715,2.433,83.984
+RB4630,Striatum,Immature Oligodendrocytes II,16,3.715,0.125,4.307
+RB4630,Striatum,Immature Oligodendrocytes III,9,3.715,0.07,2.423
+RB4630,Striatum,Medium Spiny Neurons,4458,3.715,34.766,1200.0
+RB4630,Striatum,Microglia,325,3.715,2.535,87.483
+RB4630,Striatum,Neural Stem Cells,16,3.715,0.125,4.307
+RB4630,Striatum,Neurons,2729,3.715,21.282,734.59
+RB4630,Striatum,Oligodendrocytes,1434,3.715,11.183,386.003
+RB4630,Thalamus,Astrocytes,1106,2.29,15.87,482.969
+RB4630,Thalamus,Endothelial Cells,966,2.29,13.861,421.834
+RB4630,Thalamus,Excitatory Neurons,4,2.29,0.057,1.747
+RB4630,Thalamus,GABAergic Neurons,5,2.29,0.072,2.183
+RB4630,Thalamus,Immature Oligodendrocytes I,145,2.29,2.081,63.319
+RB4630,Thalamus,Immature Oligodendrocytes II,17,2.29,0.244,7.424
+RB4630,Thalamus,Immature Oligodendrocytes III,12,2.29,0.172,5.24
+RB4630,Thalamus,Medium Spiny Neurons,1,2.29,0.014,0.437
+RB4630,Thalamus,Microglia,130,2.29,1.865,56.769
+RB4630,Thalamus,Neural Stem Cells,5,2.29,0.072,2.183
+RB4630,Thalamus,Neurons,2901,2.29,41.627,1266.812
+RB4630,Thalamus,Oligodendrocytes,1677,2.29,24.064,732.314
+RB4630,Unknown,Excitatory Neurons,1,0.002,100.0,400.0
+RB4630,Vasculature,Astrocytes,76,0.282,11.639,269.027
+RB4630,Vasculature,Endothelial Cells,360,0.282,55.13,1274.336
+RB4630,Vasculature,Excitatory Neurons,86,0.282,13.17,304.425
+RB4630,Vasculature,GABAergic Neurons,25,0.282,3.828,88.496
+RB4630,Vasculature,Immature Oligodendrocytes I,5,0.282,0.766,17.699
+RB4630,Vasculature,Immature Oligodendrocytes II,1,0.282,0.153,3.54
+RB4630,Vasculature,Medium Spiny Neurons,4,0.282,0.613,14.159
+RB4630,Vasculature,Microglia,13,0.282,1.991,46.018
+RB4630,Vasculature,Neural Stem Cells,1,0.282,0.153,3.54
+RB4630,Vasculature,Neurons,42,0.282,6.432,148.673
+RB4630,Vasculature,Oligodendrocytes,40,0.282,6.126,141.593
+RB4630,Ventricular system,Astrocytes,644,0.318,37.442,2028.346
+RB4630,Ventricular system,Endothelial Cells,620,0.318,36.047,1952.756
+RB4630,Ventricular system,GABAergic Neurons,7,0.318,0.407,22.047
+RB4630,Ventricular system,Immature Oligodendrocytes I,15,0.318,0.872,47.244
+RB4630,Ventricular system,Immature Oligodendrocytes II,1,0.318,0.058,3.15
+RB4630,Ventricular system,Immature Oligodendrocytes III,5,0.318,0.291,15.748
+RB4630,Ventricular system,Medium Spiny Neurons,27,0.318,1.57,85.039
+RB4630,Ventricular system,Microglia,16,0.318,0.93,50.394
+RB4630,Ventricular system,Neural Stem Cells,180,0.318,10.465,566.929
+RB4630,Ventricular system,Neurons,16,0.318,0.93,50.394
+RB4630,Ventricular system,Oligodendrocytes,189,0.318,10.988,595.276
+RB4653,Cortex,Astrocytes,1898,6.835,9.972,277.688
+RB4653,Cortex,Endothelial Cells,1957,6.835,10.282,286.32
+RB4653,Cortex,Excitatory Neurons,11179,6.835,58.732,1635.552
+RB4653,Cortex,GABAergic Neurons,1369,6.835,7.192,200.293
+RB4653,Cortex,Immature Oligodendrocytes I,441,6.835,2.317,64.521
+RB4653,Cortex,Immature Oligodendrocytes II,63,6.835,0.331,9.217
+RB4653,Cortex,Immature Oligodendrocytes III,4,6.835,0.021,0.585
+RB4653,Cortex,Medium Spiny Neurons,2,6.835,0.011,0.293
+RB4653,Cortex,Microglia,598,6.835,3.142,87.491
+RB4653,Cortex,Neural Stem Cells,67,6.835,0.352,9.802
+RB4653,Cortex,Neurons,116,6.835,0.609,16.971
+RB4653,Cortex,Oligodendrocytes,1340,6.835,7.04,196.05
+RB4653,Fiber tracts,Astrocytes,649,2.332,13.535,278.242
+RB4653,Fiber tracts,Endothelial Cells,293,2.332,6.111,125.616
+RB4653,Fiber tracts,Excitatory Neurons,7,2.332,0.146,3.001
+RB4653,Fiber tracts,GABAergic Neurons,182,2.332,3.796,78.028
+RB4653,Fiber tracts,Immature Oligodendrocytes I,143,2.332,2.982,61.308
+RB4653,Fiber tracts,Immature Oligodendrocytes II,55,2.332,1.147,23.58
+RB4653,Fiber tracts,Immature Oligodendrocytes III,50,2.332,1.043,21.436
+RB4653,Fiber tracts,Medium Spiny Neurons,4,2.332,0.083,1.715
+RB4653,Fiber tracts,Microglia,140,2.332,2.92,60.021
+RB4653,Fiber tracts,Myocytes,1,2.332,0.021,0.429
+RB4653,Fiber tracts,Neural Stem Cells,199,2.332,4.15,85.316
+RB4653,Fiber tracts,Neurons,21,2.332,0.438,9.003
+RB4653,Fiber tracts,Oligodendrocytes,3051,2.332,63.629,1308.039
+RB4653,Hippocampus,Astrocytes,398,0.988,12.05,403.038
+RB4653,Hippocampus,Endothelial Cells,237,0.988,7.175,240.0
+RB4653,Hippocampus,Excitatory Neurons,2190,0.988,66.303,2217.722
+RB4653,Hippocampus,GABAergic Neurons,127,0.988,3.845,128.608
+RB4653,Hippocampus,Immature Oligodendrocytes I,66,0.988,1.998,66.835
+RB4653,Hippocampus,Immature Oligodendrocytes II,8,0.988,0.242,8.101
+RB4653,Hippocampus,Immature Oligodendrocytes III,1,0.988,0.03,1.013
+RB4653,Hippocampus,Medium Spiny Neurons,1,0.988,0.03,1.013
+RB4653,Hippocampus,Microglia,70,0.988,2.119,70.886
+RB4653,Hippocampus,Neural Stem Cells,11,0.988,0.333,11.139
+RB4653,Hippocampus,Neurons,57,0.988,1.726,57.722
+RB4653,Hippocampus,Oligodendrocytes,137,0.988,4.148,138.734
+RB4653,Hypothalamus,Astrocytes,1579,2.998,15.858,526.772
+RB4653,Hypothalamus,Endothelial Cells,924,2.998,9.28,308.257
+RB4653,Hypothalamus,Excitatory Neurons,1,2.998,0.01,0.334
+RB4653,Hypothalamus,GABAergic Neurons,13,2.998,0.131,4.337
+RB4653,Hypothalamus,Immature Oligodendrocytes I,301,2.998,3.023,100.417
+RB4653,Hypothalamus,Immature Oligodendrocytes II,57,2.998,0.572,19.016
+RB4653,Hypothalamus,Immature Oligodendrocytes III,15,2.998,0.151,5.004
+RB4653,Hypothalamus,Medium Spiny Neurons,3,2.998,0.03,1.001
+RB4653,Hypothalamus,Microglia,179,2.998,1.798,59.716
+RB4653,Hypothalamus,Myocytes,2,2.998,0.02,0.667
+RB4653,Hypothalamus,Neural Stem Cells,13,2.998,0.131,4.337
+RB4653,Hypothalamus,Neurons,5568,2.998,55.92,1857.548
+RB4653,Hypothalamus,Oligodendrocytes,1302,2.998,13.076,434.362
+RB4653,Meningeal border/glia limitans,Astrocytes,2289,2.755,39.871,830.853
+RB4653,Meningeal border/glia limitans,Endothelial Cells,2007,2.755,34.959,728.494
+RB4653,Meningeal border/glia limitans,Excitatory Neurons,172,2.755,2.996,62.432
+RB4653,Meningeal border/glia limitans,GABAergic Neurons,176,2.755,3.066,63.884
+RB4653,Meningeal border/glia limitans,Immature Oligodendrocytes I,201,2.755,3.501,72.958
+RB4653,Meningeal border/glia limitans,Immature Oligodendrocytes II,15,2.755,0.261,5.445
+RB4653,Meningeal border/glia limitans,Immature Oligodendrocytes III,3,2.755,0.052,1.089
+RB4653,Meningeal border/glia limitans,Medium Spiny Neurons,2,2.755,0.035,0.726
+RB4653,Meningeal border/glia limitans,Microglia,202,2.755,3.519,73.321
+RB4653,Meningeal border/glia limitans,Myocytes,3,2.755,0.052,1.089
+RB4653,Meningeal border/glia limitans,Neural Stem Cells,13,2.755,0.226,4.719
+RB4653,Meningeal border/glia limitans,Neurons,241,2.755,4.198,87.477
+RB4653,Meningeal border/glia limitans,Oligodendrocytes,417,2.755,7.264,151.361
+RB4653,Olfactory areas,Astrocytes,672,2.485,12.31,270.423
+RB4653,Olfactory areas,Endothelial Cells,549,2.485,10.057,220.926
+RB4653,Olfactory areas,Excitatory Neurons,2909,2.485,53.288,1170.624
+RB4653,Olfactory areas,GABAergic Neurons,472,2.485,8.646,189.94
+RB4653,Olfactory areas,Immature Oligodendrocytes I,244,2.485,4.47,98.189
+RB4653,Olfactory areas,Immature Oligodendrocytes II,15,2.485,0.275,6.036
+RB4653,Olfactory areas,Immature Oligodendrocytes III,3,2.485,0.055,1.207
+RB4653,Olfactory areas,Medium Spiny Neurons,1,2.485,0.018,0.402
+RB4653,Olfactory areas,Microglia,218,2.485,3.993,87.726
+RB4653,Olfactory areas,Neural Stem Cells,2,2.485,0.037,0.805
+RB4653,Olfactory areas,Neurons,117,2.485,2.143,47.082
+RB4653,Olfactory areas,Oligodendrocytes,257,2.485,4.708,103.421
+RB4653,Pallidum,Astrocytes,301,1.442,11.973,208.666
+RB4653,Pallidum,Endothelial Cells,263,1.442,10.461,182.322
+RB4653,Pallidum,GABAergic Neurons,73,1.442,2.904,50.607
+RB4653,Pallidum,Immature Oligodendrocytes I,68,1.442,2.705,47.14
+RB4653,Pallidum,Immature Oligodendrocytes II,18,1.442,0.716,12.478
+RB4653,Pallidum,Immature Oligodendrocytes III,25,1.442,0.994,17.331
+RB4653,Pallidum,Microglia,82,1.442,3.262,56.846
+RB4653,Pallidum,Neural Stem Cells,4,1.442,0.159,2.773
+RB4653,Pallidum,Neurons,157,1.442,6.245,108.839
+RB4653,Pallidum,Oligodendrocytes,1523,1.442,60.581,1055.806
+RB4653,Striatum,Astrocytes,934,2.548,11.716,366.634
+RB4653,Striatum,Endothelial Cells,613,2.548,7.689,240.628
+RB4653,Striatum,Excitatory Neurons,80,2.548,1.004,31.403
+RB4653,Striatum,GABAergic Neurons,1303,2.548,16.345,511.482
+RB4653,Striatum,Immature Oligodendrocytes I,221,2.548,2.772,86.752
+RB4653,Striatum,Immature Oligodendrocytes II,23,2.548,0.289,9.028
+RB4653,Striatum,Immature Oligodendrocytes III,12,2.548,0.151,4.711
+RB4653,Striatum,Medium Spiny Neurons,1587,2.548,19.907,622.964
+RB4653,Striatum,Microglia,197,2.548,2.471,77.331
+RB4653,Striatum,Neural Stem Cells,22,2.548,0.276,8.636
+RB4653,Striatum,Neurons,2244,2.548,28.149,880.864
+RB4653,Striatum,Oligodendrocytes,736,2.548,9.232,288.911
+RB4653,Thalamus,Astrocytes,1866,4.84,14.445,385.537
+RB4653,Thalamus,Endothelial Cells,1802,4.84,13.95,372.314
+RB4653,Thalamus,Excitatory Neurons,1,4.84,0.008,0.207
+RB4653,Thalamus,GABAergic Neurons,27,4.84,0.209,5.579
+RB4653,Thalamus,Immature Oligodendrocytes I,331,4.84,2.562,68.388
+RB4653,Thalamus,Immature Oligodendrocytes II,54,4.84,0.418,11.157
+RB4653,Thalamus,Immature Oligodendrocytes III,25,4.84,0.194,5.165
+RB4653,Thalamus,Microglia,291,4.84,2.253,60.124
+RB4653,Thalamus,Neural Stem Cells,9,4.84,0.07,1.86
+RB4653,Thalamus,Neurons,6001,4.84,46.455,1239.876
+RB4653,Thalamus,Oligodendrocytes,2511,4.84,19.438,518.802
+RB4653,Vasculature,Astrocytes,61,0.21,16.053,290.476
+RB4653,Vasculature,Endothelial Cells,172,0.21,45.263,819.048
+RB4653,Vasculature,Excitatory Neurons,59,0.21,15.526,280.952
+RB4653,Vasculature,GABAergic Neurons,15,0.21,3.947,71.429
+RB4653,Vasculature,Immature Oligodendrocytes I,4,0.21,1.053,19.048
+RB4653,Vasculature,Microglia,10,0.21,2.632,47.619
+RB4653,Vasculature,Neurons,29,0.21,7.632,138.095
+RB4653,Vasculature,Oligodendrocytes,30,0.21,7.895,142.857
+RB4653,Ventricular system,Astrocytes,1703,1.348,32.927,1263.822
+RB4653,Ventricular system,Endocrine Cells,122,1.348,2.359,90.538
+RB4653,Ventricular system,Endothelial Cells,1674,1.348,32.367,1242.301
+RB4653,Ventricular system,Excitatory Neurons,2,1.348,0.039,1.484
+RB4653,Ventricular system,GABAergic Neurons,8,1.348,0.155,5.937
+RB4653,Ventricular system,Immature Oligodendrocytes I,42,1.348,0.812,31.169
+RB4653,Ventricular system,Immature Oligodendrocytes II,18,1.348,0.348,13.358
+RB4653,Ventricular system,Immature Oligodendrocytes III,4,1.348,0.077,2.968
+RB4653,Ventricular system,Medium Spiny Neurons,22,1.348,0.425,16.327
+RB4653,Ventricular system,Microglia,61,1.348,1.179,45.269
+RB4653,Ventricular system,Myocytes,2,1.348,0.039,1.484
+RB4653,Ventricular system,Neural Stem Cells,701,1.348,13.554,520.223
+RB4653,Ventricular system,Neurons,343,1.348,6.632,254.545
+RB4653,Ventricular system,Oligodendrocytes,470,1.348,9.087,348.794
+RB4658,Cortex,Astrocytes,1004,3.678,8.932,273.012
+RB4658,Cortex,Endothelial Cells,1114,3.678,9.91,302.923
+RB4658,Cortex,Excitatory Neurons,6316,3.678,56.187,1717.471
+RB4658,Cortex,GABAergic Neurons,717,3.678,6.378,194.969
+RB4658,Cortex,Immature Oligodendrocytes I,249,3.678,2.215,67.709
+RB4658,Cortex,Immature Oligodendrocytes II,46,3.678,0.409,12.508
+RB4658,Cortex,Immature Oligodendrocytes III,6,3.678,0.053,1.632
+RB4658,Cortex,Medium Spiny Neurons,11,3.678,0.098,2.991
+RB4658,Cortex,Microglia,401,3.678,3.567,109.041
+RB4658,Cortex,Neural Stem Cells,7,3.678,0.062,1.903
+RB4658,Cortex,Neurons,380,3.678,3.38,103.331
+RB4658,Cortex,Oligodendrocytes,990,3.678,8.807,269.205
+RB4658,Fiber tracts,Astrocytes,747,2.025,13.226,368.889
+RB4658,Fiber tracts,Endothelial Cells,375,2.025,6.64,185.185
+RB4658,Fiber tracts,Excitatory Neurons,24,2.025,0.425,11.852
+RB4658,Fiber tracts,GABAergic Neurons,350,2.025,6.197,172.84
+RB4658,Fiber tracts,Immature Oligodendrocytes I,124,2.025,2.195,61.235
+RB4658,Fiber tracts,Immature Oligodendrocytes II,54,2.025,0.956,26.667
+RB4658,Fiber tracts,Immature Oligodendrocytes III,66,2.025,1.169,32.593
+RB4658,Fiber tracts,Medium Spiny Neurons,5,2.025,0.089,2.469
+RB4658,Fiber tracts,Microglia,115,2.025,2.036,56.79
+RB4658,Fiber tracts,Neural Stem Cells,33,2.025,0.584,16.296
+RB4658,Fiber tracts,Neurons,82,2.025,1.452,40.494
+RB4658,Fiber tracts,Oligodendrocytes,3673,2.025,65.032,1813.827
+RB4658,Hippocampus,Astrocytes,239,0.482,11.279,495.337
+RB4658,Hippocampus,Endothelial Cells,116,0.482,5.474,240.415
+RB4658,Hippocampus,Excitatory Neurons,1452,0.482,68.523,3009.326
+RB4658,Hippocampus,GABAergic Neurons,76,0.482,3.587,157.513
+RB4658,Hippocampus,Immature Oligodendrocytes I,32,0.482,1.51,66.321
+RB4658,Hippocampus,Immature Oligodendrocytes II,6,0.482,0.283,12.435
+RB4658,Hippocampus,Immature Oligodendrocytes III,2,0.482,0.094,4.145
+RB4658,Hippocampus,Medium Spiny Neurons,1,0.482,0.047,2.073
+RB4658,Hippocampus,Microglia,49,0.482,2.312,101.554
+RB4658,Hippocampus,Neural Stem Cells,11,0.482,0.519,22.798
+RB4658,Hippocampus,Neurons,47,0.482,2.218,97.409
+RB4658,Hippocampus,Oligodendrocytes,88,0.482,4.153,182.383
+RB4658,Hypothalamus,Astrocytes,1066,1.88,19.002,567.021
+RB4658,Hypothalamus,Endothelial Cells,722,1.88,12.87,384.043
+RB4658,Hypothalamus,Excitatory Neurons,1,1.88,0.018,0.532
+RB4658,Hypothalamus,GABAergic Neurons,22,1.88,0.392,11.702
+RB4658,Hypothalamus,Immature Oligodendrocytes I,156,1.88,2.781,82.979
+RB4658,Hypothalamus,Immature Oligodendrocytes II,33,1.88,0.588,17.553
+RB4658,Hypothalamus,Immature Oligodendrocytes III,5,1.88,0.089,2.66
+RB4658,Hypothalamus,Microglia,93,1.88,1.658,49.468
+RB4658,Hypothalamus,Neural Stem Cells,6,1.88,0.107,3.191
+RB4658,Hypothalamus,Neurons,2260,1.88,40.285,1202.128
+RB4658,Hypothalamus,Oligodendrocytes,1246,1.88,22.21,662.766
+RB4658,Meningeal border/glia limitans,Astrocytes,1825,2.172,37.048,840.046
+RB4658,Meningeal border/glia limitans,Endocrine Cells,1,2.172,0.02,0.46
+RB4658,Meningeal border/glia limitans,Endothelial Cells,1478,2.172,30.004,680.322
+RB4658,Meningeal border/glia limitans,Excitatory Neurons,270,2.172,5.481,124.281
+RB4658,Meningeal border/glia limitans,GABAergic Neurons,171,2.172,3.471,78.711
+RB4658,Meningeal border/glia limitans,Immature Oligodendrocytes I,168,2.172,3.41,77.33
+RB4658,Meningeal border/glia limitans,Immature Oligodendrocytes II,10,2.172,0.203,4.603
+RB4658,Meningeal border/glia limitans,Immature Oligodendrocytes III,6,2.172,0.122,2.762
+RB4658,Meningeal border/glia limitans,Medium Spiny Neurons,1,2.172,0.02,0.46
+RB4658,Meningeal border/glia limitans,Microglia,178,2.172,3.613,81.933
+RB4658,Meningeal border/glia limitans,Myocytes,8,2.172,0.162,3.682
+RB4658,Meningeal border/glia limitans,Neural Stem Cells,38,2.172,0.771,17.491
+RB4658,Meningeal border/glia limitans,Neurons,310,2.172,6.293,142.693
+RB4658,Meningeal border/glia limitans,Oligodendrocytes,462,2.172,9.379,212.658
+RB4658,Olfactory areas,Astrocytes,1054,3.378,13.325,312.065
+RB4658,Olfactory areas,Endothelial Cells,745,3.378,9.418,220.577
+RB4658,Olfactory areas,Excitatory Neurons,4076,3.378,51.53,1206.81
+RB4658,Olfactory areas,GABAergic Neurons,776,3.378,9.81,229.756
+RB4658,Olfactory areas,Immature Oligodendrocytes I,369,3.378,4.665,109.252
+RB4658,Olfactory areas,Immature Oligodendrocytes II,34,3.378,0.43,10.067
+RB4658,Olfactory areas,Medium Spiny Neurons,1,3.378,0.013,0.296
+RB4658,Olfactory areas,Microglia,380,3.378,4.804,112.509
+RB4658,Olfactory areas,Myocytes,2,3.378,0.025,0.592
+RB4658,Olfactory areas,Neural Stem Cells,3,3.378,0.038,0.888
+RB4658,Olfactory areas,Neurons,180,3.378,2.276,53.294
+RB4658,Olfactory areas,Oligodendrocytes,290,3.378,3.666,85.862
+RB4658,Pallidum,Astrocytes,389,1.275,17.046,305.098
+RB4658,Pallidum,Endothelial Cells,219,1.275,9.597,171.765
+RB4658,Pallidum,Excitatory Neurons,1,1.275,0.044,0.784
+RB4658,Pallidum,GABAergic Neurons,47,1.275,2.06,36.863
+RB4658,Pallidum,Immature Oligodendrocytes I,76,1.275,3.33,59.608
+RB4658,Pallidum,Immature Oligodendrocytes II,20,1.275,0.876,15.686
+RB4658,Pallidum,Immature Oligodendrocytes III,15,1.275,0.657,11.765
+RB4658,Pallidum,Microglia,99,1.275,4.338,77.647
+RB4658,Pallidum,Neural Stem Cells,3,1.275,0.131,2.353
+RB4658,Pallidum,Neurons,143,1.275,6.266,112.157
+RB4658,Pallidum,Oligodendrocytes,1270,1.275,55.653,996.078
+RB4658,Striatum,Astrocytes,951,2.18,13.042,436.239
+RB4658,Striatum,Endothelial Cells,483,2.18,6.624,221.56
+RB4658,Striatum,Excitatory Neurons,700,2.18,9.6,321.101
+RB4658,Striatum,GABAergic Neurons,1232,2.18,16.895,565.138
+RB4658,Striatum,Immature Oligodendrocytes I,193,2.18,2.647,88.532
+RB4658,Striatum,Immature Oligodendrocytes II,13,2.18,0.178,5.963
+RB4658,Striatum,Immature Oligodendrocytes III,7,2.18,0.096,3.211
+RB4658,Striatum,Medium Spiny Neurons,2339,2.18,32.076,1072.936
+RB4658,Striatum,Microglia,192,2.18,2.633,88.073
+RB4658,Striatum,Neural Stem Cells,19,2.18,0.261,8.716
+RB4658,Striatum,Neurons,261,2.18,3.579,119.725
+RB4658,Striatum,Oligodendrocytes,902,2.18,12.37,413.761
+RB4658,Thalamus,Astrocytes,1449,3.06,16.17,473.529
+RB4658,Thalamus,Endocrine Cells,1,3.06,0.011,0.327
+RB4658,Thalamus,Endothelial Cells,1319,3.06,14.719,431.046
+RB4658,Thalamus,Excitatory Neurons,7,3.06,0.078,2.288
+RB4658,Thalamus,GABAergic Neurons,11,3.06,0.123,3.595
+RB4658,Thalamus,Immature Oligodendrocytes I,242,3.06,2.701,79.085
+RB4658,Thalamus,Immature Oligodendrocytes II,47,3.06,0.524,15.359
+RB4658,Thalamus,Immature Oligodendrocytes III,18,3.06,0.201,5.882
+RB4658,Thalamus,Medium Spiny Neurons,2,3.06,0.022,0.654
+RB4658,Thalamus,Microglia,242,3.06,2.701,79.085
+RB4658,Thalamus,Neural Stem Cells,11,3.06,0.123,3.595
+RB4658,Thalamus,Neurons,3900,3.06,43.522,1274.51
+RB4658,Thalamus,Oligodendrocytes,1712,3.06,19.105,559.477
+RB4658,Unknown,Astrocytes,1129,3.662,9.829,308.259
+RB4658,Unknown,Endocrine Cells,1657,3.662,14.425,452.423
+RB4658,Unknown,Endothelial Cells,1877,3.662,16.34,512.491
+RB4658,Unknown,Excitatory Neurons,1410,3.662,12.275,384.983
+RB4658,Unknown,GABAergic Neurons,148,3.662,1.288,40.41
+RB4658,Unknown,Immature Oligodendrocytes I,94,3.662,0.818,25.666
+RB4658,Unknown,Immature Oligodendrocytes II,17,3.662,0.148,4.642
+RB4658,Unknown,Immature Oligodendrocytes III,8,3.662,0.07,2.184
+RB4658,Unknown,Medium Spiny Neurons,2,3.662,0.017,0.546
+RB4658,Unknown,Microglia,138,3.662,1.201,37.679
+RB4658,Unknown,Myocytes,2411,3.662,20.989,658.294
+RB4658,Unknown,Neural Stem Cells,27,3.662,0.235,7.372
+RB4658,Unknown,Neurons,1319,3.662,11.483,360.137
+RB4658,Unknown,Oligodendrocytes,1250,3.662,10.882,341.297
+RB4658,Vasculature,Astrocytes,29,0.135,9.932,214.815
+RB4658,Vasculature,Endothelial Cells,142,0.135,48.63,1051.852
+RB4658,Vasculature,Excitatory Neurons,44,0.135,15.068,325.926
+RB4658,Vasculature,GABAergic Neurons,12,0.135,4.11,88.889
+RB4658,Vasculature,Immature Oligodendrocytes I,3,0.135,1.027,22.222
+RB4658,Vasculature,Immature Oligodendrocytes III,1,0.135,0.342,7.407
+RB4658,Vasculature,Medium Spiny Neurons,1,0.135,0.342,7.407
+RB4658,Vasculature,Microglia,9,0.135,3.082,66.667
+RB4658,Vasculature,Neural Stem Cells,1,0.135,0.342,7.407
+RB4658,Vasculature,Neurons,26,0.135,8.904,192.593
+RB4658,Vasculature,Oligodendrocytes,24,0.135,8.219,177.778
+RB4658,Ventricular system,Astrocytes,1199,0.695,35.1,1725.18
+RB4658,Ventricular system,Endothelial Cells,1584,0.695,46.37,2279.137
+RB4658,Ventricular system,GABAergic Neurons,20,0.695,0.585,28.777
+RB4658,Ventricular system,Immature Oligodendrocytes I,13,0.695,0.381,18.705
+RB4658,Ventricular system,Immature Oligodendrocytes II,9,0.695,0.263,12.95
+RB4658,Ventricular system,Immature Oligodendrocytes III,2,0.695,0.059,2.878
+RB4658,Ventricular system,Medium Spiny Neurons,42,0.695,1.23,60.432
+RB4658,Ventricular system,Microglia,24,0.695,0.703,34.532
+RB4658,Ventricular system,Myocytes,2,0.695,0.059,2.878
+RB4658,Ventricular system,Neural Stem Cells,161,0.695,4.713,231.655
+RB4658,Ventricular system,Neurons,133,0.695,3.893,191.367
+RB4658,Ventricular system,Oligodendrocytes,227,0.695,6.645,326.619
+RB4676,Cortex,Astrocytes,1645,7.418,7.5,221.773
+RB4676,Cortex,Endothelial Cells,2522,7.418,11.499,340.007
+RB4676,Cortex,Excitatory Neurons,12542,7.418,57.186,1690.866
+RB4676,Cortex,GABAergic Neurons,1731,7.418,7.893,233.367
+RB4676,Cortex,Immature Oligodendrocytes I,436,7.418,1.988,58.78
+RB4676,Cortex,Immature Oligodendrocytes II,79,7.418,0.36,10.65
+RB4676,Cortex,Immature Oligodendrocytes III,20,7.418,0.091,2.696
+RB4676,Cortex,Medium Spiny Neurons,2,7.418,0.009,0.27
+RB4676,Cortex,Microglia,795,7.418,3.625,107.179
+RB4676,Cortex,Neural Stem Cells,8,7.418,0.036,1.079
+RB4676,Cortex,Neurons,182,7.418,0.83,24.537
+RB4676,Cortex,Oligodendrocytes,1970,7.418,8.982,265.588
+RB4676,Fiber tracts,Astrocytes,801,2.215,14.622,361.625
+RB4676,Fiber tracts,Endothelial Cells,372,2.215,6.791,167.946
+RB4676,Fiber tracts,Excitatory Neurons,4,2.215,0.073,1.806
+RB4676,Fiber tracts,GABAergic Neurons,349,2.215,6.371,157.562
+RB4676,Fiber tracts,Immature Oligodendrocytes I,89,2.215,1.625,40.181
+RB4676,Fiber tracts,Immature Oligodendrocytes II,37,2.215,0.675,16.704
+RB4676,Fiber tracts,Immature Oligodendrocytes III,63,2.215,1.15,28.442
+RB4676,Fiber tracts,Medium Spiny Neurons,13,2.215,0.237,5.869
+RB4676,Fiber tracts,Microglia,135,2.215,2.464,60.948
+RB4676,Fiber tracts,Neural Stem Cells,39,2.215,0.712,17.607
+RB4676,Fiber tracts,Neurons,36,2.215,0.657,16.253
+RB4676,Fiber tracts,Oligodendrocytes,3540,2.215,64.622,1598.194
+RB4676,Hippocampus,Astrocytes,317,0.502,15.709,630.846
+RB4676,Hippocampus,Endothelial Cells,100,0.502,4.955,199.005
+RB4676,Hippocampus,Excitatory Neurons,1204,0.502,59.663,2396.02
+RB4676,Hippocampus,GABAergic Neurons,51,0.502,2.527,101.493
+RB4676,Hippocampus,Immature Oligodendrocytes I,32,0.502,1.586,63.682
+RB4676,Hippocampus,Immature Oligodendrocytes II,2,0.502,0.099,3.98
+RB4676,Hippocampus,Immature Oligodendrocytes III,2,0.502,0.099,3.98
+RB4676,Hippocampus,Medium Spiny Neurons,1,0.502,0.05,1.99
+RB4676,Hippocampus,Microglia,54,0.502,2.676,107.463
+RB4676,Hippocampus,Neural Stem Cells,11,0.502,0.545,21.891
+RB4676,Hippocampus,Neurons,117,0.502,5.798,232.836
+RB4676,Hippocampus,Oligodendrocytes,127,0.502,6.293,252.736
+RB4676,Hypothalamus,Astrocytes,1974,3.715,17.334,531.359
+RB4676,Hypothalamus,Endothelial Cells,1229,3.715,10.792,330.821
+RB4676,Hypothalamus,Excitatory Neurons,5,3.715,0.044,1.346
+RB4676,Hypothalamus,GABAergic Neurons,29,3.715,0.255,7.806
+RB4676,Hypothalamus,Immature Oligodendrocytes I,288,3.715,2.529,77.524
+RB4676,Hypothalamus,Immature Oligodendrocytes II,21,3.715,0.184,5.653
+RB4676,Hypothalamus,Immature Oligodendrocytes III,18,3.715,0.158,4.845
+RB4676,Hypothalamus,Medium Spiny Neurons,2,3.715,0.018,0.538
+RB4676,Hypothalamus,Microglia,204,3.715,1.791,54.913
+RB4676,Hypothalamus,Myocytes,1,3.715,0.009,0.269
+RB4676,Hypothalamus,Neural Stem Cells,9,3.715,0.079,2.423
+RB4676,Hypothalamus,Neurons,5599,3.715,49.166,1507.133
+RB4676,Hypothalamus,Oligodendrocytes,2009,3.715,17.641,540.781
+RB4676,Meningeal border/glia limitans,Astrocytes,1629,2.11,39.751,772.038
+RB4676,Meningeal border/glia limitans,Endocrine Cells,1,2.11,0.024,0.474
+RB4676,Meningeal border/glia limitans,Endothelial Cells,1463,2.11,35.7,693.365
+RB4676,Meningeal border/glia limitans,Excitatory Neurons,34,2.11,0.83,16.114
+RB4676,Meningeal border/glia limitans,GABAergic Neurons,130,2.11,3.172,61.611
+RB4676,Meningeal border/glia limitans,Immature Oligodendrocytes I,107,2.11,2.611,50.711
+RB4676,Meningeal border/glia limitans,Immature Oligodendrocytes II,11,2.11,0.268,5.213
+RB4676,Meningeal border/glia limitans,Immature Oligodendrocytes III,5,2.11,0.122,2.37
+RB4676,Meningeal border/glia limitans,Medium Spiny Neurons,1,2.11,0.024,0.474
+RB4676,Meningeal border/glia limitans,Microglia,142,2.11,3.465,67.299
+RB4676,Meningeal border/glia limitans,Myocytes,7,2.11,0.171,3.318
+RB4676,Meningeal border/glia limitans,Neural Stem Cells,19,2.11,0.464,9.005
+RB4676,Meningeal border/glia limitans,Neurons,164,2.11,4.002,77.725
+RB4676,Meningeal border/glia limitans,Oligodendrocytes,385,2.11,9.395,182.464
+RB4676,Olfactory areas,Astrocytes,668,2.798,10.82,238.785
+RB4676,Olfactory areas,Endothelial Cells,673,2.798,10.901,240.572
+RB4676,Olfactory areas,Excitatory Neurons,3145,2.798,50.939,1124.218
+RB4676,Olfactory areas,GABAergic Neurons,564,2.798,9.135,201.609
+RB4676,Olfactory areas,Immature Oligodendrocytes I,270,2.798,4.373,96.515
+RB4676,Olfactory areas,Immature Oligodendrocytes II,18,2.798,0.292,6.434
+RB4676,Olfactory areas,Immature Oligodendrocytes III,1,2.798,0.016,0.357
+RB4676,Olfactory areas,Medium Spiny Neurons,3,2.798,0.049,1.072
+RB4676,Olfactory areas,Microglia,295,2.798,4.778,105.451
+RB4676,Olfactory areas,Neural Stem Cells,3,2.798,0.049,1.072
+RB4676,Olfactory areas,Neurons,165,2.798,2.672,58.981
+RB4676,Olfactory areas,Oligodendrocytes,369,2.798,5.977,131.903
+RB4676,Pallidum,Astrocytes,540,1.872,15.522,288.385
+RB4676,Pallidum,Endothelial Cells,361,1.872,10.377,192.79
+RB4676,Pallidum,GABAergic Neurons,48,1.872,1.38,25.634
+RB4676,Pallidum,Immature Oligodendrocytes I,116,1.872,3.334,61.949
+RB4676,Pallidum,Immature Oligodendrocytes II,20,1.872,0.575,10.681
+RB4676,Pallidum,Immature Oligodendrocytes III,27,1.872,0.776,14.419
+RB4676,Pallidum,Medium Spiny Neurons,3,1.872,0.086,1.602
+RB4676,Pallidum,Microglia,137,1.872,3.938,73.164
+RB4676,Pallidum,Neural Stem Cells,3,1.872,0.086,1.602
+RB4676,Pallidum,Neurons,288,1.872,8.278,153.805
+RB4676,Pallidum,Oligodendrocytes,1936,1.872,55.648,1033.912
+RB4676,Striatum,Astrocytes,1180,3.882,10.503,303.928
+RB4676,Striatum,Endothelial Cells,971,3.882,8.643,250.097
+RB4676,Striatum,Excitatory Neurons,88,3.882,0.783,22.666
+RB4676,Striatum,GABAergic Neurons,1085,3.882,9.657,279.459
+RB4676,Striatum,Immature Oligodendrocytes I,328,3.882,2.919,84.482
+RB4676,Striatum,Immature Oligodendrocytes II,28,3.882,0.249,7.212
+RB4676,Striatum,Immature Oligodendrocytes III,8,3.882,0.071,2.061
+RB4676,Striatum,Medium Spiny Neurons,3796,3.882,33.787,977.721
+RB4676,Striatum,Microglia,314,3.882,2.795,80.876
+RB4676,Striatum,Neural Stem Cells,7,3.882,0.062,1.803
+RB4676,Striatum,Neurons,2263,3.882,20.142,582.872
+RB4676,Striatum,Oligodendrocytes,1167,3.882,10.387,300.58
+RB4676,Thalamus,Astrocytes,1671,4.38,14.5,381.507
+RB4676,Thalamus,Endothelial Cells,1569,4.38,13.615,358.219
+RB4676,Thalamus,GABAergic Neurons,13,4.38,0.113,2.968
+RB4676,Thalamus,Immature Oligodendrocytes I,342,4.38,2.968,78.082
+RB4676,Thalamus,Immature Oligodendrocytes II,44,4.38,0.382,10.046
+RB4676,Thalamus,Immature Oligodendrocytes III,19,4.38,0.165,4.338
+RB4676,Thalamus,Medium Spiny Neurons,1,4.38,0.009,0.228
+RB4676,Thalamus,Microglia,314,4.38,2.725,71.689
+RB4676,Thalamus,Neural Stem Cells,4,4.38,0.035,0.913
+RB4676,Thalamus,Neurons,5140,4.38,44.603,1173.516
+RB4676,Thalamus,Oligodendrocytes,2407,4.38,20.887,549.543
+RB4676,Unknown,Excitatory Neurons,1,0.002,100.0,400.0
+RB4676,Vasculature,Astrocytes,83,0.372,8.868,222.819
+RB4676,Vasculature,Endothelial Cells,508,0.372,54.274,1363.758
+RB4676,Vasculature,Excitatory Neurons,161,0.372,17.201,432.215
+RB4676,Vasculature,GABAergic Neurons,23,0.372,2.457,61.745
+RB4676,Vasculature,Immature Oligodendrocytes I,8,0.372,0.855,21.477
+RB4676,Vasculature,Microglia,13,0.372,1.389,34.899
+RB4676,Vasculature,Myocytes,1,0.372,0.107,2.685
+RB4676,Vasculature,Neural Stem Cells,2,0.372,0.214,5.369
+RB4676,Vasculature,Neurons,72,0.372,7.692,193.289
+RB4676,Vasculature,Oligodendrocytes,65,0.372,6.944,174.497
+RB4676,Ventricular system,Astrocytes,1155,0.682,33.047,1692.308
+RB4676,Ventricular system,Endothelial Cells,1536,0.682,43.948,2250.549
+RB4676,Ventricular system,GABAergic Neurons,12,0.682,0.343,17.582
+RB4676,Ventricular system,Immature Oligodendrocytes I,16,0.682,0.458,23.443
+RB4676,Ventricular system,Immature Oligodendrocytes II,4,0.682,0.114,5.861
+RB4676,Ventricular system,Immature Oligodendrocytes III,7,0.682,0.2,10.256
+RB4676,Ventricular system,Medium Spiny Neurons,54,0.682,1.545,79.121
+RB4676,Ventricular system,Microglia,21,0.682,0.601,30.769
+RB4676,Ventricular system,Neural Stem Cells,290,0.682,8.298,424.908
+RB4676,Ventricular system,Neurons,171,0.682,4.893,250.549
+RB4676,Ventricular system,Oligodendrocytes,229,0.682,6.552,335.531

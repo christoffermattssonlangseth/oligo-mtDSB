@@ -46,3 +46,11 @@ results/cell_table/cells.csv.gz
 results/cell_table/ol_gene_scores.csv.gz
 results/cell_table/cell_gene_scores.csv.gz
 results/proximity_model/targets.csv.gz
+# Per-cell gene-set scores of the EAE atlas (23 MB); recreate with scripts/export_eae_pseudobulk.py
+results/eae_comparison/eae_cell_scores.csv.gz
+# Per-cell counts of NSC / OL-lineage / astrocyte genes (5 MB); recreate with scripts/export_cell_counts.py
+results/cell_table/nsc_ol_lineage_counts.csv.gz
+# Binned myelin transcripts (16 MB); recreate with scripts/export_myelin_transcripts.py (office Mac, raw Xenium)
+results/myelin_rna/myelin_tx_bins.csv.gz
+# Full DE per cell type (19 MB); analysis/12 recreates it (~5 min) when missing
+results/celltype_de/tables/de_by_celltype.csv
