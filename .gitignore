@@ -54,3 +54,6 @@ results/cell_table/nsc_ol_lineage_counts.csv.gz
 results/myelin_rna/myelin_tx_bins.csv.gz
 # Full DE per cell type (19 MB); analysis/12 recreates it (~5 min) when missing
 results/celltype_de/tables/de_by_celltype.csv
+# Anatomy-gene counts for every cell (83 MB); recreate with scripts/export_cell_counts.py --genes-file (analysis/14)
+results/region_map/anatomy_counts.npz
+results/region_map/anatomy_counts.npz.obs.csv.gz

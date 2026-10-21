@@ -19,7 +19,7 @@ after induction. Cells carry a cell type (`cell_class`) and an anatomical compar
 | 1 | **Only 3 of the 6 mtDSB mice respond, and they respond strongly**; the other 3 look like controls | ISR genes up 2-100x in RB4405, RB4401, RB4627 (P(responder) > 0.99 each); non-responders inside the control range (RB4630 borderline, P = 0.17) | strong | F2, R1 |
 | 2 | **Responding oligodendrocytes switch on a stress programme, become immune-visible and lose myelin genes** | 34 genes up, 9 down; top genes replicate across cohorts (p = 2e-11) | strong | G3 |
 | 3 | **The response is the same at both ages**; the earlier "weak at P21, strong at P60" was 1 vs 2 responders | model trained on P60 mice finds the P21 responder and vice versa | moderate | F3 |
-| 4 | **It is brain-wide, strongest in the thalamus and white-matter tracts** | 31-55% of OLs stressed in responders vs 7-14% elsewhere | moderate | F9 |
+| 4 | **It is brain-wide, strongest in the thalamus and white matter (fibre tracts and pallidum)** | 31-55% of OLs stressed in responders vs 7-14% elsewhere; holds on a disease-free region map (finding 17) | moderate | F9, G2 |
 | 5 | **Neighbouring microglia and astrocytes respond; blood-vessel cells do not** | astrocyte reactivity p = 0.012, microglial MHC-I p = 0.012, DAM p = 0.048 | moderate | N1 |
 | 6 | **A microglia's own expression predicts how close it is to a stressed oligodendrocyte** (Cd68, Cd83, Trem2) | r 0.17 in responders vs 0.10 in controls, p = 0.012 | moderate | N3 |
 | 7 | **The stress response comes before myelin loss** | share of stressed OLs that lost myelin: 0.40 -> 0.73 -> 0.90 with severity (controls 0.09-0.25) | moderate | N2 |
@@ -29,9 +29,10 @@ after induction. Cells carry a cell type (`cell_class`) and an anatomical compar
 | 11 | **T cells are rare and not more numerous in responders**; they hide in endothelial / astrocyte / OL clusters | 242 of 980k cells (shuffle null ~4); 3.4 vs 2.8 per 10k, p = 0.46; ~40% OL-labelled in RB4627 / RB4405 vs 0-19% in controls (p = 0.06) | moderate (negative) | T5, T6 |
 | 12 | **Non-responders hide no responding oligodendrocytes**; in responders at least a fifth to a third respond, in every region | top-1% excess 0.6-1.2x in non-responders (controls 0.9-1.2x, responders 5-8x); >= 3% responding OLs would have been detected | moderate (negative) | M1-M4 |
 | 13 | **The OL stress (ISR) and p21 arm is specific to mtDSB; the immune-visible core is shared with EAE** | ISR genes +1.8 log2 in mtDSB vs +0.1 in EAE lesion OLs (59 EAE mice, same panel); IFN-gamma genes +0.3 vs +3.1 | strong | E1-E3 |
-| 14 | **Responders have more microglia, in white matter only**, spread through the region rather than piled on stressed OLs | thalamus 92-153 vs 60-82 /mm2, fibre tracts 71-219 vs 51-68 (both p = 0.012); holds without region labels; cortex unchanged | strong | C2-C4 |
-| 15 | **Outside OLs, only microglia, astrocytes and (less) endothelial cells respond once spill-over is removed; the NSC "proliferation" is section plane** | most neuronal hits are neighbours' RNA; NSC proliferation within lateral-ventricle NSCs = controls (p = 0.38); responder sections lack pallidum and Tbx3+ third-ventricle NSCs | moderate | D2-D6 |
+| 14 | **Responders have more microglia, in white matter only**, spread through the region rather than piled on stressed OLs | thalamus 92-153 vs 60-82 /mm2 (p = 0.012, also on the disease-free map); holds without region labels; cortex unchanged | strong | C2-C4, G2 |
+| 15 | **Outside OLs, only microglia, astrocytes and (less) endothelial cells respond once spill-over is removed; the NSC "proliferation" is section plane** | most neuronal hits are neighbours' RNA; NSC proliferation within lateral-ventricle NSCs = controls (p = 0.38); responder sections hold more lateral-ventricle wall and almost no Tbx3+ third-ventricle NSCs | moderate | D2-D6 |
 | 16 | **Inside OLs: ATF4 + p53 programme, no cGAS-STING / interferon, no mitophagy; OPCs spared; myelin genes lost, not OLs** | ISR +1.9, p53 +1.0 log2, cGAS-STING +0.3 (spill-over); OPC ISR 1.2x = astrocytes (OLs 4.2x); Mog / Opalin -40-55 % per OL counting all transcripts, Sox10 unchanged | moderate | O1-O4 |
+| 17 | **The transcript-based region map was distorted by the disease**: responder pallidum had been called fibre tracts | disease-free map (400 anatomy genes, 90-95% held-out agreement) restores pallidum 0-0.7% -> 1.8-3.9% (controls 2.9-4.2%); regional conclusions hold | strong | G1, G2 |
 
 Every mouse is predicted or scored by models that never saw it; "p" values compare the 3 responders with the 6
 controls by exact permutation (smallest possible p = 0.012). Full claims, numbers and caveats:
@@ -88,6 +89,7 @@ Every oligodendrocyte coloured by its stress (ISR) score, sections oriented dors
 relative to control cells on the same slide (blue = below, red = above the control median). In responders 31-55% of
 oligodendrocytes are above the control 90th percentile (7-14% in controls and non-responders). In controls the
 white-matter oligodendrocytes have the *lowest* stress; in responders the thalamus and fiber-tract arcs turn red.
+On a region map re-drawn from disease-free genes (finding 17) the ranking holds and the pallidum joins the top.
 
 <p align="center"><img src="results/sample_classifier/figures/F9_ol_isr_maps.png" width="900"/><br>
 <em>F9. Stress score in every oligodendrocyte. Left: per-mouse distributions; right: maps of all 12 sections.</em></p>
@@ -208,9 +210,10 @@ on the region map. It is graded RB4405 > RB4627 > RB4401, and 15-17 % of respond
 transcript vs 11-15 % in controls (depth- and region-adjusted, p = 0.012). An OL in the top 1 % of stress has only
 5-25 % more microglia within 50 um than an unstressed OL in the same region, as in controls: the microgliosis is
 regional, like the OL response (finding 9). OL density is at most modestly lower (cortex, fibre tracts, p = 0.036).
-Caveat: **pallidum is almost absent from all three responder sections** (0-0.7 % of cells vs 3-7 %), a section-plane
-or region-calling difference that every region-level result should keep in mind. A histology check: Iba1 counts
-in thalamus and internal capsule. (`analysis/11`, `utils/composition.py`)
+Pallidum looked almost absent from the responder sections; finding 17 shows this was the disease distorting the
+region map. On the corrected map thalamus microgliosis is unchanged, hypothalamus becomes significant (p = 0.036)
+and part of the fibre-tract excess turns out to be pallidum (212 and 117 /mm2 in RB4405 and RB4627 vs 62-105).
+A histology check: Iba1 counts in thalamus, pallidum and internal capsule. (`analysis/11`, `utils/composition.py`)
 
 ### 15. Outside OLs: microglia, astrocytes and some endothelial changes; most other hits are spill-over or anatomy
 Responders vs controls per cell type (non-responders: 0-4 genes anywhere). Segmentation puts some RNA of each cell
@@ -236,6 +239,21 @@ proliferation equals controls (p = 0.38). The manuscript's NSC proliferation poi
   outlines): Mog and Opalin fall ~40-55 % per OL in every region, Mbp 13-30 %, while Sox10 and Olig2 per OL are
   unchanged: OLs lose the myelin programme rather than disappearing. Gfap rises 2-3 log2 per mm2 (astrocyte
   processes); Snap25 is flat. (`analysis/13`, `scripts/export_myelin_transcripts.py`)
+
+### 17. The region map was distorted by the disease; the regional conclusions hold on a corrected map
+The region labels (RBD compartments) came from clustering neighbourhood-pooled transcriptomes with all genes. In
+responders, pallidum nearly vanished (0-0.7 % of cells vs 3-7 %) and fibre tracts grew. Re-drawing the map from 400
+genes that differ between regions but do not respond to disease (programme genes, microglial markers, driver genes and
+all region-consistent responses removed), pooled over the 20 nearest cells as before and trained on control sections
+(90-95 % of a held-out control's cells get their original label), **pallidum returns to 1.8-3.9 %** and fibre tracts to
+the control range: 23 % of the responder "fibre tract" cells are pallidum (controls 4 %). So the disease, not section
+plane, moved the white-matter-rich pallidum into "fibre tracts". Re-run on the new map, **OL stress is still highest in
+thalamus and fibre tracts, with pallidum now equally high**, and thalamus microgliosis is unchanged. New region-level
+work should use `results/region_map/region_transfer_labels.csv.gz` (`region_new`); the region DE of `analysis/01`
+used the old labels, which mainly blurs fibre tracts and pallidum. (`analysis/14`, `utils/region_transfer.py`)
+
+<p align="center"><img src="results/region_map/figures/G1_coverage_both_maps.png" width="850"/><br>
+<em>G1. Pallidum and fibre-tract share per section under the original and the disease-free map.</em></p>
 
 ---
 
@@ -298,6 +316,7 @@ proliferation equals controls (p = 0.38). The manuscript's NSC proliferation poi
 | cell densities, microgliosis, region coverage | `analysis/11-composition-microglia.ipynb` |
 | which non-OL cell types respond, with spill-over removed; NSC check | `analysis/12-celltype-response-spillover.ipynb` |
 | OL pathways (cGAS-STING, p53, mitophagy ...), OPCs, segmentation-free myelin RNA | `analysis/13-ol-mechanism-myelin-rna.ipynb` |
+| is the region map distorted by disease? disease-free region labels | `analysis/14-region-map-disease-free.ipynb` |
 | understand the methods | docstrings of `utils/sample_classifier.py`, `utils/ol_response.py`, `utils/region_time_de.py` |
 | check the code works without the data | `python tests/test_sample_classifier.py`, `tests/test_ol_response.py`, `tests/test_region_time_de.py` |
 | edit the A0 poster (KI style, editable SVG; regenerate with `make_poster.py`) | `docs/poster/poster.svg` |
@@ -321,7 +340,8 @@ analysis/        current notebooks (figures + tables from the result folders; no
   11-composition-microglia.ipynb           cell densities per region, microgliosis, region coverage -> C1-C7
   12-celltype-response-spillover.ipynb     DE in every cell type, spill-over model, NSC per cell     -> D1-D6
   13-ol-mechanism-myelin-rna.ipynb         OL pathway map, OPCs, segmentation-free myelin RNA        -> O1-O4
-utils/           maintained modules: sample_classifier, ol_response, spatial_orientation, gene_sets, neighbourhood, ol_staging, spatial_patterns, responder_mixture, tcells, mosaic, composition, spillover, region_time_de, region_time_plots, spatial_utils
+  14-region-map-disease-free.ipynb         region labels from disease-free genes, regional re-check  -> G1-G2
+utils/           maintained modules: sample_classifier, ol_response, spatial_orientation, gene_sets, neighbourhood, ol_staging, spatial_patterns, responder_mixture, tcells, mosaic, composition, spillover, region_transfer, region_time_de, region_time_plots, spatial_utils
 scripts/         batch runs (need the h5ad): run_sample_classifier, run_ol_gene_drivers, run_region_time_de,
                  export_cell_table; compartments/ = read-based compartment cluster job
 tests/           synthetic tests for the maintained modules
@@ -339,6 +359,7 @@ results/
   celltype_de/         DE per cell type, contamination fractions, own vs spilled changes, figures D1-D6
   ol_mechanism/        pathway scores, OPC ISR, myelin transcripts per region, figures O1-O4
   myelin_rna/          myelin / OL transcripts on a 20 um grid, inside vs outside cells (export_myelin_transcripts.py)
+  region_map/          anatomy genes, disease-free region labels per cell (region_transfer_labels.csv.gz), figures G1-G2
   region_time/         region x time DE tables (+ _cell_class_updated, _MANA250 example)
   cell_table/          sections.csv (age, condition, sex, genotype); cells.csv.gz gitignored
   paper/               manuscript sections + build_manuscript.py
@@ -398,6 +419,8 @@ python scripts/export_cell_counts.py --h5ad $H5AD --out results/cell_table/nsc_o
     --cell-types "Neural Stem Cells" "Immature Oligodendrocytes I" "Immature Oligodendrocytes II" "Immature Oligodendrocytes III" \
     "Oligodendrocytes" "DA-Oligodendrocytes" "Astrocytes" --genes Foxg1 Tbx3 Gpc3 Col23a1 Mki67 Top2a Ccnb1 Cenpf Pcna Mcm2 \
     Ccna2 Ascl1 Dcx Egfr Sox2 Elavl2 Erbb4 Pdgfra Cspg4 Sox10 Olig2 Trib3 Cdkn1a Atf5 Ddit3 Gdf15 Sesn2 Cebpg Gfap Mog Mbp Cst7 Aqp4   # 3 min
+python scripts/export_cell_counts.py --h5ad $H5AD --out results/region_map/anatomy_counts.npz \
+    --genes-file results/region_map/tables/anatomy_genes.txt   # gene list = analysis/14 section 1 (one per line); 3 min
 # laptop (no h5ad):
 python scripts/run_sample_classifier.py --pseudobulk results/region_time \
     --outdir results/sample_classifier/pseudobulk_general --merge DA-Oligodendrocytes=Oligodendrocytes     # 3 min
