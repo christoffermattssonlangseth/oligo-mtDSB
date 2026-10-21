@@ -16,6 +16,12 @@ Example
 
 Use ``--cell-types "Oligodendrocytes" "Astrocytes"`` to restrict, and
 ``--no-region-vs-rest`` / ``--no-interaction`` to skip the slower tests.
+
+``--region-labels`` replaces the region column with per-cell labels from a CSV (cell_id, sample_id and
+``--region-label-column``), e.g. the disease-free map of analysis/14:
+
+    python scripts/run_region_time_de.py --h5ad <novae4.h5ad> --outdir results/region_time_disease_free \
+        --region-labels results/region_map/region_transfer_labels.csv.gz --no-region-vs-rest
 """
 
 from __future__ import annotations
@@ -38,6 +44,8 @@ def parse_args(argv=None):
     p.add_argument("--layer", default="counts", help="layer with raw integer counts; use 'X' for adata.X")
     p.add_argument("--cell-type-key", default="cell_class")
     p.add_argument("--region-key", default="RBD_compartment_simplified")
+    p.add_argument("--region-labels", default=None, help="CSV with cell_id, sample_id and the label column")
+    p.add_argument("--region-label-column", default="region_new")
     p.add_argument("--sample-key", default="sample_id")
     p.add_argument("--age-key", default="age")
     p.add_argument("--condition-key", default="condition")
@@ -75,6 +83,15 @@ def main(argv=None):
     # only obs columns + the counts matrix are read; X and other layers stay on disk
     adata = read_minimal(args.h5ad, layer, keys)
     logging.info("loaded %d cells x %d genes from %s", adata.n_obs, adata.n_vars, args.h5ad)
+    if args.region_labels:
+        import pandas as pd
+        lab = pd.read_csv(args.region_labels, usecols=["cell_id", "sample_id", args.region_label_column])
+        key = pd.MultiIndex.from_arrays([adata.obs_names.astype(str), adata.obs[args.sample_key].astype(str)])
+        new = lab.set_index(["cell_id", "sample_id"])[args.region_label_column].reindex(key)
+        if new.isna().any():
+            raise ValueError(f"{int(new.isna().sum())} cells have no label in {args.region_labels}")
+        adata.obs[args.region_key] = pd.Categorical(new.to_numpy())
+        logging.info("regions replaced from %s (%s)", args.region_labels, args.region_label_column)
     tables = run_all(
         adata,
         args.outdir,

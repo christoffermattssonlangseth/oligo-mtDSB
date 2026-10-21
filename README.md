@@ -33,6 +33,7 @@ after induction. Cells carry a cell type (`cell_class`) and an anatomical compar
 | 15 | **Outside OLs, only microglia, astrocytes and (less) endothelial cells respond once spill-over is removed; the NSC "proliferation" is section plane** | most neuronal hits are neighbours' RNA; NSC proliferation within lateral-ventricle NSCs = controls (p = 0.38); responder sections hold more lateral-ventricle wall and almost no Tbx3+ third-ventricle NSCs | moderate | D2-D6 |
 | 16 | **Inside OLs: ATF4 + p53 programme, no cGAS-STING / interferon, no mitophagy; OPCs spared; myelin genes lost, not OLs** | ISR +1.9, p53 +1.0 log2, cGAS-STING +0.3 (spill-over); OPC ISR 1.2x = astrocytes (OLs 4.2x); Mog / Opalin -40-55 % per OL counting all transcripts, Sox10 unchanged | moderate | O1-O4 |
 | 17 | **The transcript-based region map was distorted by the disease**: responder pallidum had been called fibre tracts | disease-free map (400 anatomy genes, 90-95% held-out agreement) restores pallidum 0-0.7% -> 1.8-3.9% (controls 2.9-4.2%); regional conclusions hold | strong | G1, G2 |
+| 18 | **The core claims survive a reviewer-style check**: shared response in microglia (never used to call responders), robust to leaving out any responder, FDR-controlled | microglia held-out signature r 0.57-0.82 vs <= 0.42 in controls; 10 of 15 expected-change metrics hold with any responder dropped; region DE stable on the new map (2,024 -> 2,007 hits) | strong | R1-R3 |
 
 Every mouse is predicted or scored by models that never saw it; "p" values compare the 3 responders with the 6
 controls by exact permutation (smallest possible p = 0.012). Full claims, numbers and caveats:
@@ -255,6 +256,26 @@ used the old labels, which mainly blurs fibre tracts and pallidum. (`analysis/14
 <p align="center"><img src="results/region_map/figures/G1_coverage_both_maps.png" width="850"/><br>
 <em>G1. Pallidum and fibre-tract share per section under the original and the disease-free map.</em></p>
 
+### 18. Robustness: circularity, n = 3, multiple testing, reproducibility
+* **Circularity.** Responders were called from OL stress genes. Correlating each mouse's profile with that of the
+  *other* responders on data not used for the call: microglia (a cell type never used) separate completely
+  (r 0.57-0.82 vs -0.07-0.42 in controls); OLs with every selection gene removed separate for RB4405 and RB4627, weakly
+  for RB4401.
+* **n = 3.** OL ISR / ATF4 / p53, the OL top-1 % excess, microglial DAM, astrocyte reactivity, thalamus and label-free
+  white-matter microgliosis and Mog loss hold with any one responder left out (every responder beyond the control
+  range). Mbp loss, hypothalamus microgliosis and the OL non-selection signature rest on RB4405 and RB4627; RB4401 is
+  the mildest responder throughout.
+* **Multiple testing.** Pathway, myelin-transcript, regional (new map) and key-metric families keep FDR < 0.10. The
+  42-test density screen of analysis/11 does not on its own (best q = 0.25), so the microgliosis claim rests on its
+  label-free and disease-free-map replications; single-region OL density drops are nominal.
+* **Reproducibility.** All notebooks run without errors; every gitignored input is listed with how to regenerate it.
+* **Region DE (analysis/01) on the disease-free map**: 2,024 -> 2,007 significant genes, log2FC r 0.92-0.95 in the main
+  regions; striatum, fibre-tract and pallidum hit lists change and should be taken from `results/region_time_disease_free`.
+(`analysis/15`, `utils/robustness.py`)
+
+<p align="center"><img src="results/robustness/figures/R2_metric_matrix.png" width="900"/><br>
+<em>R2. Every key metric per mouse (z vs same-slide controls), with the 3-vs-6 p and the worst leave-one-responder-out p.</em></p>
+
 ---
 
 ## What we cannot claim (yet)
@@ -317,6 +338,7 @@ used the old labels, which mainly blurs fibre tracts and pallidum. (`analysis/14
 | which non-OL cell types respond, with spill-over removed; NSC check | `analysis/12-celltype-response-spillover.ipynb` |
 | OL pathways (cGAS-STING, p53, mitophagy ...), OPCs, segmentation-free myelin RNA | `analysis/13-ol-mechanism-myelin-rna.ipynb` |
 | is the region map distorted by disease? disease-free region labels | `analysis/14-region-map-disease-free.ipynb` |
+| robustness: circularity, leave-one-responder-out, FDR, reproducibility, region DE on the new map | `analysis/15-robustness.ipynb` |
 | understand the methods | docstrings of `utils/sample_classifier.py`, `utils/ol_response.py`, `utils/region_time_de.py` |
 | check the code works without the data | `python tests/test_sample_classifier.py`, `tests/test_ol_response.py`, `tests/test_region_time_de.py` |
 | edit the A0 poster (KI style, editable SVG; regenerate with `make_poster.py`) | `docs/poster/poster.svg` |
@@ -340,8 +362,9 @@ analysis/        current notebooks (figures + tables from the result folders; no
   11-composition-microglia.ipynb           cell densities per region, microgliosis, region coverage -> C1-C7
   12-celltype-response-spillover.ipynb     DE in every cell type, spill-over model, NSC per cell     -> D1-D6
   13-ol-mechanism-myelin-rna.ipynb         OL pathway map, OPCs, segmentation-free myelin RNA        -> O1-O4
-  14-region-map-disease-free.ipynb         region labels from disease-free genes, regional re-check  -> G1-G2
-utils/           maintained modules: sample_classifier, ol_response, spatial_orientation, gene_sets, neighbourhood, ol_staging, spatial_patterns, responder_mixture, tcells, mosaic, composition, spillover, region_transfer, region_time_de, region_time_plots, spatial_utils
+  14-region-map-disease-free.ipynb         region labels from disease-free genes, regional re-check  -> G1-G3
+  15-robustness.ipynb                      circularity, one responder at a time, FDR, region DE re-run -> R1-R3
+utils/           maintained modules: sample_classifier, ol_response, spatial_orientation, gene_sets, neighbourhood, ol_staging, spatial_patterns, responder_mixture, tcells, mosaic, composition, spillover, region_transfer, robustness, region_time_de, region_time_plots, spatial_utils
 scripts/         batch runs (need the h5ad): run_sample_classifier, run_ol_gene_drivers, run_region_time_de,
                  export_cell_table; compartments/ = read-based compartment cluster job
 tests/           synthetic tests for the maintained modules
@@ -359,7 +382,9 @@ results/
   celltype_de/         DE per cell type, contamination fractions, own vs spilled changes, figures D1-D6
   ol_mechanism/        pathway scores, OPC ISR, myelin transcripts per region, figures O1-O4
   myelin_rna/          myelin / OL transcripts on a 20 um grid, inside vs outside cells (export_myelin_transcripts.py)
-  region_map/          anatomy genes, disease-free region labels per cell (region_transfer_labels.csv.gz), figures G1-G2
+  region_map/          anatomy genes, disease-free region labels per cell (region_transfer_labels.csv.gz), figures G1-G3
+  region_time_disease_free/  analysis/01 pipeline re-run on the disease-free labels (large tables gitignored)
+  robustness/          held-out signatures, leave-one-responder-out, FDR families, reproducibility audit, figures R1-R3
   region_time/         region x time DE tables (+ _cell_class_updated, _MANA250 example)
   cell_table/          sections.csv (age, condition, sex, genotype); cells.csv.gz gitignored
   paper/               manuscript sections + build_manuscript.py
@@ -421,6 +446,8 @@ python scripts/export_cell_counts.py --h5ad $H5AD --out results/cell_table/nsc_o
     Ccna2 Ascl1 Dcx Egfr Sox2 Elavl2 Erbb4 Pdgfra Cspg4 Sox10 Olig2 Trib3 Cdkn1a Atf5 Ddit3 Gdf15 Sesn2 Cebpg Gfap Mog Mbp Cst7 Aqp4   # 3 min
 python scripts/export_cell_counts.py --h5ad $H5AD --out results/region_map/anatomy_counts.npz \
     --genes-file results/region_map/tables/anatomy_genes.txt   # gene list = analysis/14 section 1 (one per line); 3 min
+python scripts/run_region_time_de.py --h5ad $H5AD --outdir results/region_time_disease_free \
+    --region-labels results/region_map/region_transfer_labels.csv.gz --no-region-vs-rest --n-cpus 12           # 5 min, cellcharter-env
 # laptop (no h5ad):
 python scripts/run_sample_classifier.py --pseudobulk results/region_time \
     --outdir results/sample_classifier/pseudobulk_general --merge DA-Oligodendrocytes=Oligodendrocytes     # 3 min

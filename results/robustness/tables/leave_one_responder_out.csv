@@ -1,0 +1,18 @@
+metric,finding,expected,p_all,p_worst_drop_one,dropped_for_worst,n_beyond_control_range,beyond_RB4627,beyond_RB4401,beyond_RB4405,nonresp_p
+"OL ISR score, whole section (selection metric)",1,up,0.012,0.036,RB4627,3,True,True,True,0.524
+OLs in control top 1 % (ISR),12,up,0.012,0.036,RB4627,3,True,True,True,0.464
+OL held-out signature r (selection genes removed),A,up,0.036,0.107,RB4627,2,True,False,True,0.286
+microglia held-out signature r,A,up,0.012,0.036,RB4627,3,True,True,True,0.357
+ATF4 / ISR pathway score,16,up,0.012,0.036,RB4627,3,True,True,True,0.726
+p53 pathway score,16,up,0.012,0.036,RB4627,3,True,True,True,0.75
+microglia DAM score,5/15,up,0.012,0.036,RB4627,3,True,True,True,0.964
+astrocyte reactive score,5/15,up,0.012,0.036,RB4627,3,True,True,True,0.726
+microglia / mm2 thalamus (disease-free map),14,up,0.012,0.036,RB4627,3,True,True,True,0.75
+microglia / mm2 hypothalamus (disease-free map),14,up,0.036,0.179,RB4405,2,False,True,True,0.274
+microglia / mm2 in 30-50 % OL squares (label-free),14,up,0.012,0.036,RB4627,3,True,True,True,0.321
+"proliferating microglia, obs / exp",14,up,0.024,0.071,RB4401,3,True,True,True,0.833
+"Mog transcripts per OL (all, segmentation-free)",16,down,0.012,0.036,RB4627,3,True,True,True,0.762
+Opalin transcripts per OL (segmentation-free),16,down,0.012,0.071,RB4401,3,True,True,True,0.631
+Mbp transcripts per OL (segmentation-free),16,down,0.048,0.143,RB4627,2,True,False,True,0.798
+Sox10 transcripts per OL (expected unchanged),16,none,0.893,1.0,RB4627,0,False,False,False,0.714
+"OPC ISR, relative (expected spill-over level)",16,none,0.024,0.107,RB4405,3,True,True,True,0.524

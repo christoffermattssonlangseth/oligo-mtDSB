@@ -1,0 +1,103 @@
+cell_type,region,r_log2FC
+Astrocytes,All regions,0.9626228077704065
+Astrocytes,Cortex,0.8007543048146469
+Astrocytes,Fiber tracts,0.8499131919335255
+Astrocytes,Hippocampus,0.8615003723514586
+Astrocytes,Hypothalamus,0.9631426430004851
+Astrocytes,Meningeal border/glia limitans,0.9304939096830298
+Astrocytes,Olfactory areas,0.8403642059634006
+Astrocytes,Pallidum,0.6144303514547632
+Astrocytes,Striatum,0.8432383051798734
+Astrocytes,Thalamus,0.9051341368405535
+Astrocytes,Vasculature,0.6454459050088117
+Astrocytes,Ventricular system,0.9597498836946315
+DA-Oligodendrocytes,All regions,0.9809143187022695
+DA-Oligodendrocytes,Thalamus,0.9853242813456232
+Endothelial Cells,All regions,0.9286314181719856
+Endothelial Cells,Cortex,0.8521490842679543
+Endothelial Cells,Fiber tracts,0.8667349630254232
+Endothelial Cells,Hippocampus,0.9190078766486326
+Endothelial Cells,Hypothalamus,0.9396768529225933
+Endothelial Cells,Meningeal border/glia limitans,0.8953371956640142
+Endothelial Cells,Olfactory areas,0.8657543394112183
+Endothelial Cells,Pallidum,0.61611774763918
+Endothelial Cells,Striatum,0.9161689624406126
+Endothelial Cells,Thalamus,0.9048991265503794
+Endothelial Cells,Vasculature,0.7131832343206974
+Endothelial Cells,Ventricular system,0.9193178612218353
+Excitatory Neurons,All regions,0.9970091392061117
+Excitatory Neurons,Cortex,0.9685825303315804
+Excitatory Neurons,Hippocampus,0.9959523122982213
+Excitatory Neurons,Meningeal border/glia limitans,0.5086238993874672
+Excitatory Neurons,Olfactory areas,0.9530484439621536
+Excitatory Neurons,Striatum,0.814064369049372
+Excitatory Neurons,Vasculature,0.6101616561779195
+GABAergic Neurons,All regions,0.991522704708791
+GABAergic Neurons,Cortex,0.958738890804125
+GABAergic Neurons,Fiber tracts,0.9270097349951573
+GABAergic Neurons,Hippocampus,0.9520110699052226
+GABAergic Neurons,Hypothalamus,0.7328821393761619
+GABAergic Neurons,Meningeal border/glia limitans,0.7919100736926995
+GABAergic Neurons,Olfactory areas,0.8076273591537683
+GABAergic Neurons,Pallidum,0.5697649567215793
+GABAergic Neurons,Striatum,0.9410663557716692
+GABAergic Neurons,Vasculature,0.31338847563199457
+Immature Oligodendrocytes I,All regions,0.9922693785884884
+Immature Oligodendrocytes I,Cortex,0.9537410994559381
+Immature Oligodendrocytes I,Fiber tracts,0.7852377555915602
+Immature Oligodendrocytes I,Hippocampus,0.9387299781376317
+Immature Oligodendrocytes I,Hypothalamus,0.9564668887339267
+Immature Oligodendrocytes I,Meningeal border/glia limitans,0.8496292691625105
+Immature Oligodendrocytes I,Olfactory areas,0.8972861301403433
+Immature Oligodendrocytes I,Pallidum,0.6224848988384704
+Immature Oligodendrocytes I,Striatum,0.8953944506231717
+Immature Oligodendrocytes I,Thalamus,0.9535590713781373
+Immature Oligodendrocytes II,All regions,0.9958023022277241
+Immature Oligodendrocytes II,Cortex,0.9566914335303441
+Immature Oligodendrocytes II,Fiber tracts,0.8716085442426672
+Immature Oligodendrocytes II,Hypothalamus,0.9264477799054551
+Immature Oligodendrocytes II,Striatum,0.9286591340781207
+Immature Oligodendrocytes II,Thalamus,0.9608871598918277
+Immature Oligodendrocytes III,All regions,0.9954014430933227
+Immature Oligodendrocytes III,Fiber tracts,0.8820131768884454
+Medium Spiny Neurons,All regions,0.9869950858030243
+Medium Spiny Neurons,Striatum,0.9818202584941118
+Medium Spiny Neurons,Ventricular system,0.726588811883006
+Microglia,All regions,0.9960885535691774
+Microglia,Cortex,0.9564562200513587
+Microglia,Fiber tracts,0.881973187409873
+Microglia,Hippocampus,0.9381676700259352
+Microglia,Hypothalamus,0.9540450015513227
+Microglia,Meningeal border/glia limitans,0.8474383548461367
+Microglia,Olfactory areas,0.8837582502980383
+Microglia,Pallidum,0.6398637350709376
+Microglia,Striatum,0.9353288128493795
+Microglia,Thalamus,0.9819813065822863
+Microglia,Ventricular system,0.8623576894325374
+Neural Stem Cells,All regions,0.9958461789544961
+Neural Stem Cells,Fiber tracts,0.8683748397764652
+Neural Stem Cells,Ventricular system,0.992500134592078
+Neurons,All regions,0.9182230580498094
+Neurons,Cortex,0.9291580669680121
+Neurons,Fiber tracts,0.6273304499493377
+Neurons,Hippocampus,0.9059708408704178
+Neurons,Hypothalamus,0.9753608555133554
+Neurons,Meningeal border/glia limitans,0.83156640160372
+Neurons,Olfactory areas,0.7706107356405801
+Neurons,Pallidum,0.6302351303186298
+Neurons,Striatum,0.8904983116659618
+Neurons,Thalamus,0.8460620122627136
+Neurons,Vasculature,0.5565562086709986
+Neurons,Ventricular system,0.9568061583263571
+Oligodendrocytes,All regions,0.963496200264449
+Oligodendrocytes,Cortex,0.9403976531643335
+Oligodendrocytes,Fiber tracts,0.8943991852458195
+Oligodendrocytes,Hippocampus,0.9253608025894533
+Oligodendrocytes,Hypothalamus,0.9477512334992229
+Oligodendrocytes,Meningeal border/glia limitans,0.8295585439906489
+Oligodendrocytes,Olfactory areas,0.8537579230136257
+Oligodendrocytes,Pallidum,0.6873391924016735
+Oligodendrocytes,Striatum,0.9225112671075238
+Oligodendrocytes,Thalamus,0.919639279703342
+Oligodendrocytes,Vasculature,0.5516162182562986
+Oligodendrocytes,Ventricular system,0.9114090564050366

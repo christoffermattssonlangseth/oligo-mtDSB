@@ -1,0 +1,152 @@
+family,test,p_resp,q_within_family,q_all
+11 densities (7 types x 6 regions),Microglia | Thalamus,0.0119,0.2499,0.0318
+11 densities (7 types x 6 regions),Microglia | Fiber tracts,0.0119,0.2499,0.0318
+11 densities (7 types x 6 regions),Microglia | Hypothalamus,0.0595,0.357,0.1009
+11 densities (7 types x 6 regions),Microglia | Striatum,0.5952,0.862,0.6913
+11 densities (7 types x 6 regions),Microglia | Cortex,0.2976,0.7352,0.3977
+11 densities (7 types x 6 regions),Microglia | Hippocampus,0.9048,0.9744,0.9358
+11 densities (7 types x 6 regions),Oligodendrocytes | Thalamus,0.0714,0.3748,0.1172
+11 densities (7 types x 6 regions),Oligodendrocytes | Fiber tracts,0.0357,0.2499,0.0663
+11 densities (7 types x 6 regions),Oligodendrocytes | Hypothalamus,0.7143,0.9054,0.811
+11 densities (7 types x 6 regions),Oligodendrocytes | Striatum,0.2738,0.7352,0.3759
+11 densities (7 types x 6 regions),Oligodendrocytes | Cortex,0.0357,0.2499,0.0663
+11 densities (7 types x 6 regions),Oligodendrocytes | Hippocampus,0.1548,0.5418,0.2248
+11 densities (7 types x 6 regions),Immature Oligodendrocytes I | Thalamus,0.4167,0.8044,0.5243
+11 densities (7 types x 6 regions),Immature Oligodendrocytes I | Fiber tracts,0.1429,0.5418,0.2115
+11 densities (7 types x 6 regions),Immature Oligodendrocytes I | Hypothalamus,0.4405,0.8044,0.5452
+11 densities (7 types x 6 regions),Immature Oligodendrocytes I | Striatum,0.3214,0.7499,0.422
+11 densities (7 types x 6 regions),Immature Oligodendrocytes I | Cortex,0.0833,0.3887,0.1338
+11 densities (7 types x 6 regions),Immature Oligodendrocytes I | Hippocampus,0.7262,0.9054,0.8183
+11 densities (7 types x 6 regions),Astrocytes | Thalamus,0.7857,0.9054,0.8607
+11 densities (7 types x 6 regions),Astrocytes | Fiber tracts,0.869,0.9605,0.9176
+11 densities (7 types x 6 regions),Astrocytes | Hypothalamus,0.7381,0.9054,0.8256
+11 densities (7 types x 6 regions),Astrocytes | Striatum,0.381,0.8001,0.4876
+11 densities (7 types x 6 regions),Astrocytes | Cortex,0.7024,0.9054,0.8035
+11 densities (7 types x 6 regions),Astrocytes | Hippocampus,0.4286,0.8044,0.5349
+11 densities (7 types x 6 regions),Endothelial Cells | Thalamus,0.2619,0.7352,0.3662
+11 densities (7 types x 6 regions),Endothelial Cells | Fiber tracts,0.1429,0.5418,0.2115
+11 densities (7 types x 6 regions),Endothelial Cells | Hypothalamus,0.9405,0.9756,0.9661
+11 densities (7 types x 6 regions),Endothelial Cells | Striatum,0.4762,0.8333,0.5846
+11 densities (7 types x 6 regions),Endothelial Cells | Cortex,0.9524,0.9756,0.9717
+11 densities (7 types x 6 regions),Endothelial Cells | Hippocampus,0.5833,0.862,0.6828
+11 densities (7 types x 6 regions),Excitatory Neurons | Thalamus,0.2857,0.7352,0.3887
+11 densities (7 types x 6 regions),Excitatory Neurons | Fiber tracts,0.5238,0.8333,0.6277
+11 densities (7 types x 6 regions),Excitatory Neurons | Hypothalamus,0.0238,0.2499,0.0533
+11 densities (7 types x 6 regions),Excitatory Neurons | Striatum,0.7857,0.9054,0.8607
+11 densities (7 types x 6 regions),Excitatory Neurons | Cortex,0.2976,0.7352,0.3977
+11 densities (7 types x 6 regions),Excitatory Neurons | Hippocampus,0.7976,0.9054,0.8607
+11 densities (7 types x 6 regions),Neurons | Thalamus,0.7976,0.9054,0.8607
+11 densities (7 types x 6 regions),Neurons | Fiber tracts,0.0238,0.2499,0.0533
+11 densities (7 types x 6 regions),Neurons | Hypothalamus,0.3452,0.7631,0.4494
+11 densities (7 types x 6 regions),Neurons | Striatum,0.5357,0.8333,0.6369
+11 densities (7 types x 6 regions),Neurons | Cortex,0.5119,0.8333,0.6234
+11 densities (7 types x 6 regions),Neurons | Hippocampus,0.9881,0.9881,0.9947
+"14 regional results, new map",OL share above control 90th pct | Thalamus,0.012,0.0274,0.0318
+"14 regional results, new map",microglia per mm2 | Thalamus,0.012,0.0274,0.0318
+"14 regional results, new map",OL share above control 90th pct | Fiber tracts,0.012,0.0274,0.0318
+"14 regional results, new map",microglia per mm2 | Fiber tracts,0.036,0.0576,0.0663
+"14 regional results, new map",OL share above control 90th pct | Pallidum,0.012,0.0274,0.0318
+"14 regional results, new map",microglia per mm2 | Pallidum,0.095,0.1267,0.151
+"14 regional results, new map",OL share above control 90th pct | Hypothalamus,0.012,0.0274,0.0318
+"14 regional results, new map",microglia per mm2 | Hypothalamus,0.036,0.0576,0.0663
+"14 regional results, new map",OL share above control 90th pct | Striatum,0.012,0.0274,0.0318
+"14 regional results, new map",microglia per mm2 | Striatum,0.798,0.798,0.8607
+"14 regional results, new map",OL share above control 90th pct | Cortex,0.012,0.0274,0.0318
+"14 regional results, new map",microglia per mm2 | Cortex,0.357,0.4394,0.4607
+"14 regional results, new map",OL share above control 90th pct | Hippocampus,0.036,0.0576,0.0663
+"14 regional results, new map",microglia per mm2 | Hippocampus,0.667,0.7115,0.7688
+"14 regional results, new map",OL share above control 90th pct | Olfactory areas,0.071,0.1033,0.1172
+"14 regional results, new map",microglia per mm2 | Olfactory areas,0.56,0.64,0.6606
+13 transcripts per OL (13 genes x 5 regions),Mbp | Fiber tracts,0.0357,0.058,0.0663
+13 transcripts per OL (13 genes x 5 regions),Mog | Fiber tracts,0.0119,0.0267,0.0318
+13 transcripts per OL (13 genes x 5 regions),Mag | Fiber tracts,0.2143,0.2533,0.3053
+13 transcripts per OL (13 genes x 5 regions),Cldn11 | Fiber tracts,0.0119,0.0267,0.0318
+13 transcripts per OL (13 genes x 5 regions),Cnp | Fiber tracts,0.0119,0.0267,0.0318
+13 transcripts per OL (13 genes x 5 regions),Ermn | Fiber tracts,0.0238,0.0442,0.0533
+13 transcripts per OL (13 genes x 5 regions),Opalin | Fiber tracts,0.0238,0.0442,0.0533
+13 transcripts per OL (13 genes x 5 regions),Sox10 | Fiber tracts,0.8929,0.9212,0.93
+13 transcripts per OL (13 genes x 5 regions),Olig2 | Fiber tracts,0.0476,0.0703,0.0833
+13 transcripts per OL (13 genes x 5 regions),Trib3 | Fiber tracts,0.0119,0.0267,0.0318
+13 transcripts per OL (13 genes x 5 regions),Cdkn1a | Fiber tracts,0.0119,0.0267,0.0318
+13 transcripts per OL (13 genes x 5 regions),Gfap | Fiber tracts,0.0119,0.0267,0.0318
+13 transcripts per OL (13 genes x 5 regions),Snap25 | Fiber tracts,0.0714,0.1009,0.1172
+13 transcripts per OL (13 genes x 5 regions),Mbp | Thalamus,0.1071,0.145,0.1685
+13 transcripts per OL (13 genes x 5 regions),Mog | Thalamus,0.0119,0.0267,0.0318
+13 transcripts per OL (13 genes x 5 regions),Mag | Thalamus,0.0476,0.0703,0.0833
+13 transcripts per OL (13 genes x 5 regions),Cldn11 | Thalamus,0.0119,0.0267,0.0318
+13 transcripts per OL (13 genes x 5 regions),Cnp | Thalamus,0.0119,0.0267,0.0318
+13 transcripts per OL (13 genes x 5 regions),Ermn | Thalamus,0.0238,0.0442,0.0533
+13 transcripts per OL (13 genes x 5 regions),Opalin | Thalamus,0.0119,0.0267,0.0318
+13 transcripts per OL (13 genes x 5 regions),Sox10 | Thalamus,0.5238,0.5675,0.6277
+13 transcripts per OL (13 genes x 5 regions),Olig2 | Thalamus,0.1429,0.1786,0.2115
+13 transcripts per OL (13 genes x 5 regions),Trib3 | Thalamus,0.0119,0.0267,0.0318
+13 transcripts per OL (13 genes x 5 regions),Cdkn1a | Thalamus,0.0119,0.0267,0.0318
+13 transcripts per OL (13 genes x 5 regions),Gfap | Thalamus,0.0119,0.0267,0.0318
+13 transcripts per OL (13 genes x 5 regions),Snap25 | Thalamus,0.3095,0.3469,0.41
+13 transcripts per OL (13 genes x 5 regions),Mbp | Hypothalamus,0.0476,0.0703,0.0833
+13 transcripts per OL (13 genes x 5 regions),Mog | Hypothalamus,0.0357,0.058,0.0663
+13 transcripts per OL (13 genes x 5 regions),Mag | Hypothalamus,0.1548,0.1898,0.2248
+13 transcripts per OL (13 genes x 5 regions),Cldn11 | Hypothalamus,0.0119,0.0267,0.0318
+13 transcripts per OL (13 genes x 5 regions),Cnp | Hypothalamus,0.0119,0.0267,0.0318
+13 transcripts per OL (13 genes x 5 regions),Ermn | Hypothalamus,0.0476,0.0703,0.0833
+13 transcripts per OL (13 genes x 5 regions),Opalin | Hypothalamus,0.0119,0.0267,0.0318
+13 transcripts per OL (13 genes x 5 regions),Sox10 | Hypothalamus,0.4167,0.4591,0.5243
+13 transcripts per OL (13 genes x 5 regions),Olig2 | Hypothalamus,0.8095,0.8626,0.8669
+13 transcripts per OL (13 genes x 5 regions),Trib3 | Hypothalamus,0.0119,0.0267,0.0318
+13 transcripts per OL (13 genes x 5 regions),Cdkn1a | Hypothalamus,0.0119,0.0267,0.0318
+13 transcripts per OL (13 genes x 5 regions),Gfap | Hypothalamus,0.0119,0.0267,0.0318
+13 transcripts per OL (13 genes x 5 regions),Snap25 | Hypothalamus,0.8571,0.8986,0.9114
+13 transcripts per OL (13 genes x 5 regions),Mbp | Striatum,0.119,0.1547,0.1834
+13 transcripts per OL (13 genes x 5 regions),Mog | Striatum,0.0119,0.0267,0.0318
+13 transcripts per OL (13 genes x 5 regions),Mag | Striatum,0.1429,0.1786,0.2115
+13 transcripts per OL (13 genes x 5 regions),Cldn11 | Striatum,0.0119,0.0267,0.0318
+13 transcripts per OL (13 genes x 5 regions),Cnp | Striatum,0.0238,0.0442,0.0533
+13 transcripts per OL (13 genes x 5 regions),Ermn | Striatum,0.0357,0.058,0.0663
+13 transcripts per OL (13 genes x 5 regions),Opalin | Striatum,0.0119,0.0267,0.0318
+13 transcripts per OL (13 genes x 5 regions),Sox10 | Striatum,0.9881,1.0,0.9947
+13 transcripts per OL (13 genes x 5 regions),Olig2 | Striatum,0.2143,0.2533,0.3053
+13 transcripts per OL (13 genes x 5 regions),Trib3 | Striatum,0.0357,0.058,0.0663
+13 transcripts per OL (13 genes x 5 regions),Cdkn1a | Striatum,0.0119,0.0267,0.0318
+13 transcripts per OL (13 genes x 5 regions),Gfap | Striatum,0.0119,0.0267,0.0318
+13 transcripts per OL (13 genes x 5 regions),Snap25 | Striatum,0.2262,0.2626,0.3192
+13 transcripts per OL (13 genes x 5 regions),Mbp | Cortex,0.0833,0.1152,0.1338
+13 transcripts per OL (13 genes x 5 regions),Mog | Cortex,0.0119,0.0267,0.0318
+13 transcripts per OL (13 genes x 5 regions),Mag | Cortex,0.119,0.1547,0.1834
+13 transcripts per OL (13 genes x 5 regions),Cldn11 | Cortex,0.0119,0.0267,0.0318
+13 transcripts per OL (13 genes x 5 regions),Cnp | Cortex,0.0119,0.0267,0.0318
+13 transcripts per OL (13 genes x 5 regions),Ermn | Cortex,0.0119,0.0267,0.0318
+13 transcripts per OL (13 genes x 5 regions),Opalin | Cortex,0.0595,0.0859,0.1009
+13 transcripts per OL (13 genes x 5 regions),Sox10 | Cortex,1.0,1.0,1.0
+13 transcripts per OL (13 genes x 5 regions),Olig2 | Cortex,0.2738,0.3122,0.3759
+13 transcripts per OL (13 genes x 5 regions),Trib3 | Cortex,0.0119,0.0267,0.0318
+13 transcripts per OL (13 genes x 5 regions),Cdkn1a | Cortex,0.0238,0.0442,0.0533
+13 transcripts per OL (13 genes x 5 regions),Gfap | Cortex,0.0238,0.0442,0.0533
+13 transcripts per OL (13 genes x 5 regions),Snap25 | Cortex,0.0357,0.058,0.0663
+13 OL pathway scores,ATF4 / ISR,0.012,0.0165,0.0318
+13 OL pathway scores,p53 targets,0.012,0.0165,0.0318
+13 OL pathway scores,mito UPR,0.012,0.0165,0.0318
+13 OL pathway scores,mitophagy,0.036,0.036,0.0663
+13 OL pathway scores,mtDNA / biogenesis,0.012,0.0165,0.0318
+13 OL pathway scores,cGAS-STING / IFN-I,0.024,0.0293,0.0533
+13 OL pathway scores,"apoptosis (BCL2, caspases)",0.012,0.0165,0.0318
+13 OL pathway scores,senescence / SASP,0.012,0.0165,0.0318
+13 OL pathway scores,ER UPR,0.012,0.0165,0.0318
+13 OL pathway scores,NRF2 / oxidative,0.012,0.0165,0.0318
+13 OL pathway scores,cholesterol,0.036,0.036,0.0663
+15 key metrics (this notebook),"OL ISR score, whole section (selection metric)",0.012,0.0185,0.0318
+15 key metrics (this notebook),OLs in control top 1 % (ISR),0.012,0.0185,0.0318
+15 key metrics (this notebook),OL held-out signature r (selection genes removed),0.036,0.0408,0.0663
+15 key metrics (this notebook),microglia held-out signature r,0.012,0.0185,0.0318
+15 key metrics (this notebook),ATF4 / ISR pathway score,0.012,0.0185,0.0318
+15 key metrics (this notebook),p53 pathway score,0.012,0.0185,0.0318
+15 key metrics (this notebook),microglia DAM score,0.012,0.0185,0.0318
+15 key metrics (this notebook),astrocyte reactive score,0.012,0.0185,0.0318
+15 key metrics (this notebook),microglia / mm2 thalamus (disease-free map),0.012,0.0185,0.0318
+15 key metrics (this notebook),microglia / mm2 hypothalamus (disease-free map),0.036,0.0408,0.0663
+15 key metrics (this notebook),microglia / mm2 in 30-50 % OL squares (label-free),0.012,0.0185,0.0318
+15 key metrics (this notebook),"proliferating microglia, obs / exp",0.024,0.0314,0.0533
+15 key metrics (this notebook),"Mog transcripts per OL (all, segmentation-free)",0.012,0.0185,0.0318
+15 key metrics (this notebook),Opalin transcripts per OL (segmentation-free),0.012,0.0185,0.0318
+15 key metrics (this notebook),Mbp transcripts per OL (segmentation-free),0.048,0.051,0.0833
+15 key metrics (this notebook),Sox10 transcripts per OL (expected unchanged),0.893,0.893,0.93
+15 key metrics (this notebook),"OPC ISR, relative (expected spill-over level)",0.024,0.0314,0.0533
