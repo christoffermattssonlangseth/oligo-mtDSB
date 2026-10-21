@@ -1,0 +1,17 @@
+sample_id,zone,OL,OPC,other
+Balo-1,demyelinated,6,1,1945
+Balo-1,edge,26,14,633
+Balo-1,grey matter,5110,1172,20980
+Balo-1,myelinated,198,35,833
+Balo-2,demyelinated,32,15,814
+Balo-2,edge,1514,110,5016
+Balo-2,grey matter,6566,760,13890
+Balo-2,myelinated,6981,417,4653
+S07-256,demyelinated,3235,116,22047
+S07-256,edge,11623,728,20823
+S07-256,grey matter,1275,192,3096
+S07-256,myelinated,18219,1549,26915
+S13-019,demyelinated,1401,104,16922
+S13-019,edge,8375,947,17051
+S13-019,grey matter,3257,275,4409
+S13-019,myelinated,17184,1793,21215

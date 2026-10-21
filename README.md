@@ -35,6 +35,7 @@ after induction. Cells carry a cell type (`cell_class`) and an anatomical compar
 | 17 | **The transcript-based region map was distorted by the disease**: responder pallidum had been called fibre tracts | disease-free map (400 anatomy genes, 90-95% held-out agreement) restores pallidum 0-0.7% -> 1.8-3.9% (controls 2.9-4.2%); regional conclusions hold | strong | G1, G2 |
 | 18 | **The core claims survive a reviewer-style check**: shared response in microglia (never used to call responders), robust to leaving out any responder, FDR-controlled | microglia held-out signature r 0.57-0.82 vs <= 0.42 in controls; 10 of 15 expected-change metrics hold with any responder dropped; region DE stable on the new map (2,024 -> 2,007 hits) | strong | R1-R3 |
 | 19 | **Human MS oligodendrocytes lack the mtDSB-specific fingerprint but share its CHOP / p21 stress arm** | TRIB3 / GDF15 / ATF5 / EIF4EBP1 within +/-0.3 log2 of controls (Absinta, Lerma-Martin; ~+1 in Schirmer); DDIT3 +1.0-2.9, CDKN1A +0.8-3.1, plus IFN-gamma genes as in EAE | moderate | H1-H4 |
+| 20 | **In situ (human Xenium 5k), OLs in MS lesion white matter carry an mtDSB-like signature** | demyelinated vs myelinated OLs, > 400 um from the tissue border: p21 and PUMA ~3x, TRIB3/EIF4EBP1 + p21/PUMA in the same OL 4-10x; MOG / OPALIN down, SOX10 kept; 2 MS sections | preliminary | X1-X5 |
 
 Every mouse is predicted or scored by models that never saw it; "p" values compare the 3 responders with the 6
 controls by exact permutation (smallest possible p = 0.012). Full claims, numbers and caveats:
@@ -293,6 +294,23 @@ would test the markers in situ. (`analysis/16`, `utils/human_ms.py`)
 <p align="center"><img src="results/human_ms/figures/H2_core_genes.png" width="900"/><br>
 <em>H2. mtDSB core genes in MS lesion OLs vs controls, per atlas and lesion type, with mtDSB and EAE OLs for reference.</em></p>
 
+### 20. In situ, OLs in MS lesion white matter carry an mtDSB-like signature (preliminary)
+The human CNS Xenium 5k run (two MS sections that look like spinal cord / brainstem, two Baló sections; 274k cells,
+same technology as the mouse data) allows a within-section comparison that the snRNA atlases cannot make. Zones
+were drawn from local myelin RNA (grey matter excluded by neuronal RNA). In both MS sections, **OLs in demyelinated
+white matter raise TRIB3, EIF4EBP1, p21 (CDKN1A) and PUMA (BBC3), lose MOG / OPALIN and keep SOX10**, as mtDSB responder
+OLs do, graded with myelin loss; neighbouring cells change these genes much less (GDF15 rises in neighbours too).
+**The tissue border is a confound**: myelinated OLs within ~400 um of the edge show the same stress transcripts
+(section-edge artefact or subpial pathology). Restricted to OLs deeper than 400 um, demyelinated OLs still carry p21
+and PUMA ~3x and an mtDSB-specific marker together with the p53 arm 4-10x more often than myelinated OLs (block-bootstrap
+CIs above 1); TRIB3 alone is in the same direction but too sparse. Lesion OLs also raise IRF1 / CD74 (interferon), unlike
+mtDSB. Two donors, no pathology annotation or control tissue, Baló sections mostly grey matter: preliminary, but it
+refines finding 19, where pooled snRNA samples diluted a localised response. Next: pathology-annotated lesions and
+more sections. (`analysis/17`, `utils/lesion_zones.py`)
+
+<p align="center"><img src="results/human_xenium/figures/X5_maps.png" width="850"/><br>
+<em>X5. Zones (blue myelinated, orange edge, red demyelinated) and OLs carrying both an mtDSB-specific marker and p21 / PUMA (black).</em></p>
+
 ---
 
 ## What we cannot claim (yet)
@@ -357,6 +375,7 @@ would test the markers in situ. (`analysis/16`, `utils/human_ms.py`)
 | is the region map distorted by disease? disease-free region labels | `analysis/14-region-map-disease-free.ipynb` |
 | robustness: circularity, leave-one-responder-out, FDR, reproducibility, region DE on the new map | `analysis/15-robustness.ipynb` |
 | does the mtDSB OL signature appear in human MS (4 snRNA atlases)? | `analysis/16-human-ms-signature.ipynb` |
+| ... and in situ, in human MS / Baló Xenium 5k sections? | `analysis/17-human-xenium-lesion-ols.ipynb` |
 | understand the methods | docstrings of `utils/sample_classifier.py`, `utils/ol_response.py`, `utils/region_time_de.py` |
 | check the code works without the data | `python tests/test_sample_classifier.py`, `tests/test_ol_response.py`, `tests/test_region_time_de.py` |
 | edit the A0 poster (KI style, editable SVG; regenerate with `make_poster.py`) | `docs/poster/poster.svg` |
@@ -383,7 +402,8 @@ analysis/        current notebooks (figures + tables from the result folders; no
   14-region-map-disease-free.ipynb         region labels from disease-free genes, regional re-check  -> G1-G3
   15-robustness.ipynb                      circularity, one responder at a time, FDR, region DE re-run -> R1-R3
   16-human-ms-signature.ipynb              mtDSB OL gene sets in human MS snRNA atlases               -> H1-H4
-utils/           maintained modules: sample_classifier, ol_response, spatial_orientation, gene_sets, neighbourhood, ol_staging, spatial_patterns, responder_mixture, tcells, mosaic, composition, spillover, region_transfer, robustness, human_ms, region_time_de, region_time_plots, spatial_utils
+  17-human-xenium-lesion-ols.ipynb         lesion vs myelinated OLs in human Xenium 5k, border control -> X1-X5
+utils/           maintained modules: sample_classifier, ol_response, spatial_orientation, gene_sets, neighbourhood, ol_staging, spatial_patterns, responder_mixture, tcells, mosaic, composition, spillover, region_transfer, robustness, human_ms, lesion_zones, region_time_de, region_time_plots, spatial_utils
 scripts/         batch runs (need the h5ad): run_sample_classifier, run_ol_gene_drivers, run_region_time_de,
                  export_cell_table; compartments/ = read-based compartment cluster job
 tests/           synthetic tests for the maintained modules
@@ -405,6 +425,7 @@ results/
   region_time_disease_free/  analysis/01 pipeline re-run on the disease-free labels (large tables gitignored)
   robustness/          held-out signatures, leave-one-responder-out, FDR families, reproducibility audit, figures R1-R3
   human_ms/            OL nuclei of 4 human MS snRNA atlases: per-nucleus set scores, per-sample pseudobulks, figures H1-H4
+  human_xenium/        human CNS Xenium 5k cells (marker counts), myelin zones, border distance, rates, figures X1-X5
   region_time/         region x time DE tables (+ _cell_class_updated, _MANA250 example)
   cell_table/          sections.csv (age, condition, sex, genotype); cells.csv.gz gitignored
   paper/               manuscript sections + build_manuscript.py
@@ -469,6 +490,8 @@ python scripts/export_cell_counts.py --h5ad $H5AD --out results/region_map/anato
 python scripts/run_region_time_de.py --h5ad $H5AD --outdir results/region_time_disease_free \
     --region-labels results/region_map/region_transfer_labels.csv.gz --no-region-vs-rest --n-cpus 12           # 5 min, cellcharter-env
 python scripts/export_human_ms_ol.py --data-dir /Volumes/jamboree/OligoC4b_public/processed --out results/human_ms   # 5 min, office Mac
+python scripts/export_human_xenium_cells.py --h5ad /Volumes/moldiassd/human_MS_Balo/processed_data/baloMS_clustered.h5ad \
+    --out results/human_xenium/cells.csv.gz                                                                  # 2 min, office Mac
 # laptop (no h5ad):
 python scripts/run_sample_classifier.py --pseudobulk results/region_time \
     --outdir results/sample_classifier/pseudobulk_general --merge DA-Oligodendrocytes=Oligodendrocytes     # 3 min
