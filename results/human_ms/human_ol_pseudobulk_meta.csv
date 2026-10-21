@@ -1,0 +1,145 @@
+pb_id,sample,lesion,cell_type,dataset,n_cells
+0,CO14,Ctrl,OPC,Jakel2019,29
+1,CO14,Ctrl,Oligodendrocyte,Jakel2019,916
+2,CO25,Ctrl,OPC,Jakel2019,2
+3,CO25,Ctrl,Oligodendrocyte,Jakel2019,183
+4,CO28,Ctrl,OPC,Jakel2019,1
+5,CO28,Ctrl,Oligodendrocyte,Jakel2019,272
+6,CO39,Ctrl,OPC,Jakel2019,49
+7,CO39,Ctrl,Oligodendrocyte,Jakel2019,1328
+8,MS121_A2,A,OPC,Jakel2019,1
+9,MS121_A2,A,Oligodendrocyte,Jakel2019,183
+10,MS121_A3,A,OPC,Jakel2019,4
+11,MS121_A3,A,Oligodendrocyte,Jakel2019,241
+12,MS121_CA,CA,OPC,Jakel2019,8
+13,MS121_CA,CA,Oligodendrocyte,Jakel2019,310
+14,MS121_NAWM,NAWM,OPC,Jakel2019,1
+15,MS121_NAWM,NAWM,Oligodendrocyte,Jakel2019,250
+16,MS122_A,A,OPC,Jakel2019,12
+17,MS122_A,A,Oligodendrocyte,Jakel2019,678
+18,MS122_CI,CI,OPC,Jakel2019,23
+19,MS122_CI,CI,Oligodendrocyte,Jakel2019,1036
+20,MS122_NAWM,NAWM,OPC,Jakel2019,23
+21,MS122_NAWM,NAWM,Oligodendrocyte,Jakel2019,441
+22,MS176_CA,CA,OPC,Jakel2019,3
+23,MS176_CA,CA,Oligodendrocyte,Jakel2019,102
+24,MS176_CI,CI,Oligodendrocyte,Jakel2019,32
+25,MS176_NAWM,NAWM,OPC,Jakel2019,1
+26,MS176_NAWM,NAWM,Oligodendrocyte,Jakel2019,787
+27,MS176_RM,RM,Oligodendrocyte,Jakel2019,359
+28,MS242_CA2,CA,OPC,Jakel2019,1
+29,MS242_CA2,CA,Oligodendrocyte,Jakel2019,20
+30,MS242_CA5,CA,OPC,Jakel2019,1
+31,MS242_CA5,CA,Oligodendrocyte,Jakel2019,3
+32,MS242_RM,RM,OPC,Jakel2019,1
+33,MS242_RM,RM,Oligodendrocyte,Jakel2019,1
+34,SD48/16,Ctrl,OPC,Jakel2019,192
+35,SD48/16,Ctrl,Oligodendrocyte,Jakel2019,831
+36,C1,Control,OPC,Schirmer2019,161
+37,C1,Control,Oligodendrocyte,Schirmer2019,1196
+38,C2,Control,OPC,Schirmer2019,63
+39,C2,Control,Oligodendrocyte,Schirmer2019,114
+40,C3,Control,OPC,Schirmer2019,250
+41,C3,Control,Oligodendrocyte,Schirmer2019,822
+42,C4,Control,OPC,Schirmer2019,254
+43,C4,Control,Oligodendrocyte,Schirmer2019,670
+44,C5,Control,OPC,Schirmer2019,193
+45,C5,Control,Oligodendrocyte,Schirmer2019,143
+46,C6,Control,OPC,Schirmer2019,143
+47,C6,Control,Oligodendrocyte,Schirmer2019,10
+48,C7,Control,OPC,Schirmer2019,40
+49,C7,Control,Oligodendrocyte,Schirmer2019,18
+50,C8,Control,OPC,Schirmer2019,56
+51,C8,Control,Oligodendrocyte,Schirmer2019,44
+52,C9,Control,OPC,Schirmer2019,14
+53,C9,Control,Oligodendrocyte,Schirmer2019,53
+54,MS10,Chronic inactive,OPC,Schirmer2019,129
+55,MS10,Chronic inactive,Oligodendrocyte,Schirmer2019,34
+56,MS11,Chronic inactive,OPC,Schirmer2019,18
+57,MS11,Chronic inactive,Oligodendrocyte,Schirmer2019,43
+58,MS12,Chronic inactive,OPC,Schirmer2019,374
+59,MS12,Chronic inactive,Oligodendrocyte,Schirmer2019,367
+60,MS1,Acute/Chronic active,OPC,Schirmer2019,302
+61,MS1,Acute/Chronic active,Oligodendrocyte,Schirmer2019,1500
+62,MS2,Acute/Chronic active,OPC,Schirmer2019,227
+63,MS2,Acute/Chronic active,Oligodendrocyte,Schirmer2019,1026
+64,MS3,Acute/Chronic active,OPC,Schirmer2019,125
+65,MS3,Acute/Chronic active,Oligodendrocyte,Schirmer2019,960
+66,MS4,Acute/Chronic active,OPC,Schirmer2019,401
+67,MS4,Acute/Chronic active,Oligodendrocyte,Schirmer2019,1368
+68,MS5,Acute/Chronic active,OPC,Schirmer2019,193
+69,MS5,Acute/Chronic active,Oligodendrocyte,Schirmer2019,912
+70,MS6,Acute/Chronic active,OPC,Schirmer2019,323
+71,MS6,Acute/Chronic active,Oligodendrocyte,Schirmer2019,1305
+72,MS7,Acute/Chronic active,OPC,Schirmer2019,125
+73,MS7,Acute/Chronic active,Oligodendrocyte,Schirmer2019,862
+74,MS8,Acute/Chronic active,OPC,Schirmer2019,80
+75,MS8,Acute/Chronic active,Oligodendrocyte,Schirmer2019,333
+76,MS9,Chronic inactive,OPC,Schirmer2019,373
+77,MS9,Chronic inactive,Oligodendrocyte,Schirmer2019,614
+78,09_034,MS_periplaque_white_matter,OPC,Absinta2021,151
+79,09_034,MS_periplaque_white_matter,Oligodendrocyte,Absinta2021,5783
+80,09_034,chronic_active_MS_lesion_edge,OPC,Absinta2021,81
+81,09_034,chronic_active_MS_lesion_edge,Oligodendrocyte,Absinta2021,1286
+82,09_034,chronic_inactive_MS_lesion_edge,OPC,Absinta2021,97
+83,09_034,chronic_inactive_MS_lesion_edge,Oligodendrocyte,Absinta2021,3058
+84,09_067,MS_lesion_core,OPC,Absinta2021,82
+85,09_067,MS_lesion_core,Oligodendrocyte,Absinta2021,15
+86,09_067,MS_periplaque_white_matter,OPC,Absinta2021,156
+87,09_067,MS_periplaque_white_matter,Oligodendrocyte,Absinta2021,5177
+88,09_067,chronic_active_MS_lesion_edge,OPC,Absinta2021,3
+89,09_067,chronic_active_MS_lesion_edge,Oligodendrocyte,Absinta2021,247
+90,11_69,control_white_matter,OPC,Absinta2021,58
+91,11_69,control_white_matter,Oligodendrocyte,Absinta2021,1075
+92,12_002,control_white_matter,OPC,Absinta2021,107
+93,12_002,control_white_matter,Oligodendrocyte,Absinta2021,1424
+94,12_078,MS_periplaque_white_matter,OPC,Absinta2021,273
+95,12_078,MS_periplaque_white_matter,Oligodendrocyte,Absinta2021,4141
+96,12_078,chronic_active_MS_lesion_edge,OPC,Absinta2021,167
+97,12_078,chronic_active_MS_lesion_edge,Oligodendrocyte,Absinta2021,3904
+98,12_078,chronic_inactive_MS_lesion_edge,OPC,Absinta2021,122
+99,12_078,chronic_inactive_MS_lesion_edge,Oligodendrocyte,Absinta2021,1356
+100,13_015,MS_periplaque_white_matter,OPC,Absinta2021,65
+101,13_015,MS_periplaque_white_matter,Oligodendrocyte,Absinta2021,2462
+102,13_015,chronic_inactive_MS_lesion_edge,OPC,Absinta2021,258
+103,13_015,chronic_inactive_MS_lesion_edge,Oligodendrocyte,Absinta2021,3467
+104,13_047,MS_lesion_core,OPC,Absinta2021,50
+105,13_047,MS_lesion_core,Oligodendrocyte,Absinta2021,4
+106,13_047,chronic_active_MS_lesion_edge,OPC,Absinta2021,316
+107,13_047,chronic_active_MS_lesion_edge,Oligodendrocyte,Absinta2021,7221
+108,13_047,chronic_inactive_MS_lesion_edge,OPC,Absinta2021,59
+109,13_047,chronic_inactive_MS_lesion_edge,Oligodendrocyte,Absinta2021,3312
+110,14_043,control_white_matter,OPC,Absinta2021,130
+111,14_043,control_white_matter,Oligodendrocyte,Absinta2021,1765
+112,CO37,Ctrl,OPC,LermaMartin2024,143
+113,CO37,Ctrl,Oligodendrocyte,LermaMartin2024,4916
+114,CO40,Ctrl,OPC,LermaMartin2024,226
+115,CO40,Ctrl,Oligodendrocyte,LermaMartin2024,4621
+116,CO41,Ctrl,OPC,LermaMartin2024,286
+117,CO41,Ctrl,Oligodendrocyte,LermaMartin2024,3324
+118,CO45,Ctrl,OPC,LermaMartin2024,350
+119,CO45,Ctrl,Oligodendrocyte,LermaMartin2024,3224
+120,CO74,Ctrl,OPC,LermaMartin2024,146
+121,CO74,Ctrl,Oligodendrocyte,LermaMartin2024,2687
+122,CO85,Ctrl,OPC,LermaMartin2024,104
+123,CO85,Ctrl,Oligodendrocyte,LermaMartin2024,2723
+124,MS197D,CA,OPC,LermaMartin2024,608
+125,MS197D,CA,Oligodendrocyte,LermaMartin2024,6042
+126,MS229,CA,OPC,LermaMartin2024,156
+127,MS229,CA,Oligodendrocyte,LermaMartin2024,4672
+128,MS377I,CA,OPC,LermaMartin2024,307
+129,MS377I,CA,Oligodendrocyte,LermaMartin2024,4643
+130,MS377N,CA,OPC,LermaMartin2024,276
+131,MS377N,CA,Oligodendrocyte,LermaMartin2024,3876
+132,MS377T,CA,OPC,LermaMartin2024,296
+133,MS377T,CA,Oligodendrocyte,LermaMartin2024,3742
+134,MS411,CA,OPC,LermaMartin2024,335
+135,MS411,CA,Oligodendrocyte,LermaMartin2024,4395
+136,MS497I,CI,OPC,LermaMartin2024,50
+137,MS497I,CI,Oligodendrocyte,LermaMartin2024,2200
+138,MS497T,CI,OPC,LermaMartin2024,102
+139,MS497T,CI,Oligodendrocyte,LermaMartin2024,4172
+140,MS549H,CI,OPC,LermaMartin2024,464
+141,MS549H,CI,Oligodendrocyte,LermaMartin2024,6444
+142,MS549T,CI,OPC,LermaMartin2024,96
+143,MS549T,CI,Oligodendrocyte,LermaMartin2024,3152

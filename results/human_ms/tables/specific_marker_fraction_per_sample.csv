@@ -1,0 +1,67 @@
+dataset,lesion,sample,n,specific,chop_p21,total_counts
+Absinta2021,MS_periplaque_white_matter,09_034,5783,0.0,0.0,4391.0
+Absinta2021,MS_periplaque_white_matter,09_067,5177,0.0,0.00019,3581.0
+Absinta2021,MS_periplaque_white_matter,12_078,4141,0.0,0.01497,2870.0
+Absinta2021,MS_periplaque_white_matter,13_015,2462,0.0,0.00041,3434.5
+Absinta2021,chronic_active_MS_lesion_edge,09_034,1286,0.0,0.0,2458.5
+Absinta2021,chronic_active_MS_lesion_edge,09_067,247,0.0,0.0,1574.0
+Absinta2021,chronic_active_MS_lesion_edge,12_078,3904,0.0,0.01921,1776.0
+Absinta2021,chronic_active_MS_lesion_edge,13_047,7221,0.00014,0.00083,2565.0
+Absinta2021,chronic_inactive_MS_lesion_edge,09_034,3058,0.0,0.0,2375.0
+Absinta2021,chronic_inactive_MS_lesion_edge,12_078,1356,0.0,0.01401,1909.0
+Absinta2021,chronic_inactive_MS_lesion_edge,13_015,3467,0.0,0.0,2100.0
+Absinta2021,chronic_inactive_MS_lesion_edge,13_047,3312,0.0,0.0006,2202.5
+Absinta2021,control_white_matter,11_69,1075,0.0,0.0,4867.0
+Absinta2021,control_white_matter,12_002,1424,0.0,0.0,2751.5
+Absinta2021,control_white_matter,14_043,1765,0.00057,0.0,3124.0
+Jakel2019,A,MS121_A2,183,0.0,0.0,595.0
+Jakel2019,A,MS121_A3,241,0.0,0.00415,658.0
+Jakel2019,A,MS122_A,678,0.0,0.0,1006.0
+Jakel2019,CA,MS121_CA,310,0.0,0.0,598.5
+Jakel2019,CA,MS176_CA,102,0.0,0.0,659.5
+Jakel2019,CI,MS122_CI,1036,0.0,0.0,845.0
+Jakel2019,CI,MS176_CI,32,0.0,0.0,356.5
+Jakel2019,Ctrl,CO14,916,0.0,0.0,1404.5
+Jakel2019,Ctrl,CO25,183,0.00546,0.0,1582.0
+Jakel2019,Ctrl,CO28,272,0.00368,0.00368,2454.5
+Jakel2019,Ctrl,CO39,1328,0.00075,0.00151,1085.5
+Jakel2019,Ctrl,SD48/16,831,0.0,0.0,1023.0
+Jakel2019,NAWM,MS121_NAWM,250,0.004,0.004,999.5
+Jakel2019,NAWM,MS122_NAWM,441,0.0,0.0,979.0
+Jakel2019,NAWM,MS176_NAWM,787,0.0,0.00127,764.0
+Jakel2019,RM,MS176_RM,359,0.0,0.0,469.0
+LermaMartin2024,CA,MS197D,6042,0.00199,0.00596,3819.0
+LermaMartin2024,CA,MS229,4672,0.00086,0.00385,2705.5
+LermaMartin2024,CA,MS377I,4643,0.00065,0.00108,4262.0
+LermaMartin2024,CA,MS377N,3876,0.00181,0.00026,4680.5
+LermaMartin2024,CA,MS377T,3742,0.0,0.0008,3664.0
+LermaMartin2024,CA,MS411,4395,0.00023,0.00068,3943.0
+LermaMartin2024,CI,MS497I,2200,0.00136,0.00136,6264.5
+LermaMartin2024,CI,MS497T,4172,0.00048,0.00407,3200.0
+LermaMartin2024,CI,MS549H,6444,0.00031,0.0,2878.5
+LermaMartin2024,CI,MS549T,3152,0.00095,0.00032,7866.0
+LermaMartin2024,Ctrl,CO37,4916,0.00163,0.00102,8441.5
+LermaMartin2024,Ctrl,CO40,4621,0.00151,0.0,4447.0
+LermaMartin2024,Ctrl,CO41,3324,0.0,0.0,803.0
+LermaMartin2024,Ctrl,CO45,3224,0.0,0.0,1752.5
+LermaMartin2024,Ctrl,CO74,2687,0.00037,0.00037,1470.0
+LermaMartin2024,Ctrl,CO85,2723,0.0,0.0,556.0
+Schirmer2019,Acute/Chronic active,MS1,1500,0.02133,0.0,3152.0177
+Schirmer2019,Acute/Chronic active,MS2,1026,0.02924,0.0,3047.9425
+Schirmer2019,Acute/Chronic active,MS3,960,0.01875,0.0,3214.83605
+Schirmer2019,Acute/Chronic active,MS4,1368,0.01023,0.0,3253.74955
+Schirmer2019,Acute/Chronic active,MS5,912,0.00658,0.0,3036.4136
+Schirmer2019,Acute/Chronic active,MS6,1305,0.01533,0.00153,3112.9917
+Schirmer2019,Acute/Chronic active,MS7,862,0.0232,0.00464,3044.9203
+Schirmer2019,Acute/Chronic active,MS8,333,0.02102,0.0,2997.368
+Schirmer2019,Chronic inactive,MS10,34,0.05882,0.02941,3339.5903
+Schirmer2019,Chronic inactive,MS11,43,0.06977,0.0,3133.5361
+Schirmer2019,Chronic inactive,MS12,367,0.01907,0.0,2895.4321
+Schirmer2019,Chronic inactive,MS9,614,0.0114,0.0,3064.13965
+Schirmer2019,Control,C1,1196,0.01505,0.0,3004.6382
+Schirmer2019,Control,C2,114,0.02632,0.0,2809.30975
+Schirmer2019,Control,C3,822,0.02311,0.0,2897.36485
+Schirmer2019,Control,C4,670,0.00597,0.0,2943.6305
+Schirmer2019,Control,C5,143,0.00699,0.0,2803.644
+Schirmer2019,Control,C8,44,0.0,0.0,3002.3323
+Schirmer2019,Control,C9,53,0.0,0.0,3004.2273

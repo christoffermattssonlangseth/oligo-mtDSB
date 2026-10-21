@@ -1,0 +1,529 @@
+sample,lesion,score,dataset,gene_set
+CO14,Ctrl,0.2144,Jakel2019,MTDSB_CORE
+CO25,Ctrl,-0.6312,Jakel2019,MTDSB_CORE
+CO28,Ctrl,0.388,Jakel2019,MTDSB_CORE
+CO39,Ctrl,0.3516,Jakel2019,MTDSB_CORE
+MS121_A2,A,0.2866,Jakel2019,MTDSB_CORE
+MS121_A3,A,1.2188,Jakel2019,MTDSB_CORE
+MS121_CA,CA,-0.6801,Jakel2019,MTDSB_CORE
+MS121_NAWM,NAWM,0.3279,Jakel2019,MTDSB_CORE
+MS122_A,A,-0.21,Jakel2019,MTDSB_CORE
+MS122_CI,CI,-0.0712,Jakel2019,MTDSB_CORE
+MS122_NAWM,NAWM,0.1368,Jakel2019,MTDSB_CORE
+MS176_CA,CA,-1.153,Jakel2019,MTDSB_CORE
+MS176_CI,CI,-2.4855,Jakel2019,MTDSB_CORE
+MS176_NAWM,NAWM,0.8295,Jakel2019,MTDSB_CORE
+MS176_RM,RM,0.1527,Jakel2019,MTDSB_CORE
+SD48/16,Ctrl,-0.3228,Jakel2019,MTDSB_CORE
+CO14,Ctrl,0.0542,Jakel2019,ISR
+CO25,Ctrl,-0.0251,Jakel2019,ISR
+CO28,Ctrl,-0.0528,Jakel2019,ISR
+CO39,Ctrl,0.338,Jakel2019,ISR
+MS121_A2,A,0.4284,Jakel2019,ISR
+MS121_A3,A,0.4852,Jakel2019,ISR
+MS121_CA,CA,-1.0801,Jakel2019,ISR
+MS121_NAWM,NAWM,-0.0687,Jakel2019,ISR
+MS122_A,A,-0.3221,Jakel2019,ISR
+MS122_CI,CI,-0.2575,Jakel2019,ISR
+MS122_NAWM,NAWM,-0.2102,Jakel2019,ISR
+MS176_CA,CA,-0.5625,Jakel2019,ISR
+MS176_CI,CI,-2.9765,Jakel2019,ISR
+MS176_NAWM,NAWM,0.8683,Jakel2019,ISR
+MS176_RM,RM,-0.2024,Jakel2019,ISR
+SD48/16,Ctrl,-0.3143,Jakel2019,ISR
+CO14,Ctrl,0.0144,Jakel2019,P53
+CO25,Ctrl,-0.4932,Jakel2019,P53
+CO28,Ctrl,0.1832,Jakel2019,P53
+CO39,Ctrl,0.4363,Jakel2019,P53
+MS121_A2,A,-0.0478,Jakel2019,P53
+MS121_A3,A,1.1653,Jakel2019,P53
+MS121_CA,CA,-0.2456,Jakel2019,P53
+MS121_NAWM,NAWM,0.1947,Jakel2019,P53
+MS122_A,A,0.009,Jakel2019,P53
+MS122_CI,CI,-0.2656,Jakel2019,P53
+MS122_NAWM,NAWM,0.3474,Jakel2019,P53
+MS176_CA,CA,-1.2391,Jakel2019,P53
+MS176_CI,CI,-1.4679,Jakel2019,P53
+MS176_NAWM,NAWM,0.5486,Jakel2019,P53
+MS176_RM,RM,0.6967,Jakel2019,P53
+SD48/16,Ctrl,-0.1407,Jakel2019,P53
+CO14,Ctrl,0.0554,Jakel2019,DRIVERS_UP
+CO25,Ctrl,-0.1956,Jakel2019,DRIVERS_UP
+CO28,Ctrl,0.2633,Jakel2019,DRIVERS_UP
+CO39,Ctrl,0.211,Jakel2019,DRIVERS_UP
+MS121_A2,A,0.1631,Jakel2019,DRIVERS_UP
+MS121_A3,A,0.5566,Jakel2019,DRIVERS_UP
+MS121_CA,CA,-0.1424,Jakel2019,DRIVERS_UP
+MS121_NAWM,NAWM,0.0042,Jakel2019,DRIVERS_UP
+MS122_A,A,-0.1658,Jakel2019,DRIVERS_UP
+MS122_CI,CI,-0.1754,Jakel2019,DRIVERS_UP
+MS122_NAWM,NAWM,-0.1201,Jakel2019,DRIVERS_UP
+MS176_CA,CA,0.1818,Jakel2019,DRIVERS_UP
+MS176_CI,CI,-2.1364,Jakel2019,DRIVERS_UP
+MS176_NAWM,NAWM,0.5919,Jakel2019,DRIVERS_UP
+MS176_RM,RM,0.2823,Jakel2019,DRIVERS_UP
+SD48/16,Ctrl,-0.3341,Jakel2019,DRIVERS_UP
+CO14,Ctrl,0.5997,Jakel2019,DRIVERS_DOWN
+CO25,Ctrl,0.1445,Jakel2019,DRIVERS_DOWN
+CO28,Ctrl,-0.0302,Jakel2019,DRIVERS_DOWN
+CO39,Ctrl,-0.1808,Jakel2019,DRIVERS_DOWN
+MS121_A2,A,0.7317,Jakel2019,DRIVERS_DOWN
+MS121_A3,A,0.7576,Jakel2019,DRIVERS_DOWN
+MS121_CA,CA,0.5118,Jakel2019,DRIVERS_DOWN
+MS121_NAWM,NAWM,0.4014,Jakel2019,DRIVERS_DOWN
+MS122_A,A,0.3925,Jakel2019,DRIVERS_DOWN
+MS122_CI,CI,0.4301,Jakel2019,DRIVERS_DOWN
+MS122_NAWM,NAWM,0.187,Jakel2019,DRIVERS_DOWN
+MS176_CA,CA,0.4809,Jakel2019,DRIVERS_DOWN
+MS176_CI,CI,-0.579,Jakel2019,DRIVERS_DOWN
+MS176_NAWM,NAWM,0.3134,Jakel2019,DRIVERS_DOWN
+MS176_RM,RM,0.2995,Jakel2019,DRIVERS_DOWN
+SD48/16,Ctrl,-0.5331,Jakel2019,DRIVERS_DOWN
+CO14,Ctrl,-0.2642,Jakel2019,IFNG
+CO25,Ctrl,-0.229,Jakel2019,IFNG
+CO28,Ctrl,0.3576,Jakel2019,IFNG
+CO39,Ctrl,0.3443,Jakel2019,IFNG
+MS121_A2,A,0.2861,Jakel2019,IFNG
+MS121_A3,A,1.9697,Jakel2019,IFNG
+MS121_CA,CA,2.6781,Jakel2019,IFNG
+MS121_NAWM,NAWM,1.5827,Jakel2019,IFNG
+MS122_A,A,0.91,Jakel2019,IFNG
+MS122_CI,CI,0.8832,Jakel2019,IFNG
+MS122_NAWM,NAWM,0.5118,Jakel2019,IFNG
+MS176_CA,CA,2.8305,Jakel2019,IFNG
+MS176_CI,CI,-1.763,Jakel2019,IFNG
+MS176_NAWM,NAWM,1.7821,Jakel2019,IFNG
+MS176_RM,RM,1.1238,Jakel2019,IFNG
+SD48/16,Ctrl,-0.2087,Jakel2019,IFNG
+CO14,Ctrl,-0.2705,Jakel2019,IMMUNE_OL
+CO25,Ctrl,-0.0224,Jakel2019,IMMUNE_OL
+CO28,Ctrl,0.4227,Jakel2019,IMMUNE_OL
+CO39,Ctrl,0.0876,Jakel2019,IMMUNE_OL
+MS121_A2,A,0.8831,Jakel2019,IMMUNE_OL
+MS121_A3,A,0.8379,Jakel2019,IMMUNE_OL
+MS121_CA,CA,0.5629,Jakel2019,IMMUNE_OL
+MS121_NAWM,NAWM,1.7492,Jakel2019,IMMUNE_OL
+MS122_A,A,0.911,Jakel2019,IMMUNE_OL
+MS122_CI,CI,0.3004,Jakel2019,IMMUNE_OL
+MS122_NAWM,NAWM,-0.0154,Jakel2019,IMMUNE_OL
+MS176_CA,CA,-1.0644,Jakel2019,IMMUNE_OL
+MS176_CI,CI,-1.5989,Jakel2019,IMMUNE_OL
+MS176_NAWM,NAWM,-0.1888,Jakel2019,IMMUNE_OL
+MS176_RM,RM,-0.458,Jakel2019,IMMUNE_OL
+SD48/16,Ctrl,-0.2174,Jakel2019,IMMUNE_OL
+CO14,Ctrl,0.2178,Jakel2019,MYELIN
+CO25,Ctrl,-0.2166,Jakel2019,MYELIN
+CO28,Ctrl,0.1817,Jakel2019,MYELIN
+CO39,Ctrl,-0.1499,Jakel2019,MYELIN
+MS121_A2,A,0.167,Jakel2019,MYELIN
+MS121_A3,A,0.1484,Jakel2019,MYELIN
+MS121_CA,CA,0.1529,Jakel2019,MYELIN
+MS121_NAWM,NAWM,-0.0575,Jakel2019,MYELIN
+MS122_A,A,0.1918,Jakel2019,MYELIN
+MS122_CI,CI,0.2813,Jakel2019,MYELIN
+MS122_NAWM,NAWM,0.2018,Jakel2019,MYELIN
+MS176_CA,CA,-0.0739,Jakel2019,MYELIN
+MS176_CI,CI,-2.8345,Jakel2019,MYELIN
+MS176_NAWM,NAWM,-0.0485,Jakel2019,MYELIN
+MS176_RM,RM,-0.1489,Jakel2019,MYELIN
+SD48/16,Ctrl,-0.033,Jakel2019,MYELIN
+C1,Control,0.9385,Schirmer2019,MTDSB_CORE
+C2,Control,0.3061,Schirmer2019,MTDSB_CORE
+C3,Control,0.795,Schirmer2019,MTDSB_CORE
+C4,Control,0.1842,Schirmer2019,MTDSB_CORE
+C5,Control,-0.0939,Schirmer2019,MTDSB_CORE
+C8,Control,-1.0487,Schirmer2019,MTDSB_CORE
+C9,Control,-1.0812,Schirmer2019,MTDSB_CORE
+MS10,Chronic inactive,1.2096,Schirmer2019,MTDSB_CORE
+MS11,Chronic inactive,1.6714,Schirmer2019,MTDSB_CORE
+MS12,Chronic inactive,0.9942,Schirmer2019,MTDSB_CORE
+MS1,Acute/Chronic active,1.1918,Schirmer2019,MTDSB_CORE
+MS2,Acute/Chronic active,0.9714,Schirmer2019,MTDSB_CORE
+MS3,Acute/Chronic active,1.1504,Schirmer2019,MTDSB_CORE
+MS4,Acute/Chronic active,0.3868,Schirmer2019,MTDSB_CORE
+MS5,Acute/Chronic active,0.0616,Schirmer2019,MTDSB_CORE
+MS6,Acute/Chronic active,0.942,Schirmer2019,MTDSB_CORE
+MS7,Acute/Chronic active,1.9061,Schirmer2019,MTDSB_CORE
+MS8,Acute/Chronic active,0.7043,Schirmer2019,MTDSB_CORE
+MS9,Chronic inactive,0.7866,Schirmer2019,MTDSB_CORE
+C1,Control,0.7837,Schirmer2019,ISR
+C2,Control,0.8996,Schirmer2019,ISR
+C3,Control,0.6141,Schirmer2019,ISR
+C4,Control,0.197,Schirmer2019,ISR
+C5,Control,-0.6872,Schirmer2019,ISR
+C8,Control,-0.7223,Schirmer2019,ISR
+C9,Control,-1.0849,Schirmer2019,ISR
+MS10,Chronic inactive,1.0016,Schirmer2019,ISR
+MS11,Chronic inactive,1.235,Schirmer2019,ISR
+MS12,Chronic inactive,0.7671,Schirmer2019,ISR
+MS1,Acute/Chronic active,1.028,Schirmer2019,ISR
+MS2,Acute/Chronic active,0.8,Schirmer2019,ISR
+MS3,Acute/Chronic active,1.0244,Schirmer2019,ISR
+MS4,Acute/Chronic active,0.4543,Schirmer2019,ISR
+MS5,Acute/Chronic active,0.1608,Schirmer2019,ISR
+MS6,Acute/Chronic active,0.8387,Schirmer2019,ISR
+MS7,Acute/Chronic active,1.45,Schirmer2019,ISR
+MS8,Acute/Chronic active,0.9401,Schirmer2019,ISR
+MS9,Chronic inactive,0.4219,Schirmer2019,ISR
+C1,Control,0.637,Schirmer2019,P53
+C2,Control,-0.2695,Schirmer2019,P53
+C3,Control,0.5067,Schirmer2019,P53
+C4,Control,0.0591,Schirmer2019,P53
+C5,Control,0.1444,Schirmer2019,P53
+C8,Control,-0.8217,Schirmer2019,P53
+C9,Control,-0.256,Schirmer2019,P53
+MS10,Chronic inactive,0.3224,Schirmer2019,P53
+MS11,Chronic inactive,1.4493,Schirmer2019,P53
+MS12,Chronic inactive,0.8659,Schirmer2019,P53
+MS1,Acute/Chronic active,0.616,Schirmer2019,P53
+MS2,Acute/Chronic active,0.116,Schirmer2019,P53
+MS3,Acute/Chronic active,0.4813,Schirmer2019,P53
+MS4,Acute/Chronic active,0.1986,Schirmer2019,P53
+MS5,Acute/Chronic active,0.4463,Schirmer2019,P53
+MS6,Acute/Chronic active,0.5498,Schirmer2019,P53
+MS7,Acute/Chronic active,1.1377,Schirmer2019,P53
+MS8,Acute/Chronic active,-0.0941,Schirmer2019,P53
+MS9,Chronic inactive,0.7879,Schirmer2019,P53
+C1,Control,0.6782,Schirmer2019,DRIVERS_UP
+C2,Control,0.3088,Schirmer2019,DRIVERS_UP
+C3,Control,0.3419,Schirmer2019,DRIVERS_UP
+C4,Control,0.3195,Schirmer2019,DRIVERS_UP
+C5,Control,-0.4033,Schirmer2019,DRIVERS_UP
+C8,Control,-0.8057,Schirmer2019,DRIVERS_UP
+C9,Control,-0.4395,Schirmer2019,DRIVERS_UP
+MS10,Chronic inactive,0.9396,Schirmer2019,DRIVERS_UP
+MS11,Chronic inactive,1.2993,Schirmer2019,DRIVERS_UP
+MS12,Chronic inactive,0.8828,Schirmer2019,DRIVERS_UP
+MS1,Acute/Chronic active,1.0071,Schirmer2019,DRIVERS_UP
+MS2,Acute/Chronic active,0.7451,Schirmer2019,DRIVERS_UP
+MS3,Acute/Chronic active,0.8859,Schirmer2019,DRIVERS_UP
+MS4,Acute/Chronic active,0.7555,Schirmer2019,DRIVERS_UP
+MS5,Acute/Chronic active,0.5229,Schirmer2019,DRIVERS_UP
+MS6,Acute/Chronic active,1.0094,Schirmer2019,DRIVERS_UP
+MS7,Acute/Chronic active,1.6363,Schirmer2019,DRIVERS_UP
+MS8,Acute/Chronic active,0.8624,Schirmer2019,DRIVERS_UP
+MS9,Chronic inactive,0.5947,Schirmer2019,DRIVERS_UP
+C1,Control,-0.2894,Schirmer2019,DRIVERS_DOWN
+C2,Control,0.2386,Schirmer2019,DRIVERS_DOWN
+C3,Control,-0.0569,Schirmer2019,DRIVERS_DOWN
+C4,Control,0.0252,Schirmer2019,DRIVERS_DOWN
+C5,Control,-0.2439,Schirmer2019,DRIVERS_DOWN
+C8,Control,0.2384,Schirmer2019,DRIVERS_DOWN
+C9,Control,0.0881,Schirmer2019,DRIVERS_DOWN
+MS10,Chronic inactive,-0.2752,Schirmer2019,DRIVERS_DOWN
+MS11,Chronic inactive,0.1166,Schirmer2019,DRIVERS_DOWN
+MS12,Chronic inactive,0.3252,Schirmer2019,DRIVERS_DOWN
+MS1,Acute/Chronic active,0.3597,Schirmer2019,DRIVERS_DOWN
+MS2,Acute/Chronic active,0.1446,Schirmer2019,DRIVERS_DOWN
+MS3,Acute/Chronic active,-0.2329,Schirmer2019,DRIVERS_DOWN
+MS4,Acute/Chronic active,0.3228,Schirmer2019,DRIVERS_DOWN
+MS5,Acute/Chronic active,0.1546,Schirmer2019,DRIVERS_DOWN
+MS6,Acute/Chronic active,0.076,Schirmer2019,DRIVERS_DOWN
+MS7,Acute/Chronic active,0.0533,Schirmer2019,DRIVERS_DOWN
+MS8,Acute/Chronic active,0.1694,Schirmer2019,DRIVERS_DOWN
+MS9,Chronic inactive,0.1149,Schirmer2019,DRIVERS_DOWN
+C1,Control,-0.3028,Schirmer2019,IFNG
+C2,Control,0.0632,Schirmer2019,IFNG
+C3,Control,-0.6724,Schirmer2019,IFNG
+C4,Control,-0.2113,Schirmer2019,IFNG
+C5,Control,-0.1392,Schirmer2019,IFNG
+C8,Control,-0.516,Schirmer2019,IFNG
+C9,Control,1.7786,Schirmer2019,IFNG
+MS10,Chronic inactive,-1.896,Schirmer2019,IFNG
+MS11,Chronic inactive,1.491,Schirmer2019,IFNG
+MS12,Chronic inactive,0.9694,Schirmer2019,IFNG
+MS1,Acute/Chronic active,0.894,Schirmer2019,IFNG
+MS2,Acute/Chronic active,0.5059,Schirmer2019,IFNG
+MS3,Acute/Chronic active,1.5798,Schirmer2019,IFNG
+MS4,Acute/Chronic active,0.6828,Schirmer2019,IFNG
+MS5,Acute/Chronic active,0.9798,Schirmer2019,IFNG
+MS6,Acute/Chronic active,1.7865,Schirmer2019,IFNG
+MS7,Acute/Chronic active,3.2836,Schirmer2019,IFNG
+MS8,Acute/Chronic active,0.7614,Schirmer2019,IFNG
+MS9,Chronic inactive,0.2341,Schirmer2019,IFNG
+C1,Control,0.3906,Schirmer2019,IMMUNE_OL
+C2,Control,-0.7355,Schirmer2019,IMMUNE_OL
+C3,Control,0.036,Schirmer2019,IMMUNE_OL
+C4,Control,-0.2163,Schirmer2019,IMMUNE_OL
+C5,Control,-0.622,Schirmer2019,IMMUNE_OL
+C8,Control,0.4053,Schirmer2019,IMMUNE_OL
+C9,Control,0.7421,Schirmer2019,IMMUNE_OL
+MS10,Chronic inactive,1.3716,Schirmer2019,IMMUNE_OL
+MS11,Chronic inactive,2.1939,Schirmer2019,IMMUNE_OL
+MS12,Chronic inactive,1.7069,Schirmer2019,IMMUNE_OL
+MS1,Acute/Chronic active,1.5806,Schirmer2019,IMMUNE_OL
+MS2,Acute/Chronic active,1.2678,Schirmer2019,IMMUNE_OL
+MS3,Acute/Chronic active,1.1037,Schirmer2019,IMMUNE_OL
+MS4,Acute/Chronic active,1.3232,Schirmer2019,IMMUNE_OL
+MS5,Acute/Chronic active,1.4275,Schirmer2019,IMMUNE_OL
+MS6,Acute/Chronic active,1.7715,Schirmer2019,IMMUNE_OL
+MS7,Acute/Chronic active,3.5326,Schirmer2019,IMMUNE_OL
+MS8,Acute/Chronic active,1.1087,Schirmer2019,IMMUNE_OL
+MS9,Chronic inactive,1.3913,Schirmer2019,IMMUNE_OL
+C1,Control,-0.0441,Schirmer2019,MYELIN
+C2,Control,0.1182,Schirmer2019,MYELIN
+C3,Control,0.0021,Schirmer2019,MYELIN
+C4,Control,0.1761,Schirmer2019,MYELIN
+C5,Control,-0.1281,Schirmer2019,MYELIN
+C8,Control,-0.1374,Schirmer2019,MYELIN
+C9,Control,0.0132,Schirmer2019,MYELIN
+MS10,Chronic inactive,-0.879,Schirmer2019,MYELIN
+MS11,Chronic inactive,-0.6164,Schirmer2019,MYELIN
+MS12,Chronic inactive,0.2247,Schirmer2019,MYELIN
+MS1,Acute/Chronic active,0.146,Schirmer2019,MYELIN
+MS2,Acute/Chronic active,0.1298,Schirmer2019,MYELIN
+MS3,Acute/Chronic active,0.0141,Schirmer2019,MYELIN
+MS4,Acute/Chronic active,0.4405,Schirmer2019,MYELIN
+MS5,Acute/Chronic active,0.1265,Schirmer2019,MYELIN
+MS6,Acute/Chronic active,0.321,Schirmer2019,MYELIN
+MS7,Acute/Chronic active,0.0098,Schirmer2019,MYELIN
+MS8,Acute/Chronic active,0.1113,Schirmer2019,MYELIN
+MS9,Chronic inactive,-0.098,Schirmer2019,MYELIN
+09_034,MS_periplaque_white_matter,-0.1649,Absinta2021,MTDSB_CORE
+09_034,chronic_active_MS_lesion_edge,0.5154,Absinta2021,MTDSB_CORE
+09_034,chronic_inactive_MS_lesion_edge,0.4381,Absinta2021,MTDSB_CORE
+09_067,MS_periplaque_white_matter,0.5536,Absinta2021,MTDSB_CORE
+09_067,chronic_active_MS_lesion_edge,0.7563,Absinta2021,MTDSB_CORE
+11_69,control_white_matter,-0.3969,Absinta2021,MTDSB_CORE
+12_002,control_white_matter,0.2127,Absinta2021,MTDSB_CORE
+12_078,MS_periplaque_white_matter,1.4998,Absinta2021,MTDSB_CORE
+12_078,chronic_active_MS_lesion_edge,2.2535,Absinta2021,MTDSB_CORE
+12_078,chronic_inactive_MS_lesion_edge,1.378,Absinta2021,MTDSB_CORE
+13_015,MS_periplaque_white_matter,0.8846,Absinta2021,MTDSB_CORE
+13_015,chronic_inactive_MS_lesion_edge,0.8681,Absinta2021,MTDSB_CORE
+13_047,chronic_active_MS_lesion_edge,0.6389,Absinta2021,MTDSB_CORE
+13_047,chronic_inactive_MS_lesion_edge,0.5757,Absinta2021,MTDSB_CORE
+14_043,control_white_matter,0.1842,Absinta2021,MTDSB_CORE
+09_034,MS_periplaque_white_matter,-0.3871,Absinta2021,ISR
+09_034,chronic_active_MS_lesion_edge,0.0527,Absinta2021,ISR
+09_034,chronic_inactive_MS_lesion_edge,0.4643,Absinta2021,ISR
+09_067,MS_periplaque_white_matter,-0.0805,Absinta2021,ISR
+09_067,chronic_active_MS_lesion_edge,-0.0027,Absinta2021,ISR
+11_69,control_white_matter,-0.366,Absinta2021,ISR
+12_002,control_white_matter,0.2786,Absinta2021,ISR
+12_078,MS_periplaque_white_matter,0.8653,Absinta2021,ISR
+12_078,chronic_active_MS_lesion_edge,1.5208,Absinta2021,ISR
+12_078,chronic_inactive_MS_lesion_edge,0.5404,Absinta2021,ISR
+13_015,MS_periplaque_white_matter,0.6215,Absinta2021,ISR
+13_015,chronic_inactive_MS_lesion_edge,0.797,Absinta2021,ISR
+13_047,chronic_active_MS_lesion_edge,0.2021,Absinta2021,ISR
+13_047,chronic_inactive_MS_lesion_edge,0.1445,Absinta2021,ISR
+14_043,control_white_matter,0.0874,Absinta2021,ISR
+09_034,MS_periplaque_white_matter,0.1427,Absinta2021,P53
+09_034,chronic_active_MS_lesion_edge,0.7286,Absinta2021,P53
+09_034,chronic_inactive_MS_lesion_edge,0.3268,Absinta2021,P53
+09_067,MS_periplaque_white_matter,0.0582,Absinta2021,P53
+09_067,chronic_active_MS_lesion_edge,0.4611,Absinta2021,P53
+11_69,control_white_matter,-0.2352,Absinta2021,P53
+12_002,control_white_matter,0.3797,Absinta2021,P53
+12_078,MS_periplaque_white_matter,1.1225,Absinta2021,P53
+12_078,chronic_active_MS_lesion_edge,1.3974,Absinta2021,P53
+12_078,chronic_inactive_MS_lesion_edge,1.2474,Absinta2021,P53
+13_015,MS_periplaque_white_matter,0.5541,Absinta2021,P53
+13_015,chronic_inactive_MS_lesion_edge,0.5022,Absinta2021,P53
+13_047,chronic_active_MS_lesion_edge,0.5232,Absinta2021,P53
+13_047,chronic_inactive_MS_lesion_edge,0.3838,Absinta2021,P53
+14_043,control_white_matter,-0.1445,Absinta2021,P53
+09_034,MS_periplaque_white_matter,-0.3153,Absinta2021,DRIVERS_UP
+09_034,chronic_active_MS_lesion_edge,0.5852,Absinta2021,DRIVERS_UP
+09_034,chronic_inactive_MS_lesion_edge,0.5703,Absinta2021,DRIVERS_UP
+09_067,MS_periplaque_white_matter,-0.0712,Absinta2021,DRIVERS_UP
+09_067,chronic_active_MS_lesion_edge,0.4114,Absinta2021,DRIVERS_UP
+11_69,control_white_matter,-0.5015,Absinta2021,DRIVERS_UP
+12_002,control_white_matter,0.492,Absinta2021,DRIVERS_UP
+12_078,MS_periplaque_white_matter,0.9977,Absinta2021,DRIVERS_UP
+12_078,chronic_active_MS_lesion_edge,1.4194,Absinta2021,DRIVERS_UP
+12_078,chronic_inactive_MS_lesion_edge,0.9262,Absinta2021,DRIVERS_UP
+13_015,MS_periplaque_white_matter,0.5929,Absinta2021,DRIVERS_UP
+13_015,chronic_inactive_MS_lesion_edge,0.8425,Absinta2021,DRIVERS_UP
+13_047,chronic_active_MS_lesion_edge,0.5075,Absinta2021,DRIVERS_UP
+13_047,chronic_inactive_MS_lesion_edge,0.3597,Absinta2021,DRIVERS_UP
+14_043,control_white_matter,0.0095,Absinta2021,DRIVERS_UP
+09_034,MS_periplaque_white_matter,-0.6288,Absinta2021,DRIVERS_DOWN
+09_034,chronic_active_MS_lesion_edge,0.1148,Absinta2021,DRIVERS_DOWN
+09_034,chronic_inactive_MS_lesion_edge,0.5499,Absinta2021,DRIVERS_DOWN
+09_067,MS_periplaque_white_matter,-1.5121,Absinta2021,DRIVERS_DOWN
+09_067,chronic_active_MS_lesion_edge,-1.5159,Absinta2021,DRIVERS_DOWN
+11_69,control_white_matter,-0.6262,Absinta2021,DRIVERS_DOWN
+12_002,control_white_matter,0.6371,Absinta2021,DRIVERS_DOWN
+12_078,MS_periplaque_white_matter,0.0706,Absinta2021,DRIVERS_DOWN
+12_078,chronic_active_MS_lesion_edge,-0.383,Absinta2021,DRIVERS_DOWN
+12_078,chronic_inactive_MS_lesion_edge,-0.0214,Absinta2021,DRIVERS_DOWN
+13_015,MS_periplaque_white_matter,-0.3123,Absinta2021,DRIVERS_DOWN
+13_015,chronic_inactive_MS_lesion_edge,-0.2049,Absinta2021,DRIVERS_DOWN
+13_047,chronic_active_MS_lesion_edge,0.3473,Absinta2021,DRIVERS_DOWN
+13_047,chronic_inactive_MS_lesion_edge,0.6089,Absinta2021,DRIVERS_DOWN
+14_043,control_white_matter,-0.0109,Absinta2021,DRIVERS_DOWN
+09_034,MS_periplaque_white_matter,0.7459,Absinta2021,IFNG
+09_034,chronic_active_MS_lesion_edge,1.565,Absinta2021,IFNG
+09_034,chronic_inactive_MS_lesion_edge,0.3816,Absinta2021,IFNG
+09_067,MS_periplaque_white_matter,0.5818,Absinta2021,IFNG
+09_067,chronic_active_MS_lesion_edge,1.687,Absinta2021,IFNG
+11_69,control_white_matter,-0.0481,Absinta2021,IFNG
+12_002,control_white_matter,0.3213,Absinta2021,IFNG
+12_078,MS_periplaque_white_matter,2.4047,Absinta2021,IFNG
+12_078,chronic_active_MS_lesion_edge,2.934,Absinta2021,IFNG
+12_078,chronic_inactive_MS_lesion_edge,2.5783,Absinta2021,IFNG
+13_015,MS_periplaque_white_matter,0.1226,Absinta2021,IFNG
+13_015,chronic_inactive_MS_lesion_edge,0.7865,Absinta2021,IFNG
+13_047,chronic_active_MS_lesion_edge,1.441,Absinta2021,IFNG
+13_047,chronic_inactive_MS_lesion_edge,1.3331,Absinta2021,IFNG
+14_043,control_white_matter,-0.2731,Absinta2021,IFNG
+09_034,MS_periplaque_white_matter,0.357,Absinta2021,IMMUNE_OL
+09_034,chronic_active_MS_lesion_edge,2.2188,Absinta2021,IMMUNE_OL
+09_034,chronic_inactive_MS_lesion_edge,1.6662,Absinta2021,IMMUNE_OL
+09_067,MS_periplaque_white_matter,0.3475,Absinta2021,IMMUNE_OL
+09_067,chronic_active_MS_lesion_edge,1.3404,Absinta2021,IMMUNE_OL
+11_69,control_white_matter,-0.5631,Absinta2021,IMMUNE_OL
+12_002,control_white_matter,1.2073,Absinta2021,IMMUNE_OL
+12_078,MS_periplaque_white_matter,1.597,Absinta2021,IMMUNE_OL
+12_078,chronic_active_MS_lesion_edge,2.35,Absinta2021,IMMUNE_OL
+12_078,chronic_inactive_MS_lesion_edge,1.4467,Absinta2021,IMMUNE_OL
+13_015,MS_periplaque_white_matter,1.4417,Absinta2021,IMMUNE_OL
+13_015,chronic_inactive_MS_lesion_edge,2.4476,Absinta2021,IMMUNE_OL
+13_047,chronic_active_MS_lesion_edge,2.4225,Absinta2021,IMMUNE_OL
+13_047,chronic_inactive_MS_lesion_edge,2.1381,Absinta2021,IMMUNE_OL
+14_043,control_white_matter,-0.6442,Absinta2021,IMMUNE_OL
+09_034,MS_periplaque_white_matter,-0.3948,Absinta2021,MYELIN
+09_034,chronic_active_MS_lesion_edge,-0.0258,Absinta2021,MYELIN
+09_034,chronic_inactive_MS_lesion_edge,0.4262,Absinta2021,MYELIN
+09_067,MS_periplaque_white_matter,-1.1332,Absinta2021,MYELIN
+09_067,chronic_active_MS_lesion_edge,-1.3367,Absinta2021,MYELIN
+11_69,control_white_matter,-0.4039,Absinta2021,MYELIN
+12_002,control_white_matter,0.4096,Absinta2021,MYELIN
+12_078,MS_periplaque_white_matter,-0.7228,Absinta2021,MYELIN
+12_078,chronic_active_MS_lesion_edge,-1.2768,Absinta2021,MYELIN
+12_078,chronic_inactive_MS_lesion_edge,-1.0033,Absinta2021,MYELIN
+13_015,MS_periplaque_white_matter,-0.195,Absinta2021,MYELIN
+13_015,chronic_inactive_MS_lesion_edge,-0.1899,Absinta2021,MYELIN
+13_047,chronic_active_MS_lesion_edge,0.0585,Absinta2021,MYELIN
+13_047,chronic_inactive_MS_lesion_edge,0.1969,Absinta2021,MYELIN
+14_043,control_white_matter,-0.0057,Absinta2021,MYELIN
+CO37,Ctrl,0.5052,LermaMartin2024,MTDSB_CORE
+CO40,Ctrl,0.2464,LermaMartin2024,MTDSB_CORE
+CO41,Ctrl,0.1552,LermaMartin2024,MTDSB_CORE
+CO45,Ctrl,-0.5396,LermaMartin2024,MTDSB_CORE
+CO74,Ctrl,0.2924,LermaMartin2024,MTDSB_CORE
+CO85,Ctrl,-0.6596,LermaMartin2024,MTDSB_CORE
+MS197D,CA,1.9132,LermaMartin2024,MTDSB_CORE
+MS229,CA,2.0302,LermaMartin2024,MTDSB_CORE
+MS377I,CA,0.9532,LermaMartin2024,MTDSB_CORE
+MS377N,CA,0.4766,LermaMartin2024,MTDSB_CORE
+MS377T,CA,0.8015,LermaMartin2024,MTDSB_CORE
+MS411,CA,0.8087,LermaMartin2024,MTDSB_CORE
+MS497I,CI,0.8814,LermaMartin2024,MTDSB_CORE
+MS497T,CI,1.3243,LermaMartin2024,MTDSB_CORE
+MS549H,CI,0.3885,LermaMartin2024,MTDSB_CORE
+MS549T,CI,0.6955,LermaMartin2024,MTDSB_CORE
+CO37,Ctrl,0.4141,LermaMartin2024,ISR
+CO40,Ctrl,0.4645,LermaMartin2024,ISR
+CO41,Ctrl,0.086,LermaMartin2024,ISR
+CO45,Ctrl,-0.2478,LermaMartin2024,ISR
+CO74,Ctrl,0.0262,LermaMartin2024,ISR
+CO85,Ctrl,-0.7431,LermaMartin2024,ISR
+MS197D,CA,1.3851,LermaMartin2024,ISR
+MS229,CA,1.7469,LermaMartin2024,ISR
+MS377I,CA,0.9868,LermaMartin2024,ISR
+MS377N,CA,0.2705,LermaMartin2024,ISR
+MS377T,CA,0.8483,LermaMartin2024,ISR
+MS411,CA,0.7408,LermaMartin2024,ISR
+MS497I,CI,1.0178,LermaMartin2024,ISR
+MS497T,CI,1.0844,LermaMartin2024,ISR
+MS549H,CI,0.707,LermaMartin2024,ISR
+MS549T,CI,0.7276,LermaMartin2024,ISR
+CO37,Ctrl,0.2595,LermaMartin2024,P53
+CO40,Ctrl,-0.0792,LermaMartin2024,P53
+CO41,Ctrl,-0.4557,LermaMartin2024,P53
+CO45,Ctrl,-0.0661,LermaMartin2024,P53
+CO74,Ctrl,0.3144,LermaMartin2024,P53
+CO85,Ctrl,0.0271,LermaMartin2024,P53
+MS197D,CA,1.0944,LermaMartin2024,P53
+MS229,CA,0.9665,LermaMartin2024,P53
+MS377I,CA,0.2507,LermaMartin2024,P53
+MS377N,CA,0.2213,LermaMartin2024,P53
+MS377T,CA,0.1968,LermaMartin2024,P53
+MS411,CA,0.4471,LermaMartin2024,P53
+MS497I,CI,0.541,LermaMartin2024,P53
+MS497T,CI,1.0138,LermaMartin2024,P53
+MS549H,CI,0.2174,LermaMartin2024,P53
+MS549T,CI,0.4733,LermaMartin2024,P53
+CO37,Ctrl,0.1032,LermaMartin2024,DRIVERS_UP
+CO40,Ctrl,0.2541,LermaMartin2024,DRIVERS_UP
+CO41,Ctrl,-0.0866,LermaMartin2024,DRIVERS_UP
+CO45,Ctrl,0.1445,LermaMartin2024,DRIVERS_UP
+CO74,Ctrl,-0.0895,LermaMartin2024,DRIVERS_UP
+CO85,Ctrl,-0.3256,LermaMartin2024,DRIVERS_UP
+MS197D,CA,1.4641,LermaMartin2024,DRIVERS_UP
+MS229,CA,1.526,LermaMartin2024,DRIVERS_UP
+MS377I,CA,0.9842,LermaMartin2024,DRIVERS_UP
+MS377N,CA,0.2586,LermaMartin2024,DRIVERS_UP
+MS377T,CA,0.7903,LermaMartin2024,DRIVERS_UP
+MS411,CA,0.9624,LermaMartin2024,DRIVERS_UP
+MS497I,CI,1.0496,LermaMartin2024,DRIVERS_UP
+MS497T,CI,1.6086,LermaMartin2024,DRIVERS_UP
+MS549H,CI,0.3188,LermaMartin2024,DRIVERS_UP
+MS549T,CI,0.5829,LermaMartin2024,DRIVERS_UP
+CO37,Ctrl,-0.2192,LermaMartin2024,DRIVERS_DOWN
+CO40,Ctrl,0.5228,LermaMartin2024,DRIVERS_DOWN
+CO41,Ctrl,0.3514,LermaMartin2024,DRIVERS_DOWN
+CO45,Ctrl,-0.5457,LermaMartin2024,DRIVERS_DOWN
+CO74,Ctrl,-0.0553,LermaMartin2024,DRIVERS_DOWN
+CO85,Ctrl,-0.054,LermaMartin2024,DRIVERS_DOWN
+MS197D,CA,0.057,LermaMartin2024,DRIVERS_DOWN
+MS229,CA,0.3175,LermaMartin2024,DRIVERS_DOWN
+MS377I,CA,0.5594,LermaMartin2024,DRIVERS_DOWN
+MS377N,CA,0.0947,LermaMartin2024,DRIVERS_DOWN
+MS377T,CA,0.3921,LermaMartin2024,DRIVERS_DOWN
+MS411,CA,0.3632,LermaMartin2024,DRIVERS_DOWN
+MS497I,CI,0.5861,LermaMartin2024,DRIVERS_DOWN
+MS497T,CI,0.6793,LermaMartin2024,DRIVERS_DOWN
+MS549H,CI,-0.0385,LermaMartin2024,DRIVERS_DOWN
+MS549T,CI,0.2288,LermaMartin2024,DRIVERS_DOWN
+CO37,Ctrl,-0.0766,LermaMartin2024,IFNG
+CO40,Ctrl,-0.2335,LermaMartin2024,IFNG
+CO41,Ctrl,0.1734,LermaMartin2024,IFNG
+CO45,Ctrl,-0.0227,LermaMartin2024,IFNG
+CO74,Ctrl,-0.295,LermaMartin2024,IFNG
+CO85,Ctrl,0.4545,LermaMartin2024,IFNG
+MS197D,CA,1.7897,LermaMartin2024,IFNG
+MS229,CA,2.2329,LermaMartin2024,IFNG
+MS377I,CA,1.2257,LermaMartin2024,IFNG
+MS377N,CA,0.971,LermaMartin2024,IFNG
+MS377T,CA,1.461,LermaMartin2024,IFNG
+MS411,CA,2.8618,LermaMartin2024,IFNG
+MS497I,CI,2.4465,LermaMartin2024,IFNG
+MS497T,CI,2.8767,LermaMartin2024,IFNG
+MS549H,CI,0.8861,LermaMartin2024,IFNG
+MS549T,CI,1.2691,LermaMartin2024,IFNG
+CO37,Ctrl,0.3546,LermaMartin2024,IMMUNE_OL
+CO40,Ctrl,-0.395,LermaMartin2024,IMMUNE_OL
+CO41,Ctrl,0.2606,LermaMartin2024,IMMUNE_OL
+CO45,Ctrl,0.0521,LermaMartin2024,IMMUNE_OL
+CO74,Ctrl,-0.063,LermaMartin2024,IMMUNE_OL
+CO85,Ctrl,-0.2093,LermaMartin2024,IMMUNE_OL
+MS197D,CA,1.8372,LermaMartin2024,IMMUNE_OL
+MS229,CA,2.6184,LermaMartin2024,IMMUNE_OL
+MS377I,CA,2.1553,LermaMartin2024,IMMUNE_OL
+MS377N,CA,0.4789,LermaMartin2024,IMMUNE_OL
+MS377T,CA,0.9769,LermaMartin2024,IMMUNE_OL
+MS411,CA,2.8265,LermaMartin2024,IMMUNE_OL
+MS497I,CI,2.7592,LermaMartin2024,IMMUNE_OL
+MS497T,CI,3.8218,LermaMartin2024,IMMUNE_OL
+MS549H,CI,0.3904,LermaMartin2024,IMMUNE_OL
+MS549T,CI,1.7647,LermaMartin2024,IMMUNE_OL
+CO37,Ctrl,-0.0696,LermaMartin2024,MYELIN
+CO40,Ctrl,0.3139,LermaMartin2024,MYELIN
+CO41,Ctrl,0.3312,LermaMartin2024,MYELIN
+CO45,Ctrl,-0.5365,LermaMartin2024,MYELIN
+CO74,Ctrl,-0.1178,LermaMartin2024,MYELIN
+CO85,Ctrl,0.0787,LermaMartin2024,MYELIN
+MS197D,CA,-0.2367,LermaMartin2024,MYELIN
+MS229,CA,-0.5151,LermaMartin2024,MYELIN
+MS377I,CA,0.2497,LermaMartin2024,MYELIN
+MS377N,CA,-0.1973,LermaMartin2024,MYELIN
+MS377T,CA,0.096,LermaMartin2024,MYELIN
+MS411,CA,0.2874,LermaMartin2024,MYELIN
+MS497I,CI,-0.0425,LermaMartin2024,MYELIN
+MS497T,CI,-0.1803,LermaMartin2024,MYELIN
+MS549H,CI,-0.2885,LermaMartin2024,MYELIN
+MS549T,CI,0.0149,LermaMartin2024,MYELIN
