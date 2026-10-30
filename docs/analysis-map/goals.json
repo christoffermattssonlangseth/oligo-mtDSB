@@ -1,0 +1,64 @@
+[
+ {
+  "id": "g1",
+  "label": "Who: which mice respond?",
+  "question": "Does every mtDSB mouse respond, and how sure are we about each one?",
+  "answer": "Three of the six mtDSB mice respond (RB4405, RB4401, RB4627; P(responder) > 0.99 each) and three look like controls (RB4630 borderline, P = 0.17). An ISR gene set, a leave-one-mouse-out OL classifier and the DA-OL cluster share pick the same three mice; non-responders hide no responding OLs (>= 3% would have been detected), and the call survives circularity checks (a microglia signature never used for calling separates the same mice) and dropping any one responder. Group means do not differ, so the next cohort needs an induction check: then 5-6 mice per group give 0.8-0.9 power.",
+  "groups": [
+   "Calling responders",
+   "Robustness & design"
+  ]
+ },
+ {
+  "id": "g2",
+  "label": "What: inside the oligodendrocyte",
+  "question": "What do responding oligodendrocytes switch on and lose, and in what order?",
+  "answer": "Responding OLs switch on an ATF4 integrated stress response plus a p53 / p21 arm (34 genes up, e.g. Trib3, Atf5, Cdkn1a, Gdf15; ISR +1.9, p53 +1.0 log2) and become immune-visible (H2-D1, B2m, Cd40). There is no cGAS-STING / interferon, mitophagy or SASP signal, and OPCs are spared. Myelin transcripts fall 40-55% per OL (Mog, Opalin) while Sox10 and OL numbers hold, and stress precedes myelin loss: the share of stressed OLs that lost myelin rises 0.40 -> 0.73 -> 0.90 with severity.",
+  "groups": [
+   "OL stress programme",
+   "Myelin & staging"
+  ]
+ },
+ {
+  "id": "g3",
+  "label": "Where: regions and patterns",
+  "question": "Where in the brain is the response, and is it focal, border-driven or diffuse?",
+  "answer": "Brain-wide in every responder, strongest in the thalamus and white matter (31-55% of OLs stressed vs 7-14% elsewhere). The stress is diffuse: no rise towards ventricles or meninges, no focal patches, no repair response and no consistent neuronal injury at 42 days. The disease distorted the transcript-based region map (responder pallidum called fibre tracts); on a disease-free map the conclusions hold and pallidum joins the top regions. The response looks the same at P21 and P60; the earlier age difference was 1 vs 2 responders.",
+  "groups": [
+   "Region x age DE",
+   "Spatial pattern",
+   "Region map correction"
+  ]
+ },
+ {
+  "id": "g4",
+  "label": "Around: how the tissue reacts",
+  "question": "Which other cells respond to stressed oligodendrocytes, once neighbours' RNA is accounted for?",
+  "answer": "Microglia and astrocytes respond; blood-vessel cells barely do. Responder white matter holds 1.5-3x more microglia (thalamus 92-153 vs 60-82 /mm2), spread through the region rather than piled on stressed OLs, and a microglia's own expression predicts its distance to stressed OLs (Cd68, Cd83, Trem2). Once neighbours' RNA (spill-over) is modelled, most neuronal hits disappear, and the NSC 'proliferation' turns out to be section plane. T cells are rare (242 in 980k cells) and not more common in responders.",
+  "groups": [
+   "Microglia & astrocytes",
+   "Spill-over & other cell types",
+   "T cells"
+  ]
+ },
+ {
+  "id": "g5",
+  "label": "Specific? EAE and human MS",
+  "question": "Is the response specific to mitochondrial damage, and is it found in multiple sclerosis?",
+  "answer": "The ISR / p21 programme is specific to mitochondrial damage: EAE lesion OLs do not switch it on (+0.1 vs +1.8 log2), whereas the immune-visible microglial core is shared. In human MS snRNA atlases OLs lack the mtDSB-specific markers but share a CHOP / p21 stress arm; in situ on human Xenium 5k, OLs in demyelinated MS white matter carry TRIB3 / EIF4EBP1 with p21 / PUMA 3-10x more often than myelinated OLs away from the tissue border. Two donors and no pathology annotation: preliminary.",
+  "groups": [
+   "Specificity vs EAE",
+   "Human MS"
+  ]
+ },
+ {
+  "id": "g6",
+  "label": "Foundations and earlier work",
+  "question": "What were the data built on, and which earlier claims still hold?",
+  "answer": "Cell types (15 classes incl. the disease-associated DA-OL state) and read-based anatomical regions underpin all later work. Earlier group-level DE and Bayesian case-control models saw the right genes but with weak statistics; a claim-by-claim review found 10 claims confirmed (responder-only) and 11 explained by responder composition or section confounds (the 'P21 modest / P60 strong' response, glucocorticoid and circadian genes, NSC proliferation, cGAS-STING).",
+  "groups": [
+   "Cell typing & anatomy",
+   "Earlier group-level analyses"
+  ]
+ }
+]

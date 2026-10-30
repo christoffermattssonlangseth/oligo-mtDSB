@@ -60,3 +60,6 @@ results/region_map/anatomy_counts.npz.obs.csv.gz
 # Per-cell tables of the unpublished human CNS Xenium run (16 MB); recreate with scripts/export_human_xenium_cells.py (office Mac)
 results/human_xenium/cells.csv.gz
 results/human_xenium/zones.csv.gz
+
+# Analysis map build output (regenerate with the analysis-map skill)
+build/

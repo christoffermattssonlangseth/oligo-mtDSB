@@ -1,0 +1,15 @@
+{
+  "project": "oligo-mtDSB",
+  "question": "What happens to oligodendrocytes when their mitochondrial DNA breaks?",
+  "question_long": "What happens to oligodendrocytes, and to the tissue around them, when double-strand breaks are induced in their mitochondrial DNA, and does it resemble multiple sclerosis?",
+  "intro": "PlpTA:mtPst1 mice, 12 brain sections (control / mtDSB, induced at P21 or P60, 3 mice each) on Xenium 5k, ~980k cells, all 42 days after induction. The mouse is the replicate: models never see the mouse they score, and responders are compared with controls by exact permutation.",
+  "centre_label": "mtDSB",
+  "repo_root": "../..",
+  "catalogue": "docs/run-catalogue.md",
+  "catalogue_stop_heading": "\n## Summary",
+  "notebooks_glob": "docs/analysis-map/no-notebooks/*.ipynb",
+  "figure_dirs": [],
+  "data_dir": "docs/analysis-map",
+  "build_dir": "build/analysis_map",
+  "statuses": null
+}
